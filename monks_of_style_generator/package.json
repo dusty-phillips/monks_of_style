@@ -1,0 +1,16 @@
+{
+  "name": "monks_of_style_generator",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "css-tree": "^3.1.0",
+    "csstree": "^0.0.3"
+  }
+}
