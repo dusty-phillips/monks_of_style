@@ -1,0 +1,50 @@
+
+
+pub type MsFlexPreferredSize{
+  Content
+  Auto
+  MinContent
+  MaxContent
+  FitContent
+  Stretch
+  Intrinsic
+  MinIntrinsic
+  WebkitFillAvailable
+  WebkitFitContent
+  WebkitMinContent
+  WebkitMaxContent
+  MozAvailable
+  MozFitContent
+  MozMinContent
+  MozMaxContent
+
+}
+
+pub fn enum(value: MsFlexPreferredSize) -> #(String, String) {
+  #("-ms-flex-preferred-size", case value {
+    Content -> "content"
+    Auto -> "auto"
+    MinContent -> "min-content"
+    MaxContent -> "max-content"
+    FitContent -> "fit-content"
+    Stretch -> "stretch"
+    Intrinsic -> "intrinsic"
+    MinIntrinsic -> "min-intrinsic"
+    WebkitFillAvailable -> "-webkit-fill-available"
+    WebkitFitContent -> "-webkit-fit-content"
+    WebkitMinContent -> "-webkit-min-content"
+    WebkitMaxContent -> "-webkit-max-content"
+    MozAvailable -> "-moz-available"
+    MozFitContent -> "-moz-fit-content"
+    MozMinContent -> "-moz-min-content"
+    MozMaxContent -> "-moz-max-content"
+  })
+}
+
+pub fn raw(value: String) -> #(String, String) {
+  #("ms_flex_preferred_size", value)
+}
+
+pub fn var(variable: String) -> #(String, String) {
+  #("ms_flex_preferred_size", "var(--" <> variable <> ")")
+}

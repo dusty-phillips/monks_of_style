@@ -43,9 +43,7 @@ fn build_keyword_function(property: String) -> String {
   case keywords |> list.is_empty {
     True -> ""
     False ->
-      "\n\npub fn "
-      <> justin.snake_case(property)
-      <> "(value: "
+      "\n\npub fn enum(value: "
       <> justin.pascal_case(property)
       <> ") -> #(String, String) {\n"
       <> "  #("
