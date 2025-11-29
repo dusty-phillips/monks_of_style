@@ -1,22 +1,23 @@
 
 
-pub type TransformBox{
-  ContentBox
-  BorderBox
-  FillBox
-  StrokeBox
-  ViewBox
-
+pub fn content_box() -> #(String, String) {
+  #("transform-box", "content-box")
 }
 
-pub fn enum(value: TransformBox) -> #(String, String) {
-  #("transform-box", case value {
-    ContentBox -> "content-box"
-    BorderBox -> "border-box"
-    FillBox -> "fill-box"
-    StrokeBox -> "stroke-box"
-    ViewBox -> "view-box"
-  })
+pub fn border_box() -> #(String, String) {
+  #("transform-box", "border-box")
+}
+
+pub fn fill_box() -> #(String, String) {
+  #("transform-box", "fill-box")
+}
+
+pub fn stroke_box() -> #(String, String) {
+  #("transform-box", "stroke-box")
+}
+
+pub fn view_box() -> #(String, String) {
+  #("transform-box", "view-box")
 }
 
 pub fn raw(value: String) -> #(String, String) {

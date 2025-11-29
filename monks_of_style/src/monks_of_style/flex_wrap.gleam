@@ -1,18 +1,15 @@
 
 
-pub type FlexWrap{
-  Nowrap
-  Wrap
-  WrapReverse
-
+pub fn nowrap() -> #(String, String) {
+  #("flex-wrap", "nowrap")
 }
 
-pub fn enum(value: FlexWrap) -> #(String, String) {
-  #("flex-wrap", case value {
-    Nowrap -> "nowrap"
-    Wrap -> "wrap"
-    WrapReverse -> "wrap-reverse"
-  })
+pub fn wrap() -> #(String, String) {
+  #("flex-wrap", "wrap")
+}
+
+pub fn wrap_reverse() -> #(String, String) {
+  #("flex-wrap", "wrap-reverse")
 }
 
 pub fn raw(value: String) -> #(String, String) {

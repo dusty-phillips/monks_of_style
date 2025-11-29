@@ -1,16 +1,11 @@
 
 
-pub type PrintColorAdjust{
-  Economy
-  Exact
-
+pub fn economy() -> #(String, String) {
+  #("print-color-adjust", "economy")
 }
 
-pub fn enum(value: PrintColorAdjust) -> #(String, String) {
-  #("print-color-adjust", case value {
-    Economy -> "economy"
-    Exact -> "exact"
-  })
+pub fn exact() -> #(String, String) {
+  #("print-color-adjust", "exact")
 }
 
 pub fn raw(value: String) -> #(String, String) {

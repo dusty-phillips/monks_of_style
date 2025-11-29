@@ -1,18 +1,15 @@
 
 
-pub type WebkitUserModify{
-  ReadOnly
-  ReadWrite
-  ReadWritePlaintextOnly
-
+pub fn read_only() -> #(String, String) {
+  #("-webkit-user-modify", "read-only")
 }
 
-pub fn enum(value: WebkitUserModify) -> #(String, String) {
-  #("-webkit-user-modify", case value {
-    ReadOnly -> "read-only"
-    ReadWrite -> "read-write"
-    ReadWritePlaintextOnly -> "read-write-plaintext-only"
-  })
+pub fn read_write() -> #(String, String) {
+  #("-webkit-user-modify", "read-write")
+}
+
+pub fn read_write_plaintext_only() -> #(String, String) {
+  #("-webkit-user-modify", "read-write-plaintext-only")
 }
 
 pub fn raw(value: String) -> #(String, String) {

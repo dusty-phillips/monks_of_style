@@ -1,16 +1,11 @@
 
 
-pub type MsImeAlign{
-  Auto
-  After
-
+pub fn auto_() -> #(String, String) {
+  #("-ms-ime-align", "auto")
 }
 
-pub fn enum(value: MsImeAlign) -> #(String, String) {
-  #("-ms-ime-align", case value {
-    Auto -> "auto"
-    After -> "after"
-  })
+pub fn after() -> #(String, String) {
+  #("-ms-ime-align", "after")
 }
 
 pub fn raw(value: String) -> #(String, String) {

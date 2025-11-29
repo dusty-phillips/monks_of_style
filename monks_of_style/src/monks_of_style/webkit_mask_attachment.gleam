@@ -1,18 +1,15 @@
 
 
-pub type WebkitMaskAttachment{
-  Scroll
-  Fixed
-  Local
-
+pub fn scroll() -> #(String, String) {
+  #("-webkit-mask-attachment", "scroll")
 }
 
-pub fn enum(value: WebkitMaskAttachment) -> #(String, String) {
-  #("-webkit-mask-attachment", case value {
-    Scroll -> "scroll"
-    Fixed -> "fixed"
-    Local -> "local"
-  })
+pub fn fixed() -> #(String, String) {
+  #("-webkit-mask-attachment", "fixed")
+}
+
+pub fn local() -> #(String, String) {
+  #("-webkit-mask-attachment", "local")
 }
 
 pub fn raw(value: String) -> #(String, String) {

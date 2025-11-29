@@ -1,20 +1,19 @@
 
 
-pub type TextRendering{
-  Auto
-  OptimizeSpeed
-  OptimizeLegibility
-  GeometricPrecision
-
+pub fn auto_() -> #(String, String) {
+  #("text-rendering", "auto")
 }
 
-pub fn enum(value: TextRendering) -> #(String, String) {
-  #("text-rendering", case value {
-    Auto -> "auto"
-    OptimizeSpeed -> "optimizeSpeed"
-    OptimizeLegibility -> "optimizeLegibility"
-    GeometricPrecision -> "geometricPrecision"
-  })
+pub fn optimize_speed() -> #(String, String) {
+  #("text-rendering", "optimizeSpeed")
+}
+
+pub fn optimize_legibility() -> #(String, String) {
+  #("text-rendering", "optimizeLegibility")
+}
+
+pub fn geometric_precision() -> #(String, String) {
+  #("text-rendering", "geometricPrecision")
 }
 
 pub fn raw(value: String) -> #(String, String) {

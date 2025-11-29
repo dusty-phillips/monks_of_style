@@ -1,22 +1,23 @@
 
 
-pub type VoiceBalance{
-  Left
-  Center
-  Right
-  Leftwards
-  Rightwards
-
+pub fn left() -> #(String, String) {
+  #("voice-balance", "left")
 }
 
-pub fn enum(value: VoiceBalance) -> #(String, String) {
-  #("voice-balance", case value {
-    Left -> "left"
-    Center -> "center"
-    Right -> "right"
-    Leftwards -> "leftwards"
-    Rightwards -> "rightwards"
-  })
+pub fn center() -> #(String, String) {
+  #("voice-balance", "center")
+}
+
+pub fn right() -> #(String, String) {
+  #("voice-balance", "right")
+}
+
+pub fn leftwards() -> #(String, String) {
+  #("voice-balance", "leftwards")
+}
+
+pub fn rightwards() -> #(String, String) {
+  #("voice-balance", "rightwards")
 }
 
 pub fn raw(value: String) -> #(String, String) {

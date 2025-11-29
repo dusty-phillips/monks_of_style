@@ -1,18 +1,15 @@
 
 
-pub type TextOrientation{
-  Mixed
-  Upright
-  Sideways
-
+pub fn mixed() -> #(String, String) {
+  #("text-orientation", "mixed")
 }
 
-pub fn enum(value: TextOrientation) -> #(String, String) {
-  #("text-orientation", case value {
-    Mixed -> "mixed"
-    Upright -> "upright"
-    Sideways -> "sideways"
-  })
+pub fn upright() -> #(String, String) {
+  #("text-orientation", "upright")
+}
+
+pub fn sideways() -> #(String, String) {
+  #("text-orientation", "sideways")
 }
 
 pub fn raw(value: String) -> #(String, String) {

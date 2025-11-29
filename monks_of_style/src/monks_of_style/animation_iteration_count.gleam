@@ -1,14 +1,7 @@
 
 
-pub type AnimationIterationCount{
-  Infinite
-
-}
-
-pub fn enum(value: AnimationIterationCount) -> #(String, String) {
-  #("animation-iteration-count", case value {
-    Infinite -> "infinite"
-  })
+pub fn infinite() -> #(String, String) {
+  #("animation-iteration-count", "infinite")
 }
 
 pub fn raw(value: String) -> #(String, String) {

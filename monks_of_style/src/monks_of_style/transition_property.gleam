@@ -1,16 +1,11 @@
 
 
-pub type TransitionProperty{
-  None
-  All
-
+pub fn none() -> #(String, String) {
+  #("transition-property", "none")
 }
 
-pub fn enum(value: TransitionProperty) -> #(String, String) {
-  #("transition-property", case value {
-    None -> "none"
-    All -> "all"
-  })
+pub fn all() -> #(String, String) {
+  #("transition-property", "all")
 }
 
 pub fn raw(value: String) -> #(String, String) {

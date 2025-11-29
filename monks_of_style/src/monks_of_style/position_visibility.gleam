@@ -1,20 +1,19 @@
 
 
-pub type PositionVisibility{
-  Always
-  AnchorsValid
-  AnchorsVisible
-  NoOverflow
-
+pub fn always() -> #(String, String) {
+  #("position-visibility", "always")
 }
 
-pub fn enum(value: PositionVisibility) -> #(String, String) {
-  #("position-visibility", case value {
-    Always -> "always"
-    AnchorsValid -> "anchors-valid"
-    AnchorsVisible -> "anchors-visible"
-    NoOverflow -> "no-overflow"
-  })
+pub fn anchors_valid() -> #(String, String) {
+  #("position-visibility", "anchors-valid")
+}
+
+pub fn anchors_visible() -> #(String, String) {
+  #("position-visibility", "anchors-visible")
+}
+
+pub fn no_overflow() -> #(String, String) {
+  #("position-visibility", "no-overflow")
 }
 
 pub fn raw(value: String) -> #(String, String) {

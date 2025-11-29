@@ -1,58 +1,95 @@
 
 
-pub type OffsetPath{
-  None
-  ClosestSide
-  ClosestCorner
-  FarthestSide
-  FarthestCorner
-  Sides
-  Contain
-  At
-  Left
-  Center
-  Right
-  Top
-  Bottom
-  Round
-  Auto
-  Nonzero
-  Evenodd
-  ContentBox
-  PaddingBox
-  BorderBox
-  FillBox
-  StrokeBox
-  ViewBox
-
+pub fn none() -> #(String, String) {
+  #("offset-path", "none")
 }
 
-pub fn enum(value: OffsetPath) -> #(String, String) {
-  #("offset-path", case value {
-    None -> "none"
-    ClosestSide -> "closest-side"
-    ClosestCorner -> "closest-corner"
-    FarthestSide -> "farthest-side"
-    FarthestCorner -> "farthest-corner"
-    Sides -> "sides"
-    Contain -> "contain"
-    At -> "at"
-    Left -> "left"
-    Center -> "center"
-    Right -> "right"
-    Top -> "top"
-    Bottom -> "bottom"
-    Round -> "round"
-    Auto -> "auto"
-    Nonzero -> "nonzero"
-    Evenodd -> "evenodd"
-    ContentBox -> "content-box"
-    PaddingBox -> "padding-box"
-    BorderBox -> "border-box"
-    FillBox -> "fill-box"
-    StrokeBox -> "stroke-box"
-    ViewBox -> "view-box"
-  })
+pub fn closest_side() -> #(String, String) {
+  #("offset-path", "closest-side")
+}
+
+pub fn closest_corner() -> #(String, String) {
+  #("offset-path", "closest-corner")
+}
+
+pub fn farthest_side() -> #(String, String) {
+  #("offset-path", "farthest-side")
+}
+
+pub fn farthest_corner() -> #(String, String) {
+  #("offset-path", "farthest-corner")
+}
+
+pub fn sides() -> #(String, String) {
+  #("offset-path", "sides")
+}
+
+pub fn contain() -> #(String, String) {
+  #("offset-path", "contain")
+}
+
+pub fn at() -> #(String, String) {
+  #("offset-path", "at")
+}
+
+pub fn left() -> #(String, String) {
+  #("offset-path", "left")
+}
+
+pub fn center() -> #(String, String) {
+  #("offset-path", "center")
+}
+
+pub fn right() -> #(String, String) {
+  #("offset-path", "right")
+}
+
+pub fn top() -> #(String, String) {
+  #("offset-path", "top")
+}
+
+pub fn bottom() -> #(String, String) {
+  #("offset-path", "bottom")
+}
+
+pub fn round() -> #(String, String) {
+  #("offset-path", "round")
+}
+
+pub fn auto_() -> #(String, String) {
+  #("offset-path", "auto")
+}
+
+pub fn nonzero() -> #(String, String) {
+  #("offset-path", "nonzero")
+}
+
+pub fn evenodd() -> #(String, String) {
+  #("offset-path", "evenodd")
+}
+
+pub fn content_box() -> #(String, String) {
+  #("offset-path", "content-box")
+}
+
+pub fn padding_box() -> #(String, String) {
+  #("offset-path", "padding-box")
+}
+
+pub fn border_box() -> #(String, String) {
+  #("offset-path", "border-box")
+}
+
+pub fn fill_box() -> #(String, String) {
+  #("offset-path", "fill-box")
+}
+
+pub fn stroke_box() -> #(String, String) {
+  #("offset-path", "stroke-box")
+}
+
+pub fn view_box() -> #(String, String) {
+  #("offset-path", "view-box")
 }
 
 pub fn raw(value: String) -> #(String, String) {

@@ -1,16 +1,11 @@
 
 
-pub type InterpolateSize{
-  NumericOnly
-  AllowKeywords
-
+pub fn numeric_only() -> #(String, String) {
+  #("interpolate-size", "numeric-only")
 }
 
-pub fn enum(value: InterpolateSize) -> #(String, String) {
-  #("interpolate-size", case value {
-    NumericOnly -> "numeric-only"
-    AllowKeywords -> "allow-keywords"
-  })
+pub fn allow_keywords() -> #(String, String) {
+  #("interpolate-size", "allow-keywords")
 }
 
 pub fn raw(value: String) -> #(String, String) {

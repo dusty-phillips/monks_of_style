@@ -1,42 +1,63 @@
 
 
-pub type AlignSelf{
-  Auto
-  Normal
-  Stretch
-  First
-  Last
-  Baseline
-  Unsafe
-  Safe
-  Center
-  Start
-  End
-  SelfStart
-  SelfEnd
-  FlexStart
-  FlexEnd
-
+pub fn auto_() -> #(String, String) {
+  #("align-self", "auto")
 }
 
-pub fn enum(value: AlignSelf) -> #(String, String) {
-  #("align-self", case value {
-    Auto -> "auto"
-    Normal -> "normal"
-    Stretch -> "stretch"
-    First -> "first"
-    Last -> "last"
-    Baseline -> "baseline"
-    Unsafe -> "unsafe"
-    Safe -> "safe"
-    Center -> "center"
-    Start -> "start"
-    End -> "end"
-    SelfStart -> "self-start"
-    SelfEnd -> "self-end"
-    FlexStart -> "flex-start"
-    FlexEnd -> "flex-end"
-  })
+pub fn normal() -> #(String, String) {
+  #("align-self", "normal")
+}
+
+pub fn stretch() -> #(String, String) {
+  #("align-self", "stretch")
+}
+
+pub fn first() -> #(String, String) {
+  #("align-self", "first")
+}
+
+pub fn last() -> #(String, String) {
+  #("align-self", "last")
+}
+
+pub fn baseline() -> #(String, String) {
+  #("align-self", "baseline")
+}
+
+pub fn unsafe() -> #(String, String) {
+  #("align-self", "unsafe")
+}
+
+pub fn safe() -> #(String, String) {
+  #("align-self", "safe")
+}
+
+pub fn center() -> #(String, String) {
+  #("align-self", "center")
+}
+
+pub fn start() -> #(String, String) {
+  #("align-self", "start")
+}
+
+pub fn end() -> #(String, String) {
+  #("align-self", "end")
+}
+
+pub fn self_start() -> #(String, String) {
+  #("align-self", "self-start")
+}
+
+pub fn self_end() -> #(String, String) {
+  #("align-self", "self-end")
+}
+
+pub fn flex_start() -> #(String, String) {
+  #("align-self", "flex-start")
+}
+
+pub fn flex_end() -> #(String, String) {
+  #("align-self", "flex-end")
 }
 
 pub fn raw(value: String) -> #(String, String) {

@@ -1,26 +1,31 @@
 
 
-pub type OffsetPosition{
-  Normal
-  Auto
-  Left
-  Center
-  Right
-  Top
-  Bottom
-
+pub fn normal() -> #(String, String) {
+  #("offset-position", "normal")
 }
 
-pub fn enum(value: OffsetPosition) -> #(String, String) {
-  #("offset-position", case value {
-    Normal -> "normal"
-    Auto -> "auto"
-    Left -> "left"
-    Center -> "center"
-    Right -> "right"
-    Top -> "top"
-    Bottom -> "bottom"
-  })
+pub fn auto_() -> #(String, String) {
+  #("offset-position", "auto")
+}
+
+pub fn left() -> #(String, String) {
+  #("offset-position", "left")
+}
+
+pub fn center() -> #(String, String) {
+  #("offset-position", "center")
+}
+
+pub fn right() -> #(String, String) {
+  #("offset-position", "right")
+}
+
+pub fn top() -> #(String, String) {
+  #("offset-position", "top")
+}
+
+pub fn bottom() -> #(String, String) {
+  #("offset-position", "bottom")
 }
 
 pub fn raw(value: String) -> #(String, String) {

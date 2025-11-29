@@ -1,22 +1,23 @@
 
 
-pub type VoiceStress{
-  Normal
-  Strong
-  Moderate
-  None
-  Reduced
-
+pub fn normal() -> #(String, String) {
+  #("voice-stress", "normal")
 }
 
-pub fn enum(value: VoiceStress) -> #(String, String) {
-  #("voice-stress", case value {
-    Normal -> "normal"
-    Strong -> "strong"
-    Moderate -> "moderate"
-    None -> "none"
-    Reduced -> "reduced"
-  })
+pub fn strong() -> #(String, String) {
+  #("voice-stress", "strong")
+}
+
+pub fn moderate() -> #(String, String) {
+  #("voice-stress", "moderate")
+}
+
+pub fn none() -> #(String, String) {
+  #("voice-stress", "none")
+}
+
+pub fn reduced() -> #(String, String) {
+  #("voice-stress", "reduced")
 }
 
 pub fn raw(value: String) -> #(String, String) {

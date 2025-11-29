@@ -1,18 +1,15 @@
 
 
-pub type BoxDirection{
-  Normal
-  Reverse
-  Inherit
-
+pub fn normal() -> #(String, String) {
+  #("box-direction", "normal")
 }
 
-pub fn enum(value: BoxDirection) -> #(String, String) {
-  #("box-direction", case value {
-    Normal -> "normal"
-    Reverse -> "reverse"
-    Inherit -> "inherit"
-  })
+pub fn reverse() -> #(String, String) {
+  #("box-direction", "reverse")
+}
+
+pub fn inherit() -> #(String, String) {
+  #("box-direction", "inherit")
 }
 
 pub fn raw(value: String) -> #(String, String) {

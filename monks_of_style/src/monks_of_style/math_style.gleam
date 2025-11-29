@@ -1,16 +1,11 @@
 
 
-pub type MathStyle{
-  Normal
-  Compact
-
+pub fn normal() -> #(String, String) {
+  #("math-style", "normal")
 }
 
-pub fn enum(value: MathStyle) -> #(String, String) {
-  #("math-style", case value {
-    Normal -> "normal"
-    Compact -> "compact"
-  })
+pub fn compact() -> #(String, String) {
+  #("math-style", "compact")
 }
 
 pub fn raw(value: String) -> #(String, String) {

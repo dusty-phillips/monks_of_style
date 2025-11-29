@@ -1,16 +1,11 @@
 
 
-pub type OverflowAnchor{
-  Auto
-  None
-
+pub fn auto_() -> #(String, String) {
+  #("overflow-anchor", "auto")
 }
 
-pub fn enum(value: OverflowAnchor) -> #(String, String) {
-  #("overflow-anchor", case value {
-    Auto -> "auto"
-    None -> "none"
-  })
+pub fn none() -> #(String, String) {
+  #("overflow-anchor", "none")
 }
 
 pub fn raw(value: String) -> #(String, String) {

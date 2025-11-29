@@ -1,16 +1,11 @@
 
 
-pub type PageBreakInside{
-  Auto
-  Avoid
-
+pub fn auto_() -> #(String, String) {
+  #("page-break-inside", "auto")
 }
 
-pub fn enum(value: PageBreakInside) -> #(String, String) {
-  #("page-break-inside", case value {
-    Auto -> "auto"
-    Avoid -> "avoid"
-  })
+pub fn avoid() -> #(String, String) {
+  #("page-break-inside", "avoid")
 }
 
 pub fn raw(value: String) -> #(String, String) {

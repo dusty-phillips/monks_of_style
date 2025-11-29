@@ -1,22 +1,23 @@
 
 
-pub type MsTextAutospace{
-  None
-  IdeographAlpha
-  IdeographNumeric
-  IdeographParenthesis
-  IdeographSpace
-
+pub fn none() -> #(String, String) {
+  #("-ms-text-autospace", "none")
 }
 
-pub fn enum(value: MsTextAutospace) -> #(String, String) {
-  #("-ms-text-autospace", case value {
-    None -> "none"
-    IdeographAlpha -> "ideograph-alpha"
-    IdeographNumeric -> "ideograph-numeric"
-    IdeographParenthesis -> "ideograph-parenthesis"
-    IdeographSpace -> "ideograph-space"
-  })
+pub fn ideograph_alpha() -> #(String, String) {
+  #("-ms-text-autospace", "ideograph-alpha")
+}
+
+pub fn ideograph_numeric() -> #(String, String) {
+  #("-ms-text-autospace", "ideograph-numeric")
+}
+
+pub fn ideograph_parenthesis() -> #(String, String) {
+  #("-ms-text-autospace", "ideograph-parenthesis")
+}
+
+pub fn ideograph_space() -> #(String, String) {
+  #("-ms-text-autospace", "ideograph-space")
 }
 
 pub fn raw(value: String) -> #(String, String) {

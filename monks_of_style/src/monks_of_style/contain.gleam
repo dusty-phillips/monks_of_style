@@ -1,28 +1,35 @@
 
 
-pub type Contain{
-  None
-  Strict
-  Content
-  Size
-  InlineSize
-  Layout
-  Style
-  Paint
-
+pub fn none() -> #(String, String) {
+  #("contain", "none")
 }
 
-pub fn enum(value: Contain) -> #(String, String) {
-  #("contain", case value {
-    None -> "none"
-    Strict -> "strict"
-    Content -> "content"
-    Size -> "size"
-    InlineSize -> "inline-size"
-    Layout -> "layout"
-    Style -> "style"
-    Paint -> "paint"
-  })
+pub fn strict() -> #(String, String) {
+  #("contain", "strict")
+}
+
+pub fn content() -> #(String, String) {
+  #("contain", "content")
+}
+
+pub fn size() -> #(String, String) {
+  #("contain", "size")
+}
+
+pub fn inline_size() -> #(String, String) {
+  #("contain", "inline-size")
+}
+
+pub fn layout() -> #(String, String) {
+  #("contain", "layout")
+}
+
+pub fn style() -> #(String, String) {
+  #("contain", "style")
+}
+
+pub fn paint() -> #(String, String) {
+  #("contain", "paint")
 }
 
 pub fn raw(value: String) -> #(String, String) {

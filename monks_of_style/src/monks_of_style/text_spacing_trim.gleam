@@ -1,26 +1,31 @@
 
 
-pub type TextSpacingTrim{
-  SpaceAll
-  Normal
-  SpaceFirst
-  TrimStart
-  TrimBoth
-  TrimAll
-  Auto
-
+pub fn space_all() -> #(String, String) {
+  #("text-spacing-trim", "space-all")
 }
 
-pub fn enum(value: TextSpacingTrim) -> #(String, String) {
-  #("text-spacing-trim", case value {
-    SpaceAll -> "space-all"
-    Normal -> "normal"
-    SpaceFirst -> "space-first"
-    TrimStart -> "trim-start"
-    TrimBoth -> "trim-both"
-    TrimAll -> "trim-all"
-    Auto -> "auto"
-  })
+pub fn normal() -> #(String, String) {
+  #("text-spacing-trim", "normal")
+}
+
+pub fn space_first() -> #(String, String) {
+  #("text-spacing-trim", "space-first")
+}
+
+pub fn trim_start() -> #(String, String) {
+  #("text-spacing-trim", "trim-start")
+}
+
+pub fn trim_both() -> #(String, String) {
+  #("text-spacing-trim", "trim-both")
+}
+
+pub fn trim_all() -> #(String, String) {
+  #("text-spacing-trim", "trim-all")
+}
+
+pub fn auto_() -> #(String, String) {
+  #("text-spacing-trim", "auto")
 }
 
 pub fn raw(value: String) -> #(String, String) {

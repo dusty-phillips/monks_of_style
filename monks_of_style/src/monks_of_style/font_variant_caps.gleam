@@ -1,26 +1,31 @@
 
 
-pub type FontVariantCaps{
-  Normal
-  SmallCaps
-  AllSmallCaps
-  PetiteCaps
-  AllPetiteCaps
-  Unicase
-  TitlingCaps
-
+pub fn normal() -> #(String, String) {
+  #("font-variant-caps", "normal")
 }
 
-pub fn enum(value: FontVariantCaps) -> #(String, String) {
-  #("font-variant-caps", case value {
-    Normal -> "normal"
-    SmallCaps -> "small-caps"
-    AllSmallCaps -> "all-small-caps"
-    PetiteCaps -> "petite-caps"
-    AllPetiteCaps -> "all-petite-caps"
-    Unicase -> "unicase"
-    TitlingCaps -> "titling-caps"
-  })
+pub fn small_caps() -> #(String, String) {
+  #("font-variant-caps", "small-caps")
+}
+
+pub fn all_small_caps() -> #(String, String) {
+  #("font-variant-caps", "all-small-caps")
+}
+
+pub fn petite_caps() -> #(String, String) {
+  #("font-variant-caps", "petite-caps")
+}
+
+pub fn all_petite_caps() -> #(String, String) {
+  #("font-variant-caps", "all-petite-caps")
+}
+
+pub fn unicase() -> #(String, String) {
+  #("font-variant-caps", "unicase")
+}
+
+pub fn titling_caps() -> #(String, String) {
+  #("font-variant-caps", "titling-caps")
 }
 
 pub fn raw(value: String) -> #(String, String) {

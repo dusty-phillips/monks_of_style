@@ -1,22 +1,23 @@
 
 
-pub type FontSynthesis{
-  None
-  Weight
-  Style
-  SmallCaps
-  Position
-
+pub fn none() -> #(String, String) {
+  #("font-synthesis", "none")
 }
 
-pub fn enum(value: FontSynthesis) -> #(String, String) {
-  #("font-synthesis", case value {
-    None -> "none"
-    Weight -> "weight"
-    Style -> "style"
-    SmallCaps -> "small-caps"
-    Position -> "position"
-  })
+pub fn weight() -> #(String, String) {
+  #("font-synthesis", "weight")
+}
+
+pub fn style() -> #(String, String) {
+  #("font-synthesis", "style")
+}
+
+pub fn small_caps() -> #(String, String) {
+  #("font-synthesis", "small-caps")
+}
+
+pub fn position() -> #(String, String) {
+  #("font-synthesis", "position")
 }
 
 pub fn raw(value: String) -> #(String, String) {

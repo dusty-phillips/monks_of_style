@@ -1,14 +1,7 @@
 
 
-pub type D{
-  None
-
-}
-
-pub fn enum(value: D) -> #(String, String) {
-  #("d", case value {
-    None -> "none"
-  })
+pub fn none() -> #(String, String) {
+  #("d", "none")
 }
 
 pub fn raw(value: String) -> #(String, String) {

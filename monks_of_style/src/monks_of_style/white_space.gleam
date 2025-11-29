@@ -1,52 +1,83 @@
 
 
-pub type WhiteSpace{
-  Normal
-  Pre
-  Nowrap
-  PreWrap
-  PreLine
-  BreakSpaces
-  Collapse
-  Discard
-  Preserve
-  PreserveBreaks
-  PreserveSpaces
-  Auto
-  Wrap
-  Balance
-  Stable
-  Pretty
-  None
-  DiscardBefore
-  DiscardAfter
-  DiscardInner
-
+pub fn normal() -> #(String, String) {
+  #("white-space", "normal")
 }
 
-pub fn enum(value: WhiteSpace) -> #(String, String) {
-  #("white-space", case value {
-    Normal -> "normal"
-    Pre -> "pre"
-    Nowrap -> "nowrap"
-    PreWrap -> "pre-wrap"
-    PreLine -> "pre-line"
-    BreakSpaces -> "break-spaces"
-    Collapse -> "collapse"
-    Discard -> "discard"
-    Preserve -> "preserve"
-    PreserveBreaks -> "preserve-breaks"
-    PreserveSpaces -> "preserve-spaces"
-    Auto -> "auto"
-    Wrap -> "wrap"
-    Balance -> "balance"
-    Stable -> "stable"
-    Pretty -> "pretty"
-    None -> "none"
-    DiscardBefore -> "discard-before"
-    DiscardAfter -> "discard-after"
-    DiscardInner -> "discard-inner"
-  })
+pub fn pre() -> #(String, String) {
+  #("white-space", "pre")
+}
+
+pub fn nowrap() -> #(String, String) {
+  #("white-space", "nowrap")
+}
+
+pub fn pre_wrap() -> #(String, String) {
+  #("white-space", "pre-wrap")
+}
+
+pub fn pre_line() -> #(String, String) {
+  #("white-space", "pre-line")
+}
+
+pub fn break_spaces() -> #(String, String) {
+  #("white-space", "break-spaces")
+}
+
+pub fn collapse() -> #(String, String) {
+  #("white-space", "collapse")
+}
+
+pub fn discard() -> #(String, String) {
+  #("white-space", "discard")
+}
+
+pub fn preserve() -> #(String, String) {
+  #("white-space", "preserve")
+}
+
+pub fn preserve_breaks() -> #(String, String) {
+  #("white-space", "preserve-breaks")
+}
+
+pub fn preserve_spaces() -> #(String, String) {
+  #("white-space", "preserve-spaces")
+}
+
+pub fn auto_() -> #(String, String) {
+  #("white-space", "auto")
+}
+
+pub fn wrap() -> #(String, String) {
+  #("white-space", "wrap")
+}
+
+pub fn balance() -> #(String, String) {
+  #("white-space", "balance")
+}
+
+pub fn stable() -> #(String, String) {
+  #("white-space", "stable")
+}
+
+pub fn pretty() -> #(String, String) {
+  #("white-space", "pretty")
+}
+
+pub fn none() -> #(String, String) {
+  #("white-space", "none")
+}
+
+pub fn discard_before() -> #(String, String) {
+  #("white-space", "discard-before")
+}
+
+pub fn discard_after() -> #(String, String) {
+  #("white-space", "discard-after")
+}
+
+pub fn discard_inner() -> #(String, String) {
+  #("white-space", "discard-inner")
 }
 
 pub fn raw(value: String) -> #(String, String) {

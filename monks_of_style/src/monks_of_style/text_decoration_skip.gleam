@@ -1,26 +1,31 @@
 
 
-pub type TextDecorationSkip{
-  None
-  Objects
-  Spaces
-  LeadingSpaces
-  TrailingSpaces
-  Edges
-  BoxDecoration
-
+pub fn none() -> #(String, String) {
+  #("text-decoration-skip", "none")
 }
 
-pub fn enum(value: TextDecorationSkip) -> #(String, String) {
-  #("text-decoration-skip", case value {
-    None -> "none"
-    Objects -> "objects"
-    Spaces -> "spaces"
-    LeadingSpaces -> "leading-spaces"
-    TrailingSpaces -> "trailing-spaces"
-    Edges -> "edges"
-    BoxDecoration -> "box-decoration"
-  })
+pub fn objects() -> #(String, String) {
+  #("text-decoration-skip", "objects")
+}
+
+pub fn spaces() -> #(String, String) {
+  #("text-decoration-skip", "spaces")
+}
+
+pub fn leading_spaces() -> #(String, String) {
+  #("text-decoration-skip", "leading-spaces")
+}
+
+pub fn trailing_spaces() -> #(String, String) {
+  #("text-decoration-skip", "trailing-spaces")
+}
+
+pub fn edges() -> #(String, String) {
+  #("text-decoration-skip", "edges")
+}
+
+pub fn box_decoration() -> #(String, String) {
+  #("text-decoration-skip", "box-decoration")
 }
 
 pub fn raw(value: String) -> #(String, String) {

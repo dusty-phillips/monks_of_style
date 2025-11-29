@@ -1,16 +1,11 @@
 
 
-pub type WebkitTouchCallout{
-  Default
-  None
-
+pub fn default() -> #(String, String) {
+  #("-webkit-touch-callout", "default")
 }
 
-pub fn enum(value: WebkitTouchCallout) -> #(String, String) {
-  #("-webkit-touch-callout", case value {
-    Default -> "default"
-    None -> "none"
-  })
+pub fn none() -> #(String, String) {
+  #("-webkit-touch-callout", "none")
 }
 
 pub fn raw(value: String) -> #(String, String) {

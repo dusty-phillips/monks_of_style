@@ -1,16 +1,11 @@
 
 
-pub type FontSynthesisStyle{
-  Auto
-  None
-
+pub fn auto_() -> #(String, String) {
+  #("font-synthesis-style", "auto")
 }
 
-pub fn enum(value: FontSynthesisStyle) -> #(String, String) {
-  #("font-synthesis-style", case value {
-    Auto -> "auto"
-    None -> "none"
-  })
+pub fn none() -> #(String, String) {
+  #("font-synthesis-style", "none")
 }
 
 pub fn raw(value: String) -> #(String, String) {

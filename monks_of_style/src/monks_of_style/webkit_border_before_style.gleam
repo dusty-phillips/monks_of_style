@@ -1,32 +1,43 @@
 
 
-pub type WebkitBorderBeforeStyle{
-  None
-  Hidden
-  Dotted
-  Dashed
-  Solid
-  Double
-  Groove
-  Ridge
-  Inset
-  Outset
-
+pub fn none() -> #(String, String) {
+  #("-webkit-border-before-style", "none")
 }
 
-pub fn enum(value: WebkitBorderBeforeStyle) -> #(String, String) {
-  #("-webkit-border-before-style", case value {
-    None -> "none"
-    Hidden -> "hidden"
-    Dotted -> "dotted"
-    Dashed -> "dashed"
-    Solid -> "solid"
-    Double -> "double"
-    Groove -> "groove"
-    Ridge -> "ridge"
-    Inset -> "inset"
-    Outset -> "outset"
-  })
+pub fn hidden() -> #(String, String) {
+  #("-webkit-border-before-style", "hidden")
+}
+
+pub fn dotted() -> #(String, String) {
+  #("-webkit-border-before-style", "dotted")
+}
+
+pub fn dashed() -> #(String, String) {
+  #("-webkit-border-before-style", "dashed")
+}
+
+pub fn solid() -> #(String, String) {
+  #("-webkit-border-before-style", "solid")
+}
+
+pub fn double() -> #(String, String) {
+  #("-webkit-border-before-style", "double")
+}
+
+pub fn groove() -> #(String, String) {
+  #("-webkit-border-before-style", "groove")
+}
+
+pub fn ridge() -> #(String, String) {
+  #("-webkit-border-before-style", "ridge")
+}
+
+pub fn inset() -> #(String, String) {
+  #("-webkit-border-before-style", "inset")
+}
+
+pub fn outset() -> #(String, String) {
+  #("-webkit-border-before-style", "outset")
 }
 
 pub fn raw(value: String) -> #(String, String) {

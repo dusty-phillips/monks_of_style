@@ -1,14 +1,7 @@
 
 
-pub type ScrollSnapPointsX{
-  None
-
-}
-
-pub fn enum(value: ScrollSnapPointsX) -> #(String, String) {
-  #("scroll-snap-points-x", case value {
-    None -> "none"
-  })
+pub fn none() -> #(String, String) {
+  #("scroll-snap-points-x", "none")
 }
 
 pub fn raw(value: String) -> #(String, String) {

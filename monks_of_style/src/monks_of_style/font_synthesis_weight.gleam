@@ -1,16 +1,11 @@
 
 
-pub type FontSynthesisWeight{
-  Auto
-  None
-
+pub fn auto_() -> #(String, String) {
+  #("font-synthesis-weight", "auto")
 }
 
-pub fn enum(value: FontSynthesisWeight) -> #(String, String) {
-  #("font-synthesis-weight", case value {
-    Auto -> "auto"
-    None -> "none"
-  })
+pub fn none() -> #(String, String) {
+  #("font-synthesis-weight", "none")
 }
 
 pub fn raw(value: String) -> #(String, String) {

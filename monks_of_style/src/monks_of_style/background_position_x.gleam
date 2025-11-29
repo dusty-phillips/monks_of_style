@@ -1,22 +1,23 @@
 
 
-pub type BackgroundPositionX{
-  Center
-  Left
-  Right
-  XStart
-  XEnd
-
+pub fn center() -> #(String, String) {
+  #("background-position-x", "center")
 }
 
-pub fn enum(value: BackgroundPositionX) -> #(String, String) {
-  #("background-position-x", case value {
-    Center -> "center"
-    Left -> "left"
-    Right -> "right"
-    XStart -> "x-start"
-    XEnd -> "x-end"
-  })
+pub fn left() -> #(String, String) {
+  #("background-position-x", "left")
+}
+
+pub fn right() -> #(String, String) {
+  #("background-position-x", "right")
+}
+
+pub fn x_start() -> #(String, String) {
+  #("background-position-x", "x-start")
+}
+
+pub fn x_end() -> #(String, String) {
+  #("background-position-x", "x-end")
 }
 
 pub fn raw(value: String) -> #(String, String) {

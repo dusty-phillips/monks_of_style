@@ -1,20 +1,19 @@
 
 
-pub type BorderImageRepeat{
-  Stretch
-  Repeat
-  Round
-  Space
-
+pub fn stretch() -> #(String, String) {
+  #("border-image-repeat", "stretch")
 }
 
-pub fn enum(value: BorderImageRepeat) -> #(String, String) {
-  #("border-image-repeat", case value {
-    Stretch -> "stretch"
-    Repeat -> "repeat"
-    Round -> "round"
-    Space -> "space"
-  })
+pub fn repeat() -> #(String, String) {
+  #("border-image-repeat", "repeat")
+}
+
+pub fn round() -> #(String, String) {
+  #("border-image-repeat", "round")
+}
+
+pub fn space() -> #(String, String) {
+  #("border-image-repeat", "space")
 }
 
 pub fn raw(value: String) -> #(String, String) {

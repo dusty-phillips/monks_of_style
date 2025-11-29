@@ -1,26 +1,31 @@
 
 
-pub type TextAlign{
-  Start
-  End
-  Left
-  Right
-  Center
-  Justify
-  MatchParent
-
+pub fn start() -> #(String, String) {
+  #("text-align", "start")
 }
 
-pub fn enum(value: TextAlign) -> #(String, String) {
-  #("text-align", case value {
-    Start -> "start"
-    End -> "end"
-    Left -> "left"
-    Right -> "right"
-    Center -> "center"
-    Justify -> "justify"
-    MatchParent -> "match-parent"
-  })
+pub fn end() -> #(String, String) {
+  #("text-align", "end")
+}
+
+pub fn left() -> #(String, String) {
+  #("text-align", "left")
+}
+
+pub fn right() -> #(String, String) {
+  #("text-align", "right")
+}
+
+pub fn center() -> #(String, String) {
+  #("text-align", "center")
+}
+
+pub fn justify() -> #(String, String) {
+  #("text-align", "justify")
+}
+
+pub fn match_parent() -> #(String, String) {
+  #("text-align", "match-parent")
 }
 
 pub fn raw(value: String) -> #(String, String) {

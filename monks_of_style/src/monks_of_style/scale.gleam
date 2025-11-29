@@ -1,14 +1,7 @@
 
 
-pub type Scale{
-  None
-
-}
-
-pub fn enum(value: Scale) -> #(String, String) {
-  #("scale", case value {
-    None -> "none"
-  })
+pub fn none() -> #(String, String) {
+  #("scale", "none")
 }
 
 pub fn raw(value: String) -> #(String, String) {

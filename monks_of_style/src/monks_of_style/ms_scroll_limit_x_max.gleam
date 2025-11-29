@@ -1,14 +1,7 @@
 
 
-pub type MsScrollLimitXMax{
-  Auto
-
-}
-
-pub fn enum(value: MsScrollLimitXMax) -> #(String, String) {
-  #("-ms-scroll-limit-x-max", case value {
-    Auto -> "auto"
-  })
+pub fn auto_() -> #(String, String) {
+  #("-ms-scroll-limit-x-max", "auto")
 }
 
 pub fn raw(value: String) -> #(String, String) {

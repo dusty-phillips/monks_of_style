@@ -1,22 +1,23 @@
 
 
-pub type BoxAlign{
-  Start
-  Center
-  End
-  Baseline
-  Stretch
-
+pub fn start() -> #(String, String) {
+  #("box-align", "start")
 }
 
-pub fn enum(value: BoxAlign) -> #(String, String) {
-  #("box-align", case value {
-    Start -> "start"
-    Center -> "center"
-    End -> "end"
-    Baseline -> "baseline"
-    Stretch -> "stretch"
-  })
+pub fn center() -> #(String, String) {
+  #("box-align", "center")
+}
+
+pub fn end() -> #(String, String) {
+  #("box-align", "end")
+}
+
+pub fn baseline() -> #(String, String) {
+  #("box-align", "baseline")
+}
+
+pub fn stretch() -> #(String, String) {
+  #("box-align", "stretch")
 }
 
 pub fn raw(value: String) -> #(String, String) {

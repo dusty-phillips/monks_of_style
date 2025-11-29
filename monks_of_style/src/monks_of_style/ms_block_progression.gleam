@@ -1,20 +1,19 @@
 
 
-pub type MsBlockProgression{
-  Tb
-  Rl
-  Bt
-  Lr
-
+pub fn tb() -> #(String, String) {
+  #("-ms-block-progression", "tb")
 }
 
-pub fn enum(value: MsBlockProgression) -> #(String, String) {
-  #("-ms-block-progression", case value {
-    Tb -> "tb"
-    Rl -> "rl"
-    Bt -> "bt"
-    Lr -> "lr"
-  })
+pub fn rl() -> #(String, String) {
+  #("-ms-block-progression", "rl")
+}
+
+pub fn bt() -> #(String, String) {
+  #("-ms-block-progression", "bt")
+}
+
+pub fn lr() -> #(String, String) {
+  #("-ms-block-progression", "lr")
 }
 
 pub fn raw(value: String) -> #(String, String) {

@@ -1,14 +1,7 @@
 
 
-pub type MaxLines{
-  None
-
-}
-
-pub fn enum(value: MaxLines) -> #(String, String) {
-  #("max-lines", case value {
-    None -> "none"
-  })
+pub fn none() -> #(String, String) {
+  #("max-lines", "none")
 }
 
 pub fn raw(value: String) -> #(String, String) {

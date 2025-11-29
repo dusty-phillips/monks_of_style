@@ -1,18 +1,15 @@
 
 
-pub type MaskMode{
-  Alpha
-  Luminance
-  MatchSource
-
+pub fn alpha() -> #(String, String) {
+  #("mask-mode", "alpha")
 }
 
-pub fn enum(value: MaskMode) -> #(String, String) {
-  #("mask-mode", case value {
-    Alpha -> "alpha"
-    Luminance -> "luminance"
-    MatchSource -> "match-source"
-  })
+pub fn luminance() -> #(String, String) {
+  #("mask-mode", "luminance")
+}
+
+pub fn match_source() -> #(String, String) {
+  #("mask-mode", "match-source")
 }
 
 pub fn raw(value: String) -> #(String, String) {

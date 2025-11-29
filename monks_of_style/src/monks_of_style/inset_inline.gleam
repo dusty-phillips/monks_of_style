@@ -1,14 +1,7 @@
 
 
-pub type InsetInline{
-  Auto
-
-}
-
-pub fn enum(value: InsetInline) -> #(String, String) {
-  #("inset-inline", case value {
-    Auto -> "auto"
-  })
+pub fn auto_() -> #(String, String) {
+  #("inset-inline", "auto")
 }
 
 pub fn raw(value: String) -> #(String, String) {

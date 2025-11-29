@@ -1,14 +1,7 @@
 
 
-pub type AnimationName{
-  None
-
-}
-
-pub fn enum(value: AnimationName) -> #(String, String) {
-  #("animation-name", case value {
-    None -> "none"
-  })
+pub fn none() -> #(String, String) {
+  #("animation-name", "none")
 }
 
 pub fn raw(value: String) -> #(String, String) {

@@ -1,20 +1,19 @@
 
 
-pub type WebkitTextSecurity{
-  None
-  Circle
-  Disc
-  Square
-
+pub fn none() -> #(String, String) {
+  #("-webkit-text-security", "none")
 }
 
-pub fn enum(value: WebkitTextSecurity) -> #(String, String) {
-  #("-webkit-text-security", case value {
-    None -> "none"
-    Circle -> "circle"
-    Disc -> "disc"
-    Square -> "square"
-  })
+pub fn circle() -> #(String, String) {
+  #("-webkit-text-security", "circle")
+}
+
+pub fn disc() -> #(String, String) {
+  #("-webkit-text-security", "disc")
+}
+
+pub fn square() -> #(String, String) {
+  #("-webkit-text-security", "square")
 }
 
 pub fn raw(value: String) -> #(String, String) {

@@ -1,20 +1,19 @@
 
 
-pub type Container{
-  None
-  Normal
-  Size
-  InlineSize
-
+pub fn none() -> #(String, String) {
+  #("container", "none")
 }
 
-pub fn enum(value: Container) -> #(String, String) {
-  #("container", case value {
-    None -> "none"
-    Normal -> "normal"
-    Size -> "size"
-    InlineSize -> "inline-size"
-  })
+pub fn normal() -> #(String, String) {
+  #("container", "normal")
+}
+
+pub fn size() -> #(String, String) {
+  #("container", "size")
+}
+
+pub fn inline_size() -> #(String, String) {
+  #("container", "inline-size")
 }
 
 pub fn raw(value: String) -> #(String, String) {

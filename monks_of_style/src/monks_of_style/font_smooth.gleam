@@ -1,34 +1,47 @@
 
 
-pub type FontSmooth{
-  Auto
-  Never
-  Always
-  XxSmall
-  XSmall
-  Small
-  Medium
-  Large
-  XLarge
-  XxLarge
-  XxxLarge
-
+pub fn auto_() -> #(String, String) {
+  #("font-smooth", "auto")
 }
 
-pub fn enum(value: FontSmooth) -> #(String, String) {
-  #("font-smooth", case value {
-    Auto -> "auto"
-    Never -> "never"
-    Always -> "always"
-    XxSmall -> "xx-small"
-    XSmall -> "x-small"
-    Small -> "small"
-    Medium -> "medium"
-    Large -> "large"
-    XLarge -> "x-large"
-    XxLarge -> "xx-large"
-    XxxLarge -> "xxx-large"
-  })
+pub fn never() -> #(String, String) {
+  #("font-smooth", "never")
+}
+
+pub fn always() -> #(String, String) {
+  #("font-smooth", "always")
+}
+
+pub fn xx_small() -> #(String, String) {
+  #("font-smooth", "xx-small")
+}
+
+pub fn x_small() -> #(String, String) {
+  #("font-smooth", "x-small")
+}
+
+pub fn small() -> #(String, String) {
+  #("font-smooth", "small")
+}
+
+pub fn medium() -> #(String, String) {
+  #("font-smooth", "medium")
+}
+
+pub fn large() -> #(String, String) {
+  #("font-smooth", "large")
+}
+
+pub fn x_large() -> #(String, String) {
+  #("font-smooth", "x-large")
+}
+
+pub fn xx_large() -> #(String, String) {
+  #("font-smooth", "xx-large")
+}
+
+pub fn xxx_large() -> #(String, String) {
+  #("font-smooth", "xxx-large")
 }
 
 pub fn raw(value: String) -> #(String, String) {

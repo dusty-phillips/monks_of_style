@@ -1,16 +1,11 @@
 
 
-pub type ColumnFill{
-  Auto
-  Balance
-
+pub fn auto_() -> #(String, String) {
+  #("column-fill", "auto")
 }
 
-pub fn enum(value: ColumnFill) -> #(String, String) {
-  #("column-fill", case value {
-    Auto -> "auto"
-    Balance -> "balance"
-  })
+pub fn balance() -> #(String, String) {
+  #("column-fill", "balance")
 }
 
 pub fn raw(value: String) -> #(String, String) {

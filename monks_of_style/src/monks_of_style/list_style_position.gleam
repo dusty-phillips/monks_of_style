@@ -1,16 +1,11 @@
 
 
-pub type ListStylePosition{
-  Inside
-  Outside
-
+pub fn inside() -> #(String, String) {
+  #("list-style-position", "inside")
 }
 
-pub fn enum(value: ListStylePosition) -> #(String, String) {
-  #("list-style-position", case value {
-    Inside -> "inside"
-    Outside -> "outside"
-  })
+pub fn outside() -> #(String, String) {
+  #("list-style-position", "outside")
 }
 
 pub fn raw(value: String) -> #(String, String) {

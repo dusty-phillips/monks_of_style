@@ -1,14 +1,7 @@
 
 
-pub type CounterReset{
-  None
-
-}
-
-pub fn enum(value: CounterReset) -> #(String, String) {
-  #("counter-reset", case value {
-    None -> "none"
-  })
+pub fn none() -> #(String, String) {
+  #("counter-reset", "none")
 }
 
 pub fn raw(value: String) -> #(String, String) {

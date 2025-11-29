@@ -1,16 +1,11 @@
 
 
-pub type FieldSizing{
-  Content
-  Fixed
-
+pub fn content() -> #(String, String) {
+  #("field-sizing", "content")
 }
 
-pub fn enum(value: FieldSizing) -> #(String, String) {
-  #("field-sizing", case value {
-    Content -> "content"
-    Fixed -> "fixed"
-  })
+pub fn fixed() -> #(String, String) {
+  #("field-sizing", "fixed")
 }
 
 pub fn raw(value: String) -> #(String, String) {

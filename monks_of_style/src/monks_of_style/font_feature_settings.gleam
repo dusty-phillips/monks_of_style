@@ -1,18 +1,15 @@
 
 
-pub type FontFeatureSettings{
-  Normal
-  On
-  Off
-
+pub fn normal() -> #(String, String) {
+  #("font-feature-settings", "normal")
 }
 
-pub fn enum(value: FontFeatureSettings) -> #(String, String) {
-  #("font-feature-settings", case value {
-    Normal -> "normal"
-    On -> "on"
-    Off -> "off"
-  })
+pub fn on() -> #(String, String) {
+  #("font-feature-settings", "on")
+}
+
+pub fn off() -> #(String, String) {
+  #("font-feature-settings", "off")
 }
 
 pub fn raw(value: String) -> #(String, String) {

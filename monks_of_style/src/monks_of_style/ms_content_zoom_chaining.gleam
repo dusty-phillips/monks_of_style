@@ -1,16 +1,11 @@
 
 
-pub type MsContentZoomChaining{
-  None
-  Chained
-
+pub fn none() -> #(String, String) {
+  #("-ms-content-zoom-chaining", "none")
 }
 
-pub fn enum(value: MsContentZoomChaining) -> #(String, String) {
-  #("-ms-content-zoom-chaining", case value {
-    None -> "none"
-    Chained -> "chained"
-  })
+pub fn chained() -> #(String, String) {
+  #("-ms-content-zoom-chaining", "chained")
 }
 
 pub fn raw(value: String) -> #(String, String) {

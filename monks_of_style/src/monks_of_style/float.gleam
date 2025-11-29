@@ -1,22 +1,23 @@
 
 
-pub type Float{
-  Left
-  Right
-  None
-  InlineStart
-  InlineEnd
-
+pub fn left() -> #(String, String) {
+  #("float", "left")
 }
 
-pub fn enum(value: Float) -> #(String, String) {
-  #("float", case value {
-    Left -> "left"
-    Right -> "right"
-    None -> "none"
-    InlineStart -> "inline-start"
-    InlineEnd -> "inline-end"
-  })
+pub fn right() -> #(String, String) {
+  #("float", "right")
+}
+
+pub fn none() -> #(String, String) {
+  #("float", "none")
+}
+
+pub fn inline_start() -> #(String, String) {
+  #("float", "inline-start")
+}
+
+pub fn inline_end() -> #(String, String) {
+  #("float", "inline-end")
 }
 
 pub fn raw(value: String) -> #(String, String) {

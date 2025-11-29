@@ -1,24 +1,27 @@
 
 
-pub type PauseBefore{
-  None
-  XWeak
-  Weak
-  Medium
-  Strong
-  XStrong
-
+pub fn none() -> #(String, String) {
+  #("pause-before", "none")
 }
 
-pub fn enum(value: PauseBefore) -> #(String, String) {
-  #("pause-before", case value {
-    None -> "none"
-    XWeak -> "x-weak"
-    Weak -> "weak"
-    Medium -> "medium"
-    Strong -> "strong"
-    XStrong -> "x-strong"
-  })
+pub fn x_weak() -> #(String, String) {
+  #("pause-before", "x-weak")
+}
+
+pub fn weak() -> #(String, String) {
+  #("pause-before", "weak")
+}
+
+pub fn medium() -> #(String, String) {
+  #("pause-before", "medium")
+}
+
+pub fn strong() -> #(String, String) {
+  #("pause-before", "strong")
+}
+
+pub fn x_strong() -> #(String, String) {
+  #("pause-before", "x-strong")
 }
 
 pub fn raw(value: String) -> #(String, String) {

@@ -1,16 +1,11 @@
 
 
-pub type ColumnSpan{
-  None
-  All
-
+pub fn none() -> #(String, String) {
+  #("column-span", "none")
 }
 
-pub fn enum(value: ColumnSpan) -> #(String, String) {
-  #("column-span", case value {
-    None -> "none"
-    All -> "all"
-  })
+pub fn all() -> #(String, String) {
+  #("column-span", "all")
 }
 
 pub fn raw(value: String) -> #(String, String) {

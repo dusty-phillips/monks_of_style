@@ -1,14 +1,7 @@
 
 
-pub type CueBefore{
-  None
-
-}
-
-pub fn enum(value: CueBefore) -> #(String, String) {
-  #("cue-before", case value {
-    None -> "none"
-  })
+pub fn none() -> #(String, String) {
+  #("cue-before", "none")
 }
 
 pub fn raw(value: String) -> #(String, String) {

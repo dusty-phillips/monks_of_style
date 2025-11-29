@@ -1,14 +1,7 @@
 
 
-pub type Columns{
-  Auto
-
-}
-
-pub fn enum(value: Columns) -> #(String, String) {
-  #("columns", case value {
-    Auto -> "auto"
-  })
+pub fn auto_() -> #(String, String) {
+  #("columns", "auto")
 }
 
 pub fn raw(value: String) -> #(String, String) {

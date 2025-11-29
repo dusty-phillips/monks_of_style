@@ -1,36 +1,51 @@
 
 
-pub type UnicodeBidi{
-  Normal
-  Embed
-  Isolate
-  BidiOverride
-  IsolateOverride
-  Plaintext
-  MozIsolate
-  MozIsolateOverride
-  MozPlaintext
-  WebkitIsolate
-  WebkitIsolateOverride
-  WebkitPlaintext
-
+pub fn normal() -> #(String, String) {
+  #("unicode-bidi", "normal")
 }
 
-pub fn enum(value: UnicodeBidi) -> #(String, String) {
-  #("unicode-bidi", case value {
-    Normal -> "normal"
-    Embed -> "embed"
-    Isolate -> "isolate"
-    BidiOverride -> "bidi-override"
-    IsolateOverride -> "isolate-override"
-    Plaintext -> "plaintext"
-    MozIsolate -> "-moz-isolate"
-    MozIsolateOverride -> "-moz-isolate-override"
-    MozPlaintext -> "-moz-plaintext"
-    WebkitIsolate -> "-webkit-isolate"
-    WebkitIsolateOverride -> "-webkit-isolate-override"
-    WebkitPlaintext -> "-webkit-plaintext"
-  })
+pub fn embed() -> #(String, String) {
+  #("unicode-bidi", "embed")
+}
+
+pub fn isolate() -> #(String, String) {
+  #("unicode-bidi", "isolate")
+}
+
+pub fn bidi_override() -> #(String, String) {
+  #("unicode-bidi", "bidi-override")
+}
+
+pub fn isolate_override() -> #(String, String) {
+  #("unicode-bidi", "isolate-override")
+}
+
+pub fn plaintext() -> #(String, String) {
+  #("unicode-bidi", "plaintext")
+}
+
+pub fn moz_isolate() -> #(String, String) {
+  #("unicode-bidi", "-moz-isolate")
+}
+
+pub fn moz_isolate_override() -> #(String, String) {
+  #("unicode-bidi", "-moz-isolate-override")
+}
+
+pub fn moz_plaintext() -> #(String, String) {
+  #("unicode-bidi", "-moz-plaintext")
+}
+
+pub fn webkit_isolate() -> #(String, String) {
+  #("unicode-bidi", "-webkit-isolate")
+}
+
+pub fn webkit_isolate_override() -> #(String, String) {
+  #("unicode-bidi", "-webkit-isolate-override")
+}
+
+pub fn webkit_plaintext() -> #(String, String) {
+  #("unicode-bidi", "-webkit-plaintext")
 }
 
 pub fn raw(value: String) -> #(String, String) {

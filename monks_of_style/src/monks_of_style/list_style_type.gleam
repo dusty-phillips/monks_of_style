@@ -1,14 +1,7 @@
 
 
-pub type ListStyleType{
-  None
-
-}
-
-pub fn enum(value: ListStyleType) -> #(String, String) {
-  #("list-style-type", case value {
-    None -> "none"
-  })
+pub fn none() -> #(String, String) {
+  #("list-style-type", "none")
 }
 
 pub fn raw(value: String) -> #(String, String) {

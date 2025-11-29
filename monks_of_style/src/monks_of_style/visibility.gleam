@@ -1,18 +1,15 @@
 
 
-pub type Visibility{
-  Visible
-  Hidden
-  Collapse
-
+pub fn visible() -> #(String, String) {
+  #("visibility", "visible")
 }
 
-pub fn enum(value: Visibility) -> #(String, String) {
-  #("visibility", case value {
-    Visible -> "visible"
-    Hidden -> "hidden"
-    Collapse -> "collapse"
-  })
+pub fn hidden() -> #(String, String) {
+  #("visibility", "hidden")
+}
+
+pub fn collapse() -> #(String, String) {
+  #("visibility", "collapse")
 }
 
 pub fn raw(value: String) -> #(String, String) {

@@ -1,16 +1,11 @@
 
 
-pub type MozStackSizing{
-  Ignore
-  StretchToFit
-
+pub fn ignore() -> #(String, String) {
+  #("-moz-stack-sizing", "ignore")
 }
 
-pub fn enum(value: MozStackSizing) -> #(String, String) {
-  #("-moz-stack-sizing", case value {
-    Ignore -> "ignore"
-    StretchToFit -> "stretch-to-fit"
-  })
+pub fn stretch_to_fit() -> #(String, String) {
+  #("-moz-stack-sizing", "stretch-to-fit")
 }
 
 pub fn raw(value: String) -> #(String, String) {

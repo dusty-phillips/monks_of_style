@@ -1,16 +1,11 @@
 
 
-pub type BoxLines{
-  Single
-  Multiple
-
+pub fn single() -> #(String, String) {
+  #("box-lines", "single")
 }
 
-pub fn enum(value: BoxLines) -> #(String, String) {
-  #("box-lines", case value {
-    Single -> "single"
-    Multiple -> "multiple"
-  })
+pub fn multiple() -> #(String, String) {
+  #("box-lines", "multiple")
 }
 
 pub fn raw(value: String) -> #(String, String) {

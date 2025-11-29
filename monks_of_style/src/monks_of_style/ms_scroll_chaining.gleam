@@ -1,16 +1,11 @@
 
 
-pub type MsScrollChaining{
-  Chained
-  None
-
+pub fn chained() -> #(String, String) {
+  #("-ms-scroll-chaining", "chained")
 }
 
-pub fn enum(value: MsScrollChaining) -> #(String, String) {
-  #("-ms-scroll-chaining", case value {
-    Chained -> "chained"
-    None -> "none"
-  })
+pub fn none() -> #(String, String) {
+  #("-ms-scroll-chaining", "none")
 }
 
 pub fn raw(value: String) -> #(String, String) {

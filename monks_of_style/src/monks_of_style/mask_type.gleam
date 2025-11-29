@@ -1,16 +1,11 @@
 
 
-pub type MaskType{
-  Luminance
-  Alpha
-
+pub fn luminance() -> #(String, String) {
+  #("mask-type", "luminance")
 }
 
-pub fn enum(value: MaskType) -> #(String, String) {
-  #("mask-type", case value {
-    Luminance -> "luminance"
-    Alpha -> "alpha"
-  })
+pub fn alpha() -> #(String, String) {
+  #("mask-type", "alpha")
 }
 
 pub fn raw(value: String) -> #(String, String) {

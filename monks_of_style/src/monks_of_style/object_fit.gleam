@@ -1,22 +1,23 @@
 
 
-pub type ObjectFit{
-  Fill
-  Contain
-  Cover
-  None
-  ScaleDown
-
+pub fn fill() -> #(String, String) {
+  #("object-fit", "fill")
 }
 
-pub fn enum(value: ObjectFit) -> #(String, String) {
-  #("object-fit", case value {
-    Fill -> "fill"
-    Contain -> "contain"
-    Cover -> "cover"
-    None -> "none"
-    ScaleDown -> "scale-down"
-  })
+pub fn contain() -> #(String, String) {
+  #("object-fit", "contain")
+}
+
+pub fn cover() -> #(String, String) {
+  #("object-fit", "cover")
+}
+
+pub fn none() -> #(String, String) {
+  #("object-fit", "none")
+}
+
+pub fn scale_down() -> #(String, String) {
+  #("object-fit", "scale-down")
 }
 
 pub fn raw(value: String) -> #(String, String) {

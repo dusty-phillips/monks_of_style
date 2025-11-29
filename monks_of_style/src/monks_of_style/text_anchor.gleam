@@ -1,18 +1,15 @@
 
 
-pub type TextAnchor{
-  Start
-  Middle
-  End
-
+pub fn start() -> #(String, String) {
+  #("text-anchor", "start")
 }
 
-pub fn enum(value: TextAnchor) -> #(String, String) {
-  #("text-anchor", case value {
-    Start -> "start"
-    Middle -> "middle"
-    End -> "end"
-  })
+pub fn middle() -> #(String, String) {
+  #("text-anchor", "middle")
+}
+
+pub fn end() -> #(String, String) {
+  #("text-anchor", "end")
 }
 
 pub fn raw(value: String) -> #(String, String) {

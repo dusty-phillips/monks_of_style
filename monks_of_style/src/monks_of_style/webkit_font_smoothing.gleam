@@ -1,20 +1,19 @@
 
 
-pub type WebkitFontSmoothing{
-  Auto
-  None
-  Antialiased
-  SubpixelAntialiased
-
+pub fn auto_() -> #(String, String) {
+  #("-webkit-font-smoothing", "auto")
 }
 
-pub fn enum(value: WebkitFontSmoothing) -> #(String, String) {
-  #("-webkit-font-smoothing", case value {
-    Auto -> "auto"
-    None -> "none"
-    Antialiased -> "antialiased"
-    SubpixelAntialiased -> "subpixel-antialiased"
-  })
+pub fn none() -> #(String, String) {
+  #("-webkit-font-smoothing", "none")
+}
+
+pub fn antialiased() -> #(String, String) {
+  #("-webkit-font-smoothing", "antialiased")
+}
+
+pub fn subpixel_antialiased() -> #(String, String) {
+  #("-webkit-font-smoothing", "subpixel-antialiased")
 }
 
 pub fn raw(value: String) -> #(String, String) {

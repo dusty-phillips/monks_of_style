@@ -1,32 +1,43 @@
 
 
-pub type BorderRightStyle{
-  None
-  Hidden
-  Dotted
-  Dashed
-  Solid
-  Double
-  Groove
-  Ridge
-  Inset
-  Outset
-
+pub fn none() -> #(String, String) {
+  #("border-right-style", "none")
 }
 
-pub fn enum(value: BorderRightStyle) -> #(String, String) {
-  #("border-right-style", case value {
-    None -> "none"
-    Hidden -> "hidden"
-    Dotted -> "dotted"
-    Dashed -> "dashed"
-    Solid -> "solid"
-    Double -> "double"
-    Groove -> "groove"
-    Ridge -> "ridge"
-    Inset -> "inset"
-    Outset -> "outset"
-  })
+pub fn hidden() -> #(String, String) {
+  #("border-right-style", "hidden")
+}
+
+pub fn dotted() -> #(String, String) {
+  #("border-right-style", "dotted")
+}
+
+pub fn dashed() -> #(String, String) {
+  #("border-right-style", "dashed")
+}
+
+pub fn solid() -> #(String, String) {
+  #("border-right-style", "solid")
+}
+
+pub fn double() -> #(String, String) {
+  #("border-right-style", "double")
+}
+
+pub fn groove() -> #(String, String) {
+  #("border-right-style", "groove")
+}
+
+pub fn ridge() -> #(String, String) {
+  #("border-right-style", "ridge")
+}
+
+pub fn inset() -> #(String, String) {
+  #("border-right-style", "inset")
+}
+
+pub fn outset() -> #(String, String) {
+  #("border-right-style", "outset")
 }
 
 pub fn raw(value: String) -> #(String, String) {

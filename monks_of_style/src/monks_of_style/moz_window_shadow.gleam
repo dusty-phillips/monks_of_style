@@ -1,22 +1,23 @@
 
 
-pub type MozWindowShadow{
-  Default
-  Menu
-  Tooltip
-  Sheet
-  None
-
+pub fn default() -> #(String, String) {
+  #("-moz-window-shadow", "default")
 }
 
-pub fn enum(value: MozWindowShadow) -> #(String, String) {
-  #("-moz-window-shadow", case value {
-    Default -> "default"
-    Menu -> "menu"
-    Tooltip -> "tooltip"
-    Sheet -> "sheet"
-    None -> "none"
-  })
+pub fn menu() -> #(String, String) {
+  #("-moz-window-shadow", "menu")
+}
+
+pub fn tooltip() -> #(String, String) {
+  #("-moz-window-shadow", "tooltip")
+}
+
+pub fn sheet() -> #(String, String) {
+  #("-moz-window-shadow", "sheet")
+}
+
+pub fn none() -> #(String, String) {
+  #("-moz-window-shadow", "none")
 }
 
 pub fn raw(value: String) -> #(String, String) {

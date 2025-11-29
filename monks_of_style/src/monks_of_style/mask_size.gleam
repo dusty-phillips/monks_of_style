@@ -1,18 +1,15 @@
 
 
-pub type MaskSize{
-  Auto
-  Cover
-  Contain
-
+pub fn auto_() -> #(String, String) {
+  #("mask-size", "auto")
 }
 
-pub fn enum(value: MaskSize) -> #(String, String) {
-  #("mask-size", case value {
-    Auto -> "auto"
-    Cover -> "cover"
-    Contain -> "contain"
-  })
+pub fn cover() -> #(String, String) {
+  #("mask-size", "cover")
+}
+
+pub fn contain() -> #(String, String) {
+  #("mask-size", "contain")
 }
 
 pub fn raw(value: String) -> #(String, String) {

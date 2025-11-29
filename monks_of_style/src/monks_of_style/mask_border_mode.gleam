@@ -1,16 +1,11 @@
 
 
-pub type MaskBorderMode{
-  Luminance
-  Alpha
-
+pub fn luminance() -> #(String, String) {
+  #("mask-border-mode", "luminance")
 }
 
-pub fn enum(value: MaskBorderMode) -> #(String, String) {
-  #("mask-border-mode", case value {
-    Luminance -> "luminance"
-    Alpha -> "alpha"
-  })
+pub fn alpha() -> #(String, String) {
+  #("mask-border-mode", "alpha")
 }
 
 pub fn raw(value: String) -> #(String, String) {

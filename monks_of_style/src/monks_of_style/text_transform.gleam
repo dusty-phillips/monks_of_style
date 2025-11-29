@@ -1,24 +1,27 @@
 
 
-pub type TextTransform{
-  None
-  Capitalize
-  Uppercase
-  Lowercase
-  FullWidth
-  FullSizeKana
-
+pub fn none() -> #(String, String) {
+  #("text-transform", "none")
 }
 
-pub fn enum(value: TextTransform) -> #(String, String) {
-  #("text-transform", case value {
-    None -> "none"
-    Capitalize -> "capitalize"
-    Uppercase -> "uppercase"
-    Lowercase -> "lowercase"
-    FullWidth -> "full-width"
-    FullSizeKana -> "full-size-kana"
-  })
+pub fn capitalize() -> #(String, String) {
+  #("text-transform", "capitalize")
+}
+
+pub fn uppercase() -> #(String, String) {
+  #("text-transform", "uppercase")
+}
+
+pub fn lowercase() -> #(String, String) {
+  #("text-transform", "lowercase")
+}
+
+pub fn full_width() -> #(String, String) {
+  #("text-transform", "full-width")
+}
+
+pub fn full_size_kana() -> #(String, String) {
+  #("text-transform", "full-size-kana")
 }
 
 pub fn raw(value: String) -> #(String, String) {

@@ -1,18 +1,15 @@
 
 
-pub type WebkitMaskSize{
-  Auto
-  Cover
-  Contain
-
+pub fn auto_() -> #(String, String) {
+  #("-webkit-mask-size", "auto")
 }
 
-pub fn enum(value: WebkitMaskSize) -> #(String, String) {
-  #("-webkit-mask-size", case value {
-    Auto -> "auto"
-    Cover -> "cover"
-    Contain -> "contain"
-  })
+pub fn cover() -> #(String, String) {
+  #("-webkit-mask-size", "cover")
+}
+
+pub fn contain() -> #(String, String) {
+  #("-webkit-mask-size", "contain")
 }
 
 pub fn raw(value: String) -> #(String, String) {

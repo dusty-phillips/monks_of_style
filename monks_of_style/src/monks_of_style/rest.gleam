@@ -1,24 +1,27 @@
 
 
-pub type Rest{
-  None
-  XWeak
-  Weak
-  Medium
-  Strong
-  XStrong
-
+pub fn none() -> #(String, String) {
+  #("rest", "none")
 }
 
-pub fn enum(value: Rest) -> #(String, String) {
-  #("rest", case value {
-    None -> "none"
-    XWeak -> "x-weak"
-    Weak -> "weak"
-    Medium -> "medium"
-    Strong -> "strong"
-    XStrong -> "x-strong"
-  })
+pub fn x_weak() -> #(String, String) {
+  #("rest", "x-weak")
+}
+
+pub fn weak() -> #(String, String) {
+  #("rest", "weak")
+}
+
+pub fn medium() -> #(String, String) {
+  #("rest", "medium")
+}
+
+pub fn strong() -> #(String, String) {
+  #("rest", "strong")
+}
+
+pub fn x_strong() -> #(String, String) {
+  #("rest", "x-strong")
 }
 
 pub fn raw(value: String) -> #(String, String) {

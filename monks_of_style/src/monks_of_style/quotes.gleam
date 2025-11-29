@@ -1,16 +1,11 @@
 
 
-pub type Quotes{
-  None
-  Auto
-
+pub fn none() -> #(String, String) {
+  #("quotes", "none")
 }
 
-pub fn enum(value: Quotes) -> #(String, String) {
-  #("quotes", case value {
-    None -> "none"
-    Auto -> "auto"
-  })
+pub fn auto_() -> #(String, String) {
+  #("quotes", "auto")
 }
 
 pub fn raw(value: String) -> #(String, String) {

@@ -1,46 +1,71 @@
 
 
-pub type JustifyItems{
-  Normal
-  Stretch
-  First
-  Last
-  Baseline
-  Unsafe
-  Safe
-  Center
-  Start
-  End
-  SelfStart
-  SelfEnd
-  FlexStart
-  FlexEnd
-  Left
-  Right
-  Legacy
-
+pub fn normal() -> #(String, String) {
+  #("justify-items", "normal")
 }
 
-pub fn enum(value: JustifyItems) -> #(String, String) {
-  #("justify-items", case value {
-    Normal -> "normal"
-    Stretch -> "stretch"
-    First -> "first"
-    Last -> "last"
-    Baseline -> "baseline"
-    Unsafe -> "unsafe"
-    Safe -> "safe"
-    Center -> "center"
-    Start -> "start"
-    End -> "end"
-    SelfStart -> "self-start"
-    SelfEnd -> "self-end"
-    FlexStart -> "flex-start"
-    FlexEnd -> "flex-end"
-    Left -> "left"
-    Right -> "right"
-    Legacy -> "legacy"
-  })
+pub fn stretch() -> #(String, String) {
+  #("justify-items", "stretch")
+}
+
+pub fn first() -> #(String, String) {
+  #("justify-items", "first")
+}
+
+pub fn last() -> #(String, String) {
+  #("justify-items", "last")
+}
+
+pub fn baseline() -> #(String, String) {
+  #("justify-items", "baseline")
+}
+
+pub fn unsafe() -> #(String, String) {
+  #("justify-items", "unsafe")
+}
+
+pub fn safe() -> #(String, String) {
+  #("justify-items", "safe")
+}
+
+pub fn center() -> #(String, String) {
+  #("justify-items", "center")
+}
+
+pub fn start() -> #(String, String) {
+  #("justify-items", "start")
+}
+
+pub fn end() -> #(String, String) {
+  #("justify-items", "end")
+}
+
+pub fn self_start() -> #(String, String) {
+  #("justify-items", "self-start")
+}
+
+pub fn self_end() -> #(String, String) {
+  #("justify-items", "self-end")
+}
+
+pub fn flex_start() -> #(String, String) {
+  #("justify-items", "flex-start")
+}
+
+pub fn flex_end() -> #(String, String) {
+  #("justify-items", "flex-end")
+}
+
+pub fn left() -> #(String, String) {
+  #("justify-items", "left")
+}
+
+pub fn right() -> #(String, String) {
+  #("justify-items", "right")
+}
+
+pub fn legacy() -> #(String, String) {
+  #("justify-items", "legacy")
 }
 
 pub fn raw(value: String) -> #(String, String) {

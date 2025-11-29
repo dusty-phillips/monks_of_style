@@ -1,14 +1,7 @@
 
 
-pub type Kerning{
-  Auto
-
-}
-
-pub fn enum(value: Kerning) -> #(String, String) {
-  #("kerning", case value {
-    Auto -> "auto"
-  })
+pub fn auto_() -> #(String, String) {
+  #("kerning", "auto")
 }
 
 pub fn raw(value: String) -> #(String, String) {

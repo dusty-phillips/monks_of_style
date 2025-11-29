@@ -1,26 +1,31 @@
 
 
-pub type FontSizeAdjust{
-  None
-  ExHeight
-  CapHeight
-  ChWidth
-  IcWidth
-  IcHeight
-  FromFont
-
+pub fn none() -> #(String, String) {
+  #("font-size-adjust", "none")
 }
 
-pub fn enum(value: FontSizeAdjust) -> #(String, String) {
-  #("font-size-adjust", case value {
-    None -> "none"
-    ExHeight -> "ex-height"
-    CapHeight -> "cap-height"
-    ChWidth -> "ch-width"
-    IcWidth -> "ic-width"
-    IcHeight -> "ic-height"
-    FromFont -> "from-font"
-  })
+pub fn ex_height() -> #(String, String) {
+  #("font-size-adjust", "ex-height")
+}
+
+pub fn cap_height() -> #(String, String) {
+  #("font-size-adjust", "cap-height")
+}
+
+pub fn ch_width() -> #(String, String) {
+  #("font-size-adjust", "ch-width")
+}
+
+pub fn ic_width() -> #(String, String) {
+  #("font-size-adjust", "ic-width")
+}
+
+pub fn ic_height() -> #(String, String) {
+  #("font-size-adjust", "ic-height")
+}
+
+pub fn from_font() -> #(String, String) {
+  #("font-size-adjust", "from-font")
 }
 
 pub fn raw(value: String) -> #(String, String) {

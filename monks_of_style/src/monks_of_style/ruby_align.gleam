@@ -1,20 +1,19 @@
 
 
-pub type RubyAlign{
-  Start
-  Center
-  SpaceBetween
-  SpaceAround
-
+pub fn start() -> #(String, String) {
+  #("ruby-align", "start")
 }
 
-pub fn enum(value: RubyAlign) -> #(String, String) {
-  #("ruby-align", case value {
-    Start -> "start"
-    Center -> "center"
-    SpaceBetween -> "space-between"
-    SpaceAround -> "space-around"
-  })
+pub fn center() -> #(String, String) {
+  #("ruby-align", "center")
+}
+
+pub fn space_between() -> #(String, String) {
+  #("ruby-align", "space-between")
+}
+
+pub fn space_around() -> #(String, String) {
+  #("ruby-align", "space-around")
 }
 
 pub fn raw(value: String) -> #(String, String) {

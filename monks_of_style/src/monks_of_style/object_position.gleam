@@ -1,22 +1,23 @@
 
 
-pub type ObjectPosition{
-  Left
-  Center
-  Right
-  Top
-  Bottom
-
+pub fn left() -> #(String, String) {
+  #("object-position", "left")
 }
 
-pub fn enum(value: ObjectPosition) -> #(String, String) {
-  #("object-position", case value {
-    Left -> "left"
-    Center -> "center"
-    Right -> "right"
-    Top -> "top"
-    Bottom -> "bottom"
-  })
+pub fn center() -> #(String, String) {
+  #("object-position", "center")
+}
+
+pub fn right() -> #(String, String) {
+  #("object-position", "right")
+}
+
+pub fn top() -> #(String, String) {
+  #("object-position", "top")
+}
+
+pub fn bottom() -> #(String, String) {
+  #("object-position", "bottom")
 }
 
 pub fn raw(value: String) -> #(String, String) {

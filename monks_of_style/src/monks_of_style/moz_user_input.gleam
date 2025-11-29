@@ -1,20 +1,19 @@
 
 
-pub type MozUserInput{
-  Auto
-  None
-  Enabled
-  Disabled
-
+pub fn auto_() -> #(String, String) {
+  #("-moz-user-input", "auto")
 }
 
-pub fn enum(value: MozUserInput) -> #(String, String) {
-  #("-moz-user-input", case value {
-    Auto -> "auto"
-    None -> "none"
-    Enabled -> "enabled"
-    Disabled -> "disabled"
-  })
+pub fn none() -> #(String, String) {
+  #("-moz-user-input", "none")
+}
+
+pub fn enabled() -> #(String, String) {
+  #("-moz-user-input", "enabled")
+}
+
+pub fn disabled() -> #(String, String) {
+  #("-moz-user-input", "disabled")
 }
 
 pub fn raw(value: String) -> #(String, String) {

@@ -1,16 +1,11 @@
 
 
-pub type MsScrollTranslation{
-  None
-  VerticalToHorizontal
-
+pub fn none() -> #(String, String) {
+  #("-ms-scroll-translation", "none")
 }
 
-pub fn enum(value: MsScrollTranslation) -> #(String, String) {
-  #("-ms-scroll-translation", case value {
-    None -> "none"
-    VerticalToHorizontal -> "vertical-to-horizontal"
-  })
+pub fn vertical_to_horizontal() -> #(String, String) {
+  #("-ms-scroll-translation", "vertical-to-horizontal")
 }
 
 pub fn raw(value: String) -> #(String, String) {

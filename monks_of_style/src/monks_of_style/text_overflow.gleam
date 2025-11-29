@@ -1,16 +1,11 @@
 
 
-pub type TextOverflow{
-  Clip
-  Ellipsis
-
+pub fn clip() -> #(String, String) {
+  #("text-overflow", "clip")
 }
 
-pub fn enum(value: TextOverflow) -> #(String, String) {
-  #("text-overflow", case value {
-    Clip -> "clip"
-    Ellipsis -> "ellipsis"
-  })
+pub fn ellipsis() -> #(String, String) {
+  #("text-overflow", "ellipsis")
 }
 
 pub fn raw(value: String) -> #(String, String) {

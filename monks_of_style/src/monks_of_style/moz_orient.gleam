@@ -1,20 +1,19 @@
 
 
-pub type MozOrient{
-  Inline
-  Block
-  Horizontal
-  Vertical
-
+pub fn inline() -> #(String, String) {
+  #("-moz-orient", "inline")
 }
 
-pub fn enum(value: MozOrient) -> #(String, String) {
-  #("-moz-orient", case value {
-    Inline -> "inline"
-    Block -> "block"
-    Horizontal -> "horizontal"
-    Vertical -> "vertical"
-  })
+pub fn block() -> #(String, String) {
+  #("-moz-orient", "block")
+}
+
+pub fn horizontal() -> #(String, String) {
+  #("-moz-orient", "horizontal")
+}
+
+pub fn vertical() -> #(String, String) {
+  #("-moz-orient", "vertical")
 }
 
 pub fn raw(value: String) -> #(String, String) {

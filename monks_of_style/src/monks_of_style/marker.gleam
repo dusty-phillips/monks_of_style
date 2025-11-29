@@ -1,14 +1,7 @@
 
 
-pub type Marker{
-  None
-
-}
-
-pub fn enum(value: Marker) -> #(String, String) {
-  #("marker", case value {
-    None -> "none"
-  })
+pub fn none() -> #(String, String) {
+  #("marker", "none")
 }
 
 pub fn raw(value: String) -> #(String, String) {

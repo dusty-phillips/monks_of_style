@@ -1,26 +1,31 @@
 
 
-pub type WebkitBackgroundClip{
-  BorderBox
-  PaddingBox
-  ContentBox
-  Border
-  Padding
-  Content
-  Text
-
+pub fn border_box() -> #(String, String) {
+  #("-webkit-background-clip", "border-box")
 }
 
-pub fn enum(value: WebkitBackgroundClip) -> #(String, String) {
-  #("-webkit-background-clip", case value {
-    BorderBox -> "border-box"
-    PaddingBox -> "padding-box"
-    ContentBox -> "content-box"
-    Border -> "border"
-    Padding -> "padding"
-    Content -> "content"
-    Text -> "text"
-  })
+pub fn padding_box() -> #(String, String) {
+  #("-webkit-background-clip", "padding-box")
+}
+
+pub fn content_box() -> #(String, String) {
+  #("-webkit-background-clip", "content-box")
+}
+
+pub fn border() -> #(String, String) {
+  #("-webkit-background-clip", "border")
+}
+
+pub fn padding() -> #(String, String) {
+  #("-webkit-background-clip", "padding")
+}
+
+pub fn content() -> #(String, String) {
+  #("-webkit-background-clip", "content")
+}
+
+pub fn text() -> #(String, String) {
+  #("-webkit-background-clip", "text")
 }
 
 pub fn raw(value: String) -> #(String, String) {

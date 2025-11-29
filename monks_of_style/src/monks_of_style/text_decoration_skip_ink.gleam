@@ -1,18 +1,15 @@
 
 
-pub type TextDecorationSkipInk{
-  Auto
-  All
-  None
-
+pub fn auto_() -> #(String, String) {
+  #("text-decoration-skip-ink", "auto")
 }
 
-pub fn enum(value: TextDecorationSkipInk) -> #(String, String) {
-  #("text-decoration-skip-ink", case value {
-    Auto -> "auto"
-    All -> "all"
-    None -> "none"
-  })
+pub fn all() -> #(String, String) {
+  #("text-decoration-skip-ink", "all")
+}
+
+pub fn none() -> #(String, String) {
+  #("text-decoration-skip-ink", "none")
 }
 
 pub fn raw(value: String) -> #(String, String) {

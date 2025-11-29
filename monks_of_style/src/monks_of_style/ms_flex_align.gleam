@@ -1,22 +1,23 @@
 
 
-pub type MsFlexAlign{
-  Start
-  End
-  Center
-  Baseline
-  Stretch
-
+pub fn start() -> #(String, String) {
+  #("-ms-flex-align", "start")
 }
 
-pub fn enum(value: MsFlexAlign) -> #(String, String) {
-  #("-ms-flex-align", case value {
-    Start -> "start"
-    End -> "end"
-    Center -> "center"
-    Baseline -> "baseline"
-    Stretch -> "stretch"
-  })
+pub fn end() -> #(String, String) {
+  #("-ms-flex-align", "end")
+}
+
+pub fn center() -> #(String, String) {
+  #("-ms-flex-align", "center")
+}
+
+pub fn baseline() -> #(String, String) {
+  #("-ms-flex-align", "baseline")
+}
+
+pub fn stretch() -> #(String, String) {
+  #("-ms-flex-align", "stretch")
 }
 
 pub fn raw(value: String) -> #(String, String) {

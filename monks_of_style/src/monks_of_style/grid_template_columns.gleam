@@ -1,26 +1,31 @@
 
 
-pub type GridTemplateColumns{
-  None
-  MinContent
-  MaxContent
-  Auto
-  AutoFill
-  AutoFit
-  Subgrid
-
+pub fn none() -> #(String, String) {
+  #("grid-template-columns", "none")
 }
 
-pub fn enum(value: GridTemplateColumns) -> #(String, String) {
-  #("grid-template-columns", case value {
-    None -> "none"
-    MinContent -> "min-content"
-    MaxContent -> "max-content"
-    Auto -> "auto"
-    AutoFill -> "auto-fill"
-    AutoFit -> "auto-fit"
-    Subgrid -> "subgrid"
-  })
+pub fn min_content() -> #(String, String) {
+  #("grid-template-columns", "min-content")
+}
+
+pub fn max_content() -> #(String, String) {
+  #("grid-template-columns", "max-content")
+}
+
+pub fn auto_() -> #(String, String) {
+  #("grid-template-columns", "auto")
+}
+
+pub fn auto_fill() -> #(String, String) {
+  #("grid-template-columns", "auto-fill")
+}
+
+pub fn auto_fit() -> #(String, String) {
+  #("grid-template-columns", "auto-fit")
+}
+
+pub fn subgrid() -> #(String, String) {
+  #("grid-template-columns", "subgrid")
 }
 
 pub fn raw(value: String) -> #(String, String) {

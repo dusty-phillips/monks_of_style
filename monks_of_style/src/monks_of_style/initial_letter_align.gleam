@@ -1,20 +1,19 @@
 
 
-pub type InitialLetterAlign{
-  Auto
-  Alphabetic
-  Hanging
-  Ideographic
-
+pub fn auto_() -> #(String, String) {
+  #("initial-letter-align", "auto")
 }
 
-pub fn enum(value: InitialLetterAlign) -> #(String, String) {
-  #("initial-letter-align", case value {
-    Auto -> "auto"
-    Alphabetic -> "alphabetic"
-    Hanging -> "hanging"
-    Ideographic -> "ideographic"
-  })
+pub fn alphabetic() -> #(String, String) {
+  #("initial-letter-align", "alphabetic")
+}
+
+pub fn hanging() -> #(String, String) {
+  #("initial-letter-align", "hanging")
+}
+
+pub fn ideographic() -> #(String, String) {
+  #("initial-letter-align", "ideographic")
 }
 
 pub fn raw(value: String) -> #(String, String) {

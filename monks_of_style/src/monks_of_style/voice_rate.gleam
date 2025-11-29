@@ -1,24 +1,27 @@
 
 
-pub type VoiceRate{
-  Normal
-  XSlow
-  Slow
-  Medium
-  Fast
-  XFast
-
+pub fn normal() -> #(String, String) {
+  #("voice-rate", "normal")
 }
 
-pub fn enum(value: VoiceRate) -> #(String, String) {
-  #("voice-rate", case value {
-    Normal -> "normal"
-    XSlow -> "x-slow"
-    Slow -> "slow"
-    Medium -> "medium"
-    Fast -> "fast"
-    XFast -> "x-fast"
-  })
+pub fn x_slow() -> #(String, String) {
+  #("voice-rate", "x-slow")
+}
+
+pub fn slow() -> #(String, String) {
+  #("voice-rate", "slow")
+}
+
+pub fn medium() -> #(String, String) {
+  #("voice-rate", "medium")
+}
+
+pub fn fast() -> #(String, String) {
+  #("voice-rate", "fast")
+}
+
+pub fn x_fast() -> #(String, String) {
+  #("voice-rate", "x-fast")
 }
 
 pub fn raw(value: String) -> #(String, String) {

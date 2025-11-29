@@ -1,20 +1,19 @@
 
 
-pub type BoxPack{
-  Start
-  Center
-  End
-  Justify
-
+pub fn start() -> #(String, String) {
+  #("box-pack", "start")
 }
 
-pub fn enum(value: BoxPack) -> #(String, String) {
-  #("box-pack", case value {
-    Start -> "start"
-    Center -> "center"
-    End -> "end"
-    Justify -> "justify"
-  })
+pub fn center() -> #(String, String) {
+  #("box-pack", "center")
+}
+
+pub fn end() -> #(String, String) {
+  #("box-pack", "end")
+}
+
+pub fn justify() -> #(String, String) {
+  #("box-pack", "justify")
 }
 
 pub fn raw(value: String) -> #(String, String) {

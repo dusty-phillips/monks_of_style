@@ -1,30 +1,39 @@
 
 
-pub type FontVariantNumeric{
-  Normal
-  LiningNums
-  OldstyleNums
-  ProportionalNums
-  TabularNums
-  DiagonalFractions
-  StackedFractions
-  Ordinal
-  SlashedZero
-
+pub fn normal() -> #(String, String) {
+  #("font-variant-numeric", "normal")
 }
 
-pub fn enum(value: FontVariantNumeric) -> #(String, String) {
-  #("font-variant-numeric", case value {
-    Normal -> "normal"
-    LiningNums -> "lining-nums"
-    OldstyleNums -> "oldstyle-nums"
-    ProportionalNums -> "proportional-nums"
-    TabularNums -> "tabular-nums"
-    DiagonalFractions -> "diagonal-fractions"
-    StackedFractions -> "stacked-fractions"
-    Ordinal -> "ordinal"
-    SlashedZero -> "slashed-zero"
-  })
+pub fn lining_nums() -> #(String, String) {
+  #("font-variant-numeric", "lining-nums")
+}
+
+pub fn oldstyle_nums() -> #(String, String) {
+  #("font-variant-numeric", "oldstyle-nums")
+}
+
+pub fn proportional_nums() -> #(String, String) {
+  #("font-variant-numeric", "proportional-nums")
+}
+
+pub fn tabular_nums() -> #(String, String) {
+  #("font-variant-numeric", "tabular-nums")
+}
+
+pub fn diagonal_fractions() -> #(String, String) {
+  #("font-variant-numeric", "diagonal-fractions")
+}
+
+pub fn stacked_fractions() -> #(String, String) {
+  #("font-variant-numeric", "stacked-fractions")
+}
+
+pub fn ordinal() -> #(String, String) {
+  #("font-variant-numeric", "ordinal")
+}
+
+pub fn slashed_zero() -> #(String, String) {
+  #("font-variant-numeric", "slashed-zero")
 }
 
 pub fn raw(value: String) -> #(String, String) {

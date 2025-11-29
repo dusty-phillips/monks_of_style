@@ -1,18 +1,15 @@
 
 
-pub type AnimationComposition{
-  Replace
-  Add
-  Accumulate
-
+pub fn replace() -> #(String, String) {
+  #("animation-composition", "replace")
 }
 
-pub fn enum(value: AnimationComposition) -> #(String, String) {
-  #("animation-composition", case value {
-    Replace -> "replace"
-    Add -> "add"
-    Accumulate -> "accumulate"
-  })
+pub fn add() -> #(String, String) {
+  #("animation-composition", "add")
+}
+
+pub fn accumulate() -> #(String, String) {
+  #("animation-composition", "accumulate")
 }
 
 pub fn raw(value: String) -> #(String, String) {

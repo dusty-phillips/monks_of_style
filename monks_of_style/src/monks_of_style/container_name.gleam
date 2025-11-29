@@ -1,14 +1,7 @@
 
 
-pub type ContainerName{
-  None
-
-}
-
-pub fn enum(value: ContainerName) -> #(String, String) {
-  #("container-name", case value {
-    None -> "none"
-  })
+pub fn none() -> #(String, String) {
+  #("container-name", "none")
 }
 
 pub fn raw(value: String) -> #(String, String) {

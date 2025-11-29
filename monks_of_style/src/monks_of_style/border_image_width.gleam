@@ -1,14 +1,7 @@
 
 
-pub type BorderImageWidth{
-  Auto
-
-}
-
-pub fn enum(value: BorderImageWidth) -> #(String, String) {
-  #("border-image-width", case value {
-    Auto -> "auto"
-  })
+pub fn auto_() -> #(String, String) {
+  #("border-image-width", "auto")
 }
 
 pub fn raw(value: String) -> #(String, String) {

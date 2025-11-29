@@ -1,14 +1,7 @@
 
 
-pub type HyphenateCharacter{
-  Auto
-
-}
-
-pub fn enum(value: HyphenateCharacter) -> #(String, String) {
-  #("hyphenate-character", case value {
-    Auto -> "auto"
-  })
+pub fn auto_() -> #(String, String) {
+  #("hyphenate-character", "auto")
 }
 
 pub fn raw(value: String) -> #(String, String) {

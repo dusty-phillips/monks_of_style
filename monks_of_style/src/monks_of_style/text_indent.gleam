@@ -1,16 +1,11 @@
 
 
-pub type TextIndent{
-  Hanging
-  EachLine
-
+pub fn hanging() -> #(String, String) {
+  #("text-indent", "hanging")
 }
 
-pub fn enum(value: TextIndent) -> #(String, String) {
-  #("text-indent", case value {
-    Hanging -> "hanging"
-    EachLine -> "each-line"
-  })
+pub fn each_line() -> #(String, String) {
+  #("text-indent", "each-line")
 }
 
 pub fn raw(value: String) -> #(String, String) {

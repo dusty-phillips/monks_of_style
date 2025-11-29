@@ -1,18 +1,15 @@
 
 
-pub type ContentVisibility{
-  Visible
-  Auto
-  Hidden
-
+pub fn visible() -> #(String, String) {
+  #("content-visibility", "visible")
 }
 
-pub fn enum(value: ContentVisibility) -> #(String, String) {
-  #("content-visibility", case value {
-    Visible -> "visible"
-    Auto -> "auto"
-    Hidden -> "hidden"
-  })
+pub fn auto_() -> #(String, String) {
+  #("content-visibility", "auto")
+}
+
+pub fn hidden() -> #(String, String) {
+  #("content-visibility", "hidden")
 }
 
 pub fn raw(value: String) -> #(String, String) {

@@ -1,22 +1,23 @@
 
 
-pub type TextUnderlinePosition{
-  Auto
-  FromFont
-  Under
-  Left
-  Right
-
+pub fn auto_() -> #(String, String) {
+  #("text-underline-position", "auto")
 }
 
-pub fn enum(value: TextUnderlinePosition) -> #(String, String) {
-  #("text-underline-position", case value {
-    Auto -> "auto"
-    FromFont -> "from-font"
-    Under -> "under"
-    Left -> "left"
-    Right -> "right"
-  })
+pub fn from_font() -> #(String, String) {
+  #("text-underline-position", "from-font")
+}
+
+pub fn under() -> #(String, String) {
+  #("text-underline-position", "under")
+}
+
+pub fn left() -> #(String, String) {
+  #("text-underline-position", "left")
+}
+
+pub fn right() -> #(String, String) {
+  #("text-underline-position", "right")
 }
 
 pub fn raw(value: String) -> #(String, String) {

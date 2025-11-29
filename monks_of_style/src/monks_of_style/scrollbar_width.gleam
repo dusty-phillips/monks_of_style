@@ -1,18 +1,15 @@
 
 
-pub type ScrollbarWidth{
-  Auto
-  Thin
-  None
-
+pub fn auto_() -> #(String, String) {
+  #("scrollbar-width", "auto")
 }
 
-pub fn enum(value: ScrollbarWidth) -> #(String, String) {
-  #("scrollbar-width", case value {
-    Auto -> "auto"
-    Thin -> "thin"
-    None -> "none"
-  })
+pub fn thin() -> #(String, String) {
+  #("scrollbar-width", "thin")
+}
+
+pub fn none() -> #(String, String) {
+  #("scrollbar-width", "none")
 }
 
 pub fn raw(value: String) -> #(String, String) {

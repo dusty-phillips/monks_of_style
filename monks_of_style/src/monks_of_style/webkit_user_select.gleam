@@ -1,20 +1,19 @@
 
 
-pub type WebkitUserSelect{
-  Auto
-  None
-  Text
-  All
-
+pub fn auto_() -> #(String, String) {
+  #("-webkit-user-select", "auto")
 }
 
-pub fn enum(value: WebkitUserSelect) -> #(String, String) {
-  #("-webkit-user-select", case value {
-    Auto -> "auto"
-    None -> "none"
-    Text -> "text"
-    All -> "all"
-  })
+pub fn none() -> #(String, String) {
+  #("-webkit-user-select", "none")
+}
+
+pub fn text() -> #(String, String) {
+  #("-webkit-user-select", "text")
+}
+
+pub fn all() -> #(String, String) {
+  #("-webkit-user-select", "all")
 }
 
 pub fn raw(value: String) -> #(String, String) {

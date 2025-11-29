@@ -1,18 +1,15 @@
 
 
-pub type FontVariantPosition{
-  Normal
-  Sub
-  Super
-
+pub fn normal() -> #(String, String) {
+  #("font-variant-position", "normal")
 }
 
-pub fn enum(value: FontVariantPosition) -> #(String, String) {
-  #("font-variant-position", case value {
-    Normal -> "normal"
-    Sub -> "sub"
-    Super -> "super"
-  })
+pub fn sub() -> #(String, String) {
+  #("font-variant-position", "sub")
+}
+
+pub fn super() -> #(String, String) {
+  #("font-variant-position", "super")
 }
 
 pub fn raw(value: String) -> #(String, String) {

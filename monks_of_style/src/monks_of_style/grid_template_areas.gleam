@@ -1,14 +1,7 @@
 
 
-pub type GridTemplateAreas{
-  None
-
-}
-
-pub fn enum(value: GridTemplateAreas) -> #(String, String) {
-  #("grid-template-areas", case value {
-    None -> "none"
-  })
+pub fn none() -> #(String, String) {
+  #("grid-template-areas", "none")
 }
 
 pub fn raw(value: String) -> #(String, String) {

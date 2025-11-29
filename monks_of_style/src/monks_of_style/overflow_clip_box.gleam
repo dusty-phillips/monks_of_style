@@ -1,16 +1,11 @@
 
 
-pub type OverflowClipBox{
-  PaddingBox
-  ContentBox
-
+pub fn padding_box() -> #(String, String) {
+  #("overflow-clip-box", "padding-box")
 }
 
-pub fn enum(value: OverflowClipBox) -> #(String, String) {
-  #("overflow-clip-box", case value {
-    PaddingBox -> "padding-box"
-    ContentBox -> "content-box"
-  })
+pub fn content_box() -> #(String, String) {
+  #("overflow-clip-box", "content-box")
 }
 
 pub fn raw(value: String) -> #(String, String) {

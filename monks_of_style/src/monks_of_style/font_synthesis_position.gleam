@@ -1,16 +1,11 @@
 
 
-pub type FontSynthesisPosition{
-  Auto
-  None
-
+pub fn auto_() -> #(String, String) {
+  #("font-synthesis-position", "auto")
 }
 
-pub fn enum(value: FontSynthesisPosition) -> #(String, String) {
-  #("font-synthesis-position", case value {
-    Auto -> "auto"
-    None -> "none"
-  })
+pub fn none() -> #(String, String) {
+  #("font-synthesis-position", "none")
 }
 
 pub fn raw(value: String) -> #(String, String) {

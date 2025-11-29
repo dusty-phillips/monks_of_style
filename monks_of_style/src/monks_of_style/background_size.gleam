@@ -1,18 +1,15 @@
 
 
-pub type BackgroundSize{
-  Auto
-  Cover
-  Contain
-
+pub fn auto_() -> #(String, String) {
+  #("background-size", "auto")
 }
 
-pub fn enum(value: BackgroundSize) -> #(String, String) {
-  #("background-size", case value {
-    Auto -> "auto"
-    Cover -> "cover"
-    Contain -> "contain"
-  })
+pub fn cover() -> #(String, String) {
+  #("background-size", "cover")
+}
+
+pub fn contain() -> #(String, String) {
+  #("background-size", "contain")
 }
 
 pub fn raw(value: String) -> #(String, String) {

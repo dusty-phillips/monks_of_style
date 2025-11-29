@@ -1,16 +1,11 @@
 
 
-pub type TextDecorationThickness{
-  Auto
-  FromFont
-
+pub fn auto_() -> #(String, String) {
+  #("text-decoration-thickness", "auto")
 }
 
-pub fn enum(value: TextDecorationThickness) -> #(String, String) {
-  #("text-decoration-thickness", case value {
-    Auto -> "auto"
-    FromFont -> "from-font"
-  })
+pub fn from_font() -> #(String, String) {
+  #("text-decoration-thickness", "from-font")
 }
 
 pub fn raw(value: String) -> #(String, String) {

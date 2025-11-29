@@ -1,20 +1,19 @@
 
 
-pub type MsOverflowStyle{
-  Auto
-  None
-  Scrollbar
-  MsAutohidingScrollbar
-
+pub fn auto_() -> #(String, String) {
+  #("-ms-overflow-style", "auto")
 }
 
-pub fn enum(value: MsOverflowStyle) -> #(String, String) {
-  #("-ms-overflow-style", case value {
-    Auto -> "auto"
-    None -> "none"
-    Scrollbar -> "scrollbar"
-    MsAutohidingScrollbar -> "-ms-autohiding-scrollbar"
-  })
+pub fn none() -> #(String, String) {
+  #("-ms-overflow-style", "none")
+}
+
+pub fn scrollbar() -> #(String, String) {
+  #("-ms-overflow-style", "scrollbar")
+}
+
+pub fn ms_autohiding_scrollbar() -> #(String, String) {
+  #("-ms-overflow-style", "-ms-autohiding-scrollbar")
 }
 
 pub fn raw(value: String) -> #(String, String) {

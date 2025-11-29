@@ -1,22 +1,23 @@
 
 
-pub type MozContextProperties{
-  None
-  Fill
-  FillOpacity
-  Stroke
-  StrokeOpacity
-
+pub fn none() -> #(String, String) {
+  #("-moz-context-properties", "none")
 }
 
-pub fn enum(value: MozContextProperties) -> #(String, String) {
-  #("-moz-context-properties", case value {
-    None -> "none"
-    Fill -> "fill"
-    FillOpacity -> "fill-opacity"
-    Stroke -> "stroke"
-    StrokeOpacity -> "stroke-opacity"
-  })
+pub fn fill() -> #(String, String) {
+  #("-moz-context-properties", "fill")
+}
+
+pub fn fill_opacity() -> #(String, String) {
+  #("-moz-context-properties", "fill-opacity")
+}
+
+pub fn stroke() -> #(String, String) {
+  #("-moz-context-properties", "stroke")
+}
+
+pub fn stroke_opacity() -> #(String, String) {
+  #("-moz-context-properties", "stroke-opacity")
 }
 
 pub fn raw(value: String) -> #(String, String) {

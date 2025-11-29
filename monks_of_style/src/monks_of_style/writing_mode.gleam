@@ -1,34 +1,47 @@
 
 
-pub type WritingMode{
-  HorizontalTb
-  VerticalRl
-  VerticalLr
-  SidewaysRl
-  SidewaysLr
-  LrTb
-  RlTb
-  TbRl
-  Lr
-  Rl
-  Tb
-
+pub fn horizontal_tb() -> #(String, String) {
+  #("writing-mode", "horizontal-tb")
 }
 
-pub fn enum(value: WritingMode) -> #(String, String) {
-  #("writing-mode", case value {
-    HorizontalTb -> "horizontal-tb"
-    VerticalRl -> "vertical-rl"
-    VerticalLr -> "vertical-lr"
-    SidewaysRl -> "sideways-rl"
-    SidewaysLr -> "sideways-lr"
-    LrTb -> "lr-tb"
-    RlTb -> "rl-tb"
-    TbRl -> "tb-rl"
-    Lr -> "lr"
-    Rl -> "rl"
-    Tb -> "tb"
-  })
+pub fn vertical_rl() -> #(String, String) {
+  #("writing-mode", "vertical-rl")
+}
+
+pub fn vertical_lr() -> #(String, String) {
+  #("writing-mode", "vertical-lr")
+}
+
+pub fn sideways_rl() -> #(String, String) {
+  #("writing-mode", "sideways-rl")
+}
+
+pub fn sideways_lr() -> #(String, String) {
+  #("writing-mode", "sideways-lr")
+}
+
+pub fn lr_tb() -> #(String, String) {
+  #("writing-mode", "lr-tb")
+}
+
+pub fn rl_tb() -> #(String, String) {
+  #("writing-mode", "rl-tb")
+}
+
+pub fn tb_rl() -> #(String, String) {
+  #("writing-mode", "tb-rl")
+}
+
+pub fn lr() -> #(String, String) {
+  #("writing-mode", "lr")
+}
+
+pub fn rl() -> #(String, String) {
+  #("writing-mode", "rl")
+}
+
+pub fn tb() -> #(String, String) {
+  #("writing-mode", "tb")
 }
 
 pub fn raw(value: String) -> #(String, String) {

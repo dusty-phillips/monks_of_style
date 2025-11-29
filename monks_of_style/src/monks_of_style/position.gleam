@@ -1,24 +1,27 @@
 
 
-pub type Position{
-  Static
-  Relative
-  Absolute
-  Sticky
-  Fixed
-  WebkitSticky
-
+pub fn static() -> #(String, String) {
+  #("position", "static")
 }
 
-pub fn enum(value: Position) -> #(String, String) {
-  #("position", case value {
-    Static -> "static"
-    Relative -> "relative"
-    Absolute -> "absolute"
-    Sticky -> "sticky"
-    Fixed -> "fixed"
-    WebkitSticky -> "-webkit-sticky"
-  })
+pub fn relative() -> #(String, String) {
+  #("position", "relative")
+}
+
+pub fn absolute() -> #(String, String) {
+  #("position", "absolute")
+}
+
+pub fn sticky() -> #(String, String) {
+  #("position", "sticky")
+}
+
+pub fn fixed() -> #(String, String) {
+  #("position", "fixed")
+}
+
+pub fn webkit_sticky() -> #(String, String) {
+  #("position", "-webkit-sticky")
 }
 
 pub fn raw(value: String) -> #(String, String) {

@@ -1,16 +1,11 @@
 
 
-pub type MsAccelerator{
-  False
-  True
-
+pub fn false() -> #(String, String) {
+  #("-ms-accelerator", "false")
 }
 
-pub fn enum(value: MsAccelerator) -> #(String, String) {
-  #("-ms-accelerator", case value {
-    False -> "false"
-    True -> "true"
-  })
+pub fn true() -> #(String, String) {
+  #("-ms-accelerator", "true")
 }
 
 pub fn raw(value: String) -> #(String, String) {

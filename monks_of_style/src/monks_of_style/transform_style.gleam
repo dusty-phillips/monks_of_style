@@ -1,16 +1,11 @@
 
 
-pub type TransformStyle{
-  Flat
-  Preserve3d
-
+pub fn flat() -> #(String, String) {
+  #("transform-style", "flat")
 }
 
-pub fn enum(value: TransformStyle) -> #(String, String) {
-  #("transform-style", case value {
-    Flat -> "flat"
-    Preserve3d -> "preserve-3d"
-  })
+pub fn preserve_3d() -> #(String, String) {
+  #("transform-style", "preserve-3d")
 }
 
 pub fn raw(value: String) -> #(String, String) {

@@ -1,14 +1,7 @@
 
 
-pub type ViewTimelineInset{
-  Auto
-
-}
-
-pub fn enum(value: ViewTimelineInset) -> #(String, String) {
-  #("view-timeline-inset", case value {
-    Auto -> "auto"
-  })
+pub fn auto_() -> #(String, String) {
+  #("view-timeline-inset", "auto")
 }
 
 pub fn raw(value: String) -> #(String, String) {

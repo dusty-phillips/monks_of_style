@@ -1,16 +1,11 @@
 
 
-pub type MozControlCharacterVisibility{
-  Visible
-  Hidden
-
+pub fn visible() -> #(String, String) {
+  #("-moz-control-character-visibility", "visible")
 }
 
-pub fn enum(value: MozControlCharacterVisibility) -> #(String, String) {
-  #("-moz-control-character-visibility", case value {
-    Visible -> "visible"
-    Hidden -> "hidden"
-  })
+pub fn hidden() -> #(String, String) {
+  #("-moz-control-character-visibility", "hidden")
 }
 
 pub fn raw(value: String) -> #(String, String) {

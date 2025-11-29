@@ -1,16 +1,11 @@
 
 
-pub type AnimationPlayState{
-  Running
-  Paused
-
+pub fn running() -> #(String, String) {
+  #("animation-play-state", "running")
 }
 
-pub fn enum(value: AnimationPlayState) -> #(String, String) {
-  #("animation-play-state", case value {
-    Running -> "running"
-    Paused -> "paused"
-  })
+pub fn paused() -> #(String, String) {
+  #("animation-play-state", "paused")
 }
 
 pub fn raw(value: String) -> #(String, String) {

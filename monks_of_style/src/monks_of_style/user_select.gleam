@@ -1,22 +1,23 @@
 
 
-pub type UserSelect{
-  Auto
-  Text
-  None
-  Contain
-  All
-
+pub fn auto_() -> #(String, String) {
+  #("user-select", "auto")
 }
 
-pub fn enum(value: UserSelect) -> #(String, String) {
-  #("user-select", case value {
-    Auto -> "auto"
-    Text -> "text"
-    None -> "none"
-    Contain -> "contain"
-    All -> "all"
-  })
+pub fn text() -> #(String, String) {
+  #("user-select", "text")
+}
+
+pub fn none() -> #(String, String) {
+  #("user-select", "none")
+}
+
+pub fn contain() -> #(String, String) {
+  #("user-select", "contain")
+}
+
+pub fn all() -> #(String, String) {
+  #("user-select", "all")
 }
 
 pub fn raw(value: String) -> #(String, String) {

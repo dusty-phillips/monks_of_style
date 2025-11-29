@@ -1,28 +1,35 @@
 
 
-pub type MozUserFocus{
-  Ignore
-  Normal
-  SelectAfter
-  SelectBefore
-  SelectMenu
-  SelectSame
-  SelectAll
-  None
-
+pub fn ignore() -> #(String, String) {
+  #("-moz-user-focus", "ignore")
 }
 
-pub fn enum(value: MozUserFocus) -> #(String, String) {
-  #("-moz-user-focus", case value {
-    Ignore -> "ignore"
-    Normal -> "normal"
-    SelectAfter -> "select-after"
-    SelectBefore -> "select-before"
-    SelectMenu -> "select-menu"
-    SelectSame -> "select-same"
-    SelectAll -> "select-all"
-    None -> "none"
-  })
+pub fn normal() -> #(String, String) {
+  #("-moz-user-focus", "normal")
+}
+
+pub fn select_after() -> #(String, String) {
+  #("-moz-user-focus", "select-after")
+}
+
+pub fn select_before() -> #(String, String) {
+  #("-moz-user-focus", "select-before")
+}
+
+pub fn select_menu() -> #(String, String) {
+  #("-moz-user-focus", "select-menu")
+}
+
+pub fn select_same() -> #(String, String) {
+  #("-moz-user-focus", "select-same")
+}
+
+pub fn select_all() -> #(String, String) {
+  #("-moz-user-focus", "select-all")
+}
+
+pub fn none() -> #(String, String) {
+  #("-moz-user-focus", "none")
 }
 
 pub fn raw(value: String) -> #(String, String) {

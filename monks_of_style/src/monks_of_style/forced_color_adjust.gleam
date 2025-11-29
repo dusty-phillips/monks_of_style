@@ -1,18 +1,15 @@
 
 
-pub type ForcedColorAdjust{
-  Auto
-  None
-  PreserveParentColor
-
+pub fn auto_() -> #(String, String) {
+  #("forced-color-adjust", "auto")
 }
 
-pub fn enum(value: ForcedColorAdjust) -> #(String, String) {
-  #("forced-color-adjust", case value {
-    Auto -> "auto"
-    None -> "none"
-    PreserveParentColor -> "preserve-parent-color"
-  })
+pub fn none() -> #(String, String) {
+  #("forced-color-adjust", "none")
+}
+
+pub fn preserve_parent_color() -> #(String, String) {
+  #("forced-color-adjust", "preserve-parent-color")
 }
 
 pub fn raw(value: String) -> #(String, String) {

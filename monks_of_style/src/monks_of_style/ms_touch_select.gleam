@@ -1,16 +1,11 @@
 
 
-pub type MsTouchSelect{
-  Grippers
-  None
-
+pub fn grippers() -> #(String, String) {
+  #("-ms-touch-select", "grippers")
 }
 
-pub fn enum(value: MsTouchSelect) -> #(String, String) {
-  #("-ms-touch-select", case value {
-    Grippers -> "grippers"
-    None -> "none"
-  })
+pub fn none() -> #(String, String) {
+  #("-ms-touch-select", "none")
 }
 
 pub fn raw(value: String) -> #(String, String) {

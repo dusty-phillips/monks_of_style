@@ -1,24 +1,27 @@
 
 
-pub type MsFlexLinePack{
-  Start
-  End
-  Center
-  Justify
-  Distribute
-  Stretch
-
+pub fn start() -> #(String, String) {
+  #("-ms-flex-line-pack", "start")
 }
 
-pub fn enum(value: MsFlexLinePack) -> #(String, String) {
-  #("-ms-flex-line-pack", case value {
-    Start -> "start"
-    End -> "end"
-    Center -> "center"
-    Justify -> "justify"
-    Distribute -> "distribute"
-    Stretch -> "stretch"
-  })
+pub fn end() -> #(String, String) {
+  #("-ms-flex-line-pack", "end")
+}
+
+pub fn center() -> #(String, String) {
+  #("-ms-flex-line-pack", "center")
+}
+
+pub fn justify() -> #(String, String) {
+  #("-ms-flex-line-pack", "justify")
+}
+
+pub fn distribute() -> #(String, String) {
+  #("-ms-flex-line-pack", "distribute")
+}
+
+pub fn stretch() -> #(String, String) {
+  #("-ms-flex-line-pack", "stretch")
 }
 
 pub fn raw(value: String) -> #(String, String) {

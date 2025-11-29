@@ -1,24 +1,27 @@
 
 
-pub type MaskRepeat{
-  RepeatX
-  RepeatY
-  Repeat
-  Space
-  Round
-  NoRepeat
-
+pub fn repeat_x() -> #(String, String) {
+  #("mask-repeat", "repeat-x")
 }
 
-pub fn enum(value: MaskRepeat) -> #(String, String) {
-  #("mask-repeat", case value {
-    RepeatX -> "repeat-x"
-    RepeatY -> "repeat-y"
-    Repeat -> "repeat"
-    Space -> "space"
-    Round -> "round"
-    NoRepeat -> "no-repeat"
-  })
+pub fn repeat_y() -> #(String, String) {
+  #("mask-repeat", "repeat-y")
+}
+
+pub fn repeat() -> #(String, String) {
+  #("mask-repeat", "repeat")
+}
+
+pub fn space() -> #(String, String) {
+  #("mask-repeat", "space")
+}
+
+pub fn round() -> #(String, String) {
+  #("mask-repeat", "round")
+}
+
+pub fn no_repeat() -> #(String, String) {
+  #("mask-repeat", "no-repeat")
 }
 
 pub fn raw(value: String) -> #(String, String) {

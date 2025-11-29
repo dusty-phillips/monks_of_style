@@ -1,18 +1,15 @@
 
 
-pub type FontKerning{
-  Auto
-  Normal
-  None
-
+pub fn auto_() -> #(String, String) {
+  #("font-kerning", "auto")
 }
 
-pub fn enum(value: FontKerning) -> #(String, String) {
-  #("font-kerning", case value {
-    Auto -> "auto"
-    Normal -> "normal"
-    None -> "none"
-  })
+pub fn normal() -> #(String, String) {
+  #("font-kerning", "normal")
+}
+
+pub fn none() -> #(String, String) {
+  #("font-kerning", "none")
 }
 
 pub fn raw(value: String) -> #(String, String) {

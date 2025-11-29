@@ -1,16 +1,11 @@
 
 
-pub type AnchorScope{
-  None
-  All
-
+pub fn none() -> #(String, String) {
+  #("anchor-scope", "none")
 }
 
-pub fn enum(value: AnchorScope) -> #(String, String) {
-  #("anchor-scope", case value {
-    None -> "none"
-    All -> "all"
-  })
+pub fn all() -> #(String, String) {
+  #("anchor-scope", "all")
 }
 
 pub fn raw(value: String) -> #(String, String) {

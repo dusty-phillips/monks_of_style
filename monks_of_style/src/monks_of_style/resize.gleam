@@ -1,24 +1,27 @@
 
 
-pub type Resize{
-  None
-  Both
-  Horizontal
-  Vertical
-  Block
-  Inline
-
+pub fn none() -> #(String, String) {
+  #("resize", "none")
 }
 
-pub fn enum(value: Resize) -> #(String, String) {
-  #("resize", case value {
-    None -> "none"
-    Both -> "both"
-    Horizontal -> "horizontal"
-    Vertical -> "vertical"
-    Block -> "block"
-    Inline -> "inline"
-  })
+pub fn both() -> #(String, String) {
+  #("resize", "both")
+}
+
+pub fn horizontal() -> #(String, String) {
+  #("resize", "horizontal")
+}
+
+pub fn vertical() -> #(String, String) {
+  #("resize", "vertical")
+}
+
+pub fn block() -> #(String, String) {
+  #("resize", "block")
+}
+
+pub fn inline() -> #(String, String) {
+  #("resize", "inline")
 }
 
 pub fn raw(value: String) -> #(String, String) {

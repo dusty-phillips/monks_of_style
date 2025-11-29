@@ -1,16 +1,11 @@
 
 
-pub type ImageResolution{
-  FromImage
-  Snap
-
+pub fn from_image() -> #(String, String) {
+  #("image-resolution", "from-image")
 }
 
-pub fn enum(value: ImageResolution) -> #(String, String) {
-  #("image-resolution", case value {
-    FromImage -> "from-image"
-    Snap -> "snap"
-  })
+pub fn snap() -> #(String, String) {
+  #("image-resolution", "snap")
 }
 
 pub fn raw(value: String) -> #(String, String) {

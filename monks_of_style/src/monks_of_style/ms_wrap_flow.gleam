@@ -1,24 +1,27 @@
 
 
-pub type MsWrapFlow{
-  Auto
-  Both
-  Start
-  End
-  Maximum
-  Clear
-
+pub fn auto_() -> #(String, String) {
+  #("-ms-wrap-flow", "auto")
 }
 
-pub fn enum(value: MsWrapFlow) -> #(String, String) {
-  #("-ms-wrap-flow", case value {
-    Auto -> "auto"
-    Both -> "both"
-    Start -> "start"
-    End -> "end"
-    Maximum -> "maximum"
-    Clear -> "clear"
-  })
+pub fn both() -> #(String, String) {
+  #("-ms-wrap-flow", "both")
+}
+
+pub fn start() -> #(String, String) {
+  #("-ms-wrap-flow", "start")
+}
+
+pub fn end() -> #(String, String) {
+  #("-ms-wrap-flow", "end")
+}
+
+pub fn maximum() -> #(String, String) {
+  #("-ms-wrap-flow", "maximum")
+}
+
+pub fn clear() -> #(String, String) {
+  #("-ms-wrap-flow", "clear")
 }
 
 pub fn raw(value: String) -> #(String, String) {

@@ -1,16 +1,11 @@
 
 
-pub type MathShift{
-  Normal
-  Compact
-
+pub fn normal() -> #(String, String) {
+  #("math-shift", "normal")
 }
 
-pub fn enum(value: MathShift) -> #(String, String) {
-  #("math-shift", case value {
-    Normal -> "normal"
-    Compact -> "compact"
-  })
+pub fn compact() -> #(String, String) {
+  #("math-shift", "compact")
 }
 
 pub fn raw(value: String) -> #(String, String) {

@@ -1,30 +1,39 @@
 
 
-pub type FontStretch{
-  Normal
-  UltraCondensed
-  ExtraCondensed
-  Condensed
-  SemiCondensed
-  SemiExpanded
-  Expanded
-  ExtraExpanded
-  UltraExpanded
-
+pub fn normal() -> #(String, String) {
+  #("font-stretch", "normal")
 }
 
-pub fn enum(value: FontStretch) -> #(String, String) {
-  #("font-stretch", case value {
-    Normal -> "normal"
-    UltraCondensed -> "ultra-condensed"
-    ExtraCondensed -> "extra-condensed"
-    Condensed -> "condensed"
-    SemiCondensed -> "semi-condensed"
-    SemiExpanded -> "semi-expanded"
-    Expanded -> "expanded"
-    ExtraExpanded -> "extra-expanded"
-    UltraExpanded -> "ultra-expanded"
-  })
+pub fn ultra_condensed() -> #(String, String) {
+  #("font-stretch", "ultra-condensed")
+}
+
+pub fn extra_condensed() -> #(String, String) {
+  #("font-stretch", "extra-condensed")
+}
+
+pub fn condensed() -> #(String, String) {
+  #("font-stretch", "condensed")
+}
+
+pub fn semi_condensed() -> #(String, String) {
+  #("font-stretch", "semi-condensed")
+}
+
+pub fn semi_expanded() -> #(String, String) {
+  #("font-stretch", "semi-expanded")
+}
+
+pub fn expanded() -> #(String, String) {
+  #("font-stretch", "expanded")
+}
+
+pub fn extra_expanded() -> #(String, String) {
+  #("font-stretch", "extra-expanded")
+}
+
+pub fn ultra_expanded() -> #(String, String) {
+  #("font-stretch", "ultra-expanded")
 }
 
 pub fn raw(value: String) -> #(String, String) {

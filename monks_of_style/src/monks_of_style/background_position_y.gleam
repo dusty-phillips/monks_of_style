@@ -1,22 +1,23 @@
 
 
-pub type BackgroundPositionY{
-  Center
-  Top
-  Bottom
-  YStart
-  YEnd
-
+pub fn center() -> #(String, String) {
+  #("background-position-y", "center")
 }
 
-pub fn enum(value: BackgroundPositionY) -> #(String, String) {
-  #("background-position-y", case value {
-    Center -> "center"
-    Top -> "top"
-    Bottom -> "bottom"
-    YStart -> "y-start"
-    YEnd -> "y-end"
-  })
+pub fn top() -> #(String, String) {
+  #("background-position-y", "top")
+}
+
+pub fn bottom() -> #(String, String) {
+  #("background-position-y", "bottom")
+}
+
+pub fn y_start() -> #(String, String) {
+  #("background-position-y", "y-start")
+}
+
+pub fn y_end() -> #(String, String) {
+  #("background-position-y", "y-end")
 }
 
 pub fn raw(value: String) -> #(String, String) {

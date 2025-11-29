@@ -1,26 +1,31 @@
 
 
-pub type TextAlignLast{
-  Auto
-  Start
-  End
-  Left
-  Right
-  Center
-  Justify
-
+pub fn auto_() -> #(String, String) {
+  #("text-align-last", "auto")
 }
 
-pub fn enum(value: TextAlignLast) -> #(String, String) {
-  #("text-align-last", case value {
-    Auto -> "auto"
-    Start -> "start"
-    End -> "end"
-    Left -> "left"
-    Right -> "right"
-    Center -> "center"
-    Justify -> "justify"
-  })
+pub fn start() -> #(String, String) {
+  #("text-align-last", "start")
+}
+
+pub fn end() -> #(String, String) {
+  #("text-align-last", "end")
+}
+
+pub fn left() -> #(String, String) {
+  #("text-align-last", "left")
+}
+
+pub fn right() -> #(String, String) {
+  #("text-align-last", "right")
+}
+
+pub fn center() -> #(String, String) {
+  #("text-align-last", "center")
+}
+
+pub fn justify() -> #(String, String) {
+  #("text-align-last", "justify")
 }
 
 pub fn raw(value: String) -> #(String, String) {

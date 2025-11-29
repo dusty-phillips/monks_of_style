@@ -1,28 +1,35 @@
 
 
-pub type VerticalAlign{
-  Baseline
-  Sub
-  Super
-  TextTop
-  TextBottom
-  Middle
-  Top
-  Bottom
-
+pub fn baseline() -> #(String, String) {
+  #("vertical-align", "baseline")
 }
 
-pub fn enum(value: VerticalAlign) -> #(String, String) {
-  #("vertical-align", case value {
-    Baseline -> "baseline"
-    Sub -> "sub"
-    Super -> "super"
-    TextTop -> "text-top"
-    TextBottom -> "text-bottom"
-    Middle -> "middle"
-    Top -> "top"
-    Bottom -> "bottom"
-  })
+pub fn sub() -> #(String, String) {
+  #("vertical-align", "sub")
+}
+
+pub fn super() -> #(String, String) {
+  #("vertical-align", "super")
+}
+
+pub fn text_top() -> #(String, String) {
+  #("vertical-align", "text-top")
+}
+
+pub fn text_bottom() -> #(String, String) {
+  #("vertical-align", "text-bottom")
+}
+
+pub fn middle() -> #(String, String) {
+  #("vertical-align", "middle")
+}
+
+pub fn top() -> #(String, String) {
+  #("vertical-align", "top")
+}
+
+pub fn bottom() -> #(String, String) {
+  #("vertical-align", "bottom")
 }
 
 pub fn raw(value: String) -> #(String, String) {

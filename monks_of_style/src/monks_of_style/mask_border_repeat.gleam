@@ -1,20 +1,19 @@
 
 
-pub type MaskBorderRepeat{
-  Stretch
-  Repeat
-  Round
-  Space
-
+pub fn stretch() -> #(String, String) {
+  #("mask-border-repeat", "stretch")
 }
 
-pub fn enum(value: MaskBorderRepeat) -> #(String, String) {
-  #("mask-border-repeat", case value {
-    Stretch -> "stretch"
-    Repeat -> "repeat"
-    Round -> "round"
-    Space -> "space"
-  })
+pub fn repeat() -> #(String, String) {
+  #("mask-border-repeat", "repeat")
+}
+
+pub fn round() -> #(String, String) {
+  #("mask-border-repeat", "round")
+}
+
+pub fn space() -> #(String, String) {
+  #("mask-border-repeat", "space")
 }
 
 pub fn raw(value: String) -> #(String, String) {

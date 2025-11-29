@@ -1,18 +1,15 @@
 
 
-pub type FontPalette{
-  Normal
-  Light
-  Dark
-
+pub fn normal() -> #(String, String) {
+  #("font-palette", "normal")
 }
 
-pub fn enum(value: FontPalette) -> #(String, String) {
-  #("font-palette", case value {
-    Normal -> "normal"
-    Light -> "light"
-    Dark -> "dark"
-  })
+pub fn light() -> #(String, String) {
+  #("font-palette", "light")
+}
+
+pub fn dark() -> #(String, String) {
+  #("font-palette", "dark")
 }
 
 pub fn raw(value: String) -> #(String, String) {

@@ -1,16 +1,11 @@
 
 
-pub type MsInterpolationMode{
-  NearestNeighbor
-  Bicubic
-
+pub fn nearest_neighbor() -> #(String, String) {
+  #("-ms-interpolation-mode", "nearest-neighbor")
 }
 
-pub fn enum(value: MsInterpolationMode) -> #(String, String) {
-  #("-ms-interpolation-mode", case value {
-    NearestNeighbor -> "nearest-neighbor"
-    Bicubic -> "bicubic"
-  })
+pub fn bicubic() -> #(String, String) {
+  #("-ms-interpolation-mode", "bicubic")
 }
 
 pub fn raw(value: String) -> #(String, String) {

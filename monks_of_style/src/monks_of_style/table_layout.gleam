@@ -1,16 +1,11 @@
 
 
-pub type TableLayout{
-  Auto
-  Fixed
-
+pub fn auto_() -> #(String, String) {
+  #("table-layout", "auto")
 }
 
-pub fn enum(value: TableLayout) -> #(String, String) {
-  #("table-layout", case value {
-    Auto -> "auto"
-    Fixed -> "fixed"
-  })
+pub fn fixed() -> #(String, String) {
+  #("table-layout", "fixed")
 }
 
 pub fn raw(value: String) -> #(String, String) {

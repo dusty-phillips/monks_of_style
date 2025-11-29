@@ -1,14 +1,7 @@
 
 
-pub type MaskBorderWidth{
-  Auto
-
-}
-
-pub fn enum(value: MaskBorderWidth) -> #(String, String) {
-  #("mask-border-width", case value {
-    Auto -> "auto"
-  })
+pub fn auto_() -> #(String, String) {
+  #("mask-border-width", "auto")
 }
 
 pub fn raw(value: String) -> #(String, String) {

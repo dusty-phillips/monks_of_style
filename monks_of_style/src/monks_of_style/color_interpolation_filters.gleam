@@ -1,18 +1,15 @@
 
 
-pub type ColorInterpolationFilters{
-  Auto
-  SRgb
-  LinearRgb
-
+pub fn auto_() -> #(String, String) {
+  #("color-interpolation-filters", "auto")
 }
 
-pub fn enum(value: ColorInterpolationFilters) -> #(String, String) {
-  #("color-interpolation-filters", case value {
-    Auto -> "auto"
-    SRgb -> "sRGB"
-    LinearRgb -> "linearRGB"
-  })
+pub fn s_rgb() -> #(String, String) {
+  #("color-interpolation-filters", "sRGB")
+}
+
+pub fn linear_rgb() -> #(String, String) {
+  #("color-interpolation-filters", "linearRGB")
 }
 
 pub fn raw(value: String) -> #(String, String) {

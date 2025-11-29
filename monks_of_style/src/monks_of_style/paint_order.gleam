@@ -1,20 +1,19 @@
 
 
-pub type PaintOrder{
-  Normal
-  Fill
-  Stroke
-  Markers
-
+pub fn normal() -> #(String, String) {
+  #("paint-order", "normal")
 }
 
-pub fn enum(value: PaintOrder) -> #(String, String) {
-  #("paint-order", case value {
-    Normal -> "normal"
-    Fill -> "fill"
-    Stroke -> "stroke"
-    Markers -> "markers"
-  })
+pub fn fill() -> #(String, String) {
+  #("paint-order", "fill")
+}
+
+pub fn stroke() -> #(String, String) {
+  #("paint-order", "stroke")
+}
+
+pub fn markers() -> #(String, String) {
+  #("paint-order", "markers")
 }
 
 pub fn raw(value: String) -> #(String, String) {

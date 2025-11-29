@@ -1,16 +1,11 @@
 
 
-pub type BoxSizing{
-  ContentBox
-  BorderBox
-
+pub fn content_box() -> #(String, String) {
+  #("box-sizing", "content-box")
 }
 
-pub fn enum(value: BoxSizing) -> #(String, String) {
-  #("box-sizing", case value {
-    ContentBox -> "content-box"
-    BorderBox -> "border-box"
-  })
+pub fn border_box() -> #(String, String) {
+  #("box-sizing", "border-box")
 }
 
 pub fn raw(value: String) -> #(String, String) {

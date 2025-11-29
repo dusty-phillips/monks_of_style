@@ -1,18 +1,15 @@
 
 
-pub type RubyMerge{
-  Separate
-  Collapse
-  Auto
-
+pub fn separate() -> #(String, String) {
+  #("ruby-merge", "separate")
 }
 
-pub fn enum(value: RubyMerge) -> #(String, String) {
-  #("ruby-merge", case value {
-    Separate -> "separate"
-    Collapse -> "collapse"
-    Auto -> "auto"
-  })
+pub fn collapse() -> #(String, String) {
+  #("ruby-merge", "collapse")
+}
+
+pub fn auto_() -> #(String, String) {
+  #("ruby-merge", "auto")
 }
 
 pub fn raw(value: String) -> #(String, String) {

@@ -1,22 +1,23 @@
 
 
-pub type ScrollSnapDestination{
-  Left
-  Center
-  Right
-  Top
-  Bottom
-
+pub fn left() -> #(String, String) {
+  #("scroll-snap-destination", "left")
 }
 
-pub fn enum(value: ScrollSnapDestination) -> #(String, String) {
-  #("scroll-snap-destination", case value {
-    Left -> "left"
-    Center -> "center"
-    Right -> "right"
-    Top -> "top"
-    Bottom -> "bottom"
-  })
+pub fn center() -> #(String, String) {
+  #("scroll-snap-destination", "center")
+}
+
+pub fn right() -> #(String, String) {
+  #("scroll-snap-destination", "right")
+}
+
+pub fn top() -> #(String, String) {
+  #("scroll-snap-destination", "top")
+}
+
+pub fn bottom() -> #(String, String) {
+  #("scroll-snap-destination", "bottom")
 }
 
 pub fn raw(value: String) -> #(String, String) {

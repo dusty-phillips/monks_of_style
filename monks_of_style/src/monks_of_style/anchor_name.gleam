@@ -1,14 +1,7 @@
 
 
-pub type AnchorName{
-  None
-
-}
-
-pub fn enum(value: AnchorName) -> #(String, String) {
-  #("anchor-name", case value {
-    None -> "none"
-  })
+pub fn none() -> #(String, String) {
+  #("anchor-name", "none")
 }
 
 pub fn raw(value: String) -> #(String, String) {

@@ -1,22 +1,23 @@
 
 
-pub type LineBreak{
-  Auto
-  Loose
-  Normal
-  Strict
-  Anywhere
-
+pub fn auto_() -> #(String, String) {
+  #("line-break", "auto")
 }
 
-pub fn enum(value: LineBreak) -> #(String, String) {
-  #("line-break", case value {
-    Auto -> "auto"
-    Loose -> "loose"
-    Normal -> "normal"
-    Strict -> "strict"
-    Anywhere -> "anywhere"
-  })
+pub fn loose() -> #(String, String) {
+  #("line-break", "loose")
+}
+
+pub fn normal() -> #(String, String) {
+  #("line-break", "normal")
+}
+
+pub fn strict() -> #(String, String) {
+  #("line-break", "strict")
+}
+
+pub fn anywhere() -> #(String, String) {
+  #("line-break", "anywhere")
 }
 
 pub fn raw(value: String) -> #(String, String) {

@@ -1,16 +1,11 @@
 
 
-pub type ScrollSnapStop{
-  Normal
-  Always
-
+pub fn normal() -> #(String, String) {
+  #("scroll-snap-stop", "normal")
 }
 
-pub fn enum(value: ScrollSnapStop) -> #(String, String) {
-  #("scroll-snap-stop", case value {
-    Normal -> "normal"
-    Always -> "always"
-  })
+pub fn always() -> #(String, String) {
+  #("scroll-snap-stop", "always")
 }
 
 pub fn raw(value: String) -> #(String, String) {

@@ -1,28 +1,35 @@
 
 
-pub type MaskClip{
-  BorderBox
-  PaddingBox
-  ContentBox
-  MarginBox
-  FillBox
-  StrokeBox
-  ViewBox
-  NoClip
-
+pub fn border_box() -> #(String, String) {
+  #("mask-clip", "border-box")
 }
 
-pub fn enum(value: MaskClip) -> #(String, String) {
-  #("mask-clip", case value {
-    BorderBox -> "border-box"
-    PaddingBox -> "padding-box"
-    ContentBox -> "content-box"
-    MarginBox -> "margin-box"
-    FillBox -> "fill-box"
-    StrokeBox -> "stroke-box"
-    ViewBox -> "view-box"
-    NoClip -> "no-clip"
-  })
+pub fn padding_box() -> #(String, String) {
+  #("mask-clip", "padding-box")
+}
+
+pub fn content_box() -> #(String, String) {
+  #("mask-clip", "content-box")
+}
+
+pub fn margin_box() -> #(String, String) {
+  #("mask-clip", "margin-box")
+}
+
+pub fn fill_box() -> #(String, String) {
+  #("mask-clip", "fill-box")
+}
+
+pub fn stroke_box() -> #(String, String) {
+  #("mask-clip", "stroke-box")
+}
+
+pub fn view_box() -> #(String, String) {
+  #("mask-clip", "view-box")
+}
+
+pub fn no_clip() -> #(String, String) {
+  #("mask-clip", "no-clip")
 }
 
 pub fn raw(value: String) -> #(String, String) {

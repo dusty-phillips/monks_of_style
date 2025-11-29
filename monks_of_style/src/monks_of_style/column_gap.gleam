@@ -1,14 +1,7 @@
 
 
-pub type ColumnGap{
-  Normal
-
-}
-
-pub fn enum(value: ColumnGap) -> #(String, String) {
-  #("column-gap", case value {
-    Normal -> "normal"
-  })
+pub fn normal() -> #(String, String) {
+  #("column-gap", "normal")
 }
 
 pub fn raw(value: String) -> #(String, String) {

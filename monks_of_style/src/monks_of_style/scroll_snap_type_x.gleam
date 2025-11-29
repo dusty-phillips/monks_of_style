@@ -1,18 +1,15 @@
 
 
-pub type ScrollSnapTypeX{
-  None
-  Mandatory
-  Proximity
-
+pub fn none() -> #(String, String) {
+  #("scroll-snap-type-x", "none")
 }
 
-pub fn enum(value: ScrollSnapTypeX) -> #(String, String) {
-  #("scroll-snap-type-x", case value {
-    None -> "none"
-    Mandatory -> "mandatory"
-    Proximity -> "proximity"
-  })
+pub fn mandatory() -> #(String, String) {
+  #("scroll-snap-type-x", "mandatory")
+}
+
+pub fn proximity() -> #(String, String) {
+  #("scroll-snap-type-x", "proximity")
 }
 
 pub fn raw(value: String) -> #(String, String) {

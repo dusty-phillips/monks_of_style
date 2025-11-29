@@ -1,14 +1,7 @@
 
 
-pub type VoiceDuration{
-  Auto
-
-}
-
-pub fn enum(value: VoiceDuration) -> #(String, String) {
-  #("voice-duration", case value {
-    Auto -> "auto"
-  })
+pub fn auto_() -> #(String, String) {
+  #("voice-duration", "auto")
 }
 
 pub fn raw(value: String) -> #(String, String) {

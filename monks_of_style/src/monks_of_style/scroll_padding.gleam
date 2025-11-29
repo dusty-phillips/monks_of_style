@@ -1,14 +1,7 @@
 
 
-pub type ScrollPadding{
-  Auto
-
-}
-
-pub fn enum(value: ScrollPadding) -> #(String, String) {
-  #("scroll-padding", case value {
-    Auto -> "auto"
-  })
+pub fn auto_() -> #(String, String) {
+  #("scroll-padding", "auto")
 }
 
 pub fn raw(value: String) -> #(String, String) {

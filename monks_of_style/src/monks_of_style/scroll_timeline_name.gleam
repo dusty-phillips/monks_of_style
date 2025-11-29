@@ -1,14 +1,7 @@
 
 
-pub type ScrollTimelineName{
-  None
-
-}
-
-pub fn enum(value: ScrollTimelineName) -> #(String, String) {
-  #("scroll-timeline-name", case value {
-    None -> "none"
-  })
+pub fn none() -> #(String, String) {
+  #("scroll-timeline-name", "none")
 }
 
 pub fn raw(value: String) -> #(String, String) {

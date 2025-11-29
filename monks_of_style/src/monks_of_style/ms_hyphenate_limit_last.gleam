@@ -1,22 +1,23 @@
 
 
-pub type MsHyphenateLimitLast{
-  None
-  Always
-  Column
-  Page
-  Spread
-
+pub fn none() -> #(String, String) {
+  #("-ms-hyphenate-limit-last", "none")
 }
 
-pub fn enum(value: MsHyphenateLimitLast) -> #(String, String) {
-  #("-ms-hyphenate-limit-last", case value {
-    None -> "none"
-    Always -> "always"
-    Column -> "column"
-    Page -> "page"
-    Spread -> "spread"
-  })
+pub fn always() -> #(String, String) {
+  #("-ms-hyphenate-limit-last", "always")
+}
+
+pub fn column() -> #(String, String) {
+  #("-ms-hyphenate-limit-last", "column")
+}
+
+pub fn page() -> #(String, String) {
+  #("-ms-hyphenate-limit-last", "page")
+}
+
+pub fn spread() -> #(String, String) {
+  #("-ms-hyphenate-limit-last", "spread")
 }
 
 pub fn raw(value: String) -> #(String, String) {

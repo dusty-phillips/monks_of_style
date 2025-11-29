@@ -1,22 +1,23 @@
 
 
-pub type PerspectiveOrigin{
-  Left
-  Center
-  Right
-  Top
-  Bottom
-
+pub fn left() -> #(String, String) {
+  #("perspective-origin", "left")
 }
 
-pub fn enum(value: PerspectiveOrigin) -> #(String, String) {
-  #("perspective-origin", case value {
-    Left -> "left"
-    Center -> "center"
-    Right -> "right"
-    Top -> "top"
-    Bottom -> "bottom"
-  })
+pub fn center() -> #(String, String) {
+  #("perspective-origin", "center")
+}
+
+pub fn right() -> #(String, String) {
+  #("perspective-origin", "right")
+}
+
+pub fn top() -> #(String, String) {
+  #("perspective-origin", "top")
+}
+
+pub fn bottom() -> #(String, String) {
+  #("perspective-origin", "bottom")
 }
 
 pub fn raw(value: String) -> #(String, String) {

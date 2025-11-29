@@ -1,20 +1,19 @@
 
 
-pub type FontVariantEmoji{
-  Normal
-  Text
-  Emoji
-  Unicode
-
+pub fn normal() -> #(String, String) {
+  #("font-variant-emoji", "normal")
 }
 
-pub fn enum(value: FontVariantEmoji) -> #(String, String) {
-  #("font-variant-emoji", case value {
-    Normal -> "normal"
-    Text -> "text"
-    Emoji -> "emoji"
-    Unicode -> "unicode"
-  })
+pub fn text() -> #(String, String) {
+  #("font-variant-emoji", "text")
+}
+
+pub fn emoji() -> #(String, String) {
+  #("font-variant-emoji", "emoji")
+}
+
+pub fn unicode() -> #(String, String) {
+  #("font-variant-emoji", "unicode")
 }
 
 pub fn raw(value: String) -> #(String, String) {

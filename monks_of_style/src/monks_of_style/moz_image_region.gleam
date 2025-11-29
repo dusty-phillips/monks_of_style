@@ -1,14 +1,7 @@
 
 
-pub type MozImageRegion{
-  Auto
-
-}
-
-pub fn enum(value: MozImageRegion) -> #(String, String) {
-  #("-moz-image-region", case value {
-    Auto -> "auto"
-  })
+pub fn auto_() -> #(String, String) {
+  #("-moz-image-region", "auto")
 }
 
 pub fn raw(value: String) -> #(String, String) {

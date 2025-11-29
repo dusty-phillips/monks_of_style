@@ -1,18 +1,15 @@
 
 
-pub type Speak{
-  Auto
-  Never
-  Always
-
+pub fn auto_() -> #(String, String) {
+  #("speak", "auto")
 }
 
-pub fn enum(value: Speak) -> #(String, String) {
-  #("speak", case value {
-    Auto -> "auto"
-    Never -> "never"
-    Always -> "always"
-  })
+pub fn never() -> #(String, String) {
+  #("speak", "never")
+}
+
+pub fn always() -> #(String, String) {
+  #("speak", "always")
 }
 
 pub fn raw(value: String) -> #(String, String) {

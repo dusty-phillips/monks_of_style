@@ -1,14 +1,7 @@
 
 
-pub type MathDepth{
-  AutoAdd
-
-}
-
-pub fn enum(value: MathDepth) -> #(String, String) {
-  #("math-depth", case value {
-    AutoAdd -> "auto-add"
-  })
+pub fn auto_add() -> #(String, String) {
+  #("math-depth", "auto-add")
 }
 
 pub fn raw(value: String) -> #(String, String) {

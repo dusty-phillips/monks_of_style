@@ -1,14 +1,7 @@
 
 
-pub type WordSpacing{
-  Normal
-
-}
-
-pub fn enum(value: WordSpacing) -> #(String, String) {
-  #("word-spacing", case value {
-    Normal -> "normal"
-  })
+pub fn normal() -> #(String, String) {
+  #("word-spacing", "normal")
 }
 
 pub fn raw(value: String) -> #(String, String) {

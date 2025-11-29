@@ -1,18 +1,15 @@
 
 
-pub type BackgroundAttachment{
-  Scroll
-  Fixed
-  Local
-
+pub fn scroll() -> #(String, String) {
+  #("background-attachment", "scroll")
 }
 
-pub fn enum(value: BackgroundAttachment) -> #(String, String) {
-  #("background-attachment", case value {
-    Scroll -> "scroll"
-    Fixed -> "fixed"
-    Local -> "local"
-  })
+pub fn fixed() -> #(String, String) {
+  #("background-attachment", "fixed")
+}
+
+pub fn local() -> #(String, String) {
+  #("background-attachment", "local")
 }
 
 pub fn raw(value: String) -> #(String, String) {

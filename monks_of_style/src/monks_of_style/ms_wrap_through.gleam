@@ -1,16 +1,11 @@
 
 
-pub type MsWrapThrough{
-  Wrap
-  None
-
+pub fn wrap() -> #(String, String) {
+  #("-ms-wrap-through", "wrap")
 }
 
-pub fn enum(value: MsWrapThrough) -> #(String, String) {
-  #("-ms-wrap-through", case value {
-    Wrap -> "wrap"
-    None -> "none"
-  })
+pub fn none() -> #(String, String) {
+  #("-ms-wrap-through", "none")
 }
 
 pub fn raw(value: String) -> #(String, String) {

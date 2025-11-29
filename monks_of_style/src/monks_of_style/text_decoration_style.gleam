@@ -1,22 +1,23 @@
 
 
-pub type TextDecorationStyle{
-  Solid
-  Double
-  Dotted
-  Dashed
-  Wavy
-
+pub fn solid() -> #(String, String) {
+  #("text-decoration-style", "solid")
 }
 
-pub fn enum(value: TextDecorationStyle) -> #(String, String) {
-  #("text-decoration-style", case value {
-    Solid -> "solid"
-    Double -> "double"
-    Dotted -> "dotted"
-    Dashed -> "dashed"
-    Wavy -> "wavy"
-  })
+pub fn double() -> #(String, String) {
+  #("text-decoration-style", "double")
+}
+
+pub fn dotted() -> #(String, String) {
+  #("text-decoration-style", "dotted")
+}
+
+pub fn dashed() -> #(String, String) {
+  #("text-decoration-style", "dashed")
+}
+
+pub fn wavy() -> #(String, String) {
+  #("text-decoration-style", "wavy")
 }
 
 pub fn raw(value: String) -> #(String, String) {

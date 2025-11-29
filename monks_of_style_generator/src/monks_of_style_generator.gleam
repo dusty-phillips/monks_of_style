@@ -19,51 +19,32 @@ fn properties() -> List(String) {
   })
 }
 
+fn sanitize_keyword(keyword: String) -> String {
+  case justin.snake_case(keyword) {
+    "auto" -> "auto_"
+    keyword -> keyword
+  }
+}
+
 fn property_keywords(property: String) -> List(String) {
   properties_keywords_external(property) |> array.to_list
 }
 
-fn build_keywords_enum(property: String) -> String {
+fn build_keyword_functions(property: String) -> String {
   let keywords = property_keywords(property)
-  case keywords |> list.is_empty {
-    True -> ""
-    False ->
-      "\n\npub type "
-      <> justin.pascal_case(property)
-      <> "{\n"
-      <> keywords
-      |> list.map(fn(keyword) { "  " <> justin.pascal_case(keyword) <> "\n" })
-      |> string.concat
-      <> "\n}"
-  }
-}
-
-fn build_keyword_function(property: String) -> String {
-  let keywords = property_keywords(property)
-  case keywords |> list.is_empty {
-    True -> ""
-    False ->
-      "\n\npub fn enum(value: "
-      <> justin.pascal_case(property)
-      <> ") -> #(String, String) {\n"
-      <> "  #("
-      <> "\""
-      <> property
-      <> "\", case value {"
-      <> keywords
-      |> list.map(fn(keyword) {
-        "\n    "
-        <> justin.pascal_case(keyword)
-        <> " -> "
-        <> "\""
-        <> keyword
-        <> "\""
-      })
-      |> string.concat
-      <> "\n  }"
-      <> ")"
-      <> "\n}"
-  }
+  keywords
+  |> list.map(fn(keyword) {
+    "\n\npub fn "
+    <> sanitize_keyword(keyword)
+    <> "() -> #(String, String) {\n"
+    <> "  #(\""
+    <> property
+    <> "\", \""
+    <> keyword
+    <> "\")\n"
+    <> "}"
+  })
+  |> string.concat
 }
 
 fn build_raw_function(property: String) -> String {
@@ -88,8 +69,7 @@ pub fn build_prop(property: String) -> String {
   let accumulator = ""
 
   accumulator
-  <> build_keywords_enum(property)
-  <> build_keyword_function(property)
+  <> build_keyword_functions(property)
   <> build_raw_function(property)
   <> build_var_function(property)
 }

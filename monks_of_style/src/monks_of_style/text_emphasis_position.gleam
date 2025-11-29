@@ -1,22 +1,23 @@
 
 
-pub type TextEmphasisPosition{
-  Auto
-  Over
-  Under
-  Right
-  Left
-
+pub fn auto_() -> #(String, String) {
+  #("text-emphasis-position", "auto")
 }
 
-pub fn enum(value: TextEmphasisPosition) -> #(String, String) {
-  #("text-emphasis-position", case value {
-    Auto -> "auto"
-    Over -> "over"
-    Under -> "under"
-    Right -> "right"
-    Left -> "left"
-  })
+pub fn over() -> #(String, String) {
+  #("text-emphasis-position", "over")
+}
+
+pub fn under() -> #(String, String) {
+  #("text-emphasis-position", "under")
+}
+
+pub fn right() -> #(String, String) {
+  #("text-emphasis-position", "right")
+}
+
+pub fn left() -> #(String, String) {
+  #("text-emphasis-position", "left")
 }
 
 pub fn raw(value: String) -> #(String, String) {

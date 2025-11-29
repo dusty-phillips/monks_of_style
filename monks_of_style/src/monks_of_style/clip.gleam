@@ -1,14 +1,7 @@
 
 
-pub type Clip{
-  Auto
-
-}
-
-pub fn enum(value: Clip) -> #(String, String) {
-  #("clip", case value {
-    Auto -> "auto"
-  })
+pub fn auto_() -> #(String, String) {
+  #("clip", "auto")
 }
 
 pub fn raw(value: String) -> #(String, String) {

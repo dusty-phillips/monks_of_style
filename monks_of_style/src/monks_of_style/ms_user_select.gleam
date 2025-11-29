@@ -1,18 +1,15 @@
 
 
-pub type MsUserSelect{
-  None
-  Element
-  Text
-
+pub fn none() -> #(String, String) {
+  #("-ms-user-select", "none")
 }
 
-pub fn enum(value: MsUserSelect) -> #(String, String) {
-  #("-ms-user-select", case value {
-    None -> "none"
-    Element -> "element"
-    Text -> "text"
-  })
+pub fn element() -> #(String, String) {
+  #("-ms-user-select", "element")
+}
+
+pub fn text() -> #(String, String) {
+  #("-ms-user-select", "text")
 }
 
 pub fn raw(value: String) -> #(String, String) {

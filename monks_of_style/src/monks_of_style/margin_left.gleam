@@ -1,14 +1,7 @@
 
 
-pub type MarginLeft{
-  Auto
-
-}
-
-pub fn enum(value: MarginLeft) -> #(String, String) {
-  #("margin-left", case value {
-    Auto -> "auto"
-  })
+pub fn auto_() -> #(String, String) {
+  #("margin-left", "auto")
 }
 
 pub fn raw(value: String) -> #(String, String) {

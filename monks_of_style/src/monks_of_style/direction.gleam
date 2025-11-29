@@ -1,16 +1,11 @@
 
 
-pub type Direction{
-  Ltr
-  Rtl
-
+pub fn ltr() -> #(String, String) {
+  #("direction", "ltr")
 }
 
-pub fn enum(value: Direction) -> #(String, String) {
-  #("direction", case value {
-    Ltr -> "ltr"
-    Rtl -> "rtl"
-  })
+pub fn rtl() -> #(String, String) {
+  #("direction", "rtl")
 }
 
 pub fn raw(value: String) -> #(String, String) {

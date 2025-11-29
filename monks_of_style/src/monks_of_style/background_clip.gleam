@@ -1,22 +1,23 @@
 
 
-pub type BackgroundClip{
-  BorderBox
-  PaddingBox
-  ContentBox
-  Border
-  Text
-
+pub fn border_box() -> #(String, String) {
+  #("background-clip", "border-box")
 }
 
-pub fn enum(value: BackgroundClip) -> #(String, String) {
-  #("background-clip", case value {
-    BorderBox -> "border-box"
-    PaddingBox -> "padding-box"
-    ContentBox -> "content-box"
-    Border -> "border"
-    Text -> "text"
-  })
+pub fn padding_box() -> #(String, String) {
+  #("background-clip", "padding-box")
+}
+
+pub fn content_box() -> #(String, String) {
+  #("background-clip", "content-box")
+}
+
+pub fn border() -> #(String, String) {
+  #("background-clip", "border")
+}
+
+pub fn text() -> #(String, String) {
+  #("background-clip", "text")
 }
 
 pub fn raw(value: String) -> #(String, String) {

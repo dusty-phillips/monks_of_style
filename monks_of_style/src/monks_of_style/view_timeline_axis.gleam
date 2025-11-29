@@ -1,20 +1,19 @@
 
 
-pub type ViewTimelineAxis{
-  Block
-  Inline
-  X
-  Y
-
+pub fn block() -> #(String, String) {
+  #("view-timeline-axis", "block")
 }
 
-pub fn enum(value: ViewTimelineAxis) -> #(String, String) {
-  #("view-timeline-axis", case value {
-    Block -> "block"
-    Inline -> "inline"
-    X -> "x"
-    Y -> "y"
-  })
+pub fn inline() -> #(String, String) {
+  #("view-timeline-axis", "inline")
+}
+
+pub fn x() -> #(String, String) {
+  #("view-timeline-axis", "x")
+}
+
+pub fn y() -> #(String, String) {
+  #("view-timeline-axis", "y")
 }
 
 pub fn raw(value: String) -> #(String, String) {

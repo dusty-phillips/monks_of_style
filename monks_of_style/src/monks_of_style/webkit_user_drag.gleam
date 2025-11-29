@@ -1,18 +1,15 @@
 
 
-pub type WebkitUserDrag{
-  None
-  Element
-  Auto
-
+pub fn none() -> #(String, String) {
+  #("-webkit-user-drag", "none")
 }
 
-pub fn enum(value: WebkitUserDrag) -> #(String, String) {
-  #("-webkit-user-drag", case value {
-    None -> "none"
-    Element -> "element"
-    Auto -> "auto"
-  })
+pub fn element() -> #(String, String) {
+  #("-webkit-user-drag", "element")
+}
+
+pub fn auto_() -> #(String, String) {
+  #("-webkit-user-drag", "auto")
 }
 
 pub fn raw(value: String) -> #(String, String) {

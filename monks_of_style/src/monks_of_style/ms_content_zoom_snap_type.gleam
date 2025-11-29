@@ -1,18 +1,15 @@
 
 
-pub type MsContentZoomSnapType{
-  None
-  Proximity
-  Mandatory
-
+pub fn none() -> #(String, String) {
+  #("-ms-content-zoom-snap-type", "none")
 }
 
-pub fn enum(value: MsContentZoomSnapType) -> #(String, String) {
-  #("-ms-content-zoom-snap-type", case value {
-    None -> "none"
-    Proximity -> "proximity"
-    Mandatory -> "mandatory"
-  })
+pub fn proximity() -> #(String, String) {
+  #("-ms-content-zoom-snap-type", "proximity")
+}
+
+pub fn mandatory() -> #(String, String) {
+  #("-ms-content-zoom-snap-type", "mandatory")
 }
 
 pub fn raw(value: String) -> #(String, String) {

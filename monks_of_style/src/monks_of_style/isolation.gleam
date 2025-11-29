@@ -1,16 +1,11 @@
 
 
-pub type Isolation{
-  Auto
-  Isolate
-
+pub fn auto_() -> #(String, String) {
+  #("isolation", "auto")
 }
 
-pub fn enum(value: Isolation) -> #(String, String) {
-  #("isolation", case value {
-    Auto -> "auto"
-    Isolate -> "isolate"
-  })
+pub fn isolate() -> #(String, String) {
+  #("isolation", "isolate")
 }
 
 pub fn raw(value: String) -> #(String, String) {

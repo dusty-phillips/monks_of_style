@@ -1,14 +1,7 @@
 
 
-pub type StrokeDasharray{
-  None
-
-}
-
-pub fn enum(value: StrokeDasharray) -> #(String, String) {
-  #("stroke-dasharray", case value {
-    None -> "none"
-  })
+pub fn none() -> #(String, String) {
+  #("stroke-dasharray", "none")
 }
 
 pub fn raw(value: String) -> #(String, String) {

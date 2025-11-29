@@ -1,18 +1,15 @@
 
 
-pub type WebkitColumnBreakAfter{
-  Always
-  Auto
-  Avoid
-
+pub fn always() -> #(String, String) {
+  #("-webkit-column-break-after", "always")
 }
 
-pub fn enum(value: WebkitColumnBreakAfter) -> #(String, String) {
-  #("-webkit-column-break-after", case value {
-    Always -> "always"
-    Auto -> "auto"
-    Avoid -> "avoid"
-  })
+pub fn auto_() -> #(String, String) {
+  #("-webkit-column-break-after", "auto")
+}
+
+pub fn avoid() -> #(String, String) {
+  #("-webkit-column-break-after", "avoid")
 }
 
 pub fn raw(value: String) -> #(String, String) {

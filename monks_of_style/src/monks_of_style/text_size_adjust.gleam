@@ -1,16 +1,11 @@
 
 
-pub type TextSizeAdjust{
-  None
-  Auto
-
+pub fn none() -> #(String, String) {
+  #("text-size-adjust", "none")
 }
 
-pub fn enum(value: TextSizeAdjust) -> #(String, String) {
-  #("text-size-adjust", case value {
-    None -> "none"
-    Auto -> "auto"
-  })
+pub fn auto_() -> #(String, String) {
+  #("text-size-adjust", "auto")
 }
 
 pub fn raw(value: String) -> #(String, String) {

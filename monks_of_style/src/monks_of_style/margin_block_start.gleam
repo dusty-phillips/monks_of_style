@@ -1,14 +1,7 @@
 
 
-pub type MarginBlockStart{
-  Auto
-
-}
-
-pub fn enum(value: MarginBlockStart) -> #(String, String) {
-  #("margin-block-start", case value {
-    Auto -> "auto"
-  })
+pub fn auto_() -> #(String, String) {
+  #("margin-block-start", "auto")
 }
 
 pub fn raw(value: String) -> #(String, String) {

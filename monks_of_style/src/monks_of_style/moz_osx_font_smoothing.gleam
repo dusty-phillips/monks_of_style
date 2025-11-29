@@ -1,16 +1,11 @@
 
 
-pub type MozOsxFontSmoothing{
-  Auto
-  Grayscale
-
+pub fn auto_() -> #(String, String) {
+  #("-moz-osx-font-smoothing", "auto")
 }
 
-pub fn enum(value: MozOsxFontSmoothing) -> #(String, String) {
-  #("-moz-osx-font-smoothing", case value {
-    Auto -> "auto"
-    Grayscale -> "grayscale"
-  })
+pub fn grayscale() -> #(String, String) {
+  #("-moz-osx-font-smoothing", "grayscale")
 }
 
 pub fn raw(value: String) -> #(String, String) {

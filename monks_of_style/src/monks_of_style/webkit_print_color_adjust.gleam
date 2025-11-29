@@ -1,16 +1,11 @@
 
 
-pub type WebkitPrintColorAdjust{
-  Economy
-  Exact
-
+pub fn economy() -> #(String, String) {
+  #("-webkit-print-color-adjust", "economy")
 }
 
-pub fn enum(value: WebkitPrintColorAdjust) -> #(String, String) {
-  #("-webkit-print-color-adjust", case value {
-    Economy -> "economy"
-    Exact -> "exact"
-  })
+pub fn exact() -> #(String, String) {
+  #("-webkit-print-color-adjust", "exact")
 }
 
 pub fn raw(value: String) -> #(String, String) {

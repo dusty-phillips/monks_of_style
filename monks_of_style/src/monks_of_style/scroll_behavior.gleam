@@ -1,16 +1,11 @@
 
 
-pub type ScrollBehavior{
-  Auto
-  Smooth
-
+pub fn auto_() -> #(String, String) {
+  #("scroll-behavior", "auto")
 }
 
-pub fn enum(value: ScrollBehavior) -> #(String, String) {
-  #("scroll-behavior", case value {
-    Auto -> "auto"
-    Smooth -> "smooth"
-  })
+pub fn smooth() -> #(String, String) {
+  #("scroll-behavior", "smooth")
 }
 
 pub fn raw(value: String) -> #(String, String) {

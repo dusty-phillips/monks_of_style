@@ -1,14 +1,7 @@
 
 
-pub type MozBinding{
-  None
-
-}
-
-pub fn enum(value: MozBinding) -> #(String, String) {
-  #("-moz-binding", case value {
-    None -> "none"
-  })
+pub fn none() -> #(String, String) {
+  #("-moz-binding", "none")
 }
 
 pub fn raw(value: String) -> #(String, String) {

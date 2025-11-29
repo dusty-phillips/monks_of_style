@@ -1,18 +1,15 @@
 
 
-pub type WebkitBorderBeforeWidth{
-  Thin
-  Medium
-  Thick
-
+pub fn thin() -> #(String, String) {
+  #("-webkit-border-before-width", "thin")
 }
 
-pub fn enum(value: WebkitBorderBeforeWidth) -> #(String, String) {
-  #("-webkit-border-before-width", case value {
-    Thin -> "thin"
-    Medium -> "medium"
-    Thick -> "thick"
-  })
+pub fn medium() -> #(String, String) {
+  #("-webkit-border-before-width", "medium")
+}
+
+pub fn thick() -> #(String, String) {
+  #("-webkit-border-before-width", "thick")
 }
 
 pub fn raw(value: String) -> #(String, String) {

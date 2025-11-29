@@ -1,16 +1,11 @@
 
 
-pub type OffsetRotate{
-  Auto
-  Reverse
-
+pub fn auto_() -> #(String, String) {
+  #("offset-rotate", "auto")
 }
 
-pub fn enum(value: OffsetRotate) -> #(String, String) {
-  #("offset-rotate", case value {
-    Auto -> "auto"
-    Reverse -> "reverse"
-  })
+pub fn reverse() -> #(String, String) {
+  #("offset-rotate", "reverse")
 }
 
 pub fn raw(value: String) -> #(String, String) {

@@ -1,22 +1,23 @@
 
 
-pub type ImeMode{
-  Auto
-  Normal
-  Active
-  Inactive
-  Disabled
-
+pub fn auto_() -> #(String, String) {
+  #("ime-mode", "auto")
 }
 
-pub fn enum(value: ImeMode) -> #(String, String) {
-  #("ime-mode", case value {
-    Auto -> "auto"
-    Normal -> "normal"
-    Active -> "active"
-    Inactive -> "inactive"
-    Disabled -> "disabled"
-  })
+pub fn normal() -> #(String, String) {
+  #("ime-mode", "normal")
+}
+
+pub fn active() -> #(String, String) {
+  #("ime-mode", "active")
+}
+
+pub fn inactive() -> #(String, String) {
+  #("ime-mode", "inactive")
+}
+
+pub fn disabled() -> #(String, String) {
+  #("ime-mode", "disabled")
 }
 
 pub fn raw(value: String) -> #(String, String) {

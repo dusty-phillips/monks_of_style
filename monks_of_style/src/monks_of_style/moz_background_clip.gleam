@@ -1,16 +1,11 @@
 
 
-pub type MozBackgroundClip{
-  Padding
-  Border
-
+pub fn padding() -> #(String, String) {
+  #("-moz-background-clip", "padding")
 }
 
-pub fn enum(value: MozBackgroundClip) -> #(String, String) {
-  #("-moz-background-clip", case value {
-    Padding -> "padding"
-    Border -> "border"
-  })
+pub fn border() -> #(String, String) {
+  #("-moz-background-clip", "border")
 }
 
 pub fn raw(value: String) -> #(String, String) {

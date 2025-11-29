@@ -1,24 +1,27 @@
 
 
-pub type WebkitMaskRepeat{
-  RepeatX
-  RepeatY
-  Repeat
-  Space
-  Round
-  NoRepeat
-
+pub fn repeat_x() -> #(String, String) {
+  #("-webkit-mask-repeat", "repeat-x")
 }
 
-pub fn enum(value: WebkitMaskRepeat) -> #(String, String) {
-  #("-webkit-mask-repeat", case value {
-    RepeatX -> "repeat-x"
-    RepeatY -> "repeat-y"
-    Repeat -> "repeat"
-    Space -> "space"
-    Round -> "round"
-    NoRepeat -> "no-repeat"
-  })
+pub fn repeat_y() -> #(String, String) {
+  #("-webkit-mask-repeat", "repeat-y")
+}
+
+pub fn repeat() -> #(String, String) {
+  #("-webkit-mask-repeat", "repeat")
+}
+
+pub fn space() -> #(String, String) {
+  #("-webkit-mask-repeat", "space")
+}
+
+pub fn round() -> #(String, String) {
+  #("-webkit-mask-repeat", "round")
+}
+
+pub fn no_repeat() -> #(String, String) {
+  #("-webkit-mask-repeat", "no-repeat")
 }
 
 pub fn raw(value: String) -> #(String, String) {

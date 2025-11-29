@@ -1,18 +1,15 @@
 
 
-pub type OverflowWrap{
-  Normal
-  BreakWord
-  Anywhere
-
+pub fn normal() -> #(String, String) {
+  #("overflow-wrap", "normal")
 }
 
-pub fn enum(value: OverflowWrap) -> #(String, String) {
-  #("overflow-wrap", case value {
-    Normal -> "normal"
-    BreakWord -> "break-word"
-    Anywhere -> "anywhere"
-  })
+pub fn break_word() -> #(String, String) {
+  #("overflow-wrap", "break-word")
+}
+
+pub fn anywhere() -> #(String, String) {
+  #("overflow-wrap", "anywhere")
 }
 
 pub fn raw(value: String) -> #(String, String) {

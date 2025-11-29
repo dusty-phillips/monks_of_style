@@ -1,14 +1,7 @@
 
 
-pub type InitialLetter{
-  Normal
-
-}
-
-pub fn enum(value: InitialLetter) -> #(String, String) {
-  #("initial-letter", case value {
-    Normal -> "normal"
-  })
+pub fn normal() -> #(String, String) {
+  #("initial-letter", "normal")
 }
 
 pub fn raw(value: String) -> #(String, String) {

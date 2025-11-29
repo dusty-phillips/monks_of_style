@@ -1,14 +1,7 @@
 
 
-pub type MsFlowFrom{
-  None
-
-}
-
-pub fn enum(value: MsFlowFrom) -> #(String, String) {
-  #("-ms-flow-from", case value {
-    None -> "none"
-  })
+pub fn none() -> #(String, String) {
+  #("-ms-flow-from", "none")
 }
 
 pub fn raw(value: String) -> #(String, String) {

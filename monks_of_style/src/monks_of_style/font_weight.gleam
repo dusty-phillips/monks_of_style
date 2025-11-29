@@ -1,20 +1,19 @@
 
 
-pub type FontWeight{
-  Normal
-  Bold
-  Bolder
-  Lighter
-
+pub fn normal() -> #(String, String) {
+  #("font-weight", "normal")
 }
 
-pub fn enum(value: FontWeight) -> #(String, String) {
-  #("font-weight", case value {
-    Normal -> "normal"
-    Bold -> "bold"
-    Bolder -> "bolder"
-    Lighter -> "lighter"
-  })
+pub fn bold() -> #(String, String) {
+  #("font-weight", "bold")
+}
+
+pub fn bolder() -> #(String, String) {
+  #("font-weight", "bolder")
+}
+
+pub fn lighter() -> #(String, String) {
+  #("font-weight", "lighter")
 }
 
 pub fn raw(value: String) -> #(String, String) {

@@ -1,16 +1,11 @@
 
 
-pub type Zoom{
-  Normal
-  Reset
-
+pub fn normal() -> #(String, String) {
+  #("zoom", "normal")
 }
 
-pub fn enum(value: Zoom) -> #(String, String) {
-  #("zoom", case value {
-    Normal -> "normal"
-    Reset -> "reset"
-  })
+pub fn reset() -> #(String, String) {
+  #("zoom", "reset")
 }
 
 pub fn raw(value: String) -> #(String, String) {

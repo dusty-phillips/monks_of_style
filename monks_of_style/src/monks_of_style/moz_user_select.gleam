@@ -1,20 +1,19 @@
 
 
-pub type MozUserSelect{
-  None
-  Text
-  All
-  MozNone
-
+pub fn none() -> #(String, String) {
+  #("-moz-user-select", "none")
 }
 
-pub fn enum(value: MozUserSelect) -> #(String, String) {
-  #("-moz-user-select", case value {
-    None -> "none"
-    Text -> "text"
-    All -> "all"
-    MozNone -> "-moz-none"
-  })
+pub fn text() -> #(String, String) {
+  #("-moz-user-select", "text")
+}
+
+pub fn all() -> #(String, String) {
+  #("-moz-user-select", "all")
+}
+
+pub fn moz_none() -> #(String, String) {
+  #("-moz-user-select", "-moz-none")
 }
 
 pub fn raw(value: String) -> #(String, String) {

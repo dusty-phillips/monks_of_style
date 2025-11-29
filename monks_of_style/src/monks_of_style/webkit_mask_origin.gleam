@@ -1,24 +1,27 @@
 
 
-pub type WebkitMaskOrigin{
-  BorderBox
-  PaddingBox
-  ContentBox
-  Border
-  Padding
-  Content
-
+pub fn border_box() -> #(String, String) {
+  #("-webkit-mask-origin", "border-box")
 }
 
-pub fn enum(value: WebkitMaskOrigin) -> #(String, String) {
-  #("-webkit-mask-origin", case value {
-    BorderBox -> "border-box"
-    PaddingBox -> "padding-box"
-    ContentBox -> "content-box"
-    Border -> "border"
-    Padding -> "padding"
-    Content -> "content"
-  })
+pub fn padding_box() -> #(String, String) {
+  #("-webkit-mask-origin", "padding-box")
+}
+
+pub fn content_box() -> #(String, String) {
+  #("-webkit-mask-origin", "content-box")
+}
+
+pub fn border() -> #(String, String) {
+  #("-webkit-mask-origin", "border")
+}
+
+pub fn padding() -> #(String, String) {
+  #("-webkit-mask-origin", "padding")
+}
+
+pub fn content() -> #(String, String) {
+  #("-webkit-mask-origin", "content")
 }
 
 pub fn raw(value: String) -> #(String, String) {

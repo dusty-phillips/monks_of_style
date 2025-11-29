@@ -1,22 +1,23 @@
 
 
-pub type OverflowBlock{
-  Visible
-  Hidden
-  Clip
-  Scroll
-  Auto
-
+pub fn visible() -> #(String, String) {
+  #("overflow-block", "visible")
 }
 
-pub fn enum(value: OverflowBlock) -> #(String, String) {
-  #("overflow-block", case value {
-    Visible -> "visible"
-    Hidden -> "hidden"
-    Clip -> "clip"
-    Scroll -> "scroll"
-    Auto -> "auto"
-  })
+pub fn hidden() -> #(String, String) {
+  #("overflow-block", "hidden")
+}
+
+pub fn clip() -> #(String, String) {
+  #("overflow-block", "clip")
+}
+
+pub fn scroll() -> #(String, String) {
+  #("overflow-block", "scroll")
+}
+
+pub fn auto_() -> #(String, String) {
+  #("overflow-block", "auto")
 }
 
 pub fn raw(value: String) -> #(String, String) {

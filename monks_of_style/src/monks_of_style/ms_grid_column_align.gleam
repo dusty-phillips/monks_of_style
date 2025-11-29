@@ -1,20 +1,19 @@
 
 
-pub type MsGridColumnAlign{
-  Start
-  End
-  Center
-  Stretch
-
+pub fn start() -> #(String, String) {
+  #("-ms-grid-column-align", "start")
 }
 
-pub fn enum(value: MsGridColumnAlign) -> #(String, String) {
-  #("-ms-grid-column-align", case value {
-    Start -> "start"
-    End -> "end"
-    Center -> "center"
-    Stretch -> "stretch"
-  })
+pub fn end() -> #(String, String) {
+  #("-ms-grid-column-align", "end")
+}
+
+pub fn center() -> #(String, String) {
+  #("-ms-grid-column-align", "center")
+}
+
+pub fn stretch() -> #(String, String) {
+  #("-ms-grid-column-align", "stretch")
 }
 
 pub fn raw(value: String) -> #(String, String) {

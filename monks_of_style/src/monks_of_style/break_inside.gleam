@@ -1,22 +1,23 @@
 
 
-pub type BreakInside{
-  Auto
-  Avoid
-  AvoidPage
-  AvoidColumn
-  AvoidRegion
-
+pub fn auto_() -> #(String, String) {
+  #("break-inside", "auto")
 }
 
-pub fn enum(value: BreakInside) -> #(String, String) {
-  #("break-inside", case value {
-    Auto -> "auto"
-    Avoid -> "avoid"
-    AvoidPage -> "avoid-page"
-    AvoidColumn -> "avoid-column"
-    AvoidRegion -> "avoid-region"
-  })
+pub fn avoid() -> #(String, String) {
+  #("break-inside", "avoid")
+}
+
+pub fn avoid_page() -> #(String, String) {
+  #("break-inside", "avoid-page")
+}
+
+pub fn avoid_column() -> #(String, String) {
+  #("break-inside", "avoid-column")
+}
+
+pub fn avoid_region() -> #(String, String) {
+  #("break-inside", "avoid-region")
 }
 
 pub fn raw(value: String) -> #(String, String) {

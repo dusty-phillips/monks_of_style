@@ -1,16 +1,11 @@
 
 
-pub type ContainIntrinsicSize{
-  Auto
-  None
-
+pub fn auto_() -> #(String, String) {
+  #("contain-intrinsic-size", "auto")
 }
 
-pub fn enum(value: ContainIntrinsicSize) -> #(String, String) {
-  #("contain-intrinsic-size", case value {
-    Auto -> "auto"
-    None -> "none"
-  })
+pub fn none() -> #(String, String) {
+  #("contain-intrinsic-size", "none")
 }
 
 pub fn raw(value: String) -> #(String, String) {

@@ -1,18 +1,15 @@
 
 
-pub type WebkitColumnBreakInside{
-  Always
-  Auto
-  Avoid
-
+pub fn always() -> #(String, String) {
+  #("-webkit-column-break-inside", "always")
 }
 
-pub fn enum(value: WebkitColumnBreakInside) -> #(String, String) {
-  #("-webkit-column-break-inside", case value {
-    Always -> "always"
-    Auto -> "auto"
-    Avoid -> "avoid"
-  })
+pub fn auto_() -> #(String, String) {
+  #("-webkit-column-break-inside", "auto")
+}
+
+pub fn avoid() -> #(String, String) {
+  #("-webkit-column-break-inside", "avoid")
 }
 
 pub fn raw(value: String) -> #(String, String) {

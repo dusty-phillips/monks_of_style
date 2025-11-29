@@ -1,32 +1,43 @@
 
 
-pub type ColumnRuleStyle{
-  None
-  Hidden
-  Dotted
-  Dashed
-  Solid
-  Double
-  Groove
-  Ridge
-  Inset
-  Outset
-
+pub fn none() -> #(String, String) {
+  #("column-rule-style", "none")
 }
 
-pub fn enum(value: ColumnRuleStyle) -> #(String, String) {
-  #("column-rule-style", case value {
-    None -> "none"
-    Hidden -> "hidden"
-    Dotted -> "dotted"
-    Dashed -> "dashed"
-    Solid -> "solid"
-    Double -> "double"
-    Groove -> "groove"
-    Ridge -> "ridge"
-    Inset -> "inset"
-    Outset -> "outset"
-  })
+pub fn hidden() -> #(String, String) {
+  #("column-rule-style", "hidden")
+}
+
+pub fn dotted() -> #(String, String) {
+  #("column-rule-style", "dotted")
+}
+
+pub fn dashed() -> #(String, String) {
+  #("column-rule-style", "dashed")
+}
+
+pub fn solid() -> #(String, String) {
+  #("column-rule-style", "solid")
+}
+
+pub fn double() -> #(String, String) {
+  #("column-rule-style", "double")
+}
+
+pub fn groove() -> #(String, String) {
+  #("column-rule-style", "groove")
+}
+
+pub fn ridge() -> #(String, String) {
+  #("column-rule-style", "ridge")
+}
+
+pub fn inset() -> #(String, String) {
+  #("column-rule-style", "inset")
+}
+
+pub fn outset() -> #(String, String) {
+  #("column-rule-style", "outset")
 }
 
 pub fn raw(value: String) -> #(String, String) {

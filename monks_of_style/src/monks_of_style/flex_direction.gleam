@@ -1,20 +1,19 @@
 
 
-pub type FlexDirection{
-  Row
-  RowReverse
-  Column
-  ColumnReverse
-
+pub fn row() -> #(String, String) {
+  #("flex-direction", "row")
 }
 
-pub fn enum(value: FlexDirection) -> #(String, String) {
-  #("flex-direction", case value {
-    Row -> "row"
-    RowReverse -> "row-reverse"
-    Column -> "column"
-    ColumnReverse -> "column-reverse"
-  })
+pub fn row_reverse() -> #(String, String) {
+  #("flex-direction", "row-reverse")
+}
+
+pub fn column() -> #(String, String) {
+  #("flex-direction", "column")
+}
+
+pub fn column_reverse() -> #(String, String) {
+  #("flex-direction", "column-reverse")
 }
 
 pub fn raw(value: String) -> #(String, String) {

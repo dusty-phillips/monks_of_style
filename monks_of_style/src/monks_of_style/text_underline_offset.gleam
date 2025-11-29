@@ -1,14 +1,7 @@
 
 
-pub type TextUnderlineOffset{
-  Auto
-
-}
-
-pub fn enum(value: TextUnderlineOffset) -> #(String, String) {
-  #("text-underline-offset", case value {
-    Auto -> "auto"
-  })
+pub fn auto_() -> #(String, String) {
+  #("text-underline-offset", "auto")
 }
 
 pub fn raw(value: String) -> #(String, String) {

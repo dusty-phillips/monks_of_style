@@ -1,18 +1,15 @@
 
 
-pub type OverflowClipMargin{
-  ContentBox
-  PaddingBox
-  BorderBox
-
+pub fn content_box() -> #(String, String) {
+  #("overflow-clip-margin", "content-box")
 }
 
-pub fn enum(value: OverflowClipMargin) -> #(String, String) {
-  #("overflow-clip-margin", case value {
-    ContentBox -> "content-box"
-    PaddingBox -> "padding-box"
-    BorderBox -> "border-box"
-  })
+pub fn padding_box() -> #(String, String) {
+  #("overflow-clip-margin", "padding-box")
+}
+
+pub fn border_box() -> #(String, String) {
+  #("overflow-clip-margin", "border-box")
 }
 
 pub fn raw(value: String) -> #(String, String) {

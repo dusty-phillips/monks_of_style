@@ -1,20 +1,19 @@
 
 
-pub type AnimationFillMode{
-  None
-  Forwards
-  Backwards
-  Both
-
+pub fn none() -> #(String, String) {
+  #("animation-fill-mode", "none")
 }
 
-pub fn enum(value: AnimationFillMode) -> #(String, String) {
-  #("animation-fill-mode", case value {
-    None -> "none"
-    Forwards -> "forwards"
-    Backwards -> "backwards"
-    Both -> "both"
-  })
+pub fn forwards() -> #(String, String) {
+  #("animation-fill-mode", "forwards")
+}
+
+pub fn backwards() -> #(String, String) {
+  #("animation-fill-mode", "backwards")
+}
+
+pub fn both() -> #(String, String) {
+  #("animation-fill-mode", "both")
 }
 
 pub fn raw(value: String) -> #(String, String) {

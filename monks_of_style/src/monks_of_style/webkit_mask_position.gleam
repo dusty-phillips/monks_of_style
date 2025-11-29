@@ -1,22 +1,23 @@
 
 
-pub type WebkitMaskPosition{
-  Left
-  Center
-  Right
-  Top
-  Bottom
-
+pub fn left() -> #(String, String) {
+  #("-webkit-mask-position", "left")
 }
 
-pub fn enum(value: WebkitMaskPosition) -> #(String, String) {
-  #("-webkit-mask-position", case value {
-    Left -> "left"
-    Center -> "center"
-    Right -> "right"
-    Top -> "top"
-    Bottom -> "bottom"
-  })
+pub fn center() -> #(String, String) {
+  #("-webkit-mask-position", "center")
+}
+
+pub fn right() -> #(String, String) {
+  #("-webkit-mask-position", "right")
+}
+
+pub fn top() -> #(String, String) {
+  #("-webkit-mask-position", "top")
+}
+
+pub fn bottom() -> #(String, String) {
+  #("-webkit-mask-position", "bottom")
 }
 
 pub fn raw(value: String) -> #(String, String) {

@@ -1,24 +1,27 @@
 
 
-pub type MsFlexItemAlign{
-  Auto
-  Start
-  End
-  Center
-  Baseline
-  Stretch
-
+pub fn auto_() -> #(String, String) {
+  #("-ms-flex-item-align", "auto")
 }
 
-pub fn enum(value: MsFlexItemAlign) -> #(String, String) {
-  #("-ms-flex-item-align", case value {
-    Auto -> "auto"
-    Start -> "start"
-    End -> "end"
-    Center -> "center"
-    Baseline -> "baseline"
-    Stretch -> "stretch"
-  })
+pub fn start() -> #(String, String) {
+  #("-ms-flex-item-align", "start")
+}
+
+pub fn end() -> #(String, String) {
+  #("-ms-flex-item-align", "end")
+}
+
+pub fn center() -> #(String, String) {
+  #("-ms-flex-item-align", "center")
+}
+
+pub fn baseline() -> #(String, String) {
+  #("-ms-flex-item-align", "baseline")
+}
+
+pub fn stretch() -> #(String, String) {
+  #("-ms-flex-item-align", "stretch")
 }
 
 pub fn raw(value: String) -> #(String, String) {

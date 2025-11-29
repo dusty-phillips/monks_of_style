@@ -1,16 +1,11 @@
 
 
-pub type ClipRule{
-  Nonzero
-  Evenodd
-
+pub fn nonzero() -> #(String, String) {
+  #("clip-rule", "nonzero")
 }
 
-pub fn enum(value: ClipRule) -> #(String, String) {
-  #("clip-rule", case value {
-    Nonzero -> "nonzero"
-    Evenodd -> "evenodd"
-  })
+pub fn evenodd() -> #(String, String) {
+  #("clip-rule", "evenodd")
 }
 
 pub fn raw(value: String) -> #(String, String) {

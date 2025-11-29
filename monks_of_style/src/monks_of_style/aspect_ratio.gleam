@@ -1,14 +1,7 @@
 
 
-pub type AspectRatio{
-  Auto
-
-}
-
-pub fn enum(value: AspectRatio) -> #(String, String) {
-  #("aspect-ratio", case value {
-    Auto -> "auto"
-  })
+pub fn auto_() -> #(String, String) {
+  #("aspect-ratio", "auto")
 }
 
 pub fn raw(value: String) -> #(String, String) {

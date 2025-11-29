@@ -1,22 +1,23 @@
 
 
-pub type PositionTryOrder{
-  Normal
-  MostWidth
-  MostHeight
-  MostBlockSize
-  MostInlineSize
-
+pub fn normal() -> #(String, String) {
+  #("position-try-order", "normal")
 }
 
-pub fn enum(value: PositionTryOrder) -> #(String, String) {
-  #("position-try-order", case value {
-    Normal -> "normal"
-    MostWidth -> "most-width"
-    MostHeight -> "most-height"
-    MostBlockSize -> "most-block-size"
-    MostInlineSize -> "most-inline-size"
-  })
+pub fn most_width() -> #(String, String) {
+  #("position-try-order", "most-width")
+}
+
+pub fn most_height() -> #(String, String) {
+  #("position-try-order", "most-height")
+}
+
+pub fn most_block_size() -> #(String, String) {
+  #("position-try-order", "most-block-size")
+}
+
+pub fn most_inline_size() -> #(String, String) {
+  #("position-try-order", "most-inline-size")
 }
 
 pub fn raw(value: String) -> #(String, String) {

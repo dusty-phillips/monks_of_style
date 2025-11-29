@@ -1,18 +1,15 @@
 
 
-pub type TextCombineUpright{
-  None
-  All
-  Digits
-
+pub fn none() -> #(String, String) {
+  #("text-combine-upright", "none")
 }
 
-pub fn enum(value: TextCombineUpright) -> #(String, String) {
-  #("text-combine-upright", case value {
-    None -> "none"
-    All -> "all"
-    Digits -> "digits"
-  })
+pub fn all() -> #(String, String) {
+  #("text-combine-upright", "all")
+}
+
+pub fn digits() -> #(String, String) {
+  #("text-combine-upright", "digits")
 }
 
 pub fn raw(value: String) -> #(String, String) {

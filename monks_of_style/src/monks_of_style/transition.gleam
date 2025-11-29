@@ -1,46 +1,71 @@
 
 
-pub type Transition{
-  None
-  All
-  Linear
-  Ease
-  EaseIn
-  EaseOut
-  EaseInOut
-  StepStart
-  StepEnd
-  JumpStart
-  JumpEnd
-  JumpNone
-  JumpBoth
-  Start
-  End
-  Normal
-  AllowDiscrete
-
+pub fn none() -> #(String, String) {
+  #("transition", "none")
 }
 
-pub fn enum(value: Transition) -> #(String, String) {
-  #("transition", case value {
-    None -> "none"
-    All -> "all"
-    Linear -> "linear"
-    Ease -> "ease"
-    EaseIn -> "ease-in"
-    EaseOut -> "ease-out"
-    EaseInOut -> "ease-in-out"
-    StepStart -> "step-start"
-    StepEnd -> "step-end"
-    JumpStart -> "jump-start"
-    JumpEnd -> "jump-end"
-    JumpNone -> "jump-none"
-    JumpBoth -> "jump-both"
-    Start -> "start"
-    End -> "end"
-    Normal -> "normal"
-    AllowDiscrete -> "allow-discrete"
-  })
+pub fn all() -> #(String, String) {
+  #("transition", "all")
+}
+
+pub fn linear() -> #(String, String) {
+  #("transition", "linear")
+}
+
+pub fn ease() -> #(String, String) {
+  #("transition", "ease")
+}
+
+pub fn ease_in() -> #(String, String) {
+  #("transition", "ease-in")
+}
+
+pub fn ease_out() -> #(String, String) {
+  #("transition", "ease-out")
+}
+
+pub fn ease_in_out() -> #(String, String) {
+  #("transition", "ease-in-out")
+}
+
+pub fn step_start() -> #(String, String) {
+  #("transition", "step-start")
+}
+
+pub fn step_end() -> #(String, String) {
+  #("transition", "step-end")
+}
+
+pub fn jump_start() -> #(String, String) {
+  #("transition", "jump-start")
+}
+
+pub fn jump_end() -> #(String, String) {
+  #("transition", "jump-end")
+}
+
+pub fn jump_none() -> #(String, String) {
+  #("transition", "jump-none")
+}
+
+pub fn jump_both() -> #(String, String) {
+  #("transition", "jump-both")
+}
+
+pub fn start() -> #(String, String) {
+  #("transition", "start")
+}
+
+pub fn end() -> #(String, String) {
+  #("transition", "end")
+}
+
+pub fn normal() -> #(String, String) {
+  #("transition", "normal")
+}
+
+pub fn allow_discrete() -> #(String, String) {
+  #("transition", "allow-discrete")
 }
 
 pub fn raw(value: String) -> #(String, String) {

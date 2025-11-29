@@ -1,18 +1,15 @@
 
 
-pub type GridAutoRows{
-  MinContent
-  MaxContent
-  Auto
-
+pub fn min_content() -> #(String, String) {
+  #("grid-auto-rows", "min-content")
 }
 
-pub fn enum(value: GridAutoRows) -> #(String, String) {
-  #("grid-auto-rows", case value {
-    MinContent -> "min-content"
-    MaxContent -> "max-content"
-    Auto -> "auto"
-  })
+pub fn max_content() -> #(String, String) {
+  #("grid-auto-rows", "max-content")
+}
+
+pub fn auto_() -> #(String, String) {
+  #("grid-auto-rows", "auto")
 }
 
 pub fn raw(value: String) -> #(String, String) {

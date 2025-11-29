@@ -1,14 +1,7 @@
 
 
-pub type PositionAnchor{
-  Auto
-
-}
-
-pub fn enum(value: PositionAnchor) -> #(String, String) {
-  #("position-anchor", case value {
-    Auto -> "auto"
-  })
+pub fn auto_() -> #(String, String) {
+  #("position-anchor", "auto")
 }
 
 pub fn raw(value: String) -> #(String, String) {

@@ -1,20 +1,19 @@
 
 
-pub type ColorScheme{
-  Normal
-  Light
-  Dark
-  Only
-
+pub fn normal() -> #(String, String) {
+  #("color-scheme", "normal")
 }
 
-pub fn enum(value: ColorScheme) -> #(String, String) {
-  #("color-scheme", case value {
-    Normal -> "normal"
-    Light -> "light"
-    Dark -> "dark"
-    Only -> "only"
-  })
+pub fn light() -> #(String, String) {
+  #("color-scheme", "light")
+}
+
+pub fn dark() -> #(String, String) {
+  #("color-scheme", "dark")
+}
+
+pub fn only() -> #(String, String) {
+  #("color-scheme", "only")
 }
 
 pub fn raw(value: String) -> #(String, String) {

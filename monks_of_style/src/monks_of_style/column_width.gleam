@@ -1,14 +1,7 @@
 
 
-pub type ColumnWidth{
-  Auto
-
-}
-
-pub fn enum(value: ColumnWidth) -> #(String, String) {
-  #("column-width", case value {
-    Auto -> "auto"
-  })
+pub fn auto_() -> #(String, String) {
+  #("column-width", "auto")
 }
 
 pub fn raw(value: String) -> #(String, String) {

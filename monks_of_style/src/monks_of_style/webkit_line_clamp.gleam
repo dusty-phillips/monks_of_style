@@ -1,14 +1,7 @@
 
 
-pub type WebkitLineClamp{
-  None
-
-}
-
-pub fn enum(value: WebkitLineClamp) -> #(String, String) {
-  #("-webkit-line-clamp", case value {
-    None -> "none"
-  })
+pub fn none() -> #(String, String) {
+  #("-webkit-line-clamp", "none")
 }
 
 pub fn raw(value: String) -> #(String, String) {

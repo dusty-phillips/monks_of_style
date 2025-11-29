@@ -1,16 +1,11 @@
 
 
-pub type WordWrap{
-  Normal
-  BreakWord
-
+pub fn normal() -> #(String, String) {
+  #("word-wrap", "normal")
 }
 
-pub fn enum(value: WordWrap) -> #(String, String) {
-  #("word-wrap", case value {
-    Normal -> "normal"
-    BreakWord -> "break-word"
-  })
+pub fn break_word() -> #(String, String) {
+  #("word-wrap", "break-word")
 }
 
 pub fn raw(value: String) -> #(String, String) {

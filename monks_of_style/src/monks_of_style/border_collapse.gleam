@@ -1,16 +1,11 @@
 
 
-pub type BorderCollapse{
-  Collapse
-  Separate
-
+pub fn collapse() -> #(String, String) {
+  #("border-collapse", "collapse")
 }
 
-pub fn enum(value: BorderCollapse) -> #(String, String) {
-  #("border-collapse", case value {
-    Collapse -> "collapse"
-    Separate -> "separate"
-  })
+pub fn separate() -> #(String, String) {
+  #("border-collapse", "separate")
 }
 
 pub fn raw(value: String) -> #(String, String) {

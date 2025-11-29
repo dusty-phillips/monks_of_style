@@ -1,14 +1,7 @@
 
 
-pub type LetterSpacing{
-  Normal
-
-}
-
-pub fn enum(value: LetterSpacing) -> #(String, String) {
-  #("letter-spacing", case value {
-    Normal -> "normal"
-  })
+pub fn normal() -> #(String, String) {
+  #("letter-spacing", "normal")
 }
 
 pub fn raw(value: String) -> #(String, String) {

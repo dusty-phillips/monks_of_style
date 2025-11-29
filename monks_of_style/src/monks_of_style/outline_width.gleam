@@ -1,18 +1,15 @@
 
 
-pub type OutlineWidth{
-  Thin
-  Medium
-  Thick
-
+pub fn thin() -> #(String, String) {
+  #("outline-width", "thin")
 }
 
-pub fn enum(value: OutlineWidth) -> #(String, String) {
-  #("outline-width", case value {
-    Thin -> "thin"
-    Medium -> "medium"
-    Thick -> "thick"
-  })
+pub fn medium() -> #(String, String) {
+  #("outline-width", "medium")
+}
+
+pub fn thick() -> #(String, String) {
+  #("outline-width", "thick")
 }
 
 pub fn raw(value: String) -> #(String, String) {

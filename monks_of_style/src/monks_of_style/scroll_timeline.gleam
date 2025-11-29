@@ -1,22 +1,23 @@
 
 
-pub type ScrollTimeline{
-  None
-  Block
-  Inline
-  X
-  Y
-
+pub fn none() -> #(String, String) {
+  #("scroll-timeline", "none")
 }
 
-pub fn enum(value: ScrollTimeline) -> #(String, String) {
-  #("scroll-timeline", case value {
-    None -> "none"
-    Block -> "block"
-    Inline -> "inline"
-    X -> "x"
-    Y -> "y"
-  })
+pub fn block() -> #(String, String) {
+  #("scroll-timeline", "block")
+}
+
+pub fn inline() -> #(String, String) {
+  #("scroll-timeline", "inline")
+}
+
+pub fn x() -> #(String, String) {
+  #("scroll-timeline", "x")
+}
+
+pub fn y() -> #(String, String) {
+  #("scroll-timeline", "y")
 }
 
 pub fn raw(value: String) -> #(String, String) {

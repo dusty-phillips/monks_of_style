@@ -1,14 +1,7 @@
 
 
-pub type MsHyphenateLimitLines{
-  NoLimit
-
-}
-
-pub fn enum(value: MsHyphenateLimitLines) -> #(String, String) {
-  #("-ms-hyphenate-limit-lines", case value {
-    NoLimit -> "no-limit"
-  })
+pub fn no_limit() -> #(String, String) {
+  #("-ms-hyphenate-limit-lines", "no-limit")
 }
 
 pub fn raw(value: String) -> #(String, String) {

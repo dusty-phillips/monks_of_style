@@ -1,16 +1,11 @@
 
 
-pub type GridArea{
-  Auto
-  Span
-
+pub fn auto_() -> #(String, String) {
+  #("grid-area", "auto")
 }
 
-pub fn enum(value: GridArea) -> #(String, String) {
-  #("grid-area", case value {
-    Auto -> "auto"
-    Span -> "span"
-  })
+pub fn span() -> #(String, String) {
+  #("grid-area", "span")
 }
 
 pub fn raw(value: String) -> #(String, String) {

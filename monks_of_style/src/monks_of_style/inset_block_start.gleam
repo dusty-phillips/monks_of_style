@@ -1,14 +1,7 @@
 
 
-pub type InsetBlockStart{
-  Auto
-
-}
-
-pub fn enum(value: InsetBlockStart) -> #(String, String) {
-  #("inset-block-start", case value {
-    Auto -> "auto"
-  })
+pub fn auto_() -> #(String, String) {
+  #("inset-block-start", "auto")
 }
 
 pub fn raw(value: String) -> #(String, String) {

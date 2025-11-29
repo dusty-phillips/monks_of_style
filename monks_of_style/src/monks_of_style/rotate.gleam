@@ -1,20 +1,19 @@
 
 
-pub type Rotate{
-  None
-  X
-  Y
-  Z
-
+pub fn none() -> #(String, String) {
+  #("rotate", "none")
 }
 
-pub fn enum(value: Rotate) -> #(String, String) {
-  #("rotate", case value {
-    None -> "none"
-    X -> "x"
-    Y -> "y"
-    Z -> "z"
-  })
+pub fn x() -> #(String, String) {
+  #("rotate", "x")
+}
+
+pub fn y() -> #(String, String) {
+  #("rotate", "y")
+}
+
+pub fn z() -> #(String, String) {
+  #("rotate", "z")
 }
 
 pub fn raw(value: String) -> #(String, String) {

@@ -1,14 +1,7 @@
 
 
-pub type HyphenateLimitChars{
-  Auto
-
-}
-
-pub fn enum(value: HyphenateLimitChars) -> #(String, String) {
-  #("hyphenate-limit-chars", case value {
-    Auto -> "auto"
-  })
+pub fn auto_() -> #(String, String) {
+  #("hyphenate-limit-chars", "auto")
 }
 
 pub fn raw(value: String) -> #(String, String) {

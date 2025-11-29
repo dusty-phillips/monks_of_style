@@ -1,14 +1,7 @@
 
 
-pub type CounterSet{
-  None
-
-}
-
-pub fn enum(value: CounterSet) -> #(String, String) {
-  #("counter-set", case value {
-    None -> "none"
-  })
+pub fn none() -> #(String, String) {
+  #("counter-set", "none")
 }
 
 pub fn raw(value: String) -> #(String, String) {

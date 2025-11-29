@@ -1,26 +1,31 @@
 
 
-pub type AnimationRangeEnd{
-  Normal
-  Cover
-  Contain
-  Entry
-  Exit
-  EntryCrossing
-  ExitCrossing
-
+pub fn normal() -> #(String, String) {
+  #("animation-range-end", "normal")
 }
 
-pub fn enum(value: AnimationRangeEnd) -> #(String, String) {
-  #("animation-range-end", case value {
-    Normal -> "normal"
-    Cover -> "cover"
-    Contain -> "contain"
-    Entry -> "entry"
-    Exit -> "exit"
-    EntryCrossing -> "entry-crossing"
-    ExitCrossing -> "exit-crossing"
-  })
+pub fn cover() -> #(String, String) {
+  #("animation-range-end", "cover")
+}
+
+pub fn contain() -> #(String, String) {
+  #("animation-range-end", "contain")
+}
+
+pub fn entry() -> #(String, String) {
+  #("animation-range-end", "entry")
+}
+
+pub fn exit() -> #(String, String) {
+  #("animation-range-end", "exit")
+}
+
+pub fn entry_crossing() -> #(String, String) {
+  #("animation-range-end", "entry-crossing")
+}
+
+pub fn exit_crossing() -> #(String, String) {
+  #("animation-range-end", "exit-crossing")
 }
 
 pub fn raw(value: String) -> #(String, String) {

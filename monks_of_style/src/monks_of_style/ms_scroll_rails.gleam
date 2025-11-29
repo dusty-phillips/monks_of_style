@@ -1,16 +1,11 @@
 
 
-pub type MsScrollRails{
-  None
-  Railed
-
+pub fn none() -> #(String, String) {
+  #("-ms-scroll-rails", "none")
 }
 
-pub fn enum(value: MsScrollRails) -> #(String, String) {
-  #("-ms-scroll-rails", case value {
-    None -> "none"
-    Railed -> "railed"
-  })
+pub fn railed() -> #(String, String) {
+  #("-ms-scroll-rails", "railed")
 }
 
 pub fn raw(value: String) -> #(String, String) {

@@ -1,16 +1,11 @@
 
 
-pub type MozTextBlink{
-  None
-  Blink
-
+pub fn none() -> #(String, String) {
+  #("-moz-text-blink", "none")
 }
 
-pub fn enum(value: MozTextBlink) -> #(String, String) {
-  #("-moz-text-blink", case value {
-    None -> "none"
-    Blink -> "blink"
-  })
+pub fn blink() -> #(String, String) {
+  #("-moz-text-blink", "blink")
 }
 
 pub fn raw(value: String) -> #(String, String) {

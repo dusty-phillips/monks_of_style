@@ -1,18 +1,15 @@
 
 
-pub type ScrollbarGutter{
-  Auto
-  Stable
-  BothEdges
-
+pub fn auto_() -> #(String, String) {
+  #("scrollbar-gutter", "auto")
 }
 
-pub fn enum(value: ScrollbarGutter) -> #(String, String) {
-  #("scrollbar-gutter", case value {
-    Auto -> "auto"
-    Stable -> "stable"
-    BothEdges -> "both-edges"
-  })
+pub fn stable() -> #(String, String) {
+  #("scrollbar-gutter", "stable")
+}
+
+pub fn both_edges() -> #(String, String) {
+  #("scrollbar-gutter", "both-edges")
 }
 
 pub fn raw(value: String) -> #(String, String) {

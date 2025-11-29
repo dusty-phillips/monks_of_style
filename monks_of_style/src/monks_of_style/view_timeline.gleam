@@ -1,22 +1,23 @@
 
 
-pub type ViewTimeline{
-  None
-  Block
-  Inline
-  X
-  Y
-
+pub fn none() -> #(String, String) {
+  #("view-timeline", "none")
 }
 
-pub fn enum(value: ViewTimeline) -> #(String, String) {
-  #("view-timeline", case value {
-    None -> "none"
-    Block -> "block"
-    Inline -> "inline"
-    X -> "x"
-    Y -> "y"
-  })
+pub fn block() -> #(String, String) {
+  #("view-timeline", "block")
+}
+
+pub fn inline() -> #(String, String) {
+  #("view-timeline", "inline")
+}
+
+pub fn x() -> #(String, String) {
+  #("view-timeline", "x")
+}
+
+pub fn y() -> #(String, String) {
+  #("view-timeline", "y")
 }
 
 pub fn raw(value: String) -> #(String, String) {

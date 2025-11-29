@@ -1,20 +1,19 @@
 
 
-pub type MasonryAutoFlow{
-  Pack
-  Next
-  DefiniteFirst
-  Ordered
-
+pub fn pack() -> #(String, String) {
+  #("masonry-auto-flow", "pack")
 }
 
-pub fn enum(value: MasonryAutoFlow) -> #(String, String) {
-  #("masonry-auto-flow", case value {
-    Pack -> "pack"
-    Next -> "next"
-    DefiniteFirst -> "definite-first"
-    Ordered -> "ordered"
-  })
+pub fn next() -> #(String, String) {
+  #("masonry-auto-flow", "next")
+}
+
+pub fn definite_first() -> #(String, String) {
+  #("masonry-auto-flow", "definite-first")
+}
+
+pub fn ordered() -> #(String, String) {
+  #("masonry-auto-flow", "ordered")
 }
 
 pub fn raw(value: String) -> #(String, String) {

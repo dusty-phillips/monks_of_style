@@ -1,18 +1,15 @@
 
 
-pub type TextWrapMode{
-  Auto
-  Wrap
-  Nowrap
-
+pub fn auto_() -> #(String, String) {
+  #("text-wrap-mode", "auto")
 }
 
-pub fn enum(value: TextWrapMode) -> #(String, String) {
-  #("text-wrap-mode", case value {
-    Auto -> "auto"
-    Wrap -> "wrap"
-    Nowrap -> "nowrap"
-  })
+pub fn wrap() -> #(String, String) {
+  #("text-wrap-mode", "wrap")
+}
+
+pub fn nowrap() -> #(String, String) {
+  #("text-wrap-mode", "nowrap")
 }
 
 pub fn raw(value: String) -> #(String, String) {

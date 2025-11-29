@@ -1,22 +1,23 @@
 
 
-pub type TransformOrigin{
-  Left
-  Center
-  Right
-  Top
-  Bottom
-
+pub fn left() -> #(String, String) {
+  #("transform-origin", "left")
 }
 
-pub fn enum(value: TransformOrigin) -> #(String, String) {
-  #("transform-origin", case value {
-    Left -> "left"
-    Center -> "center"
-    Right -> "right"
-    Top -> "top"
-    Bottom -> "bottom"
-  })
+pub fn center() -> #(String, String) {
+  #("transform-origin", "center")
+}
+
+pub fn right() -> #(String, String) {
+  #("transform-origin", "right")
+}
+
+pub fn top() -> #(String, String) {
+  #("transform-origin", "top")
+}
+
+pub fn bottom() -> #(String, String) {
+  #("transform-origin", "bottom")
 }
 
 pub fn raw(value: String) -> #(String, String) {

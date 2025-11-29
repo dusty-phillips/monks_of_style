@@ -1,24 +1,27 @@
 
 
-pub type TextWrap{
-  Auto
-  Wrap
-  Nowrap
-  Balance
-  Stable
-  Pretty
-
+pub fn auto_() -> #(String, String) {
+  #("text-wrap", "auto")
 }
 
-pub fn enum(value: TextWrap) -> #(String, String) {
-  #("text-wrap", case value {
-    Auto -> "auto"
-    Wrap -> "wrap"
-    Nowrap -> "nowrap"
-    Balance -> "balance"
-    Stable -> "stable"
-    Pretty -> "pretty"
-  })
+pub fn wrap() -> #(String, String) {
+  #("text-wrap", "wrap")
+}
+
+pub fn nowrap() -> #(String, String) {
+  #("text-wrap", "nowrap")
+}
+
+pub fn balance() -> #(String, String) {
+  #("text-wrap", "balance")
+}
+
+pub fn stable() -> #(String, String) {
+  #("text-wrap", "stable")
+}
+
+pub fn pretty() -> #(String, String) {
+  #("text-wrap", "pretty")
 }
 
 pub fn raw(value: String) -> #(String, String) {

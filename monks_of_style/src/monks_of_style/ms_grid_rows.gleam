@@ -1,24 +1,27 @@
 
 
-pub type MsGridRows{
-  None
-  MinContent
-  MaxContent
-  Auto
-  AutoFill
-  AutoFit
-
+pub fn none() -> #(String, String) {
+  #("-ms-grid-rows", "none")
 }
 
-pub fn enum(value: MsGridRows) -> #(String, String) {
-  #("-ms-grid-rows", case value {
-    None -> "none"
-    MinContent -> "min-content"
-    MaxContent -> "max-content"
-    Auto -> "auto"
-    AutoFill -> "auto-fill"
-    AutoFit -> "auto-fit"
-  })
+pub fn min_content() -> #(String, String) {
+  #("-ms-grid-rows", "min-content")
+}
+
+pub fn max_content() -> #(String, String) {
+  #("-ms-grid-rows", "max-content")
+}
+
+pub fn auto_() -> #(String, String) {
+  #("-ms-grid-rows", "auto")
+}
+
+pub fn auto_fill() -> #(String, String) {
+  #("-ms-grid-rows", "auto-fill")
+}
+
+pub fn auto_fit() -> #(String, String) {
+  #("-ms-grid-rows", "auto-fit")
 }
 
 pub fn raw(value: String) -> #(String, String) {

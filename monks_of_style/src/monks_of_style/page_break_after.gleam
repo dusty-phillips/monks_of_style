@@ -1,26 +1,31 @@
 
 
-pub type PageBreakAfter{
-  Auto
-  Always
-  Avoid
-  Left
-  Right
-  Recto
-  Verso
-
+pub fn auto_() -> #(String, String) {
+  #("page-break-after", "auto")
 }
 
-pub fn enum(value: PageBreakAfter) -> #(String, String) {
-  #("page-break-after", case value {
-    Auto -> "auto"
-    Always -> "always"
-    Avoid -> "avoid"
-    Left -> "left"
-    Right -> "right"
-    Recto -> "recto"
-    Verso -> "verso"
-  })
+pub fn always() -> #(String, String) {
+  #("page-break-after", "always")
+}
+
+pub fn avoid() -> #(String, String) {
+  #("page-break-after", "avoid")
+}
+
+pub fn left() -> #(String, String) {
+  #("page-break-after", "left")
+}
+
+pub fn right() -> #(String, String) {
+  #("page-break-after", "right")
+}
+
+pub fn recto() -> #(String, String) {
+  #("page-break-after", "recto")
+}
+
+pub fn verso() -> #(String, String) {
+  #("page-break-after", "verso")
 }
 
 pub fn raw(value: String) -> #(String, String) {

@@ -1,20 +1,19 @@
 
 
-pub type WhiteSpaceTrim{
-  None
-  DiscardBefore
-  DiscardAfter
-  DiscardInner
-
+pub fn none() -> #(String, String) {
+  #("white-space-trim", "none")
 }
 
-pub fn enum(value: WhiteSpaceTrim) -> #(String, String) {
-  #("white-space-trim", case value {
-    None -> "none"
-    DiscardBefore -> "discard-before"
-    DiscardAfter -> "discard-after"
-    DiscardInner -> "discard-inner"
-  })
+pub fn discard_before() -> #(String, String) {
+  #("white-space-trim", "discard-before")
+}
+
+pub fn discard_after() -> #(String, String) {
+  #("white-space-trim", "discard-after")
+}
+
+pub fn discard_inner() -> #(String, String) {
+  #("white-space-trim", "discard-inner")
 }
 
 pub fn raw(value: String) -> #(String, String) {

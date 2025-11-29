@@ -1,18 +1,15 @@
 
 
-pub type ColumnRuleWidth{
-  Thin
-  Medium
-  Thick
-
+pub fn thin() -> #(String, String) {
+  #("column-rule-width", "thin")
 }
 
-pub fn enum(value: ColumnRuleWidth) -> #(String, String) {
-  #("column-rule-width", case value {
-    Thin -> "thin"
-    Medium -> "medium"
-    Thick -> "thick"
-  })
+pub fn medium() -> #(String, String) {
+  #("column-rule-width", "medium")
+}
+
+pub fn thick() -> #(String, String) {
+  #("column-rule-width", "thick")
 }
 
 pub fn raw(value: String) -> #(String, String) {

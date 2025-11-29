@@ -1,16 +1,11 @@
 
 
-pub type FillRule{
-  Nonzero
-  Evenodd
-
+pub fn nonzero() -> #(String, String) {
+  #("fill-rule", "nonzero")
 }
 
-pub fn enum(value: FillRule) -> #(String, String) {
-  #("fill-rule", case value {
-    Nonzero -> "nonzero"
-    Evenodd -> "evenodd"
-  })
+pub fn evenodd() -> #(String, String) {
+  #("fill-rule", "evenodd")
 }
 
 pub fn raw(value: String) -> #(String, String) {

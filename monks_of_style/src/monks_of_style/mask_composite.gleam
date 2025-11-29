@@ -1,20 +1,19 @@
 
 
-pub type MaskComposite{
-  Add
-  Subtract
-  Intersect
-  Exclude
-
+pub fn add() -> #(String, String) {
+  #("mask-composite", "add")
 }
 
-pub fn enum(value: MaskComposite) -> #(String, String) {
-  #("mask-composite", case value {
-    Add -> "add"
-    Subtract -> "subtract"
-    Intersect -> "intersect"
-    Exclude -> "exclude"
-  })
+pub fn subtract() -> #(String, String) {
+  #("mask-composite", "subtract")
+}
+
+pub fn intersect() -> #(String, String) {
+  #("mask-composite", "intersect")
+}
+
+pub fn exclude() -> #(String, String) {
+  #("mask-composite", "exclude")
 }
 
 pub fn raw(value: String) -> #(String, String) {

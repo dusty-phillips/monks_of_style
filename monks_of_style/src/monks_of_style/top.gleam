@@ -1,14 +1,7 @@
 
 
-pub type Top{
-  Auto
-
-}
-
-pub fn enum(value: Top) -> #(String, String) {
-  #("top", case value {
-    Auto -> "auto"
-  })
+pub fn auto_() -> #(String, String) {
+  #("top", "auto")
 }
 
 pub fn raw(value: String) -> #(String, String) {

@@ -1,20 +1,19 @@
 
 
-pub type ScrollSnapAlign{
-  None
-  Start
-  End
-  Center
-
+pub fn none() -> #(String, String) {
+  #("scroll-snap-align", "none")
 }
 
-pub fn enum(value: ScrollSnapAlign) -> #(String, String) {
-  #("scroll-snap-align", case value {
-    None -> "none"
-    Start -> "start"
-    End -> "end"
-    Center -> "center"
-  })
+pub fn start() -> #(String, String) {
+  #("scroll-snap-align", "start")
+}
+
+pub fn end() -> #(String, String) {
+  #("scroll-snap-align", "end")
+}
+
+pub fn center() -> #(String, String) {
+  #("scroll-snap-align", "center")
 }
 
 pub fn raw(value: String) -> #(String, String) {

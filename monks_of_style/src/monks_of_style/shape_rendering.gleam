@@ -1,20 +1,19 @@
 
 
-pub type ShapeRendering{
-  Auto
-  OptimizeSpeed
-  CrispEdges
-  GeometricPrecision
-
+pub fn auto_() -> #(String, String) {
+  #("shape-rendering", "auto")
 }
 
-pub fn enum(value: ShapeRendering) -> #(String, String) {
-  #("shape-rendering", case value {
-    Auto -> "auto"
-    OptimizeSpeed -> "optimizeSpeed"
-    CrispEdges -> "crispEdges"
-    GeometricPrecision -> "geometricPrecision"
-  })
+pub fn optimize_speed() -> #(String, String) {
+  #("shape-rendering", "optimizeSpeed")
+}
+
+pub fn crisp_edges() -> #(String, String) {
+  #("shape-rendering", "crispEdges")
+}
+
+pub fn geometric_precision() -> #(String, String) {
+  #("shape-rendering", "geometricPrecision")
 }
 
 pub fn raw(value: String) -> #(String, String) {

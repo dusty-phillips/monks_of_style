@@ -1,14 +1,7 @@
 
 
-pub type Translate{
-  None
-
-}
-
-pub fn enum(value: Translate) -> #(String, String) {
-  #("translate", case value {
-    None -> "none"
-  })
+pub fn none() -> #(String, String) {
+  #("translate", "none")
 }
 
 pub fn raw(value: String) -> #(String, String) {

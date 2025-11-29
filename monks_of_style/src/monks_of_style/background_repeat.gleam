@@ -1,24 +1,27 @@
 
 
-pub type BackgroundRepeat{
-  RepeatX
-  RepeatY
-  Repeat
-  Space
-  Round
-  NoRepeat
-
+pub fn repeat_x() -> #(String, String) {
+  #("background-repeat", "repeat-x")
 }
 
-pub fn enum(value: BackgroundRepeat) -> #(String, String) {
-  #("background-repeat", case value {
-    RepeatX -> "repeat-x"
-    RepeatY -> "repeat-y"
-    Repeat -> "repeat"
-    Space -> "space"
-    Round -> "round"
-    NoRepeat -> "no-repeat"
-  })
+pub fn repeat_y() -> #(String, String) {
+  #("background-repeat", "repeat-y")
+}
+
+pub fn repeat() -> #(String, String) {
+  #("background-repeat", "repeat")
+}
+
+pub fn space() -> #(String, String) {
+  #("background-repeat", "space")
+}
+
+pub fn round() -> #(String, String) {
+  #("background-repeat", "round")
+}
+
+pub fn no_repeat() -> #(String, String) {
+  #("background-repeat", "no-repeat")
 }
 
 pub fn raw(value: String) -> #(String, String) {

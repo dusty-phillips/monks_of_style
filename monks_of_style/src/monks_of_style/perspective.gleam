@@ -1,14 +1,7 @@
 
 
-pub type Perspective{
-  None
-
-}
-
-pub fn enum(value: Perspective) -> #(String, String) {
-  #("perspective", case value {
-    None -> "none"
-  })
+pub fn none() -> #(String, String) {
+  #("perspective", "none")
 }
 
 pub fn raw(value: String) -> #(String, String) {

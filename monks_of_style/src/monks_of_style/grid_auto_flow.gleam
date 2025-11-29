@@ -1,18 +1,15 @@
 
 
-pub type GridAutoFlow{
-  Row
-  Column
-  Dense
-
+pub fn row() -> #(String, String) {
+  #("grid-auto-flow", "row")
 }
 
-pub fn enum(value: GridAutoFlow) -> #(String, String) {
-  #("grid-auto-flow", case value {
-    Row -> "row"
-    Column -> "column"
-    Dense -> "dense"
-  })
+pub fn column() -> #(String, String) {
+  #("grid-auto-flow", "column")
+}
+
+pub fn dense() -> #(String, String) {
+  #("grid-auto-flow", "dense")
 }
 
 pub fn raw(value: String) -> #(String, String) {

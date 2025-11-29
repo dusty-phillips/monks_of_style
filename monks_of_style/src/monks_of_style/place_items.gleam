@@ -1,46 +1,71 @@
 
 
-pub type PlaceItems{
-  Normal
-  Stretch
-  First
-  Last
-  Baseline
-  Unsafe
-  Safe
-  Center
-  Start
-  End
-  SelfStart
-  SelfEnd
-  FlexStart
-  FlexEnd
-  Left
-  Right
-  Legacy
-
+pub fn normal() -> #(String, String) {
+  #("place-items", "normal")
 }
 
-pub fn enum(value: PlaceItems) -> #(String, String) {
-  #("place-items", case value {
-    Normal -> "normal"
-    Stretch -> "stretch"
-    First -> "first"
-    Last -> "last"
-    Baseline -> "baseline"
-    Unsafe -> "unsafe"
-    Safe -> "safe"
-    Center -> "center"
-    Start -> "start"
-    End -> "end"
-    SelfStart -> "self-start"
-    SelfEnd -> "self-end"
-    FlexStart -> "flex-start"
-    FlexEnd -> "flex-end"
-    Left -> "left"
-    Right -> "right"
-    Legacy -> "legacy"
-  })
+pub fn stretch() -> #(String, String) {
+  #("place-items", "stretch")
+}
+
+pub fn first() -> #(String, String) {
+  #("place-items", "first")
+}
+
+pub fn last() -> #(String, String) {
+  #("place-items", "last")
+}
+
+pub fn baseline() -> #(String, String) {
+  #("place-items", "baseline")
+}
+
+pub fn unsafe() -> #(String, String) {
+  #("place-items", "unsafe")
+}
+
+pub fn safe() -> #(String, String) {
+  #("place-items", "safe")
+}
+
+pub fn center() -> #(String, String) {
+  #("place-items", "center")
+}
+
+pub fn start() -> #(String, String) {
+  #("place-items", "start")
+}
+
+pub fn end() -> #(String, String) {
+  #("place-items", "end")
+}
+
+pub fn self_start() -> #(String, String) {
+  #("place-items", "self-start")
+}
+
+pub fn self_end() -> #(String, String) {
+  #("place-items", "self-end")
+}
+
+pub fn flex_start() -> #(String, String) {
+  #("place-items", "flex-start")
+}
+
+pub fn flex_end() -> #(String, String) {
+  #("place-items", "flex-end")
+}
+
+pub fn left() -> #(String, String) {
+  #("place-items", "left")
+}
+
+pub fn right() -> #(String, String) {
+  #("place-items", "right")
+}
+
+pub fn legacy() -> #(String, String) {
+  #("place-items", "legacy")
 }
 
 pub fn raw(value: String) -> #(String, String) {

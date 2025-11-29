@@ -1,16 +1,11 @@
 
 
-pub type MsContentZooming{
-  None
-  Zoom
-
+pub fn none() -> #(String, String) {
+  #("-ms-content-zooming", "none")
 }
 
-pub fn enum(value: MsContentZooming) -> #(String, String) {
-  #("-ms-content-zooming", case value {
-    None -> "none"
-    Zoom -> "zoom"
-  })
+pub fn zoom() -> #(String, String) {
+  #("-ms-content-zooming", "zoom")
 }
 
 pub fn raw(value: String) -> #(String, String) {

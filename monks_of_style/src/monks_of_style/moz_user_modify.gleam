@@ -1,18 +1,15 @@
 
 
-pub type MozUserModify{
-  ReadOnly
-  ReadWrite
-  WriteOnly
-
+pub fn read_only() -> #(String, String) {
+  #("-moz-user-modify", "read-only")
 }
 
-pub fn enum(value: MozUserModify) -> #(String, String) {
-  #("-moz-user-modify", case value {
-    ReadOnly -> "read-only"
-    ReadWrite -> "read-write"
-    WriteOnly -> "write-only"
-  })
+pub fn read_write() -> #(String, String) {
+  #("-moz-user-modify", "read-write")
+}
+
+pub fn write_only() -> #(String, String) {
+  #("-moz-user-modify", "write-only")
 }
 
 pub fn raw(value: String) -> #(String, String) {

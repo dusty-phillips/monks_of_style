@@ -1,14 +1,7 @@
 
 
-pub type ViewTimelineName{
-  None
-
-}
-
-pub fn enum(value: ViewTimelineName) -> #(String, String) {
-  #("view-timeline-name", case value {
-    None -> "none"
-  })
+pub fn none() -> #(String, String) {
+  #("view-timeline-name", "none")
 }
 
 pub fn raw(value: String) -> #(String, String) {

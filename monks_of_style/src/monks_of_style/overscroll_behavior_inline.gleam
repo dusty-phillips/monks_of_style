@@ -1,18 +1,15 @@
 
 
-pub type OverscrollBehaviorInline{
-  Contain
-  None
-  Auto
-
+pub fn contain() -> #(String, String) {
+  #("overscroll-behavior-inline", "contain")
 }
 
-pub fn enum(value: OverscrollBehaviorInline) -> #(String, String) {
-  #("overscroll-behavior-inline", case value {
-    Contain -> "contain"
-    None -> "none"
-    Auto -> "auto"
-  })
+pub fn none() -> #(String, String) {
+  #("overscroll-behavior-inline", "none")
+}
+
+pub fn auto_() -> #(String, String) {
+  #("overscroll-behavior-inline", "auto")
 }
 
 pub fn raw(value: String) -> #(String, String) {

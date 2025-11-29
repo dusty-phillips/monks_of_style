@@ -1,24 +1,27 @@
 
 
-pub type VoiceVolume{
-  Silent
-  XSoft
-  Soft
-  Medium
-  Loud
-  XLoud
-
+pub fn silent() -> #(String, String) {
+  #("voice-volume", "silent")
 }
 
-pub fn enum(value: VoiceVolume) -> #(String, String) {
-  #("voice-volume", case value {
-    Silent -> "silent"
-    XSoft -> "x-soft"
-    Soft -> "soft"
-    Medium -> "medium"
-    Loud -> "loud"
-    XLoud -> "x-loud"
-  })
+pub fn x_soft() -> #(String, String) {
+  #("voice-volume", "x-soft")
+}
+
+pub fn soft() -> #(String, String) {
+  #("voice-volume", "soft")
+}
+
+pub fn medium() -> #(String, String) {
+  #("voice-volume", "medium")
+}
+
+pub fn loud() -> #(String, String) {
+  #("voice-volume", "loud")
+}
+
+pub fn x_loud() -> #(String, String) {
+  #("voice-volume", "x-loud")
 }
 
 pub fn raw(value: String) -> #(String, String) {

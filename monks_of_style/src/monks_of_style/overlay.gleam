@@ -1,16 +1,11 @@
 
 
-pub type Overlay{
-  None
-  Auto
-
+pub fn none() -> #(String, String) {
+  #("overlay", "none")
 }
 
-pub fn enum(value: Overlay) -> #(String, String) {
-  #("overlay", case value {
-    None -> "none"
-    Auto -> "auto"
-  })
+pub fn auto_() -> #(String, String) {
+  #("overlay", "auto")
 }
 
 pub fn raw(value: String) -> #(String, String) {

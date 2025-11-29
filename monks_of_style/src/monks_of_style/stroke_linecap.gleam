@@ -1,18 +1,15 @@
 
 
-pub type StrokeLinecap{
-  Butt
-  Round
-  Square
-
+pub fn butt() -> #(String, String) {
+  #("stroke-linecap", "butt")
 }
 
-pub fn enum(value: StrokeLinecap) -> #(String, String) {
-  #("stroke-linecap", case value {
-    Butt -> "butt"
-    Round -> "round"
-    Square -> "square"
-  })
+pub fn round() -> #(String, String) {
+  #("stroke-linecap", "round")
+}
+
+pub fn square() -> #(String, String) {
+  #("stroke-linecap", "square")
 }
 
 pub fn raw(value: String) -> #(String, String) {

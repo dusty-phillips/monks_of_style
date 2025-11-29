@@ -1,18 +1,15 @@
 
 
-pub type BorderInlineStartWidth{
-  Thin
-  Medium
-  Thick
-
+pub fn thin() -> #(String, String) {
+  #("border-inline-start-width", "thin")
 }
 
-pub fn enum(value: BorderInlineStartWidth) -> #(String, String) {
-  #("border-inline-start-width", case value {
-    Thin -> "thin"
-    Medium -> "medium"
-    Thick -> "thick"
-  })
+pub fn medium() -> #(String, String) {
+  #("border-inline-start-width", "medium")
+}
+
+pub fn thick() -> #(String, String) {
+  #("border-inline-start-width", "thick")
 }
 
 pub fn raw(value: String) -> #(String, String) {

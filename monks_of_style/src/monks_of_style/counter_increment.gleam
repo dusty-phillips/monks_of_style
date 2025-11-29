@@ -1,14 +1,7 @@
 
 
-pub type CounterIncrement{
-  None
-
-}
-
-pub fn enum(value: CounterIncrement) -> #(String, String) {
-  #("counter-increment", case value {
-    None -> "none"
-  })
+pub fn none() -> #(String, String) {
+  #("counter-increment", "none")
 }
 
 pub fn raw(value: String) -> #(String, String) {

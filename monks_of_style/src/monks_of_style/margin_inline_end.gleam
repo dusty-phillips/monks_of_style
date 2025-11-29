@@ -1,14 +1,7 @@
 
 
-pub type MarginInlineEnd{
-  Auto
-
-}
-
-pub fn enum(value: MarginInlineEnd) -> #(String, String) {
-  #("margin-inline-end", case value {
-    Auto -> "auto"
-  })
+pub fn auto_() -> #(String, String) {
+  #("margin-inline-end", "auto")
 }
 
 pub fn raw(value: String) -> #(String, String) {

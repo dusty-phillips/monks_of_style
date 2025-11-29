@@ -1,16 +1,11 @@
 
 
-pub type FontSynthesisSmallCaps{
-  Auto
-  None
-
+pub fn auto_() -> #(String, String) {
+  #("font-synthesis-small-caps", "auto")
 }
 
-pub fn enum(value: FontSynthesisSmallCaps) -> #(String, String) {
-  #("font-synthesis-small-caps", case value {
-    Auto -> "auto"
-    None -> "none"
-  })
+pub fn none() -> #(String, String) {
+  #("font-synthesis-small-caps", "none")
 }
 
 pub fn raw(value: String) -> #(String, String) {

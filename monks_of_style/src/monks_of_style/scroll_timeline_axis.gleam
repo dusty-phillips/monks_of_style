@@ -1,20 +1,19 @@
 
 
-pub type ScrollTimelineAxis{
-  Block
-  Inline
-  X
-  Y
-
+pub fn block() -> #(String, String) {
+  #("scroll-timeline-axis", "block")
 }
 
-pub fn enum(value: ScrollTimelineAxis) -> #(String, String) {
-  #("scroll-timeline-axis", case value {
-    Block -> "block"
-    Inline -> "inline"
-    X -> "x"
-    Y -> "y"
-  })
+pub fn inline() -> #(String, String) {
+  #("scroll-timeline-axis", "inline")
+}
+
+pub fn x() -> #(String, String) {
+  #("scroll-timeline-axis", "x")
+}
+
+pub fn y() -> #(String, String) {
+  #("scroll-timeline-axis", "y")
 }
 
 pub fn raw(value: String) -> #(String, String) {

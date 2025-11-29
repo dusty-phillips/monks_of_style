@@ -1,14 +1,7 @@
 
 
-pub type FontLanguageOverride{
-  Normal
-
-}
-
-pub fn enum(value: FontLanguageOverride) -> #(String, String) {
-  #("font-language-override", case value {
-    Normal -> "normal"
-  })
+pub fn normal() -> #(String, String) {
+  #("font-language-override", "normal")
 }
 
 pub fn raw(value: String) -> #(String, String) {

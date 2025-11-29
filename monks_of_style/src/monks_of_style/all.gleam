@@ -1,22 +1,23 @@
 
 
-pub type All{
-  Initial
-  Inherit
-  Unset
-  Revert
-  RevertLayer
-
+pub fn initial() -> #(String, String) {
+  #("all", "initial")
 }
 
-pub fn enum(value: All) -> #(String, String) {
-  #("all", case value {
-    Initial -> "initial"
-    Inherit -> "inherit"
-    Unset -> "unset"
-    Revert -> "revert"
-    RevertLayer -> "revert-layer"
-  })
+pub fn inherit() -> #(String, String) {
+  #("all", "inherit")
+}
+
+pub fn unset() -> #(String, String) {
+  #("all", "unset")
+}
+
+pub fn revert() -> #(String, String) {
+  #("all", "revert")
+}
+
+pub fn revert_layer() -> #(String, String) {
+  #("all", "revert-layer")
 }
 
 pub fn raw(value: String) -> #(String, String) {

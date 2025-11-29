@@ -1,16 +1,11 @@
 
 
-pub type MsHighContrastAdjust{
-  Auto
-  None
-
+pub fn auto_() -> #(String, String) {
+  #("-ms-high-contrast-adjust", "auto")
 }
 
-pub fn enum(value: MsHighContrastAdjust) -> #(String, String) {
-  #("-ms-high-contrast-adjust", case value {
-    Auto -> "auto"
-    None -> "none"
-  })
+pub fn none() -> #(String, String) {
+  #("-ms-high-contrast-adjust", "none")
 }
 
 pub fn raw(value: String) -> #(String, String) {

@@ -1,26 +1,31 @@
 
 
-pub type MaskOrigin{
-  BorderBox
-  PaddingBox
-  ContentBox
-  MarginBox
-  FillBox
-  StrokeBox
-  ViewBox
-
+pub fn border_box() -> #(String, String) {
+  #("mask-origin", "border-box")
 }
 
-pub fn enum(value: MaskOrigin) -> #(String, String) {
-  #("mask-origin", case value {
-    BorderBox -> "border-box"
-    PaddingBox -> "padding-box"
-    ContentBox -> "content-box"
-    MarginBox -> "margin-box"
-    FillBox -> "fill-box"
-    StrokeBox -> "stroke-box"
-    ViewBox -> "view-box"
-  })
+pub fn padding_box() -> #(String, String) {
+  #("mask-origin", "padding-box")
+}
+
+pub fn content_box() -> #(String, String) {
+  #("mask-origin", "content-box")
+}
+
+pub fn margin_box() -> #(String, String) {
+  #("mask-origin", "margin-box")
+}
+
+pub fn fill_box() -> #(String, String) {
+  #("mask-origin", "fill-box")
+}
+
+pub fn stroke_box() -> #(String, String) {
+  #("mask-origin", "stroke-box")
+}
+
+pub fn view_box() -> #(String, String) {
+  #("mask-origin", "view-box")
 }
 
 pub fn raw(value: String) -> #(String, String) {

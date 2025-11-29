@@ -1,16 +1,11 @@
 
 
-pub type WebkitOverflowScrolling{
-  Auto
-  Touch
-
+pub fn auto_() -> #(String, String) {
+  #("-webkit-overflow-scrolling", "auto")
 }
 
-pub fn enum(value: WebkitOverflowScrolling) -> #(String, String) {
-  #("-webkit-overflow-scrolling", case value {
-    Auto -> "auto"
-    Touch -> "touch"
-  })
+pub fn touch() -> #(String, String) {
+  #("-webkit-overflow-scrolling", "touch")
 }
 
 pub fn raw(value: String) -> #(String, String) {

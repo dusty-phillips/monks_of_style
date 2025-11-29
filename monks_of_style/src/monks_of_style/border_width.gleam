@@ -1,18 +1,15 @@
 
 
-pub type BorderWidth{
-  Thin
-  Medium
-  Thick
-
+pub fn thin() -> #(String, String) {
+  #("border-width", "thin")
 }
 
-pub fn enum(value: BorderWidth) -> #(String, String) {
-  #("border-width", case value {
-    Thin -> "thin"
-    Medium -> "medium"
-    Thick -> "thick"
-  })
+pub fn medium() -> #(String, String) {
+  #("border-width", "medium")
+}
+
+pub fn thick() -> #(String, String) {
+  #("border-width", "thick")
 }
 
 pub fn raw(value: String) -> #(String, String) {

@@ -1,14 +1,7 @@
 
 
-pub type MaskBorderSlice{
-  Fill
-
-}
-
-pub fn enum(value: MaskBorderSlice) -> #(String, String) {
-  #("mask-border-slice", case value {
-    Fill -> "fill"
-  })
+pub fn fill() -> #(String, String) {
+  #("mask-border-slice", "fill")
 }
 
 pub fn raw(value: String) -> #(String, String) {

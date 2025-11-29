@@ -1,22 +1,23 @@
 
 
-pub type SpeakAs{
-  Normal
-  SpellOut
-  Digits
-  LiteralPunctuation
-  NoPunctuation
-
+pub fn normal() -> #(String, String) {
+  #("speak-as", "normal")
 }
 
-pub fn enum(value: SpeakAs) -> #(String, String) {
-  #("speak-as", case value {
-    Normal -> "normal"
-    SpellOut -> "spell-out"
-    Digits -> "digits"
-    LiteralPunctuation -> "literal-punctuation"
-    NoPunctuation -> "no-punctuation"
-  })
+pub fn spell_out() -> #(String, String) {
+  #("speak-as", "spell-out")
+}
+
+pub fn digits() -> #(String, String) {
+  #("speak-as", "digits")
+}
+
+pub fn literal_punctuation() -> #(String, String) {
+  #("speak-as", "literal-punctuation")
+}
+
+pub fn no_punctuation() -> #(String, String) {
+  #("speak-as", "no-punctuation")
 }
 
 pub fn raw(value: String) -> #(String, String) {

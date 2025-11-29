@@ -1,18 +1,15 @@
 
 
-pub type StrokeLinejoin{
-  Miter
-  Round
-  Bevel
-
+pub fn miter() -> #(String, String) {
+  #("stroke-linejoin", "miter")
 }
 
-pub fn enum(value: StrokeLinejoin) -> #(String, String) {
-  #("stroke-linejoin", case value {
-    Miter -> "miter"
-    Round -> "round"
-    Bevel -> "bevel"
-  })
+pub fn round() -> #(String, String) {
+  #("stroke-linejoin", "round")
+}
+
+pub fn bevel() -> #(String, String) {
+  #("stroke-linejoin", "bevel")
 }
 
 pub fn raw(value: String) -> #(String, String) {

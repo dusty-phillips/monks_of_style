@@ -1,18 +1,15 @@
 
 
-pub type WillChange{
-  Auto
-  ScrollPosition
-  Contents
-
+pub fn auto_() -> #(String, String) {
+  #("will-change", "auto")
 }
 
-pub fn enum(value: WillChange) -> #(String, String) {
-  #("will-change", case value {
-    Auto -> "auto"
-    ScrollPosition -> "scroll-position"
-    Contents -> "contents"
-  })
+pub fn scroll_position() -> #(String, String) {
+  #("will-change", "scroll-position")
+}
+
+pub fn contents() -> #(String, String) {
+  #("will-change", "contents")
 }
 
 pub fn raw(value: String) -> #(String, String) {

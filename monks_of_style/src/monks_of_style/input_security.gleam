@@ -1,16 +1,11 @@
 
 
-pub type InputSecurity{
-  Auto
-  None
-
+pub fn auto_() -> #(String, String) {
+  #("input-security", "auto")
 }
 
-pub fn enum(value: InputSecurity) -> #(String, String) {
-  #("input-security", case value {
-    Auto -> "auto"
-    None -> "none"
-  })
+pub fn none() -> #(String, String) {
+  #("input-security", "none")
 }
 
 pub fn raw(value: String) -> #(String, String) {

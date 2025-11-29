@@ -1,14 +1,7 @@
 
 
-pub type BorderImageSlice{
-  Fill
-
-}
-
-pub fn enum(value: BorderImageSlice) -> #(String, String) {
-  #("border-image-slice", case value {
-    Fill -> "fill"
-  })
+pub fn fill() -> #(String, String) {
+  #("border-image-slice", "fill")
 }
 
 pub fn raw(value: String) -> #(String, String) {

@@ -1,16 +1,11 @@
 
 
-pub type BackfaceVisibility{
-  Visible
-  Hidden
-
+pub fn visible() -> #(String, String) {
+  #("backface-visibility", "visible")
 }
 
-pub fn enum(value: BackfaceVisibility) -> #(String, String) {
-  #("backface-visibility", case value {
-    Visible -> "visible"
-    Hidden -> "hidden"
-  })
+pub fn hidden() -> #(String, String) {
+  #("backface-visibility", "hidden")
 }
 
 pub fn raw(value: String) -> #(String, String) {

@@ -1,32 +1,43 @@
 
 
-pub type FontVariantEastAsian{
-  Normal
-  Jis78
-  Jis83
-  Jis90
-  Jis04
-  Simplified
-  Traditional
-  FullWidth
-  ProportionalWidth
-  Ruby
-
+pub fn normal() -> #(String, String) {
+  #("font-variant-east-asian", "normal")
 }
 
-pub fn enum(value: FontVariantEastAsian) -> #(String, String) {
-  #("font-variant-east-asian", case value {
-    Normal -> "normal"
-    Jis78 -> "jis78"
-    Jis83 -> "jis83"
-    Jis90 -> "jis90"
-    Jis04 -> "jis04"
-    Simplified -> "simplified"
-    Traditional -> "traditional"
-    FullWidth -> "full-width"
-    ProportionalWidth -> "proportional-width"
-    Ruby -> "ruby"
-  })
+pub fn jis78() -> #(String, String) {
+  #("font-variant-east-asian", "jis78")
+}
+
+pub fn jis83() -> #(String, String) {
+  #("font-variant-east-asian", "jis83")
+}
+
+pub fn jis90() -> #(String, String) {
+  #("font-variant-east-asian", "jis90")
+}
+
+pub fn jis04() -> #(String, String) {
+  #("font-variant-east-asian", "jis04")
+}
+
+pub fn simplified() -> #(String, String) {
+  #("font-variant-east-asian", "simplified")
+}
+
+pub fn traditional() -> #(String, String) {
+  #("font-variant-east-asian", "traditional")
+}
+
+pub fn full_width() -> #(String, String) {
+  #("font-variant-east-asian", "full-width")
+}
+
+pub fn proportional_width() -> #(String, String) {
+  #("font-variant-east-asian", "proportional-width")
+}
+
+pub fn ruby() -> #(String, String) {
+  #("font-variant-east-asian", "ruby")
 }
 
 pub fn raw(value: String) -> #(String, String) {

@@ -1,14 +1,7 @@
 
 
-pub type Transform{
-  None
-
-}
-
-pub fn enum(value: Transform) -> #(String, String) {
-  #("transform", case value {
-    None -> "none"
-  })
+pub fn none() -> #(String, String) {
+  #("transform", "none")
 }
 
 pub fn raw(value: String) -> #(String, String) {

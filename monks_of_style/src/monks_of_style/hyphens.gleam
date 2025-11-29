@@ -1,18 +1,15 @@
 
 
-pub type Hyphens{
-  None
-  Manual
-  Auto
-
+pub fn none() -> #(String, String) {
+  #("hyphens", "none")
 }
 
-pub fn enum(value: Hyphens) -> #(String, String) {
-  #("hyphens", case value {
-    None -> "none"
-    Manual -> "manual"
-    Auto -> "auto"
-  })
+pub fn manual() -> #(String, String) {
+  #("hyphens", "manual")
+}
+
+pub fn auto_() -> #(String, String) {
+  #("hyphens", "auto")
 }
 
 pub fn raw(value: String) -> #(String, String) {

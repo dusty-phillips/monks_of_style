@@ -1,16 +1,11 @@
 
 
-pub type TransitionBehavior{
-  Normal
-  AllowDiscrete
-
+pub fn normal() -> #(String, String) {
+  #("transition-behavior", "normal")
 }
 
-pub fn enum(value: TransitionBehavior) -> #(String, String) {
-  #("transition-behavior", case value {
-    Normal -> "normal"
-    AllowDiscrete -> "allow-discrete"
-  })
+pub fn allow_discrete() -> #(String, String) {
+  #("transition-behavior", "allow-discrete")
 }
 
 pub fn raw(value: String) -> #(String, String) {

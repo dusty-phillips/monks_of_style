@@ -1,14 +1,7 @@
 
 
-pub type ViewTransitionName{
-  None
-
-}
-
-pub fn enum(value: ViewTransitionName) -> #(String, String) {
-  #("view-transition-name", case value {
-    None -> "none"
-  })
+pub fn none() -> #(String, String) {
+  #("view-transition-name", "none")
 }
 
 pub fn raw(value: String) -> #(String, String) {

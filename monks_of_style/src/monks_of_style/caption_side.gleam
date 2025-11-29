@@ -1,24 +1,27 @@
 
 
-pub type CaptionSide{
-  Top
-  Bottom
-  BlockStart
-  BlockEnd
-  InlineStart
-  InlineEnd
-
+pub fn top() -> #(String, String) {
+  #("caption-side", "top")
 }
 
-pub fn enum(value: CaptionSide) -> #(String, String) {
-  #("caption-side", case value {
-    Top -> "top"
-    Bottom -> "bottom"
-    BlockStart -> "block-start"
-    BlockEnd -> "block-end"
-    InlineStart -> "inline-start"
-    InlineEnd -> "inline-end"
-  })
+pub fn bottom() -> #(String, String) {
+  #("caption-side", "bottom")
+}
+
+pub fn block_start() -> #(String, String) {
+  #("caption-side", "block-start")
+}
+
+pub fn block_end() -> #(String, String) {
+  #("caption-side", "block-end")
+}
+
+pub fn inline_start() -> #(String, String) {
+  #("caption-side", "inline-start")
+}
+
+pub fn inline_end() -> #(String, String) {
+  #("caption-side", "inline-end")
 }
 
 pub fn raw(value: String) -> #(String, String) {

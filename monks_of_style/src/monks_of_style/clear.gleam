@@ -1,24 +1,27 @@
 
 
-pub type Clear{
-  None
-  Left
-  Right
-  Both
-  InlineStart
-  InlineEnd
-
+pub fn none() -> #(String, String) {
+  #("clear", "none")
 }
 
-pub fn enum(value: Clear) -> #(String, String) {
-  #("clear", case value {
-    None -> "none"
-    Left -> "left"
-    Right -> "right"
-    Both -> "both"
-    InlineStart -> "inline-start"
-    InlineEnd -> "inline-end"
-  })
+pub fn left() -> #(String, String) {
+  #("clear", "left")
+}
+
+pub fn right() -> #(String, String) {
+  #("clear", "right")
+}
+
+pub fn both() -> #(String, String) {
+  #("clear", "both")
+}
+
+pub fn inline_start() -> #(String, String) {
+  #("clear", "inline-start")
+}
+
+pub fn inline_end() -> #(String, String) {
+  #("clear", "inline-end")
 }
 
 pub fn raw(value: String) -> #(String, String) {

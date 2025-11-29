@@ -1,16 +1,11 @@
 
 
-pub type BoxDecorationBreak{
-  Slice
-  Clone
-
+pub fn slice() -> #(String, String) {
+  #("box-decoration-break", "slice")
 }
 
-pub fn enum(value: BoxDecorationBreak) -> #(String, String) {
-  #("box-decoration-break", case value {
-    Slice -> "slice"
-    Clone -> "clone"
-  })
+pub fn clone() -> #(String, String) {
+  #("box-decoration-break", "clone")
 }
 
 pub fn raw(value: String) -> #(String, String) {

@@ -1,20 +1,19 @@
 
 
-pub type TextJustify{
-  Auto
-  InterCharacter
-  InterWord
-  None
-
+pub fn auto_() -> #(String, String) {
+  #("text-justify", "auto")
 }
 
-pub fn enum(value: TextJustify) -> #(String, String) {
-  #("text-justify", case value {
-    Auto -> "auto"
-    InterCharacter -> "inter-character"
-    InterWord -> "inter-word"
-    None -> "none"
-  })
+pub fn inter_character() -> #(String, String) {
+  #("text-justify", "inter-character")
+}
+
+pub fn inter_word() -> #(String, String) {
+  #("text-justify", "inter-word")
+}
+
+pub fn none() -> #(String, String) {
+  #("text-justify", "none")
 }
 
 pub fn raw(value: String) -> #(String, String) {

@@ -1,16 +1,11 @@
 
 
-pub type GridRowEnd{
-  Auto
-  Span
-
+pub fn auto_() -> #(String, String) {
+  #("grid-row-end", "auto")
 }
 
-pub fn enum(value: GridRowEnd) -> #(String, String) {
-  #("grid-row-end", case value {
-    Auto -> "auto"
-    Span -> "span"
-  })
+pub fn span() -> #(String, String) {
+  #("grid-row-end", "span")
 }
 
 pub fn raw(value: String) -> #(String, String) {

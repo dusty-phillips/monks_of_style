@@ -1,16 +1,11 @@
 
 
-pub type FontOpticalSizing{
-  Auto
-  None
-
+pub fn auto_() -> #(String, String) {
+  #("font-optical-sizing", "auto")
 }
 
-pub fn enum(value: FontOpticalSizing) -> #(String, String) {
-  #("font-optical-sizing", case value {
-    Auto -> "auto"
-    None -> "none"
-  })
+pub fn none() -> #(String, String) {
+  #("font-optical-sizing", "none")
 }
 
 pub fn raw(value: String) -> #(String, String) {
