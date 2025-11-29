@@ -1,8 +1,6 @@
 
 
-pub fn none() -> #(String, String) {
-  #("view-transition-name", "none")
-}
+pub const none = #("view-transition-name", "none")
 
 pub fn raw(value: String) -> #(String, String) {
   #("view_transition_name", value)

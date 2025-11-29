@@ -1,16 +1,10 @@
 
 
-pub fn replace() -> #(String, String) {
-  #("animation-composition", "replace")
-}
+pub const replace = #("animation-composition", "replace")
 
-pub fn add() -> #(String, String) {
-  #("animation-composition", "add")
-}
+pub const add = #("animation-composition", "add")
 
-pub fn accumulate() -> #(String, String) {
-  #("animation-composition", "accumulate")
-}
+pub const accumulate = #("animation-composition", "accumulate")
 
 pub fn raw(value: String) -> #(String, String) {
   #("animation_composition", value)

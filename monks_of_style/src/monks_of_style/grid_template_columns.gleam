@@ -1,32 +1,18 @@
 
 
-pub fn none() -> #(String, String) {
-  #("grid-template-columns", "none")
-}
+pub const none = #("grid-template-columns", "none")
 
-pub fn min_content() -> #(String, String) {
-  #("grid-template-columns", "min-content")
-}
+pub const min_content = #("grid-template-columns", "min-content")
 
-pub fn max_content() -> #(String, String) {
-  #("grid-template-columns", "max-content")
-}
+pub const max_content = #("grid-template-columns", "max-content")
 
-pub fn auto_() -> #(String, String) {
-  #("grid-template-columns", "auto")
-}
+pub const auto_ = #("grid-template-columns", "auto")
 
-pub fn auto_fill() -> #(String, String) {
-  #("grid-template-columns", "auto-fill")
-}
+pub const auto_fill = #("grid-template-columns", "auto-fill")
 
-pub fn auto_fit() -> #(String, String) {
-  #("grid-template-columns", "auto-fit")
-}
+pub const auto_fit = #("grid-template-columns", "auto-fit")
 
-pub fn subgrid() -> #(String, String) {
-  #("grid-template-columns", "subgrid")
-}
+pub const subgrid = #("grid-template-columns", "subgrid")
 
 pub fn raw(value: String) -> #(String, String) {
   #("grid_template_columns", value)

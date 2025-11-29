@@ -1,16 +1,10 @@
 
 
-pub fn normal() -> #(String, String) {
-  #("font-palette", "normal")
-}
+pub const normal = #("font-palette", "normal")
 
-pub fn light() -> #(String, String) {
-  #("font-palette", "light")
-}
+pub const light = #("font-palette", "light")
 
-pub fn dark() -> #(String, String) {
-  #("font-palette", "dark")
-}
+pub const dark = #("font-palette", "dark")
 
 pub fn raw(value: String) -> #(String, String) {
   #("font_palette", value)

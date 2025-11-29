@@ -1,240 +1,122 @@
 
 
-pub fn normal() -> #(String, String) {
-  #("font", "normal")
-}
+pub const normal = #("font", "normal")
 
-pub fn italic() -> #(String, String) {
-  #("font", "italic")
-}
+pub const italic = #("font", "italic")
 
-pub fn oblique() -> #(String, String) {
-  #("font", "oblique")
-}
+pub const oblique = #("font", "oblique")
 
-pub fn small_caps() -> #(String, String) {
-  #("font", "small-caps")
-}
+pub const small_caps = #("font", "small-caps")
 
-pub fn bold() -> #(String, String) {
-  #("font", "bold")
-}
+pub const bold = #("font", "bold")
 
-pub fn bolder() -> #(String, String) {
-  #("font", "bolder")
-}
+pub const bolder = #("font", "bolder")
 
-pub fn lighter() -> #(String, String) {
-  #("font", "lighter")
-}
+pub const lighter = #("font", "lighter")
 
-pub fn ultra_condensed() -> #(String, String) {
-  #("font", "ultra-condensed")
-}
+pub const ultra_condensed = #("font", "ultra-condensed")
 
-pub fn extra_condensed() -> #(String, String) {
-  #("font", "extra-condensed")
-}
+pub const extra_condensed = #("font", "extra-condensed")
 
-pub fn condensed() -> #(String, String) {
-  #("font", "condensed")
-}
+pub const condensed = #("font", "condensed")
 
-pub fn semi_condensed() -> #(String, String) {
-  #("font", "semi-condensed")
-}
+pub const semi_condensed = #("font", "semi-condensed")
 
-pub fn semi_expanded() -> #(String, String) {
-  #("font", "semi-expanded")
-}
+pub const semi_expanded = #("font", "semi-expanded")
 
-pub fn expanded() -> #(String, String) {
-  #("font", "expanded")
-}
+pub const expanded = #("font", "expanded")
 
-pub fn extra_expanded() -> #(String, String) {
-  #("font", "extra-expanded")
-}
+pub const extra_expanded = #("font", "extra-expanded")
 
-pub fn ultra_expanded() -> #(String, String) {
-  #("font", "ultra-expanded")
-}
+pub const ultra_expanded = #("font", "ultra-expanded")
 
-pub fn xx_small() -> #(String, String) {
-  #("font", "xx-small")
-}
+pub const xx_small = #("font", "xx-small")
 
-pub fn x_small() -> #(String, String) {
-  #("font", "x-small")
-}
+pub const x_small = #("font", "x-small")
 
-pub fn small() -> #(String, String) {
-  #("font", "small")
-}
+pub const small = #("font", "small")
 
-pub fn medium() -> #(String, String) {
-  #("font", "medium")
-}
+pub const medium = #("font", "medium")
 
-pub fn large() -> #(String, String) {
-  #("font", "large")
-}
+pub const large = #("font", "large")
 
-pub fn x_large() -> #(String, String) {
-  #("font", "x-large")
-}
+pub const x_large = #("font", "x-large")
 
-pub fn xx_large() -> #(String, String) {
-  #("font", "xx-large")
-}
+pub const xx_large = #("font", "xx-large")
 
-pub fn xxx_large() -> #(String, String) {
-  #("font", "xxx-large")
-}
+pub const xxx_large = #("font", "xxx-large")
 
-pub fn larger() -> #(String, String) {
-  #("font", "larger")
-}
+pub const larger = #("font", "larger")
 
-pub fn smaller() -> #(String, String) {
-  #("font", "smaller")
-}
+pub const smaller = #("font", "smaller")
 
-pub fn kai() -> #(String, String) {
-  #("font", "kai")
-}
+pub const kai = #("font", "kai")
 
-pub fn fangsong() -> #(String, String) {
-  #("font", "fangsong")
-}
+pub const fangsong = #("font", "fangsong")
 
-pub fn nastaliq() -> #(String, String) {
-  #("font", "nastaliq")
-}
+pub const nastaliq = #("font", "nastaliq")
 
-pub fn serif() -> #(String, String) {
-  #("font", "serif")
-}
+pub const serif = #("font", "serif")
 
-pub fn sans_serif() -> #(String, String) {
-  #("font", "sans-serif")
-}
+pub const sans_serif = #("font", "sans-serif")
 
-pub fn system_ui() -> #(String, String) {
-  #("font", "system-ui")
-}
+pub const system_ui = #("font", "system-ui")
 
-pub fn cursive() -> #(String, String) {
-  #("font", "cursive")
-}
+pub const cursive = #("font", "cursive")
 
-pub fn fantasy() -> #(String, String) {
-  #("font", "fantasy")
-}
+pub const fantasy = #("font", "fantasy")
 
-pub fn math() -> #(String, String) {
-  #("font", "math")
-}
+pub const math = #("font", "math")
 
-pub fn monospace() -> #(String, String) {
-  #("font", "monospace")
-}
+pub const monospace = #("font", "monospace")
 
-pub fn ui_serif() -> #(String, String) {
-  #("font", "ui-serif")
-}
+pub const ui_serif = #("font", "ui-serif")
 
-pub fn ui_sans_serif() -> #(String, String) {
-  #("font", "ui-sans-serif")
-}
+pub const ui_sans_serif = #("font", "ui-sans-serif")
 
-pub fn ui_monospace() -> #(String, String) {
-  #("font", "ui-monospace")
-}
+pub const ui_monospace = #("font", "ui-monospace")
 
-pub fn ui_rounded() -> #(String, String) {
-  #("font", "ui-rounded")
-}
+pub const ui_rounded = #("font", "ui-rounded")
 
-pub fn apple_system() -> #(String, String) {
-  #("font", "-apple-system")
-}
+pub const apple_system = #("font", "-apple-system")
 
-pub fn blink_mac_system_font() -> #(String, String) {
-  #("font", "BlinkMacSystemFont")
-}
+pub const blink_mac_system_font = #("font", "BlinkMacSystemFont")
 
-pub fn caption() -> #(String, String) {
-  #("font", "caption")
-}
+pub const caption = #("font", "caption")
 
-pub fn icon() -> #(String, String) {
-  #("font", "icon")
-}
+pub const icon = #("font", "icon")
 
-pub fn menu() -> #(String, String) {
-  #("font", "menu")
-}
+pub const menu = #("font", "menu")
 
-pub fn message_box() -> #(String, String) {
-  #("font", "message-box")
-}
+pub const message_box = #("font", "message-box")
 
-pub fn small_caption() -> #(String, String) {
-  #("font", "small-caption")
-}
+pub const small_caption = #("font", "small-caption")
 
-pub fn status_bar() -> #(String, String) {
-  #("font", "status-bar")
-}
+pub const status_bar = #("font", "status-bar")
 
-pub fn apple_system_body() -> #(String, String) {
-  #("font", "-apple-system-body")
-}
+pub const apple_system_body = #("font", "-apple-system-body")
 
-pub fn apple_system_headline() -> #(String, String) {
-  #("font", "-apple-system-headline")
-}
+pub const apple_system_headline = #("font", "-apple-system-headline")
 
-pub fn apple_system_subheadline() -> #(String, String) {
-  #("font", "-apple-system-subheadline")
-}
+pub const apple_system_subheadline = #("font", "-apple-system-subheadline")
 
-pub fn apple_system_caption1() -> #(String, String) {
-  #("font", "-apple-system-caption1")
-}
+pub const apple_system_caption1 = #("font", "-apple-system-caption1")
 
-pub fn apple_system_caption2() -> #(String, String) {
-  #("font", "-apple-system-caption2")
-}
+pub const apple_system_caption2 = #("font", "-apple-system-caption2")
 
-pub fn apple_system_footnote() -> #(String, String) {
-  #("font", "-apple-system-footnote")
-}
+pub const apple_system_footnote = #("font", "-apple-system-footnote")
 
-pub fn apple_system_short_body() -> #(String, String) {
-  #("font", "-apple-system-short-body")
-}
+pub const apple_system_short_body = #("font", "-apple-system-short-body")
 
-pub fn apple_system_short_headline() -> #(String, String) {
-  #("font", "-apple-system-short-headline")
-}
+pub const apple_system_short_headline = #("font", "-apple-system-short-headline")
 
-pub fn apple_system_short_subheadline() -> #(String, String) {
-  #("font", "-apple-system-short-subheadline")
-}
+pub const apple_system_short_subheadline = #("font", "-apple-system-short-subheadline")
 
-pub fn apple_system_short_caption1() -> #(String, String) {
-  #("font", "-apple-system-short-caption1")
-}
+pub const apple_system_short_caption1 = #("font", "-apple-system-short-caption1")
 
-pub fn apple_system_short_footnote() -> #(String, String) {
-  #("font", "-apple-system-short-footnote")
-}
+pub const apple_system_short_footnote = #("font", "-apple-system-short-footnote")
 
-pub fn apple_system_tall_body() -> #(String, String) {
-  #("font", "-apple-system-tall-body")
-}
+pub const apple_system_tall_body = #("font", "-apple-system-tall-body")
 
 pub fn raw(value: String) -> #(String, String) {
   #("font", value)

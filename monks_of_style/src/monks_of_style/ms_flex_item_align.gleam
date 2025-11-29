@@ -1,28 +1,16 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("-ms-flex-item-align", "auto")
-}
+pub const auto_ = #("-ms-flex-item-align", "auto")
 
-pub fn start() -> #(String, String) {
-  #("-ms-flex-item-align", "start")
-}
+pub const start = #("-ms-flex-item-align", "start")
 
-pub fn end() -> #(String, String) {
-  #("-ms-flex-item-align", "end")
-}
+pub const end = #("-ms-flex-item-align", "end")
 
-pub fn center() -> #(String, String) {
-  #("-ms-flex-item-align", "center")
-}
+pub const center = #("-ms-flex-item-align", "center")
 
-pub fn baseline() -> #(String, String) {
-  #("-ms-flex-item-align", "baseline")
-}
+pub const baseline = #("-ms-flex-item-align", "baseline")
 
-pub fn stretch() -> #(String, String) {
-  #("-ms-flex-item-align", "stretch")
-}
+pub const stretch = #("-ms-flex-item-align", "stretch")
 
 pub fn raw(value: String) -> #(String, String) {
   #("ms_flex_item_align", value)

@@ -1,8 +1,6 @@
 
 
-pub fn none() -> #(String, String) {
-  #("max-lines", "none")
-}
+pub const none = #("max-lines", "none")
 
 pub fn raw(value: String) -> #(String, String) {
   #("max_lines", value)

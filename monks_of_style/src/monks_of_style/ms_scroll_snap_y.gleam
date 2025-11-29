@@ -1,16 +1,10 @@
 
 
-pub fn none() -> #(String, String) {
-  #("-ms-scroll-snap-y", "none")
-}
+pub const none = #("-ms-scroll-snap-y", "none")
 
-pub fn proximity() -> #(String, String) {
-  #("-ms-scroll-snap-y", "proximity")
-}
+pub const proximity = #("-ms-scroll-snap-y", "proximity")
 
-pub fn mandatory() -> #(String, String) {
-  #("-ms-scroll-snap-y", "mandatory")
-}
+pub const mandatory = #("-ms-scroll-snap-y", "mandatory")
 
 pub fn raw(value: String) -> #(String, String) {
   #("ms_scroll_snap_y", value)

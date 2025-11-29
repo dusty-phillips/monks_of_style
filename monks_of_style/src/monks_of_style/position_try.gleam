@@ -1,240 +1,122 @@
 
 
-pub fn normal() -> #(String, String) {
-  #("position-try", "normal")
-}
+pub const normal = #("position-try", "normal")
 
-pub fn most_width() -> #(String, String) {
-  #("position-try", "most-width")
-}
+pub const most_width = #("position-try", "most-width")
 
-pub fn most_height() -> #(String, String) {
-  #("position-try", "most-height")
-}
+pub const most_height = #("position-try", "most-height")
 
-pub fn most_block_size() -> #(String, String) {
-  #("position-try", "most-block-size")
-}
+pub const most_block_size = #("position-try", "most-block-size")
 
-pub fn most_inline_size() -> #(String, String) {
-  #("position-try", "most-inline-size")
-}
+pub const most_inline_size = #("position-try", "most-inline-size")
 
-pub fn none() -> #(String, String) {
-  #("position-try", "none")
-}
+pub const none = #("position-try", "none")
 
-pub fn flip_block() -> #(String, String) {
-  #("position-try", "flip-block")
-}
+pub const flip_block = #("position-try", "flip-block")
 
-pub fn flip_inline() -> #(String, String) {
-  #("position-try", "flip-inline")
-}
+pub const flip_inline = #("position-try", "flip-inline")
 
-pub fn flip_start() -> #(String, String) {
-  #("position-try", "flip-start")
-}
+pub const flip_start = #("position-try", "flip-start")
 
-pub fn left() -> #(String, String) {
-  #("position-try", "left")
-}
+pub const left = #("position-try", "left")
 
-pub fn center() -> #(String, String) {
-  #("position-try", "center")
-}
+pub const center = #("position-try", "center")
 
-pub fn right() -> #(String, String) {
-  #("position-try", "right")
-}
+pub const right = #("position-try", "right")
 
-pub fn span_left() -> #(String, String) {
-  #("position-try", "span-left")
-}
+pub const span_left = #("position-try", "span-left")
 
-pub fn span_right() -> #(String, String) {
-  #("position-try", "span-right")
-}
+pub const span_right = #("position-try", "span-right")
 
-pub fn x_start() -> #(String, String) {
-  #("position-try", "x-start")
-}
+pub const x_start = #("position-try", "x-start")
 
-pub fn x_end() -> #(String, String) {
-  #("position-try", "x-end")
-}
+pub const x_end = #("position-try", "x-end")
 
-pub fn span_x_start() -> #(String, String) {
-  #("position-try", "span-x-start")
-}
+pub const span_x_start = #("position-try", "span-x-start")
 
-pub fn span_x_end() -> #(String, String) {
-  #("position-try", "span-x-end")
-}
+pub const span_x_end = #("position-try", "span-x-end")
 
-pub fn x_self_start() -> #(String, String) {
-  #("position-try", "x-self-start")
-}
+pub const x_self_start = #("position-try", "x-self-start")
 
-pub fn x_self_end() -> #(String, String) {
-  #("position-try", "x-self-end")
-}
+pub const x_self_end = #("position-try", "x-self-end")
 
-pub fn span_x_self_start() -> #(String, String) {
-  #("position-try", "span-x-self-start")
-}
+pub const span_x_self_start = #("position-try", "span-x-self-start")
 
-pub fn span_x_self_end() -> #(String, String) {
-  #("position-try", "span-x-self-end")
-}
+pub const span_x_self_end = #("position-try", "span-x-self-end")
 
-pub fn span_all() -> #(String, String) {
-  #("position-try", "span-all")
-}
+pub const span_all = #("position-try", "span-all")
 
-pub fn top() -> #(String, String) {
-  #("position-try", "top")
-}
+pub const top = #("position-try", "top")
 
-pub fn bottom() -> #(String, String) {
-  #("position-try", "bottom")
-}
+pub const bottom = #("position-try", "bottom")
 
-pub fn span_top() -> #(String, String) {
-  #("position-try", "span-top")
-}
+pub const span_top = #("position-try", "span-top")
 
-pub fn span_bottom() -> #(String, String) {
-  #("position-try", "span-bottom")
-}
+pub const span_bottom = #("position-try", "span-bottom")
 
-pub fn y_start() -> #(String, String) {
-  #("position-try", "y-start")
-}
+pub const y_start = #("position-try", "y-start")
 
-pub fn y_end() -> #(String, String) {
-  #("position-try", "y-end")
-}
+pub const y_end = #("position-try", "y-end")
 
-pub fn span_y_start() -> #(String, String) {
-  #("position-try", "span-y-start")
-}
+pub const span_y_start = #("position-try", "span-y-start")
 
-pub fn span_y_end() -> #(String, String) {
-  #("position-try", "span-y-end")
-}
+pub const span_y_end = #("position-try", "span-y-end")
 
-pub fn y_self_start() -> #(String, String) {
-  #("position-try", "y-self-start")
-}
+pub const y_self_start = #("position-try", "y-self-start")
 
-pub fn y_self_end() -> #(String, String) {
-  #("position-try", "y-self-end")
-}
+pub const y_self_end = #("position-try", "y-self-end")
 
-pub fn span_y_self_start() -> #(String, String) {
-  #("position-try", "span-y-self-start")
-}
+pub const span_y_self_start = #("position-try", "span-y-self-start")
 
-pub fn span_y_self_end() -> #(String, String) {
-  #("position-try", "span-y-self-end")
-}
+pub const span_y_self_end = #("position-try", "span-y-self-end")
 
-pub fn block_start() -> #(String, String) {
-  #("position-try", "block-start")
-}
+pub const block_start = #("position-try", "block-start")
 
-pub fn block_end() -> #(String, String) {
-  #("position-try", "block-end")
-}
+pub const block_end = #("position-try", "block-end")
 
-pub fn span_block_start() -> #(String, String) {
-  #("position-try", "span-block-start")
-}
+pub const span_block_start = #("position-try", "span-block-start")
 
-pub fn span_block_end() -> #(String, String) {
-  #("position-try", "span-block-end")
-}
+pub const span_block_end = #("position-try", "span-block-end")
 
-pub fn inline_start() -> #(String, String) {
-  #("position-try", "inline-start")
-}
+pub const inline_start = #("position-try", "inline-start")
 
-pub fn inline_end() -> #(String, String) {
-  #("position-try", "inline-end")
-}
+pub const inline_end = #("position-try", "inline-end")
 
-pub fn span_inline_start() -> #(String, String) {
-  #("position-try", "span-inline-start")
-}
+pub const span_inline_start = #("position-try", "span-inline-start")
 
-pub fn span_inline_end() -> #(String, String) {
-  #("position-try", "span-inline-end")
-}
+pub const span_inline_end = #("position-try", "span-inline-end")
 
-pub fn self_block_start() -> #(String, String) {
-  #("position-try", "self-block-start")
-}
+pub const self_block_start = #("position-try", "self-block-start")
 
-pub fn self_block_end() -> #(String, String) {
-  #("position-try", "self-block-end")
-}
+pub const self_block_end = #("position-try", "self-block-end")
 
-pub fn span_self_block_start() -> #(String, String) {
-  #("position-try", "span-self-block-start")
-}
+pub const span_self_block_start = #("position-try", "span-self-block-start")
 
-pub fn span_self_block_end() -> #(String, String) {
-  #("position-try", "span-self-block-end")
-}
+pub const span_self_block_end = #("position-try", "span-self-block-end")
 
-pub fn self_inline_start() -> #(String, String) {
-  #("position-try", "self-inline-start")
-}
+pub const self_inline_start = #("position-try", "self-inline-start")
 
-pub fn self_inline_end() -> #(String, String) {
-  #("position-try", "self-inline-end")
-}
+pub const self_inline_end = #("position-try", "self-inline-end")
 
-pub fn span_self_inline_start() -> #(String, String) {
-  #("position-try", "span-self-inline-start")
-}
+pub const span_self_inline_start = #("position-try", "span-self-inline-start")
 
-pub fn span_self_inline_end() -> #(String, String) {
-  #("position-try", "span-self-inline-end")
-}
+pub const span_self_inline_end = #("position-try", "span-self-inline-end")
 
-pub fn start() -> #(String, String) {
-  #("position-try", "start")
-}
+pub const start = #("position-try", "start")
 
-pub fn end() -> #(String, String) {
-  #("position-try", "end")
-}
+pub const end = #("position-try", "end")
 
-pub fn span_start() -> #(String, String) {
-  #("position-try", "span-start")
-}
+pub const span_start = #("position-try", "span-start")
 
-pub fn span_end() -> #(String, String) {
-  #("position-try", "span-end")
-}
+pub const span_end = #("position-try", "span-end")
 
-pub fn self_start() -> #(String, String) {
-  #("position-try", "self-start")
-}
+pub const self_start = #("position-try", "self-start")
 
-pub fn self_end() -> #(String, String) {
-  #("position-try", "self-end")
-}
+pub const self_end = #("position-try", "self-end")
 
-pub fn span_self_start() -> #(String, String) {
-  #("position-try", "span-self-start")
-}
+pub const span_self_start = #("position-try", "span-self-start")
 
-pub fn span_self_end() -> #(String, String) {
-  #("position-try", "span-self-end")
-}
+pub const span_self_end = #("position-try", "span-self-end")
 
 pub fn raw(value: String) -> #(String, String) {
   #("position_try", value)

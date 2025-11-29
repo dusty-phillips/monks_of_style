@@ -1,948 +1,476 @@
 
 
-pub fn none() -> #(String, String) {
-  #("text-decoration-color", "none")
-}
-
-pub fn srgb() -> #(String, String) {
-  #("text-decoration-color", "srgb")
-}
-
-pub fn srgb_linear() -> #(String, String) {
-  #("text-decoration-color", "srgb-linear")
-}
-
-pub fn display_p3() -> #(String, String) {
-  #("text-decoration-color", "display-p3")
-}
-
-pub fn a98_rgb() -> #(String, String) {
-  #("text-decoration-color", "a98-rgb")
-}
-
-pub fn prophoto_rgb() -> #(String, String) {
-  #("text-decoration-color", "prophoto-rgb")
-}
-
-pub fn rec2020() -> #(String, String) {
-  #("text-decoration-color", "rec2020")
-}
-
-pub fn xyz() -> #(String, String) {
-  #("text-decoration-color", "xyz")
-}
-
-pub fn xyz_d50() -> #(String, String) {
-  #("text-decoration-color", "xyz-d50")
-}
-
-pub fn xyz_d65() -> #(String, String) {
-  #("text-decoration-color", "xyz-d65")
-}
-
-pub fn transparent() -> #(String, String) {
-  #("text-decoration-color", "transparent")
-}
-
-pub fn aliceblue() -> #(String, String) {
-  #("text-decoration-color", "aliceblue")
-}
-
-pub fn antiquewhite() -> #(String, String) {
-  #("text-decoration-color", "antiquewhite")
-}
-
-pub fn aqua() -> #(String, String) {
-  #("text-decoration-color", "aqua")
-}
-
-pub fn aquamarine() -> #(String, String) {
-  #("text-decoration-color", "aquamarine")
-}
-
-pub fn azure() -> #(String, String) {
-  #("text-decoration-color", "azure")
-}
-
-pub fn beige() -> #(String, String) {
-  #("text-decoration-color", "beige")
-}
-
-pub fn bisque() -> #(String, String) {
-  #("text-decoration-color", "bisque")
-}
-
-pub fn black() -> #(String, String) {
-  #("text-decoration-color", "black")
-}
-
-pub fn blanchedalmond() -> #(String, String) {
-  #("text-decoration-color", "blanchedalmond")
-}
-
-pub fn blue() -> #(String, String) {
-  #("text-decoration-color", "blue")
-}
-
-pub fn blueviolet() -> #(String, String) {
-  #("text-decoration-color", "blueviolet")
-}
-
-pub fn brown() -> #(String, String) {
-  #("text-decoration-color", "brown")
-}
-
-pub fn burlywood() -> #(String, String) {
-  #("text-decoration-color", "burlywood")
-}
-
-pub fn cadetblue() -> #(String, String) {
-  #("text-decoration-color", "cadetblue")
-}
-
-pub fn chartreuse() -> #(String, String) {
-  #("text-decoration-color", "chartreuse")
-}
-
-pub fn chocolate() -> #(String, String) {
-  #("text-decoration-color", "chocolate")
-}
-
-pub fn coral() -> #(String, String) {
-  #("text-decoration-color", "coral")
-}
-
-pub fn cornflowerblue() -> #(String, String) {
-  #("text-decoration-color", "cornflowerblue")
-}
-
-pub fn cornsilk() -> #(String, String) {
-  #("text-decoration-color", "cornsilk")
-}
-
-pub fn crimson() -> #(String, String) {
-  #("text-decoration-color", "crimson")
-}
-
-pub fn cyan() -> #(String, String) {
-  #("text-decoration-color", "cyan")
-}
-
-pub fn darkblue() -> #(String, String) {
-  #("text-decoration-color", "darkblue")
-}
-
-pub fn darkcyan() -> #(String, String) {
-  #("text-decoration-color", "darkcyan")
-}
-
-pub fn darkgoldenrod() -> #(String, String) {
-  #("text-decoration-color", "darkgoldenrod")
-}
-
-pub fn darkgray() -> #(String, String) {
-  #("text-decoration-color", "darkgray")
-}
-
-pub fn darkgreen() -> #(String, String) {
-  #("text-decoration-color", "darkgreen")
-}
-
-pub fn darkgrey() -> #(String, String) {
-  #("text-decoration-color", "darkgrey")
-}
-
-pub fn darkkhaki() -> #(String, String) {
-  #("text-decoration-color", "darkkhaki")
-}
-
-pub fn darkmagenta() -> #(String, String) {
-  #("text-decoration-color", "darkmagenta")
-}
-
-pub fn darkolivegreen() -> #(String, String) {
-  #("text-decoration-color", "darkolivegreen")
-}
-
-pub fn darkorange() -> #(String, String) {
-  #("text-decoration-color", "darkorange")
-}
-
-pub fn darkorchid() -> #(String, String) {
-  #("text-decoration-color", "darkorchid")
-}
-
-pub fn darkred() -> #(String, String) {
-  #("text-decoration-color", "darkred")
-}
-
-pub fn darksalmon() -> #(String, String) {
-  #("text-decoration-color", "darksalmon")
-}
-
-pub fn darkseagreen() -> #(String, String) {
-  #("text-decoration-color", "darkseagreen")
-}
-
-pub fn darkslateblue() -> #(String, String) {
-  #("text-decoration-color", "darkslateblue")
-}
-
-pub fn darkslategray() -> #(String, String) {
-  #("text-decoration-color", "darkslategray")
-}
-
-pub fn darkslategrey() -> #(String, String) {
-  #("text-decoration-color", "darkslategrey")
-}
-
-pub fn darkturquoise() -> #(String, String) {
-  #("text-decoration-color", "darkturquoise")
-}
-
-pub fn darkviolet() -> #(String, String) {
-  #("text-decoration-color", "darkviolet")
-}
-
-pub fn deeppink() -> #(String, String) {
-  #("text-decoration-color", "deeppink")
-}
-
-pub fn deepskyblue() -> #(String, String) {
-  #("text-decoration-color", "deepskyblue")
-}
-
-pub fn dimgray() -> #(String, String) {
-  #("text-decoration-color", "dimgray")
-}
-
-pub fn dimgrey() -> #(String, String) {
-  #("text-decoration-color", "dimgrey")
-}
-
-pub fn dodgerblue() -> #(String, String) {
-  #("text-decoration-color", "dodgerblue")
-}
-
-pub fn firebrick() -> #(String, String) {
-  #("text-decoration-color", "firebrick")
-}
-
-pub fn floralwhite() -> #(String, String) {
-  #("text-decoration-color", "floralwhite")
-}
-
-pub fn forestgreen() -> #(String, String) {
-  #("text-decoration-color", "forestgreen")
-}
-
-pub fn fuchsia() -> #(String, String) {
-  #("text-decoration-color", "fuchsia")
-}
-
-pub fn gainsboro() -> #(String, String) {
-  #("text-decoration-color", "gainsboro")
-}
-
-pub fn ghostwhite() -> #(String, String) {
-  #("text-decoration-color", "ghostwhite")
-}
-
-pub fn gold() -> #(String, String) {
-  #("text-decoration-color", "gold")
-}
-
-pub fn goldenrod() -> #(String, String) {
-  #("text-decoration-color", "goldenrod")
-}
-
-pub fn gray() -> #(String, String) {
-  #("text-decoration-color", "gray")
-}
-
-pub fn green() -> #(String, String) {
-  #("text-decoration-color", "green")
-}
-
-pub fn greenyellow() -> #(String, String) {
-  #("text-decoration-color", "greenyellow")
-}
-
-pub fn grey() -> #(String, String) {
-  #("text-decoration-color", "grey")
-}
-
-pub fn honeydew() -> #(String, String) {
-  #("text-decoration-color", "honeydew")
-}
-
-pub fn hotpink() -> #(String, String) {
-  #("text-decoration-color", "hotpink")
-}
-
-pub fn indianred() -> #(String, String) {
-  #("text-decoration-color", "indianred")
-}
-
-pub fn indigo() -> #(String, String) {
-  #("text-decoration-color", "indigo")
-}
-
-pub fn ivory() -> #(String, String) {
-  #("text-decoration-color", "ivory")
-}
-
-pub fn khaki() -> #(String, String) {
-  #("text-decoration-color", "khaki")
-}
-
-pub fn lavender() -> #(String, String) {
-  #("text-decoration-color", "lavender")
-}
-
-pub fn lavenderblush() -> #(String, String) {
-  #("text-decoration-color", "lavenderblush")
-}
-
-pub fn lawngreen() -> #(String, String) {
-  #("text-decoration-color", "lawngreen")
-}
-
-pub fn lemonchiffon() -> #(String, String) {
-  #("text-decoration-color", "lemonchiffon")
-}
-
-pub fn lightblue() -> #(String, String) {
-  #("text-decoration-color", "lightblue")
-}
-
-pub fn lightcoral() -> #(String, String) {
-  #("text-decoration-color", "lightcoral")
-}
-
-pub fn lightcyan() -> #(String, String) {
-  #("text-decoration-color", "lightcyan")
-}
-
-pub fn lightgoldenrodyellow() -> #(String, String) {
-  #("text-decoration-color", "lightgoldenrodyellow")
-}
-
-pub fn lightgray() -> #(String, String) {
-  #("text-decoration-color", "lightgray")
-}
-
-pub fn lightgreen() -> #(String, String) {
-  #("text-decoration-color", "lightgreen")
-}
-
-pub fn lightgrey() -> #(String, String) {
-  #("text-decoration-color", "lightgrey")
-}
-
-pub fn lightpink() -> #(String, String) {
-  #("text-decoration-color", "lightpink")
-}
-
-pub fn lightsalmon() -> #(String, String) {
-  #("text-decoration-color", "lightsalmon")
-}
-
-pub fn lightseagreen() -> #(String, String) {
-  #("text-decoration-color", "lightseagreen")
-}
-
-pub fn lightskyblue() -> #(String, String) {
-  #("text-decoration-color", "lightskyblue")
-}
-
-pub fn lightslategray() -> #(String, String) {
-  #("text-decoration-color", "lightslategray")
-}
-
-pub fn lightslategrey() -> #(String, String) {
-  #("text-decoration-color", "lightslategrey")
-}
-
-pub fn lightsteelblue() -> #(String, String) {
-  #("text-decoration-color", "lightsteelblue")
-}
-
-pub fn lightyellow() -> #(String, String) {
-  #("text-decoration-color", "lightyellow")
-}
-
-pub fn lime() -> #(String, String) {
-  #("text-decoration-color", "lime")
-}
-
-pub fn limegreen() -> #(String, String) {
-  #("text-decoration-color", "limegreen")
-}
-
-pub fn linen() -> #(String, String) {
-  #("text-decoration-color", "linen")
-}
-
-pub fn magenta() -> #(String, String) {
-  #("text-decoration-color", "magenta")
-}
-
-pub fn maroon() -> #(String, String) {
-  #("text-decoration-color", "maroon")
-}
-
-pub fn mediumaquamarine() -> #(String, String) {
-  #("text-decoration-color", "mediumaquamarine")
-}
-
-pub fn mediumblue() -> #(String, String) {
-  #("text-decoration-color", "mediumblue")
-}
-
-pub fn mediumorchid() -> #(String, String) {
-  #("text-decoration-color", "mediumorchid")
-}
-
-pub fn mediumpurple() -> #(String, String) {
-  #("text-decoration-color", "mediumpurple")
-}
-
-pub fn mediumseagreen() -> #(String, String) {
-  #("text-decoration-color", "mediumseagreen")
-}
-
-pub fn mediumslateblue() -> #(String, String) {
-  #("text-decoration-color", "mediumslateblue")
-}
-
-pub fn mediumspringgreen() -> #(String, String) {
-  #("text-decoration-color", "mediumspringgreen")
-}
-
-pub fn mediumturquoise() -> #(String, String) {
-  #("text-decoration-color", "mediumturquoise")
-}
-
-pub fn mediumvioletred() -> #(String, String) {
-  #("text-decoration-color", "mediumvioletred")
-}
-
-pub fn midnightblue() -> #(String, String) {
-  #("text-decoration-color", "midnightblue")
-}
-
-pub fn mintcream() -> #(String, String) {
-  #("text-decoration-color", "mintcream")
-}
-
-pub fn mistyrose() -> #(String, String) {
-  #("text-decoration-color", "mistyrose")
-}
-
-pub fn moccasin() -> #(String, String) {
-  #("text-decoration-color", "moccasin")
-}
-
-pub fn navajowhite() -> #(String, String) {
-  #("text-decoration-color", "navajowhite")
-}
-
-pub fn navy() -> #(String, String) {
-  #("text-decoration-color", "navy")
-}
-
-pub fn oldlace() -> #(String, String) {
-  #("text-decoration-color", "oldlace")
-}
-
-pub fn olive() -> #(String, String) {
-  #("text-decoration-color", "olive")
-}
-
-pub fn olivedrab() -> #(String, String) {
-  #("text-decoration-color", "olivedrab")
-}
-
-pub fn orange() -> #(String, String) {
-  #("text-decoration-color", "orange")
-}
-
-pub fn orangered() -> #(String, String) {
-  #("text-decoration-color", "orangered")
-}
-
-pub fn orchid() -> #(String, String) {
-  #("text-decoration-color", "orchid")
-}
-
-pub fn palegoldenrod() -> #(String, String) {
-  #("text-decoration-color", "palegoldenrod")
-}
-
-pub fn palegreen() -> #(String, String) {
-  #("text-decoration-color", "palegreen")
-}
-
-pub fn paleturquoise() -> #(String, String) {
-  #("text-decoration-color", "paleturquoise")
-}
-
-pub fn palevioletred() -> #(String, String) {
-  #("text-decoration-color", "palevioletred")
-}
-
-pub fn papayawhip() -> #(String, String) {
-  #("text-decoration-color", "papayawhip")
-}
-
-pub fn peachpuff() -> #(String, String) {
-  #("text-decoration-color", "peachpuff")
-}
-
-pub fn peru() -> #(String, String) {
-  #("text-decoration-color", "peru")
-}
-
-pub fn pink() -> #(String, String) {
-  #("text-decoration-color", "pink")
-}
-
-pub fn plum() -> #(String, String) {
-  #("text-decoration-color", "plum")
-}
-
-pub fn powderblue() -> #(String, String) {
-  #("text-decoration-color", "powderblue")
-}
-
-pub fn purple() -> #(String, String) {
-  #("text-decoration-color", "purple")
-}
-
-pub fn rebeccapurple() -> #(String, String) {
-  #("text-decoration-color", "rebeccapurple")
-}
-
-pub fn red() -> #(String, String) {
-  #("text-decoration-color", "red")
-}
-
-pub fn rosybrown() -> #(String, String) {
-  #("text-decoration-color", "rosybrown")
-}
-
-pub fn royalblue() -> #(String, String) {
-  #("text-decoration-color", "royalblue")
-}
-
-pub fn saddlebrown() -> #(String, String) {
-  #("text-decoration-color", "saddlebrown")
-}
-
-pub fn salmon() -> #(String, String) {
-  #("text-decoration-color", "salmon")
-}
-
-pub fn sandybrown() -> #(String, String) {
-  #("text-decoration-color", "sandybrown")
-}
-
-pub fn seagreen() -> #(String, String) {
-  #("text-decoration-color", "seagreen")
-}
-
-pub fn seashell() -> #(String, String) {
-  #("text-decoration-color", "seashell")
-}
-
-pub fn sienna() -> #(String, String) {
-  #("text-decoration-color", "sienna")
-}
-
-pub fn silver() -> #(String, String) {
-  #("text-decoration-color", "silver")
-}
-
-pub fn skyblue() -> #(String, String) {
-  #("text-decoration-color", "skyblue")
-}
-
-pub fn slateblue() -> #(String, String) {
-  #("text-decoration-color", "slateblue")
-}
-
-pub fn slategray() -> #(String, String) {
-  #("text-decoration-color", "slategray")
-}
-
-pub fn slategrey() -> #(String, String) {
-  #("text-decoration-color", "slategrey")
-}
-
-pub fn snow() -> #(String, String) {
-  #("text-decoration-color", "snow")
-}
-
-pub fn springgreen() -> #(String, String) {
-  #("text-decoration-color", "springgreen")
-}
-
-pub fn steelblue() -> #(String, String) {
-  #("text-decoration-color", "steelblue")
-}
-
-pub fn tan() -> #(String, String) {
-  #("text-decoration-color", "tan")
-}
-
-pub fn teal() -> #(String, String) {
-  #("text-decoration-color", "teal")
-}
-
-pub fn thistle() -> #(String, String) {
-  #("text-decoration-color", "thistle")
-}
-
-pub fn tomato() -> #(String, String) {
-  #("text-decoration-color", "tomato")
-}
-
-pub fn turquoise() -> #(String, String) {
-  #("text-decoration-color", "turquoise")
-}
-
-pub fn violet() -> #(String, String) {
-  #("text-decoration-color", "violet")
-}
-
-pub fn wheat() -> #(String, String) {
-  #("text-decoration-color", "wheat")
-}
-
-pub fn white() -> #(String, String) {
-  #("text-decoration-color", "white")
-}
-
-pub fn whitesmoke() -> #(String, String) {
-  #("text-decoration-color", "whitesmoke")
-}
-
-pub fn yellow() -> #(String, String) {
-  #("text-decoration-color", "yellow")
-}
-
-pub fn yellowgreen() -> #(String, String) {
-  #("text-decoration-color", "yellowgreen")
-}
-
-pub fn in() -> #(String, String) {
-  #("text-decoration-color", "in")
-}
-
-pub fn lab() -> #(String, String) {
-  #("text-decoration-color", "lab")
-}
-
-pub fn oklab() -> #(String, String) {
-  #("text-decoration-color", "oklab")
-}
-
-pub fn hsl() -> #(String, String) {
-  #("text-decoration-color", "hsl")
-}
-
-pub fn hwb() -> #(String, String) {
-  #("text-decoration-color", "hwb")
-}
-
-pub fn lch() -> #(String, String) {
-  #("text-decoration-color", "lch")
-}
-
-pub fn oklch() -> #(String, String) {
-  #("text-decoration-color", "oklch")
-}
-
-pub fn shorter() -> #(String, String) {
-  #("text-decoration-color", "shorter")
-}
-
-pub fn longer() -> #(String, String) {
-  #("text-decoration-color", "longer")
-}
-
-pub fn increasing() -> #(String, String) {
-  #("text-decoration-color", "increasing")
-}
-
-pub fn decreasing() -> #(String, String) {
-  #("text-decoration-color", "decreasing")
-}
-
-pub fn hue() -> #(String, String) {
-  #("text-decoration-color", "hue")
-}
-
-pub fn current_color() -> #(String, String) {
-  #("text-decoration-color", "currentColor")
-}
-
-pub fn accent_color() -> #(String, String) {
-  #("text-decoration-color", "AccentColor")
-}
-
-pub fn accent_color_text() -> #(String, String) {
-  #("text-decoration-color", "AccentColorText")
-}
-
-pub fn active_text() -> #(String, String) {
-  #("text-decoration-color", "ActiveText")
-}
-
-pub fn button_border() -> #(String, String) {
-  #("text-decoration-color", "ButtonBorder")
-}
-
-pub fn button_face() -> #(String, String) {
-  #("text-decoration-color", "ButtonFace")
-}
-
-pub fn button_text() -> #(String, String) {
-  #("text-decoration-color", "ButtonText")
-}
-
-pub fn canvas() -> #(String, String) {
-  #("text-decoration-color", "Canvas")
-}
-
-pub fn canvas_text() -> #(String, String) {
-  #("text-decoration-color", "CanvasText")
-}
-
-pub fn field() -> #(String, String) {
-  #("text-decoration-color", "Field")
-}
-
-pub fn field_text() -> #(String, String) {
-  #("text-decoration-color", "FieldText")
-}
-
-pub fn gray_text() -> #(String, String) {
-  #("text-decoration-color", "GrayText")
-}
-
-pub fn highlight() -> #(String, String) {
-  #("text-decoration-color", "Highlight")
-}
-
-pub fn highlight_text() -> #(String, String) {
-  #("text-decoration-color", "HighlightText")
-}
-
-pub fn link_text() -> #(String, String) {
-  #("text-decoration-color", "LinkText")
-}
-
-pub fn mark() -> #(String, String) {
-  #("text-decoration-color", "Mark")
-}
-
-pub fn mark_text() -> #(String, String) {
-  #("text-decoration-color", "MarkText")
-}
-
-pub fn selected_item() -> #(String, String) {
-  #("text-decoration-color", "SelectedItem")
-}
-
-pub fn selected_item_text() -> #(String, String) {
-  #("text-decoration-color", "SelectedItemText")
-}
-
-pub fn visited_text() -> #(String, String) {
-  #("text-decoration-color", "VisitedText")
-}
-
-pub fn moz_button_default() -> #(String, String) {
-  #("text-decoration-color", "-moz-ButtonDefault")
-}
-
-pub fn moz_button_hover_face() -> #(String, String) {
-  #("text-decoration-color", "-moz-ButtonHoverFace")
-}
-
-pub fn moz_button_hover_text() -> #(String, String) {
-  #("text-decoration-color", "-moz-ButtonHoverText")
-}
-
-pub fn moz_cell_highlight() -> #(String, String) {
-  #("text-decoration-color", "-moz-CellHighlight")
-}
-
-pub fn moz_cell_highlight_text() -> #(String, String) {
-  #("text-decoration-color", "-moz-CellHighlightText")
-}
-
-pub fn moz_combobox() -> #(String, String) {
-  #("text-decoration-color", "-moz-Combobox")
-}
-
-pub fn moz_combobox_text() -> #(String, String) {
-  #("text-decoration-color", "-moz-ComboboxText")
-}
-
-pub fn moz_dialog() -> #(String, String) {
-  #("text-decoration-color", "-moz-Dialog")
-}
-
-pub fn moz_dialog_text() -> #(String, String) {
-  #("text-decoration-color", "-moz-DialogText")
-}
-
-pub fn moz_dragtargetzone() -> #(String, String) {
-  #("text-decoration-color", "-moz-dragtargetzone")
-}
-
-pub fn moz_even_tree_row() -> #(String, String) {
-  #("text-decoration-color", "-moz-EvenTreeRow")
-}
-
-pub fn moz_field() -> #(String, String) {
-  #("text-decoration-color", "-moz-Field")
-}
-
-pub fn moz_field_text() -> #(String, String) {
-  #("text-decoration-color", "-moz-FieldText")
-}
-
-pub fn moz_html_cell_highlight() -> #(String, String) {
-  #("text-decoration-color", "-moz-html-CellHighlight")
-}
-
-pub fn moz_html_cell_highlight_text() -> #(String, String) {
-  #("text-decoration-color", "-moz-html-CellHighlightText")
-}
-
-pub fn moz_mac_accentdarkestshadow() -> #(String, String) {
-  #("text-decoration-color", "-moz-mac-accentdarkestshadow")
-}
-
-pub fn moz_mac_accentdarkshadow() -> #(String, String) {
-  #("text-decoration-color", "-moz-mac-accentdarkshadow")
-}
-
-pub fn moz_mac_accentface() -> #(String, String) {
-  #("text-decoration-color", "-moz-mac-accentface")
-}
-
-pub fn moz_mac_accentlightesthighlight() -> #(String, String) {
-  #("text-decoration-color", "-moz-mac-accentlightesthighlight")
-}
-
-pub fn moz_mac_accentlightshadow() -> #(String, String) {
-  #("text-decoration-color", "-moz-mac-accentlightshadow")
-}
-
-pub fn moz_mac_accentregularhighlight() -> #(String, String) {
-  #("text-decoration-color", "-moz-mac-accentregularhighlight")
-}
-
-pub fn moz_mac_accentregularshadow() -> #(String, String) {
-  #("text-decoration-color", "-moz-mac-accentregularshadow")
-}
-
-pub fn moz_mac_chrome_active() -> #(String, String) {
-  #("text-decoration-color", "-moz-mac-chrome-active")
-}
-
-pub fn moz_mac_chrome_inactive() -> #(String, String) {
-  #("text-decoration-color", "-moz-mac-chrome-inactive")
-}
-
-pub fn moz_mac_focusring() -> #(String, String) {
-  #("text-decoration-color", "-moz-mac-focusring")
-}
-
-pub fn moz_mac_menuselect() -> #(String, String) {
-  #("text-decoration-color", "-moz-mac-menuselect")
-}
-
-pub fn moz_mac_menushadow() -> #(String, String) {
-  #("text-decoration-color", "-moz-mac-menushadow")
-}
-
-pub fn moz_mac_menutextselect() -> #(String, String) {
-  #("text-decoration-color", "-moz-mac-menutextselect")
-}
-
-pub fn moz_menu_hover() -> #(String, String) {
-  #("text-decoration-color", "-moz-MenuHover")
-}
-
-pub fn moz_menu_hover_text() -> #(String, String) {
-  #("text-decoration-color", "-moz-MenuHoverText")
-}
-
-pub fn moz_menu_bar_text() -> #(String, String) {
-  #("text-decoration-color", "-moz-MenuBarText")
-}
-
-pub fn moz_menu_bar_hover_text() -> #(String, String) {
-  #("text-decoration-color", "-moz-MenuBarHoverText")
-}
-
-pub fn moz_nativehyperlinktext() -> #(String, String) {
-  #("text-decoration-color", "-moz-nativehyperlinktext")
-}
-
-pub fn moz_odd_tree_row() -> #(String, String) {
-  #("text-decoration-color", "-moz-OddTreeRow")
-}
-
-pub fn moz_win_communicationstext() -> #(String, String) {
-  #("text-decoration-color", "-moz-win-communicationstext")
-}
-
-pub fn moz_win_mediatext() -> #(String, String) {
-  #("text-decoration-color", "-moz-win-mediatext")
-}
-
-pub fn moz_activehyperlinktext() -> #(String, String) {
-  #("text-decoration-color", "-moz-activehyperlinktext")
-}
-
-pub fn moz_default_background_color() -> #(String, String) {
-  #("text-decoration-color", "-moz-default-background-color")
-}
-
-pub fn moz_default_color() -> #(String, String) {
-  #("text-decoration-color", "-moz-default-color")
-}
-
-pub fn moz_hyperlinktext() -> #(String, String) {
-  #("text-decoration-color", "-moz-hyperlinktext")
-}
-
-pub fn moz_visitedhyperlinktext() -> #(String, String) {
-  #("text-decoration-color", "-moz-visitedhyperlinktext")
-}
-
-pub fn webkit_activelink() -> #(String, String) {
-  #("text-decoration-color", "-webkit-activelink")
-}
-
-pub fn webkit_focus_ring_color() -> #(String, String) {
-  #("text-decoration-color", "-webkit-focus-ring-color")
-}
-
-pub fn webkit_link() -> #(String, String) {
-  #("text-decoration-color", "-webkit-link")
-}
-
-pub fn webkit_text() -> #(String, String) {
-  #("text-decoration-color", "-webkit-text")
-}
+pub const none = #("text-decoration-color", "none")
+
+pub const srgb = #("text-decoration-color", "srgb")
+
+pub const srgb_linear = #("text-decoration-color", "srgb-linear")
+
+pub const display_p3 = #("text-decoration-color", "display-p3")
+
+pub const a98_rgb = #("text-decoration-color", "a98-rgb")
+
+pub const prophoto_rgb = #("text-decoration-color", "prophoto-rgb")
+
+pub const rec2020 = #("text-decoration-color", "rec2020")
+
+pub const xyz = #("text-decoration-color", "xyz")
+
+pub const xyz_d50 = #("text-decoration-color", "xyz-d50")
+
+pub const xyz_d65 = #("text-decoration-color", "xyz-d65")
+
+pub const transparent = #("text-decoration-color", "transparent")
+
+pub const aliceblue = #("text-decoration-color", "aliceblue")
+
+pub const antiquewhite = #("text-decoration-color", "antiquewhite")
+
+pub const aqua = #("text-decoration-color", "aqua")
+
+pub const aquamarine = #("text-decoration-color", "aquamarine")
+
+pub const azure = #("text-decoration-color", "azure")
+
+pub const beige = #("text-decoration-color", "beige")
+
+pub const bisque = #("text-decoration-color", "bisque")
+
+pub const black = #("text-decoration-color", "black")
+
+pub const blanchedalmond = #("text-decoration-color", "blanchedalmond")
+
+pub const blue = #("text-decoration-color", "blue")
+
+pub const blueviolet = #("text-decoration-color", "blueviolet")
+
+pub const brown = #("text-decoration-color", "brown")
+
+pub const burlywood = #("text-decoration-color", "burlywood")
+
+pub const cadetblue = #("text-decoration-color", "cadetblue")
+
+pub const chartreuse = #("text-decoration-color", "chartreuse")
+
+pub const chocolate = #("text-decoration-color", "chocolate")
+
+pub const coral = #("text-decoration-color", "coral")
+
+pub const cornflowerblue = #("text-decoration-color", "cornflowerblue")
+
+pub const cornsilk = #("text-decoration-color", "cornsilk")
+
+pub const crimson = #("text-decoration-color", "crimson")
+
+pub const cyan = #("text-decoration-color", "cyan")
+
+pub const darkblue = #("text-decoration-color", "darkblue")
+
+pub const darkcyan = #("text-decoration-color", "darkcyan")
+
+pub const darkgoldenrod = #("text-decoration-color", "darkgoldenrod")
+
+pub const darkgray = #("text-decoration-color", "darkgray")
+
+pub const darkgreen = #("text-decoration-color", "darkgreen")
+
+pub const darkgrey = #("text-decoration-color", "darkgrey")
+
+pub const darkkhaki = #("text-decoration-color", "darkkhaki")
+
+pub const darkmagenta = #("text-decoration-color", "darkmagenta")
+
+pub const darkolivegreen = #("text-decoration-color", "darkolivegreen")
+
+pub const darkorange = #("text-decoration-color", "darkorange")
+
+pub const darkorchid = #("text-decoration-color", "darkorchid")
+
+pub const darkred = #("text-decoration-color", "darkred")
+
+pub const darksalmon = #("text-decoration-color", "darksalmon")
+
+pub const darkseagreen = #("text-decoration-color", "darkseagreen")
+
+pub const darkslateblue = #("text-decoration-color", "darkslateblue")
+
+pub const darkslategray = #("text-decoration-color", "darkslategray")
+
+pub const darkslategrey = #("text-decoration-color", "darkslategrey")
+
+pub const darkturquoise = #("text-decoration-color", "darkturquoise")
+
+pub const darkviolet = #("text-decoration-color", "darkviolet")
+
+pub const deeppink = #("text-decoration-color", "deeppink")
+
+pub const deepskyblue = #("text-decoration-color", "deepskyblue")
+
+pub const dimgray = #("text-decoration-color", "dimgray")
+
+pub const dimgrey = #("text-decoration-color", "dimgrey")
+
+pub const dodgerblue = #("text-decoration-color", "dodgerblue")
+
+pub const firebrick = #("text-decoration-color", "firebrick")
+
+pub const floralwhite = #("text-decoration-color", "floralwhite")
+
+pub const forestgreen = #("text-decoration-color", "forestgreen")
+
+pub const fuchsia = #("text-decoration-color", "fuchsia")
+
+pub const gainsboro = #("text-decoration-color", "gainsboro")
+
+pub const ghostwhite = #("text-decoration-color", "ghostwhite")
+
+pub const gold = #("text-decoration-color", "gold")
+
+pub const goldenrod = #("text-decoration-color", "goldenrod")
+
+pub const gray = #("text-decoration-color", "gray")
+
+pub const green = #("text-decoration-color", "green")
+
+pub const greenyellow = #("text-decoration-color", "greenyellow")
+
+pub const grey = #("text-decoration-color", "grey")
+
+pub const honeydew = #("text-decoration-color", "honeydew")
+
+pub const hotpink = #("text-decoration-color", "hotpink")
+
+pub const indianred = #("text-decoration-color", "indianred")
+
+pub const indigo = #("text-decoration-color", "indigo")
+
+pub const ivory = #("text-decoration-color", "ivory")
+
+pub const khaki = #("text-decoration-color", "khaki")
+
+pub const lavender = #("text-decoration-color", "lavender")
+
+pub const lavenderblush = #("text-decoration-color", "lavenderblush")
+
+pub const lawngreen = #("text-decoration-color", "lawngreen")
+
+pub const lemonchiffon = #("text-decoration-color", "lemonchiffon")
+
+pub const lightblue = #("text-decoration-color", "lightblue")
+
+pub const lightcoral = #("text-decoration-color", "lightcoral")
+
+pub const lightcyan = #("text-decoration-color", "lightcyan")
+
+pub const lightgoldenrodyellow = #("text-decoration-color", "lightgoldenrodyellow")
+
+pub const lightgray = #("text-decoration-color", "lightgray")
+
+pub const lightgreen = #("text-decoration-color", "lightgreen")
+
+pub const lightgrey = #("text-decoration-color", "lightgrey")
+
+pub const lightpink = #("text-decoration-color", "lightpink")
+
+pub const lightsalmon = #("text-decoration-color", "lightsalmon")
+
+pub const lightseagreen = #("text-decoration-color", "lightseagreen")
+
+pub const lightskyblue = #("text-decoration-color", "lightskyblue")
+
+pub const lightslategray = #("text-decoration-color", "lightslategray")
+
+pub const lightslategrey = #("text-decoration-color", "lightslategrey")
+
+pub const lightsteelblue = #("text-decoration-color", "lightsteelblue")
+
+pub const lightyellow = #("text-decoration-color", "lightyellow")
+
+pub const lime = #("text-decoration-color", "lime")
+
+pub const limegreen = #("text-decoration-color", "limegreen")
+
+pub const linen = #("text-decoration-color", "linen")
+
+pub const magenta = #("text-decoration-color", "magenta")
+
+pub const maroon = #("text-decoration-color", "maroon")
+
+pub const mediumaquamarine = #("text-decoration-color", "mediumaquamarine")
+
+pub const mediumblue = #("text-decoration-color", "mediumblue")
+
+pub const mediumorchid = #("text-decoration-color", "mediumorchid")
+
+pub const mediumpurple = #("text-decoration-color", "mediumpurple")
+
+pub const mediumseagreen = #("text-decoration-color", "mediumseagreen")
+
+pub const mediumslateblue = #("text-decoration-color", "mediumslateblue")
+
+pub const mediumspringgreen = #("text-decoration-color", "mediumspringgreen")
+
+pub const mediumturquoise = #("text-decoration-color", "mediumturquoise")
+
+pub const mediumvioletred = #("text-decoration-color", "mediumvioletred")
+
+pub const midnightblue = #("text-decoration-color", "midnightblue")
+
+pub const mintcream = #("text-decoration-color", "mintcream")
+
+pub const mistyrose = #("text-decoration-color", "mistyrose")
+
+pub const moccasin = #("text-decoration-color", "moccasin")
+
+pub const navajowhite = #("text-decoration-color", "navajowhite")
+
+pub const navy = #("text-decoration-color", "navy")
+
+pub const oldlace = #("text-decoration-color", "oldlace")
+
+pub const olive = #("text-decoration-color", "olive")
+
+pub const olivedrab = #("text-decoration-color", "olivedrab")
+
+pub const orange = #("text-decoration-color", "orange")
+
+pub const orangered = #("text-decoration-color", "orangered")
+
+pub const orchid = #("text-decoration-color", "orchid")
+
+pub const palegoldenrod = #("text-decoration-color", "palegoldenrod")
+
+pub const palegreen = #("text-decoration-color", "palegreen")
+
+pub const paleturquoise = #("text-decoration-color", "paleturquoise")
+
+pub const palevioletred = #("text-decoration-color", "palevioletred")
+
+pub const papayawhip = #("text-decoration-color", "papayawhip")
+
+pub const peachpuff = #("text-decoration-color", "peachpuff")
+
+pub const peru = #("text-decoration-color", "peru")
+
+pub const pink = #("text-decoration-color", "pink")
+
+pub const plum = #("text-decoration-color", "plum")
+
+pub const powderblue = #("text-decoration-color", "powderblue")
+
+pub const purple = #("text-decoration-color", "purple")
+
+pub const rebeccapurple = #("text-decoration-color", "rebeccapurple")
+
+pub const red = #("text-decoration-color", "red")
+
+pub const rosybrown = #("text-decoration-color", "rosybrown")
+
+pub const royalblue = #("text-decoration-color", "royalblue")
+
+pub const saddlebrown = #("text-decoration-color", "saddlebrown")
+
+pub const salmon = #("text-decoration-color", "salmon")
+
+pub const sandybrown = #("text-decoration-color", "sandybrown")
+
+pub const seagreen = #("text-decoration-color", "seagreen")
+
+pub const seashell = #("text-decoration-color", "seashell")
+
+pub const sienna = #("text-decoration-color", "sienna")
+
+pub const silver = #("text-decoration-color", "silver")
+
+pub const skyblue = #("text-decoration-color", "skyblue")
+
+pub const slateblue = #("text-decoration-color", "slateblue")
+
+pub const slategray = #("text-decoration-color", "slategray")
+
+pub const slategrey = #("text-decoration-color", "slategrey")
+
+pub const snow = #("text-decoration-color", "snow")
+
+pub const springgreen = #("text-decoration-color", "springgreen")
+
+pub const steelblue = #("text-decoration-color", "steelblue")
+
+pub const tan = #("text-decoration-color", "tan")
+
+pub const teal = #("text-decoration-color", "teal")
+
+pub const thistle = #("text-decoration-color", "thistle")
+
+pub const tomato = #("text-decoration-color", "tomato")
+
+pub const turquoise = #("text-decoration-color", "turquoise")
+
+pub const violet = #("text-decoration-color", "violet")
+
+pub const wheat = #("text-decoration-color", "wheat")
+
+pub const white = #("text-decoration-color", "white")
+
+pub const whitesmoke = #("text-decoration-color", "whitesmoke")
+
+pub const yellow = #("text-decoration-color", "yellow")
+
+pub const yellowgreen = #("text-decoration-color", "yellowgreen")
+
+pub const in = #("text-decoration-color", "in")
+
+pub const lab = #("text-decoration-color", "lab")
+
+pub const oklab = #("text-decoration-color", "oklab")
+
+pub const hsl = #("text-decoration-color", "hsl")
+
+pub const hwb = #("text-decoration-color", "hwb")
+
+pub const lch = #("text-decoration-color", "lch")
+
+pub const oklch = #("text-decoration-color", "oklch")
+
+pub const shorter = #("text-decoration-color", "shorter")
+
+pub const longer = #("text-decoration-color", "longer")
+
+pub const increasing = #("text-decoration-color", "increasing")
+
+pub const decreasing = #("text-decoration-color", "decreasing")
+
+pub const hue = #("text-decoration-color", "hue")
+
+pub const current_color = #("text-decoration-color", "currentColor")
+
+pub const accent_color = #("text-decoration-color", "AccentColor")
+
+pub const accent_color_text = #("text-decoration-color", "AccentColorText")
+
+pub const active_text = #("text-decoration-color", "ActiveText")
+
+pub const button_border = #("text-decoration-color", "ButtonBorder")
+
+pub const button_face = #("text-decoration-color", "ButtonFace")
+
+pub const button_text = #("text-decoration-color", "ButtonText")
+
+pub const canvas = #("text-decoration-color", "Canvas")
+
+pub const canvas_text = #("text-decoration-color", "CanvasText")
+
+pub const field = #("text-decoration-color", "Field")
+
+pub const field_text = #("text-decoration-color", "FieldText")
+
+pub const gray_text = #("text-decoration-color", "GrayText")
+
+pub const highlight = #("text-decoration-color", "Highlight")
+
+pub const highlight_text = #("text-decoration-color", "HighlightText")
+
+pub const link_text = #("text-decoration-color", "LinkText")
+
+pub const mark = #("text-decoration-color", "Mark")
+
+pub const mark_text = #("text-decoration-color", "MarkText")
+
+pub const selected_item = #("text-decoration-color", "SelectedItem")
+
+pub const selected_item_text = #("text-decoration-color", "SelectedItemText")
+
+pub const visited_text = #("text-decoration-color", "VisitedText")
+
+pub const moz_button_default = #("text-decoration-color", "-moz-ButtonDefault")
+
+pub const moz_button_hover_face = #("text-decoration-color", "-moz-ButtonHoverFace")
+
+pub const moz_button_hover_text = #("text-decoration-color", "-moz-ButtonHoverText")
+
+pub const moz_cell_highlight = #("text-decoration-color", "-moz-CellHighlight")
+
+pub const moz_cell_highlight_text = #("text-decoration-color", "-moz-CellHighlightText")
+
+pub const moz_combobox = #("text-decoration-color", "-moz-Combobox")
+
+pub const moz_combobox_text = #("text-decoration-color", "-moz-ComboboxText")
+
+pub const moz_dialog = #("text-decoration-color", "-moz-Dialog")
+
+pub const moz_dialog_text = #("text-decoration-color", "-moz-DialogText")
+
+pub const moz_dragtargetzone = #("text-decoration-color", "-moz-dragtargetzone")
+
+pub const moz_even_tree_row = #("text-decoration-color", "-moz-EvenTreeRow")
+
+pub const moz_field = #("text-decoration-color", "-moz-Field")
+
+pub const moz_field_text = #("text-decoration-color", "-moz-FieldText")
+
+pub const moz_html_cell_highlight = #("text-decoration-color", "-moz-html-CellHighlight")
+
+pub const moz_html_cell_highlight_text = #("text-decoration-color", "-moz-html-CellHighlightText")
+
+pub const moz_mac_accentdarkestshadow = #("text-decoration-color", "-moz-mac-accentdarkestshadow")
+
+pub const moz_mac_accentdarkshadow = #("text-decoration-color", "-moz-mac-accentdarkshadow")
+
+pub const moz_mac_accentface = #("text-decoration-color", "-moz-mac-accentface")
+
+pub const moz_mac_accentlightesthighlight = #("text-decoration-color", "-moz-mac-accentlightesthighlight")
+
+pub const moz_mac_accentlightshadow = #("text-decoration-color", "-moz-mac-accentlightshadow")
+
+pub const moz_mac_accentregularhighlight = #("text-decoration-color", "-moz-mac-accentregularhighlight")
+
+pub const moz_mac_accentregularshadow = #("text-decoration-color", "-moz-mac-accentregularshadow")
+
+pub const moz_mac_chrome_active = #("text-decoration-color", "-moz-mac-chrome-active")
+
+pub const moz_mac_chrome_inactive = #("text-decoration-color", "-moz-mac-chrome-inactive")
+
+pub const moz_mac_focusring = #("text-decoration-color", "-moz-mac-focusring")
+
+pub const moz_mac_menuselect = #("text-decoration-color", "-moz-mac-menuselect")
+
+pub const moz_mac_menushadow = #("text-decoration-color", "-moz-mac-menushadow")
+
+pub const moz_mac_menutextselect = #("text-decoration-color", "-moz-mac-menutextselect")
+
+pub const moz_menu_hover = #("text-decoration-color", "-moz-MenuHover")
+
+pub const moz_menu_hover_text = #("text-decoration-color", "-moz-MenuHoverText")
+
+pub const moz_menu_bar_text = #("text-decoration-color", "-moz-MenuBarText")
+
+pub const moz_menu_bar_hover_text = #("text-decoration-color", "-moz-MenuBarHoverText")
+
+pub const moz_nativehyperlinktext = #("text-decoration-color", "-moz-nativehyperlinktext")
+
+pub const moz_odd_tree_row = #("text-decoration-color", "-moz-OddTreeRow")
+
+pub const moz_win_communicationstext = #("text-decoration-color", "-moz-win-communicationstext")
+
+pub const moz_win_mediatext = #("text-decoration-color", "-moz-win-mediatext")
+
+pub const moz_activehyperlinktext = #("text-decoration-color", "-moz-activehyperlinktext")
+
+pub const moz_default_background_color = #("text-decoration-color", "-moz-default-background-color")
+
+pub const moz_default_color = #("text-decoration-color", "-moz-default-color")
+
+pub const moz_hyperlinktext = #("text-decoration-color", "-moz-hyperlinktext")
+
+pub const moz_visitedhyperlinktext = #("text-decoration-color", "-moz-visitedhyperlinktext")
+
+pub const webkit_activelink = #("text-decoration-color", "-webkit-activelink")
+
+pub const webkit_focus_ring_color = #("text-decoration-color", "-webkit-focus-ring-color")
+
+pub const webkit_link = #("text-decoration-color", "-webkit-link")
+
+pub const webkit_text = #("text-decoration-color", "-webkit-text")
 
 pub fn raw(value: String) -> #(String, String) {
   #("text_decoration_color", value)

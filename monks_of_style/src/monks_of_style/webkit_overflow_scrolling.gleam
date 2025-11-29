@@ -1,12 +1,8 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("-webkit-overflow-scrolling", "auto")
-}
+pub const auto_ = #("-webkit-overflow-scrolling", "auto")
 
-pub fn touch() -> #(String, String) {
-  #("-webkit-overflow-scrolling", "touch")
-}
+pub const touch = #("-webkit-overflow-scrolling", "touch")
 
 pub fn raw(value: String) -> #(String, String) {
   #("webkit_overflow_scrolling", value)

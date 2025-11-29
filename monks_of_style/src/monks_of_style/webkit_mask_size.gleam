@@ -1,16 +1,10 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("-webkit-mask-size", "auto")
-}
+pub const auto_ = #("-webkit-mask-size", "auto")
 
-pub fn cover() -> #(String, String) {
-  #("-webkit-mask-size", "cover")
-}
+pub const cover = #("-webkit-mask-size", "cover")
 
-pub fn contain() -> #(String, String) {
-  #("-webkit-mask-size", "contain")
-}
+pub const contain = #("-webkit-mask-size", "contain")
 
 pub fn raw(value: String) -> #(String, String) {
   #("webkit_mask_size", value)

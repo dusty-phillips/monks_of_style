@@ -1,1044 +1,524 @@
 
 
-pub fn none() -> #(String, String) {
-  #("mask-image", "none")
-}
-
-pub fn ltr() -> #(String, String) {
-  #("mask-image", "ltr")
-}
-
-pub fn rtl() -> #(String, String) {
-  #("mask-image", "rtl")
-}
-
-pub fn srgb() -> #(String, String) {
-  #("mask-image", "srgb")
-}
-
-pub fn srgb_linear() -> #(String, String) {
-  #("mask-image", "srgb-linear")
-}
-
-pub fn display_p3() -> #(String, String) {
-  #("mask-image", "display-p3")
-}
-
-pub fn a98_rgb() -> #(String, String) {
-  #("mask-image", "a98-rgb")
-}
-
-pub fn prophoto_rgb() -> #(String, String) {
-  #("mask-image", "prophoto-rgb")
-}
-
-pub fn rec2020() -> #(String, String) {
-  #("mask-image", "rec2020")
-}
-
-pub fn xyz() -> #(String, String) {
-  #("mask-image", "xyz")
-}
-
-pub fn xyz_d50() -> #(String, String) {
-  #("mask-image", "xyz-d50")
-}
-
-pub fn xyz_d65() -> #(String, String) {
-  #("mask-image", "xyz-d65")
-}
-
-pub fn transparent() -> #(String, String) {
-  #("mask-image", "transparent")
-}
-
-pub fn aliceblue() -> #(String, String) {
-  #("mask-image", "aliceblue")
-}
-
-pub fn antiquewhite() -> #(String, String) {
-  #("mask-image", "antiquewhite")
-}
-
-pub fn aqua() -> #(String, String) {
-  #("mask-image", "aqua")
-}
-
-pub fn aquamarine() -> #(String, String) {
-  #("mask-image", "aquamarine")
-}
-
-pub fn azure() -> #(String, String) {
-  #("mask-image", "azure")
-}
-
-pub fn beige() -> #(String, String) {
-  #("mask-image", "beige")
-}
-
-pub fn bisque() -> #(String, String) {
-  #("mask-image", "bisque")
-}
-
-pub fn black() -> #(String, String) {
-  #("mask-image", "black")
-}
-
-pub fn blanchedalmond() -> #(String, String) {
-  #("mask-image", "blanchedalmond")
-}
-
-pub fn blue() -> #(String, String) {
-  #("mask-image", "blue")
-}
-
-pub fn blueviolet() -> #(String, String) {
-  #("mask-image", "blueviolet")
-}
-
-pub fn brown() -> #(String, String) {
-  #("mask-image", "brown")
-}
-
-pub fn burlywood() -> #(String, String) {
-  #("mask-image", "burlywood")
-}
-
-pub fn cadetblue() -> #(String, String) {
-  #("mask-image", "cadetblue")
-}
-
-pub fn chartreuse() -> #(String, String) {
-  #("mask-image", "chartreuse")
-}
-
-pub fn chocolate() -> #(String, String) {
-  #("mask-image", "chocolate")
-}
-
-pub fn coral() -> #(String, String) {
-  #("mask-image", "coral")
-}
-
-pub fn cornflowerblue() -> #(String, String) {
-  #("mask-image", "cornflowerblue")
-}
-
-pub fn cornsilk() -> #(String, String) {
-  #("mask-image", "cornsilk")
-}
-
-pub fn crimson() -> #(String, String) {
-  #("mask-image", "crimson")
-}
-
-pub fn cyan() -> #(String, String) {
-  #("mask-image", "cyan")
-}
-
-pub fn darkblue() -> #(String, String) {
-  #("mask-image", "darkblue")
-}
-
-pub fn darkcyan() -> #(String, String) {
-  #("mask-image", "darkcyan")
-}
-
-pub fn darkgoldenrod() -> #(String, String) {
-  #("mask-image", "darkgoldenrod")
-}
-
-pub fn darkgray() -> #(String, String) {
-  #("mask-image", "darkgray")
-}
-
-pub fn darkgreen() -> #(String, String) {
-  #("mask-image", "darkgreen")
-}
-
-pub fn darkgrey() -> #(String, String) {
-  #("mask-image", "darkgrey")
-}
-
-pub fn darkkhaki() -> #(String, String) {
-  #("mask-image", "darkkhaki")
-}
-
-pub fn darkmagenta() -> #(String, String) {
-  #("mask-image", "darkmagenta")
-}
-
-pub fn darkolivegreen() -> #(String, String) {
-  #("mask-image", "darkolivegreen")
-}
-
-pub fn darkorange() -> #(String, String) {
-  #("mask-image", "darkorange")
-}
-
-pub fn darkorchid() -> #(String, String) {
-  #("mask-image", "darkorchid")
-}
-
-pub fn darkred() -> #(String, String) {
-  #("mask-image", "darkred")
-}
-
-pub fn darksalmon() -> #(String, String) {
-  #("mask-image", "darksalmon")
-}
-
-pub fn darkseagreen() -> #(String, String) {
-  #("mask-image", "darkseagreen")
-}
-
-pub fn darkslateblue() -> #(String, String) {
-  #("mask-image", "darkslateblue")
-}
-
-pub fn darkslategray() -> #(String, String) {
-  #("mask-image", "darkslategray")
-}
-
-pub fn darkslategrey() -> #(String, String) {
-  #("mask-image", "darkslategrey")
-}
-
-pub fn darkturquoise() -> #(String, String) {
-  #("mask-image", "darkturquoise")
-}
-
-pub fn darkviolet() -> #(String, String) {
-  #("mask-image", "darkviolet")
-}
-
-pub fn deeppink() -> #(String, String) {
-  #("mask-image", "deeppink")
-}
-
-pub fn deepskyblue() -> #(String, String) {
-  #("mask-image", "deepskyblue")
-}
-
-pub fn dimgray() -> #(String, String) {
-  #("mask-image", "dimgray")
-}
-
-pub fn dimgrey() -> #(String, String) {
-  #("mask-image", "dimgrey")
-}
-
-pub fn dodgerblue() -> #(String, String) {
-  #("mask-image", "dodgerblue")
-}
-
-pub fn firebrick() -> #(String, String) {
-  #("mask-image", "firebrick")
-}
-
-pub fn floralwhite() -> #(String, String) {
-  #("mask-image", "floralwhite")
-}
-
-pub fn forestgreen() -> #(String, String) {
-  #("mask-image", "forestgreen")
-}
-
-pub fn fuchsia() -> #(String, String) {
-  #("mask-image", "fuchsia")
-}
-
-pub fn gainsboro() -> #(String, String) {
-  #("mask-image", "gainsboro")
-}
-
-pub fn ghostwhite() -> #(String, String) {
-  #("mask-image", "ghostwhite")
-}
-
-pub fn gold() -> #(String, String) {
-  #("mask-image", "gold")
-}
-
-pub fn goldenrod() -> #(String, String) {
-  #("mask-image", "goldenrod")
-}
-
-pub fn gray() -> #(String, String) {
-  #("mask-image", "gray")
-}
-
-pub fn green() -> #(String, String) {
-  #("mask-image", "green")
-}
-
-pub fn greenyellow() -> #(String, String) {
-  #("mask-image", "greenyellow")
-}
-
-pub fn grey() -> #(String, String) {
-  #("mask-image", "grey")
-}
-
-pub fn honeydew() -> #(String, String) {
-  #("mask-image", "honeydew")
-}
-
-pub fn hotpink() -> #(String, String) {
-  #("mask-image", "hotpink")
-}
-
-pub fn indianred() -> #(String, String) {
-  #("mask-image", "indianred")
-}
-
-pub fn indigo() -> #(String, String) {
-  #("mask-image", "indigo")
-}
-
-pub fn ivory() -> #(String, String) {
-  #("mask-image", "ivory")
-}
-
-pub fn khaki() -> #(String, String) {
-  #("mask-image", "khaki")
-}
-
-pub fn lavender() -> #(String, String) {
-  #("mask-image", "lavender")
-}
-
-pub fn lavenderblush() -> #(String, String) {
-  #("mask-image", "lavenderblush")
-}
-
-pub fn lawngreen() -> #(String, String) {
-  #("mask-image", "lawngreen")
-}
-
-pub fn lemonchiffon() -> #(String, String) {
-  #("mask-image", "lemonchiffon")
-}
-
-pub fn lightblue() -> #(String, String) {
-  #("mask-image", "lightblue")
-}
-
-pub fn lightcoral() -> #(String, String) {
-  #("mask-image", "lightcoral")
-}
-
-pub fn lightcyan() -> #(String, String) {
-  #("mask-image", "lightcyan")
-}
-
-pub fn lightgoldenrodyellow() -> #(String, String) {
-  #("mask-image", "lightgoldenrodyellow")
-}
-
-pub fn lightgray() -> #(String, String) {
-  #("mask-image", "lightgray")
-}
-
-pub fn lightgreen() -> #(String, String) {
-  #("mask-image", "lightgreen")
-}
-
-pub fn lightgrey() -> #(String, String) {
-  #("mask-image", "lightgrey")
-}
-
-pub fn lightpink() -> #(String, String) {
-  #("mask-image", "lightpink")
-}
-
-pub fn lightsalmon() -> #(String, String) {
-  #("mask-image", "lightsalmon")
-}
-
-pub fn lightseagreen() -> #(String, String) {
-  #("mask-image", "lightseagreen")
-}
-
-pub fn lightskyblue() -> #(String, String) {
-  #("mask-image", "lightskyblue")
-}
-
-pub fn lightslategray() -> #(String, String) {
-  #("mask-image", "lightslategray")
-}
-
-pub fn lightslategrey() -> #(String, String) {
-  #("mask-image", "lightslategrey")
-}
-
-pub fn lightsteelblue() -> #(String, String) {
-  #("mask-image", "lightsteelblue")
-}
-
-pub fn lightyellow() -> #(String, String) {
-  #("mask-image", "lightyellow")
-}
-
-pub fn lime() -> #(String, String) {
-  #("mask-image", "lime")
-}
-
-pub fn limegreen() -> #(String, String) {
-  #("mask-image", "limegreen")
-}
-
-pub fn linen() -> #(String, String) {
-  #("mask-image", "linen")
-}
-
-pub fn magenta() -> #(String, String) {
-  #("mask-image", "magenta")
-}
-
-pub fn maroon() -> #(String, String) {
-  #("mask-image", "maroon")
-}
-
-pub fn mediumaquamarine() -> #(String, String) {
-  #("mask-image", "mediumaquamarine")
-}
-
-pub fn mediumblue() -> #(String, String) {
-  #("mask-image", "mediumblue")
-}
-
-pub fn mediumorchid() -> #(String, String) {
-  #("mask-image", "mediumorchid")
-}
-
-pub fn mediumpurple() -> #(String, String) {
-  #("mask-image", "mediumpurple")
-}
-
-pub fn mediumseagreen() -> #(String, String) {
-  #("mask-image", "mediumseagreen")
-}
-
-pub fn mediumslateblue() -> #(String, String) {
-  #("mask-image", "mediumslateblue")
-}
-
-pub fn mediumspringgreen() -> #(String, String) {
-  #("mask-image", "mediumspringgreen")
-}
-
-pub fn mediumturquoise() -> #(String, String) {
-  #("mask-image", "mediumturquoise")
-}
-
-pub fn mediumvioletred() -> #(String, String) {
-  #("mask-image", "mediumvioletred")
-}
-
-pub fn midnightblue() -> #(String, String) {
-  #("mask-image", "midnightblue")
-}
-
-pub fn mintcream() -> #(String, String) {
-  #("mask-image", "mintcream")
-}
-
-pub fn mistyrose() -> #(String, String) {
-  #("mask-image", "mistyrose")
-}
-
-pub fn moccasin() -> #(String, String) {
-  #("mask-image", "moccasin")
-}
-
-pub fn navajowhite() -> #(String, String) {
-  #("mask-image", "navajowhite")
-}
-
-pub fn navy() -> #(String, String) {
-  #("mask-image", "navy")
-}
-
-pub fn oldlace() -> #(String, String) {
-  #("mask-image", "oldlace")
-}
-
-pub fn olive() -> #(String, String) {
-  #("mask-image", "olive")
-}
-
-pub fn olivedrab() -> #(String, String) {
-  #("mask-image", "olivedrab")
-}
-
-pub fn orange() -> #(String, String) {
-  #("mask-image", "orange")
-}
-
-pub fn orangered() -> #(String, String) {
-  #("mask-image", "orangered")
-}
-
-pub fn orchid() -> #(String, String) {
-  #("mask-image", "orchid")
-}
-
-pub fn palegoldenrod() -> #(String, String) {
-  #("mask-image", "palegoldenrod")
-}
-
-pub fn palegreen() -> #(String, String) {
-  #("mask-image", "palegreen")
-}
-
-pub fn paleturquoise() -> #(String, String) {
-  #("mask-image", "paleturquoise")
-}
-
-pub fn palevioletred() -> #(String, String) {
-  #("mask-image", "palevioletred")
-}
-
-pub fn papayawhip() -> #(String, String) {
-  #("mask-image", "papayawhip")
-}
-
-pub fn peachpuff() -> #(String, String) {
-  #("mask-image", "peachpuff")
-}
-
-pub fn peru() -> #(String, String) {
-  #("mask-image", "peru")
-}
-
-pub fn pink() -> #(String, String) {
-  #("mask-image", "pink")
-}
-
-pub fn plum() -> #(String, String) {
-  #("mask-image", "plum")
-}
-
-pub fn powderblue() -> #(String, String) {
-  #("mask-image", "powderblue")
-}
-
-pub fn purple() -> #(String, String) {
-  #("mask-image", "purple")
-}
-
-pub fn rebeccapurple() -> #(String, String) {
-  #("mask-image", "rebeccapurple")
-}
-
-pub fn red() -> #(String, String) {
-  #("mask-image", "red")
-}
-
-pub fn rosybrown() -> #(String, String) {
-  #("mask-image", "rosybrown")
-}
-
-pub fn royalblue() -> #(String, String) {
-  #("mask-image", "royalblue")
-}
-
-pub fn saddlebrown() -> #(String, String) {
-  #("mask-image", "saddlebrown")
-}
-
-pub fn salmon() -> #(String, String) {
-  #("mask-image", "salmon")
-}
-
-pub fn sandybrown() -> #(String, String) {
-  #("mask-image", "sandybrown")
-}
-
-pub fn seagreen() -> #(String, String) {
-  #("mask-image", "seagreen")
-}
-
-pub fn seashell() -> #(String, String) {
-  #("mask-image", "seashell")
-}
-
-pub fn sienna() -> #(String, String) {
-  #("mask-image", "sienna")
-}
-
-pub fn silver() -> #(String, String) {
-  #("mask-image", "silver")
-}
-
-pub fn skyblue() -> #(String, String) {
-  #("mask-image", "skyblue")
-}
-
-pub fn slateblue() -> #(String, String) {
-  #("mask-image", "slateblue")
-}
-
-pub fn slategray() -> #(String, String) {
-  #("mask-image", "slategray")
-}
-
-pub fn slategrey() -> #(String, String) {
-  #("mask-image", "slategrey")
-}
-
-pub fn snow() -> #(String, String) {
-  #("mask-image", "snow")
-}
-
-pub fn springgreen() -> #(String, String) {
-  #("mask-image", "springgreen")
-}
-
-pub fn steelblue() -> #(String, String) {
-  #("mask-image", "steelblue")
-}
-
-pub fn tan() -> #(String, String) {
-  #("mask-image", "tan")
-}
-
-pub fn teal() -> #(String, String) {
-  #("mask-image", "teal")
-}
-
-pub fn thistle() -> #(String, String) {
-  #("mask-image", "thistle")
-}
-
-pub fn tomato() -> #(String, String) {
-  #("mask-image", "tomato")
-}
-
-pub fn turquoise() -> #(String, String) {
-  #("mask-image", "turquoise")
-}
-
-pub fn violet() -> #(String, String) {
-  #("mask-image", "violet")
-}
-
-pub fn wheat() -> #(String, String) {
-  #("mask-image", "wheat")
-}
-
-pub fn white() -> #(String, String) {
-  #("mask-image", "white")
-}
-
-pub fn whitesmoke() -> #(String, String) {
-  #("mask-image", "whitesmoke")
-}
-
-pub fn yellow() -> #(String, String) {
-  #("mask-image", "yellow")
-}
-
-pub fn yellowgreen() -> #(String, String) {
-  #("mask-image", "yellowgreen")
-}
-
-pub fn in() -> #(String, String) {
-  #("mask-image", "in")
-}
-
-pub fn lab() -> #(String, String) {
-  #("mask-image", "lab")
-}
-
-pub fn oklab() -> #(String, String) {
-  #("mask-image", "oklab")
-}
-
-pub fn hsl() -> #(String, String) {
-  #("mask-image", "hsl")
-}
-
-pub fn hwb() -> #(String, String) {
-  #("mask-image", "hwb")
-}
-
-pub fn lch() -> #(String, String) {
-  #("mask-image", "lch")
-}
-
-pub fn oklch() -> #(String, String) {
-  #("mask-image", "oklch")
-}
-
-pub fn shorter() -> #(String, String) {
-  #("mask-image", "shorter")
-}
-
-pub fn longer() -> #(String, String) {
-  #("mask-image", "longer")
-}
-
-pub fn increasing() -> #(String, String) {
-  #("mask-image", "increasing")
-}
-
-pub fn decreasing() -> #(String, String) {
-  #("mask-image", "decreasing")
-}
-
-pub fn hue() -> #(String, String) {
-  #("mask-image", "hue")
-}
-
-pub fn current_color() -> #(String, String) {
-  #("mask-image", "currentColor")
-}
-
-pub fn accent_color() -> #(String, String) {
-  #("mask-image", "AccentColor")
-}
-
-pub fn accent_color_text() -> #(String, String) {
-  #("mask-image", "AccentColorText")
-}
-
-pub fn active_text() -> #(String, String) {
-  #("mask-image", "ActiveText")
-}
-
-pub fn button_border() -> #(String, String) {
-  #("mask-image", "ButtonBorder")
-}
-
-pub fn button_face() -> #(String, String) {
-  #("mask-image", "ButtonFace")
-}
-
-pub fn button_text() -> #(String, String) {
-  #("mask-image", "ButtonText")
-}
-
-pub fn canvas() -> #(String, String) {
-  #("mask-image", "Canvas")
-}
-
-pub fn canvas_text() -> #(String, String) {
-  #("mask-image", "CanvasText")
-}
-
-pub fn field() -> #(String, String) {
-  #("mask-image", "Field")
-}
-
-pub fn field_text() -> #(String, String) {
-  #("mask-image", "FieldText")
-}
-
-pub fn gray_text() -> #(String, String) {
-  #("mask-image", "GrayText")
-}
-
-pub fn highlight() -> #(String, String) {
-  #("mask-image", "Highlight")
-}
-
-pub fn highlight_text() -> #(String, String) {
-  #("mask-image", "HighlightText")
-}
-
-pub fn link_text() -> #(String, String) {
-  #("mask-image", "LinkText")
-}
-
-pub fn mark() -> #(String, String) {
-  #("mask-image", "Mark")
-}
-
-pub fn mark_text() -> #(String, String) {
-  #("mask-image", "MarkText")
-}
-
-pub fn selected_item() -> #(String, String) {
-  #("mask-image", "SelectedItem")
-}
-
-pub fn selected_item_text() -> #(String, String) {
-  #("mask-image", "SelectedItemText")
-}
-
-pub fn visited_text() -> #(String, String) {
-  #("mask-image", "VisitedText")
-}
-
-pub fn moz_button_default() -> #(String, String) {
-  #("mask-image", "-moz-ButtonDefault")
-}
-
-pub fn moz_button_hover_face() -> #(String, String) {
-  #("mask-image", "-moz-ButtonHoverFace")
-}
-
-pub fn moz_button_hover_text() -> #(String, String) {
-  #("mask-image", "-moz-ButtonHoverText")
-}
-
-pub fn moz_cell_highlight() -> #(String, String) {
-  #("mask-image", "-moz-CellHighlight")
-}
-
-pub fn moz_cell_highlight_text() -> #(String, String) {
-  #("mask-image", "-moz-CellHighlightText")
-}
-
-pub fn moz_combobox() -> #(String, String) {
-  #("mask-image", "-moz-Combobox")
-}
-
-pub fn moz_combobox_text() -> #(String, String) {
-  #("mask-image", "-moz-ComboboxText")
-}
-
-pub fn moz_dialog() -> #(String, String) {
-  #("mask-image", "-moz-Dialog")
-}
-
-pub fn moz_dialog_text() -> #(String, String) {
-  #("mask-image", "-moz-DialogText")
-}
-
-pub fn moz_dragtargetzone() -> #(String, String) {
-  #("mask-image", "-moz-dragtargetzone")
-}
-
-pub fn moz_even_tree_row() -> #(String, String) {
-  #("mask-image", "-moz-EvenTreeRow")
-}
-
-pub fn moz_field() -> #(String, String) {
-  #("mask-image", "-moz-Field")
-}
-
-pub fn moz_field_text() -> #(String, String) {
-  #("mask-image", "-moz-FieldText")
-}
-
-pub fn moz_html_cell_highlight() -> #(String, String) {
-  #("mask-image", "-moz-html-CellHighlight")
-}
-
-pub fn moz_html_cell_highlight_text() -> #(String, String) {
-  #("mask-image", "-moz-html-CellHighlightText")
-}
-
-pub fn moz_mac_accentdarkestshadow() -> #(String, String) {
-  #("mask-image", "-moz-mac-accentdarkestshadow")
-}
-
-pub fn moz_mac_accentdarkshadow() -> #(String, String) {
-  #("mask-image", "-moz-mac-accentdarkshadow")
-}
-
-pub fn moz_mac_accentface() -> #(String, String) {
-  #("mask-image", "-moz-mac-accentface")
-}
-
-pub fn moz_mac_accentlightesthighlight() -> #(String, String) {
-  #("mask-image", "-moz-mac-accentlightesthighlight")
-}
-
-pub fn moz_mac_accentlightshadow() -> #(String, String) {
-  #("mask-image", "-moz-mac-accentlightshadow")
-}
-
-pub fn moz_mac_accentregularhighlight() -> #(String, String) {
-  #("mask-image", "-moz-mac-accentregularhighlight")
-}
-
-pub fn moz_mac_accentregularshadow() -> #(String, String) {
-  #("mask-image", "-moz-mac-accentregularshadow")
-}
-
-pub fn moz_mac_chrome_active() -> #(String, String) {
-  #("mask-image", "-moz-mac-chrome-active")
-}
-
-pub fn moz_mac_chrome_inactive() -> #(String, String) {
-  #("mask-image", "-moz-mac-chrome-inactive")
-}
-
-pub fn moz_mac_focusring() -> #(String, String) {
-  #("mask-image", "-moz-mac-focusring")
-}
-
-pub fn moz_mac_menuselect() -> #(String, String) {
-  #("mask-image", "-moz-mac-menuselect")
-}
-
-pub fn moz_mac_menushadow() -> #(String, String) {
-  #("mask-image", "-moz-mac-menushadow")
-}
-
-pub fn moz_mac_menutextselect() -> #(String, String) {
-  #("mask-image", "-moz-mac-menutextselect")
-}
-
-pub fn moz_menu_hover() -> #(String, String) {
-  #("mask-image", "-moz-MenuHover")
-}
-
-pub fn moz_menu_hover_text() -> #(String, String) {
-  #("mask-image", "-moz-MenuHoverText")
-}
-
-pub fn moz_menu_bar_text() -> #(String, String) {
-  #("mask-image", "-moz-MenuBarText")
-}
-
-pub fn moz_menu_bar_hover_text() -> #(String, String) {
-  #("mask-image", "-moz-MenuBarHoverText")
-}
-
-pub fn moz_nativehyperlinktext() -> #(String, String) {
-  #("mask-image", "-moz-nativehyperlinktext")
-}
-
-pub fn moz_odd_tree_row() -> #(String, String) {
-  #("mask-image", "-moz-OddTreeRow")
-}
-
-pub fn moz_win_communicationstext() -> #(String, String) {
-  #("mask-image", "-moz-win-communicationstext")
-}
-
-pub fn moz_win_mediatext() -> #(String, String) {
-  #("mask-image", "-moz-win-mediatext")
-}
-
-pub fn moz_activehyperlinktext() -> #(String, String) {
-  #("mask-image", "-moz-activehyperlinktext")
-}
-
-pub fn moz_default_background_color() -> #(String, String) {
-  #("mask-image", "-moz-default-background-color")
-}
-
-pub fn moz_default_color() -> #(String, String) {
-  #("mask-image", "-moz-default-color")
-}
-
-pub fn moz_hyperlinktext() -> #(String, String) {
-  #("mask-image", "-moz-hyperlinktext")
-}
-
-pub fn moz_visitedhyperlinktext() -> #(String, String) {
-  #("mask-image", "-moz-visitedhyperlinktext")
-}
-
-pub fn webkit_activelink() -> #(String, String) {
-  #("mask-image", "-webkit-activelink")
-}
-
-pub fn webkit_focus_ring_color() -> #(String, String) {
-  #("mask-image", "-webkit-focus-ring-color")
-}
-
-pub fn webkit_link() -> #(String, String) {
-  #("mask-image", "-webkit-link")
-}
-
-pub fn webkit_text() -> #(String, String) {
-  #("mask-image", "-webkit-text")
-}
-
-pub fn first() -> #(String, String) {
-  #("mask-image", "first")
-}
-
-pub fn start() -> #(String, String) {
-  #("mask-image", "start")
-}
-
-pub fn last() -> #(String, String) {
-  #("mask-image", "last")
-}
-
-pub fn first_except() -> #(String, String) {
-  #("mask-image", "first-except")
-}
-
-pub fn to() -> #(String, String) {
-  #("mask-image", "to")
-}
-
-pub fn left() -> #(String, String) {
-  #("mask-image", "left")
-}
-
-pub fn right() -> #(String, String) {
-  #("mask-image", "right")
-}
-
-pub fn top() -> #(String, String) {
-  #("mask-image", "top")
-}
-
-pub fn bottom() -> #(String, String) {
-  #("mask-image", "bottom")
-}
-
-pub fn circle() -> #(String, String) {
-  #("mask-image", "circle")
-}
-
-pub fn ellipse() -> #(String, String) {
-  #("mask-image", "ellipse")
-}
-
-pub fn closest_side() -> #(String, String) {
-  #("mask-image", "closest-side")
-}
-
-pub fn farthest_side() -> #(String, String) {
-  #("mask-image", "farthest-side")
-}
-
-pub fn closest_corner() -> #(String, String) {
-  #("mask-image", "closest-corner")
-}
-
-pub fn farthest_corner() -> #(String, String) {
-  #("mask-image", "farthest-corner")
-}
-
-pub fn at() -> #(String, String) {
-  #("mask-image", "at")
-}
-
-pub fn center() -> #(String, String) {
-  #("mask-image", "center")
-}
-
-pub fn from() -> #(String, String) {
-  #("mask-image", "from")
-}
-
-pub fn linear() -> #(String, String) {
-  #("mask-image", "linear")
-}
-
-pub fn radial() -> #(String, String) {
-  #("mask-image", "radial")
-}
-
-pub fn contain() -> #(String, String) {
-  #("mask-image", "contain")
-}
-
-pub fn cover() -> #(String, String) {
-  #("mask-image", "cover")
-}
+pub const none = #("mask-image", "none")
+
+pub const ltr = #("mask-image", "ltr")
+
+pub const rtl = #("mask-image", "rtl")
+
+pub const srgb = #("mask-image", "srgb")
+
+pub const srgb_linear = #("mask-image", "srgb-linear")
+
+pub const display_p3 = #("mask-image", "display-p3")
+
+pub const a98_rgb = #("mask-image", "a98-rgb")
+
+pub const prophoto_rgb = #("mask-image", "prophoto-rgb")
+
+pub const rec2020 = #("mask-image", "rec2020")
+
+pub const xyz = #("mask-image", "xyz")
+
+pub const xyz_d50 = #("mask-image", "xyz-d50")
+
+pub const xyz_d65 = #("mask-image", "xyz-d65")
+
+pub const transparent = #("mask-image", "transparent")
+
+pub const aliceblue = #("mask-image", "aliceblue")
+
+pub const antiquewhite = #("mask-image", "antiquewhite")
+
+pub const aqua = #("mask-image", "aqua")
+
+pub const aquamarine = #("mask-image", "aquamarine")
+
+pub const azure = #("mask-image", "azure")
+
+pub const beige = #("mask-image", "beige")
+
+pub const bisque = #("mask-image", "bisque")
+
+pub const black = #("mask-image", "black")
+
+pub const blanchedalmond = #("mask-image", "blanchedalmond")
+
+pub const blue = #("mask-image", "blue")
+
+pub const blueviolet = #("mask-image", "blueviolet")
+
+pub const brown = #("mask-image", "brown")
+
+pub const burlywood = #("mask-image", "burlywood")
+
+pub const cadetblue = #("mask-image", "cadetblue")
+
+pub const chartreuse = #("mask-image", "chartreuse")
+
+pub const chocolate = #("mask-image", "chocolate")
+
+pub const coral = #("mask-image", "coral")
+
+pub const cornflowerblue = #("mask-image", "cornflowerblue")
+
+pub const cornsilk = #("mask-image", "cornsilk")
+
+pub const crimson = #("mask-image", "crimson")
+
+pub const cyan = #("mask-image", "cyan")
+
+pub const darkblue = #("mask-image", "darkblue")
+
+pub const darkcyan = #("mask-image", "darkcyan")
+
+pub const darkgoldenrod = #("mask-image", "darkgoldenrod")
+
+pub const darkgray = #("mask-image", "darkgray")
+
+pub const darkgreen = #("mask-image", "darkgreen")
+
+pub const darkgrey = #("mask-image", "darkgrey")
+
+pub const darkkhaki = #("mask-image", "darkkhaki")
+
+pub const darkmagenta = #("mask-image", "darkmagenta")
+
+pub const darkolivegreen = #("mask-image", "darkolivegreen")
+
+pub const darkorange = #("mask-image", "darkorange")
+
+pub const darkorchid = #("mask-image", "darkorchid")
+
+pub const darkred = #("mask-image", "darkred")
+
+pub const darksalmon = #("mask-image", "darksalmon")
+
+pub const darkseagreen = #("mask-image", "darkseagreen")
+
+pub const darkslateblue = #("mask-image", "darkslateblue")
+
+pub const darkslategray = #("mask-image", "darkslategray")
+
+pub const darkslategrey = #("mask-image", "darkslategrey")
+
+pub const darkturquoise = #("mask-image", "darkturquoise")
+
+pub const darkviolet = #("mask-image", "darkviolet")
+
+pub const deeppink = #("mask-image", "deeppink")
+
+pub const deepskyblue = #("mask-image", "deepskyblue")
+
+pub const dimgray = #("mask-image", "dimgray")
+
+pub const dimgrey = #("mask-image", "dimgrey")
+
+pub const dodgerblue = #("mask-image", "dodgerblue")
+
+pub const firebrick = #("mask-image", "firebrick")
+
+pub const floralwhite = #("mask-image", "floralwhite")
+
+pub const forestgreen = #("mask-image", "forestgreen")
+
+pub const fuchsia = #("mask-image", "fuchsia")
+
+pub const gainsboro = #("mask-image", "gainsboro")
+
+pub const ghostwhite = #("mask-image", "ghostwhite")
+
+pub const gold = #("mask-image", "gold")
+
+pub const goldenrod = #("mask-image", "goldenrod")
+
+pub const gray = #("mask-image", "gray")
+
+pub const green = #("mask-image", "green")
+
+pub const greenyellow = #("mask-image", "greenyellow")
+
+pub const grey = #("mask-image", "grey")
+
+pub const honeydew = #("mask-image", "honeydew")
+
+pub const hotpink = #("mask-image", "hotpink")
+
+pub const indianred = #("mask-image", "indianred")
+
+pub const indigo = #("mask-image", "indigo")
+
+pub const ivory = #("mask-image", "ivory")
+
+pub const khaki = #("mask-image", "khaki")
+
+pub const lavender = #("mask-image", "lavender")
+
+pub const lavenderblush = #("mask-image", "lavenderblush")
+
+pub const lawngreen = #("mask-image", "lawngreen")
+
+pub const lemonchiffon = #("mask-image", "lemonchiffon")
+
+pub const lightblue = #("mask-image", "lightblue")
+
+pub const lightcoral = #("mask-image", "lightcoral")
+
+pub const lightcyan = #("mask-image", "lightcyan")
+
+pub const lightgoldenrodyellow = #("mask-image", "lightgoldenrodyellow")
+
+pub const lightgray = #("mask-image", "lightgray")
+
+pub const lightgreen = #("mask-image", "lightgreen")
+
+pub const lightgrey = #("mask-image", "lightgrey")
+
+pub const lightpink = #("mask-image", "lightpink")
+
+pub const lightsalmon = #("mask-image", "lightsalmon")
+
+pub const lightseagreen = #("mask-image", "lightseagreen")
+
+pub const lightskyblue = #("mask-image", "lightskyblue")
+
+pub const lightslategray = #("mask-image", "lightslategray")
+
+pub const lightslategrey = #("mask-image", "lightslategrey")
+
+pub const lightsteelblue = #("mask-image", "lightsteelblue")
+
+pub const lightyellow = #("mask-image", "lightyellow")
+
+pub const lime = #("mask-image", "lime")
+
+pub const limegreen = #("mask-image", "limegreen")
+
+pub const linen = #("mask-image", "linen")
+
+pub const magenta = #("mask-image", "magenta")
+
+pub const maroon = #("mask-image", "maroon")
+
+pub const mediumaquamarine = #("mask-image", "mediumaquamarine")
+
+pub const mediumblue = #("mask-image", "mediumblue")
+
+pub const mediumorchid = #("mask-image", "mediumorchid")
+
+pub const mediumpurple = #("mask-image", "mediumpurple")
+
+pub const mediumseagreen = #("mask-image", "mediumseagreen")
+
+pub const mediumslateblue = #("mask-image", "mediumslateblue")
+
+pub const mediumspringgreen = #("mask-image", "mediumspringgreen")
+
+pub const mediumturquoise = #("mask-image", "mediumturquoise")
+
+pub const mediumvioletred = #("mask-image", "mediumvioletred")
+
+pub const midnightblue = #("mask-image", "midnightblue")
+
+pub const mintcream = #("mask-image", "mintcream")
+
+pub const mistyrose = #("mask-image", "mistyrose")
+
+pub const moccasin = #("mask-image", "moccasin")
+
+pub const navajowhite = #("mask-image", "navajowhite")
+
+pub const navy = #("mask-image", "navy")
+
+pub const oldlace = #("mask-image", "oldlace")
+
+pub const olive = #("mask-image", "olive")
+
+pub const olivedrab = #("mask-image", "olivedrab")
+
+pub const orange = #("mask-image", "orange")
+
+pub const orangered = #("mask-image", "orangered")
+
+pub const orchid = #("mask-image", "orchid")
+
+pub const palegoldenrod = #("mask-image", "palegoldenrod")
+
+pub const palegreen = #("mask-image", "palegreen")
+
+pub const paleturquoise = #("mask-image", "paleturquoise")
+
+pub const palevioletred = #("mask-image", "palevioletred")
+
+pub const papayawhip = #("mask-image", "papayawhip")
+
+pub const peachpuff = #("mask-image", "peachpuff")
+
+pub const peru = #("mask-image", "peru")
+
+pub const pink = #("mask-image", "pink")
+
+pub const plum = #("mask-image", "plum")
+
+pub const powderblue = #("mask-image", "powderblue")
+
+pub const purple = #("mask-image", "purple")
+
+pub const rebeccapurple = #("mask-image", "rebeccapurple")
+
+pub const red = #("mask-image", "red")
+
+pub const rosybrown = #("mask-image", "rosybrown")
+
+pub const royalblue = #("mask-image", "royalblue")
+
+pub const saddlebrown = #("mask-image", "saddlebrown")
+
+pub const salmon = #("mask-image", "salmon")
+
+pub const sandybrown = #("mask-image", "sandybrown")
+
+pub const seagreen = #("mask-image", "seagreen")
+
+pub const seashell = #("mask-image", "seashell")
+
+pub const sienna = #("mask-image", "sienna")
+
+pub const silver = #("mask-image", "silver")
+
+pub const skyblue = #("mask-image", "skyblue")
+
+pub const slateblue = #("mask-image", "slateblue")
+
+pub const slategray = #("mask-image", "slategray")
+
+pub const slategrey = #("mask-image", "slategrey")
+
+pub const snow = #("mask-image", "snow")
+
+pub const springgreen = #("mask-image", "springgreen")
+
+pub const steelblue = #("mask-image", "steelblue")
+
+pub const tan = #("mask-image", "tan")
+
+pub const teal = #("mask-image", "teal")
+
+pub const thistle = #("mask-image", "thistle")
+
+pub const tomato = #("mask-image", "tomato")
+
+pub const turquoise = #("mask-image", "turquoise")
+
+pub const violet = #("mask-image", "violet")
+
+pub const wheat = #("mask-image", "wheat")
+
+pub const white = #("mask-image", "white")
+
+pub const whitesmoke = #("mask-image", "whitesmoke")
+
+pub const yellow = #("mask-image", "yellow")
+
+pub const yellowgreen = #("mask-image", "yellowgreen")
+
+pub const in = #("mask-image", "in")
+
+pub const lab = #("mask-image", "lab")
+
+pub const oklab = #("mask-image", "oklab")
+
+pub const hsl = #("mask-image", "hsl")
+
+pub const hwb = #("mask-image", "hwb")
+
+pub const lch = #("mask-image", "lch")
+
+pub const oklch = #("mask-image", "oklch")
+
+pub const shorter = #("mask-image", "shorter")
+
+pub const longer = #("mask-image", "longer")
+
+pub const increasing = #("mask-image", "increasing")
+
+pub const decreasing = #("mask-image", "decreasing")
+
+pub const hue = #("mask-image", "hue")
+
+pub const current_color = #("mask-image", "currentColor")
+
+pub const accent_color = #("mask-image", "AccentColor")
+
+pub const accent_color_text = #("mask-image", "AccentColorText")
+
+pub const active_text = #("mask-image", "ActiveText")
+
+pub const button_border = #("mask-image", "ButtonBorder")
+
+pub const button_face = #("mask-image", "ButtonFace")
+
+pub const button_text = #("mask-image", "ButtonText")
+
+pub const canvas = #("mask-image", "Canvas")
+
+pub const canvas_text = #("mask-image", "CanvasText")
+
+pub const field = #("mask-image", "Field")
+
+pub const field_text = #("mask-image", "FieldText")
+
+pub const gray_text = #("mask-image", "GrayText")
+
+pub const highlight = #("mask-image", "Highlight")
+
+pub const highlight_text = #("mask-image", "HighlightText")
+
+pub const link_text = #("mask-image", "LinkText")
+
+pub const mark = #("mask-image", "Mark")
+
+pub const mark_text = #("mask-image", "MarkText")
+
+pub const selected_item = #("mask-image", "SelectedItem")
+
+pub const selected_item_text = #("mask-image", "SelectedItemText")
+
+pub const visited_text = #("mask-image", "VisitedText")
+
+pub const moz_button_default = #("mask-image", "-moz-ButtonDefault")
+
+pub const moz_button_hover_face = #("mask-image", "-moz-ButtonHoverFace")
+
+pub const moz_button_hover_text = #("mask-image", "-moz-ButtonHoverText")
+
+pub const moz_cell_highlight = #("mask-image", "-moz-CellHighlight")
+
+pub const moz_cell_highlight_text = #("mask-image", "-moz-CellHighlightText")
+
+pub const moz_combobox = #("mask-image", "-moz-Combobox")
+
+pub const moz_combobox_text = #("mask-image", "-moz-ComboboxText")
+
+pub const moz_dialog = #("mask-image", "-moz-Dialog")
+
+pub const moz_dialog_text = #("mask-image", "-moz-DialogText")
+
+pub const moz_dragtargetzone = #("mask-image", "-moz-dragtargetzone")
+
+pub const moz_even_tree_row = #("mask-image", "-moz-EvenTreeRow")
+
+pub const moz_field = #("mask-image", "-moz-Field")
+
+pub const moz_field_text = #("mask-image", "-moz-FieldText")
+
+pub const moz_html_cell_highlight = #("mask-image", "-moz-html-CellHighlight")
+
+pub const moz_html_cell_highlight_text = #("mask-image", "-moz-html-CellHighlightText")
+
+pub const moz_mac_accentdarkestshadow = #("mask-image", "-moz-mac-accentdarkestshadow")
+
+pub const moz_mac_accentdarkshadow = #("mask-image", "-moz-mac-accentdarkshadow")
+
+pub const moz_mac_accentface = #("mask-image", "-moz-mac-accentface")
+
+pub const moz_mac_accentlightesthighlight = #("mask-image", "-moz-mac-accentlightesthighlight")
+
+pub const moz_mac_accentlightshadow = #("mask-image", "-moz-mac-accentlightshadow")
+
+pub const moz_mac_accentregularhighlight = #("mask-image", "-moz-mac-accentregularhighlight")
+
+pub const moz_mac_accentregularshadow = #("mask-image", "-moz-mac-accentregularshadow")
+
+pub const moz_mac_chrome_active = #("mask-image", "-moz-mac-chrome-active")
+
+pub const moz_mac_chrome_inactive = #("mask-image", "-moz-mac-chrome-inactive")
+
+pub const moz_mac_focusring = #("mask-image", "-moz-mac-focusring")
+
+pub const moz_mac_menuselect = #("mask-image", "-moz-mac-menuselect")
+
+pub const moz_mac_menushadow = #("mask-image", "-moz-mac-menushadow")
+
+pub const moz_mac_menutextselect = #("mask-image", "-moz-mac-menutextselect")
+
+pub const moz_menu_hover = #("mask-image", "-moz-MenuHover")
+
+pub const moz_menu_hover_text = #("mask-image", "-moz-MenuHoverText")
+
+pub const moz_menu_bar_text = #("mask-image", "-moz-MenuBarText")
+
+pub const moz_menu_bar_hover_text = #("mask-image", "-moz-MenuBarHoverText")
+
+pub const moz_nativehyperlinktext = #("mask-image", "-moz-nativehyperlinktext")
+
+pub const moz_odd_tree_row = #("mask-image", "-moz-OddTreeRow")
+
+pub const moz_win_communicationstext = #("mask-image", "-moz-win-communicationstext")
+
+pub const moz_win_mediatext = #("mask-image", "-moz-win-mediatext")
+
+pub const moz_activehyperlinktext = #("mask-image", "-moz-activehyperlinktext")
+
+pub const moz_default_background_color = #("mask-image", "-moz-default-background-color")
+
+pub const moz_default_color = #("mask-image", "-moz-default-color")
+
+pub const moz_hyperlinktext = #("mask-image", "-moz-hyperlinktext")
+
+pub const moz_visitedhyperlinktext = #("mask-image", "-moz-visitedhyperlinktext")
+
+pub const webkit_activelink = #("mask-image", "-webkit-activelink")
+
+pub const webkit_focus_ring_color = #("mask-image", "-webkit-focus-ring-color")
+
+pub const webkit_link = #("mask-image", "-webkit-link")
+
+pub const webkit_text = #("mask-image", "-webkit-text")
+
+pub const first = #("mask-image", "first")
+
+pub const start = #("mask-image", "start")
+
+pub const last = #("mask-image", "last")
+
+pub const first_except = #("mask-image", "first-except")
+
+pub const to = #("mask-image", "to")
+
+pub const left = #("mask-image", "left")
+
+pub const right = #("mask-image", "right")
+
+pub const top = #("mask-image", "top")
+
+pub const bottom = #("mask-image", "bottom")
+
+pub const circle = #("mask-image", "circle")
+
+pub const ellipse = #("mask-image", "ellipse")
+
+pub const closest_side = #("mask-image", "closest-side")
+
+pub const farthest_side = #("mask-image", "farthest-side")
+
+pub const closest_corner = #("mask-image", "closest-corner")
+
+pub const farthest_corner = #("mask-image", "farthest-corner")
+
+pub const at = #("mask-image", "at")
+
+pub const center = #("mask-image", "center")
+
+pub const from = #("mask-image", "from")
+
+pub const linear = #("mask-image", "linear")
+
+pub const radial = #("mask-image", "radial")
+
+pub const contain = #("mask-image", "contain")
+
+pub const cover = #("mask-image", "cover")
 
 pub fn raw(value: String) -> #(String, String) {
   #("mask_image", value)

@@ -1,952 +1,478 @@
 
 
-pub fn none() -> #(String, String) {
-  #("box-shadow", "none")
-}
-
-pub fn inset() -> #(String, String) {
-  #("box-shadow", "inset")
-}
-
-pub fn srgb() -> #(String, String) {
-  #("box-shadow", "srgb")
-}
-
-pub fn srgb_linear() -> #(String, String) {
-  #("box-shadow", "srgb-linear")
-}
-
-pub fn display_p3() -> #(String, String) {
-  #("box-shadow", "display-p3")
-}
-
-pub fn a98_rgb() -> #(String, String) {
-  #("box-shadow", "a98-rgb")
-}
-
-pub fn prophoto_rgb() -> #(String, String) {
-  #("box-shadow", "prophoto-rgb")
-}
-
-pub fn rec2020() -> #(String, String) {
-  #("box-shadow", "rec2020")
-}
-
-pub fn xyz() -> #(String, String) {
-  #("box-shadow", "xyz")
-}
-
-pub fn xyz_d50() -> #(String, String) {
-  #("box-shadow", "xyz-d50")
-}
-
-pub fn xyz_d65() -> #(String, String) {
-  #("box-shadow", "xyz-d65")
-}
-
-pub fn transparent() -> #(String, String) {
-  #("box-shadow", "transparent")
-}
-
-pub fn aliceblue() -> #(String, String) {
-  #("box-shadow", "aliceblue")
-}
-
-pub fn antiquewhite() -> #(String, String) {
-  #("box-shadow", "antiquewhite")
-}
-
-pub fn aqua() -> #(String, String) {
-  #("box-shadow", "aqua")
-}
-
-pub fn aquamarine() -> #(String, String) {
-  #("box-shadow", "aquamarine")
-}
-
-pub fn azure() -> #(String, String) {
-  #("box-shadow", "azure")
-}
-
-pub fn beige() -> #(String, String) {
-  #("box-shadow", "beige")
-}
-
-pub fn bisque() -> #(String, String) {
-  #("box-shadow", "bisque")
-}
-
-pub fn black() -> #(String, String) {
-  #("box-shadow", "black")
-}
-
-pub fn blanchedalmond() -> #(String, String) {
-  #("box-shadow", "blanchedalmond")
-}
-
-pub fn blue() -> #(String, String) {
-  #("box-shadow", "blue")
-}
-
-pub fn blueviolet() -> #(String, String) {
-  #("box-shadow", "blueviolet")
-}
-
-pub fn brown() -> #(String, String) {
-  #("box-shadow", "brown")
-}
-
-pub fn burlywood() -> #(String, String) {
-  #("box-shadow", "burlywood")
-}
-
-pub fn cadetblue() -> #(String, String) {
-  #("box-shadow", "cadetblue")
-}
-
-pub fn chartreuse() -> #(String, String) {
-  #("box-shadow", "chartreuse")
-}
-
-pub fn chocolate() -> #(String, String) {
-  #("box-shadow", "chocolate")
-}
-
-pub fn coral() -> #(String, String) {
-  #("box-shadow", "coral")
-}
-
-pub fn cornflowerblue() -> #(String, String) {
-  #("box-shadow", "cornflowerblue")
-}
-
-pub fn cornsilk() -> #(String, String) {
-  #("box-shadow", "cornsilk")
-}
-
-pub fn crimson() -> #(String, String) {
-  #("box-shadow", "crimson")
-}
-
-pub fn cyan() -> #(String, String) {
-  #("box-shadow", "cyan")
-}
-
-pub fn darkblue() -> #(String, String) {
-  #("box-shadow", "darkblue")
-}
-
-pub fn darkcyan() -> #(String, String) {
-  #("box-shadow", "darkcyan")
-}
-
-pub fn darkgoldenrod() -> #(String, String) {
-  #("box-shadow", "darkgoldenrod")
-}
-
-pub fn darkgray() -> #(String, String) {
-  #("box-shadow", "darkgray")
-}
-
-pub fn darkgreen() -> #(String, String) {
-  #("box-shadow", "darkgreen")
-}
-
-pub fn darkgrey() -> #(String, String) {
-  #("box-shadow", "darkgrey")
-}
-
-pub fn darkkhaki() -> #(String, String) {
-  #("box-shadow", "darkkhaki")
-}
-
-pub fn darkmagenta() -> #(String, String) {
-  #("box-shadow", "darkmagenta")
-}
-
-pub fn darkolivegreen() -> #(String, String) {
-  #("box-shadow", "darkolivegreen")
-}
-
-pub fn darkorange() -> #(String, String) {
-  #("box-shadow", "darkorange")
-}
-
-pub fn darkorchid() -> #(String, String) {
-  #("box-shadow", "darkorchid")
-}
-
-pub fn darkred() -> #(String, String) {
-  #("box-shadow", "darkred")
-}
-
-pub fn darksalmon() -> #(String, String) {
-  #("box-shadow", "darksalmon")
-}
-
-pub fn darkseagreen() -> #(String, String) {
-  #("box-shadow", "darkseagreen")
-}
-
-pub fn darkslateblue() -> #(String, String) {
-  #("box-shadow", "darkslateblue")
-}
-
-pub fn darkslategray() -> #(String, String) {
-  #("box-shadow", "darkslategray")
-}
-
-pub fn darkslategrey() -> #(String, String) {
-  #("box-shadow", "darkslategrey")
-}
-
-pub fn darkturquoise() -> #(String, String) {
-  #("box-shadow", "darkturquoise")
-}
-
-pub fn darkviolet() -> #(String, String) {
-  #("box-shadow", "darkviolet")
-}
-
-pub fn deeppink() -> #(String, String) {
-  #("box-shadow", "deeppink")
-}
-
-pub fn deepskyblue() -> #(String, String) {
-  #("box-shadow", "deepskyblue")
-}
-
-pub fn dimgray() -> #(String, String) {
-  #("box-shadow", "dimgray")
-}
-
-pub fn dimgrey() -> #(String, String) {
-  #("box-shadow", "dimgrey")
-}
-
-pub fn dodgerblue() -> #(String, String) {
-  #("box-shadow", "dodgerblue")
-}
-
-pub fn firebrick() -> #(String, String) {
-  #("box-shadow", "firebrick")
-}
-
-pub fn floralwhite() -> #(String, String) {
-  #("box-shadow", "floralwhite")
-}
-
-pub fn forestgreen() -> #(String, String) {
-  #("box-shadow", "forestgreen")
-}
-
-pub fn fuchsia() -> #(String, String) {
-  #("box-shadow", "fuchsia")
-}
-
-pub fn gainsboro() -> #(String, String) {
-  #("box-shadow", "gainsboro")
-}
-
-pub fn ghostwhite() -> #(String, String) {
-  #("box-shadow", "ghostwhite")
-}
-
-pub fn gold() -> #(String, String) {
-  #("box-shadow", "gold")
-}
-
-pub fn goldenrod() -> #(String, String) {
-  #("box-shadow", "goldenrod")
-}
-
-pub fn gray() -> #(String, String) {
-  #("box-shadow", "gray")
-}
-
-pub fn green() -> #(String, String) {
-  #("box-shadow", "green")
-}
-
-pub fn greenyellow() -> #(String, String) {
-  #("box-shadow", "greenyellow")
-}
-
-pub fn grey() -> #(String, String) {
-  #("box-shadow", "grey")
-}
-
-pub fn honeydew() -> #(String, String) {
-  #("box-shadow", "honeydew")
-}
-
-pub fn hotpink() -> #(String, String) {
-  #("box-shadow", "hotpink")
-}
-
-pub fn indianred() -> #(String, String) {
-  #("box-shadow", "indianred")
-}
-
-pub fn indigo() -> #(String, String) {
-  #("box-shadow", "indigo")
-}
-
-pub fn ivory() -> #(String, String) {
-  #("box-shadow", "ivory")
-}
-
-pub fn khaki() -> #(String, String) {
-  #("box-shadow", "khaki")
-}
-
-pub fn lavender() -> #(String, String) {
-  #("box-shadow", "lavender")
-}
-
-pub fn lavenderblush() -> #(String, String) {
-  #("box-shadow", "lavenderblush")
-}
-
-pub fn lawngreen() -> #(String, String) {
-  #("box-shadow", "lawngreen")
-}
-
-pub fn lemonchiffon() -> #(String, String) {
-  #("box-shadow", "lemonchiffon")
-}
-
-pub fn lightblue() -> #(String, String) {
-  #("box-shadow", "lightblue")
-}
-
-pub fn lightcoral() -> #(String, String) {
-  #("box-shadow", "lightcoral")
-}
-
-pub fn lightcyan() -> #(String, String) {
-  #("box-shadow", "lightcyan")
-}
-
-pub fn lightgoldenrodyellow() -> #(String, String) {
-  #("box-shadow", "lightgoldenrodyellow")
-}
-
-pub fn lightgray() -> #(String, String) {
-  #("box-shadow", "lightgray")
-}
-
-pub fn lightgreen() -> #(String, String) {
-  #("box-shadow", "lightgreen")
-}
-
-pub fn lightgrey() -> #(String, String) {
-  #("box-shadow", "lightgrey")
-}
-
-pub fn lightpink() -> #(String, String) {
-  #("box-shadow", "lightpink")
-}
-
-pub fn lightsalmon() -> #(String, String) {
-  #("box-shadow", "lightsalmon")
-}
-
-pub fn lightseagreen() -> #(String, String) {
-  #("box-shadow", "lightseagreen")
-}
-
-pub fn lightskyblue() -> #(String, String) {
-  #("box-shadow", "lightskyblue")
-}
-
-pub fn lightslategray() -> #(String, String) {
-  #("box-shadow", "lightslategray")
-}
-
-pub fn lightslategrey() -> #(String, String) {
-  #("box-shadow", "lightslategrey")
-}
-
-pub fn lightsteelblue() -> #(String, String) {
-  #("box-shadow", "lightsteelblue")
-}
-
-pub fn lightyellow() -> #(String, String) {
-  #("box-shadow", "lightyellow")
-}
-
-pub fn lime() -> #(String, String) {
-  #("box-shadow", "lime")
-}
-
-pub fn limegreen() -> #(String, String) {
-  #("box-shadow", "limegreen")
-}
-
-pub fn linen() -> #(String, String) {
-  #("box-shadow", "linen")
-}
-
-pub fn magenta() -> #(String, String) {
-  #("box-shadow", "magenta")
-}
-
-pub fn maroon() -> #(String, String) {
-  #("box-shadow", "maroon")
-}
-
-pub fn mediumaquamarine() -> #(String, String) {
-  #("box-shadow", "mediumaquamarine")
-}
-
-pub fn mediumblue() -> #(String, String) {
-  #("box-shadow", "mediumblue")
-}
-
-pub fn mediumorchid() -> #(String, String) {
-  #("box-shadow", "mediumorchid")
-}
-
-pub fn mediumpurple() -> #(String, String) {
-  #("box-shadow", "mediumpurple")
-}
-
-pub fn mediumseagreen() -> #(String, String) {
-  #("box-shadow", "mediumseagreen")
-}
-
-pub fn mediumslateblue() -> #(String, String) {
-  #("box-shadow", "mediumslateblue")
-}
-
-pub fn mediumspringgreen() -> #(String, String) {
-  #("box-shadow", "mediumspringgreen")
-}
-
-pub fn mediumturquoise() -> #(String, String) {
-  #("box-shadow", "mediumturquoise")
-}
-
-pub fn mediumvioletred() -> #(String, String) {
-  #("box-shadow", "mediumvioletred")
-}
-
-pub fn midnightblue() -> #(String, String) {
-  #("box-shadow", "midnightblue")
-}
-
-pub fn mintcream() -> #(String, String) {
-  #("box-shadow", "mintcream")
-}
-
-pub fn mistyrose() -> #(String, String) {
-  #("box-shadow", "mistyrose")
-}
-
-pub fn moccasin() -> #(String, String) {
-  #("box-shadow", "moccasin")
-}
-
-pub fn navajowhite() -> #(String, String) {
-  #("box-shadow", "navajowhite")
-}
-
-pub fn navy() -> #(String, String) {
-  #("box-shadow", "navy")
-}
-
-pub fn oldlace() -> #(String, String) {
-  #("box-shadow", "oldlace")
-}
-
-pub fn olive() -> #(String, String) {
-  #("box-shadow", "olive")
-}
-
-pub fn olivedrab() -> #(String, String) {
-  #("box-shadow", "olivedrab")
-}
-
-pub fn orange() -> #(String, String) {
-  #("box-shadow", "orange")
-}
-
-pub fn orangered() -> #(String, String) {
-  #("box-shadow", "orangered")
-}
-
-pub fn orchid() -> #(String, String) {
-  #("box-shadow", "orchid")
-}
-
-pub fn palegoldenrod() -> #(String, String) {
-  #("box-shadow", "palegoldenrod")
-}
-
-pub fn palegreen() -> #(String, String) {
-  #("box-shadow", "palegreen")
-}
-
-pub fn paleturquoise() -> #(String, String) {
-  #("box-shadow", "paleturquoise")
-}
-
-pub fn palevioletred() -> #(String, String) {
-  #("box-shadow", "palevioletred")
-}
-
-pub fn papayawhip() -> #(String, String) {
-  #("box-shadow", "papayawhip")
-}
-
-pub fn peachpuff() -> #(String, String) {
-  #("box-shadow", "peachpuff")
-}
-
-pub fn peru() -> #(String, String) {
-  #("box-shadow", "peru")
-}
-
-pub fn pink() -> #(String, String) {
-  #("box-shadow", "pink")
-}
-
-pub fn plum() -> #(String, String) {
-  #("box-shadow", "plum")
-}
-
-pub fn powderblue() -> #(String, String) {
-  #("box-shadow", "powderblue")
-}
-
-pub fn purple() -> #(String, String) {
-  #("box-shadow", "purple")
-}
-
-pub fn rebeccapurple() -> #(String, String) {
-  #("box-shadow", "rebeccapurple")
-}
-
-pub fn red() -> #(String, String) {
-  #("box-shadow", "red")
-}
-
-pub fn rosybrown() -> #(String, String) {
-  #("box-shadow", "rosybrown")
-}
-
-pub fn royalblue() -> #(String, String) {
-  #("box-shadow", "royalblue")
-}
-
-pub fn saddlebrown() -> #(String, String) {
-  #("box-shadow", "saddlebrown")
-}
-
-pub fn salmon() -> #(String, String) {
-  #("box-shadow", "salmon")
-}
-
-pub fn sandybrown() -> #(String, String) {
-  #("box-shadow", "sandybrown")
-}
-
-pub fn seagreen() -> #(String, String) {
-  #("box-shadow", "seagreen")
-}
-
-pub fn seashell() -> #(String, String) {
-  #("box-shadow", "seashell")
-}
-
-pub fn sienna() -> #(String, String) {
-  #("box-shadow", "sienna")
-}
-
-pub fn silver() -> #(String, String) {
-  #("box-shadow", "silver")
-}
-
-pub fn skyblue() -> #(String, String) {
-  #("box-shadow", "skyblue")
-}
-
-pub fn slateblue() -> #(String, String) {
-  #("box-shadow", "slateblue")
-}
-
-pub fn slategray() -> #(String, String) {
-  #("box-shadow", "slategray")
-}
-
-pub fn slategrey() -> #(String, String) {
-  #("box-shadow", "slategrey")
-}
-
-pub fn snow() -> #(String, String) {
-  #("box-shadow", "snow")
-}
-
-pub fn springgreen() -> #(String, String) {
-  #("box-shadow", "springgreen")
-}
-
-pub fn steelblue() -> #(String, String) {
-  #("box-shadow", "steelblue")
-}
-
-pub fn tan() -> #(String, String) {
-  #("box-shadow", "tan")
-}
-
-pub fn teal() -> #(String, String) {
-  #("box-shadow", "teal")
-}
-
-pub fn thistle() -> #(String, String) {
-  #("box-shadow", "thistle")
-}
-
-pub fn tomato() -> #(String, String) {
-  #("box-shadow", "tomato")
-}
-
-pub fn turquoise() -> #(String, String) {
-  #("box-shadow", "turquoise")
-}
-
-pub fn violet() -> #(String, String) {
-  #("box-shadow", "violet")
-}
-
-pub fn wheat() -> #(String, String) {
-  #("box-shadow", "wheat")
-}
-
-pub fn white() -> #(String, String) {
-  #("box-shadow", "white")
-}
-
-pub fn whitesmoke() -> #(String, String) {
-  #("box-shadow", "whitesmoke")
-}
-
-pub fn yellow() -> #(String, String) {
-  #("box-shadow", "yellow")
-}
-
-pub fn yellowgreen() -> #(String, String) {
-  #("box-shadow", "yellowgreen")
-}
-
-pub fn in() -> #(String, String) {
-  #("box-shadow", "in")
-}
-
-pub fn lab() -> #(String, String) {
-  #("box-shadow", "lab")
-}
-
-pub fn oklab() -> #(String, String) {
-  #("box-shadow", "oklab")
-}
-
-pub fn hsl() -> #(String, String) {
-  #("box-shadow", "hsl")
-}
-
-pub fn hwb() -> #(String, String) {
-  #("box-shadow", "hwb")
-}
-
-pub fn lch() -> #(String, String) {
-  #("box-shadow", "lch")
-}
-
-pub fn oklch() -> #(String, String) {
-  #("box-shadow", "oklch")
-}
-
-pub fn shorter() -> #(String, String) {
-  #("box-shadow", "shorter")
-}
-
-pub fn longer() -> #(String, String) {
-  #("box-shadow", "longer")
-}
-
-pub fn increasing() -> #(String, String) {
-  #("box-shadow", "increasing")
-}
-
-pub fn decreasing() -> #(String, String) {
-  #("box-shadow", "decreasing")
-}
-
-pub fn hue() -> #(String, String) {
-  #("box-shadow", "hue")
-}
-
-pub fn current_color() -> #(String, String) {
-  #("box-shadow", "currentColor")
-}
-
-pub fn accent_color() -> #(String, String) {
-  #("box-shadow", "AccentColor")
-}
-
-pub fn accent_color_text() -> #(String, String) {
-  #("box-shadow", "AccentColorText")
-}
-
-pub fn active_text() -> #(String, String) {
-  #("box-shadow", "ActiveText")
-}
-
-pub fn button_border() -> #(String, String) {
-  #("box-shadow", "ButtonBorder")
-}
-
-pub fn button_face() -> #(String, String) {
-  #("box-shadow", "ButtonFace")
-}
-
-pub fn button_text() -> #(String, String) {
-  #("box-shadow", "ButtonText")
-}
-
-pub fn canvas() -> #(String, String) {
-  #("box-shadow", "Canvas")
-}
-
-pub fn canvas_text() -> #(String, String) {
-  #("box-shadow", "CanvasText")
-}
-
-pub fn field() -> #(String, String) {
-  #("box-shadow", "Field")
-}
-
-pub fn field_text() -> #(String, String) {
-  #("box-shadow", "FieldText")
-}
-
-pub fn gray_text() -> #(String, String) {
-  #("box-shadow", "GrayText")
-}
-
-pub fn highlight() -> #(String, String) {
-  #("box-shadow", "Highlight")
-}
-
-pub fn highlight_text() -> #(String, String) {
-  #("box-shadow", "HighlightText")
-}
-
-pub fn link_text() -> #(String, String) {
-  #("box-shadow", "LinkText")
-}
-
-pub fn mark() -> #(String, String) {
-  #("box-shadow", "Mark")
-}
-
-pub fn mark_text() -> #(String, String) {
-  #("box-shadow", "MarkText")
-}
-
-pub fn selected_item() -> #(String, String) {
-  #("box-shadow", "SelectedItem")
-}
-
-pub fn selected_item_text() -> #(String, String) {
-  #("box-shadow", "SelectedItemText")
-}
-
-pub fn visited_text() -> #(String, String) {
-  #("box-shadow", "VisitedText")
-}
-
-pub fn moz_button_default() -> #(String, String) {
-  #("box-shadow", "-moz-ButtonDefault")
-}
-
-pub fn moz_button_hover_face() -> #(String, String) {
-  #("box-shadow", "-moz-ButtonHoverFace")
-}
-
-pub fn moz_button_hover_text() -> #(String, String) {
-  #("box-shadow", "-moz-ButtonHoverText")
-}
-
-pub fn moz_cell_highlight() -> #(String, String) {
-  #("box-shadow", "-moz-CellHighlight")
-}
-
-pub fn moz_cell_highlight_text() -> #(String, String) {
-  #("box-shadow", "-moz-CellHighlightText")
-}
-
-pub fn moz_combobox() -> #(String, String) {
-  #("box-shadow", "-moz-Combobox")
-}
-
-pub fn moz_combobox_text() -> #(String, String) {
-  #("box-shadow", "-moz-ComboboxText")
-}
-
-pub fn moz_dialog() -> #(String, String) {
-  #("box-shadow", "-moz-Dialog")
-}
-
-pub fn moz_dialog_text() -> #(String, String) {
-  #("box-shadow", "-moz-DialogText")
-}
-
-pub fn moz_dragtargetzone() -> #(String, String) {
-  #("box-shadow", "-moz-dragtargetzone")
-}
-
-pub fn moz_even_tree_row() -> #(String, String) {
-  #("box-shadow", "-moz-EvenTreeRow")
-}
-
-pub fn moz_field() -> #(String, String) {
-  #("box-shadow", "-moz-Field")
-}
-
-pub fn moz_field_text() -> #(String, String) {
-  #("box-shadow", "-moz-FieldText")
-}
-
-pub fn moz_html_cell_highlight() -> #(String, String) {
-  #("box-shadow", "-moz-html-CellHighlight")
-}
-
-pub fn moz_html_cell_highlight_text() -> #(String, String) {
-  #("box-shadow", "-moz-html-CellHighlightText")
-}
-
-pub fn moz_mac_accentdarkestshadow() -> #(String, String) {
-  #("box-shadow", "-moz-mac-accentdarkestshadow")
-}
-
-pub fn moz_mac_accentdarkshadow() -> #(String, String) {
-  #("box-shadow", "-moz-mac-accentdarkshadow")
-}
-
-pub fn moz_mac_accentface() -> #(String, String) {
-  #("box-shadow", "-moz-mac-accentface")
-}
-
-pub fn moz_mac_accentlightesthighlight() -> #(String, String) {
-  #("box-shadow", "-moz-mac-accentlightesthighlight")
-}
-
-pub fn moz_mac_accentlightshadow() -> #(String, String) {
-  #("box-shadow", "-moz-mac-accentlightshadow")
-}
-
-pub fn moz_mac_accentregularhighlight() -> #(String, String) {
-  #("box-shadow", "-moz-mac-accentregularhighlight")
-}
-
-pub fn moz_mac_accentregularshadow() -> #(String, String) {
-  #("box-shadow", "-moz-mac-accentregularshadow")
-}
-
-pub fn moz_mac_chrome_active() -> #(String, String) {
-  #("box-shadow", "-moz-mac-chrome-active")
-}
-
-pub fn moz_mac_chrome_inactive() -> #(String, String) {
-  #("box-shadow", "-moz-mac-chrome-inactive")
-}
-
-pub fn moz_mac_focusring() -> #(String, String) {
-  #("box-shadow", "-moz-mac-focusring")
-}
-
-pub fn moz_mac_menuselect() -> #(String, String) {
-  #("box-shadow", "-moz-mac-menuselect")
-}
-
-pub fn moz_mac_menushadow() -> #(String, String) {
-  #("box-shadow", "-moz-mac-menushadow")
-}
-
-pub fn moz_mac_menutextselect() -> #(String, String) {
-  #("box-shadow", "-moz-mac-menutextselect")
-}
-
-pub fn moz_menu_hover() -> #(String, String) {
-  #("box-shadow", "-moz-MenuHover")
-}
-
-pub fn moz_menu_hover_text() -> #(String, String) {
-  #("box-shadow", "-moz-MenuHoverText")
-}
-
-pub fn moz_menu_bar_text() -> #(String, String) {
-  #("box-shadow", "-moz-MenuBarText")
-}
-
-pub fn moz_menu_bar_hover_text() -> #(String, String) {
-  #("box-shadow", "-moz-MenuBarHoverText")
-}
-
-pub fn moz_nativehyperlinktext() -> #(String, String) {
-  #("box-shadow", "-moz-nativehyperlinktext")
-}
-
-pub fn moz_odd_tree_row() -> #(String, String) {
-  #("box-shadow", "-moz-OddTreeRow")
-}
-
-pub fn moz_win_communicationstext() -> #(String, String) {
-  #("box-shadow", "-moz-win-communicationstext")
-}
-
-pub fn moz_win_mediatext() -> #(String, String) {
-  #("box-shadow", "-moz-win-mediatext")
-}
-
-pub fn moz_activehyperlinktext() -> #(String, String) {
-  #("box-shadow", "-moz-activehyperlinktext")
-}
-
-pub fn moz_default_background_color() -> #(String, String) {
-  #("box-shadow", "-moz-default-background-color")
-}
-
-pub fn moz_default_color() -> #(String, String) {
-  #("box-shadow", "-moz-default-color")
-}
-
-pub fn moz_hyperlinktext() -> #(String, String) {
-  #("box-shadow", "-moz-hyperlinktext")
-}
-
-pub fn moz_visitedhyperlinktext() -> #(String, String) {
-  #("box-shadow", "-moz-visitedhyperlinktext")
-}
-
-pub fn webkit_activelink() -> #(String, String) {
-  #("box-shadow", "-webkit-activelink")
-}
-
-pub fn webkit_focus_ring_color() -> #(String, String) {
-  #("box-shadow", "-webkit-focus-ring-color")
-}
-
-pub fn webkit_link() -> #(String, String) {
-  #("box-shadow", "-webkit-link")
-}
-
-pub fn webkit_text() -> #(String, String) {
-  #("box-shadow", "-webkit-text")
-}
+pub const none = #("box-shadow", "none")
+
+pub const inset = #("box-shadow", "inset")
+
+pub const srgb = #("box-shadow", "srgb")
+
+pub const srgb_linear = #("box-shadow", "srgb-linear")
+
+pub const display_p3 = #("box-shadow", "display-p3")
+
+pub const a98_rgb = #("box-shadow", "a98-rgb")
+
+pub const prophoto_rgb = #("box-shadow", "prophoto-rgb")
+
+pub const rec2020 = #("box-shadow", "rec2020")
+
+pub const xyz = #("box-shadow", "xyz")
+
+pub const xyz_d50 = #("box-shadow", "xyz-d50")
+
+pub const xyz_d65 = #("box-shadow", "xyz-d65")
+
+pub const transparent = #("box-shadow", "transparent")
+
+pub const aliceblue = #("box-shadow", "aliceblue")
+
+pub const antiquewhite = #("box-shadow", "antiquewhite")
+
+pub const aqua = #("box-shadow", "aqua")
+
+pub const aquamarine = #("box-shadow", "aquamarine")
+
+pub const azure = #("box-shadow", "azure")
+
+pub const beige = #("box-shadow", "beige")
+
+pub const bisque = #("box-shadow", "bisque")
+
+pub const black = #("box-shadow", "black")
+
+pub const blanchedalmond = #("box-shadow", "blanchedalmond")
+
+pub const blue = #("box-shadow", "blue")
+
+pub const blueviolet = #("box-shadow", "blueviolet")
+
+pub const brown = #("box-shadow", "brown")
+
+pub const burlywood = #("box-shadow", "burlywood")
+
+pub const cadetblue = #("box-shadow", "cadetblue")
+
+pub const chartreuse = #("box-shadow", "chartreuse")
+
+pub const chocolate = #("box-shadow", "chocolate")
+
+pub const coral = #("box-shadow", "coral")
+
+pub const cornflowerblue = #("box-shadow", "cornflowerblue")
+
+pub const cornsilk = #("box-shadow", "cornsilk")
+
+pub const crimson = #("box-shadow", "crimson")
+
+pub const cyan = #("box-shadow", "cyan")
+
+pub const darkblue = #("box-shadow", "darkblue")
+
+pub const darkcyan = #("box-shadow", "darkcyan")
+
+pub const darkgoldenrod = #("box-shadow", "darkgoldenrod")
+
+pub const darkgray = #("box-shadow", "darkgray")
+
+pub const darkgreen = #("box-shadow", "darkgreen")
+
+pub const darkgrey = #("box-shadow", "darkgrey")
+
+pub const darkkhaki = #("box-shadow", "darkkhaki")
+
+pub const darkmagenta = #("box-shadow", "darkmagenta")
+
+pub const darkolivegreen = #("box-shadow", "darkolivegreen")
+
+pub const darkorange = #("box-shadow", "darkorange")
+
+pub const darkorchid = #("box-shadow", "darkorchid")
+
+pub const darkred = #("box-shadow", "darkred")
+
+pub const darksalmon = #("box-shadow", "darksalmon")
+
+pub const darkseagreen = #("box-shadow", "darkseagreen")
+
+pub const darkslateblue = #("box-shadow", "darkslateblue")
+
+pub const darkslategray = #("box-shadow", "darkslategray")
+
+pub const darkslategrey = #("box-shadow", "darkslategrey")
+
+pub const darkturquoise = #("box-shadow", "darkturquoise")
+
+pub const darkviolet = #("box-shadow", "darkviolet")
+
+pub const deeppink = #("box-shadow", "deeppink")
+
+pub const deepskyblue = #("box-shadow", "deepskyblue")
+
+pub const dimgray = #("box-shadow", "dimgray")
+
+pub const dimgrey = #("box-shadow", "dimgrey")
+
+pub const dodgerblue = #("box-shadow", "dodgerblue")
+
+pub const firebrick = #("box-shadow", "firebrick")
+
+pub const floralwhite = #("box-shadow", "floralwhite")
+
+pub const forestgreen = #("box-shadow", "forestgreen")
+
+pub const fuchsia = #("box-shadow", "fuchsia")
+
+pub const gainsboro = #("box-shadow", "gainsboro")
+
+pub const ghostwhite = #("box-shadow", "ghostwhite")
+
+pub const gold = #("box-shadow", "gold")
+
+pub const goldenrod = #("box-shadow", "goldenrod")
+
+pub const gray = #("box-shadow", "gray")
+
+pub const green = #("box-shadow", "green")
+
+pub const greenyellow = #("box-shadow", "greenyellow")
+
+pub const grey = #("box-shadow", "grey")
+
+pub const honeydew = #("box-shadow", "honeydew")
+
+pub const hotpink = #("box-shadow", "hotpink")
+
+pub const indianred = #("box-shadow", "indianred")
+
+pub const indigo = #("box-shadow", "indigo")
+
+pub const ivory = #("box-shadow", "ivory")
+
+pub const khaki = #("box-shadow", "khaki")
+
+pub const lavender = #("box-shadow", "lavender")
+
+pub const lavenderblush = #("box-shadow", "lavenderblush")
+
+pub const lawngreen = #("box-shadow", "lawngreen")
+
+pub const lemonchiffon = #("box-shadow", "lemonchiffon")
+
+pub const lightblue = #("box-shadow", "lightblue")
+
+pub const lightcoral = #("box-shadow", "lightcoral")
+
+pub const lightcyan = #("box-shadow", "lightcyan")
+
+pub const lightgoldenrodyellow = #("box-shadow", "lightgoldenrodyellow")
+
+pub const lightgray = #("box-shadow", "lightgray")
+
+pub const lightgreen = #("box-shadow", "lightgreen")
+
+pub const lightgrey = #("box-shadow", "lightgrey")
+
+pub const lightpink = #("box-shadow", "lightpink")
+
+pub const lightsalmon = #("box-shadow", "lightsalmon")
+
+pub const lightseagreen = #("box-shadow", "lightseagreen")
+
+pub const lightskyblue = #("box-shadow", "lightskyblue")
+
+pub const lightslategray = #("box-shadow", "lightslategray")
+
+pub const lightslategrey = #("box-shadow", "lightslategrey")
+
+pub const lightsteelblue = #("box-shadow", "lightsteelblue")
+
+pub const lightyellow = #("box-shadow", "lightyellow")
+
+pub const lime = #("box-shadow", "lime")
+
+pub const limegreen = #("box-shadow", "limegreen")
+
+pub const linen = #("box-shadow", "linen")
+
+pub const magenta = #("box-shadow", "magenta")
+
+pub const maroon = #("box-shadow", "maroon")
+
+pub const mediumaquamarine = #("box-shadow", "mediumaquamarine")
+
+pub const mediumblue = #("box-shadow", "mediumblue")
+
+pub const mediumorchid = #("box-shadow", "mediumorchid")
+
+pub const mediumpurple = #("box-shadow", "mediumpurple")
+
+pub const mediumseagreen = #("box-shadow", "mediumseagreen")
+
+pub const mediumslateblue = #("box-shadow", "mediumslateblue")
+
+pub const mediumspringgreen = #("box-shadow", "mediumspringgreen")
+
+pub const mediumturquoise = #("box-shadow", "mediumturquoise")
+
+pub const mediumvioletred = #("box-shadow", "mediumvioletred")
+
+pub const midnightblue = #("box-shadow", "midnightblue")
+
+pub const mintcream = #("box-shadow", "mintcream")
+
+pub const mistyrose = #("box-shadow", "mistyrose")
+
+pub const moccasin = #("box-shadow", "moccasin")
+
+pub const navajowhite = #("box-shadow", "navajowhite")
+
+pub const navy = #("box-shadow", "navy")
+
+pub const oldlace = #("box-shadow", "oldlace")
+
+pub const olive = #("box-shadow", "olive")
+
+pub const olivedrab = #("box-shadow", "olivedrab")
+
+pub const orange = #("box-shadow", "orange")
+
+pub const orangered = #("box-shadow", "orangered")
+
+pub const orchid = #("box-shadow", "orchid")
+
+pub const palegoldenrod = #("box-shadow", "palegoldenrod")
+
+pub const palegreen = #("box-shadow", "palegreen")
+
+pub const paleturquoise = #("box-shadow", "paleturquoise")
+
+pub const palevioletred = #("box-shadow", "palevioletred")
+
+pub const papayawhip = #("box-shadow", "papayawhip")
+
+pub const peachpuff = #("box-shadow", "peachpuff")
+
+pub const peru = #("box-shadow", "peru")
+
+pub const pink = #("box-shadow", "pink")
+
+pub const plum = #("box-shadow", "plum")
+
+pub const powderblue = #("box-shadow", "powderblue")
+
+pub const purple = #("box-shadow", "purple")
+
+pub const rebeccapurple = #("box-shadow", "rebeccapurple")
+
+pub const red = #("box-shadow", "red")
+
+pub const rosybrown = #("box-shadow", "rosybrown")
+
+pub const royalblue = #("box-shadow", "royalblue")
+
+pub const saddlebrown = #("box-shadow", "saddlebrown")
+
+pub const salmon = #("box-shadow", "salmon")
+
+pub const sandybrown = #("box-shadow", "sandybrown")
+
+pub const seagreen = #("box-shadow", "seagreen")
+
+pub const seashell = #("box-shadow", "seashell")
+
+pub const sienna = #("box-shadow", "sienna")
+
+pub const silver = #("box-shadow", "silver")
+
+pub const skyblue = #("box-shadow", "skyblue")
+
+pub const slateblue = #("box-shadow", "slateblue")
+
+pub const slategray = #("box-shadow", "slategray")
+
+pub const slategrey = #("box-shadow", "slategrey")
+
+pub const snow = #("box-shadow", "snow")
+
+pub const springgreen = #("box-shadow", "springgreen")
+
+pub const steelblue = #("box-shadow", "steelblue")
+
+pub const tan = #("box-shadow", "tan")
+
+pub const teal = #("box-shadow", "teal")
+
+pub const thistle = #("box-shadow", "thistle")
+
+pub const tomato = #("box-shadow", "tomato")
+
+pub const turquoise = #("box-shadow", "turquoise")
+
+pub const violet = #("box-shadow", "violet")
+
+pub const wheat = #("box-shadow", "wheat")
+
+pub const white = #("box-shadow", "white")
+
+pub const whitesmoke = #("box-shadow", "whitesmoke")
+
+pub const yellow = #("box-shadow", "yellow")
+
+pub const yellowgreen = #("box-shadow", "yellowgreen")
+
+pub const in = #("box-shadow", "in")
+
+pub const lab = #("box-shadow", "lab")
+
+pub const oklab = #("box-shadow", "oklab")
+
+pub const hsl = #("box-shadow", "hsl")
+
+pub const hwb = #("box-shadow", "hwb")
+
+pub const lch = #("box-shadow", "lch")
+
+pub const oklch = #("box-shadow", "oklch")
+
+pub const shorter = #("box-shadow", "shorter")
+
+pub const longer = #("box-shadow", "longer")
+
+pub const increasing = #("box-shadow", "increasing")
+
+pub const decreasing = #("box-shadow", "decreasing")
+
+pub const hue = #("box-shadow", "hue")
+
+pub const current_color = #("box-shadow", "currentColor")
+
+pub const accent_color = #("box-shadow", "AccentColor")
+
+pub const accent_color_text = #("box-shadow", "AccentColorText")
+
+pub const active_text = #("box-shadow", "ActiveText")
+
+pub const button_border = #("box-shadow", "ButtonBorder")
+
+pub const button_face = #("box-shadow", "ButtonFace")
+
+pub const button_text = #("box-shadow", "ButtonText")
+
+pub const canvas = #("box-shadow", "Canvas")
+
+pub const canvas_text = #("box-shadow", "CanvasText")
+
+pub const field = #("box-shadow", "Field")
+
+pub const field_text = #("box-shadow", "FieldText")
+
+pub const gray_text = #("box-shadow", "GrayText")
+
+pub const highlight = #("box-shadow", "Highlight")
+
+pub const highlight_text = #("box-shadow", "HighlightText")
+
+pub const link_text = #("box-shadow", "LinkText")
+
+pub const mark = #("box-shadow", "Mark")
+
+pub const mark_text = #("box-shadow", "MarkText")
+
+pub const selected_item = #("box-shadow", "SelectedItem")
+
+pub const selected_item_text = #("box-shadow", "SelectedItemText")
+
+pub const visited_text = #("box-shadow", "VisitedText")
+
+pub const moz_button_default = #("box-shadow", "-moz-ButtonDefault")
+
+pub const moz_button_hover_face = #("box-shadow", "-moz-ButtonHoverFace")
+
+pub const moz_button_hover_text = #("box-shadow", "-moz-ButtonHoverText")
+
+pub const moz_cell_highlight = #("box-shadow", "-moz-CellHighlight")
+
+pub const moz_cell_highlight_text = #("box-shadow", "-moz-CellHighlightText")
+
+pub const moz_combobox = #("box-shadow", "-moz-Combobox")
+
+pub const moz_combobox_text = #("box-shadow", "-moz-ComboboxText")
+
+pub const moz_dialog = #("box-shadow", "-moz-Dialog")
+
+pub const moz_dialog_text = #("box-shadow", "-moz-DialogText")
+
+pub const moz_dragtargetzone = #("box-shadow", "-moz-dragtargetzone")
+
+pub const moz_even_tree_row = #("box-shadow", "-moz-EvenTreeRow")
+
+pub const moz_field = #("box-shadow", "-moz-Field")
+
+pub const moz_field_text = #("box-shadow", "-moz-FieldText")
+
+pub const moz_html_cell_highlight = #("box-shadow", "-moz-html-CellHighlight")
+
+pub const moz_html_cell_highlight_text = #("box-shadow", "-moz-html-CellHighlightText")
+
+pub const moz_mac_accentdarkestshadow = #("box-shadow", "-moz-mac-accentdarkestshadow")
+
+pub const moz_mac_accentdarkshadow = #("box-shadow", "-moz-mac-accentdarkshadow")
+
+pub const moz_mac_accentface = #("box-shadow", "-moz-mac-accentface")
+
+pub const moz_mac_accentlightesthighlight = #("box-shadow", "-moz-mac-accentlightesthighlight")
+
+pub const moz_mac_accentlightshadow = #("box-shadow", "-moz-mac-accentlightshadow")
+
+pub const moz_mac_accentregularhighlight = #("box-shadow", "-moz-mac-accentregularhighlight")
+
+pub const moz_mac_accentregularshadow = #("box-shadow", "-moz-mac-accentregularshadow")
+
+pub const moz_mac_chrome_active = #("box-shadow", "-moz-mac-chrome-active")
+
+pub const moz_mac_chrome_inactive = #("box-shadow", "-moz-mac-chrome-inactive")
+
+pub const moz_mac_focusring = #("box-shadow", "-moz-mac-focusring")
+
+pub const moz_mac_menuselect = #("box-shadow", "-moz-mac-menuselect")
+
+pub const moz_mac_menushadow = #("box-shadow", "-moz-mac-menushadow")
+
+pub const moz_mac_menutextselect = #("box-shadow", "-moz-mac-menutextselect")
+
+pub const moz_menu_hover = #("box-shadow", "-moz-MenuHover")
+
+pub const moz_menu_hover_text = #("box-shadow", "-moz-MenuHoverText")
+
+pub const moz_menu_bar_text = #("box-shadow", "-moz-MenuBarText")
+
+pub const moz_menu_bar_hover_text = #("box-shadow", "-moz-MenuBarHoverText")
+
+pub const moz_nativehyperlinktext = #("box-shadow", "-moz-nativehyperlinktext")
+
+pub const moz_odd_tree_row = #("box-shadow", "-moz-OddTreeRow")
+
+pub const moz_win_communicationstext = #("box-shadow", "-moz-win-communicationstext")
+
+pub const moz_win_mediatext = #("box-shadow", "-moz-win-mediatext")
+
+pub const moz_activehyperlinktext = #("box-shadow", "-moz-activehyperlinktext")
+
+pub const moz_default_background_color = #("box-shadow", "-moz-default-background-color")
+
+pub const moz_default_color = #("box-shadow", "-moz-default-color")
+
+pub const moz_hyperlinktext = #("box-shadow", "-moz-hyperlinktext")
+
+pub const moz_visitedhyperlinktext = #("box-shadow", "-moz-visitedhyperlinktext")
+
+pub const webkit_activelink = #("box-shadow", "-webkit-activelink")
+
+pub const webkit_focus_ring_color = #("box-shadow", "-webkit-focus-ring-color")
+
+pub const webkit_link = #("box-shadow", "-webkit-link")
+
+pub const webkit_text = #("box-shadow", "-webkit-text")
 
 pub fn raw(value: String) -> #(String, String) {
   #("box_shadow", value)

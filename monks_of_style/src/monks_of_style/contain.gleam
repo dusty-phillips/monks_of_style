@@ -1,36 +1,20 @@
 
 
-pub fn none() -> #(String, String) {
-  #("contain", "none")
-}
+pub const none = #("contain", "none")
 
-pub fn strict() -> #(String, String) {
-  #("contain", "strict")
-}
+pub const strict = #("contain", "strict")
 
-pub fn content() -> #(String, String) {
-  #("contain", "content")
-}
+pub const content = #("contain", "content")
 
-pub fn size() -> #(String, String) {
-  #("contain", "size")
-}
+pub const size = #("contain", "size")
 
-pub fn inline_size() -> #(String, String) {
-  #("contain", "inline-size")
-}
+pub const inline_size = #("contain", "inline-size")
 
-pub fn layout() -> #(String, String) {
-  #("contain", "layout")
-}
+pub const layout = #("contain", "layout")
 
-pub fn style() -> #(String, String) {
-  #("contain", "style")
-}
+pub const style = #("contain", "style")
 
-pub fn paint() -> #(String, String) {
-  #("contain", "paint")
-}
+pub const paint = #("contain", "paint")
 
 pub fn raw(value: String) -> #(String, String) {
   #("contain", value)

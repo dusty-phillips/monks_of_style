@@ -1,64 +1,34 @@
 
 
-pub fn normal() -> #(String, String) {
-  #("align-content", "normal")
-}
+pub const normal = #("align-content", "normal")
 
-pub fn first() -> #(String, String) {
-  #("align-content", "first")
-}
+pub const first = #("align-content", "first")
 
-pub fn last() -> #(String, String) {
-  #("align-content", "last")
-}
+pub const last = #("align-content", "last")
 
-pub fn baseline() -> #(String, String) {
-  #("align-content", "baseline")
-}
+pub const baseline = #("align-content", "baseline")
 
-pub fn space_between() -> #(String, String) {
-  #("align-content", "space-between")
-}
+pub const space_between = #("align-content", "space-between")
 
-pub fn space_around() -> #(String, String) {
-  #("align-content", "space-around")
-}
+pub const space_around = #("align-content", "space-around")
 
-pub fn space_evenly() -> #(String, String) {
-  #("align-content", "space-evenly")
-}
+pub const space_evenly = #("align-content", "space-evenly")
 
-pub fn stretch() -> #(String, String) {
-  #("align-content", "stretch")
-}
+pub const stretch = #("align-content", "stretch")
 
-pub fn unsafe() -> #(String, String) {
-  #("align-content", "unsafe")
-}
+pub const unsafe = #("align-content", "unsafe")
 
-pub fn safe() -> #(String, String) {
-  #("align-content", "safe")
-}
+pub const safe = #("align-content", "safe")
 
-pub fn center() -> #(String, String) {
-  #("align-content", "center")
-}
+pub const center = #("align-content", "center")
 
-pub fn start() -> #(String, String) {
-  #("align-content", "start")
-}
+pub const start = #("align-content", "start")
 
-pub fn end() -> #(String, String) {
-  #("align-content", "end")
-}
+pub const end = #("align-content", "end")
 
-pub fn flex_start() -> #(String, String) {
-  #("align-content", "flex-start")
-}
+pub const flex_start = #("align-content", "flex-start")
 
-pub fn flex_end() -> #(String, String) {
-  #("align-content", "flex-end")
-}
+pub const flex_end = #("align-content", "flex-end")
 
 pub fn raw(value: String) -> #(String, String) {
   #("align_content", value)

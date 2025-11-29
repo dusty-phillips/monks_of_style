@@ -1,12 +1,8 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("page-break-inside", "auto")
-}
+pub const auto_ = #("page-break-inside", "auto")
 
-pub fn avoid() -> #(String, String) {
-  #("page-break-inside", "avoid")
-}
+pub const avoid = #("page-break-inside", "avoid")
 
 pub fn raw(value: String) -> #(String, String) {
   #("page_break_inside", value)

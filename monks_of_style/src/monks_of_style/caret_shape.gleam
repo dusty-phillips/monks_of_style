@@ -1,20 +1,12 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("caret-shape", "auto")
-}
+pub const auto_ = #("caret-shape", "auto")
 
-pub fn bar() -> #(String, String) {
-  #("caret-shape", "bar")
-}
+pub const bar = #("caret-shape", "bar")
 
-pub fn block() -> #(String, String) {
-  #("caret-shape", "block")
-}
+pub const block = #("caret-shape", "block")
 
-pub fn underscore() -> #(String, String) {
-  #("caret-shape", "underscore")
-}
+pub const underscore = #("caret-shape", "underscore")
 
 pub fn raw(value: String) -> #(String, String) {
   #("caret_shape", value)

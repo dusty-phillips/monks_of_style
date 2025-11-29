@@ -1,24 +1,14 @@
 
 
-pub fn normal() -> #(String, String) {
-  #("word-break", "normal")
-}
+pub const normal = #("word-break", "normal")
 
-pub fn break_all() -> #(String, String) {
-  #("word-break", "break-all")
-}
+pub const break_all = #("word-break", "break-all")
 
-pub fn keep_all() -> #(String, String) {
-  #("word-break", "keep-all")
-}
+pub const keep_all = #("word-break", "keep-all")
 
-pub fn break_word() -> #(String, String) {
-  #("word-break", "break-word")
-}
+pub const break_word = #("word-break", "break-word")
 
-pub fn auto_phrase() -> #(String, String) {
-  #("word-break", "auto-phrase")
-}
+pub const auto_phrase = #("word-break", "auto-phrase")
 
 pub fn raw(value: String) -> #(String, String) {
   #("word_break", value)

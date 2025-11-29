@@ -1,20 +1,12 @@
 
 
-pub fn inline() -> #(String, String) {
-  #("-moz-orient", "inline")
-}
+pub const inline = #("-moz-orient", "inline")
 
-pub fn block() -> #(String, String) {
-  #("-moz-orient", "block")
-}
+pub const block = #("-moz-orient", "block")
 
-pub fn horizontal() -> #(String, String) {
-  #("-moz-orient", "horizontal")
-}
+pub const horizontal = #("-moz-orient", "horizontal")
 
-pub fn vertical() -> #(String, String) {
-  #("-moz-orient", "vertical")
-}
+pub const vertical = #("-moz-orient", "vertical")
 
 pub fn raw(value: String) -> #(String, String) {
   #("moz_orient", value)

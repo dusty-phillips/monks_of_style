@@ -1,28 +1,16 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("-ms-wrap-flow", "auto")
-}
+pub const auto_ = #("-ms-wrap-flow", "auto")
 
-pub fn both() -> #(String, String) {
-  #("-ms-wrap-flow", "both")
-}
+pub const both = #("-ms-wrap-flow", "both")
 
-pub fn start() -> #(String, String) {
-  #("-ms-wrap-flow", "start")
-}
+pub const start = #("-ms-wrap-flow", "start")
 
-pub fn end() -> #(String, String) {
-  #("-ms-wrap-flow", "end")
-}
+pub const end = #("-ms-wrap-flow", "end")
 
-pub fn maximum() -> #(String, String) {
-  #("-ms-wrap-flow", "maximum")
-}
+pub const maximum = #("-ms-wrap-flow", "maximum")
 
-pub fn clear() -> #(String, String) {
-  #("-ms-wrap-flow", "clear")
-}
+pub const clear = #("-ms-wrap-flow", "clear")
 
 pub fn raw(value: String) -> #(String, String) {
   #("ms_wrap_flow", value)

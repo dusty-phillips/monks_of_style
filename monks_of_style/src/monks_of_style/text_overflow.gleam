@@ -1,12 +1,8 @@
 
 
-pub fn clip() -> #(String, String) {
-  #("text-overflow", "clip")
-}
+pub const clip = #("text-overflow", "clip")
 
-pub fn ellipsis() -> #(String, String) {
-  #("text-overflow", "ellipsis")
-}
+pub const ellipsis = #("text-overflow", "ellipsis")
 
 pub fn raw(value: String) -> #(String, String) {
   #("text_overflow", value)

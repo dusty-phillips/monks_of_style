@@ -1,20 +1,12 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("-moz-user-input", "auto")
-}
+pub const auto_ = #("-moz-user-input", "auto")
 
-pub fn none() -> #(String, String) {
-  #("-moz-user-input", "none")
-}
+pub const none = #("-moz-user-input", "none")
 
-pub fn enabled() -> #(String, String) {
-  #("-moz-user-input", "enabled")
-}
+pub const enabled = #("-moz-user-input", "enabled")
 
-pub fn disabled() -> #(String, String) {
-  #("-moz-user-input", "disabled")
-}
+pub const disabled = #("-moz-user-input", "disabled")
 
 pub fn raw(value: String) -> #(String, String) {
   #("moz_user_input", value)

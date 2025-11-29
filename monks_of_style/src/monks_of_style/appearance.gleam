@@ -1,68 +1,36 @@
 
 
-pub fn none() -> #(String, String) {
-  #("appearance", "none")
-}
+pub const none = #("appearance", "none")
 
-pub fn auto_() -> #(String, String) {
-  #("appearance", "auto")
-}
+pub const auto_ = #("appearance", "auto")
 
-pub fn textfield() -> #(String, String) {
-  #("appearance", "textfield")
-}
+pub const textfield = #("appearance", "textfield")
 
-pub fn menulist_button() -> #(String, String) {
-  #("appearance", "menulist-button")
-}
+pub const menulist_button = #("appearance", "menulist-button")
 
-pub fn searchfield() -> #(String, String) {
-  #("appearance", "searchfield")
-}
+pub const searchfield = #("appearance", "searchfield")
 
-pub fn textarea() -> #(String, String) {
-  #("appearance", "textarea")
-}
+pub const textarea = #("appearance", "textarea")
 
-pub fn push_button() -> #(String, String) {
-  #("appearance", "push-button")
-}
+pub const push_button = #("appearance", "push-button")
 
-pub fn slider_horizontal() -> #(String, String) {
-  #("appearance", "slider-horizontal")
-}
+pub const slider_horizontal = #("appearance", "slider-horizontal")
 
-pub fn checkbox() -> #(String, String) {
-  #("appearance", "checkbox")
-}
+pub const checkbox = #("appearance", "checkbox")
 
-pub fn radio() -> #(String, String) {
-  #("appearance", "radio")
-}
+pub const radio = #("appearance", "radio")
 
-pub fn square_button() -> #(String, String) {
-  #("appearance", "square-button")
-}
+pub const square_button = #("appearance", "square-button")
 
-pub fn menulist() -> #(String, String) {
-  #("appearance", "menulist")
-}
+pub const menulist = #("appearance", "menulist")
 
-pub fn listbox() -> #(String, String) {
-  #("appearance", "listbox")
-}
+pub const listbox = #("appearance", "listbox")
 
-pub fn meter() -> #(String, String) {
-  #("appearance", "meter")
-}
+pub const meter = #("appearance", "meter")
 
-pub fn progress_bar() -> #(String, String) {
-  #("appearance", "progress-bar")
-}
+pub const progress_bar = #("appearance", "progress-bar")
 
-pub fn button() -> #(String, String) {
-  #("appearance", "button")
-}
+pub const button = #("appearance", "button")
 
 pub fn raw(value: String) -> #(String, String) {
   #("appearance", value)

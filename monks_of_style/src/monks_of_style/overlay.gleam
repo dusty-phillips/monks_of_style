@@ -1,12 +1,8 @@
 
 
-pub fn none() -> #(String, String) {
-  #("overlay", "none")
-}
+pub const none = #("overlay", "none")
 
-pub fn auto_() -> #(String, String) {
-  #("overlay", "auto")
-}
+pub const auto_ = #("overlay", "auto")
 
 pub fn raw(value: String) -> #(String, String) {
   #("overlay", value)

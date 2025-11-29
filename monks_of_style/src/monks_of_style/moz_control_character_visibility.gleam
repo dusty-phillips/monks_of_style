@@ -1,12 +1,8 @@
 
 
-pub fn visible() -> #(String, String) {
-  #("-moz-control-character-visibility", "visible")
-}
+pub const visible = #("-moz-control-character-visibility", "visible")
 
-pub fn hidden() -> #(String, String) {
-  #("-moz-control-character-visibility", "hidden")
-}
+pub const hidden = #("-moz-control-character-visibility", "hidden")
 
 pub fn raw(value: String) -> #(String, String) {
   #("moz_control_character_visibility", value)

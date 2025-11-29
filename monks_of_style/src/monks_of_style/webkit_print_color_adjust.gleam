@@ -1,12 +1,8 @@
 
 
-pub fn economy() -> #(String, String) {
-  #("-webkit-print-color-adjust", "economy")
-}
+pub const economy = #("-webkit-print-color-adjust", "economy")
 
-pub fn exact() -> #(String, String) {
-  #("-webkit-print-color-adjust", "exact")
-}
+pub const exact = #("-webkit-print-color-adjust", "exact")
 
 pub fn raw(value: String) -> #(String, String) {
   #("webkit_print_color_adjust", value)

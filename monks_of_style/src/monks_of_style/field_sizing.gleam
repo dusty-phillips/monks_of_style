@@ -1,12 +1,8 @@
 
 
-pub fn content() -> #(String, String) {
-  #("field-sizing", "content")
-}
+pub const content = #("field-sizing", "content")
 
-pub fn fixed() -> #(String, String) {
-  #("field-sizing", "fixed")
-}
+pub const fixed = #("field-sizing", "fixed")
 
 pub fn raw(value: String) -> #(String, String) {
   #("field_sizing", value)

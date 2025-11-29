@@ -1,8 +1,6 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("scroll-padding-right", "auto")
-}
+pub const auto_ = #("scroll-padding-right", "auto")
 
 pub fn raw(value: String) -> #(String, String) {
   #("scroll_padding_right", value)

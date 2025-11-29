@@ -1,12 +1,8 @@
 
 
-pub fn none() -> #(String, String) {
-  #("-moz-text-blink", "none")
-}
+pub const none = #("-moz-text-blink", "none")
 
-pub fn blink() -> #(String, String) {
-  #("-moz-text-blink", "blink")
-}
+pub const blink = #("-moz-text-blink", "blink")
 
 pub fn raw(value: String) -> #(String, String) {
   #("moz_text_blink", value)

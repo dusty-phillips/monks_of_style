@@ -1,8 +1,6 @@
 
 
-pub fn fill() -> #(String, String) {
-  #("border-image-slice", "fill")
-}
+pub const fill = #("border-image-slice", "fill")
 
 pub fn raw(value: String) -> #(String, String) {
   #("border_image_slice", value)

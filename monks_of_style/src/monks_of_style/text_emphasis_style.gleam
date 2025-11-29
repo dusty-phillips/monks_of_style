@@ -1,36 +1,20 @@
 
 
-pub fn none() -> #(String, String) {
-  #("text-emphasis-style", "none")
-}
+pub const none = #("text-emphasis-style", "none")
 
-pub fn filled() -> #(String, String) {
-  #("text-emphasis-style", "filled")
-}
+pub const filled = #("text-emphasis-style", "filled")
 
-pub fn open() -> #(String, String) {
-  #("text-emphasis-style", "open")
-}
+pub const open = #("text-emphasis-style", "open")
 
-pub fn dot() -> #(String, String) {
-  #("text-emphasis-style", "dot")
-}
+pub const dot = #("text-emphasis-style", "dot")
 
-pub fn circle() -> #(String, String) {
-  #("text-emphasis-style", "circle")
-}
+pub const circle = #("text-emphasis-style", "circle")
 
-pub fn double_circle() -> #(String, String) {
-  #("text-emphasis-style", "double-circle")
-}
+pub const double_circle = #("text-emphasis-style", "double-circle")
 
-pub fn triangle() -> #(String, String) {
-  #("text-emphasis-style", "triangle")
-}
+pub const triangle = #("text-emphasis-style", "triangle")
 
-pub fn sesame() -> #(String, String) {
-  #("text-emphasis-style", "sesame")
-}
+pub const sesame = #("text-emphasis-style", "sesame")
 
 pub fn raw(value: String) -> #(String, String) {
   #("text_emphasis_style", value)

@@ -1,12 +1,8 @@
 
 
-pub fn from_image() -> #(String, String) {
-  #("image-orientation", "from-image")
-}
+pub const from_image = #("image-orientation", "from-image")
 
-pub fn flip() -> #(String, String) {
-  #("image-orientation", "flip")
-}
+pub const flip = #("image-orientation", "flip")
 
 pub fn raw(value: String) -> #(String, String) {
   #("image_orientation", value)

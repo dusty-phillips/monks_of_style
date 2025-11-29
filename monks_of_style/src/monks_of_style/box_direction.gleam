@@ -1,16 +1,10 @@
 
 
-pub fn normal() -> #(String, String) {
-  #("box-direction", "normal")
-}
+pub const normal = #("box-direction", "normal")
 
-pub fn reverse() -> #(String, String) {
-  #("box-direction", "reverse")
-}
+pub const reverse = #("box-direction", "reverse")
 
-pub fn inherit() -> #(String, String) {
-  #("box-direction", "inherit")
-}
+pub const inherit = #("box-direction", "inherit")
 
 pub fn raw(value: String) -> #(String, String) {
   #("box_direction", value)

@@ -1,12 +1,8 @@
 
 
-pub fn wrap() -> #(String, String) {
-  #("-ms-wrap-through", "wrap")
-}
+pub const wrap = #("-ms-wrap-through", "wrap")
 
-pub fn none() -> #(String, String) {
-  #("-ms-wrap-through", "none")
-}
+pub const none = #("-ms-wrap-through", "none")
 
 pub fn raw(value: String) -> #(String, String) {
   #("ms_wrap_through", value)

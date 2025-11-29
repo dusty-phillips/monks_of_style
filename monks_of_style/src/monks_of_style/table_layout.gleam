@@ -1,12 +1,8 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("table-layout", "auto")
-}
+pub const auto_ = #("table-layout", "auto")
 
-pub fn fixed() -> #(String, String) {
-  #("table-layout", "fixed")
-}
+pub const fixed = #("table-layout", "fixed")
 
 pub fn raw(value: String) -> #(String, String) {
   #("table_layout", value)

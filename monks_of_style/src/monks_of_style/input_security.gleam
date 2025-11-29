@@ -1,12 +1,8 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("input-security", "auto")
-}
+pub const auto_ = #("input-security", "auto")
 
-pub fn none() -> #(String, String) {
-  #("input-security", "none")
-}
+pub const none = #("input-security", "none")
 
 pub fn raw(value: String) -> #(String, String) {
   #("input_security", value)

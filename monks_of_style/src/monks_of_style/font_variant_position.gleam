@@ -1,16 +1,10 @@
 
 
-pub fn normal() -> #(String, String) {
-  #("font-variant-position", "normal")
-}
+pub const normal = #("font-variant-position", "normal")
 
-pub fn sub() -> #(String, String) {
-  #("font-variant-position", "sub")
-}
+pub const sub = #("font-variant-position", "sub")
 
-pub fn super() -> #(String, String) {
-  #("font-variant-position", "super")
-}
+pub const super = #("font-variant-position", "super")
 
 pub fn raw(value: String) -> #(String, String) {
   #("font_variant_position", value)

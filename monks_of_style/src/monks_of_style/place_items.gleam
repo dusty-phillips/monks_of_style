@@ -1,72 +1,38 @@
 
 
-pub fn normal() -> #(String, String) {
-  #("place-items", "normal")
-}
+pub const normal = #("place-items", "normal")
 
-pub fn stretch() -> #(String, String) {
-  #("place-items", "stretch")
-}
+pub const stretch = #("place-items", "stretch")
 
-pub fn first() -> #(String, String) {
-  #("place-items", "first")
-}
+pub const first = #("place-items", "first")
 
-pub fn last() -> #(String, String) {
-  #("place-items", "last")
-}
+pub const last = #("place-items", "last")
 
-pub fn baseline() -> #(String, String) {
-  #("place-items", "baseline")
-}
+pub const baseline = #("place-items", "baseline")
 
-pub fn unsafe() -> #(String, String) {
-  #("place-items", "unsafe")
-}
+pub const unsafe = #("place-items", "unsafe")
 
-pub fn safe() -> #(String, String) {
-  #("place-items", "safe")
-}
+pub const safe = #("place-items", "safe")
 
-pub fn center() -> #(String, String) {
-  #("place-items", "center")
-}
+pub const center = #("place-items", "center")
 
-pub fn start() -> #(String, String) {
-  #("place-items", "start")
-}
+pub const start = #("place-items", "start")
 
-pub fn end() -> #(String, String) {
-  #("place-items", "end")
-}
+pub const end = #("place-items", "end")
 
-pub fn self_start() -> #(String, String) {
-  #("place-items", "self-start")
-}
+pub const self_start = #("place-items", "self-start")
 
-pub fn self_end() -> #(String, String) {
-  #("place-items", "self-end")
-}
+pub const self_end = #("place-items", "self-end")
 
-pub fn flex_start() -> #(String, String) {
-  #("place-items", "flex-start")
-}
+pub const flex_start = #("place-items", "flex-start")
 
-pub fn flex_end() -> #(String, String) {
-  #("place-items", "flex-end")
-}
+pub const flex_end = #("place-items", "flex-end")
 
-pub fn left() -> #(String, String) {
-  #("place-items", "left")
-}
+pub const left = #("place-items", "left")
 
-pub fn right() -> #(String, String) {
-  #("place-items", "right")
-}
+pub const right = #("place-items", "right")
 
-pub fn legacy() -> #(String, String) {
-  #("place-items", "legacy")
-}
+pub const legacy = #("place-items", "legacy")
 
 pub fn raw(value: String) -> #(String, String) {
   #("place_items", value)

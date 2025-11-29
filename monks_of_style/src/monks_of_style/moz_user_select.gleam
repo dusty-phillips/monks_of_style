@@ -1,20 +1,12 @@
 
 
-pub fn none() -> #(String, String) {
-  #("-moz-user-select", "none")
-}
+pub const none = #("-moz-user-select", "none")
 
-pub fn text() -> #(String, String) {
-  #("-moz-user-select", "text")
-}
+pub const text = #("-moz-user-select", "text")
 
-pub fn all() -> #(String, String) {
-  #("-moz-user-select", "all")
-}
+pub const all = #("-moz-user-select", "all")
 
-pub fn moz_none() -> #(String, String) {
-  #("-moz-user-select", "-moz-none")
-}
+pub const moz_none = #("-moz-user-select", "-moz-none")
 
 pub fn raw(value: String) -> #(String, String) {
   #("moz_user_select", value)

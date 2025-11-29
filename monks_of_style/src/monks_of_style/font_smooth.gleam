@@ -1,48 +1,26 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("font-smooth", "auto")
-}
+pub const auto_ = #("font-smooth", "auto")
 
-pub fn never() -> #(String, String) {
-  #("font-smooth", "never")
-}
+pub const never = #("font-smooth", "never")
 
-pub fn always() -> #(String, String) {
-  #("font-smooth", "always")
-}
+pub const always = #("font-smooth", "always")
 
-pub fn xx_small() -> #(String, String) {
-  #("font-smooth", "xx-small")
-}
+pub const xx_small = #("font-smooth", "xx-small")
 
-pub fn x_small() -> #(String, String) {
-  #("font-smooth", "x-small")
-}
+pub const x_small = #("font-smooth", "x-small")
 
-pub fn small() -> #(String, String) {
-  #("font-smooth", "small")
-}
+pub const small = #("font-smooth", "small")
 
-pub fn medium() -> #(String, String) {
-  #("font-smooth", "medium")
-}
+pub const medium = #("font-smooth", "medium")
 
-pub fn large() -> #(String, String) {
-  #("font-smooth", "large")
-}
+pub const large = #("font-smooth", "large")
 
-pub fn x_large() -> #(String, String) {
-  #("font-smooth", "x-large")
-}
+pub const x_large = #("font-smooth", "x-large")
 
-pub fn xx_large() -> #(String, String) {
-  #("font-smooth", "xx-large")
-}
+pub const xx_large = #("font-smooth", "xx-large")
 
-pub fn xxx_large() -> #(String, String) {
-  #("font-smooth", "xxx-large")
-}
+pub const xxx_large = #("font-smooth", "xxx-large")
 
 pub fn raw(value: String) -> #(String, String) {
   #("font_smooth", value)

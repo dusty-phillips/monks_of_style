@@ -1,952 +1,478 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("outline-color", "auto")
-}
-
-pub fn none() -> #(String, String) {
-  #("outline-color", "none")
-}
-
-pub fn srgb() -> #(String, String) {
-  #("outline-color", "srgb")
-}
-
-pub fn srgb_linear() -> #(String, String) {
-  #("outline-color", "srgb-linear")
-}
-
-pub fn display_p3() -> #(String, String) {
-  #("outline-color", "display-p3")
-}
-
-pub fn a98_rgb() -> #(String, String) {
-  #("outline-color", "a98-rgb")
-}
-
-pub fn prophoto_rgb() -> #(String, String) {
-  #("outline-color", "prophoto-rgb")
-}
-
-pub fn rec2020() -> #(String, String) {
-  #("outline-color", "rec2020")
-}
-
-pub fn xyz() -> #(String, String) {
-  #("outline-color", "xyz")
-}
-
-pub fn xyz_d50() -> #(String, String) {
-  #("outline-color", "xyz-d50")
-}
-
-pub fn xyz_d65() -> #(String, String) {
-  #("outline-color", "xyz-d65")
-}
-
-pub fn transparent() -> #(String, String) {
-  #("outline-color", "transparent")
-}
-
-pub fn aliceblue() -> #(String, String) {
-  #("outline-color", "aliceblue")
-}
-
-pub fn antiquewhite() -> #(String, String) {
-  #("outline-color", "antiquewhite")
-}
-
-pub fn aqua() -> #(String, String) {
-  #("outline-color", "aqua")
-}
-
-pub fn aquamarine() -> #(String, String) {
-  #("outline-color", "aquamarine")
-}
-
-pub fn azure() -> #(String, String) {
-  #("outline-color", "azure")
-}
-
-pub fn beige() -> #(String, String) {
-  #("outline-color", "beige")
-}
-
-pub fn bisque() -> #(String, String) {
-  #("outline-color", "bisque")
-}
-
-pub fn black() -> #(String, String) {
-  #("outline-color", "black")
-}
-
-pub fn blanchedalmond() -> #(String, String) {
-  #("outline-color", "blanchedalmond")
-}
-
-pub fn blue() -> #(String, String) {
-  #("outline-color", "blue")
-}
-
-pub fn blueviolet() -> #(String, String) {
-  #("outline-color", "blueviolet")
-}
-
-pub fn brown() -> #(String, String) {
-  #("outline-color", "brown")
-}
-
-pub fn burlywood() -> #(String, String) {
-  #("outline-color", "burlywood")
-}
-
-pub fn cadetblue() -> #(String, String) {
-  #("outline-color", "cadetblue")
-}
-
-pub fn chartreuse() -> #(String, String) {
-  #("outline-color", "chartreuse")
-}
-
-pub fn chocolate() -> #(String, String) {
-  #("outline-color", "chocolate")
-}
-
-pub fn coral() -> #(String, String) {
-  #("outline-color", "coral")
-}
-
-pub fn cornflowerblue() -> #(String, String) {
-  #("outline-color", "cornflowerblue")
-}
-
-pub fn cornsilk() -> #(String, String) {
-  #("outline-color", "cornsilk")
-}
-
-pub fn crimson() -> #(String, String) {
-  #("outline-color", "crimson")
-}
-
-pub fn cyan() -> #(String, String) {
-  #("outline-color", "cyan")
-}
-
-pub fn darkblue() -> #(String, String) {
-  #("outline-color", "darkblue")
-}
-
-pub fn darkcyan() -> #(String, String) {
-  #("outline-color", "darkcyan")
-}
-
-pub fn darkgoldenrod() -> #(String, String) {
-  #("outline-color", "darkgoldenrod")
-}
-
-pub fn darkgray() -> #(String, String) {
-  #("outline-color", "darkgray")
-}
-
-pub fn darkgreen() -> #(String, String) {
-  #("outline-color", "darkgreen")
-}
-
-pub fn darkgrey() -> #(String, String) {
-  #("outline-color", "darkgrey")
-}
-
-pub fn darkkhaki() -> #(String, String) {
-  #("outline-color", "darkkhaki")
-}
-
-pub fn darkmagenta() -> #(String, String) {
-  #("outline-color", "darkmagenta")
-}
-
-pub fn darkolivegreen() -> #(String, String) {
-  #("outline-color", "darkolivegreen")
-}
-
-pub fn darkorange() -> #(String, String) {
-  #("outline-color", "darkorange")
-}
-
-pub fn darkorchid() -> #(String, String) {
-  #("outline-color", "darkorchid")
-}
-
-pub fn darkred() -> #(String, String) {
-  #("outline-color", "darkred")
-}
-
-pub fn darksalmon() -> #(String, String) {
-  #("outline-color", "darksalmon")
-}
-
-pub fn darkseagreen() -> #(String, String) {
-  #("outline-color", "darkseagreen")
-}
-
-pub fn darkslateblue() -> #(String, String) {
-  #("outline-color", "darkslateblue")
-}
-
-pub fn darkslategray() -> #(String, String) {
-  #("outline-color", "darkslategray")
-}
-
-pub fn darkslategrey() -> #(String, String) {
-  #("outline-color", "darkslategrey")
-}
-
-pub fn darkturquoise() -> #(String, String) {
-  #("outline-color", "darkturquoise")
-}
-
-pub fn darkviolet() -> #(String, String) {
-  #("outline-color", "darkviolet")
-}
-
-pub fn deeppink() -> #(String, String) {
-  #("outline-color", "deeppink")
-}
-
-pub fn deepskyblue() -> #(String, String) {
-  #("outline-color", "deepskyblue")
-}
-
-pub fn dimgray() -> #(String, String) {
-  #("outline-color", "dimgray")
-}
-
-pub fn dimgrey() -> #(String, String) {
-  #("outline-color", "dimgrey")
-}
-
-pub fn dodgerblue() -> #(String, String) {
-  #("outline-color", "dodgerblue")
-}
-
-pub fn firebrick() -> #(String, String) {
-  #("outline-color", "firebrick")
-}
-
-pub fn floralwhite() -> #(String, String) {
-  #("outline-color", "floralwhite")
-}
-
-pub fn forestgreen() -> #(String, String) {
-  #("outline-color", "forestgreen")
-}
-
-pub fn fuchsia() -> #(String, String) {
-  #("outline-color", "fuchsia")
-}
-
-pub fn gainsboro() -> #(String, String) {
-  #("outline-color", "gainsboro")
-}
-
-pub fn ghostwhite() -> #(String, String) {
-  #("outline-color", "ghostwhite")
-}
-
-pub fn gold() -> #(String, String) {
-  #("outline-color", "gold")
-}
-
-pub fn goldenrod() -> #(String, String) {
-  #("outline-color", "goldenrod")
-}
-
-pub fn gray() -> #(String, String) {
-  #("outline-color", "gray")
-}
-
-pub fn green() -> #(String, String) {
-  #("outline-color", "green")
-}
-
-pub fn greenyellow() -> #(String, String) {
-  #("outline-color", "greenyellow")
-}
-
-pub fn grey() -> #(String, String) {
-  #("outline-color", "grey")
-}
-
-pub fn honeydew() -> #(String, String) {
-  #("outline-color", "honeydew")
-}
-
-pub fn hotpink() -> #(String, String) {
-  #("outline-color", "hotpink")
-}
-
-pub fn indianred() -> #(String, String) {
-  #("outline-color", "indianred")
-}
-
-pub fn indigo() -> #(String, String) {
-  #("outline-color", "indigo")
-}
-
-pub fn ivory() -> #(String, String) {
-  #("outline-color", "ivory")
-}
-
-pub fn khaki() -> #(String, String) {
-  #("outline-color", "khaki")
-}
-
-pub fn lavender() -> #(String, String) {
-  #("outline-color", "lavender")
-}
-
-pub fn lavenderblush() -> #(String, String) {
-  #("outline-color", "lavenderblush")
-}
-
-pub fn lawngreen() -> #(String, String) {
-  #("outline-color", "lawngreen")
-}
-
-pub fn lemonchiffon() -> #(String, String) {
-  #("outline-color", "lemonchiffon")
-}
-
-pub fn lightblue() -> #(String, String) {
-  #("outline-color", "lightblue")
-}
-
-pub fn lightcoral() -> #(String, String) {
-  #("outline-color", "lightcoral")
-}
-
-pub fn lightcyan() -> #(String, String) {
-  #("outline-color", "lightcyan")
-}
-
-pub fn lightgoldenrodyellow() -> #(String, String) {
-  #("outline-color", "lightgoldenrodyellow")
-}
-
-pub fn lightgray() -> #(String, String) {
-  #("outline-color", "lightgray")
-}
-
-pub fn lightgreen() -> #(String, String) {
-  #("outline-color", "lightgreen")
-}
-
-pub fn lightgrey() -> #(String, String) {
-  #("outline-color", "lightgrey")
-}
-
-pub fn lightpink() -> #(String, String) {
-  #("outline-color", "lightpink")
-}
-
-pub fn lightsalmon() -> #(String, String) {
-  #("outline-color", "lightsalmon")
-}
-
-pub fn lightseagreen() -> #(String, String) {
-  #("outline-color", "lightseagreen")
-}
-
-pub fn lightskyblue() -> #(String, String) {
-  #("outline-color", "lightskyblue")
-}
-
-pub fn lightslategray() -> #(String, String) {
-  #("outline-color", "lightslategray")
-}
-
-pub fn lightslategrey() -> #(String, String) {
-  #("outline-color", "lightslategrey")
-}
-
-pub fn lightsteelblue() -> #(String, String) {
-  #("outline-color", "lightsteelblue")
-}
-
-pub fn lightyellow() -> #(String, String) {
-  #("outline-color", "lightyellow")
-}
-
-pub fn lime() -> #(String, String) {
-  #("outline-color", "lime")
-}
-
-pub fn limegreen() -> #(String, String) {
-  #("outline-color", "limegreen")
-}
-
-pub fn linen() -> #(String, String) {
-  #("outline-color", "linen")
-}
-
-pub fn magenta() -> #(String, String) {
-  #("outline-color", "magenta")
-}
-
-pub fn maroon() -> #(String, String) {
-  #("outline-color", "maroon")
-}
-
-pub fn mediumaquamarine() -> #(String, String) {
-  #("outline-color", "mediumaquamarine")
-}
-
-pub fn mediumblue() -> #(String, String) {
-  #("outline-color", "mediumblue")
-}
-
-pub fn mediumorchid() -> #(String, String) {
-  #("outline-color", "mediumorchid")
-}
-
-pub fn mediumpurple() -> #(String, String) {
-  #("outline-color", "mediumpurple")
-}
-
-pub fn mediumseagreen() -> #(String, String) {
-  #("outline-color", "mediumseagreen")
-}
-
-pub fn mediumslateblue() -> #(String, String) {
-  #("outline-color", "mediumslateblue")
-}
-
-pub fn mediumspringgreen() -> #(String, String) {
-  #("outline-color", "mediumspringgreen")
-}
-
-pub fn mediumturquoise() -> #(String, String) {
-  #("outline-color", "mediumturquoise")
-}
-
-pub fn mediumvioletred() -> #(String, String) {
-  #("outline-color", "mediumvioletred")
-}
-
-pub fn midnightblue() -> #(String, String) {
-  #("outline-color", "midnightblue")
-}
-
-pub fn mintcream() -> #(String, String) {
-  #("outline-color", "mintcream")
-}
-
-pub fn mistyrose() -> #(String, String) {
-  #("outline-color", "mistyrose")
-}
-
-pub fn moccasin() -> #(String, String) {
-  #("outline-color", "moccasin")
-}
-
-pub fn navajowhite() -> #(String, String) {
-  #("outline-color", "navajowhite")
-}
-
-pub fn navy() -> #(String, String) {
-  #("outline-color", "navy")
-}
-
-pub fn oldlace() -> #(String, String) {
-  #("outline-color", "oldlace")
-}
-
-pub fn olive() -> #(String, String) {
-  #("outline-color", "olive")
-}
-
-pub fn olivedrab() -> #(String, String) {
-  #("outline-color", "olivedrab")
-}
-
-pub fn orange() -> #(String, String) {
-  #("outline-color", "orange")
-}
-
-pub fn orangered() -> #(String, String) {
-  #("outline-color", "orangered")
-}
-
-pub fn orchid() -> #(String, String) {
-  #("outline-color", "orchid")
-}
-
-pub fn palegoldenrod() -> #(String, String) {
-  #("outline-color", "palegoldenrod")
-}
-
-pub fn palegreen() -> #(String, String) {
-  #("outline-color", "palegreen")
-}
-
-pub fn paleturquoise() -> #(String, String) {
-  #("outline-color", "paleturquoise")
-}
-
-pub fn palevioletred() -> #(String, String) {
-  #("outline-color", "palevioletred")
-}
-
-pub fn papayawhip() -> #(String, String) {
-  #("outline-color", "papayawhip")
-}
-
-pub fn peachpuff() -> #(String, String) {
-  #("outline-color", "peachpuff")
-}
-
-pub fn peru() -> #(String, String) {
-  #("outline-color", "peru")
-}
-
-pub fn pink() -> #(String, String) {
-  #("outline-color", "pink")
-}
-
-pub fn plum() -> #(String, String) {
-  #("outline-color", "plum")
-}
-
-pub fn powderblue() -> #(String, String) {
-  #("outline-color", "powderblue")
-}
-
-pub fn purple() -> #(String, String) {
-  #("outline-color", "purple")
-}
-
-pub fn rebeccapurple() -> #(String, String) {
-  #("outline-color", "rebeccapurple")
-}
-
-pub fn red() -> #(String, String) {
-  #("outline-color", "red")
-}
-
-pub fn rosybrown() -> #(String, String) {
-  #("outline-color", "rosybrown")
-}
-
-pub fn royalblue() -> #(String, String) {
-  #("outline-color", "royalblue")
-}
-
-pub fn saddlebrown() -> #(String, String) {
-  #("outline-color", "saddlebrown")
-}
-
-pub fn salmon() -> #(String, String) {
-  #("outline-color", "salmon")
-}
-
-pub fn sandybrown() -> #(String, String) {
-  #("outline-color", "sandybrown")
-}
-
-pub fn seagreen() -> #(String, String) {
-  #("outline-color", "seagreen")
-}
-
-pub fn seashell() -> #(String, String) {
-  #("outline-color", "seashell")
-}
-
-pub fn sienna() -> #(String, String) {
-  #("outline-color", "sienna")
-}
-
-pub fn silver() -> #(String, String) {
-  #("outline-color", "silver")
-}
-
-pub fn skyblue() -> #(String, String) {
-  #("outline-color", "skyblue")
-}
-
-pub fn slateblue() -> #(String, String) {
-  #("outline-color", "slateblue")
-}
-
-pub fn slategray() -> #(String, String) {
-  #("outline-color", "slategray")
-}
-
-pub fn slategrey() -> #(String, String) {
-  #("outline-color", "slategrey")
-}
-
-pub fn snow() -> #(String, String) {
-  #("outline-color", "snow")
-}
-
-pub fn springgreen() -> #(String, String) {
-  #("outline-color", "springgreen")
-}
-
-pub fn steelblue() -> #(String, String) {
-  #("outline-color", "steelblue")
-}
-
-pub fn tan() -> #(String, String) {
-  #("outline-color", "tan")
-}
-
-pub fn teal() -> #(String, String) {
-  #("outline-color", "teal")
-}
-
-pub fn thistle() -> #(String, String) {
-  #("outline-color", "thistle")
-}
-
-pub fn tomato() -> #(String, String) {
-  #("outline-color", "tomato")
-}
-
-pub fn turquoise() -> #(String, String) {
-  #("outline-color", "turquoise")
-}
-
-pub fn violet() -> #(String, String) {
-  #("outline-color", "violet")
-}
-
-pub fn wheat() -> #(String, String) {
-  #("outline-color", "wheat")
-}
-
-pub fn white() -> #(String, String) {
-  #("outline-color", "white")
-}
-
-pub fn whitesmoke() -> #(String, String) {
-  #("outline-color", "whitesmoke")
-}
-
-pub fn yellow() -> #(String, String) {
-  #("outline-color", "yellow")
-}
-
-pub fn yellowgreen() -> #(String, String) {
-  #("outline-color", "yellowgreen")
-}
-
-pub fn in() -> #(String, String) {
-  #("outline-color", "in")
-}
-
-pub fn lab() -> #(String, String) {
-  #("outline-color", "lab")
-}
-
-pub fn oklab() -> #(String, String) {
-  #("outline-color", "oklab")
-}
-
-pub fn hsl() -> #(String, String) {
-  #("outline-color", "hsl")
-}
-
-pub fn hwb() -> #(String, String) {
-  #("outline-color", "hwb")
-}
-
-pub fn lch() -> #(String, String) {
-  #("outline-color", "lch")
-}
-
-pub fn oklch() -> #(String, String) {
-  #("outline-color", "oklch")
-}
-
-pub fn shorter() -> #(String, String) {
-  #("outline-color", "shorter")
-}
-
-pub fn longer() -> #(String, String) {
-  #("outline-color", "longer")
-}
-
-pub fn increasing() -> #(String, String) {
-  #("outline-color", "increasing")
-}
-
-pub fn decreasing() -> #(String, String) {
-  #("outline-color", "decreasing")
-}
-
-pub fn hue() -> #(String, String) {
-  #("outline-color", "hue")
-}
-
-pub fn current_color() -> #(String, String) {
-  #("outline-color", "currentColor")
-}
-
-pub fn accent_color() -> #(String, String) {
-  #("outline-color", "AccentColor")
-}
-
-pub fn accent_color_text() -> #(String, String) {
-  #("outline-color", "AccentColorText")
-}
-
-pub fn active_text() -> #(String, String) {
-  #("outline-color", "ActiveText")
-}
-
-pub fn button_border() -> #(String, String) {
-  #("outline-color", "ButtonBorder")
-}
-
-pub fn button_face() -> #(String, String) {
-  #("outline-color", "ButtonFace")
-}
-
-pub fn button_text() -> #(String, String) {
-  #("outline-color", "ButtonText")
-}
-
-pub fn canvas() -> #(String, String) {
-  #("outline-color", "Canvas")
-}
-
-pub fn canvas_text() -> #(String, String) {
-  #("outline-color", "CanvasText")
-}
-
-pub fn field() -> #(String, String) {
-  #("outline-color", "Field")
-}
-
-pub fn field_text() -> #(String, String) {
-  #("outline-color", "FieldText")
-}
-
-pub fn gray_text() -> #(String, String) {
-  #("outline-color", "GrayText")
-}
-
-pub fn highlight() -> #(String, String) {
-  #("outline-color", "Highlight")
-}
-
-pub fn highlight_text() -> #(String, String) {
-  #("outline-color", "HighlightText")
-}
-
-pub fn link_text() -> #(String, String) {
-  #("outline-color", "LinkText")
-}
-
-pub fn mark() -> #(String, String) {
-  #("outline-color", "Mark")
-}
-
-pub fn mark_text() -> #(String, String) {
-  #("outline-color", "MarkText")
-}
-
-pub fn selected_item() -> #(String, String) {
-  #("outline-color", "SelectedItem")
-}
-
-pub fn selected_item_text() -> #(String, String) {
-  #("outline-color", "SelectedItemText")
-}
-
-pub fn visited_text() -> #(String, String) {
-  #("outline-color", "VisitedText")
-}
-
-pub fn moz_button_default() -> #(String, String) {
-  #("outline-color", "-moz-ButtonDefault")
-}
-
-pub fn moz_button_hover_face() -> #(String, String) {
-  #("outline-color", "-moz-ButtonHoverFace")
-}
-
-pub fn moz_button_hover_text() -> #(String, String) {
-  #("outline-color", "-moz-ButtonHoverText")
-}
-
-pub fn moz_cell_highlight() -> #(String, String) {
-  #("outline-color", "-moz-CellHighlight")
-}
-
-pub fn moz_cell_highlight_text() -> #(String, String) {
-  #("outline-color", "-moz-CellHighlightText")
-}
-
-pub fn moz_combobox() -> #(String, String) {
-  #("outline-color", "-moz-Combobox")
-}
-
-pub fn moz_combobox_text() -> #(String, String) {
-  #("outline-color", "-moz-ComboboxText")
-}
-
-pub fn moz_dialog() -> #(String, String) {
-  #("outline-color", "-moz-Dialog")
-}
-
-pub fn moz_dialog_text() -> #(String, String) {
-  #("outline-color", "-moz-DialogText")
-}
-
-pub fn moz_dragtargetzone() -> #(String, String) {
-  #("outline-color", "-moz-dragtargetzone")
-}
-
-pub fn moz_even_tree_row() -> #(String, String) {
-  #("outline-color", "-moz-EvenTreeRow")
-}
-
-pub fn moz_field() -> #(String, String) {
-  #("outline-color", "-moz-Field")
-}
-
-pub fn moz_field_text() -> #(String, String) {
-  #("outline-color", "-moz-FieldText")
-}
-
-pub fn moz_html_cell_highlight() -> #(String, String) {
-  #("outline-color", "-moz-html-CellHighlight")
-}
-
-pub fn moz_html_cell_highlight_text() -> #(String, String) {
-  #("outline-color", "-moz-html-CellHighlightText")
-}
-
-pub fn moz_mac_accentdarkestshadow() -> #(String, String) {
-  #("outline-color", "-moz-mac-accentdarkestshadow")
-}
-
-pub fn moz_mac_accentdarkshadow() -> #(String, String) {
-  #("outline-color", "-moz-mac-accentdarkshadow")
-}
-
-pub fn moz_mac_accentface() -> #(String, String) {
-  #("outline-color", "-moz-mac-accentface")
-}
-
-pub fn moz_mac_accentlightesthighlight() -> #(String, String) {
-  #("outline-color", "-moz-mac-accentlightesthighlight")
-}
-
-pub fn moz_mac_accentlightshadow() -> #(String, String) {
-  #("outline-color", "-moz-mac-accentlightshadow")
-}
-
-pub fn moz_mac_accentregularhighlight() -> #(String, String) {
-  #("outline-color", "-moz-mac-accentregularhighlight")
-}
-
-pub fn moz_mac_accentregularshadow() -> #(String, String) {
-  #("outline-color", "-moz-mac-accentregularshadow")
-}
-
-pub fn moz_mac_chrome_active() -> #(String, String) {
-  #("outline-color", "-moz-mac-chrome-active")
-}
-
-pub fn moz_mac_chrome_inactive() -> #(String, String) {
-  #("outline-color", "-moz-mac-chrome-inactive")
-}
-
-pub fn moz_mac_focusring() -> #(String, String) {
-  #("outline-color", "-moz-mac-focusring")
-}
-
-pub fn moz_mac_menuselect() -> #(String, String) {
-  #("outline-color", "-moz-mac-menuselect")
-}
-
-pub fn moz_mac_menushadow() -> #(String, String) {
-  #("outline-color", "-moz-mac-menushadow")
-}
-
-pub fn moz_mac_menutextselect() -> #(String, String) {
-  #("outline-color", "-moz-mac-menutextselect")
-}
-
-pub fn moz_menu_hover() -> #(String, String) {
-  #("outline-color", "-moz-MenuHover")
-}
-
-pub fn moz_menu_hover_text() -> #(String, String) {
-  #("outline-color", "-moz-MenuHoverText")
-}
-
-pub fn moz_menu_bar_text() -> #(String, String) {
-  #("outline-color", "-moz-MenuBarText")
-}
-
-pub fn moz_menu_bar_hover_text() -> #(String, String) {
-  #("outline-color", "-moz-MenuBarHoverText")
-}
-
-pub fn moz_nativehyperlinktext() -> #(String, String) {
-  #("outline-color", "-moz-nativehyperlinktext")
-}
-
-pub fn moz_odd_tree_row() -> #(String, String) {
-  #("outline-color", "-moz-OddTreeRow")
-}
-
-pub fn moz_win_communicationstext() -> #(String, String) {
-  #("outline-color", "-moz-win-communicationstext")
-}
-
-pub fn moz_win_mediatext() -> #(String, String) {
-  #("outline-color", "-moz-win-mediatext")
-}
-
-pub fn moz_activehyperlinktext() -> #(String, String) {
-  #("outline-color", "-moz-activehyperlinktext")
-}
-
-pub fn moz_default_background_color() -> #(String, String) {
-  #("outline-color", "-moz-default-background-color")
-}
-
-pub fn moz_default_color() -> #(String, String) {
-  #("outline-color", "-moz-default-color")
-}
-
-pub fn moz_hyperlinktext() -> #(String, String) {
-  #("outline-color", "-moz-hyperlinktext")
-}
-
-pub fn moz_visitedhyperlinktext() -> #(String, String) {
-  #("outline-color", "-moz-visitedhyperlinktext")
-}
-
-pub fn webkit_activelink() -> #(String, String) {
-  #("outline-color", "-webkit-activelink")
-}
-
-pub fn webkit_focus_ring_color() -> #(String, String) {
-  #("outline-color", "-webkit-focus-ring-color")
-}
-
-pub fn webkit_link() -> #(String, String) {
-  #("outline-color", "-webkit-link")
-}
-
-pub fn webkit_text() -> #(String, String) {
-  #("outline-color", "-webkit-text")
-}
+pub const auto_ = #("outline-color", "auto")
+
+pub const none = #("outline-color", "none")
+
+pub const srgb = #("outline-color", "srgb")
+
+pub const srgb_linear = #("outline-color", "srgb-linear")
+
+pub const display_p3 = #("outline-color", "display-p3")
+
+pub const a98_rgb = #("outline-color", "a98-rgb")
+
+pub const prophoto_rgb = #("outline-color", "prophoto-rgb")
+
+pub const rec2020 = #("outline-color", "rec2020")
+
+pub const xyz = #("outline-color", "xyz")
+
+pub const xyz_d50 = #("outline-color", "xyz-d50")
+
+pub const xyz_d65 = #("outline-color", "xyz-d65")
+
+pub const transparent = #("outline-color", "transparent")
+
+pub const aliceblue = #("outline-color", "aliceblue")
+
+pub const antiquewhite = #("outline-color", "antiquewhite")
+
+pub const aqua = #("outline-color", "aqua")
+
+pub const aquamarine = #("outline-color", "aquamarine")
+
+pub const azure = #("outline-color", "azure")
+
+pub const beige = #("outline-color", "beige")
+
+pub const bisque = #("outline-color", "bisque")
+
+pub const black = #("outline-color", "black")
+
+pub const blanchedalmond = #("outline-color", "blanchedalmond")
+
+pub const blue = #("outline-color", "blue")
+
+pub const blueviolet = #("outline-color", "blueviolet")
+
+pub const brown = #("outline-color", "brown")
+
+pub const burlywood = #("outline-color", "burlywood")
+
+pub const cadetblue = #("outline-color", "cadetblue")
+
+pub const chartreuse = #("outline-color", "chartreuse")
+
+pub const chocolate = #("outline-color", "chocolate")
+
+pub const coral = #("outline-color", "coral")
+
+pub const cornflowerblue = #("outline-color", "cornflowerblue")
+
+pub const cornsilk = #("outline-color", "cornsilk")
+
+pub const crimson = #("outline-color", "crimson")
+
+pub const cyan = #("outline-color", "cyan")
+
+pub const darkblue = #("outline-color", "darkblue")
+
+pub const darkcyan = #("outline-color", "darkcyan")
+
+pub const darkgoldenrod = #("outline-color", "darkgoldenrod")
+
+pub const darkgray = #("outline-color", "darkgray")
+
+pub const darkgreen = #("outline-color", "darkgreen")
+
+pub const darkgrey = #("outline-color", "darkgrey")
+
+pub const darkkhaki = #("outline-color", "darkkhaki")
+
+pub const darkmagenta = #("outline-color", "darkmagenta")
+
+pub const darkolivegreen = #("outline-color", "darkolivegreen")
+
+pub const darkorange = #("outline-color", "darkorange")
+
+pub const darkorchid = #("outline-color", "darkorchid")
+
+pub const darkred = #("outline-color", "darkred")
+
+pub const darksalmon = #("outline-color", "darksalmon")
+
+pub const darkseagreen = #("outline-color", "darkseagreen")
+
+pub const darkslateblue = #("outline-color", "darkslateblue")
+
+pub const darkslategray = #("outline-color", "darkslategray")
+
+pub const darkslategrey = #("outline-color", "darkslategrey")
+
+pub const darkturquoise = #("outline-color", "darkturquoise")
+
+pub const darkviolet = #("outline-color", "darkviolet")
+
+pub const deeppink = #("outline-color", "deeppink")
+
+pub const deepskyblue = #("outline-color", "deepskyblue")
+
+pub const dimgray = #("outline-color", "dimgray")
+
+pub const dimgrey = #("outline-color", "dimgrey")
+
+pub const dodgerblue = #("outline-color", "dodgerblue")
+
+pub const firebrick = #("outline-color", "firebrick")
+
+pub const floralwhite = #("outline-color", "floralwhite")
+
+pub const forestgreen = #("outline-color", "forestgreen")
+
+pub const fuchsia = #("outline-color", "fuchsia")
+
+pub const gainsboro = #("outline-color", "gainsboro")
+
+pub const ghostwhite = #("outline-color", "ghostwhite")
+
+pub const gold = #("outline-color", "gold")
+
+pub const goldenrod = #("outline-color", "goldenrod")
+
+pub const gray = #("outline-color", "gray")
+
+pub const green = #("outline-color", "green")
+
+pub const greenyellow = #("outline-color", "greenyellow")
+
+pub const grey = #("outline-color", "grey")
+
+pub const honeydew = #("outline-color", "honeydew")
+
+pub const hotpink = #("outline-color", "hotpink")
+
+pub const indianred = #("outline-color", "indianred")
+
+pub const indigo = #("outline-color", "indigo")
+
+pub const ivory = #("outline-color", "ivory")
+
+pub const khaki = #("outline-color", "khaki")
+
+pub const lavender = #("outline-color", "lavender")
+
+pub const lavenderblush = #("outline-color", "lavenderblush")
+
+pub const lawngreen = #("outline-color", "lawngreen")
+
+pub const lemonchiffon = #("outline-color", "lemonchiffon")
+
+pub const lightblue = #("outline-color", "lightblue")
+
+pub const lightcoral = #("outline-color", "lightcoral")
+
+pub const lightcyan = #("outline-color", "lightcyan")
+
+pub const lightgoldenrodyellow = #("outline-color", "lightgoldenrodyellow")
+
+pub const lightgray = #("outline-color", "lightgray")
+
+pub const lightgreen = #("outline-color", "lightgreen")
+
+pub const lightgrey = #("outline-color", "lightgrey")
+
+pub const lightpink = #("outline-color", "lightpink")
+
+pub const lightsalmon = #("outline-color", "lightsalmon")
+
+pub const lightseagreen = #("outline-color", "lightseagreen")
+
+pub const lightskyblue = #("outline-color", "lightskyblue")
+
+pub const lightslategray = #("outline-color", "lightslategray")
+
+pub const lightslategrey = #("outline-color", "lightslategrey")
+
+pub const lightsteelblue = #("outline-color", "lightsteelblue")
+
+pub const lightyellow = #("outline-color", "lightyellow")
+
+pub const lime = #("outline-color", "lime")
+
+pub const limegreen = #("outline-color", "limegreen")
+
+pub const linen = #("outline-color", "linen")
+
+pub const magenta = #("outline-color", "magenta")
+
+pub const maroon = #("outline-color", "maroon")
+
+pub const mediumaquamarine = #("outline-color", "mediumaquamarine")
+
+pub const mediumblue = #("outline-color", "mediumblue")
+
+pub const mediumorchid = #("outline-color", "mediumorchid")
+
+pub const mediumpurple = #("outline-color", "mediumpurple")
+
+pub const mediumseagreen = #("outline-color", "mediumseagreen")
+
+pub const mediumslateblue = #("outline-color", "mediumslateblue")
+
+pub const mediumspringgreen = #("outline-color", "mediumspringgreen")
+
+pub const mediumturquoise = #("outline-color", "mediumturquoise")
+
+pub const mediumvioletred = #("outline-color", "mediumvioletred")
+
+pub const midnightblue = #("outline-color", "midnightblue")
+
+pub const mintcream = #("outline-color", "mintcream")
+
+pub const mistyrose = #("outline-color", "mistyrose")
+
+pub const moccasin = #("outline-color", "moccasin")
+
+pub const navajowhite = #("outline-color", "navajowhite")
+
+pub const navy = #("outline-color", "navy")
+
+pub const oldlace = #("outline-color", "oldlace")
+
+pub const olive = #("outline-color", "olive")
+
+pub const olivedrab = #("outline-color", "olivedrab")
+
+pub const orange = #("outline-color", "orange")
+
+pub const orangered = #("outline-color", "orangered")
+
+pub const orchid = #("outline-color", "orchid")
+
+pub const palegoldenrod = #("outline-color", "palegoldenrod")
+
+pub const palegreen = #("outline-color", "palegreen")
+
+pub const paleturquoise = #("outline-color", "paleturquoise")
+
+pub const palevioletred = #("outline-color", "palevioletred")
+
+pub const papayawhip = #("outline-color", "papayawhip")
+
+pub const peachpuff = #("outline-color", "peachpuff")
+
+pub const peru = #("outline-color", "peru")
+
+pub const pink = #("outline-color", "pink")
+
+pub const plum = #("outline-color", "plum")
+
+pub const powderblue = #("outline-color", "powderblue")
+
+pub const purple = #("outline-color", "purple")
+
+pub const rebeccapurple = #("outline-color", "rebeccapurple")
+
+pub const red = #("outline-color", "red")
+
+pub const rosybrown = #("outline-color", "rosybrown")
+
+pub const royalblue = #("outline-color", "royalblue")
+
+pub const saddlebrown = #("outline-color", "saddlebrown")
+
+pub const salmon = #("outline-color", "salmon")
+
+pub const sandybrown = #("outline-color", "sandybrown")
+
+pub const seagreen = #("outline-color", "seagreen")
+
+pub const seashell = #("outline-color", "seashell")
+
+pub const sienna = #("outline-color", "sienna")
+
+pub const silver = #("outline-color", "silver")
+
+pub const skyblue = #("outline-color", "skyblue")
+
+pub const slateblue = #("outline-color", "slateblue")
+
+pub const slategray = #("outline-color", "slategray")
+
+pub const slategrey = #("outline-color", "slategrey")
+
+pub const snow = #("outline-color", "snow")
+
+pub const springgreen = #("outline-color", "springgreen")
+
+pub const steelblue = #("outline-color", "steelblue")
+
+pub const tan = #("outline-color", "tan")
+
+pub const teal = #("outline-color", "teal")
+
+pub const thistle = #("outline-color", "thistle")
+
+pub const tomato = #("outline-color", "tomato")
+
+pub const turquoise = #("outline-color", "turquoise")
+
+pub const violet = #("outline-color", "violet")
+
+pub const wheat = #("outline-color", "wheat")
+
+pub const white = #("outline-color", "white")
+
+pub const whitesmoke = #("outline-color", "whitesmoke")
+
+pub const yellow = #("outline-color", "yellow")
+
+pub const yellowgreen = #("outline-color", "yellowgreen")
+
+pub const in = #("outline-color", "in")
+
+pub const lab = #("outline-color", "lab")
+
+pub const oklab = #("outline-color", "oklab")
+
+pub const hsl = #("outline-color", "hsl")
+
+pub const hwb = #("outline-color", "hwb")
+
+pub const lch = #("outline-color", "lch")
+
+pub const oklch = #("outline-color", "oklch")
+
+pub const shorter = #("outline-color", "shorter")
+
+pub const longer = #("outline-color", "longer")
+
+pub const increasing = #("outline-color", "increasing")
+
+pub const decreasing = #("outline-color", "decreasing")
+
+pub const hue = #("outline-color", "hue")
+
+pub const current_color = #("outline-color", "currentColor")
+
+pub const accent_color = #("outline-color", "AccentColor")
+
+pub const accent_color_text = #("outline-color", "AccentColorText")
+
+pub const active_text = #("outline-color", "ActiveText")
+
+pub const button_border = #("outline-color", "ButtonBorder")
+
+pub const button_face = #("outline-color", "ButtonFace")
+
+pub const button_text = #("outline-color", "ButtonText")
+
+pub const canvas = #("outline-color", "Canvas")
+
+pub const canvas_text = #("outline-color", "CanvasText")
+
+pub const field = #("outline-color", "Field")
+
+pub const field_text = #("outline-color", "FieldText")
+
+pub const gray_text = #("outline-color", "GrayText")
+
+pub const highlight = #("outline-color", "Highlight")
+
+pub const highlight_text = #("outline-color", "HighlightText")
+
+pub const link_text = #("outline-color", "LinkText")
+
+pub const mark = #("outline-color", "Mark")
+
+pub const mark_text = #("outline-color", "MarkText")
+
+pub const selected_item = #("outline-color", "SelectedItem")
+
+pub const selected_item_text = #("outline-color", "SelectedItemText")
+
+pub const visited_text = #("outline-color", "VisitedText")
+
+pub const moz_button_default = #("outline-color", "-moz-ButtonDefault")
+
+pub const moz_button_hover_face = #("outline-color", "-moz-ButtonHoverFace")
+
+pub const moz_button_hover_text = #("outline-color", "-moz-ButtonHoverText")
+
+pub const moz_cell_highlight = #("outline-color", "-moz-CellHighlight")
+
+pub const moz_cell_highlight_text = #("outline-color", "-moz-CellHighlightText")
+
+pub const moz_combobox = #("outline-color", "-moz-Combobox")
+
+pub const moz_combobox_text = #("outline-color", "-moz-ComboboxText")
+
+pub const moz_dialog = #("outline-color", "-moz-Dialog")
+
+pub const moz_dialog_text = #("outline-color", "-moz-DialogText")
+
+pub const moz_dragtargetzone = #("outline-color", "-moz-dragtargetzone")
+
+pub const moz_even_tree_row = #("outline-color", "-moz-EvenTreeRow")
+
+pub const moz_field = #("outline-color", "-moz-Field")
+
+pub const moz_field_text = #("outline-color", "-moz-FieldText")
+
+pub const moz_html_cell_highlight = #("outline-color", "-moz-html-CellHighlight")
+
+pub const moz_html_cell_highlight_text = #("outline-color", "-moz-html-CellHighlightText")
+
+pub const moz_mac_accentdarkestshadow = #("outline-color", "-moz-mac-accentdarkestshadow")
+
+pub const moz_mac_accentdarkshadow = #("outline-color", "-moz-mac-accentdarkshadow")
+
+pub const moz_mac_accentface = #("outline-color", "-moz-mac-accentface")
+
+pub const moz_mac_accentlightesthighlight = #("outline-color", "-moz-mac-accentlightesthighlight")
+
+pub const moz_mac_accentlightshadow = #("outline-color", "-moz-mac-accentlightshadow")
+
+pub const moz_mac_accentregularhighlight = #("outline-color", "-moz-mac-accentregularhighlight")
+
+pub const moz_mac_accentregularshadow = #("outline-color", "-moz-mac-accentregularshadow")
+
+pub const moz_mac_chrome_active = #("outline-color", "-moz-mac-chrome-active")
+
+pub const moz_mac_chrome_inactive = #("outline-color", "-moz-mac-chrome-inactive")
+
+pub const moz_mac_focusring = #("outline-color", "-moz-mac-focusring")
+
+pub const moz_mac_menuselect = #("outline-color", "-moz-mac-menuselect")
+
+pub const moz_mac_menushadow = #("outline-color", "-moz-mac-menushadow")
+
+pub const moz_mac_menutextselect = #("outline-color", "-moz-mac-menutextselect")
+
+pub const moz_menu_hover = #("outline-color", "-moz-MenuHover")
+
+pub const moz_menu_hover_text = #("outline-color", "-moz-MenuHoverText")
+
+pub const moz_menu_bar_text = #("outline-color", "-moz-MenuBarText")
+
+pub const moz_menu_bar_hover_text = #("outline-color", "-moz-MenuBarHoverText")
+
+pub const moz_nativehyperlinktext = #("outline-color", "-moz-nativehyperlinktext")
+
+pub const moz_odd_tree_row = #("outline-color", "-moz-OddTreeRow")
+
+pub const moz_win_communicationstext = #("outline-color", "-moz-win-communicationstext")
+
+pub const moz_win_mediatext = #("outline-color", "-moz-win-mediatext")
+
+pub const moz_activehyperlinktext = #("outline-color", "-moz-activehyperlinktext")
+
+pub const moz_default_background_color = #("outline-color", "-moz-default-background-color")
+
+pub const moz_default_color = #("outline-color", "-moz-default-color")
+
+pub const moz_hyperlinktext = #("outline-color", "-moz-hyperlinktext")
+
+pub const moz_visitedhyperlinktext = #("outline-color", "-moz-visitedhyperlinktext")
+
+pub const webkit_activelink = #("outline-color", "-webkit-activelink")
+
+pub const webkit_focus_ring_color = #("outline-color", "-webkit-focus-ring-color")
+
+pub const webkit_link = #("outline-color", "-webkit-link")
+
+pub const webkit_text = #("outline-color", "-webkit-text")
 
 pub fn raw(value: String) -> #(String, String) {
   #("outline_color", value)

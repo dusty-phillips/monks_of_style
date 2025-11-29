@@ -1,12 +1,8 @@
 
 
-pub fn hanging() -> #(String, String) {
-  #("text-indent", "hanging")
-}
+pub const hanging = #("text-indent", "hanging")
 
-pub fn each_line() -> #(String, String) {
-  #("text-indent", "each-line")
-}
+pub const each_line = #("text-indent", "each-line")
 
 pub fn raw(value: String) -> #(String, String) {
   #("text_indent", value)

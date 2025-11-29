@@ -1,20 +1,12 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("text-rendering", "auto")
-}
+pub const auto_ = #("text-rendering", "auto")
 
-pub fn optimize_speed() -> #(String, String) {
-  #("text-rendering", "optimizeSpeed")
-}
+pub const optimize_speed = #("text-rendering", "optimizeSpeed")
 
-pub fn optimize_legibility() -> #(String, String) {
-  #("text-rendering", "optimizeLegibility")
-}
+pub const optimize_legibility = #("text-rendering", "optimizeLegibility")
 
-pub fn geometric_precision() -> #(String, String) {
-  #("text-rendering", "geometricPrecision")
-}
+pub const geometric_precision = #("text-rendering", "geometricPrecision")
 
 pub fn raw(value: String) -> #(String, String) {
   #("text_rendering", value)

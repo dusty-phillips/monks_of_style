@@ -1,20 +1,12 @@
 
 
-pub fn none() -> #(String, String) {
-  #("animation-fill-mode", "none")
-}
+pub const none = #("animation-fill-mode", "none")
 
-pub fn forwards() -> #(String, String) {
-  #("animation-fill-mode", "forwards")
-}
+pub const forwards = #("animation-fill-mode", "forwards")
 
-pub fn backwards() -> #(String, String) {
-  #("animation-fill-mode", "backwards")
-}
+pub const backwards = #("animation-fill-mode", "backwards")
 
-pub fn both() -> #(String, String) {
-  #("animation-fill-mode", "both")
-}
+pub const both = #("animation-fill-mode", "both")
 
 pub fn raw(value: String) -> #(String, String) {
   #("animation_fill_mode", value)

@@ -1,64 +1,34 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("width", "auto")
-}
+pub const auto_ = #("width", "auto")
 
-pub fn min_content() -> #(String, String) {
-  #("width", "min-content")
-}
+pub const min_content = #("width", "min-content")
 
-pub fn max_content() -> #(String, String) {
-  #("width", "max-content")
-}
+pub const max_content = #("width", "max-content")
 
-pub fn fit_content() -> #(String, String) {
-  #("width", "fit-content")
-}
+pub const fit_content = #("width", "fit-content")
 
-pub fn stretch() -> #(String, String) {
-  #("width", "stretch")
-}
+pub const stretch = #("width", "stretch")
 
-pub fn intrinsic() -> #(String, String) {
-  #("width", "intrinsic")
-}
+pub const intrinsic = #("width", "intrinsic")
 
-pub fn min_intrinsic() -> #(String, String) {
-  #("width", "min-intrinsic")
-}
+pub const min_intrinsic = #("width", "min-intrinsic")
 
-pub fn webkit_fill_available() -> #(String, String) {
-  #("width", "-webkit-fill-available")
-}
+pub const webkit_fill_available = #("width", "-webkit-fill-available")
 
-pub fn webkit_fit_content() -> #(String, String) {
-  #("width", "-webkit-fit-content")
-}
+pub const webkit_fit_content = #("width", "-webkit-fit-content")
 
-pub fn webkit_min_content() -> #(String, String) {
-  #("width", "-webkit-min-content")
-}
+pub const webkit_min_content = #("width", "-webkit-min-content")
 
-pub fn webkit_max_content() -> #(String, String) {
-  #("width", "-webkit-max-content")
-}
+pub const webkit_max_content = #("width", "-webkit-max-content")
 
-pub fn moz_available() -> #(String, String) {
-  #("width", "-moz-available")
-}
+pub const moz_available = #("width", "-moz-available")
 
-pub fn moz_fit_content() -> #(String, String) {
-  #("width", "-moz-fit-content")
-}
+pub const moz_fit_content = #("width", "-moz-fit-content")
 
-pub fn moz_min_content() -> #(String, String) {
-  #("width", "-moz-min-content")
-}
+pub const moz_min_content = #("width", "-moz-min-content")
 
-pub fn moz_max_content() -> #(String, String) {
-  #("width", "-moz-max-content")
-}
+pub const moz_max_content = #("width", "-moz-max-content")
 
 pub fn raw(value: String) -> #(String, String) {
   #("width", value)

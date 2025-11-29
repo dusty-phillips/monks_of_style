@@ -1,948 +1,476 @@
 
 
-pub fn none() -> #(String, String) {
-  #("-moz-border-bottom-colors", "none")
-}
-
-pub fn srgb() -> #(String, String) {
-  #("-moz-border-bottom-colors", "srgb")
-}
-
-pub fn srgb_linear() -> #(String, String) {
-  #("-moz-border-bottom-colors", "srgb-linear")
-}
-
-pub fn display_p3() -> #(String, String) {
-  #("-moz-border-bottom-colors", "display-p3")
-}
-
-pub fn a98_rgb() -> #(String, String) {
-  #("-moz-border-bottom-colors", "a98-rgb")
-}
-
-pub fn prophoto_rgb() -> #(String, String) {
-  #("-moz-border-bottom-colors", "prophoto-rgb")
-}
-
-pub fn rec2020() -> #(String, String) {
-  #("-moz-border-bottom-colors", "rec2020")
-}
-
-pub fn xyz() -> #(String, String) {
-  #("-moz-border-bottom-colors", "xyz")
-}
-
-pub fn xyz_d50() -> #(String, String) {
-  #("-moz-border-bottom-colors", "xyz-d50")
-}
-
-pub fn xyz_d65() -> #(String, String) {
-  #("-moz-border-bottom-colors", "xyz-d65")
-}
-
-pub fn transparent() -> #(String, String) {
-  #("-moz-border-bottom-colors", "transparent")
-}
-
-pub fn aliceblue() -> #(String, String) {
-  #("-moz-border-bottom-colors", "aliceblue")
-}
-
-pub fn antiquewhite() -> #(String, String) {
-  #("-moz-border-bottom-colors", "antiquewhite")
-}
-
-pub fn aqua() -> #(String, String) {
-  #("-moz-border-bottom-colors", "aqua")
-}
-
-pub fn aquamarine() -> #(String, String) {
-  #("-moz-border-bottom-colors", "aquamarine")
-}
-
-pub fn azure() -> #(String, String) {
-  #("-moz-border-bottom-colors", "azure")
-}
-
-pub fn beige() -> #(String, String) {
-  #("-moz-border-bottom-colors", "beige")
-}
-
-pub fn bisque() -> #(String, String) {
-  #("-moz-border-bottom-colors", "bisque")
-}
-
-pub fn black() -> #(String, String) {
-  #("-moz-border-bottom-colors", "black")
-}
-
-pub fn blanchedalmond() -> #(String, String) {
-  #("-moz-border-bottom-colors", "blanchedalmond")
-}
-
-pub fn blue() -> #(String, String) {
-  #("-moz-border-bottom-colors", "blue")
-}
-
-pub fn blueviolet() -> #(String, String) {
-  #("-moz-border-bottom-colors", "blueviolet")
-}
-
-pub fn brown() -> #(String, String) {
-  #("-moz-border-bottom-colors", "brown")
-}
-
-pub fn burlywood() -> #(String, String) {
-  #("-moz-border-bottom-colors", "burlywood")
-}
-
-pub fn cadetblue() -> #(String, String) {
-  #("-moz-border-bottom-colors", "cadetblue")
-}
-
-pub fn chartreuse() -> #(String, String) {
-  #("-moz-border-bottom-colors", "chartreuse")
-}
-
-pub fn chocolate() -> #(String, String) {
-  #("-moz-border-bottom-colors", "chocolate")
-}
-
-pub fn coral() -> #(String, String) {
-  #("-moz-border-bottom-colors", "coral")
-}
-
-pub fn cornflowerblue() -> #(String, String) {
-  #("-moz-border-bottom-colors", "cornflowerblue")
-}
-
-pub fn cornsilk() -> #(String, String) {
-  #("-moz-border-bottom-colors", "cornsilk")
-}
-
-pub fn crimson() -> #(String, String) {
-  #("-moz-border-bottom-colors", "crimson")
-}
-
-pub fn cyan() -> #(String, String) {
-  #("-moz-border-bottom-colors", "cyan")
-}
-
-pub fn darkblue() -> #(String, String) {
-  #("-moz-border-bottom-colors", "darkblue")
-}
-
-pub fn darkcyan() -> #(String, String) {
-  #("-moz-border-bottom-colors", "darkcyan")
-}
-
-pub fn darkgoldenrod() -> #(String, String) {
-  #("-moz-border-bottom-colors", "darkgoldenrod")
-}
-
-pub fn darkgray() -> #(String, String) {
-  #("-moz-border-bottom-colors", "darkgray")
-}
-
-pub fn darkgreen() -> #(String, String) {
-  #("-moz-border-bottom-colors", "darkgreen")
-}
-
-pub fn darkgrey() -> #(String, String) {
-  #("-moz-border-bottom-colors", "darkgrey")
-}
-
-pub fn darkkhaki() -> #(String, String) {
-  #("-moz-border-bottom-colors", "darkkhaki")
-}
-
-pub fn darkmagenta() -> #(String, String) {
-  #("-moz-border-bottom-colors", "darkmagenta")
-}
-
-pub fn darkolivegreen() -> #(String, String) {
-  #("-moz-border-bottom-colors", "darkolivegreen")
-}
-
-pub fn darkorange() -> #(String, String) {
-  #("-moz-border-bottom-colors", "darkorange")
-}
-
-pub fn darkorchid() -> #(String, String) {
-  #("-moz-border-bottom-colors", "darkorchid")
-}
-
-pub fn darkred() -> #(String, String) {
-  #("-moz-border-bottom-colors", "darkred")
-}
-
-pub fn darksalmon() -> #(String, String) {
-  #("-moz-border-bottom-colors", "darksalmon")
-}
-
-pub fn darkseagreen() -> #(String, String) {
-  #("-moz-border-bottom-colors", "darkseagreen")
-}
-
-pub fn darkslateblue() -> #(String, String) {
-  #("-moz-border-bottom-colors", "darkslateblue")
-}
-
-pub fn darkslategray() -> #(String, String) {
-  #("-moz-border-bottom-colors", "darkslategray")
-}
-
-pub fn darkslategrey() -> #(String, String) {
-  #("-moz-border-bottom-colors", "darkslategrey")
-}
-
-pub fn darkturquoise() -> #(String, String) {
-  #("-moz-border-bottom-colors", "darkturquoise")
-}
-
-pub fn darkviolet() -> #(String, String) {
-  #("-moz-border-bottom-colors", "darkviolet")
-}
-
-pub fn deeppink() -> #(String, String) {
-  #("-moz-border-bottom-colors", "deeppink")
-}
-
-pub fn deepskyblue() -> #(String, String) {
-  #("-moz-border-bottom-colors", "deepskyblue")
-}
-
-pub fn dimgray() -> #(String, String) {
-  #("-moz-border-bottom-colors", "dimgray")
-}
-
-pub fn dimgrey() -> #(String, String) {
-  #("-moz-border-bottom-colors", "dimgrey")
-}
-
-pub fn dodgerblue() -> #(String, String) {
-  #("-moz-border-bottom-colors", "dodgerblue")
-}
-
-pub fn firebrick() -> #(String, String) {
-  #("-moz-border-bottom-colors", "firebrick")
-}
-
-pub fn floralwhite() -> #(String, String) {
-  #("-moz-border-bottom-colors", "floralwhite")
-}
-
-pub fn forestgreen() -> #(String, String) {
-  #("-moz-border-bottom-colors", "forestgreen")
-}
-
-pub fn fuchsia() -> #(String, String) {
-  #("-moz-border-bottom-colors", "fuchsia")
-}
-
-pub fn gainsboro() -> #(String, String) {
-  #("-moz-border-bottom-colors", "gainsboro")
-}
-
-pub fn ghostwhite() -> #(String, String) {
-  #("-moz-border-bottom-colors", "ghostwhite")
-}
-
-pub fn gold() -> #(String, String) {
-  #("-moz-border-bottom-colors", "gold")
-}
-
-pub fn goldenrod() -> #(String, String) {
-  #("-moz-border-bottom-colors", "goldenrod")
-}
-
-pub fn gray() -> #(String, String) {
-  #("-moz-border-bottom-colors", "gray")
-}
-
-pub fn green() -> #(String, String) {
-  #("-moz-border-bottom-colors", "green")
-}
-
-pub fn greenyellow() -> #(String, String) {
-  #("-moz-border-bottom-colors", "greenyellow")
-}
-
-pub fn grey() -> #(String, String) {
-  #("-moz-border-bottom-colors", "grey")
-}
-
-pub fn honeydew() -> #(String, String) {
-  #("-moz-border-bottom-colors", "honeydew")
-}
-
-pub fn hotpink() -> #(String, String) {
-  #("-moz-border-bottom-colors", "hotpink")
-}
-
-pub fn indianred() -> #(String, String) {
-  #("-moz-border-bottom-colors", "indianred")
-}
-
-pub fn indigo() -> #(String, String) {
-  #("-moz-border-bottom-colors", "indigo")
-}
-
-pub fn ivory() -> #(String, String) {
-  #("-moz-border-bottom-colors", "ivory")
-}
-
-pub fn khaki() -> #(String, String) {
-  #("-moz-border-bottom-colors", "khaki")
-}
-
-pub fn lavender() -> #(String, String) {
-  #("-moz-border-bottom-colors", "lavender")
-}
-
-pub fn lavenderblush() -> #(String, String) {
-  #("-moz-border-bottom-colors", "lavenderblush")
-}
-
-pub fn lawngreen() -> #(String, String) {
-  #("-moz-border-bottom-colors", "lawngreen")
-}
-
-pub fn lemonchiffon() -> #(String, String) {
-  #("-moz-border-bottom-colors", "lemonchiffon")
-}
-
-pub fn lightblue() -> #(String, String) {
-  #("-moz-border-bottom-colors", "lightblue")
-}
-
-pub fn lightcoral() -> #(String, String) {
-  #("-moz-border-bottom-colors", "lightcoral")
-}
-
-pub fn lightcyan() -> #(String, String) {
-  #("-moz-border-bottom-colors", "lightcyan")
-}
-
-pub fn lightgoldenrodyellow() -> #(String, String) {
-  #("-moz-border-bottom-colors", "lightgoldenrodyellow")
-}
-
-pub fn lightgray() -> #(String, String) {
-  #("-moz-border-bottom-colors", "lightgray")
-}
-
-pub fn lightgreen() -> #(String, String) {
-  #("-moz-border-bottom-colors", "lightgreen")
-}
-
-pub fn lightgrey() -> #(String, String) {
-  #("-moz-border-bottom-colors", "lightgrey")
-}
-
-pub fn lightpink() -> #(String, String) {
-  #("-moz-border-bottom-colors", "lightpink")
-}
-
-pub fn lightsalmon() -> #(String, String) {
-  #("-moz-border-bottom-colors", "lightsalmon")
-}
-
-pub fn lightseagreen() -> #(String, String) {
-  #("-moz-border-bottom-colors", "lightseagreen")
-}
-
-pub fn lightskyblue() -> #(String, String) {
-  #("-moz-border-bottom-colors", "lightskyblue")
-}
-
-pub fn lightslategray() -> #(String, String) {
-  #("-moz-border-bottom-colors", "lightslategray")
-}
-
-pub fn lightslategrey() -> #(String, String) {
-  #("-moz-border-bottom-colors", "lightslategrey")
-}
-
-pub fn lightsteelblue() -> #(String, String) {
-  #("-moz-border-bottom-colors", "lightsteelblue")
-}
-
-pub fn lightyellow() -> #(String, String) {
-  #("-moz-border-bottom-colors", "lightyellow")
-}
-
-pub fn lime() -> #(String, String) {
-  #("-moz-border-bottom-colors", "lime")
-}
-
-pub fn limegreen() -> #(String, String) {
-  #("-moz-border-bottom-colors", "limegreen")
-}
-
-pub fn linen() -> #(String, String) {
-  #("-moz-border-bottom-colors", "linen")
-}
-
-pub fn magenta() -> #(String, String) {
-  #("-moz-border-bottom-colors", "magenta")
-}
-
-pub fn maroon() -> #(String, String) {
-  #("-moz-border-bottom-colors", "maroon")
-}
-
-pub fn mediumaquamarine() -> #(String, String) {
-  #("-moz-border-bottom-colors", "mediumaquamarine")
-}
-
-pub fn mediumblue() -> #(String, String) {
-  #("-moz-border-bottom-colors", "mediumblue")
-}
-
-pub fn mediumorchid() -> #(String, String) {
-  #("-moz-border-bottom-colors", "mediumorchid")
-}
-
-pub fn mediumpurple() -> #(String, String) {
-  #("-moz-border-bottom-colors", "mediumpurple")
-}
-
-pub fn mediumseagreen() -> #(String, String) {
-  #("-moz-border-bottom-colors", "mediumseagreen")
-}
-
-pub fn mediumslateblue() -> #(String, String) {
-  #("-moz-border-bottom-colors", "mediumslateblue")
-}
-
-pub fn mediumspringgreen() -> #(String, String) {
-  #("-moz-border-bottom-colors", "mediumspringgreen")
-}
-
-pub fn mediumturquoise() -> #(String, String) {
-  #("-moz-border-bottom-colors", "mediumturquoise")
-}
-
-pub fn mediumvioletred() -> #(String, String) {
-  #("-moz-border-bottom-colors", "mediumvioletred")
-}
-
-pub fn midnightblue() -> #(String, String) {
-  #("-moz-border-bottom-colors", "midnightblue")
-}
-
-pub fn mintcream() -> #(String, String) {
-  #("-moz-border-bottom-colors", "mintcream")
-}
-
-pub fn mistyrose() -> #(String, String) {
-  #("-moz-border-bottom-colors", "mistyrose")
-}
-
-pub fn moccasin() -> #(String, String) {
-  #("-moz-border-bottom-colors", "moccasin")
-}
-
-pub fn navajowhite() -> #(String, String) {
-  #("-moz-border-bottom-colors", "navajowhite")
-}
-
-pub fn navy() -> #(String, String) {
-  #("-moz-border-bottom-colors", "navy")
-}
-
-pub fn oldlace() -> #(String, String) {
-  #("-moz-border-bottom-colors", "oldlace")
-}
-
-pub fn olive() -> #(String, String) {
-  #("-moz-border-bottom-colors", "olive")
-}
-
-pub fn olivedrab() -> #(String, String) {
-  #("-moz-border-bottom-colors", "olivedrab")
-}
-
-pub fn orange() -> #(String, String) {
-  #("-moz-border-bottom-colors", "orange")
-}
-
-pub fn orangered() -> #(String, String) {
-  #("-moz-border-bottom-colors", "orangered")
-}
-
-pub fn orchid() -> #(String, String) {
-  #("-moz-border-bottom-colors", "orchid")
-}
-
-pub fn palegoldenrod() -> #(String, String) {
-  #("-moz-border-bottom-colors", "palegoldenrod")
-}
-
-pub fn palegreen() -> #(String, String) {
-  #("-moz-border-bottom-colors", "palegreen")
-}
-
-pub fn paleturquoise() -> #(String, String) {
-  #("-moz-border-bottom-colors", "paleturquoise")
-}
-
-pub fn palevioletred() -> #(String, String) {
-  #("-moz-border-bottom-colors", "palevioletred")
-}
-
-pub fn papayawhip() -> #(String, String) {
-  #("-moz-border-bottom-colors", "papayawhip")
-}
-
-pub fn peachpuff() -> #(String, String) {
-  #("-moz-border-bottom-colors", "peachpuff")
-}
-
-pub fn peru() -> #(String, String) {
-  #("-moz-border-bottom-colors", "peru")
-}
-
-pub fn pink() -> #(String, String) {
-  #("-moz-border-bottom-colors", "pink")
-}
-
-pub fn plum() -> #(String, String) {
-  #("-moz-border-bottom-colors", "plum")
-}
-
-pub fn powderblue() -> #(String, String) {
-  #("-moz-border-bottom-colors", "powderblue")
-}
-
-pub fn purple() -> #(String, String) {
-  #("-moz-border-bottom-colors", "purple")
-}
-
-pub fn rebeccapurple() -> #(String, String) {
-  #("-moz-border-bottom-colors", "rebeccapurple")
-}
-
-pub fn red() -> #(String, String) {
-  #("-moz-border-bottom-colors", "red")
-}
-
-pub fn rosybrown() -> #(String, String) {
-  #("-moz-border-bottom-colors", "rosybrown")
-}
-
-pub fn royalblue() -> #(String, String) {
-  #("-moz-border-bottom-colors", "royalblue")
-}
-
-pub fn saddlebrown() -> #(String, String) {
-  #("-moz-border-bottom-colors", "saddlebrown")
-}
-
-pub fn salmon() -> #(String, String) {
-  #("-moz-border-bottom-colors", "salmon")
-}
-
-pub fn sandybrown() -> #(String, String) {
-  #("-moz-border-bottom-colors", "sandybrown")
-}
-
-pub fn seagreen() -> #(String, String) {
-  #("-moz-border-bottom-colors", "seagreen")
-}
-
-pub fn seashell() -> #(String, String) {
-  #("-moz-border-bottom-colors", "seashell")
-}
-
-pub fn sienna() -> #(String, String) {
-  #("-moz-border-bottom-colors", "sienna")
-}
-
-pub fn silver() -> #(String, String) {
-  #("-moz-border-bottom-colors", "silver")
-}
-
-pub fn skyblue() -> #(String, String) {
-  #("-moz-border-bottom-colors", "skyblue")
-}
-
-pub fn slateblue() -> #(String, String) {
-  #("-moz-border-bottom-colors", "slateblue")
-}
-
-pub fn slategray() -> #(String, String) {
-  #("-moz-border-bottom-colors", "slategray")
-}
-
-pub fn slategrey() -> #(String, String) {
-  #("-moz-border-bottom-colors", "slategrey")
-}
-
-pub fn snow() -> #(String, String) {
-  #("-moz-border-bottom-colors", "snow")
-}
-
-pub fn springgreen() -> #(String, String) {
-  #("-moz-border-bottom-colors", "springgreen")
-}
-
-pub fn steelblue() -> #(String, String) {
-  #("-moz-border-bottom-colors", "steelblue")
-}
-
-pub fn tan() -> #(String, String) {
-  #("-moz-border-bottom-colors", "tan")
-}
-
-pub fn teal() -> #(String, String) {
-  #("-moz-border-bottom-colors", "teal")
-}
-
-pub fn thistle() -> #(String, String) {
-  #("-moz-border-bottom-colors", "thistle")
-}
-
-pub fn tomato() -> #(String, String) {
-  #("-moz-border-bottom-colors", "tomato")
-}
-
-pub fn turquoise() -> #(String, String) {
-  #("-moz-border-bottom-colors", "turquoise")
-}
-
-pub fn violet() -> #(String, String) {
-  #("-moz-border-bottom-colors", "violet")
-}
-
-pub fn wheat() -> #(String, String) {
-  #("-moz-border-bottom-colors", "wheat")
-}
-
-pub fn white() -> #(String, String) {
-  #("-moz-border-bottom-colors", "white")
-}
-
-pub fn whitesmoke() -> #(String, String) {
-  #("-moz-border-bottom-colors", "whitesmoke")
-}
-
-pub fn yellow() -> #(String, String) {
-  #("-moz-border-bottom-colors", "yellow")
-}
-
-pub fn yellowgreen() -> #(String, String) {
-  #("-moz-border-bottom-colors", "yellowgreen")
-}
-
-pub fn in() -> #(String, String) {
-  #("-moz-border-bottom-colors", "in")
-}
-
-pub fn lab() -> #(String, String) {
-  #("-moz-border-bottom-colors", "lab")
-}
-
-pub fn oklab() -> #(String, String) {
-  #("-moz-border-bottom-colors", "oklab")
-}
-
-pub fn hsl() -> #(String, String) {
-  #("-moz-border-bottom-colors", "hsl")
-}
-
-pub fn hwb() -> #(String, String) {
-  #("-moz-border-bottom-colors", "hwb")
-}
-
-pub fn lch() -> #(String, String) {
-  #("-moz-border-bottom-colors", "lch")
-}
-
-pub fn oklch() -> #(String, String) {
-  #("-moz-border-bottom-colors", "oklch")
-}
-
-pub fn shorter() -> #(String, String) {
-  #("-moz-border-bottom-colors", "shorter")
-}
-
-pub fn longer() -> #(String, String) {
-  #("-moz-border-bottom-colors", "longer")
-}
-
-pub fn increasing() -> #(String, String) {
-  #("-moz-border-bottom-colors", "increasing")
-}
-
-pub fn decreasing() -> #(String, String) {
-  #("-moz-border-bottom-colors", "decreasing")
-}
-
-pub fn hue() -> #(String, String) {
-  #("-moz-border-bottom-colors", "hue")
-}
-
-pub fn current_color() -> #(String, String) {
-  #("-moz-border-bottom-colors", "currentColor")
-}
-
-pub fn accent_color() -> #(String, String) {
-  #("-moz-border-bottom-colors", "AccentColor")
-}
-
-pub fn accent_color_text() -> #(String, String) {
-  #("-moz-border-bottom-colors", "AccentColorText")
-}
-
-pub fn active_text() -> #(String, String) {
-  #("-moz-border-bottom-colors", "ActiveText")
-}
-
-pub fn button_border() -> #(String, String) {
-  #("-moz-border-bottom-colors", "ButtonBorder")
-}
-
-pub fn button_face() -> #(String, String) {
-  #("-moz-border-bottom-colors", "ButtonFace")
-}
-
-pub fn button_text() -> #(String, String) {
-  #("-moz-border-bottom-colors", "ButtonText")
-}
-
-pub fn canvas() -> #(String, String) {
-  #("-moz-border-bottom-colors", "Canvas")
-}
-
-pub fn canvas_text() -> #(String, String) {
-  #("-moz-border-bottom-colors", "CanvasText")
-}
-
-pub fn field() -> #(String, String) {
-  #("-moz-border-bottom-colors", "Field")
-}
-
-pub fn field_text() -> #(String, String) {
-  #("-moz-border-bottom-colors", "FieldText")
-}
-
-pub fn gray_text() -> #(String, String) {
-  #("-moz-border-bottom-colors", "GrayText")
-}
-
-pub fn highlight() -> #(String, String) {
-  #("-moz-border-bottom-colors", "Highlight")
-}
-
-pub fn highlight_text() -> #(String, String) {
-  #("-moz-border-bottom-colors", "HighlightText")
-}
-
-pub fn link_text() -> #(String, String) {
-  #("-moz-border-bottom-colors", "LinkText")
-}
-
-pub fn mark() -> #(String, String) {
-  #("-moz-border-bottom-colors", "Mark")
-}
-
-pub fn mark_text() -> #(String, String) {
-  #("-moz-border-bottom-colors", "MarkText")
-}
-
-pub fn selected_item() -> #(String, String) {
-  #("-moz-border-bottom-colors", "SelectedItem")
-}
-
-pub fn selected_item_text() -> #(String, String) {
-  #("-moz-border-bottom-colors", "SelectedItemText")
-}
-
-pub fn visited_text() -> #(String, String) {
-  #("-moz-border-bottom-colors", "VisitedText")
-}
-
-pub fn moz_button_default() -> #(String, String) {
-  #("-moz-border-bottom-colors", "-moz-ButtonDefault")
-}
-
-pub fn moz_button_hover_face() -> #(String, String) {
-  #("-moz-border-bottom-colors", "-moz-ButtonHoverFace")
-}
-
-pub fn moz_button_hover_text() -> #(String, String) {
-  #("-moz-border-bottom-colors", "-moz-ButtonHoverText")
-}
-
-pub fn moz_cell_highlight() -> #(String, String) {
-  #("-moz-border-bottom-colors", "-moz-CellHighlight")
-}
-
-pub fn moz_cell_highlight_text() -> #(String, String) {
-  #("-moz-border-bottom-colors", "-moz-CellHighlightText")
-}
-
-pub fn moz_combobox() -> #(String, String) {
-  #("-moz-border-bottom-colors", "-moz-Combobox")
-}
-
-pub fn moz_combobox_text() -> #(String, String) {
-  #("-moz-border-bottom-colors", "-moz-ComboboxText")
-}
-
-pub fn moz_dialog() -> #(String, String) {
-  #("-moz-border-bottom-colors", "-moz-Dialog")
-}
-
-pub fn moz_dialog_text() -> #(String, String) {
-  #("-moz-border-bottom-colors", "-moz-DialogText")
-}
-
-pub fn moz_dragtargetzone() -> #(String, String) {
-  #("-moz-border-bottom-colors", "-moz-dragtargetzone")
-}
-
-pub fn moz_even_tree_row() -> #(String, String) {
-  #("-moz-border-bottom-colors", "-moz-EvenTreeRow")
-}
-
-pub fn moz_field() -> #(String, String) {
-  #("-moz-border-bottom-colors", "-moz-Field")
-}
-
-pub fn moz_field_text() -> #(String, String) {
-  #("-moz-border-bottom-colors", "-moz-FieldText")
-}
-
-pub fn moz_html_cell_highlight() -> #(String, String) {
-  #("-moz-border-bottom-colors", "-moz-html-CellHighlight")
-}
-
-pub fn moz_html_cell_highlight_text() -> #(String, String) {
-  #("-moz-border-bottom-colors", "-moz-html-CellHighlightText")
-}
-
-pub fn moz_mac_accentdarkestshadow() -> #(String, String) {
-  #("-moz-border-bottom-colors", "-moz-mac-accentdarkestshadow")
-}
-
-pub fn moz_mac_accentdarkshadow() -> #(String, String) {
-  #("-moz-border-bottom-colors", "-moz-mac-accentdarkshadow")
-}
-
-pub fn moz_mac_accentface() -> #(String, String) {
-  #("-moz-border-bottom-colors", "-moz-mac-accentface")
-}
-
-pub fn moz_mac_accentlightesthighlight() -> #(String, String) {
-  #("-moz-border-bottom-colors", "-moz-mac-accentlightesthighlight")
-}
-
-pub fn moz_mac_accentlightshadow() -> #(String, String) {
-  #("-moz-border-bottom-colors", "-moz-mac-accentlightshadow")
-}
-
-pub fn moz_mac_accentregularhighlight() -> #(String, String) {
-  #("-moz-border-bottom-colors", "-moz-mac-accentregularhighlight")
-}
-
-pub fn moz_mac_accentregularshadow() -> #(String, String) {
-  #("-moz-border-bottom-colors", "-moz-mac-accentregularshadow")
-}
-
-pub fn moz_mac_chrome_active() -> #(String, String) {
-  #("-moz-border-bottom-colors", "-moz-mac-chrome-active")
-}
-
-pub fn moz_mac_chrome_inactive() -> #(String, String) {
-  #("-moz-border-bottom-colors", "-moz-mac-chrome-inactive")
-}
-
-pub fn moz_mac_focusring() -> #(String, String) {
-  #("-moz-border-bottom-colors", "-moz-mac-focusring")
-}
-
-pub fn moz_mac_menuselect() -> #(String, String) {
-  #("-moz-border-bottom-colors", "-moz-mac-menuselect")
-}
-
-pub fn moz_mac_menushadow() -> #(String, String) {
-  #("-moz-border-bottom-colors", "-moz-mac-menushadow")
-}
-
-pub fn moz_mac_menutextselect() -> #(String, String) {
-  #("-moz-border-bottom-colors", "-moz-mac-menutextselect")
-}
-
-pub fn moz_menu_hover() -> #(String, String) {
-  #("-moz-border-bottom-colors", "-moz-MenuHover")
-}
-
-pub fn moz_menu_hover_text() -> #(String, String) {
-  #("-moz-border-bottom-colors", "-moz-MenuHoverText")
-}
-
-pub fn moz_menu_bar_text() -> #(String, String) {
-  #("-moz-border-bottom-colors", "-moz-MenuBarText")
-}
-
-pub fn moz_menu_bar_hover_text() -> #(String, String) {
-  #("-moz-border-bottom-colors", "-moz-MenuBarHoverText")
-}
-
-pub fn moz_nativehyperlinktext() -> #(String, String) {
-  #("-moz-border-bottom-colors", "-moz-nativehyperlinktext")
-}
-
-pub fn moz_odd_tree_row() -> #(String, String) {
-  #("-moz-border-bottom-colors", "-moz-OddTreeRow")
-}
-
-pub fn moz_win_communicationstext() -> #(String, String) {
-  #("-moz-border-bottom-colors", "-moz-win-communicationstext")
-}
-
-pub fn moz_win_mediatext() -> #(String, String) {
-  #("-moz-border-bottom-colors", "-moz-win-mediatext")
-}
-
-pub fn moz_activehyperlinktext() -> #(String, String) {
-  #("-moz-border-bottom-colors", "-moz-activehyperlinktext")
-}
-
-pub fn moz_default_background_color() -> #(String, String) {
-  #("-moz-border-bottom-colors", "-moz-default-background-color")
-}
-
-pub fn moz_default_color() -> #(String, String) {
-  #("-moz-border-bottom-colors", "-moz-default-color")
-}
-
-pub fn moz_hyperlinktext() -> #(String, String) {
-  #("-moz-border-bottom-colors", "-moz-hyperlinktext")
-}
-
-pub fn moz_visitedhyperlinktext() -> #(String, String) {
-  #("-moz-border-bottom-colors", "-moz-visitedhyperlinktext")
-}
-
-pub fn webkit_activelink() -> #(String, String) {
-  #("-moz-border-bottom-colors", "-webkit-activelink")
-}
-
-pub fn webkit_focus_ring_color() -> #(String, String) {
-  #("-moz-border-bottom-colors", "-webkit-focus-ring-color")
-}
-
-pub fn webkit_link() -> #(String, String) {
-  #("-moz-border-bottom-colors", "-webkit-link")
-}
-
-pub fn webkit_text() -> #(String, String) {
-  #("-moz-border-bottom-colors", "-webkit-text")
-}
+pub const none = #("-moz-border-bottom-colors", "none")
+
+pub const srgb = #("-moz-border-bottom-colors", "srgb")
+
+pub const srgb_linear = #("-moz-border-bottom-colors", "srgb-linear")
+
+pub const display_p3 = #("-moz-border-bottom-colors", "display-p3")
+
+pub const a98_rgb = #("-moz-border-bottom-colors", "a98-rgb")
+
+pub const prophoto_rgb = #("-moz-border-bottom-colors", "prophoto-rgb")
+
+pub const rec2020 = #("-moz-border-bottom-colors", "rec2020")
+
+pub const xyz = #("-moz-border-bottom-colors", "xyz")
+
+pub const xyz_d50 = #("-moz-border-bottom-colors", "xyz-d50")
+
+pub const xyz_d65 = #("-moz-border-bottom-colors", "xyz-d65")
+
+pub const transparent = #("-moz-border-bottom-colors", "transparent")
+
+pub const aliceblue = #("-moz-border-bottom-colors", "aliceblue")
+
+pub const antiquewhite = #("-moz-border-bottom-colors", "antiquewhite")
+
+pub const aqua = #("-moz-border-bottom-colors", "aqua")
+
+pub const aquamarine = #("-moz-border-bottom-colors", "aquamarine")
+
+pub const azure = #("-moz-border-bottom-colors", "azure")
+
+pub const beige = #("-moz-border-bottom-colors", "beige")
+
+pub const bisque = #("-moz-border-bottom-colors", "bisque")
+
+pub const black = #("-moz-border-bottom-colors", "black")
+
+pub const blanchedalmond = #("-moz-border-bottom-colors", "blanchedalmond")
+
+pub const blue = #("-moz-border-bottom-colors", "blue")
+
+pub const blueviolet = #("-moz-border-bottom-colors", "blueviolet")
+
+pub const brown = #("-moz-border-bottom-colors", "brown")
+
+pub const burlywood = #("-moz-border-bottom-colors", "burlywood")
+
+pub const cadetblue = #("-moz-border-bottom-colors", "cadetblue")
+
+pub const chartreuse = #("-moz-border-bottom-colors", "chartreuse")
+
+pub const chocolate = #("-moz-border-bottom-colors", "chocolate")
+
+pub const coral = #("-moz-border-bottom-colors", "coral")
+
+pub const cornflowerblue = #("-moz-border-bottom-colors", "cornflowerblue")
+
+pub const cornsilk = #("-moz-border-bottom-colors", "cornsilk")
+
+pub const crimson = #("-moz-border-bottom-colors", "crimson")
+
+pub const cyan = #("-moz-border-bottom-colors", "cyan")
+
+pub const darkblue = #("-moz-border-bottom-colors", "darkblue")
+
+pub const darkcyan = #("-moz-border-bottom-colors", "darkcyan")
+
+pub const darkgoldenrod = #("-moz-border-bottom-colors", "darkgoldenrod")
+
+pub const darkgray = #("-moz-border-bottom-colors", "darkgray")
+
+pub const darkgreen = #("-moz-border-bottom-colors", "darkgreen")
+
+pub const darkgrey = #("-moz-border-bottom-colors", "darkgrey")
+
+pub const darkkhaki = #("-moz-border-bottom-colors", "darkkhaki")
+
+pub const darkmagenta = #("-moz-border-bottom-colors", "darkmagenta")
+
+pub const darkolivegreen = #("-moz-border-bottom-colors", "darkolivegreen")
+
+pub const darkorange = #("-moz-border-bottom-colors", "darkorange")
+
+pub const darkorchid = #("-moz-border-bottom-colors", "darkorchid")
+
+pub const darkred = #("-moz-border-bottom-colors", "darkred")
+
+pub const darksalmon = #("-moz-border-bottom-colors", "darksalmon")
+
+pub const darkseagreen = #("-moz-border-bottom-colors", "darkseagreen")
+
+pub const darkslateblue = #("-moz-border-bottom-colors", "darkslateblue")
+
+pub const darkslategray = #("-moz-border-bottom-colors", "darkslategray")
+
+pub const darkslategrey = #("-moz-border-bottom-colors", "darkslategrey")
+
+pub const darkturquoise = #("-moz-border-bottom-colors", "darkturquoise")
+
+pub const darkviolet = #("-moz-border-bottom-colors", "darkviolet")
+
+pub const deeppink = #("-moz-border-bottom-colors", "deeppink")
+
+pub const deepskyblue = #("-moz-border-bottom-colors", "deepskyblue")
+
+pub const dimgray = #("-moz-border-bottom-colors", "dimgray")
+
+pub const dimgrey = #("-moz-border-bottom-colors", "dimgrey")
+
+pub const dodgerblue = #("-moz-border-bottom-colors", "dodgerblue")
+
+pub const firebrick = #("-moz-border-bottom-colors", "firebrick")
+
+pub const floralwhite = #("-moz-border-bottom-colors", "floralwhite")
+
+pub const forestgreen = #("-moz-border-bottom-colors", "forestgreen")
+
+pub const fuchsia = #("-moz-border-bottom-colors", "fuchsia")
+
+pub const gainsboro = #("-moz-border-bottom-colors", "gainsboro")
+
+pub const ghostwhite = #("-moz-border-bottom-colors", "ghostwhite")
+
+pub const gold = #("-moz-border-bottom-colors", "gold")
+
+pub const goldenrod = #("-moz-border-bottom-colors", "goldenrod")
+
+pub const gray = #("-moz-border-bottom-colors", "gray")
+
+pub const green = #("-moz-border-bottom-colors", "green")
+
+pub const greenyellow = #("-moz-border-bottom-colors", "greenyellow")
+
+pub const grey = #("-moz-border-bottom-colors", "grey")
+
+pub const honeydew = #("-moz-border-bottom-colors", "honeydew")
+
+pub const hotpink = #("-moz-border-bottom-colors", "hotpink")
+
+pub const indianred = #("-moz-border-bottom-colors", "indianred")
+
+pub const indigo = #("-moz-border-bottom-colors", "indigo")
+
+pub const ivory = #("-moz-border-bottom-colors", "ivory")
+
+pub const khaki = #("-moz-border-bottom-colors", "khaki")
+
+pub const lavender = #("-moz-border-bottom-colors", "lavender")
+
+pub const lavenderblush = #("-moz-border-bottom-colors", "lavenderblush")
+
+pub const lawngreen = #("-moz-border-bottom-colors", "lawngreen")
+
+pub const lemonchiffon = #("-moz-border-bottom-colors", "lemonchiffon")
+
+pub const lightblue = #("-moz-border-bottom-colors", "lightblue")
+
+pub const lightcoral = #("-moz-border-bottom-colors", "lightcoral")
+
+pub const lightcyan = #("-moz-border-bottom-colors", "lightcyan")
+
+pub const lightgoldenrodyellow = #("-moz-border-bottom-colors", "lightgoldenrodyellow")
+
+pub const lightgray = #("-moz-border-bottom-colors", "lightgray")
+
+pub const lightgreen = #("-moz-border-bottom-colors", "lightgreen")
+
+pub const lightgrey = #("-moz-border-bottom-colors", "lightgrey")
+
+pub const lightpink = #("-moz-border-bottom-colors", "lightpink")
+
+pub const lightsalmon = #("-moz-border-bottom-colors", "lightsalmon")
+
+pub const lightseagreen = #("-moz-border-bottom-colors", "lightseagreen")
+
+pub const lightskyblue = #("-moz-border-bottom-colors", "lightskyblue")
+
+pub const lightslategray = #("-moz-border-bottom-colors", "lightslategray")
+
+pub const lightslategrey = #("-moz-border-bottom-colors", "lightslategrey")
+
+pub const lightsteelblue = #("-moz-border-bottom-colors", "lightsteelblue")
+
+pub const lightyellow = #("-moz-border-bottom-colors", "lightyellow")
+
+pub const lime = #("-moz-border-bottom-colors", "lime")
+
+pub const limegreen = #("-moz-border-bottom-colors", "limegreen")
+
+pub const linen = #("-moz-border-bottom-colors", "linen")
+
+pub const magenta = #("-moz-border-bottom-colors", "magenta")
+
+pub const maroon = #("-moz-border-bottom-colors", "maroon")
+
+pub const mediumaquamarine = #("-moz-border-bottom-colors", "mediumaquamarine")
+
+pub const mediumblue = #("-moz-border-bottom-colors", "mediumblue")
+
+pub const mediumorchid = #("-moz-border-bottom-colors", "mediumorchid")
+
+pub const mediumpurple = #("-moz-border-bottom-colors", "mediumpurple")
+
+pub const mediumseagreen = #("-moz-border-bottom-colors", "mediumseagreen")
+
+pub const mediumslateblue = #("-moz-border-bottom-colors", "mediumslateblue")
+
+pub const mediumspringgreen = #("-moz-border-bottom-colors", "mediumspringgreen")
+
+pub const mediumturquoise = #("-moz-border-bottom-colors", "mediumturquoise")
+
+pub const mediumvioletred = #("-moz-border-bottom-colors", "mediumvioletred")
+
+pub const midnightblue = #("-moz-border-bottom-colors", "midnightblue")
+
+pub const mintcream = #("-moz-border-bottom-colors", "mintcream")
+
+pub const mistyrose = #("-moz-border-bottom-colors", "mistyrose")
+
+pub const moccasin = #("-moz-border-bottom-colors", "moccasin")
+
+pub const navajowhite = #("-moz-border-bottom-colors", "navajowhite")
+
+pub const navy = #("-moz-border-bottom-colors", "navy")
+
+pub const oldlace = #("-moz-border-bottom-colors", "oldlace")
+
+pub const olive = #("-moz-border-bottom-colors", "olive")
+
+pub const olivedrab = #("-moz-border-bottom-colors", "olivedrab")
+
+pub const orange = #("-moz-border-bottom-colors", "orange")
+
+pub const orangered = #("-moz-border-bottom-colors", "orangered")
+
+pub const orchid = #("-moz-border-bottom-colors", "orchid")
+
+pub const palegoldenrod = #("-moz-border-bottom-colors", "palegoldenrod")
+
+pub const palegreen = #("-moz-border-bottom-colors", "palegreen")
+
+pub const paleturquoise = #("-moz-border-bottom-colors", "paleturquoise")
+
+pub const palevioletred = #("-moz-border-bottom-colors", "palevioletred")
+
+pub const papayawhip = #("-moz-border-bottom-colors", "papayawhip")
+
+pub const peachpuff = #("-moz-border-bottom-colors", "peachpuff")
+
+pub const peru = #("-moz-border-bottom-colors", "peru")
+
+pub const pink = #("-moz-border-bottom-colors", "pink")
+
+pub const plum = #("-moz-border-bottom-colors", "plum")
+
+pub const powderblue = #("-moz-border-bottom-colors", "powderblue")
+
+pub const purple = #("-moz-border-bottom-colors", "purple")
+
+pub const rebeccapurple = #("-moz-border-bottom-colors", "rebeccapurple")
+
+pub const red = #("-moz-border-bottom-colors", "red")
+
+pub const rosybrown = #("-moz-border-bottom-colors", "rosybrown")
+
+pub const royalblue = #("-moz-border-bottom-colors", "royalblue")
+
+pub const saddlebrown = #("-moz-border-bottom-colors", "saddlebrown")
+
+pub const salmon = #("-moz-border-bottom-colors", "salmon")
+
+pub const sandybrown = #("-moz-border-bottom-colors", "sandybrown")
+
+pub const seagreen = #("-moz-border-bottom-colors", "seagreen")
+
+pub const seashell = #("-moz-border-bottom-colors", "seashell")
+
+pub const sienna = #("-moz-border-bottom-colors", "sienna")
+
+pub const silver = #("-moz-border-bottom-colors", "silver")
+
+pub const skyblue = #("-moz-border-bottom-colors", "skyblue")
+
+pub const slateblue = #("-moz-border-bottom-colors", "slateblue")
+
+pub const slategray = #("-moz-border-bottom-colors", "slategray")
+
+pub const slategrey = #("-moz-border-bottom-colors", "slategrey")
+
+pub const snow = #("-moz-border-bottom-colors", "snow")
+
+pub const springgreen = #("-moz-border-bottom-colors", "springgreen")
+
+pub const steelblue = #("-moz-border-bottom-colors", "steelblue")
+
+pub const tan = #("-moz-border-bottom-colors", "tan")
+
+pub const teal = #("-moz-border-bottom-colors", "teal")
+
+pub const thistle = #("-moz-border-bottom-colors", "thistle")
+
+pub const tomato = #("-moz-border-bottom-colors", "tomato")
+
+pub const turquoise = #("-moz-border-bottom-colors", "turquoise")
+
+pub const violet = #("-moz-border-bottom-colors", "violet")
+
+pub const wheat = #("-moz-border-bottom-colors", "wheat")
+
+pub const white = #("-moz-border-bottom-colors", "white")
+
+pub const whitesmoke = #("-moz-border-bottom-colors", "whitesmoke")
+
+pub const yellow = #("-moz-border-bottom-colors", "yellow")
+
+pub const yellowgreen = #("-moz-border-bottom-colors", "yellowgreen")
+
+pub const in = #("-moz-border-bottom-colors", "in")
+
+pub const lab = #("-moz-border-bottom-colors", "lab")
+
+pub const oklab = #("-moz-border-bottom-colors", "oklab")
+
+pub const hsl = #("-moz-border-bottom-colors", "hsl")
+
+pub const hwb = #("-moz-border-bottom-colors", "hwb")
+
+pub const lch = #("-moz-border-bottom-colors", "lch")
+
+pub const oklch = #("-moz-border-bottom-colors", "oklch")
+
+pub const shorter = #("-moz-border-bottom-colors", "shorter")
+
+pub const longer = #("-moz-border-bottom-colors", "longer")
+
+pub const increasing = #("-moz-border-bottom-colors", "increasing")
+
+pub const decreasing = #("-moz-border-bottom-colors", "decreasing")
+
+pub const hue = #("-moz-border-bottom-colors", "hue")
+
+pub const current_color = #("-moz-border-bottom-colors", "currentColor")
+
+pub const accent_color = #("-moz-border-bottom-colors", "AccentColor")
+
+pub const accent_color_text = #("-moz-border-bottom-colors", "AccentColorText")
+
+pub const active_text = #("-moz-border-bottom-colors", "ActiveText")
+
+pub const button_border = #("-moz-border-bottom-colors", "ButtonBorder")
+
+pub const button_face = #("-moz-border-bottom-colors", "ButtonFace")
+
+pub const button_text = #("-moz-border-bottom-colors", "ButtonText")
+
+pub const canvas = #("-moz-border-bottom-colors", "Canvas")
+
+pub const canvas_text = #("-moz-border-bottom-colors", "CanvasText")
+
+pub const field = #("-moz-border-bottom-colors", "Field")
+
+pub const field_text = #("-moz-border-bottom-colors", "FieldText")
+
+pub const gray_text = #("-moz-border-bottom-colors", "GrayText")
+
+pub const highlight = #("-moz-border-bottom-colors", "Highlight")
+
+pub const highlight_text = #("-moz-border-bottom-colors", "HighlightText")
+
+pub const link_text = #("-moz-border-bottom-colors", "LinkText")
+
+pub const mark = #("-moz-border-bottom-colors", "Mark")
+
+pub const mark_text = #("-moz-border-bottom-colors", "MarkText")
+
+pub const selected_item = #("-moz-border-bottom-colors", "SelectedItem")
+
+pub const selected_item_text = #("-moz-border-bottom-colors", "SelectedItemText")
+
+pub const visited_text = #("-moz-border-bottom-colors", "VisitedText")
+
+pub const moz_button_default = #("-moz-border-bottom-colors", "-moz-ButtonDefault")
+
+pub const moz_button_hover_face = #("-moz-border-bottom-colors", "-moz-ButtonHoverFace")
+
+pub const moz_button_hover_text = #("-moz-border-bottom-colors", "-moz-ButtonHoverText")
+
+pub const moz_cell_highlight = #("-moz-border-bottom-colors", "-moz-CellHighlight")
+
+pub const moz_cell_highlight_text = #("-moz-border-bottom-colors", "-moz-CellHighlightText")
+
+pub const moz_combobox = #("-moz-border-bottom-colors", "-moz-Combobox")
+
+pub const moz_combobox_text = #("-moz-border-bottom-colors", "-moz-ComboboxText")
+
+pub const moz_dialog = #("-moz-border-bottom-colors", "-moz-Dialog")
+
+pub const moz_dialog_text = #("-moz-border-bottom-colors", "-moz-DialogText")
+
+pub const moz_dragtargetzone = #("-moz-border-bottom-colors", "-moz-dragtargetzone")
+
+pub const moz_even_tree_row = #("-moz-border-bottom-colors", "-moz-EvenTreeRow")
+
+pub const moz_field = #("-moz-border-bottom-colors", "-moz-Field")
+
+pub const moz_field_text = #("-moz-border-bottom-colors", "-moz-FieldText")
+
+pub const moz_html_cell_highlight = #("-moz-border-bottom-colors", "-moz-html-CellHighlight")
+
+pub const moz_html_cell_highlight_text = #("-moz-border-bottom-colors", "-moz-html-CellHighlightText")
+
+pub const moz_mac_accentdarkestshadow = #("-moz-border-bottom-colors", "-moz-mac-accentdarkestshadow")
+
+pub const moz_mac_accentdarkshadow = #("-moz-border-bottom-colors", "-moz-mac-accentdarkshadow")
+
+pub const moz_mac_accentface = #("-moz-border-bottom-colors", "-moz-mac-accentface")
+
+pub const moz_mac_accentlightesthighlight = #("-moz-border-bottom-colors", "-moz-mac-accentlightesthighlight")
+
+pub const moz_mac_accentlightshadow = #("-moz-border-bottom-colors", "-moz-mac-accentlightshadow")
+
+pub const moz_mac_accentregularhighlight = #("-moz-border-bottom-colors", "-moz-mac-accentregularhighlight")
+
+pub const moz_mac_accentregularshadow = #("-moz-border-bottom-colors", "-moz-mac-accentregularshadow")
+
+pub const moz_mac_chrome_active = #("-moz-border-bottom-colors", "-moz-mac-chrome-active")
+
+pub const moz_mac_chrome_inactive = #("-moz-border-bottom-colors", "-moz-mac-chrome-inactive")
+
+pub const moz_mac_focusring = #("-moz-border-bottom-colors", "-moz-mac-focusring")
+
+pub const moz_mac_menuselect = #("-moz-border-bottom-colors", "-moz-mac-menuselect")
+
+pub const moz_mac_menushadow = #("-moz-border-bottom-colors", "-moz-mac-menushadow")
+
+pub const moz_mac_menutextselect = #("-moz-border-bottom-colors", "-moz-mac-menutextselect")
+
+pub const moz_menu_hover = #("-moz-border-bottom-colors", "-moz-MenuHover")
+
+pub const moz_menu_hover_text = #("-moz-border-bottom-colors", "-moz-MenuHoverText")
+
+pub const moz_menu_bar_text = #("-moz-border-bottom-colors", "-moz-MenuBarText")
+
+pub const moz_menu_bar_hover_text = #("-moz-border-bottom-colors", "-moz-MenuBarHoverText")
+
+pub const moz_nativehyperlinktext = #("-moz-border-bottom-colors", "-moz-nativehyperlinktext")
+
+pub const moz_odd_tree_row = #("-moz-border-bottom-colors", "-moz-OddTreeRow")
+
+pub const moz_win_communicationstext = #("-moz-border-bottom-colors", "-moz-win-communicationstext")
+
+pub const moz_win_mediatext = #("-moz-border-bottom-colors", "-moz-win-mediatext")
+
+pub const moz_activehyperlinktext = #("-moz-border-bottom-colors", "-moz-activehyperlinktext")
+
+pub const moz_default_background_color = #("-moz-border-bottom-colors", "-moz-default-background-color")
+
+pub const moz_default_color = #("-moz-border-bottom-colors", "-moz-default-color")
+
+pub const moz_hyperlinktext = #("-moz-border-bottom-colors", "-moz-hyperlinktext")
+
+pub const moz_visitedhyperlinktext = #("-moz-border-bottom-colors", "-moz-visitedhyperlinktext")
+
+pub const webkit_activelink = #("-moz-border-bottom-colors", "-webkit-activelink")
+
+pub const webkit_focus_ring_color = #("-moz-border-bottom-colors", "-webkit-focus-ring-color")
+
+pub const webkit_link = #("-moz-border-bottom-colors", "-webkit-link")
+
+pub const webkit_text = #("-moz-border-bottom-colors", "-webkit-text")
 
 pub fn raw(value: String) -> #(String, String) {
   #("moz_border_bottom_colors", value)

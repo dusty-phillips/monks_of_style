@@ -1,12 +1,8 @@
 
 
-pub fn collapse() -> #(String, String) {
-  #("border-collapse", "collapse")
-}
+pub const collapse = #("border-collapse", "collapse")
 
-pub fn separate() -> #(String, String) {
-  #("border-collapse", "separate")
-}
+pub const separate = #("border-collapse", "separate")
 
 pub fn raw(value: String) -> #(String, String) {
   #("border_collapse", value)

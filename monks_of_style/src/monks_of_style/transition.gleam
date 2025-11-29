@@ -1,72 +1,38 @@
 
 
-pub fn none() -> #(String, String) {
-  #("transition", "none")
-}
+pub const none = #("transition", "none")
 
-pub fn all() -> #(String, String) {
-  #("transition", "all")
-}
+pub const all = #("transition", "all")
 
-pub fn linear() -> #(String, String) {
-  #("transition", "linear")
-}
+pub const linear = #("transition", "linear")
 
-pub fn ease() -> #(String, String) {
-  #("transition", "ease")
-}
+pub const ease = #("transition", "ease")
 
-pub fn ease_in() -> #(String, String) {
-  #("transition", "ease-in")
-}
+pub const ease_in = #("transition", "ease-in")
 
-pub fn ease_out() -> #(String, String) {
-  #("transition", "ease-out")
-}
+pub const ease_out = #("transition", "ease-out")
 
-pub fn ease_in_out() -> #(String, String) {
-  #("transition", "ease-in-out")
-}
+pub const ease_in_out = #("transition", "ease-in-out")
 
-pub fn step_start() -> #(String, String) {
-  #("transition", "step-start")
-}
+pub const step_start = #("transition", "step-start")
 
-pub fn step_end() -> #(String, String) {
-  #("transition", "step-end")
-}
+pub const step_end = #("transition", "step-end")
 
-pub fn jump_start() -> #(String, String) {
-  #("transition", "jump-start")
-}
+pub const jump_start = #("transition", "jump-start")
 
-pub fn jump_end() -> #(String, String) {
-  #("transition", "jump-end")
-}
+pub const jump_end = #("transition", "jump-end")
 
-pub fn jump_none() -> #(String, String) {
-  #("transition", "jump-none")
-}
+pub const jump_none = #("transition", "jump-none")
 
-pub fn jump_both() -> #(String, String) {
-  #("transition", "jump-both")
-}
+pub const jump_both = #("transition", "jump-both")
 
-pub fn start() -> #(String, String) {
-  #("transition", "start")
-}
+pub const start = #("transition", "start")
 
-pub fn end() -> #(String, String) {
-  #("transition", "end")
-}
+pub const end = #("transition", "end")
 
-pub fn normal() -> #(String, String) {
-  #("transition", "normal")
-}
+pub const normal = #("transition", "normal")
 
-pub fn allow_discrete() -> #(String, String) {
-  #("transition", "allow-discrete")
-}
+pub const allow_discrete = #("transition", "allow-discrete")
 
 pub fn raw(value: String) -> #(String, String) {
   #("transition", value)

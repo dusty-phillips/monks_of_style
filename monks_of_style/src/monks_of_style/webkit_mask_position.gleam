@@ -1,24 +1,14 @@
 
 
-pub fn left() -> #(String, String) {
-  #("-webkit-mask-position", "left")
-}
+pub const left = #("-webkit-mask-position", "left")
 
-pub fn center() -> #(String, String) {
-  #("-webkit-mask-position", "center")
-}
+pub const center = #("-webkit-mask-position", "center")
 
-pub fn right() -> #(String, String) {
-  #("-webkit-mask-position", "right")
-}
+pub const right = #("-webkit-mask-position", "right")
 
-pub fn top() -> #(String, String) {
-  #("-webkit-mask-position", "top")
-}
+pub const top = #("-webkit-mask-position", "top")
 
-pub fn bottom() -> #(String, String) {
-  #("-webkit-mask-position", "bottom")
-}
+pub const bottom = #("-webkit-mask-position", "bottom")
 
 pub fn raw(value: String) -> #(String, String) {
   #("webkit_mask_position", value)

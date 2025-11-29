@@ -1,208 +1,106 @@
 
 
-pub fn none() -> #(String, String) {
-  #("position-area", "none")
-}
+pub const none = #("position-area", "none")
 
-pub fn left() -> #(String, String) {
-  #("position-area", "left")
-}
+pub const left = #("position-area", "left")
 
-pub fn center() -> #(String, String) {
-  #("position-area", "center")
-}
+pub const center = #("position-area", "center")
 
-pub fn right() -> #(String, String) {
-  #("position-area", "right")
-}
+pub const right = #("position-area", "right")
 
-pub fn span_left() -> #(String, String) {
-  #("position-area", "span-left")
-}
+pub const span_left = #("position-area", "span-left")
 
-pub fn span_right() -> #(String, String) {
-  #("position-area", "span-right")
-}
+pub const span_right = #("position-area", "span-right")
 
-pub fn x_start() -> #(String, String) {
-  #("position-area", "x-start")
-}
+pub const x_start = #("position-area", "x-start")
 
-pub fn x_end() -> #(String, String) {
-  #("position-area", "x-end")
-}
+pub const x_end = #("position-area", "x-end")
 
-pub fn span_x_start() -> #(String, String) {
-  #("position-area", "span-x-start")
-}
+pub const span_x_start = #("position-area", "span-x-start")
 
-pub fn span_x_end() -> #(String, String) {
-  #("position-area", "span-x-end")
-}
+pub const span_x_end = #("position-area", "span-x-end")
 
-pub fn x_self_start() -> #(String, String) {
-  #("position-area", "x-self-start")
-}
+pub const x_self_start = #("position-area", "x-self-start")
 
-pub fn x_self_end() -> #(String, String) {
-  #("position-area", "x-self-end")
-}
+pub const x_self_end = #("position-area", "x-self-end")
 
-pub fn span_x_self_start() -> #(String, String) {
-  #("position-area", "span-x-self-start")
-}
+pub const span_x_self_start = #("position-area", "span-x-self-start")
 
-pub fn span_x_self_end() -> #(String, String) {
-  #("position-area", "span-x-self-end")
-}
+pub const span_x_self_end = #("position-area", "span-x-self-end")
 
-pub fn span_all() -> #(String, String) {
-  #("position-area", "span-all")
-}
+pub const span_all = #("position-area", "span-all")
 
-pub fn top() -> #(String, String) {
-  #("position-area", "top")
-}
+pub const top = #("position-area", "top")
 
-pub fn bottom() -> #(String, String) {
-  #("position-area", "bottom")
-}
+pub const bottom = #("position-area", "bottom")
 
-pub fn span_top() -> #(String, String) {
-  #("position-area", "span-top")
-}
+pub const span_top = #("position-area", "span-top")
 
-pub fn span_bottom() -> #(String, String) {
-  #("position-area", "span-bottom")
-}
+pub const span_bottom = #("position-area", "span-bottom")
 
-pub fn y_start() -> #(String, String) {
-  #("position-area", "y-start")
-}
+pub const y_start = #("position-area", "y-start")
 
-pub fn y_end() -> #(String, String) {
-  #("position-area", "y-end")
-}
+pub const y_end = #("position-area", "y-end")
 
-pub fn span_y_start() -> #(String, String) {
-  #("position-area", "span-y-start")
-}
+pub const span_y_start = #("position-area", "span-y-start")
 
-pub fn span_y_end() -> #(String, String) {
-  #("position-area", "span-y-end")
-}
+pub const span_y_end = #("position-area", "span-y-end")
 
-pub fn y_self_start() -> #(String, String) {
-  #("position-area", "y-self-start")
-}
+pub const y_self_start = #("position-area", "y-self-start")
 
-pub fn y_self_end() -> #(String, String) {
-  #("position-area", "y-self-end")
-}
+pub const y_self_end = #("position-area", "y-self-end")
 
-pub fn span_y_self_start() -> #(String, String) {
-  #("position-area", "span-y-self-start")
-}
+pub const span_y_self_start = #("position-area", "span-y-self-start")
 
-pub fn span_y_self_end() -> #(String, String) {
-  #("position-area", "span-y-self-end")
-}
+pub const span_y_self_end = #("position-area", "span-y-self-end")
 
-pub fn block_start() -> #(String, String) {
-  #("position-area", "block-start")
-}
+pub const block_start = #("position-area", "block-start")
 
-pub fn block_end() -> #(String, String) {
-  #("position-area", "block-end")
-}
+pub const block_end = #("position-area", "block-end")
 
-pub fn span_block_start() -> #(String, String) {
-  #("position-area", "span-block-start")
-}
+pub const span_block_start = #("position-area", "span-block-start")
 
-pub fn span_block_end() -> #(String, String) {
-  #("position-area", "span-block-end")
-}
+pub const span_block_end = #("position-area", "span-block-end")
 
-pub fn inline_start() -> #(String, String) {
-  #("position-area", "inline-start")
-}
+pub const inline_start = #("position-area", "inline-start")
 
-pub fn inline_end() -> #(String, String) {
-  #("position-area", "inline-end")
-}
+pub const inline_end = #("position-area", "inline-end")
 
-pub fn span_inline_start() -> #(String, String) {
-  #("position-area", "span-inline-start")
-}
+pub const span_inline_start = #("position-area", "span-inline-start")
 
-pub fn span_inline_end() -> #(String, String) {
-  #("position-area", "span-inline-end")
-}
+pub const span_inline_end = #("position-area", "span-inline-end")
 
-pub fn self_block_start() -> #(String, String) {
-  #("position-area", "self-block-start")
-}
+pub const self_block_start = #("position-area", "self-block-start")
 
-pub fn self_block_end() -> #(String, String) {
-  #("position-area", "self-block-end")
-}
+pub const self_block_end = #("position-area", "self-block-end")
 
-pub fn span_self_block_start() -> #(String, String) {
-  #("position-area", "span-self-block-start")
-}
+pub const span_self_block_start = #("position-area", "span-self-block-start")
 
-pub fn span_self_block_end() -> #(String, String) {
-  #("position-area", "span-self-block-end")
-}
+pub const span_self_block_end = #("position-area", "span-self-block-end")
 
-pub fn self_inline_start() -> #(String, String) {
-  #("position-area", "self-inline-start")
-}
+pub const self_inline_start = #("position-area", "self-inline-start")
 
-pub fn self_inline_end() -> #(String, String) {
-  #("position-area", "self-inline-end")
-}
+pub const self_inline_end = #("position-area", "self-inline-end")
 
-pub fn span_self_inline_start() -> #(String, String) {
-  #("position-area", "span-self-inline-start")
-}
+pub const span_self_inline_start = #("position-area", "span-self-inline-start")
 
-pub fn span_self_inline_end() -> #(String, String) {
-  #("position-area", "span-self-inline-end")
-}
+pub const span_self_inline_end = #("position-area", "span-self-inline-end")
 
-pub fn start() -> #(String, String) {
-  #("position-area", "start")
-}
+pub const start = #("position-area", "start")
 
-pub fn end() -> #(String, String) {
-  #("position-area", "end")
-}
+pub const end = #("position-area", "end")
 
-pub fn span_start() -> #(String, String) {
-  #("position-area", "span-start")
-}
+pub const span_start = #("position-area", "span-start")
 
-pub fn span_end() -> #(String, String) {
-  #("position-area", "span-end")
-}
+pub const span_end = #("position-area", "span-end")
 
-pub fn self_start() -> #(String, String) {
-  #("position-area", "self-start")
-}
+pub const self_start = #("position-area", "self-start")
 
-pub fn self_end() -> #(String, String) {
-  #("position-area", "self-end")
-}
+pub const self_end = #("position-area", "self-end")
 
-pub fn span_self_start() -> #(String, String) {
-  #("position-area", "span-self-start")
-}
+pub const span_self_start = #("position-area", "span-self-start")
 
-pub fn span_self_end() -> #(String, String) {
-  #("position-area", "span-self-end")
-}
+pub const span_self_end = #("position-area", "span-self-end")
 
 pub fn raw(value: String) -> #(String, String) {
   #("position_area", value)

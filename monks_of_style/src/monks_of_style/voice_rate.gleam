@@ -1,28 +1,16 @@
 
 
-pub fn normal() -> #(String, String) {
-  #("voice-rate", "normal")
-}
+pub const normal = #("voice-rate", "normal")
 
-pub fn x_slow() -> #(String, String) {
-  #("voice-rate", "x-slow")
-}
+pub const x_slow = #("voice-rate", "x-slow")
 
-pub fn slow() -> #(String, String) {
-  #("voice-rate", "slow")
-}
+pub const slow = #("voice-rate", "slow")
 
-pub fn medium() -> #(String, String) {
-  #("voice-rate", "medium")
-}
+pub const medium = #("voice-rate", "medium")
 
-pub fn fast() -> #(String, String) {
-  #("voice-rate", "fast")
-}
+pub const fast = #("voice-rate", "fast")
 
-pub fn x_fast() -> #(String, String) {
-  #("voice-rate", "x-fast")
-}
+pub const x_fast = #("voice-rate", "x-fast")
 
 pub fn raw(value: String) -> #(String, String) {
   #("voice_rate", value)

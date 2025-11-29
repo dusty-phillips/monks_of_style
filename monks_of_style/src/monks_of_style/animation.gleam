@@ -1,132 +1,68 @@
 
 
-pub fn linear() -> #(String, String) {
-  #("animation", "linear")
-}
+pub const linear = #("animation", "linear")
 
-pub fn ease() -> #(String, String) {
-  #("animation", "ease")
-}
+pub const ease = #("animation", "ease")
 
-pub fn ease_in() -> #(String, String) {
-  #("animation", "ease-in")
-}
+pub const ease_in = #("animation", "ease-in")
 
-pub fn ease_out() -> #(String, String) {
-  #("animation", "ease-out")
-}
+pub const ease_out = #("animation", "ease-out")
 
-pub fn ease_in_out() -> #(String, String) {
-  #("animation", "ease-in-out")
-}
+pub const ease_in_out = #("animation", "ease-in-out")
 
-pub fn step_start() -> #(String, String) {
-  #("animation", "step-start")
-}
+pub const step_start = #("animation", "step-start")
 
-pub fn step_end() -> #(String, String) {
-  #("animation", "step-end")
-}
+pub const step_end = #("animation", "step-end")
 
-pub fn jump_start() -> #(String, String) {
-  #("animation", "jump-start")
-}
+pub const jump_start = #("animation", "jump-start")
 
-pub fn jump_end() -> #(String, String) {
-  #("animation", "jump-end")
-}
+pub const jump_end = #("animation", "jump-end")
 
-pub fn jump_none() -> #(String, String) {
-  #("animation", "jump-none")
-}
+pub const jump_none = #("animation", "jump-none")
 
-pub fn jump_both() -> #(String, String) {
-  #("animation", "jump-both")
-}
+pub const jump_both = #("animation", "jump-both")
 
-pub fn start() -> #(String, String) {
-  #("animation", "start")
-}
+pub const start = #("animation", "start")
 
-pub fn end() -> #(String, String) {
-  #("animation", "end")
-}
+pub const end = #("animation", "end")
 
-pub fn infinite() -> #(String, String) {
-  #("animation", "infinite")
-}
+pub const infinite = #("animation", "infinite")
 
-pub fn normal() -> #(String, String) {
-  #("animation", "normal")
-}
+pub const normal = #("animation", "normal")
 
-pub fn reverse() -> #(String, String) {
-  #("animation", "reverse")
-}
+pub const reverse = #("animation", "reverse")
 
-pub fn alternate() -> #(String, String) {
-  #("animation", "alternate")
-}
+pub const alternate = #("animation", "alternate")
 
-pub fn alternate_reverse() -> #(String, String) {
-  #("animation", "alternate-reverse")
-}
+pub const alternate_reverse = #("animation", "alternate-reverse")
 
-pub fn none() -> #(String, String) {
-  #("animation", "none")
-}
+pub const none = #("animation", "none")
 
-pub fn forwards() -> #(String, String) {
-  #("animation", "forwards")
-}
+pub const forwards = #("animation", "forwards")
 
-pub fn backwards() -> #(String, String) {
-  #("animation", "backwards")
-}
+pub const backwards = #("animation", "backwards")
 
-pub fn both() -> #(String, String) {
-  #("animation", "both")
-}
+pub const both = #("animation", "both")
 
-pub fn running() -> #(String, String) {
-  #("animation", "running")
-}
+pub const running = #("animation", "running")
 
-pub fn paused() -> #(String, String) {
-  #("animation", "paused")
-}
+pub const paused = #("animation", "paused")
 
-pub fn auto_() -> #(String, String) {
-  #("animation", "auto")
-}
+pub const auto_ = #("animation", "auto")
 
-pub fn block() -> #(String, String) {
-  #("animation", "block")
-}
+pub const block = #("animation", "block")
 
-pub fn inline() -> #(String, String) {
-  #("animation", "inline")
-}
+pub const inline = #("animation", "inline")
 
-pub fn x() -> #(String, String) {
-  #("animation", "x")
-}
+pub const x = #("animation", "x")
 
-pub fn y() -> #(String, String) {
-  #("animation", "y")
-}
+pub const y = #("animation", "y")
 
-pub fn root() -> #(String, String) {
-  #("animation", "root")
-}
+pub const root = #("animation", "root")
 
-pub fn nearest() -> #(String, String) {
-  #("animation", "nearest")
-}
+pub const nearest = #("animation", "nearest")
 
-pub fn self() -> #(String, String) {
-  #("animation", "self")
-}
+pub const self = #("animation", "self")
 
 pub fn raw(value: String) -> #(String, String) {
   #("animation", value)

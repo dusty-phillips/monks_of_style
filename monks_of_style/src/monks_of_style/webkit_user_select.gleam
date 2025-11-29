@@ -1,20 +1,12 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("-webkit-user-select", "auto")
-}
+pub const auto_ = #("-webkit-user-select", "auto")
 
-pub fn none() -> #(String, String) {
-  #("-webkit-user-select", "none")
-}
+pub const none = #("-webkit-user-select", "none")
 
-pub fn text() -> #(String, String) {
-  #("-webkit-user-select", "text")
-}
+pub const text = #("-webkit-user-select", "text")
 
-pub fn all() -> #(String, String) {
-  #("-webkit-user-select", "all")
-}
+pub const all = #("-webkit-user-select", "all")
 
 pub fn raw(value: String) -> #(String, String) {
   #("webkit_user_select", value)

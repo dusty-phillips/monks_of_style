@@ -1,20 +1,12 @@
 
 
-pub fn none() -> #(String, String) {
-  #("-webkit-text-security", "none")
-}
+pub const none = #("-webkit-text-security", "none")
 
-pub fn circle() -> #(String, String) {
-  #("-webkit-text-security", "circle")
-}
+pub const circle = #("-webkit-text-security", "circle")
 
-pub fn disc() -> #(String, String) {
-  #("-webkit-text-security", "disc")
-}
+pub const disc = #("-webkit-text-security", "disc")
 
-pub fn square() -> #(String, String) {
-  #("-webkit-text-security", "square")
-}
+pub const square = #("-webkit-text-security", "square")
 
 pub fn raw(value: String) -> #(String, String) {
   #("webkit_text_security", value)

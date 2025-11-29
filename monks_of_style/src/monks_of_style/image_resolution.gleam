@@ -1,12 +1,8 @@
 
 
-pub fn from_image() -> #(String, String) {
-  #("image-resolution", "from-image")
-}
+pub const from_image = #("image-resolution", "from-image")
 
-pub fn snap() -> #(String, String) {
-  #("image-resolution", "snap")
-}
+pub const snap = #("image-resolution", "snap")
 
 pub fn raw(value: String) -> #(String, String) {
   #("image_resolution", value)

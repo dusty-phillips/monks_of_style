@@ -1,20 +1,12 @@
 
 
-pub fn none() -> #(String, String) {
-  #("container", "none")
-}
+pub const none = #("container", "none")
 
-pub fn normal() -> #(String, String) {
-  #("container", "normal")
-}
+pub const normal = #("container", "normal")
 
-pub fn size() -> #(String, String) {
-  #("container", "size")
-}
+pub const size = #("container", "size")
 
-pub fn inline_size() -> #(String, String) {
-  #("container", "inline-size")
-}
+pub const inline_size = #("container", "inline-size")
 
 pub fn raw(value: String) -> #(String, String) {
   #("container", value)

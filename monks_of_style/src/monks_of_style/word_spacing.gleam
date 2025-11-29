@@ -1,8 +1,6 @@
 
 
-pub fn normal() -> #(String, String) {
-  #("word-spacing", "normal")
-}
+pub const normal = #("word-spacing", "normal")
 
 pub fn raw(value: String) -> #(String, String) {
   #("word_spacing", value)

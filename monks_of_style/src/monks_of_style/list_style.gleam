@@ -1,1052 +1,528 @@
 
 
-pub fn none() -> #(String, String) {
-  #("list-style", "none")
-}
-
-pub fn inside() -> #(String, String) {
-  #("list-style", "inside")
-}
-
-pub fn outside() -> #(String, String) {
-  #("list-style", "outside")
-}
-
-pub fn ltr() -> #(String, String) {
-  #("list-style", "ltr")
-}
-
-pub fn rtl() -> #(String, String) {
-  #("list-style", "rtl")
-}
-
-pub fn srgb() -> #(String, String) {
-  #("list-style", "srgb")
-}
-
-pub fn srgb_linear() -> #(String, String) {
-  #("list-style", "srgb-linear")
-}
-
-pub fn display_p3() -> #(String, String) {
-  #("list-style", "display-p3")
-}
-
-pub fn a98_rgb() -> #(String, String) {
-  #("list-style", "a98-rgb")
-}
-
-pub fn prophoto_rgb() -> #(String, String) {
-  #("list-style", "prophoto-rgb")
-}
-
-pub fn rec2020() -> #(String, String) {
-  #("list-style", "rec2020")
-}
-
-pub fn xyz() -> #(String, String) {
-  #("list-style", "xyz")
-}
-
-pub fn xyz_d50() -> #(String, String) {
-  #("list-style", "xyz-d50")
-}
-
-pub fn xyz_d65() -> #(String, String) {
-  #("list-style", "xyz-d65")
-}
-
-pub fn transparent() -> #(String, String) {
-  #("list-style", "transparent")
-}
-
-pub fn aliceblue() -> #(String, String) {
-  #("list-style", "aliceblue")
-}
-
-pub fn antiquewhite() -> #(String, String) {
-  #("list-style", "antiquewhite")
-}
-
-pub fn aqua() -> #(String, String) {
-  #("list-style", "aqua")
-}
-
-pub fn aquamarine() -> #(String, String) {
-  #("list-style", "aquamarine")
-}
-
-pub fn azure() -> #(String, String) {
-  #("list-style", "azure")
-}
-
-pub fn beige() -> #(String, String) {
-  #("list-style", "beige")
-}
-
-pub fn bisque() -> #(String, String) {
-  #("list-style", "bisque")
-}
-
-pub fn black() -> #(String, String) {
-  #("list-style", "black")
-}
-
-pub fn blanchedalmond() -> #(String, String) {
-  #("list-style", "blanchedalmond")
-}
-
-pub fn blue() -> #(String, String) {
-  #("list-style", "blue")
-}
-
-pub fn blueviolet() -> #(String, String) {
-  #("list-style", "blueviolet")
-}
-
-pub fn brown() -> #(String, String) {
-  #("list-style", "brown")
-}
-
-pub fn burlywood() -> #(String, String) {
-  #("list-style", "burlywood")
-}
-
-pub fn cadetblue() -> #(String, String) {
-  #("list-style", "cadetblue")
-}
-
-pub fn chartreuse() -> #(String, String) {
-  #("list-style", "chartreuse")
-}
-
-pub fn chocolate() -> #(String, String) {
-  #("list-style", "chocolate")
-}
-
-pub fn coral() -> #(String, String) {
-  #("list-style", "coral")
-}
-
-pub fn cornflowerblue() -> #(String, String) {
-  #("list-style", "cornflowerblue")
-}
-
-pub fn cornsilk() -> #(String, String) {
-  #("list-style", "cornsilk")
-}
-
-pub fn crimson() -> #(String, String) {
-  #("list-style", "crimson")
-}
-
-pub fn cyan() -> #(String, String) {
-  #("list-style", "cyan")
-}
-
-pub fn darkblue() -> #(String, String) {
-  #("list-style", "darkblue")
-}
-
-pub fn darkcyan() -> #(String, String) {
-  #("list-style", "darkcyan")
-}
-
-pub fn darkgoldenrod() -> #(String, String) {
-  #("list-style", "darkgoldenrod")
-}
-
-pub fn darkgray() -> #(String, String) {
-  #("list-style", "darkgray")
-}
-
-pub fn darkgreen() -> #(String, String) {
-  #("list-style", "darkgreen")
-}
-
-pub fn darkgrey() -> #(String, String) {
-  #("list-style", "darkgrey")
-}
-
-pub fn darkkhaki() -> #(String, String) {
-  #("list-style", "darkkhaki")
-}
-
-pub fn darkmagenta() -> #(String, String) {
-  #("list-style", "darkmagenta")
-}
-
-pub fn darkolivegreen() -> #(String, String) {
-  #("list-style", "darkolivegreen")
-}
-
-pub fn darkorange() -> #(String, String) {
-  #("list-style", "darkorange")
-}
-
-pub fn darkorchid() -> #(String, String) {
-  #("list-style", "darkorchid")
-}
-
-pub fn darkred() -> #(String, String) {
-  #("list-style", "darkred")
-}
-
-pub fn darksalmon() -> #(String, String) {
-  #("list-style", "darksalmon")
-}
-
-pub fn darkseagreen() -> #(String, String) {
-  #("list-style", "darkseagreen")
-}
-
-pub fn darkslateblue() -> #(String, String) {
-  #("list-style", "darkslateblue")
-}
-
-pub fn darkslategray() -> #(String, String) {
-  #("list-style", "darkslategray")
-}
-
-pub fn darkslategrey() -> #(String, String) {
-  #("list-style", "darkslategrey")
-}
-
-pub fn darkturquoise() -> #(String, String) {
-  #("list-style", "darkturquoise")
-}
-
-pub fn darkviolet() -> #(String, String) {
-  #("list-style", "darkviolet")
-}
-
-pub fn deeppink() -> #(String, String) {
-  #("list-style", "deeppink")
-}
-
-pub fn deepskyblue() -> #(String, String) {
-  #("list-style", "deepskyblue")
-}
-
-pub fn dimgray() -> #(String, String) {
-  #("list-style", "dimgray")
-}
-
-pub fn dimgrey() -> #(String, String) {
-  #("list-style", "dimgrey")
-}
-
-pub fn dodgerblue() -> #(String, String) {
-  #("list-style", "dodgerblue")
-}
-
-pub fn firebrick() -> #(String, String) {
-  #("list-style", "firebrick")
-}
-
-pub fn floralwhite() -> #(String, String) {
-  #("list-style", "floralwhite")
-}
-
-pub fn forestgreen() -> #(String, String) {
-  #("list-style", "forestgreen")
-}
-
-pub fn fuchsia() -> #(String, String) {
-  #("list-style", "fuchsia")
-}
-
-pub fn gainsboro() -> #(String, String) {
-  #("list-style", "gainsboro")
-}
-
-pub fn ghostwhite() -> #(String, String) {
-  #("list-style", "ghostwhite")
-}
-
-pub fn gold() -> #(String, String) {
-  #("list-style", "gold")
-}
-
-pub fn goldenrod() -> #(String, String) {
-  #("list-style", "goldenrod")
-}
-
-pub fn gray() -> #(String, String) {
-  #("list-style", "gray")
-}
-
-pub fn green() -> #(String, String) {
-  #("list-style", "green")
-}
-
-pub fn greenyellow() -> #(String, String) {
-  #("list-style", "greenyellow")
-}
-
-pub fn grey() -> #(String, String) {
-  #("list-style", "grey")
-}
-
-pub fn honeydew() -> #(String, String) {
-  #("list-style", "honeydew")
-}
-
-pub fn hotpink() -> #(String, String) {
-  #("list-style", "hotpink")
-}
-
-pub fn indianred() -> #(String, String) {
-  #("list-style", "indianred")
-}
-
-pub fn indigo() -> #(String, String) {
-  #("list-style", "indigo")
-}
-
-pub fn ivory() -> #(String, String) {
-  #("list-style", "ivory")
-}
-
-pub fn khaki() -> #(String, String) {
-  #("list-style", "khaki")
-}
-
-pub fn lavender() -> #(String, String) {
-  #("list-style", "lavender")
-}
-
-pub fn lavenderblush() -> #(String, String) {
-  #("list-style", "lavenderblush")
-}
-
-pub fn lawngreen() -> #(String, String) {
-  #("list-style", "lawngreen")
-}
-
-pub fn lemonchiffon() -> #(String, String) {
-  #("list-style", "lemonchiffon")
-}
-
-pub fn lightblue() -> #(String, String) {
-  #("list-style", "lightblue")
-}
-
-pub fn lightcoral() -> #(String, String) {
-  #("list-style", "lightcoral")
-}
-
-pub fn lightcyan() -> #(String, String) {
-  #("list-style", "lightcyan")
-}
-
-pub fn lightgoldenrodyellow() -> #(String, String) {
-  #("list-style", "lightgoldenrodyellow")
-}
-
-pub fn lightgray() -> #(String, String) {
-  #("list-style", "lightgray")
-}
-
-pub fn lightgreen() -> #(String, String) {
-  #("list-style", "lightgreen")
-}
-
-pub fn lightgrey() -> #(String, String) {
-  #("list-style", "lightgrey")
-}
-
-pub fn lightpink() -> #(String, String) {
-  #("list-style", "lightpink")
-}
-
-pub fn lightsalmon() -> #(String, String) {
-  #("list-style", "lightsalmon")
-}
-
-pub fn lightseagreen() -> #(String, String) {
-  #("list-style", "lightseagreen")
-}
-
-pub fn lightskyblue() -> #(String, String) {
-  #("list-style", "lightskyblue")
-}
-
-pub fn lightslategray() -> #(String, String) {
-  #("list-style", "lightslategray")
-}
-
-pub fn lightslategrey() -> #(String, String) {
-  #("list-style", "lightslategrey")
-}
-
-pub fn lightsteelblue() -> #(String, String) {
-  #("list-style", "lightsteelblue")
-}
-
-pub fn lightyellow() -> #(String, String) {
-  #("list-style", "lightyellow")
-}
-
-pub fn lime() -> #(String, String) {
-  #("list-style", "lime")
-}
-
-pub fn limegreen() -> #(String, String) {
-  #("list-style", "limegreen")
-}
-
-pub fn linen() -> #(String, String) {
-  #("list-style", "linen")
-}
-
-pub fn magenta() -> #(String, String) {
-  #("list-style", "magenta")
-}
-
-pub fn maroon() -> #(String, String) {
-  #("list-style", "maroon")
-}
-
-pub fn mediumaquamarine() -> #(String, String) {
-  #("list-style", "mediumaquamarine")
-}
-
-pub fn mediumblue() -> #(String, String) {
-  #("list-style", "mediumblue")
-}
-
-pub fn mediumorchid() -> #(String, String) {
-  #("list-style", "mediumorchid")
-}
-
-pub fn mediumpurple() -> #(String, String) {
-  #("list-style", "mediumpurple")
-}
-
-pub fn mediumseagreen() -> #(String, String) {
-  #("list-style", "mediumseagreen")
-}
-
-pub fn mediumslateblue() -> #(String, String) {
-  #("list-style", "mediumslateblue")
-}
-
-pub fn mediumspringgreen() -> #(String, String) {
-  #("list-style", "mediumspringgreen")
-}
-
-pub fn mediumturquoise() -> #(String, String) {
-  #("list-style", "mediumturquoise")
-}
-
-pub fn mediumvioletred() -> #(String, String) {
-  #("list-style", "mediumvioletred")
-}
-
-pub fn midnightblue() -> #(String, String) {
-  #("list-style", "midnightblue")
-}
-
-pub fn mintcream() -> #(String, String) {
-  #("list-style", "mintcream")
-}
-
-pub fn mistyrose() -> #(String, String) {
-  #("list-style", "mistyrose")
-}
-
-pub fn moccasin() -> #(String, String) {
-  #("list-style", "moccasin")
-}
-
-pub fn navajowhite() -> #(String, String) {
-  #("list-style", "navajowhite")
-}
-
-pub fn navy() -> #(String, String) {
-  #("list-style", "navy")
-}
-
-pub fn oldlace() -> #(String, String) {
-  #("list-style", "oldlace")
-}
-
-pub fn olive() -> #(String, String) {
-  #("list-style", "olive")
-}
-
-pub fn olivedrab() -> #(String, String) {
-  #("list-style", "olivedrab")
-}
-
-pub fn orange() -> #(String, String) {
-  #("list-style", "orange")
-}
-
-pub fn orangered() -> #(String, String) {
-  #("list-style", "orangered")
-}
-
-pub fn orchid() -> #(String, String) {
-  #("list-style", "orchid")
-}
-
-pub fn palegoldenrod() -> #(String, String) {
-  #("list-style", "palegoldenrod")
-}
-
-pub fn palegreen() -> #(String, String) {
-  #("list-style", "palegreen")
-}
-
-pub fn paleturquoise() -> #(String, String) {
-  #("list-style", "paleturquoise")
-}
-
-pub fn palevioletred() -> #(String, String) {
-  #("list-style", "palevioletred")
-}
-
-pub fn papayawhip() -> #(String, String) {
-  #("list-style", "papayawhip")
-}
-
-pub fn peachpuff() -> #(String, String) {
-  #("list-style", "peachpuff")
-}
-
-pub fn peru() -> #(String, String) {
-  #("list-style", "peru")
-}
-
-pub fn pink() -> #(String, String) {
-  #("list-style", "pink")
-}
-
-pub fn plum() -> #(String, String) {
-  #("list-style", "plum")
-}
-
-pub fn powderblue() -> #(String, String) {
-  #("list-style", "powderblue")
-}
-
-pub fn purple() -> #(String, String) {
-  #("list-style", "purple")
-}
-
-pub fn rebeccapurple() -> #(String, String) {
-  #("list-style", "rebeccapurple")
-}
-
-pub fn red() -> #(String, String) {
-  #("list-style", "red")
-}
-
-pub fn rosybrown() -> #(String, String) {
-  #("list-style", "rosybrown")
-}
-
-pub fn royalblue() -> #(String, String) {
-  #("list-style", "royalblue")
-}
-
-pub fn saddlebrown() -> #(String, String) {
-  #("list-style", "saddlebrown")
-}
-
-pub fn salmon() -> #(String, String) {
-  #("list-style", "salmon")
-}
-
-pub fn sandybrown() -> #(String, String) {
-  #("list-style", "sandybrown")
-}
-
-pub fn seagreen() -> #(String, String) {
-  #("list-style", "seagreen")
-}
-
-pub fn seashell() -> #(String, String) {
-  #("list-style", "seashell")
-}
-
-pub fn sienna() -> #(String, String) {
-  #("list-style", "sienna")
-}
-
-pub fn silver() -> #(String, String) {
-  #("list-style", "silver")
-}
-
-pub fn skyblue() -> #(String, String) {
-  #("list-style", "skyblue")
-}
-
-pub fn slateblue() -> #(String, String) {
-  #("list-style", "slateblue")
-}
-
-pub fn slategray() -> #(String, String) {
-  #("list-style", "slategray")
-}
-
-pub fn slategrey() -> #(String, String) {
-  #("list-style", "slategrey")
-}
-
-pub fn snow() -> #(String, String) {
-  #("list-style", "snow")
-}
-
-pub fn springgreen() -> #(String, String) {
-  #("list-style", "springgreen")
-}
-
-pub fn steelblue() -> #(String, String) {
-  #("list-style", "steelblue")
-}
-
-pub fn tan() -> #(String, String) {
-  #("list-style", "tan")
-}
-
-pub fn teal() -> #(String, String) {
-  #("list-style", "teal")
-}
-
-pub fn thistle() -> #(String, String) {
-  #("list-style", "thistle")
-}
-
-pub fn tomato() -> #(String, String) {
-  #("list-style", "tomato")
-}
-
-pub fn turquoise() -> #(String, String) {
-  #("list-style", "turquoise")
-}
-
-pub fn violet() -> #(String, String) {
-  #("list-style", "violet")
-}
-
-pub fn wheat() -> #(String, String) {
-  #("list-style", "wheat")
-}
-
-pub fn white() -> #(String, String) {
-  #("list-style", "white")
-}
-
-pub fn whitesmoke() -> #(String, String) {
-  #("list-style", "whitesmoke")
-}
-
-pub fn yellow() -> #(String, String) {
-  #("list-style", "yellow")
-}
-
-pub fn yellowgreen() -> #(String, String) {
-  #("list-style", "yellowgreen")
-}
-
-pub fn in() -> #(String, String) {
-  #("list-style", "in")
-}
-
-pub fn lab() -> #(String, String) {
-  #("list-style", "lab")
-}
-
-pub fn oklab() -> #(String, String) {
-  #("list-style", "oklab")
-}
-
-pub fn hsl() -> #(String, String) {
-  #("list-style", "hsl")
-}
-
-pub fn hwb() -> #(String, String) {
-  #("list-style", "hwb")
-}
-
-pub fn lch() -> #(String, String) {
-  #("list-style", "lch")
-}
-
-pub fn oklch() -> #(String, String) {
-  #("list-style", "oklch")
-}
-
-pub fn shorter() -> #(String, String) {
-  #("list-style", "shorter")
-}
-
-pub fn longer() -> #(String, String) {
-  #("list-style", "longer")
-}
-
-pub fn increasing() -> #(String, String) {
-  #("list-style", "increasing")
-}
-
-pub fn decreasing() -> #(String, String) {
-  #("list-style", "decreasing")
-}
-
-pub fn hue() -> #(String, String) {
-  #("list-style", "hue")
-}
-
-pub fn current_color() -> #(String, String) {
-  #("list-style", "currentColor")
-}
-
-pub fn accent_color() -> #(String, String) {
-  #("list-style", "AccentColor")
-}
-
-pub fn accent_color_text() -> #(String, String) {
-  #("list-style", "AccentColorText")
-}
-
-pub fn active_text() -> #(String, String) {
-  #("list-style", "ActiveText")
-}
-
-pub fn button_border() -> #(String, String) {
-  #("list-style", "ButtonBorder")
-}
-
-pub fn button_face() -> #(String, String) {
-  #("list-style", "ButtonFace")
-}
-
-pub fn button_text() -> #(String, String) {
-  #("list-style", "ButtonText")
-}
-
-pub fn canvas() -> #(String, String) {
-  #("list-style", "Canvas")
-}
-
-pub fn canvas_text() -> #(String, String) {
-  #("list-style", "CanvasText")
-}
-
-pub fn field() -> #(String, String) {
-  #("list-style", "Field")
-}
-
-pub fn field_text() -> #(String, String) {
-  #("list-style", "FieldText")
-}
-
-pub fn gray_text() -> #(String, String) {
-  #("list-style", "GrayText")
-}
-
-pub fn highlight() -> #(String, String) {
-  #("list-style", "Highlight")
-}
-
-pub fn highlight_text() -> #(String, String) {
-  #("list-style", "HighlightText")
-}
-
-pub fn link_text() -> #(String, String) {
-  #("list-style", "LinkText")
-}
-
-pub fn mark() -> #(String, String) {
-  #("list-style", "Mark")
-}
-
-pub fn mark_text() -> #(String, String) {
-  #("list-style", "MarkText")
-}
-
-pub fn selected_item() -> #(String, String) {
-  #("list-style", "SelectedItem")
-}
-
-pub fn selected_item_text() -> #(String, String) {
-  #("list-style", "SelectedItemText")
-}
-
-pub fn visited_text() -> #(String, String) {
-  #("list-style", "VisitedText")
-}
-
-pub fn moz_button_default() -> #(String, String) {
-  #("list-style", "-moz-ButtonDefault")
-}
-
-pub fn moz_button_hover_face() -> #(String, String) {
-  #("list-style", "-moz-ButtonHoverFace")
-}
-
-pub fn moz_button_hover_text() -> #(String, String) {
-  #("list-style", "-moz-ButtonHoverText")
-}
-
-pub fn moz_cell_highlight() -> #(String, String) {
-  #("list-style", "-moz-CellHighlight")
-}
-
-pub fn moz_cell_highlight_text() -> #(String, String) {
-  #("list-style", "-moz-CellHighlightText")
-}
-
-pub fn moz_combobox() -> #(String, String) {
-  #("list-style", "-moz-Combobox")
-}
-
-pub fn moz_combobox_text() -> #(String, String) {
-  #("list-style", "-moz-ComboboxText")
-}
-
-pub fn moz_dialog() -> #(String, String) {
-  #("list-style", "-moz-Dialog")
-}
-
-pub fn moz_dialog_text() -> #(String, String) {
-  #("list-style", "-moz-DialogText")
-}
-
-pub fn moz_dragtargetzone() -> #(String, String) {
-  #("list-style", "-moz-dragtargetzone")
-}
-
-pub fn moz_even_tree_row() -> #(String, String) {
-  #("list-style", "-moz-EvenTreeRow")
-}
-
-pub fn moz_field() -> #(String, String) {
-  #("list-style", "-moz-Field")
-}
-
-pub fn moz_field_text() -> #(String, String) {
-  #("list-style", "-moz-FieldText")
-}
-
-pub fn moz_html_cell_highlight() -> #(String, String) {
-  #("list-style", "-moz-html-CellHighlight")
-}
-
-pub fn moz_html_cell_highlight_text() -> #(String, String) {
-  #("list-style", "-moz-html-CellHighlightText")
-}
-
-pub fn moz_mac_accentdarkestshadow() -> #(String, String) {
-  #("list-style", "-moz-mac-accentdarkestshadow")
-}
-
-pub fn moz_mac_accentdarkshadow() -> #(String, String) {
-  #("list-style", "-moz-mac-accentdarkshadow")
-}
-
-pub fn moz_mac_accentface() -> #(String, String) {
-  #("list-style", "-moz-mac-accentface")
-}
-
-pub fn moz_mac_accentlightesthighlight() -> #(String, String) {
-  #("list-style", "-moz-mac-accentlightesthighlight")
-}
-
-pub fn moz_mac_accentlightshadow() -> #(String, String) {
-  #("list-style", "-moz-mac-accentlightshadow")
-}
-
-pub fn moz_mac_accentregularhighlight() -> #(String, String) {
-  #("list-style", "-moz-mac-accentregularhighlight")
-}
-
-pub fn moz_mac_accentregularshadow() -> #(String, String) {
-  #("list-style", "-moz-mac-accentregularshadow")
-}
-
-pub fn moz_mac_chrome_active() -> #(String, String) {
-  #("list-style", "-moz-mac-chrome-active")
-}
-
-pub fn moz_mac_chrome_inactive() -> #(String, String) {
-  #("list-style", "-moz-mac-chrome-inactive")
-}
-
-pub fn moz_mac_focusring() -> #(String, String) {
-  #("list-style", "-moz-mac-focusring")
-}
-
-pub fn moz_mac_menuselect() -> #(String, String) {
-  #("list-style", "-moz-mac-menuselect")
-}
-
-pub fn moz_mac_menushadow() -> #(String, String) {
-  #("list-style", "-moz-mac-menushadow")
-}
-
-pub fn moz_mac_menutextselect() -> #(String, String) {
-  #("list-style", "-moz-mac-menutextselect")
-}
-
-pub fn moz_menu_hover() -> #(String, String) {
-  #("list-style", "-moz-MenuHover")
-}
-
-pub fn moz_menu_hover_text() -> #(String, String) {
-  #("list-style", "-moz-MenuHoverText")
-}
-
-pub fn moz_menu_bar_text() -> #(String, String) {
-  #("list-style", "-moz-MenuBarText")
-}
-
-pub fn moz_menu_bar_hover_text() -> #(String, String) {
-  #("list-style", "-moz-MenuBarHoverText")
-}
-
-pub fn moz_nativehyperlinktext() -> #(String, String) {
-  #("list-style", "-moz-nativehyperlinktext")
-}
-
-pub fn moz_odd_tree_row() -> #(String, String) {
-  #("list-style", "-moz-OddTreeRow")
-}
-
-pub fn moz_win_communicationstext() -> #(String, String) {
-  #("list-style", "-moz-win-communicationstext")
-}
-
-pub fn moz_win_mediatext() -> #(String, String) {
-  #("list-style", "-moz-win-mediatext")
-}
-
-pub fn moz_activehyperlinktext() -> #(String, String) {
-  #("list-style", "-moz-activehyperlinktext")
-}
-
-pub fn moz_default_background_color() -> #(String, String) {
-  #("list-style", "-moz-default-background-color")
-}
-
-pub fn moz_default_color() -> #(String, String) {
-  #("list-style", "-moz-default-color")
-}
-
-pub fn moz_hyperlinktext() -> #(String, String) {
-  #("list-style", "-moz-hyperlinktext")
-}
-
-pub fn moz_visitedhyperlinktext() -> #(String, String) {
-  #("list-style", "-moz-visitedhyperlinktext")
-}
-
-pub fn webkit_activelink() -> #(String, String) {
-  #("list-style", "-webkit-activelink")
-}
-
-pub fn webkit_focus_ring_color() -> #(String, String) {
-  #("list-style", "-webkit-focus-ring-color")
-}
-
-pub fn webkit_link() -> #(String, String) {
-  #("list-style", "-webkit-link")
-}
-
-pub fn webkit_text() -> #(String, String) {
-  #("list-style", "-webkit-text")
-}
-
-pub fn first() -> #(String, String) {
-  #("list-style", "first")
-}
-
-pub fn start() -> #(String, String) {
-  #("list-style", "start")
-}
-
-pub fn last() -> #(String, String) {
-  #("list-style", "last")
-}
-
-pub fn first_except() -> #(String, String) {
-  #("list-style", "first-except")
-}
-
-pub fn to() -> #(String, String) {
-  #("list-style", "to")
-}
-
-pub fn left() -> #(String, String) {
-  #("list-style", "left")
-}
-
-pub fn right() -> #(String, String) {
-  #("list-style", "right")
-}
-
-pub fn top() -> #(String, String) {
-  #("list-style", "top")
-}
-
-pub fn bottom() -> #(String, String) {
-  #("list-style", "bottom")
-}
-
-pub fn circle() -> #(String, String) {
-  #("list-style", "circle")
-}
-
-pub fn ellipse() -> #(String, String) {
-  #("list-style", "ellipse")
-}
-
-pub fn closest_side() -> #(String, String) {
-  #("list-style", "closest-side")
-}
-
-pub fn farthest_side() -> #(String, String) {
-  #("list-style", "farthest-side")
-}
-
-pub fn closest_corner() -> #(String, String) {
-  #("list-style", "closest-corner")
-}
-
-pub fn farthest_corner() -> #(String, String) {
-  #("list-style", "farthest-corner")
-}
-
-pub fn at() -> #(String, String) {
-  #("list-style", "at")
-}
-
-pub fn center() -> #(String, String) {
-  #("list-style", "center")
-}
-
-pub fn from() -> #(String, String) {
-  #("list-style", "from")
-}
-
-pub fn linear() -> #(String, String) {
-  #("list-style", "linear")
-}
-
-pub fn radial() -> #(String, String) {
-  #("list-style", "radial")
-}
-
-pub fn contain() -> #(String, String) {
-  #("list-style", "contain")
-}
-
-pub fn cover() -> #(String, String) {
-  #("list-style", "cover")
-}
+pub const none = #("list-style", "none")
+
+pub const inside = #("list-style", "inside")
+
+pub const outside = #("list-style", "outside")
+
+pub const ltr = #("list-style", "ltr")
+
+pub const rtl = #("list-style", "rtl")
+
+pub const srgb = #("list-style", "srgb")
+
+pub const srgb_linear = #("list-style", "srgb-linear")
+
+pub const display_p3 = #("list-style", "display-p3")
+
+pub const a98_rgb = #("list-style", "a98-rgb")
+
+pub const prophoto_rgb = #("list-style", "prophoto-rgb")
+
+pub const rec2020 = #("list-style", "rec2020")
+
+pub const xyz = #("list-style", "xyz")
+
+pub const xyz_d50 = #("list-style", "xyz-d50")
+
+pub const xyz_d65 = #("list-style", "xyz-d65")
+
+pub const transparent = #("list-style", "transparent")
+
+pub const aliceblue = #("list-style", "aliceblue")
+
+pub const antiquewhite = #("list-style", "antiquewhite")
+
+pub const aqua = #("list-style", "aqua")
+
+pub const aquamarine = #("list-style", "aquamarine")
+
+pub const azure = #("list-style", "azure")
+
+pub const beige = #("list-style", "beige")
+
+pub const bisque = #("list-style", "bisque")
+
+pub const black = #("list-style", "black")
+
+pub const blanchedalmond = #("list-style", "blanchedalmond")
+
+pub const blue = #("list-style", "blue")
+
+pub const blueviolet = #("list-style", "blueviolet")
+
+pub const brown = #("list-style", "brown")
+
+pub const burlywood = #("list-style", "burlywood")
+
+pub const cadetblue = #("list-style", "cadetblue")
+
+pub const chartreuse = #("list-style", "chartreuse")
+
+pub const chocolate = #("list-style", "chocolate")
+
+pub const coral = #("list-style", "coral")
+
+pub const cornflowerblue = #("list-style", "cornflowerblue")
+
+pub const cornsilk = #("list-style", "cornsilk")
+
+pub const crimson = #("list-style", "crimson")
+
+pub const cyan = #("list-style", "cyan")
+
+pub const darkblue = #("list-style", "darkblue")
+
+pub const darkcyan = #("list-style", "darkcyan")
+
+pub const darkgoldenrod = #("list-style", "darkgoldenrod")
+
+pub const darkgray = #("list-style", "darkgray")
+
+pub const darkgreen = #("list-style", "darkgreen")
+
+pub const darkgrey = #("list-style", "darkgrey")
+
+pub const darkkhaki = #("list-style", "darkkhaki")
+
+pub const darkmagenta = #("list-style", "darkmagenta")
+
+pub const darkolivegreen = #("list-style", "darkolivegreen")
+
+pub const darkorange = #("list-style", "darkorange")
+
+pub const darkorchid = #("list-style", "darkorchid")
+
+pub const darkred = #("list-style", "darkred")
+
+pub const darksalmon = #("list-style", "darksalmon")
+
+pub const darkseagreen = #("list-style", "darkseagreen")
+
+pub const darkslateblue = #("list-style", "darkslateblue")
+
+pub const darkslategray = #("list-style", "darkslategray")
+
+pub const darkslategrey = #("list-style", "darkslategrey")
+
+pub const darkturquoise = #("list-style", "darkturquoise")
+
+pub const darkviolet = #("list-style", "darkviolet")
+
+pub const deeppink = #("list-style", "deeppink")
+
+pub const deepskyblue = #("list-style", "deepskyblue")
+
+pub const dimgray = #("list-style", "dimgray")
+
+pub const dimgrey = #("list-style", "dimgrey")
+
+pub const dodgerblue = #("list-style", "dodgerblue")
+
+pub const firebrick = #("list-style", "firebrick")
+
+pub const floralwhite = #("list-style", "floralwhite")
+
+pub const forestgreen = #("list-style", "forestgreen")
+
+pub const fuchsia = #("list-style", "fuchsia")
+
+pub const gainsboro = #("list-style", "gainsboro")
+
+pub const ghostwhite = #("list-style", "ghostwhite")
+
+pub const gold = #("list-style", "gold")
+
+pub const goldenrod = #("list-style", "goldenrod")
+
+pub const gray = #("list-style", "gray")
+
+pub const green = #("list-style", "green")
+
+pub const greenyellow = #("list-style", "greenyellow")
+
+pub const grey = #("list-style", "grey")
+
+pub const honeydew = #("list-style", "honeydew")
+
+pub const hotpink = #("list-style", "hotpink")
+
+pub const indianred = #("list-style", "indianred")
+
+pub const indigo = #("list-style", "indigo")
+
+pub const ivory = #("list-style", "ivory")
+
+pub const khaki = #("list-style", "khaki")
+
+pub const lavender = #("list-style", "lavender")
+
+pub const lavenderblush = #("list-style", "lavenderblush")
+
+pub const lawngreen = #("list-style", "lawngreen")
+
+pub const lemonchiffon = #("list-style", "lemonchiffon")
+
+pub const lightblue = #("list-style", "lightblue")
+
+pub const lightcoral = #("list-style", "lightcoral")
+
+pub const lightcyan = #("list-style", "lightcyan")
+
+pub const lightgoldenrodyellow = #("list-style", "lightgoldenrodyellow")
+
+pub const lightgray = #("list-style", "lightgray")
+
+pub const lightgreen = #("list-style", "lightgreen")
+
+pub const lightgrey = #("list-style", "lightgrey")
+
+pub const lightpink = #("list-style", "lightpink")
+
+pub const lightsalmon = #("list-style", "lightsalmon")
+
+pub const lightseagreen = #("list-style", "lightseagreen")
+
+pub const lightskyblue = #("list-style", "lightskyblue")
+
+pub const lightslategray = #("list-style", "lightslategray")
+
+pub const lightslategrey = #("list-style", "lightslategrey")
+
+pub const lightsteelblue = #("list-style", "lightsteelblue")
+
+pub const lightyellow = #("list-style", "lightyellow")
+
+pub const lime = #("list-style", "lime")
+
+pub const limegreen = #("list-style", "limegreen")
+
+pub const linen = #("list-style", "linen")
+
+pub const magenta = #("list-style", "magenta")
+
+pub const maroon = #("list-style", "maroon")
+
+pub const mediumaquamarine = #("list-style", "mediumaquamarine")
+
+pub const mediumblue = #("list-style", "mediumblue")
+
+pub const mediumorchid = #("list-style", "mediumorchid")
+
+pub const mediumpurple = #("list-style", "mediumpurple")
+
+pub const mediumseagreen = #("list-style", "mediumseagreen")
+
+pub const mediumslateblue = #("list-style", "mediumslateblue")
+
+pub const mediumspringgreen = #("list-style", "mediumspringgreen")
+
+pub const mediumturquoise = #("list-style", "mediumturquoise")
+
+pub const mediumvioletred = #("list-style", "mediumvioletred")
+
+pub const midnightblue = #("list-style", "midnightblue")
+
+pub const mintcream = #("list-style", "mintcream")
+
+pub const mistyrose = #("list-style", "mistyrose")
+
+pub const moccasin = #("list-style", "moccasin")
+
+pub const navajowhite = #("list-style", "navajowhite")
+
+pub const navy = #("list-style", "navy")
+
+pub const oldlace = #("list-style", "oldlace")
+
+pub const olive = #("list-style", "olive")
+
+pub const olivedrab = #("list-style", "olivedrab")
+
+pub const orange = #("list-style", "orange")
+
+pub const orangered = #("list-style", "orangered")
+
+pub const orchid = #("list-style", "orchid")
+
+pub const palegoldenrod = #("list-style", "palegoldenrod")
+
+pub const palegreen = #("list-style", "palegreen")
+
+pub const paleturquoise = #("list-style", "paleturquoise")
+
+pub const palevioletred = #("list-style", "palevioletred")
+
+pub const papayawhip = #("list-style", "papayawhip")
+
+pub const peachpuff = #("list-style", "peachpuff")
+
+pub const peru = #("list-style", "peru")
+
+pub const pink = #("list-style", "pink")
+
+pub const plum = #("list-style", "plum")
+
+pub const powderblue = #("list-style", "powderblue")
+
+pub const purple = #("list-style", "purple")
+
+pub const rebeccapurple = #("list-style", "rebeccapurple")
+
+pub const red = #("list-style", "red")
+
+pub const rosybrown = #("list-style", "rosybrown")
+
+pub const royalblue = #("list-style", "royalblue")
+
+pub const saddlebrown = #("list-style", "saddlebrown")
+
+pub const salmon = #("list-style", "salmon")
+
+pub const sandybrown = #("list-style", "sandybrown")
+
+pub const seagreen = #("list-style", "seagreen")
+
+pub const seashell = #("list-style", "seashell")
+
+pub const sienna = #("list-style", "sienna")
+
+pub const silver = #("list-style", "silver")
+
+pub const skyblue = #("list-style", "skyblue")
+
+pub const slateblue = #("list-style", "slateblue")
+
+pub const slategray = #("list-style", "slategray")
+
+pub const slategrey = #("list-style", "slategrey")
+
+pub const snow = #("list-style", "snow")
+
+pub const springgreen = #("list-style", "springgreen")
+
+pub const steelblue = #("list-style", "steelblue")
+
+pub const tan = #("list-style", "tan")
+
+pub const teal = #("list-style", "teal")
+
+pub const thistle = #("list-style", "thistle")
+
+pub const tomato = #("list-style", "tomato")
+
+pub const turquoise = #("list-style", "turquoise")
+
+pub const violet = #("list-style", "violet")
+
+pub const wheat = #("list-style", "wheat")
+
+pub const white = #("list-style", "white")
+
+pub const whitesmoke = #("list-style", "whitesmoke")
+
+pub const yellow = #("list-style", "yellow")
+
+pub const yellowgreen = #("list-style", "yellowgreen")
+
+pub const in = #("list-style", "in")
+
+pub const lab = #("list-style", "lab")
+
+pub const oklab = #("list-style", "oklab")
+
+pub const hsl = #("list-style", "hsl")
+
+pub const hwb = #("list-style", "hwb")
+
+pub const lch = #("list-style", "lch")
+
+pub const oklch = #("list-style", "oklch")
+
+pub const shorter = #("list-style", "shorter")
+
+pub const longer = #("list-style", "longer")
+
+pub const increasing = #("list-style", "increasing")
+
+pub const decreasing = #("list-style", "decreasing")
+
+pub const hue = #("list-style", "hue")
+
+pub const current_color = #("list-style", "currentColor")
+
+pub const accent_color = #("list-style", "AccentColor")
+
+pub const accent_color_text = #("list-style", "AccentColorText")
+
+pub const active_text = #("list-style", "ActiveText")
+
+pub const button_border = #("list-style", "ButtonBorder")
+
+pub const button_face = #("list-style", "ButtonFace")
+
+pub const button_text = #("list-style", "ButtonText")
+
+pub const canvas = #("list-style", "Canvas")
+
+pub const canvas_text = #("list-style", "CanvasText")
+
+pub const field = #("list-style", "Field")
+
+pub const field_text = #("list-style", "FieldText")
+
+pub const gray_text = #("list-style", "GrayText")
+
+pub const highlight = #("list-style", "Highlight")
+
+pub const highlight_text = #("list-style", "HighlightText")
+
+pub const link_text = #("list-style", "LinkText")
+
+pub const mark = #("list-style", "Mark")
+
+pub const mark_text = #("list-style", "MarkText")
+
+pub const selected_item = #("list-style", "SelectedItem")
+
+pub const selected_item_text = #("list-style", "SelectedItemText")
+
+pub const visited_text = #("list-style", "VisitedText")
+
+pub const moz_button_default = #("list-style", "-moz-ButtonDefault")
+
+pub const moz_button_hover_face = #("list-style", "-moz-ButtonHoverFace")
+
+pub const moz_button_hover_text = #("list-style", "-moz-ButtonHoverText")
+
+pub const moz_cell_highlight = #("list-style", "-moz-CellHighlight")
+
+pub const moz_cell_highlight_text = #("list-style", "-moz-CellHighlightText")
+
+pub const moz_combobox = #("list-style", "-moz-Combobox")
+
+pub const moz_combobox_text = #("list-style", "-moz-ComboboxText")
+
+pub const moz_dialog = #("list-style", "-moz-Dialog")
+
+pub const moz_dialog_text = #("list-style", "-moz-DialogText")
+
+pub const moz_dragtargetzone = #("list-style", "-moz-dragtargetzone")
+
+pub const moz_even_tree_row = #("list-style", "-moz-EvenTreeRow")
+
+pub const moz_field = #("list-style", "-moz-Field")
+
+pub const moz_field_text = #("list-style", "-moz-FieldText")
+
+pub const moz_html_cell_highlight = #("list-style", "-moz-html-CellHighlight")
+
+pub const moz_html_cell_highlight_text = #("list-style", "-moz-html-CellHighlightText")
+
+pub const moz_mac_accentdarkestshadow = #("list-style", "-moz-mac-accentdarkestshadow")
+
+pub const moz_mac_accentdarkshadow = #("list-style", "-moz-mac-accentdarkshadow")
+
+pub const moz_mac_accentface = #("list-style", "-moz-mac-accentface")
+
+pub const moz_mac_accentlightesthighlight = #("list-style", "-moz-mac-accentlightesthighlight")
+
+pub const moz_mac_accentlightshadow = #("list-style", "-moz-mac-accentlightshadow")
+
+pub const moz_mac_accentregularhighlight = #("list-style", "-moz-mac-accentregularhighlight")
+
+pub const moz_mac_accentregularshadow = #("list-style", "-moz-mac-accentregularshadow")
+
+pub const moz_mac_chrome_active = #("list-style", "-moz-mac-chrome-active")
+
+pub const moz_mac_chrome_inactive = #("list-style", "-moz-mac-chrome-inactive")
+
+pub const moz_mac_focusring = #("list-style", "-moz-mac-focusring")
+
+pub const moz_mac_menuselect = #("list-style", "-moz-mac-menuselect")
+
+pub const moz_mac_menushadow = #("list-style", "-moz-mac-menushadow")
+
+pub const moz_mac_menutextselect = #("list-style", "-moz-mac-menutextselect")
+
+pub const moz_menu_hover = #("list-style", "-moz-MenuHover")
+
+pub const moz_menu_hover_text = #("list-style", "-moz-MenuHoverText")
+
+pub const moz_menu_bar_text = #("list-style", "-moz-MenuBarText")
+
+pub const moz_menu_bar_hover_text = #("list-style", "-moz-MenuBarHoverText")
+
+pub const moz_nativehyperlinktext = #("list-style", "-moz-nativehyperlinktext")
+
+pub const moz_odd_tree_row = #("list-style", "-moz-OddTreeRow")
+
+pub const moz_win_communicationstext = #("list-style", "-moz-win-communicationstext")
+
+pub const moz_win_mediatext = #("list-style", "-moz-win-mediatext")
+
+pub const moz_activehyperlinktext = #("list-style", "-moz-activehyperlinktext")
+
+pub const moz_default_background_color = #("list-style", "-moz-default-background-color")
+
+pub const moz_default_color = #("list-style", "-moz-default-color")
+
+pub const moz_hyperlinktext = #("list-style", "-moz-hyperlinktext")
+
+pub const moz_visitedhyperlinktext = #("list-style", "-moz-visitedhyperlinktext")
+
+pub const webkit_activelink = #("list-style", "-webkit-activelink")
+
+pub const webkit_focus_ring_color = #("list-style", "-webkit-focus-ring-color")
+
+pub const webkit_link = #("list-style", "-webkit-link")
+
+pub const webkit_text = #("list-style", "-webkit-text")
+
+pub const first = #("list-style", "first")
+
+pub const start = #("list-style", "start")
+
+pub const last = #("list-style", "last")
+
+pub const first_except = #("list-style", "first-except")
+
+pub const to = #("list-style", "to")
+
+pub const left = #("list-style", "left")
+
+pub const right = #("list-style", "right")
+
+pub const top = #("list-style", "top")
+
+pub const bottom = #("list-style", "bottom")
+
+pub const circle = #("list-style", "circle")
+
+pub const ellipse = #("list-style", "ellipse")
+
+pub const closest_side = #("list-style", "closest-side")
+
+pub const farthest_side = #("list-style", "farthest-side")
+
+pub const closest_corner = #("list-style", "closest-corner")
+
+pub const farthest_corner = #("list-style", "farthest-corner")
+
+pub const at = #("list-style", "at")
+
+pub const center = #("list-style", "center")
+
+pub const from = #("list-style", "from")
+
+pub const linear = #("list-style", "linear")
+
+pub const radial = #("list-style", "radial")
+
+pub const contain = #("list-style", "contain")
+
+pub const cover = #("list-style", "cover")
 
 pub fn raw(value: String) -> #(String, String) {
   #("list_style", value)

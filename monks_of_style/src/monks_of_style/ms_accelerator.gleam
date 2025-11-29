@@ -1,12 +1,8 @@
 
 
-pub fn false() -> #(String, String) {
-  #("-ms-accelerator", "false")
-}
+pub const false = #("-ms-accelerator", "false")
 
-pub fn true() -> #(String, String) {
-  #("-ms-accelerator", "true")
-}
+pub const true = #("-ms-accelerator", "true")
 
 pub fn raw(value: String) -> #(String, String) {
   #("ms_accelerator", value)

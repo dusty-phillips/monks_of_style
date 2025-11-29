@@ -1,8 +1,6 @@
 
 
-pub fn none() -> #(String, String) {
-  #("list-style-type", "none")
-}
+pub const none = #("list-style-type", "none")
 
 pub fn raw(value: String) -> #(String, String) {
   #("list_style_type", value)

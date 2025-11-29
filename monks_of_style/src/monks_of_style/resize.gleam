@@ -1,28 +1,16 @@
 
 
-pub fn none() -> #(String, String) {
-  #("resize", "none")
-}
+pub const none = #("resize", "none")
 
-pub fn both() -> #(String, String) {
-  #("resize", "both")
-}
+pub const both = #("resize", "both")
 
-pub fn horizontal() -> #(String, String) {
-  #("resize", "horizontal")
-}
+pub const horizontal = #("resize", "horizontal")
 
-pub fn vertical() -> #(String, String) {
-  #("resize", "vertical")
-}
+pub const vertical = #("resize", "vertical")
 
-pub fn block() -> #(String, String) {
-  #("resize", "block")
-}
+pub const block = #("resize", "block")
 
-pub fn inline() -> #(String, String) {
-  #("resize", "inline")
-}
+pub const inline = #("resize", "inline")
 
 pub fn raw(value: String) -> #(String, String) {
   #("resize", value)

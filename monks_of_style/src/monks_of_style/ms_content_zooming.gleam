@@ -1,12 +1,8 @@
 
 
-pub fn none() -> #(String, String) {
-  #("-ms-content-zooming", "none")
-}
+pub const none = #("-ms-content-zooming", "none")
 
-pub fn zoom() -> #(String, String) {
-  #("-ms-content-zooming", "zoom")
-}
+pub const zoom = #("-ms-content-zooming", "zoom")
 
 pub fn raw(value: String) -> #(String, String) {
   #("ms_content_zooming", value)

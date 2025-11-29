@@ -1,32 +1,18 @@
 
 
-pub fn border_box() -> #(String, String) {
-  #("-webkit-background-clip", "border-box")
-}
+pub const border_box = #("-webkit-background-clip", "border-box")
 
-pub fn padding_box() -> #(String, String) {
-  #("-webkit-background-clip", "padding-box")
-}
+pub const padding_box = #("-webkit-background-clip", "padding-box")
 
-pub fn content_box() -> #(String, String) {
-  #("-webkit-background-clip", "content-box")
-}
+pub const content_box = #("-webkit-background-clip", "content-box")
 
-pub fn border() -> #(String, String) {
-  #("-webkit-background-clip", "border")
-}
+pub const border = #("-webkit-background-clip", "border")
 
-pub fn padding() -> #(String, String) {
-  #("-webkit-background-clip", "padding")
-}
+pub const padding = #("-webkit-background-clip", "padding")
 
-pub fn content() -> #(String, String) {
-  #("-webkit-background-clip", "content")
-}
+pub const content = #("-webkit-background-clip", "content")
 
-pub fn text() -> #(String, String) {
-  #("-webkit-background-clip", "text")
-}
+pub const text = #("-webkit-background-clip", "text")
 
 pub fn raw(value: String) -> #(String, String) {
   #("webkit_background_clip", value)

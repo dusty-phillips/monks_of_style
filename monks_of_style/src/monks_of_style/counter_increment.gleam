@@ -1,8 +1,6 @@
 
 
-pub fn none() -> #(String, String) {
-  #("counter-increment", "none")
-}
+pub const none = #("counter-increment", "none")
 
 pub fn raw(value: String) -> #(String, String) {
   #("counter_increment", value)

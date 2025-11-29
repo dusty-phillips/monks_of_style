@@ -1,40 +1,22 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("image-rendering", "auto")
-}
+pub const auto_ = #("image-rendering", "auto")
 
-pub fn crisp_edges() -> #(String, String) {
-  #("image-rendering", "crisp-edges")
-}
+pub const crisp_edges = #("image-rendering", "crisp-edges")
 
-pub fn pixelated() -> #(String, String) {
-  #("image-rendering", "pixelated")
-}
+pub const pixelated = #("image-rendering", "pixelated")
 
-pub fn optimize_speed() -> #(String, String) {
-  #("image-rendering", "optimizeSpeed")
-}
+pub const optimize_speed = #("image-rendering", "optimizeSpeed")
 
-pub fn optimize_quality() -> #(String, String) {
-  #("image-rendering", "optimizeQuality")
-}
+pub const optimize_quality = #("image-rendering", "optimizeQuality")
 
-pub fn optimize_contrast() -> #(String, String) {
-  #("image-rendering", "optimize-contrast")
-}
+pub const optimize_contrast = #("image-rendering", "optimize-contrast")
 
-pub fn moz_crisp_edges() -> #(String, String) {
-  #("image-rendering", "-moz-crisp-edges")
-}
+pub const moz_crisp_edges = #("image-rendering", "-moz-crisp-edges")
 
-pub fn o_crisp_edges() -> #(String, String) {
-  #("image-rendering", "-o-crisp-edges")
-}
+pub const o_crisp_edges = #("image-rendering", "-o-crisp-edges")
 
-pub fn webkit_optimize_contrast() -> #(String, String) {
-  #("image-rendering", "-webkit-optimize-contrast")
-}
+pub const webkit_optimize_contrast = #("image-rendering", "-webkit-optimize-contrast")
 
 pub fn raw(value: String) -> #(String, String) {
   #("image_rendering", value)

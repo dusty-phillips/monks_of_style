@@ -1,44 +1,24 @@
 
 
-pub fn none() -> #(String, String) {
-  #("border-inline-style", "none")
-}
+pub const none = #("border-inline-style", "none")
 
-pub fn hidden() -> #(String, String) {
-  #("border-inline-style", "hidden")
-}
+pub const hidden = #("border-inline-style", "hidden")
 
-pub fn dotted() -> #(String, String) {
-  #("border-inline-style", "dotted")
-}
+pub const dotted = #("border-inline-style", "dotted")
 
-pub fn dashed() -> #(String, String) {
-  #("border-inline-style", "dashed")
-}
+pub const dashed = #("border-inline-style", "dashed")
 
-pub fn solid() -> #(String, String) {
-  #("border-inline-style", "solid")
-}
+pub const solid = #("border-inline-style", "solid")
 
-pub fn double() -> #(String, String) {
-  #("border-inline-style", "double")
-}
+pub const double = #("border-inline-style", "double")
 
-pub fn groove() -> #(String, String) {
-  #("border-inline-style", "groove")
-}
+pub const groove = #("border-inline-style", "groove")
 
-pub fn ridge() -> #(String, String) {
-  #("border-inline-style", "ridge")
-}
+pub const ridge = #("border-inline-style", "ridge")
 
-pub fn inset() -> #(String, String) {
-  #("border-inline-style", "inset")
-}
+pub const inset = #("border-inline-style", "inset")
 
-pub fn outset() -> #(String, String) {
-  #("border-inline-style", "outset")
-}
+pub const outset = #("border-inline-style", "outset")
 
 pub fn raw(value: String) -> #(String, String) {
   #("border_inline_style", value)

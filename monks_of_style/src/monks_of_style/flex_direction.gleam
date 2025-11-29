@@ -1,20 +1,12 @@
 
 
-pub fn row() -> #(String, String) {
-  #("flex-direction", "row")
-}
+pub const row = #("flex-direction", "row")
 
-pub fn row_reverse() -> #(String, String) {
-  #("flex-direction", "row-reverse")
-}
+pub const row_reverse = #("flex-direction", "row-reverse")
 
-pub fn column() -> #(String, String) {
-  #("flex-direction", "column")
-}
+pub const column = #("flex-direction", "column")
 
-pub fn column_reverse() -> #(String, String) {
-  #("flex-direction", "column-reverse")
-}
+pub const column_reverse = #("flex-direction", "column-reverse")
 
 pub fn raw(value: String) -> #(String, String) {
   #("flex_direction", value)

@@ -1,20 +1,12 @@
 
 
-pub fn none() -> #(String, String) {
-  #("scroll-snap-align", "none")
-}
+pub const none = #("scroll-snap-align", "none")
 
-pub fn start() -> #(String, String) {
-  #("scroll-snap-align", "start")
-}
+pub const start = #("scroll-snap-align", "start")
 
-pub fn end() -> #(String, String) {
-  #("scroll-snap-align", "end")
-}
+pub const end = #("scroll-snap-align", "end")
 
-pub fn center() -> #(String, String) {
-  #("scroll-snap-align", "center")
-}
+pub const center = #("scroll-snap-align", "center")
 
 pub fn raw(value: String) -> #(String, String) {
   #("scroll_snap_align", value)

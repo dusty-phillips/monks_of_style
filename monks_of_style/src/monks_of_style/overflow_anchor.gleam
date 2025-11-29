@@ -1,12 +1,8 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("overflow-anchor", "auto")
-}
+pub const auto_ = #("overflow-anchor", "auto")
 
-pub fn none() -> #(String, String) {
-  #("overflow-anchor", "none")
-}
+pub const none = #("overflow-anchor", "none")
 
 pub fn raw(value: String) -> #(String, String) {
   #("overflow_anchor", value)

@@ -1,28 +1,16 @@
 
 
-pub fn start() -> #(String, String) {
-  #("-ms-flex-line-pack", "start")
-}
+pub const start = #("-ms-flex-line-pack", "start")
 
-pub fn end() -> #(String, String) {
-  #("-ms-flex-line-pack", "end")
-}
+pub const end = #("-ms-flex-line-pack", "end")
 
-pub fn center() -> #(String, String) {
-  #("-ms-flex-line-pack", "center")
-}
+pub const center = #("-ms-flex-line-pack", "center")
 
-pub fn justify() -> #(String, String) {
-  #("-ms-flex-line-pack", "justify")
-}
+pub const justify = #("-ms-flex-line-pack", "justify")
 
-pub fn distribute() -> #(String, String) {
-  #("-ms-flex-line-pack", "distribute")
-}
+pub const distribute = #("-ms-flex-line-pack", "distribute")
 
-pub fn stretch() -> #(String, String) {
-  #("-ms-flex-line-pack", "stretch")
-}
+pub const stretch = #("-ms-flex-line-pack", "stretch")
 
 pub fn raw(value: String) -> #(String, String) {
   #("ms_flex_line_pack", value)

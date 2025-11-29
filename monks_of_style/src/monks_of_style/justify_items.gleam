@@ -1,72 +1,38 @@
 
 
-pub fn normal() -> #(String, String) {
-  #("justify-items", "normal")
-}
+pub const normal = #("justify-items", "normal")
 
-pub fn stretch() -> #(String, String) {
-  #("justify-items", "stretch")
-}
+pub const stretch = #("justify-items", "stretch")
 
-pub fn first() -> #(String, String) {
-  #("justify-items", "first")
-}
+pub const first = #("justify-items", "first")
 
-pub fn last() -> #(String, String) {
-  #("justify-items", "last")
-}
+pub const last = #("justify-items", "last")
 
-pub fn baseline() -> #(String, String) {
-  #("justify-items", "baseline")
-}
+pub const baseline = #("justify-items", "baseline")
 
-pub fn unsafe() -> #(String, String) {
-  #("justify-items", "unsafe")
-}
+pub const unsafe = #("justify-items", "unsafe")
 
-pub fn safe() -> #(String, String) {
-  #("justify-items", "safe")
-}
+pub const safe = #("justify-items", "safe")
 
-pub fn center() -> #(String, String) {
-  #("justify-items", "center")
-}
+pub const center = #("justify-items", "center")
 
-pub fn start() -> #(String, String) {
-  #("justify-items", "start")
-}
+pub const start = #("justify-items", "start")
 
-pub fn end() -> #(String, String) {
-  #("justify-items", "end")
-}
+pub const end = #("justify-items", "end")
 
-pub fn self_start() -> #(String, String) {
-  #("justify-items", "self-start")
-}
+pub const self_start = #("justify-items", "self-start")
 
-pub fn self_end() -> #(String, String) {
-  #("justify-items", "self-end")
-}
+pub const self_end = #("justify-items", "self-end")
 
-pub fn flex_start() -> #(String, String) {
-  #("justify-items", "flex-start")
-}
+pub const flex_start = #("justify-items", "flex-start")
 
-pub fn flex_end() -> #(String, String) {
-  #("justify-items", "flex-end")
-}
+pub const flex_end = #("justify-items", "flex-end")
 
-pub fn left() -> #(String, String) {
-  #("justify-items", "left")
-}
+pub const left = #("justify-items", "left")
 
-pub fn right() -> #(String, String) {
-  #("justify-items", "right")
-}
+pub const right = #("justify-items", "right")
 
-pub fn legacy() -> #(String, String) {
-  #("justify-items", "legacy")
-}
+pub const legacy = #("justify-items", "legacy")
 
 pub fn raw(value: String) -> #(String, String) {
   #("justify_items", value)

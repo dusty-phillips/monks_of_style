@@ -1,16 +1,10 @@
 
 
-pub fn none() -> #(String, String) {
-  #("scroll-snap-type-y", "none")
-}
+pub const none = #("scroll-snap-type-y", "none")
 
-pub fn mandatory() -> #(String, String) {
-  #("scroll-snap-type-y", "mandatory")
-}
+pub const mandatory = #("scroll-snap-type-y", "mandatory")
 
-pub fn proximity() -> #(String, String) {
-  #("scroll-snap-type-y", "proximity")
-}
+pub const proximity = #("scroll-snap-type-y", "proximity")
 
 pub fn raw(value: String) -> #(String, String) {
   #("scroll_snap_type_y", value)

@@ -1,24 +1,14 @@
 
 
-pub fn visible() -> #(String, String) {
-  #("overflow-inline", "visible")
-}
+pub const visible = #("overflow-inline", "visible")
 
-pub fn hidden() -> #(String, String) {
-  #("overflow-inline", "hidden")
-}
+pub const hidden = #("overflow-inline", "hidden")
 
-pub fn clip() -> #(String, String) {
-  #("overflow-inline", "clip")
-}
+pub const clip = #("overflow-inline", "clip")
 
-pub fn scroll() -> #(String, String) {
-  #("overflow-inline", "scroll")
-}
+pub const scroll = #("overflow-inline", "scroll")
 
-pub fn auto_() -> #(String, String) {
-  #("overflow-inline", "auto")
-}
+pub const auto_ = #("overflow-inline", "auto")
 
 pub fn raw(value: String) -> #(String, String) {
   #("overflow_inline", value)

@@ -1,8 +1,6 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("inset-inline-end", "auto")
-}
+pub const auto_ = #("inset-inline-end", "auto")
 
 pub fn raw(value: String) -> #(String, String) {
   #("inset_inline_end", value)

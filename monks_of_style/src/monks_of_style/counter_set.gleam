@@ -1,8 +1,6 @@
 
 
-pub fn none() -> #(String, String) {
-  #("counter-set", "none")
-}
+pub const none = #("counter-set", "none")
 
 pub fn raw(value: String) -> #(String, String) {
   #("counter_set", value)

@@ -1,8 +1,6 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("left", "auto")
-}
+pub const auto_ = #("left", "auto")
 
 pub fn raw(value: String) -> #(String, String) {
   #("left", value)

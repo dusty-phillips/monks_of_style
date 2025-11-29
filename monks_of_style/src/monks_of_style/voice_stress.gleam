@@ -1,24 +1,14 @@
 
 
-pub fn normal() -> #(String, String) {
-  #("voice-stress", "normal")
-}
+pub const normal = #("voice-stress", "normal")
 
-pub fn strong() -> #(String, String) {
-  #("voice-stress", "strong")
-}
+pub const strong = #("voice-stress", "strong")
 
-pub fn moderate() -> #(String, String) {
-  #("voice-stress", "moderate")
-}
+pub const moderate = #("voice-stress", "moderate")
 
-pub fn none() -> #(String, String) {
-  #("voice-stress", "none")
-}
+pub const none = #("voice-stress", "none")
 
-pub fn reduced() -> #(String, String) {
-  #("voice-stress", "reduced")
-}
+pub const reduced = #("voice-stress", "reduced")
 
 pub fn raw(value: String) -> #(String, String) {
   #("voice_stress", value)

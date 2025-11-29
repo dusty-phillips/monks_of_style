@@ -1,16 +1,10 @@
 
 
-pub fn scroll() -> #(String, String) {
-  #("background-attachment", "scroll")
-}
+pub const scroll = #("background-attachment", "scroll")
 
-pub fn fixed() -> #(String, String) {
-  #("background-attachment", "fixed")
-}
+pub const fixed = #("background-attachment", "fixed")
 
-pub fn local() -> #(String, String) {
-  #("background-attachment", "local")
-}
+pub const local = #("background-attachment", "local")
 
 pub fn raw(value: String) -> #(String, String) {
   #("background_attachment", value)

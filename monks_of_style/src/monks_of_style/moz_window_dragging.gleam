@@ -1,12 +1,8 @@
 
 
-pub fn drag() -> #(String, String) {
-  #("-moz-window-dragging", "drag")
-}
+pub const drag = #("-moz-window-dragging", "drag")
 
-pub fn no_drag() -> #(String, String) {
-  #("-moz-window-dragging", "no-drag")
-}
+pub const no_drag = #("-moz-window-dragging", "no-drag")
 
 pub fn raw(value: String) -> #(String, String) {
   #("moz_window_dragging", value)

@@ -1,20 +1,12 @@
 
 
-pub fn normal() -> #(String, String) {
-  #("font-weight", "normal")
-}
+pub const normal = #("font-weight", "normal")
 
-pub fn bold() -> #(String, String) {
-  #("font-weight", "bold")
-}
+pub const bold = #("font-weight", "bold")
 
-pub fn bolder() -> #(String, String) {
-  #("font-weight", "bolder")
-}
+pub const bolder = #("font-weight", "bolder")
 
-pub fn lighter() -> #(String, String) {
-  #("font-weight", "lighter")
-}
+pub const lighter = #("font-weight", "lighter")
 
 pub fn raw(value: String) -> #(String, String) {
   #("font_weight", value)

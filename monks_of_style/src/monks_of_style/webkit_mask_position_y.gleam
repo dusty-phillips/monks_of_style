@@ -1,16 +1,10 @@
 
 
-pub fn top() -> #(String, String) {
-  #("-webkit-mask-position-y", "top")
-}
+pub const top = #("-webkit-mask-position-y", "top")
 
-pub fn center() -> #(String, String) {
-  #("-webkit-mask-position-y", "center")
-}
+pub const center = #("-webkit-mask-position-y", "center")
 
-pub fn bottom() -> #(String, String) {
-  #("-webkit-mask-position-y", "bottom")
-}
+pub const bottom = #("-webkit-mask-position-y", "bottom")
 
 pub fn raw(value: String) -> #(String, String) {
   #("webkit_mask_position_y", value)

@@ -1,948 +1,476 @@
 
 
-pub fn none() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "none")
-}
-
-pub fn srgb() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "srgb")
-}
-
-pub fn srgb_linear() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "srgb-linear")
-}
-
-pub fn display_p3() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "display-p3")
-}
-
-pub fn a98_rgb() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "a98-rgb")
-}
-
-pub fn prophoto_rgb() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "prophoto-rgb")
-}
-
-pub fn rec2020() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "rec2020")
-}
-
-pub fn xyz() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "xyz")
-}
-
-pub fn xyz_d50() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "xyz-d50")
-}
-
-pub fn xyz_d65() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "xyz-d65")
-}
-
-pub fn transparent() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "transparent")
-}
-
-pub fn aliceblue() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "aliceblue")
-}
-
-pub fn antiquewhite() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "antiquewhite")
-}
-
-pub fn aqua() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "aqua")
-}
-
-pub fn aquamarine() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "aquamarine")
-}
-
-pub fn azure() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "azure")
-}
-
-pub fn beige() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "beige")
-}
-
-pub fn bisque() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "bisque")
-}
-
-pub fn black() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "black")
-}
-
-pub fn blanchedalmond() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "blanchedalmond")
-}
-
-pub fn blue() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "blue")
-}
-
-pub fn blueviolet() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "blueviolet")
-}
-
-pub fn brown() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "brown")
-}
-
-pub fn burlywood() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "burlywood")
-}
-
-pub fn cadetblue() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "cadetblue")
-}
-
-pub fn chartreuse() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "chartreuse")
-}
-
-pub fn chocolate() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "chocolate")
-}
-
-pub fn coral() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "coral")
-}
-
-pub fn cornflowerblue() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "cornflowerblue")
-}
-
-pub fn cornsilk() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "cornsilk")
-}
-
-pub fn crimson() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "crimson")
-}
-
-pub fn cyan() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "cyan")
-}
-
-pub fn darkblue() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "darkblue")
-}
-
-pub fn darkcyan() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "darkcyan")
-}
-
-pub fn darkgoldenrod() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "darkgoldenrod")
-}
-
-pub fn darkgray() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "darkgray")
-}
-
-pub fn darkgreen() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "darkgreen")
-}
-
-pub fn darkgrey() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "darkgrey")
-}
-
-pub fn darkkhaki() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "darkkhaki")
-}
-
-pub fn darkmagenta() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "darkmagenta")
-}
-
-pub fn darkolivegreen() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "darkolivegreen")
-}
-
-pub fn darkorange() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "darkorange")
-}
-
-pub fn darkorchid() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "darkorchid")
-}
-
-pub fn darkred() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "darkred")
-}
-
-pub fn darksalmon() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "darksalmon")
-}
-
-pub fn darkseagreen() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "darkseagreen")
-}
-
-pub fn darkslateblue() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "darkslateblue")
-}
-
-pub fn darkslategray() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "darkslategray")
-}
-
-pub fn darkslategrey() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "darkslategrey")
-}
-
-pub fn darkturquoise() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "darkturquoise")
-}
-
-pub fn darkviolet() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "darkviolet")
-}
-
-pub fn deeppink() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "deeppink")
-}
-
-pub fn deepskyblue() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "deepskyblue")
-}
-
-pub fn dimgray() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "dimgray")
-}
-
-pub fn dimgrey() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "dimgrey")
-}
-
-pub fn dodgerblue() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "dodgerblue")
-}
-
-pub fn firebrick() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "firebrick")
-}
-
-pub fn floralwhite() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "floralwhite")
-}
-
-pub fn forestgreen() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "forestgreen")
-}
-
-pub fn fuchsia() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "fuchsia")
-}
-
-pub fn gainsboro() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "gainsboro")
-}
-
-pub fn ghostwhite() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "ghostwhite")
-}
-
-pub fn gold() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "gold")
-}
-
-pub fn goldenrod() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "goldenrod")
-}
-
-pub fn gray() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "gray")
-}
-
-pub fn green() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "green")
-}
-
-pub fn greenyellow() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "greenyellow")
-}
-
-pub fn grey() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "grey")
-}
-
-pub fn honeydew() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "honeydew")
-}
-
-pub fn hotpink() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "hotpink")
-}
-
-pub fn indianred() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "indianred")
-}
-
-pub fn indigo() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "indigo")
-}
-
-pub fn ivory() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "ivory")
-}
-
-pub fn khaki() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "khaki")
-}
-
-pub fn lavender() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "lavender")
-}
-
-pub fn lavenderblush() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "lavenderblush")
-}
-
-pub fn lawngreen() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "lawngreen")
-}
-
-pub fn lemonchiffon() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "lemonchiffon")
-}
-
-pub fn lightblue() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "lightblue")
-}
-
-pub fn lightcoral() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "lightcoral")
-}
-
-pub fn lightcyan() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "lightcyan")
-}
-
-pub fn lightgoldenrodyellow() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "lightgoldenrodyellow")
-}
-
-pub fn lightgray() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "lightgray")
-}
-
-pub fn lightgreen() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "lightgreen")
-}
-
-pub fn lightgrey() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "lightgrey")
-}
-
-pub fn lightpink() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "lightpink")
-}
-
-pub fn lightsalmon() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "lightsalmon")
-}
-
-pub fn lightseagreen() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "lightseagreen")
-}
-
-pub fn lightskyblue() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "lightskyblue")
-}
-
-pub fn lightslategray() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "lightslategray")
-}
-
-pub fn lightslategrey() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "lightslategrey")
-}
-
-pub fn lightsteelblue() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "lightsteelblue")
-}
-
-pub fn lightyellow() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "lightyellow")
-}
-
-pub fn lime() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "lime")
-}
-
-pub fn limegreen() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "limegreen")
-}
-
-pub fn linen() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "linen")
-}
-
-pub fn magenta() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "magenta")
-}
-
-pub fn maroon() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "maroon")
-}
-
-pub fn mediumaquamarine() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "mediumaquamarine")
-}
-
-pub fn mediumblue() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "mediumblue")
-}
-
-pub fn mediumorchid() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "mediumorchid")
-}
-
-pub fn mediumpurple() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "mediumpurple")
-}
-
-pub fn mediumseagreen() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "mediumseagreen")
-}
-
-pub fn mediumslateblue() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "mediumslateblue")
-}
-
-pub fn mediumspringgreen() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "mediumspringgreen")
-}
-
-pub fn mediumturquoise() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "mediumturquoise")
-}
-
-pub fn mediumvioletred() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "mediumvioletred")
-}
-
-pub fn midnightblue() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "midnightblue")
-}
-
-pub fn mintcream() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "mintcream")
-}
-
-pub fn mistyrose() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "mistyrose")
-}
-
-pub fn moccasin() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "moccasin")
-}
-
-pub fn navajowhite() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "navajowhite")
-}
-
-pub fn navy() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "navy")
-}
-
-pub fn oldlace() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "oldlace")
-}
-
-pub fn olive() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "olive")
-}
-
-pub fn olivedrab() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "olivedrab")
-}
-
-pub fn orange() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "orange")
-}
-
-pub fn orangered() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "orangered")
-}
-
-pub fn orchid() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "orchid")
-}
-
-pub fn palegoldenrod() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "palegoldenrod")
-}
-
-pub fn palegreen() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "palegreen")
-}
-
-pub fn paleturquoise() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "paleturquoise")
-}
-
-pub fn palevioletred() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "palevioletred")
-}
-
-pub fn papayawhip() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "papayawhip")
-}
-
-pub fn peachpuff() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "peachpuff")
-}
-
-pub fn peru() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "peru")
-}
-
-pub fn pink() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "pink")
-}
-
-pub fn plum() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "plum")
-}
-
-pub fn powderblue() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "powderblue")
-}
-
-pub fn purple() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "purple")
-}
-
-pub fn rebeccapurple() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "rebeccapurple")
-}
-
-pub fn red() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "red")
-}
-
-pub fn rosybrown() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "rosybrown")
-}
-
-pub fn royalblue() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "royalblue")
-}
-
-pub fn saddlebrown() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "saddlebrown")
-}
-
-pub fn salmon() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "salmon")
-}
-
-pub fn sandybrown() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "sandybrown")
-}
-
-pub fn seagreen() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "seagreen")
-}
-
-pub fn seashell() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "seashell")
-}
-
-pub fn sienna() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "sienna")
-}
-
-pub fn silver() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "silver")
-}
-
-pub fn skyblue() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "skyblue")
-}
-
-pub fn slateblue() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "slateblue")
-}
-
-pub fn slategray() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "slategray")
-}
-
-pub fn slategrey() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "slategrey")
-}
-
-pub fn snow() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "snow")
-}
-
-pub fn springgreen() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "springgreen")
-}
-
-pub fn steelblue() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "steelblue")
-}
-
-pub fn tan() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "tan")
-}
-
-pub fn teal() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "teal")
-}
-
-pub fn thistle() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "thistle")
-}
-
-pub fn tomato() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "tomato")
-}
-
-pub fn turquoise() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "turquoise")
-}
-
-pub fn violet() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "violet")
-}
-
-pub fn wheat() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "wheat")
-}
-
-pub fn white() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "white")
-}
-
-pub fn whitesmoke() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "whitesmoke")
-}
-
-pub fn yellow() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "yellow")
-}
-
-pub fn yellowgreen() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "yellowgreen")
-}
-
-pub fn in() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "in")
-}
-
-pub fn lab() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "lab")
-}
-
-pub fn oklab() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "oklab")
-}
-
-pub fn hsl() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "hsl")
-}
-
-pub fn hwb() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "hwb")
-}
-
-pub fn lch() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "lch")
-}
-
-pub fn oklch() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "oklch")
-}
-
-pub fn shorter() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "shorter")
-}
-
-pub fn longer() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "longer")
-}
-
-pub fn increasing() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "increasing")
-}
-
-pub fn decreasing() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "decreasing")
-}
-
-pub fn hue() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "hue")
-}
-
-pub fn current_color() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "currentColor")
-}
-
-pub fn accent_color() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "AccentColor")
-}
-
-pub fn accent_color_text() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "AccentColorText")
-}
-
-pub fn active_text() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "ActiveText")
-}
-
-pub fn button_border() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "ButtonBorder")
-}
-
-pub fn button_face() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "ButtonFace")
-}
-
-pub fn button_text() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "ButtonText")
-}
-
-pub fn canvas() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "Canvas")
-}
-
-pub fn canvas_text() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "CanvasText")
-}
-
-pub fn field() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "Field")
-}
-
-pub fn field_text() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "FieldText")
-}
-
-pub fn gray_text() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "GrayText")
-}
-
-pub fn highlight() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "Highlight")
-}
-
-pub fn highlight_text() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "HighlightText")
-}
-
-pub fn link_text() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "LinkText")
-}
-
-pub fn mark() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "Mark")
-}
-
-pub fn mark_text() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "MarkText")
-}
-
-pub fn selected_item() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "SelectedItem")
-}
-
-pub fn selected_item_text() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "SelectedItemText")
-}
-
-pub fn visited_text() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "VisitedText")
-}
-
-pub fn moz_button_default() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "-moz-ButtonDefault")
-}
-
-pub fn moz_button_hover_face() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "-moz-ButtonHoverFace")
-}
-
-pub fn moz_button_hover_text() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "-moz-ButtonHoverText")
-}
-
-pub fn moz_cell_highlight() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "-moz-CellHighlight")
-}
-
-pub fn moz_cell_highlight_text() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "-moz-CellHighlightText")
-}
-
-pub fn moz_combobox() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "-moz-Combobox")
-}
-
-pub fn moz_combobox_text() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "-moz-ComboboxText")
-}
-
-pub fn moz_dialog() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "-moz-Dialog")
-}
-
-pub fn moz_dialog_text() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "-moz-DialogText")
-}
-
-pub fn moz_dragtargetzone() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "-moz-dragtargetzone")
-}
-
-pub fn moz_even_tree_row() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "-moz-EvenTreeRow")
-}
-
-pub fn moz_field() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "-moz-Field")
-}
-
-pub fn moz_field_text() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "-moz-FieldText")
-}
-
-pub fn moz_html_cell_highlight() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "-moz-html-CellHighlight")
-}
-
-pub fn moz_html_cell_highlight_text() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "-moz-html-CellHighlightText")
-}
-
-pub fn moz_mac_accentdarkestshadow() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "-moz-mac-accentdarkestshadow")
-}
-
-pub fn moz_mac_accentdarkshadow() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "-moz-mac-accentdarkshadow")
-}
-
-pub fn moz_mac_accentface() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "-moz-mac-accentface")
-}
-
-pub fn moz_mac_accentlightesthighlight() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "-moz-mac-accentlightesthighlight")
-}
-
-pub fn moz_mac_accentlightshadow() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "-moz-mac-accentlightshadow")
-}
-
-pub fn moz_mac_accentregularhighlight() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "-moz-mac-accentregularhighlight")
-}
-
-pub fn moz_mac_accentregularshadow() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "-moz-mac-accentregularshadow")
-}
-
-pub fn moz_mac_chrome_active() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "-moz-mac-chrome-active")
-}
-
-pub fn moz_mac_chrome_inactive() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "-moz-mac-chrome-inactive")
-}
-
-pub fn moz_mac_focusring() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "-moz-mac-focusring")
-}
-
-pub fn moz_mac_menuselect() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "-moz-mac-menuselect")
-}
-
-pub fn moz_mac_menushadow() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "-moz-mac-menushadow")
-}
-
-pub fn moz_mac_menutextselect() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "-moz-mac-menutextselect")
-}
-
-pub fn moz_menu_hover() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "-moz-MenuHover")
-}
-
-pub fn moz_menu_hover_text() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "-moz-MenuHoverText")
-}
-
-pub fn moz_menu_bar_text() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "-moz-MenuBarText")
-}
-
-pub fn moz_menu_bar_hover_text() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "-moz-MenuBarHoverText")
-}
-
-pub fn moz_nativehyperlinktext() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "-moz-nativehyperlinktext")
-}
-
-pub fn moz_odd_tree_row() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "-moz-OddTreeRow")
-}
-
-pub fn moz_win_communicationstext() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "-moz-win-communicationstext")
-}
-
-pub fn moz_win_mediatext() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "-moz-win-mediatext")
-}
-
-pub fn moz_activehyperlinktext() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "-moz-activehyperlinktext")
-}
-
-pub fn moz_default_background_color() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "-moz-default-background-color")
-}
-
-pub fn moz_default_color() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "-moz-default-color")
-}
-
-pub fn moz_hyperlinktext() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "-moz-hyperlinktext")
-}
-
-pub fn moz_visitedhyperlinktext() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "-moz-visitedhyperlinktext")
-}
-
-pub fn webkit_activelink() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "-webkit-activelink")
-}
-
-pub fn webkit_focus_ring_color() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "-webkit-focus-ring-color")
-}
-
-pub fn webkit_link() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "-webkit-link")
-}
-
-pub fn webkit_text() -> #(String, String) {
-  #("-ms-scrollbar-track-color", "-webkit-text")
-}
+pub const none = #("-ms-scrollbar-track-color", "none")
+
+pub const srgb = #("-ms-scrollbar-track-color", "srgb")
+
+pub const srgb_linear = #("-ms-scrollbar-track-color", "srgb-linear")
+
+pub const display_p3 = #("-ms-scrollbar-track-color", "display-p3")
+
+pub const a98_rgb = #("-ms-scrollbar-track-color", "a98-rgb")
+
+pub const prophoto_rgb = #("-ms-scrollbar-track-color", "prophoto-rgb")
+
+pub const rec2020 = #("-ms-scrollbar-track-color", "rec2020")
+
+pub const xyz = #("-ms-scrollbar-track-color", "xyz")
+
+pub const xyz_d50 = #("-ms-scrollbar-track-color", "xyz-d50")
+
+pub const xyz_d65 = #("-ms-scrollbar-track-color", "xyz-d65")
+
+pub const transparent = #("-ms-scrollbar-track-color", "transparent")
+
+pub const aliceblue = #("-ms-scrollbar-track-color", "aliceblue")
+
+pub const antiquewhite = #("-ms-scrollbar-track-color", "antiquewhite")
+
+pub const aqua = #("-ms-scrollbar-track-color", "aqua")
+
+pub const aquamarine = #("-ms-scrollbar-track-color", "aquamarine")
+
+pub const azure = #("-ms-scrollbar-track-color", "azure")
+
+pub const beige = #("-ms-scrollbar-track-color", "beige")
+
+pub const bisque = #("-ms-scrollbar-track-color", "bisque")
+
+pub const black = #("-ms-scrollbar-track-color", "black")
+
+pub const blanchedalmond = #("-ms-scrollbar-track-color", "blanchedalmond")
+
+pub const blue = #("-ms-scrollbar-track-color", "blue")
+
+pub const blueviolet = #("-ms-scrollbar-track-color", "blueviolet")
+
+pub const brown = #("-ms-scrollbar-track-color", "brown")
+
+pub const burlywood = #("-ms-scrollbar-track-color", "burlywood")
+
+pub const cadetblue = #("-ms-scrollbar-track-color", "cadetblue")
+
+pub const chartreuse = #("-ms-scrollbar-track-color", "chartreuse")
+
+pub const chocolate = #("-ms-scrollbar-track-color", "chocolate")
+
+pub const coral = #("-ms-scrollbar-track-color", "coral")
+
+pub const cornflowerblue = #("-ms-scrollbar-track-color", "cornflowerblue")
+
+pub const cornsilk = #("-ms-scrollbar-track-color", "cornsilk")
+
+pub const crimson = #("-ms-scrollbar-track-color", "crimson")
+
+pub const cyan = #("-ms-scrollbar-track-color", "cyan")
+
+pub const darkblue = #("-ms-scrollbar-track-color", "darkblue")
+
+pub const darkcyan = #("-ms-scrollbar-track-color", "darkcyan")
+
+pub const darkgoldenrod = #("-ms-scrollbar-track-color", "darkgoldenrod")
+
+pub const darkgray = #("-ms-scrollbar-track-color", "darkgray")
+
+pub const darkgreen = #("-ms-scrollbar-track-color", "darkgreen")
+
+pub const darkgrey = #("-ms-scrollbar-track-color", "darkgrey")
+
+pub const darkkhaki = #("-ms-scrollbar-track-color", "darkkhaki")
+
+pub const darkmagenta = #("-ms-scrollbar-track-color", "darkmagenta")
+
+pub const darkolivegreen = #("-ms-scrollbar-track-color", "darkolivegreen")
+
+pub const darkorange = #("-ms-scrollbar-track-color", "darkorange")
+
+pub const darkorchid = #("-ms-scrollbar-track-color", "darkorchid")
+
+pub const darkred = #("-ms-scrollbar-track-color", "darkred")
+
+pub const darksalmon = #("-ms-scrollbar-track-color", "darksalmon")
+
+pub const darkseagreen = #("-ms-scrollbar-track-color", "darkseagreen")
+
+pub const darkslateblue = #("-ms-scrollbar-track-color", "darkslateblue")
+
+pub const darkslategray = #("-ms-scrollbar-track-color", "darkslategray")
+
+pub const darkslategrey = #("-ms-scrollbar-track-color", "darkslategrey")
+
+pub const darkturquoise = #("-ms-scrollbar-track-color", "darkturquoise")
+
+pub const darkviolet = #("-ms-scrollbar-track-color", "darkviolet")
+
+pub const deeppink = #("-ms-scrollbar-track-color", "deeppink")
+
+pub const deepskyblue = #("-ms-scrollbar-track-color", "deepskyblue")
+
+pub const dimgray = #("-ms-scrollbar-track-color", "dimgray")
+
+pub const dimgrey = #("-ms-scrollbar-track-color", "dimgrey")
+
+pub const dodgerblue = #("-ms-scrollbar-track-color", "dodgerblue")
+
+pub const firebrick = #("-ms-scrollbar-track-color", "firebrick")
+
+pub const floralwhite = #("-ms-scrollbar-track-color", "floralwhite")
+
+pub const forestgreen = #("-ms-scrollbar-track-color", "forestgreen")
+
+pub const fuchsia = #("-ms-scrollbar-track-color", "fuchsia")
+
+pub const gainsboro = #("-ms-scrollbar-track-color", "gainsboro")
+
+pub const ghostwhite = #("-ms-scrollbar-track-color", "ghostwhite")
+
+pub const gold = #("-ms-scrollbar-track-color", "gold")
+
+pub const goldenrod = #("-ms-scrollbar-track-color", "goldenrod")
+
+pub const gray = #("-ms-scrollbar-track-color", "gray")
+
+pub const green = #("-ms-scrollbar-track-color", "green")
+
+pub const greenyellow = #("-ms-scrollbar-track-color", "greenyellow")
+
+pub const grey = #("-ms-scrollbar-track-color", "grey")
+
+pub const honeydew = #("-ms-scrollbar-track-color", "honeydew")
+
+pub const hotpink = #("-ms-scrollbar-track-color", "hotpink")
+
+pub const indianred = #("-ms-scrollbar-track-color", "indianred")
+
+pub const indigo = #("-ms-scrollbar-track-color", "indigo")
+
+pub const ivory = #("-ms-scrollbar-track-color", "ivory")
+
+pub const khaki = #("-ms-scrollbar-track-color", "khaki")
+
+pub const lavender = #("-ms-scrollbar-track-color", "lavender")
+
+pub const lavenderblush = #("-ms-scrollbar-track-color", "lavenderblush")
+
+pub const lawngreen = #("-ms-scrollbar-track-color", "lawngreen")
+
+pub const lemonchiffon = #("-ms-scrollbar-track-color", "lemonchiffon")
+
+pub const lightblue = #("-ms-scrollbar-track-color", "lightblue")
+
+pub const lightcoral = #("-ms-scrollbar-track-color", "lightcoral")
+
+pub const lightcyan = #("-ms-scrollbar-track-color", "lightcyan")
+
+pub const lightgoldenrodyellow = #("-ms-scrollbar-track-color", "lightgoldenrodyellow")
+
+pub const lightgray = #("-ms-scrollbar-track-color", "lightgray")
+
+pub const lightgreen = #("-ms-scrollbar-track-color", "lightgreen")
+
+pub const lightgrey = #("-ms-scrollbar-track-color", "lightgrey")
+
+pub const lightpink = #("-ms-scrollbar-track-color", "lightpink")
+
+pub const lightsalmon = #("-ms-scrollbar-track-color", "lightsalmon")
+
+pub const lightseagreen = #("-ms-scrollbar-track-color", "lightseagreen")
+
+pub const lightskyblue = #("-ms-scrollbar-track-color", "lightskyblue")
+
+pub const lightslategray = #("-ms-scrollbar-track-color", "lightslategray")
+
+pub const lightslategrey = #("-ms-scrollbar-track-color", "lightslategrey")
+
+pub const lightsteelblue = #("-ms-scrollbar-track-color", "lightsteelblue")
+
+pub const lightyellow = #("-ms-scrollbar-track-color", "lightyellow")
+
+pub const lime = #("-ms-scrollbar-track-color", "lime")
+
+pub const limegreen = #("-ms-scrollbar-track-color", "limegreen")
+
+pub const linen = #("-ms-scrollbar-track-color", "linen")
+
+pub const magenta = #("-ms-scrollbar-track-color", "magenta")
+
+pub const maroon = #("-ms-scrollbar-track-color", "maroon")
+
+pub const mediumaquamarine = #("-ms-scrollbar-track-color", "mediumaquamarine")
+
+pub const mediumblue = #("-ms-scrollbar-track-color", "mediumblue")
+
+pub const mediumorchid = #("-ms-scrollbar-track-color", "mediumorchid")
+
+pub const mediumpurple = #("-ms-scrollbar-track-color", "mediumpurple")
+
+pub const mediumseagreen = #("-ms-scrollbar-track-color", "mediumseagreen")
+
+pub const mediumslateblue = #("-ms-scrollbar-track-color", "mediumslateblue")
+
+pub const mediumspringgreen = #("-ms-scrollbar-track-color", "mediumspringgreen")
+
+pub const mediumturquoise = #("-ms-scrollbar-track-color", "mediumturquoise")
+
+pub const mediumvioletred = #("-ms-scrollbar-track-color", "mediumvioletred")
+
+pub const midnightblue = #("-ms-scrollbar-track-color", "midnightblue")
+
+pub const mintcream = #("-ms-scrollbar-track-color", "mintcream")
+
+pub const mistyrose = #("-ms-scrollbar-track-color", "mistyrose")
+
+pub const moccasin = #("-ms-scrollbar-track-color", "moccasin")
+
+pub const navajowhite = #("-ms-scrollbar-track-color", "navajowhite")
+
+pub const navy = #("-ms-scrollbar-track-color", "navy")
+
+pub const oldlace = #("-ms-scrollbar-track-color", "oldlace")
+
+pub const olive = #("-ms-scrollbar-track-color", "olive")
+
+pub const olivedrab = #("-ms-scrollbar-track-color", "olivedrab")
+
+pub const orange = #("-ms-scrollbar-track-color", "orange")
+
+pub const orangered = #("-ms-scrollbar-track-color", "orangered")
+
+pub const orchid = #("-ms-scrollbar-track-color", "orchid")
+
+pub const palegoldenrod = #("-ms-scrollbar-track-color", "palegoldenrod")
+
+pub const palegreen = #("-ms-scrollbar-track-color", "palegreen")
+
+pub const paleturquoise = #("-ms-scrollbar-track-color", "paleturquoise")
+
+pub const palevioletred = #("-ms-scrollbar-track-color", "palevioletred")
+
+pub const papayawhip = #("-ms-scrollbar-track-color", "papayawhip")
+
+pub const peachpuff = #("-ms-scrollbar-track-color", "peachpuff")
+
+pub const peru = #("-ms-scrollbar-track-color", "peru")
+
+pub const pink = #("-ms-scrollbar-track-color", "pink")
+
+pub const plum = #("-ms-scrollbar-track-color", "plum")
+
+pub const powderblue = #("-ms-scrollbar-track-color", "powderblue")
+
+pub const purple = #("-ms-scrollbar-track-color", "purple")
+
+pub const rebeccapurple = #("-ms-scrollbar-track-color", "rebeccapurple")
+
+pub const red = #("-ms-scrollbar-track-color", "red")
+
+pub const rosybrown = #("-ms-scrollbar-track-color", "rosybrown")
+
+pub const royalblue = #("-ms-scrollbar-track-color", "royalblue")
+
+pub const saddlebrown = #("-ms-scrollbar-track-color", "saddlebrown")
+
+pub const salmon = #("-ms-scrollbar-track-color", "salmon")
+
+pub const sandybrown = #("-ms-scrollbar-track-color", "sandybrown")
+
+pub const seagreen = #("-ms-scrollbar-track-color", "seagreen")
+
+pub const seashell = #("-ms-scrollbar-track-color", "seashell")
+
+pub const sienna = #("-ms-scrollbar-track-color", "sienna")
+
+pub const silver = #("-ms-scrollbar-track-color", "silver")
+
+pub const skyblue = #("-ms-scrollbar-track-color", "skyblue")
+
+pub const slateblue = #("-ms-scrollbar-track-color", "slateblue")
+
+pub const slategray = #("-ms-scrollbar-track-color", "slategray")
+
+pub const slategrey = #("-ms-scrollbar-track-color", "slategrey")
+
+pub const snow = #("-ms-scrollbar-track-color", "snow")
+
+pub const springgreen = #("-ms-scrollbar-track-color", "springgreen")
+
+pub const steelblue = #("-ms-scrollbar-track-color", "steelblue")
+
+pub const tan = #("-ms-scrollbar-track-color", "tan")
+
+pub const teal = #("-ms-scrollbar-track-color", "teal")
+
+pub const thistle = #("-ms-scrollbar-track-color", "thistle")
+
+pub const tomato = #("-ms-scrollbar-track-color", "tomato")
+
+pub const turquoise = #("-ms-scrollbar-track-color", "turquoise")
+
+pub const violet = #("-ms-scrollbar-track-color", "violet")
+
+pub const wheat = #("-ms-scrollbar-track-color", "wheat")
+
+pub const white = #("-ms-scrollbar-track-color", "white")
+
+pub const whitesmoke = #("-ms-scrollbar-track-color", "whitesmoke")
+
+pub const yellow = #("-ms-scrollbar-track-color", "yellow")
+
+pub const yellowgreen = #("-ms-scrollbar-track-color", "yellowgreen")
+
+pub const in = #("-ms-scrollbar-track-color", "in")
+
+pub const lab = #("-ms-scrollbar-track-color", "lab")
+
+pub const oklab = #("-ms-scrollbar-track-color", "oklab")
+
+pub const hsl = #("-ms-scrollbar-track-color", "hsl")
+
+pub const hwb = #("-ms-scrollbar-track-color", "hwb")
+
+pub const lch = #("-ms-scrollbar-track-color", "lch")
+
+pub const oklch = #("-ms-scrollbar-track-color", "oklch")
+
+pub const shorter = #("-ms-scrollbar-track-color", "shorter")
+
+pub const longer = #("-ms-scrollbar-track-color", "longer")
+
+pub const increasing = #("-ms-scrollbar-track-color", "increasing")
+
+pub const decreasing = #("-ms-scrollbar-track-color", "decreasing")
+
+pub const hue = #("-ms-scrollbar-track-color", "hue")
+
+pub const current_color = #("-ms-scrollbar-track-color", "currentColor")
+
+pub const accent_color = #("-ms-scrollbar-track-color", "AccentColor")
+
+pub const accent_color_text = #("-ms-scrollbar-track-color", "AccentColorText")
+
+pub const active_text = #("-ms-scrollbar-track-color", "ActiveText")
+
+pub const button_border = #("-ms-scrollbar-track-color", "ButtonBorder")
+
+pub const button_face = #("-ms-scrollbar-track-color", "ButtonFace")
+
+pub const button_text = #("-ms-scrollbar-track-color", "ButtonText")
+
+pub const canvas = #("-ms-scrollbar-track-color", "Canvas")
+
+pub const canvas_text = #("-ms-scrollbar-track-color", "CanvasText")
+
+pub const field = #("-ms-scrollbar-track-color", "Field")
+
+pub const field_text = #("-ms-scrollbar-track-color", "FieldText")
+
+pub const gray_text = #("-ms-scrollbar-track-color", "GrayText")
+
+pub const highlight = #("-ms-scrollbar-track-color", "Highlight")
+
+pub const highlight_text = #("-ms-scrollbar-track-color", "HighlightText")
+
+pub const link_text = #("-ms-scrollbar-track-color", "LinkText")
+
+pub const mark = #("-ms-scrollbar-track-color", "Mark")
+
+pub const mark_text = #("-ms-scrollbar-track-color", "MarkText")
+
+pub const selected_item = #("-ms-scrollbar-track-color", "SelectedItem")
+
+pub const selected_item_text = #("-ms-scrollbar-track-color", "SelectedItemText")
+
+pub const visited_text = #("-ms-scrollbar-track-color", "VisitedText")
+
+pub const moz_button_default = #("-ms-scrollbar-track-color", "-moz-ButtonDefault")
+
+pub const moz_button_hover_face = #("-ms-scrollbar-track-color", "-moz-ButtonHoverFace")
+
+pub const moz_button_hover_text = #("-ms-scrollbar-track-color", "-moz-ButtonHoverText")
+
+pub const moz_cell_highlight = #("-ms-scrollbar-track-color", "-moz-CellHighlight")
+
+pub const moz_cell_highlight_text = #("-ms-scrollbar-track-color", "-moz-CellHighlightText")
+
+pub const moz_combobox = #("-ms-scrollbar-track-color", "-moz-Combobox")
+
+pub const moz_combobox_text = #("-ms-scrollbar-track-color", "-moz-ComboboxText")
+
+pub const moz_dialog = #("-ms-scrollbar-track-color", "-moz-Dialog")
+
+pub const moz_dialog_text = #("-ms-scrollbar-track-color", "-moz-DialogText")
+
+pub const moz_dragtargetzone = #("-ms-scrollbar-track-color", "-moz-dragtargetzone")
+
+pub const moz_even_tree_row = #("-ms-scrollbar-track-color", "-moz-EvenTreeRow")
+
+pub const moz_field = #("-ms-scrollbar-track-color", "-moz-Field")
+
+pub const moz_field_text = #("-ms-scrollbar-track-color", "-moz-FieldText")
+
+pub const moz_html_cell_highlight = #("-ms-scrollbar-track-color", "-moz-html-CellHighlight")
+
+pub const moz_html_cell_highlight_text = #("-ms-scrollbar-track-color", "-moz-html-CellHighlightText")
+
+pub const moz_mac_accentdarkestshadow = #("-ms-scrollbar-track-color", "-moz-mac-accentdarkestshadow")
+
+pub const moz_mac_accentdarkshadow = #("-ms-scrollbar-track-color", "-moz-mac-accentdarkshadow")
+
+pub const moz_mac_accentface = #("-ms-scrollbar-track-color", "-moz-mac-accentface")
+
+pub const moz_mac_accentlightesthighlight = #("-ms-scrollbar-track-color", "-moz-mac-accentlightesthighlight")
+
+pub const moz_mac_accentlightshadow = #("-ms-scrollbar-track-color", "-moz-mac-accentlightshadow")
+
+pub const moz_mac_accentregularhighlight = #("-ms-scrollbar-track-color", "-moz-mac-accentregularhighlight")
+
+pub const moz_mac_accentregularshadow = #("-ms-scrollbar-track-color", "-moz-mac-accentregularshadow")
+
+pub const moz_mac_chrome_active = #("-ms-scrollbar-track-color", "-moz-mac-chrome-active")
+
+pub const moz_mac_chrome_inactive = #("-ms-scrollbar-track-color", "-moz-mac-chrome-inactive")
+
+pub const moz_mac_focusring = #("-ms-scrollbar-track-color", "-moz-mac-focusring")
+
+pub const moz_mac_menuselect = #("-ms-scrollbar-track-color", "-moz-mac-menuselect")
+
+pub const moz_mac_menushadow = #("-ms-scrollbar-track-color", "-moz-mac-menushadow")
+
+pub const moz_mac_menutextselect = #("-ms-scrollbar-track-color", "-moz-mac-menutextselect")
+
+pub const moz_menu_hover = #("-ms-scrollbar-track-color", "-moz-MenuHover")
+
+pub const moz_menu_hover_text = #("-ms-scrollbar-track-color", "-moz-MenuHoverText")
+
+pub const moz_menu_bar_text = #("-ms-scrollbar-track-color", "-moz-MenuBarText")
+
+pub const moz_menu_bar_hover_text = #("-ms-scrollbar-track-color", "-moz-MenuBarHoverText")
+
+pub const moz_nativehyperlinktext = #("-ms-scrollbar-track-color", "-moz-nativehyperlinktext")
+
+pub const moz_odd_tree_row = #("-ms-scrollbar-track-color", "-moz-OddTreeRow")
+
+pub const moz_win_communicationstext = #("-ms-scrollbar-track-color", "-moz-win-communicationstext")
+
+pub const moz_win_mediatext = #("-ms-scrollbar-track-color", "-moz-win-mediatext")
+
+pub const moz_activehyperlinktext = #("-ms-scrollbar-track-color", "-moz-activehyperlinktext")
+
+pub const moz_default_background_color = #("-ms-scrollbar-track-color", "-moz-default-background-color")
+
+pub const moz_default_color = #("-ms-scrollbar-track-color", "-moz-default-color")
+
+pub const moz_hyperlinktext = #("-ms-scrollbar-track-color", "-moz-hyperlinktext")
+
+pub const moz_visitedhyperlinktext = #("-ms-scrollbar-track-color", "-moz-visitedhyperlinktext")
+
+pub const webkit_activelink = #("-ms-scrollbar-track-color", "-webkit-activelink")
+
+pub const webkit_focus_ring_color = #("-ms-scrollbar-track-color", "-webkit-focus-ring-color")
+
+pub const webkit_link = #("-ms-scrollbar-track-color", "-webkit-link")
+
+pub const webkit_text = #("-ms-scrollbar-track-color", "-webkit-text")
 
 pub fn raw(value: String) -> #(String, String) {
   #("ms_scrollbar_track_color", value)

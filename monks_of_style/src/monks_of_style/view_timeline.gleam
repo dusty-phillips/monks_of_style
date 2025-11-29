@@ -1,24 +1,14 @@
 
 
-pub fn none() -> #(String, String) {
-  #("view-timeline", "none")
-}
+pub const none = #("view-timeline", "none")
 
-pub fn block() -> #(String, String) {
-  #("view-timeline", "block")
-}
+pub const block = #("view-timeline", "block")
 
-pub fn inline() -> #(String, String) {
-  #("view-timeline", "inline")
-}
+pub const inline = #("view-timeline", "inline")
 
-pub fn x() -> #(String, String) {
-  #("view-timeline", "x")
-}
+pub const x = #("view-timeline", "x")
 
-pub fn y() -> #(String, String) {
-  #("view-timeline", "y")
-}
+pub const y = #("view-timeline", "y")
 
 pub fn raw(value: String) -> #(String, String) {
   #("view_timeline", value)

@@ -1,8 +1,6 @@
 
 
-pub fn none() -> #(String, String) {
-  #("container-name", "none")
-}
+pub const none = #("container-name", "none")
 
 pub fn raw(value: String) -> #(String, String) {
   #("container_name", value)

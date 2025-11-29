@@ -1,16 +1,10 @@
 
 
-pub fn thin() -> #(String, String) {
-  #("border-inline-end-width", "thin")
-}
+pub const thin = #("border-inline-end-width", "thin")
 
-pub fn medium() -> #(String, String) {
-  #("border-inline-end-width", "medium")
-}
+pub const medium = #("border-inline-end-width", "medium")
 
-pub fn thick() -> #(String, String) {
-  #("border-inline-end-width", "thick")
-}
+pub const thick = #("border-inline-end-width", "thick")
 
 pub fn raw(value: String) -> #(String, String) {
   #("border_inline_end_width", value)

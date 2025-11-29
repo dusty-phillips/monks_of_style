@@ -1,28 +1,16 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("offset-anchor", "auto")
-}
+pub const auto_ = #("offset-anchor", "auto")
 
-pub fn left() -> #(String, String) {
-  #("offset-anchor", "left")
-}
+pub const left = #("offset-anchor", "left")
 
-pub fn center() -> #(String, String) {
-  #("offset-anchor", "center")
-}
+pub const center = #("offset-anchor", "center")
 
-pub fn right() -> #(String, String) {
-  #("offset-anchor", "right")
-}
+pub const right = #("offset-anchor", "right")
 
-pub fn top() -> #(String, String) {
-  #("offset-anchor", "top")
-}
+pub const top = #("offset-anchor", "top")
 
-pub fn bottom() -> #(String, String) {
-  #("offset-anchor", "bottom")
-}
+pub const bottom = #("offset-anchor", "bottom")
 
 pub fn raw(value: String) -> #(String, String) {
   #("offset_anchor", value)

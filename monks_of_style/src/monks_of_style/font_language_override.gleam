@@ -1,8 +1,6 @@
 
 
-pub fn normal() -> #(String, String) {
-  #("font-language-override", "normal")
-}
+pub const normal = #("font-language-override", "normal")
 
 pub fn raw(value: String) -> #(String, String) {
   #("font_language_override", value)

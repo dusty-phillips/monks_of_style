@@ -1,12 +1,8 @@
 
 
-pub fn running() -> #(String, String) {
-  #("animation-play-state", "running")
-}
+pub const running = #("animation-play-state", "running")
 
-pub fn paused() -> #(String, String) {
-  #("animation-play-state", "paused")
-}
+pub const paused = #("animation-play-state", "paused")
 
 pub fn raw(value: String) -> #(String, String) {
   #("animation_play_state", value)

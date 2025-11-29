@@ -1,32 +1,18 @@
 
 
-pub fn none() -> #(String, String) {
-  #("text-decoration-skip", "none")
-}
+pub const none = #("text-decoration-skip", "none")
 
-pub fn objects() -> #(String, String) {
-  #("text-decoration-skip", "objects")
-}
+pub const objects = #("text-decoration-skip", "objects")
 
-pub fn spaces() -> #(String, String) {
-  #("text-decoration-skip", "spaces")
-}
+pub const spaces = #("text-decoration-skip", "spaces")
 
-pub fn leading_spaces() -> #(String, String) {
-  #("text-decoration-skip", "leading-spaces")
-}
+pub const leading_spaces = #("text-decoration-skip", "leading-spaces")
 
-pub fn trailing_spaces() -> #(String, String) {
-  #("text-decoration-skip", "trailing-spaces")
-}
+pub const trailing_spaces = #("text-decoration-skip", "trailing-spaces")
 
-pub fn edges() -> #(String, String) {
-  #("text-decoration-skip", "edges")
-}
+pub const edges = #("text-decoration-skip", "edges")
 
-pub fn box_decoration() -> #(String, String) {
-  #("text-decoration-skip", "box-decoration")
-}
+pub const box_decoration = #("text-decoration-skip", "box-decoration")
 
 pub fn raw(value: String) -> #(String, String) {
   #("text_decoration_skip", value)

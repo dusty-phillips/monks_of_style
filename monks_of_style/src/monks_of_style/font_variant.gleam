@@ -1,140 +1,72 @@
 
 
-pub fn normal() -> #(String, String) {
-  #("font-variant", "normal")
-}
+pub const normal = #("font-variant", "normal")
 
-pub fn none() -> #(String, String) {
-  #("font-variant", "none")
-}
+pub const none = #("font-variant", "none")
 
-pub fn common_ligatures() -> #(String, String) {
-  #("font-variant", "common-ligatures")
-}
+pub const common_ligatures = #("font-variant", "common-ligatures")
 
-pub fn no_common_ligatures() -> #(String, String) {
-  #("font-variant", "no-common-ligatures")
-}
+pub const no_common_ligatures = #("font-variant", "no-common-ligatures")
 
-pub fn discretionary_ligatures() -> #(String, String) {
-  #("font-variant", "discretionary-ligatures")
-}
+pub const discretionary_ligatures = #("font-variant", "discretionary-ligatures")
 
-pub fn no_discretionary_ligatures() -> #(String, String) {
-  #("font-variant", "no-discretionary-ligatures")
-}
+pub const no_discretionary_ligatures = #("font-variant", "no-discretionary-ligatures")
 
-pub fn historical_ligatures() -> #(String, String) {
-  #("font-variant", "historical-ligatures")
-}
+pub const historical_ligatures = #("font-variant", "historical-ligatures")
 
-pub fn no_historical_ligatures() -> #(String, String) {
-  #("font-variant", "no-historical-ligatures")
-}
+pub const no_historical_ligatures = #("font-variant", "no-historical-ligatures")
 
-pub fn contextual() -> #(String, String) {
-  #("font-variant", "contextual")
-}
+pub const contextual = #("font-variant", "contextual")
 
-pub fn no_contextual() -> #(String, String) {
-  #("font-variant", "no-contextual")
-}
+pub const no_contextual = #("font-variant", "no-contextual")
 
-pub fn historical_forms() -> #(String, String) {
-  #("font-variant", "historical-forms")
-}
+pub const historical_forms = #("font-variant", "historical-forms")
 
-pub fn small_caps() -> #(String, String) {
-  #("font-variant", "small-caps")
-}
+pub const small_caps = #("font-variant", "small-caps")
 
-pub fn all_small_caps() -> #(String, String) {
-  #("font-variant", "all-small-caps")
-}
+pub const all_small_caps = #("font-variant", "all-small-caps")
 
-pub fn petite_caps() -> #(String, String) {
-  #("font-variant", "petite-caps")
-}
+pub const petite_caps = #("font-variant", "petite-caps")
 
-pub fn all_petite_caps() -> #(String, String) {
-  #("font-variant", "all-petite-caps")
-}
+pub const all_petite_caps = #("font-variant", "all-petite-caps")
 
-pub fn unicase() -> #(String, String) {
-  #("font-variant", "unicase")
-}
+pub const unicase = #("font-variant", "unicase")
 
-pub fn titling_caps() -> #(String, String) {
-  #("font-variant", "titling-caps")
-}
+pub const titling_caps = #("font-variant", "titling-caps")
 
-pub fn lining_nums() -> #(String, String) {
-  #("font-variant", "lining-nums")
-}
+pub const lining_nums = #("font-variant", "lining-nums")
 
-pub fn oldstyle_nums() -> #(String, String) {
-  #("font-variant", "oldstyle-nums")
-}
+pub const oldstyle_nums = #("font-variant", "oldstyle-nums")
 
-pub fn proportional_nums() -> #(String, String) {
-  #("font-variant", "proportional-nums")
-}
+pub const proportional_nums = #("font-variant", "proportional-nums")
 
-pub fn tabular_nums() -> #(String, String) {
-  #("font-variant", "tabular-nums")
-}
+pub const tabular_nums = #("font-variant", "tabular-nums")
 
-pub fn diagonal_fractions() -> #(String, String) {
-  #("font-variant", "diagonal-fractions")
-}
+pub const diagonal_fractions = #("font-variant", "diagonal-fractions")
 
-pub fn stacked_fractions() -> #(String, String) {
-  #("font-variant", "stacked-fractions")
-}
+pub const stacked_fractions = #("font-variant", "stacked-fractions")
 
-pub fn ordinal() -> #(String, String) {
-  #("font-variant", "ordinal")
-}
+pub const ordinal = #("font-variant", "ordinal")
 
-pub fn slashed_zero() -> #(String, String) {
-  #("font-variant", "slashed-zero")
-}
+pub const slashed_zero = #("font-variant", "slashed-zero")
 
-pub fn jis78() -> #(String, String) {
-  #("font-variant", "jis78")
-}
+pub const jis78 = #("font-variant", "jis78")
 
-pub fn jis83() -> #(String, String) {
-  #("font-variant", "jis83")
-}
+pub const jis83 = #("font-variant", "jis83")
 
-pub fn jis90() -> #(String, String) {
-  #("font-variant", "jis90")
-}
+pub const jis90 = #("font-variant", "jis90")
 
-pub fn jis04() -> #(String, String) {
-  #("font-variant", "jis04")
-}
+pub const jis04 = #("font-variant", "jis04")
 
-pub fn simplified() -> #(String, String) {
-  #("font-variant", "simplified")
-}
+pub const simplified = #("font-variant", "simplified")
 
-pub fn traditional() -> #(String, String) {
-  #("font-variant", "traditional")
-}
+pub const traditional = #("font-variant", "traditional")
 
-pub fn full_width() -> #(String, String) {
-  #("font-variant", "full-width")
-}
+pub const full_width = #("font-variant", "full-width")
 
-pub fn proportional_width() -> #(String, String) {
-  #("font-variant", "proportional-width")
-}
+pub const proportional_width = #("font-variant", "proportional-width")
 
-pub fn ruby() -> #(String, String) {
-  #("font-variant", "ruby")
-}
+pub const ruby = #("font-variant", "ruby")
 
 pub fn raw(value: String) -> #(String, String) {
   #("font_variant", value)

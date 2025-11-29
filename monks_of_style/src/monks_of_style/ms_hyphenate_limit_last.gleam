@@ -1,24 +1,14 @@
 
 
-pub fn none() -> #(String, String) {
-  #("-ms-hyphenate-limit-last", "none")
-}
+pub const none = #("-ms-hyphenate-limit-last", "none")
 
-pub fn always() -> #(String, String) {
-  #("-ms-hyphenate-limit-last", "always")
-}
+pub const always = #("-ms-hyphenate-limit-last", "always")
 
-pub fn column() -> #(String, String) {
-  #("-ms-hyphenate-limit-last", "column")
-}
+pub const column = #("-ms-hyphenate-limit-last", "column")
 
-pub fn page() -> #(String, String) {
-  #("-ms-hyphenate-limit-last", "page")
-}
+pub const page = #("-ms-hyphenate-limit-last", "page")
 
-pub fn spread() -> #(String, String) {
-  #("-ms-hyphenate-limit-last", "spread")
-}
+pub const spread = #("-ms-hyphenate-limit-last", "spread")
 
 pub fn raw(value: String) -> #(String, String) {
   #("ms_hyphenate_limit_last", value)

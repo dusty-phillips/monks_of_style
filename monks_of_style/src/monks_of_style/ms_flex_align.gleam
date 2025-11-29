@@ -1,24 +1,14 @@
 
 
-pub fn start() -> #(String, String) {
-  #("-ms-flex-align", "start")
-}
+pub const start = #("-ms-flex-align", "start")
 
-pub fn end() -> #(String, String) {
-  #("-ms-flex-align", "end")
-}
+pub const end = #("-ms-flex-align", "end")
 
-pub fn center() -> #(String, String) {
-  #("-ms-flex-align", "center")
-}
+pub const center = #("-ms-flex-align", "center")
 
-pub fn baseline() -> #(String, String) {
-  #("-ms-flex-align", "baseline")
-}
+pub const baseline = #("-ms-flex-align", "baseline")
 
-pub fn stretch() -> #(String, String) {
-  #("-ms-flex-align", "stretch")
-}
+pub const stretch = #("-ms-flex-align", "stretch")
 
 pub fn raw(value: String) -> #(String, String) {
   #("ms_flex_align", value)

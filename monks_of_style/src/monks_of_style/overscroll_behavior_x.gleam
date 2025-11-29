@@ -1,16 +1,10 @@
 
 
-pub fn contain() -> #(String, String) {
-  #("overscroll-behavior-x", "contain")
-}
+pub const contain = #("overscroll-behavior-x", "contain")
 
-pub fn none() -> #(String, String) {
-  #("overscroll-behavior-x", "none")
-}
+pub const none = #("overscroll-behavior-x", "none")
 
-pub fn auto_() -> #(String, String) {
-  #("overscroll-behavior-x", "auto")
-}
+pub const auto_ = #("overscroll-behavior-x", "auto")
 
 pub fn raw(value: String) -> #(String, String) {
   #("overscroll_behavior_x", value)

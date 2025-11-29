@@ -1,12 +1,8 @@
 
 
-pub fn ignore() -> #(String, String) {
-  #("-moz-stack-sizing", "ignore")
-}
+pub const ignore = #("-moz-stack-sizing", "ignore")
 
-pub fn stretch_to_fit() -> #(String, String) {
-  #("-moz-stack-sizing", "stretch-to-fit")
-}
+pub const stretch_to_fit = #("-moz-stack-sizing", "stretch-to-fit")
 
 pub fn raw(value: String) -> #(String, String) {
   #("moz_stack_sizing", value)

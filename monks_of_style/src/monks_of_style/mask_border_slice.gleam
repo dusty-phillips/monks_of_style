@@ -1,8 +1,6 @@
 
 
-pub fn fill() -> #(String, String) {
-  #("mask-border-slice", "fill")
-}
+pub const fill = #("mask-border-slice", "fill")
 
 pub fn raw(value: String) -> #(String, String) {
   #("mask_border_slice", value)

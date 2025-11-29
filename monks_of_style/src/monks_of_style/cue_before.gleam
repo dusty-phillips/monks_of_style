@@ -1,8 +1,6 @@
 
 
-pub fn none() -> #(String, String) {
-  #("cue-before", "none")
-}
+pub const none = #("cue-before", "none")
 
 pub fn raw(value: String) -> #(String, String) {
   #("cue_before", value)

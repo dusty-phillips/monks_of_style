@@ -1,948 +1,476 @@
 
 
-pub fn none() -> #(String, String) {
-  #("-webkit-text-stroke-color", "none")
-}
-
-pub fn srgb() -> #(String, String) {
-  #("-webkit-text-stroke-color", "srgb")
-}
-
-pub fn srgb_linear() -> #(String, String) {
-  #("-webkit-text-stroke-color", "srgb-linear")
-}
-
-pub fn display_p3() -> #(String, String) {
-  #("-webkit-text-stroke-color", "display-p3")
-}
-
-pub fn a98_rgb() -> #(String, String) {
-  #("-webkit-text-stroke-color", "a98-rgb")
-}
-
-pub fn prophoto_rgb() -> #(String, String) {
-  #("-webkit-text-stroke-color", "prophoto-rgb")
-}
-
-pub fn rec2020() -> #(String, String) {
-  #("-webkit-text-stroke-color", "rec2020")
-}
-
-pub fn xyz() -> #(String, String) {
-  #("-webkit-text-stroke-color", "xyz")
-}
-
-pub fn xyz_d50() -> #(String, String) {
-  #("-webkit-text-stroke-color", "xyz-d50")
-}
-
-pub fn xyz_d65() -> #(String, String) {
-  #("-webkit-text-stroke-color", "xyz-d65")
-}
-
-pub fn transparent() -> #(String, String) {
-  #("-webkit-text-stroke-color", "transparent")
-}
-
-pub fn aliceblue() -> #(String, String) {
-  #("-webkit-text-stroke-color", "aliceblue")
-}
-
-pub fn antiquewhite() -> #(String, String) {
-  #("-webkit-text-stroke-color", "antiquewhite")
-}
-
-pub fn aqua() -> #(String, String) {
-  #("-webkit-text-stroke-color", "aqua")
-}
-
-pub fn aquamarine() -> #(String, String) {
-  #("-webkit-text-stroke-color", "aquamarine")
-}
-
-pub fn azure() -> #(String, String) {
-  #("-webkit-text-stroke-color", "azure")
-}
-
-pub fn beige() -> #(String, String) {
-  #("-webkit-text-stroke-color", "beige")
-}
-
-pub fn bisque() -> #(String, String) {
-  #("-webkit-text-stroke-color", "bisque")
-}
-
-pub fn black() -> #(String, String) {
-  #("-webkit-text-stroke-color", "black")
-}
-
-pub fn blanchedalmond() -> #(String, String) {
-  #("-webkit-text-stroke-color", "blanchedalmond")
-}
-
-pub fn blue() -> #(String, String) {
-  #("-webkit-text-stroke-color", "blue")
-}
-
-pub fn blueviolet() -> #(String, String) {
-  #("-webkit-text-stroke-color", "blueviolet")
-}
-
-pub fn brown() -> #(String, String) {
-  #("-webkit-text-stroke-color", "brown")
-}
-
-pub fn burlywood() -> #(String, String) {
-  #("-webkit-text-stroke-color", "burlywood")
-}
-
-pub fn cadetblue() -> #(String, String) {
-  #("-webkit-text-stroke-color", "cadetblue")
-}
-
-pub fn chartreuse() -> #(String, String) {
-  #("-webkit-text-stroke-color", "chartreuse")
-}
-
-pub fn chocolate() -> #(String, String) {
-  #("-webkit-text-stroke-color", "chocolate")
-}
-
-pub fn coral() -> #(String, String) {
-  #("-webkit-text-stroke-color", "coral")
-}
-
-pub fn cornflowerblue() -> #(String, String) {
-  #("-webkit-text-stroke-color", "cornflowerblue")
-}
-
-pub fn cornsilk() -> #(String, String) {
-  #("-webkit-text-stroke-color", "cornsilk")
-}
-
-pub fn crimson() -> #(String, String) {
-  #("-webkit-text-stroke-color", "crimson")
-}
-
-pub fn cyan() -> #(String, String) {
-  #("-webkit-text-stroke-color", "cyan")
-}
-
-pub fn darkblue() -> #(String, String) {
-  #("-webkit-text-stroke-color", "darkblue")
-}
-
-pub fn darkcyan() -> #(String, String) {
-  #("-webkit-text-stroke-color", "darkcyan")
-}
-
-pub fn darkgoldenrod() -> #(String, String) {
-  #("-webkit-text-stroke-color", "darkgoldenrod")
-}
-
-pub fn darkgray() -> #(String, String) {
-  #("-webkit-text-stroke-color", "darkgray")
-}
-
-pub fn darkgreen() -> #(String, String) {
-  #("-webkit-text-stroke-color", "darkgreen")
-}
-
-pub fn darkgrey() -> #(String, String) {
-  #("-webkit-text-stroke-color", "darkgrey")
-}
-
-pub fn darkkhaki() -> #(String, String) {
-  #("-webkit-text-stroke-color", "darkkhaki")
-}
-
-pub fn darkmagenta() -> #(String, String) {
-  #("-webkit-text-stroke-color", "darkmagenta")
-}
-
-pub fn darkolivegreen() -> #(String, String) {
-  #("-webkit-text-stroke-color", "darkolivegreen")
-}
-
-pub fn darkorange() -> #(String, String) {
-  #("-webkit-text-stroke-color", "darkorange")
-}
-
-pub fn darkorchid() -> #(String, String) {
-  #("-webkit-text-stroke-color", "darkorchid")
-}
-
-pub fn darkred() -> #(String, String) {
-  #("-webkit-text-stroke-color", "darkred")
-}
-
-pub fn darksalmon() -> #(String, String) {
-  #("-webkit-text-stroke-color", "darksalmon")
-}
-
-pub fn darkseagreen() -> #(String, String) {
-  #("-webkit-text-stroke-color", "darkseagreen")
-}
-
-pub fn darkslateblue() -> #(String, String) {
-  #("-webkit-text-stroke-color", "darkslateblue")
-}
-
-pub fn darkslategray() -> #(String, String) {
-  #("-webkit-text-stroke-color", "darkslategray")
-}
-
-pub fn darkslategrey() -> #(String, String) {
-  #("-webkit-text-stroke-color", "darkslategrey")
-}
-
-pub fn darkturquoise() -> #(String, String) {
-  #("-webkit-text-stroke-color", "darkturquoise")
-}
-
-pub fn darkviolet() -> #(String, String) {
-  #("-webkit-text-stroke-color", "darkviolet")
-}
-
-pub fn deeppink() -> #(String, String) {
-  #("-webkit-text-stroke-color", "deeppink")
-}
-
-pub fn deepskyblue() -> #(String, String) {
-  #("-webkit-text-stroke-color", "deepskyblue")
-}
-
-pub fn dimgray() -> #(String, String) {
-  #("-webkit-text-stroke-color", "dimgray")
-}
-
-pub fn dimgrey() -> #(String, String) {
-  #("-webkit-text-stroke-color", "dimgrey")
-}
-
-pub fn dodgerblue() -> #(String, String) {
-  #("-webkit-text-stroke-color", "dodgerblue")
-}
-
-pub fn firebrick() -> #(String, String) {
-  #("-webkit-text-stroke-color", "firebrick")
-}
-
-pub fn floralwhite() -> #(String, String) {
-  #("-webkit-text-stroke-color", "floralwhite")
-}
-
-pub fn forestgreen() -> #(String, String) {
-  #("-webkit-text-stroke-color", "forestgreen")
-}
-
-pub fn fuchsia() -> #(String, String) {
-  #("-webkit-text-stroke-color", "fuchsia")
-}
-
-pub fn gainsboro() -> #(String, String) {
-  #("-webkit-text-stroke-color", "gainsboro")
-}
-
-pub fn ghostwhite() -> #(String, String) {
-  #("-webkit-text-stroke-color", "ghostwhite")
-}
-
-pub fn gold() -> #(String, String) {
-  #("-webkit-text-stroke-color", "gold")
-}
-
-pub fn goldenrod() -> #(String, String) {
-  #("-webkit-text-stroke-color", "goldenrod")
-}
-
-pub fn gray() -> #(String, String) {
-  #("-webkit-text-stroke-color", "gray")
-}
-
-pub fn green() -> #(String, String) {
-  #("-webkit-text-stroke-color", "green")
-}
-
-pub fn greenyellow() -> #(String, String) {
-  #("-webkit-text-stroke-color", "greenyellow")
-}
-
-pub fn grey() -> #(String, String) {
-  #("-webkit-text-stroke-color", "grey")
-}
-
-pub fn honeydew() -> #(String, String) {
-  #("-webkit-text-stroke-color", "honeydew")
-}
-
-pub fn hotpink() -> #(String, String) {
-  #("-webkit-text-stroke-color", "hotpink")
-}
-
-pub fn indianred() -> #(String, String) {
-  #("-webkit-text-stroke-color", "indianred")
-}
-
-pub fn indigo() -> #(String, String) {
-  #("-webkit-text-stroke-color", "indigo")
-}
-
-pub fn ivory() -> #(String, String) {
-  #("-webkit-text-stroke-color", "ivory")
-}
-
-pub fn khaki() -> #(String, String) {
-  #("-webkit-text-stroke-color", "khaki")
-}
-
-pub fn lavender() -> #(String, String) {
-  #("-webkit-text-stroke-color", "lavender")
-}
-
-pub fn lavenderblush() -> #(String, String) {
-  #("-webkit-text-stroke-color", "lavenderblush")
-}
-
-pub fn lawngreen() -> #(String, String) {
-  #("-webkit-text-stroke-color", "lawngreen")
-}
-
-pub fn lemonchiffon() -> #(String, String) {
-  #("-webkit-text-stroke-color", "lemonchiffon")
-}
-
-pub fn lightblue() -> #(String, String) {
-  #("-webkit-text-stroke-color", "lightblue")
-}
-
-pub fn lightcoral() -> #(String, String) {
-  #("-webkit-text-stroke-color", "lightcoral")
-}
-
-pub fn lightcyan() -> #(String, String) {
-  #("-webkit-text-stroke-color", "lightcyan")
-}
-
-pub fn lightgoldenrodyellow() -> #(String, String) {
-  #("-webkit-text-stroke-color", "lightgoldenrodyellow")
-}
-
-pub fn lightgray() -> #(String, String) {
-  #("-webkit-text-stroke-color", "lightgray")
-}
-
-pub fn lightgreen() -> #(String, String) {
-  #("-webkit-text-stroke-color", "lightgreen")
-}
-
-pub fn lightgrey() -> #(String, String) {
-  #("-webkit-text-stroke-color", "lightgrey")
-}
-
-pub fn lightpink() -> #(String, String) {
-  #("-webkit-text-stroke-color", "lightpink")
-}
-
-pub fn lightsalmon() -> #(String, String) {
-  #("-webkit-text-stroke-color", "lightsalmon")
-}
-
-pub fn lightseagreen() -> #(String, String) {
-  #("-webkit-text-stroke-color", "lightseagreen")
-}
-
-pub fn lightskyblue() -> #(String, String) {
-  #("-webkit-text-stroke-color", "lightskyblue")
-}
-
-pub fn lightslategray() -> #(String, String) {
-  #("-webkit-text-stroke-color", "lightslategray")
-}
-
-pub fn lightslategrey() -> #(String, String) {
-  #("-webkit-text-stroke-color", "lightslategrey")
-}
-
-pub fn lightsteelblue() -> #(String, String) {
-  #("-webkit-text-stroke-color", "lightsteelblue")
-}
-
-pub fn lightyellow() -> #(String, String) {
-  #("-webkit-text-stroke-color", "lightyellow")
-}
-
-pub fn lime() -> #(String, String) {
-  #("-webkit-text-stroke-color", "lime")
-}
-
-pub fn limegreen() -> #(String, String) {
-  #("-webkit-text-stroke-color", "limegreen")
-}
-
-pub fn linen() -> #(String, String) {
-  #("-webkit-text-stroke-color", "linen")
-}
-
-pub fn magenta() -> #(String, String) {
-  #("-webkit-text-stroke-color", "magenta")
-}
-
-pub fn maroon() -> #(String, String) {
-  #("-webkit-text-stroke-color", "maroon")
-}
-
-pub fn mediumaquamarine() -> #(String, String) {
-  #("-webkit-text-stroke-color", "mediumaquamarine")
-}
-
-pub fn mediumblue() -> #(String, String) {
-  #("-webkit-text-stroke-color", "mediumblue")
-}
-
-pub fn mediumorchid() -> #(String, String) {
-  #("-webkit-text-stroke-color", "mediumorchid")
-}
-
-pub fn mediumpurple() -> #(String, String) {
-  #("-webkit-text-stroke-color", "mediumpurple")
-}
-
-pub fn mediumseagreen() -> #(String, String) {
-  #("-webkit-text-stroke-color", "mediumseagreen")
-}
-
-pub fn mediumslateblue() -> #(String, String) {
-  #("-webkit-text-stroke-color", "mediumslateblue")
-}
-
-pub fn mediumspringgreen() -> #(String, String) {
-  #("-webkit-text-stroke-color", "mediumspringgreen")
-}
-
-pub fn mediumturquoise() -> #(String, String) {
-  #("-webkit-text-stroke-color", "mediumturquoise")
-}
-
-pub fn mediumvioletred() -> #(String, String) {
-  #("-webkit-text-stroke-color", "mediumvioletred")
-}
-
-pub fn midnightblue() -> #(String, String) {
-  #("-webkit-text-stroke-color", "midnightblue")
-}
-
-pub fn mintcream() -> #(String, String) {
-  #("-webkit-text-stroke-color", "mintcream")
-}
-
-pub fn mistyrose() -> #(String, String) {
-  #("-webkit-text-stroke-color", "mistyrose")
-}
-
-pub fn moccasin() -> #(String, String) {
-  #("-webkit-text-stroke-color", "moccasin")
-}
-
-pub fn navajowhite() -> #(String, String) {
-  #("-webkit-text-stroke-color", "navajowhite")
-}
-
-pub fn navy() -> #(String, String) {
-  #("-webkit-text-stroke-color", "navy")
-}
-
-pub fn oldlace() -> #(String, String) {
-  #("-webkit-text-stroke-color", "oldlace")
-}
-
-pub fn olive() -> #(String, String) {
-  #("-webkit-text-stroke-color", "olive")
-}
-
-pub fn olivedrab() -> #(String, String) {
-  #("-webkit-text-stroke-color", "olivedrab")
-}
-
-pub fn orange() -> #(String, String) {
-  #("-webkit-text-stroke-color", "orange")
-}
-
-pub fn orangered() -> #(String, String) {
-  #("-webkit-text-stroke-color", "orangered")
-}
-
-pub fn orchid() -> #(String, String) {
-  #("-webkit-text-stroke-color", "orchid")
-}
-
-pub fn palegoldenrod() -> #(String, String) {
-  #("-webkit-text-stroke-color", "palegoldenrod")
-}
-
-pub fn palegreen() -> #(String, String) {
-  #("-webkit-text-stroke-color", "palegreen")
-}
-
-pub fn paleturquoise() -> #(String, String) {
-  #("-webkit-text-stroke-color", "paleturquoise")
-}
-
-pub fn palevioletred() -> #(String, String) {
-  #("-webkit-text-stroke-color", "palevioletred")
-}
-
-pub fn papayawhip() -> #(String, String) {
-  #("-webkit-text-stroke-color", "papayawhip")
-}
-
-pub fn peachpuff() -> #(String, String) {
-  #("-webkit-text-stroke-color", "peachpuff")
-}
-
-pub fn peru() -> #(String, String) {
-  #("-webkit-text-stroke-color", "peru")
-}
-
-pub fn pink() -> #(String, String) {
-  #("-webkit-text-stroke-color", "pink")
-}
-
-pub fn plum() -> #(String, String) {
-  #("-webkit-text-stroke-color", "plum")
-}
-
-pub fn powderblue() -> #(String, String) {
-  #("-webkit-text-stroke-color", "powderblue")
-}
-
-pub fn purple() -> #(String, String) {
-  #("-webkit-text-stroke-color", "purple")
-}
-
-pub fn rebeccapurple() -> #(String, String) {
-  #("-webkit-text-stroke-color", "rebeccapurple")
-}
-
-pub fn red() -> #(String, String) {
-  #("-webkit-text-stroke-color", "red")
-}
-
-pub fn rosybrown() -> #(String, String) {
-  #("-webkit-text-stroke-color", "rosybrown")
-}
-
-pub fn royalblue() -> #(String, String) {
-  #("-webkit-text-stroke-color", "royalblue")
-}
-
-pub fn saddlebrown() -> #(String, String) {
-  #("-webkit-text-stroke-color", "saddlebrown")
-}
-
-pub fn salmon() -> #(String, String) {
-  #("-webkit-text-stroke-color", "salmon")
-}
-
-pub fn sandybrown() -> #(String, String) {
-  #("-webkit-text-stroke-color", "sandybrown")
-}
-
-pub fn seagreen() -> #(String, String) {
-  #("-webkit-text-stroke-color", "seagreen")
-}
-
-pub fn seashell() -> #(String, String) {
-  #("-webkit-text-stroke-color", "seashell")
-}
-
-pub fn sienna() -> #(String, String) {
-  #("-webkit-text-stroke-color", "sienna")
-}
-
-pub fn silver() -> #(String, String) {
-  #("-webkit-text-stroke-color", "silver")
-}
-
-pub fn skyblue() -> #(String, String) {
-  #("-webkit-text-stroke-color", "skyblue")
-}
-
-pub fn slateblue() -> #(String, String) {
-  #("-webkit-text-stroke-color", "slateblue")
-}
-
-pub fn slategray() -> #(String, String) {
-  #("-webkit-text-stroke-color", "slategray")
-}
-
-pub fn slategrey() -> #(String, String) {
-  #("-webkit-text-stroke-color", "slategrey")
-}
-
-pub fn snow() -> #(String, String) {
-  #("-webkit-text-stroke-color", "snow")
-}
-
-pub fn springgreen() -> #(String, String) {
-  #("-webkit-text-stroke-color", "springgreen")
-}
-
-pub fn steelblue() -> #(String, String) {
-  #("-webkit-text-stroke-color", "steelblue")
-}
-
-pub fn tan() -> #(String, String) {
-  #("-webkit-text-stroke-color", "tan")
-}
-
-pub fn teal() -> #(String, String) {
-  #("-webkit-text-stroke-color", "teal")
-}
-
-pub fn thistle() -> #(String, String) {
-  #("-webkit-text-stroke-color", "thistle")
-}
-
-pub fn tomato() -> #(String, String) {
-  #("-webkit-text-stroke-color", "tomato")
-}
-
-pub fn turquoise() -> #(String, String) {
-  #("-webkit-text-stroke-color", "turquoise")
-}
-
-pub fn violet() -> #(String, String) {
-  #("-webkit-text-stroke-color", "violet")
-}
-
-pub fn wheat() -> #(String, String) {
-  #("-webkit-text-stroke-color", "wheat")
-}
-
-pub fn white() -> #(String, String) {
-  #("-webkit-text-stroke-color", "white")
-}
-
-pub fn whitesmoke() -> #(String, String) {
-  #("-webkit-text-stroke-color", "whitesmoke")
-}
-
-pub fn yellow() -> #(String, String) {
-  #("-webkit-text-stroke-color", "yellow")
-}
-
-pub fn yellowgreen() -> #(String, String) {
-  #("-webkit-text-stroke-color", "yellowgreen")
-}
-
-pub fn in() -> #(String, String) {
-  #("-webkit-text-stroke-color", "in")
-}
-
-pub fn lab() -> #(String, String) {
-  #("-webkit-text-stroke-color", "lab")
-}
-
-pub fn oklab() -> #(String, String) {
-  #("-webkit-text-stroke-color", "oklab")
-}
-
-pub fn hsl() -> #(String, String) {
-  #("-webkit-text-stroke-color", "hsl")
-}
-
-pub fn hwb() -> #(String, String) {
-  #("-webkit-text-stroke-color", "hwb")
-}
-
-pub fn lch() -> #(String, String) {
-  #("-webkit-text-stroke-color", "lch")
-}
-
-pub fn oklch() -> #(String, String) {
-  #("-webkit-text-stroke-color", "oklch")
-}
-
-pub fn shorter() -> #(String, String) {
-  #("-webkit-text-stroke-color", "shorter")
-}
-
-pub fn longer() -> #(String, String) {
-  #("-webkit-text-stroke-color", "longer")
-}
-
-pub fn increasing() -> #(String, String) {
-  #("-webkit-text-stroke-color", "increasing")
-}
-
-pub fn decreasing() -> #(String, String) {
-  #("-webkit-text-stroke-color", "decreasing")
-}
-
-pub fn hue() -> #(String, String) {
-  #("-webkit-text-stroke-color", "hue")
-}
-
-pub fn current_color() -> #(String, String) {
-  #("-webkit-text-stroke-color", "currentColor")
-}
-
-pub fn accent_color() -> #(String, String) {
-  #("-webkit-text-stroke-color", "AccentColor")
-}
-
-pub fn accent_color_text() -> #(String, String) {
-  #("-webkit-text-stroke-color", "AccentColorText")
-}
-
-pub fn active_text() -> #(String, String) {
-  #("-webkit-text-stroke-color", "ActiveText")
-}
-
-pub fn button_border() -> #(String, String) {
-  #("-webkit-text-stroke-color", "ButtonBorder")
-}
-
-pub fn button_face() -> #(String, String) {
-  #("-webkit-text-stroke-color", "ButtonFace")
-}
-
-pub fn button_text() -> #(String, String) {
-  #("-webkit-text-stroke-color", "ButtonText")
-}
-
-pub fn canvas() -> #(String, String) {
-  #("-webkit-text-stroke-color", "Canvas")
-}
-
-pub fn canvas_text() -> #(String, String) {
-  #("-webkit-text-stroke-color", "CanvasText")
-}
-
-pub fn field() -> #(String, String) {
-  #("-webkit-text-stroke-color", "Field")
-}
-
-pub fn field_text() -> #(String, String) {
-  #("-webkit-text-stroke-color", "FieldText")
-}
-
-pub fn gray_text() -> #(String, String) {
-  #("-webkit-text-stroke-color", "GrayText")
-}
-
-pub fn highlight() -> #(String, String) {
-  #("-webkit-text-stroke-color", "Highlight")
-}
-
-pub fn highlight_text() -> #(String, String) {
-  #("-webkit-text-stroke-color", "HighlightText")
-}
-
-pub fn link_text() -> #(String, String) {
-  #("-webkit-text-stroke-color", "LinkText")
-}
-
-pub fn mark() -> #(String, String) {
-  #("-webkit-text-stroke-color", "Mark")
-}
-
-pub fn mark_text() -> #(String, String) {
-  #("-webkit-text-stroke-color", "MarkText")
-}
-
-pub fn selected_item() -> #(String, String) {
-  #("-webkit-text-stroke-color", "SelectedItem")
-}
-
-pub fn selected_item_text() -> #(String, String) {
-  #("-webkit-text-stroke-color", "SelectedItemText")
-}
-
-pub fn visited_text() -> #(String, String) {
-  #("-webkit-text-stroke-color", "VisitedText")
-}
-
-pub fn moz_button_default() -> #(String, String) {
-  #("-webkit-text-stroke-color", "-moz-ButtonDefault")
-}
-
-pub fn moz_button_hover_face() -> #(String, String) {
-  #("-webkit-text-stroke-color", "-moz-ButtonHoverFace")
-}
-
-pub fn moz_button_hover_text() -> #(String, String) {
-  #("-webkit-text-stroke-color", "-moz-ButtonHoverText")
-}
-
-pub fn moz_cell_highlight() -> #(String, String) {
-  #("-webkit-text-stroke-color", "-moz-CellHighlight")
-}
-
-pub fn moz_cell_highlight_text() -> #(String, String) {
-  #("-webkit-text-stroke-color", "-moz-CellHighlightText")
-}
-
-pub fn moz_combobox() -> #(String, String) {
-  #("-webkit-text-stroke-color", "-moz-Combobox")
-}
-
-pub fn moz_combobox_text() -> #(String, String) {
-  #("-webkit-text-stroke-color", "-moz-ComboboxText")
-}
-
-pub fn moz_dialog() -> #(String, String) {
-  #("-webkit-text-stroke-color", "-moz-Dialog")
-}
-
-pub fn moz_dialog_text() -> #(String, String) {
-  #("-webkit-text-stroke-color", "-moz-DialogText")
-}
-
-pub fn moz_dragtargetzone() -> #(String, String) {
-  #("-webkit-text-stroke-color", "-moz-dragtargetzone")
-}
-
-pub fn moz_even_tree_row() -> #(String, String) {
-  #("-webkit-text-stroke-color", "-moz-EvenTreeRow")
-}
-
-pub fn moz_field() -> #(String, String) {
-  #("-webkit-text-stroke-color", "-moz-Field")
-}
-
-pub fn moz_field_text() -> #(String, String) {
-  #("-webkit-text-stroke-color", "-moz-FieldText")
-}
-
-pub fn moz_html_cell_highlight() -> #(String, String) {
-  #("-webkit-text-stroke-color", "-moz-html-CellHighlight")
-}
-
-pub fn moz_html_cell_highlight_text() -> #(String, String) {
-  #("-webkit-text-stroke-color", "-moz-html-CellHighlightText")
-}
-
-pub fn moz_mac_accentdarkestshadow() -> #(String, String) {
-  #("-webkit-text-stroke-color", "-moz-mac-accentdarkestshadow")
-}
-
-pub fn moz_mac_accentdarkshadow() -> #(String, String) {
-  #("-webkit-text-stroke-color", "-moz-mac-accentdarkshadow")
-}
-
-pub fn moz_mac_accentface() -> #(String, String) {
-  #("-webkit-text-stroke-color", "-moz-mac-accentface")
-}
-
-pub fn moz_mac_accentlightesthighlight() -> #(String, String) {
-  #("-webkit-text-stroke-color", "-moz-mac-accentlightesthighlight")
-}
-
-pub fn moz_mac_accentlightshadow() -> #(String, String) {
-  #("-webkit-text-stroke-color", "-moz-mac-accentlightshadow")
-}
-
-pub fn moz_mac_accentregularhighlight() -> #(String, String) {
-  #("-webkit-text-stroke-color", "-moz-mac-accentregularhighlight")
-}
-
-pub fn moz_mac_accentregularshadow() -> #(String, String) {
-  #("-webkit-text-stroke-color", "-moz-mac-accentregularshadow")
-}
-
-pub fn moz_mac_chrome_active() -> #(String, String) {
-  #("-webkit-text-stroke-color", "-moz-mac-chrome-active")
-}
-
-pub fn moz_mac_chrome_inactive() -> #(String, String) {
-  #("-webkit-text-stroke-color", "-moz-mac-chrome-inactive")
-}
-
-pub fn moz_mac_focusring() -> #(String, String) {
-  #("-webkit-text-stroke-color", "-moz-mac-focusring")
-}
-
-pub fn moz_mac_menuselect() -> #(String, String) {
-  #("-webkit-text-stroke-color", "-moz-mac-menuselect")
-}
-
-pub fn moz_mac_menushadow() -> #(String, String) {
-  #("-webkit-text-stroke-color", "-moz-mac-menushadow")
-}
-
-pub fn moz_mac_menutextselect() -> #(String, String) {
-  #("-webkit-text-stroke-color", "-moz-mac-menutextselect")
-}
-
-pub fn moz_menu_hover() -> #(String, String) {
-  #("-webkit-text-stroke-color", "-moz-MenuHover")
-}
-
-pub fn moz_menu_hover_text() -> #(String, String) {
-  #("-webkit-text-stroke-color", "-moz-MenuHoverText")
-}
-
-pub fn moz_menu_bar_text() -> #(String, String) {
-  #("-webkit-text-stroke-color", "-moz-MenuBarText")
-}
-
-pub fn moz_menu_bar_hover_text() -> #(String, String) {
-  #("-webkit-text-stroke-color", "-moz-MenuBarHoverText")
-}
-
-pub fn moz_nativehyperlinktext() -> #(String, String) {
-  #("-webkit-text-stroke-color", "-moz-nativehyperlinktext")
-}
-
-pub fn moz_odd_tree_row() -> #(String, String) {
-  #("-webkit-text-stroke-color", "-moz-OddTreeRow")
-}
-
-pub fn moz_win_communicationstext() -> #(String, String) {
-  #("-webkit-text-stroke-color", "-moz-win-communicationstext")
-}
-
-pub fn moz_win_mediatext() -> #(String, String) {
-  #("-webkit-text-stroke-color", "-moz-win-mediatext")
-}
-
-pub fn moz_activehyperlinktext() -> #(String, String) {
-  #("-webkit-text-stroke-color", "-moz-activehyperlinktext")
-}
-
-pub fn moz_default_background_color() -> #(String, String) {
-  #("-webkit-text-stroke-color", "-moz-default-background-color")
-}
-
-pub fn moz_default_color() -> #(String, String) {
-  #("-webkit-text-stroke-color", "-moz-default-color")
-}
-
-pub fn moz_hyperlinktext() -> #(String, String) {
-  #("-webkit-text-stroke-color", "-moz-hyperlinktext")
-}
-
-pub fn moz_visitedhyperlinktext() -> #(String, String) {
-  #("-webkit-text-stroke-color", "-moz-visitedhyperlinktext")
-}
-
-pub fn webkit_activelink() -> #(String, String) {
-  #("-webkit-text-stroke-color", "-webkit-activelink")
-}
-
-pub fn webkit_focus_ring_color() -> #(String, String) {
-  #("-webkit-text-stroke-color", "-webkit-focus-ring-color")
-}
-
-pub fn webkit_link() -> #(String, String) {
-  #("-webkit-text-stroke-color", "-webkit-link")
-}
-
-pub fn webkit_text() -> #(String, String) {
-  #("-webkit-text-stroke-color", "-webkit-text")
-}
+pub const none = #("-webkit-text-stroke-color", "none")
+
+pub const srgb = #("-webkit-text-stroke-color", "srgb")
+
+pub const srgb_linear = #("-webkit-text-stroke-color", "srgb-linear")
+
+pub const display_p3 = #("-webkit-text-stroke-color", "display-p3")
+
+pub const a98_rgb = #("-webkit-text-stroke-color", "a98-rgb")
+
+pub const prophoto_rgb = #("-webkit-text-stroke-color", "prophoto-rgb")
+
+pub const rec2020 = #("-webkit-text-stroke-color", "rec2020")
+
+pub const xyz = #("-webkit-text-stroke-color", "xyz")
+
+pub const xyz_d50 = #("-webkit-text-stroke-color", "xyz-d50")
+
+pub const xyz_d65 = #("-webkit-text-stroke-color", "xyz-d65")
+
+pub const transparent = #("-webkit-text-stroke-color", "transparent")
+
+pub const aliceblue = #("-webkit-text-stroke-color", "aliceblue")
+
+pub const antiquewhite = #("-webkit-text-stroke-color", "antiquewhite")
+
+pub const aqua = #("-webkit-text-stroke-color", "aqua")
+
+pub const aquamarine = #("-webkit-text-stroke-color", "aquamarine")
+
+pub const azure = #("-webkit-text-stroke-color", "azure")
+
+pub const beige = #("-webkit-text-stroke-color", "beige")
+
+pub const bisque = #("-webkit-text-stroke-color", "bisque")
+
+pub const black = #("-webkit-text-stroke-color", "black")
+
+pub const blanchedalmond = #("-webkit-text-stroke-color", "blanchedalmond")
+
+pub const blue = #("-webkit-text-stroke-color", "blue")
+
+pub const blueviolet = #("-webkit-text-stroke-color", "blueviolet")
+
+pub const brown = #("-webkit-text-stroke-color", "brown")
+
+pub const burlywood = #("-webkit-text-stroke-color", "burlywood")
+
+pub const cadetblue = #("-webkit-text-stroke-color", "cadetblue")
+
+pub const chartreuse = #("-webkit-text-stroke-color", "chartreuse")
+
+pub const chocolate = #("-webkit-text-stroke-color", "chocolate")
+
+pub const coral = #("-webkit-text-stroke-color", "coral")
+
+pub const cornflowerblue = #("-webkit-text-stroke-color", "cornflowerblue")
+
+pub const cornsilk = #("-webkit-text-stroke-color", "cornsilk")
+
+pub const crimson = #("-webkit-text-stroke-color", "crimson")
+
+pub const cyan = #("-webkit-text-stroke-color", "cyan")
+
+pub const darkblue = #("-webkit-text-stroke-color", "darkblue")
+
+pub const darkcyan = #("-webkit-text-stroke-color", "darkcyan")
+
+pub const darkgoldenrod = #("-webkit-text-stroke-color", "darkgoldenrod")
+
+pub const darkgray = #("-webkit-text-stroke-color", "darkgray")
+
+pub const darkgreen = #("-webkit-text-stroke-color", "darkgreen")
+
+pub const darkgrey = #("-webkit-text-stroke-color", "darkgrey")
+
+pub const darkkhaki = #("-webkit-text-stroke-color", "darkkhaki")
+
+pub const darkmagenta = #("-webkit-text-stroke-color", "darkmagenta")
+
+pub const darkolivegreen = #("-webkit-text-stroke-color", "darkolivegreen")
+
+pub const darkorange = #("-webkit-text-stroke-color", "darkorange")
+
+pub const darkorchid = #("-webkit-text-stroke-color", "darkorchid")
+
+pub const darkred = #("-webkit-text-stroke-color", "darkred")
+
+pub const darksalmon = #("-webkit-text-stroke-color", "darksalmon")
+
+pub const darkseagreen = #("-webkit-text-stroke-color", "darkseagreen")
+
+pub const darkslateblue = #("-webkit-text-stroke-color", "darkslateblue")
+
+pub const darkslategray = #("-webkit-text-stroke-color", "darkslategray")
+
+pub const darkslategrey = #("-webkit-text-stroke-color", "darkslategrey")
+
+pub const darkturquoise = #("-webkit-text-stroke-color", "darkturquoise")
+
+pub const darkviolet = #("-webkit-text-stroke-color", "darkviolet")
+
+pub const deeppink = #("-webkit-text-stroke-color", "deeppink")
+
+pub const deepskyblue = #("-webkit-text-stroke-color", "deepskyblue")
+
+pub const dimgray = #("-webkit-text-stroke-color", "dimgray")
+
+pub const dimgrey = #("-webkit-text-stroke-color", "dimgrey")
+
+pub const dodgerblue = #("-webkit-text-stroke-color", "dodgerblue")
+
+pub const firebrick = #("-webkit-text-stroke-color", "firebrick")
+
+pub const floralwhite = #("-webkit-text-stroke-color", "floralwhite")
+
+pub const forestgreen = #("-webkit-text-stroke-color", "forestgreen")
+
+pub const fuchsia = #("-webkit-text-stroke-color", "fuchsia")
+
+pub const gainsboro = #("-webkit-text-stroke-color", "gainsboro")
+
+pub const ghostwhite = #("-webkit-text-stroke-color", "ghostwhite")
+
+pub const gold = #("-webkit-text-stroke-color", "gold")
+
+pub const goldenrod = #("-webkit-text-stroke-color", "goldenrod")
+
+pub const gray = #("-webkit-text-stroke-color", "gray")
+
+pub const green = #("-webkit-text-stroke-color", "green")
+
+pub const greenyellow = #("-webkit-text-stroke-color", "greenyellow")
+
+pub const grey = #("-webkit-text-stroke-color", "grey")
+
+pub const honeydew = #("-webkit-text-stroke-color", "honeydew")
+
+pub const hotpink = #("-webkit-text-stroke-color", "hotpink")
+
+pub const indianred = #("-webkit-text-stroke-color", "indianred")
+
+pub const indigo = #("-webkit-text-stroke-color", "indigo")
+
+pub const ivory = #("-webkit-text-stroke-color", "ivory")
+
+pub const khaki = #("-webkit-text-stroke-color", "khaki")
+
+pub const lavender = #("-webkit-text-stroke-color", "lavender")
+
+pub const lavenderblush = #("-webkit-text-stroke-color", "lavenderblush")
+
+pub const lawngreen = #("-webkit-text-stroke-color", "lawngreen")
+
+pub const lemonchiffon = #("-webkit-text-stroke-color", "lemonchiffon")
+
+pub const lightblue = #("-webkit-text-stroke-color", "lightblue")
+
+pub const lightcoral = #("-webkit-text-stroke-color", "lightcoral")
+
+pub const lightcyan = #("-webkit-text-stroke-color", "lightcyan")
+
+pub const lightgoldenrodyellow = #("-webkit-text-stroke-color", "lightgoldenrodyellow")
+
+pub const lightgray = #("-webkit-text-stroke-color", "lightgray")
+
+pub const lightgreen = #("-webkit-text-stroke-color", "lightgreen")
+
+pub const lightgrey = #("-webkit-text-stroke-color", "lightgrey")
+
+pub const lightpink = #("-webkit-text-stroke-color", "lightpink")
+
+pub const lightsalmon = #("-webkit-text-stroke-color", "lightsalmon")
+
+pub const lightseagreen = #("-webkit-text-stroke-color", "lightseagreen")
+
+pub const lightskyblue = #("-webkit-text-stroke-color", "lightskyblue")
+
+pub const lightslategray = #("-webkit-text-stroke-color", "lightslategray")
+
+pub const lightslategrey = #("-webkit-text-stroke-color", "lightslategrey")
+
+pub const lightsteelblue = #("-webkit-text-stroke-color", "lightsteelblue")
+
+pub const lightyellow = #("-webkit-text-stroke-color", "lightyellow")
+
+pub const lime = #("-webkit-text-stroke-color", "lime")
+
+pub const limegreen = #("-webkit-text-stroke-color", "limegreen")
+
+pub const linen = #("-webkit-text-stroke-color", "linen")
+
+pub const magenta = #("-webkit-text-stroke-color", "magenta")
+
+pub const maroon = #("-webkit-text-stroke-color", "maroon")
+
+pub const mediumaquamarine = #("-webkit-text-stroke-color", "mediumaquamarine")
+
+pub const mediumblue = #("-webkit-text-stroke-color", "mediumblue")
+
+pub const mediumorchid = #("-webkit-text-stroke-color", "mediumorchid")
+
+pub const mediumpurple = #("-webkit-text-stroke-color", "mediumpurple")
+
+pub const mediumseagreen = #("-webkit-text-stroke-color", "mediumseagreen")
+
+pub const mediumslateblue = #("-webkit-text-stroke-color", "mediumslateblue")
+
+pub const mediumspringgreen = #("-webkit-text-stroke-color", "mediumspringgreen")
+
+pub const mediumturquoise = #("-webkit-text-stroke-color", "mediumturquoise")
+
+pub const mediumvioletred = #("-webkit-text-stroke-color", "mediumvioletred")
+
+pub const midnightblue = #("-webkit-text-stroke-color", "midnightblue")
+
+pub const mintcream = #("-webkit-text-stroke-color", "mintcream")
+
+pub const mistyrose = #("-webkit-text-stroke-color", "mistyrose")
+
+pub const moccasin = #("-webkit-text-stroke-color", "moccasin")
+
+pub const navajowhite = #("-webkit-text-stroke-color", "navajowhite")
+
+pub const navy = #("-webkit-text-stroke-color", "navy")
+
+pub const oldlace = #("-webkit-text-stroke-color", "oldlace")
+
+pub const olive = #("-webkit-text-stroke-color", "olive")
+
+pub const olivedrab = #("-webkit-text-stroke-color", "olivedrab")
+
+pub const orange = #("-webkit-text-stroke-color", "orange")
+
+pub const orangered = #("-webkit-text-stroke-color", "orangered")
+
+pub const orchid = #("-webkit-text-stroke-color", "orchid")
+
+pub const palegoldenrod = #("-webkit-text-stroke-color", "palegoldenrod")
+
+pub const palegreen = #("-webkit-text-stroke-color", "palegreen")
+
+pub const paleturquoise = #("-webkit-text-stroke-color", "paleturquoise")
+
+pub const palevioletred = #("-webkit-text-stroke-color", "palevioletred")
+
+pub const papayawhip = #("-webkit-text-stroke-color", "papayawhip")
+
+pub const peachpuff = #("-webkit-text-stroke-color", "peachpuff")
+
+pub const peru = #("-webkit-text-stroke-color", "peru")
+
+pub const pink = #("-webkit-text-stroke-color", "pink")
+
+pub const plum = #("-webkit-text-stroke-color", "plum")
+
+pub const powderblue = #("-webkit-text-stroke-color", "powderblue")
+
+pub const purple = #("-webkit-text-stroke-color", "purple")
+
+pub const rebeccapurple = #("-webkit-text-stroke-color", "rebeccapurple")
+
+pub const red = #("-webkit-text-stroke-color", "red")
+
+pub const rosybrown = #("-webkit-text-stroke-color", "rosybrown")
+
+pub const royalblue = #("-webkit-text-stroke-color", "royalblue")
+
+pub const saddlebrown = #("-webkit-text-stroke-color", "saddlebrown")
+
+pub const salmon = #("-webkit-text-stroke-color", "salmon")
+
+pub const sandybrown = #("-webkit-text-stroke-color", "sandybrown")
+
+pub const seagreen = #("-webkit-text-stroke-color", "seagreen")
+
+pub const seashell = #("-webkit-text-stroke-color", "seashell")
+
+pub const sienna = #("-webkit-text-stroke-color", "sienna")
+
+pub const silver = #("-webkit-text-stroke-color", "silver")
+
+pub const skyblue = #("-webkit-text-stroke-color", "skyblue")
+
+pub const slateblue = #("-webkit-text-stroke-color", "slateblue")
+
+pub const slategray = #("-webkit-text-stroke-color", "slategray")
+
+pub const slategrey = #("-webkit-text-stroke-color", "slategrey")
+
+pub const snow = #("-webkit-text-stroke-color", "snow")
+
+pub const springgreen = #("-webkit-text-stroke-color", "springgreen")
+
+pub const steelblue = #("-webkit-text-stroke-color", "steelblue")
+
+pub const tan = #("-webkit-text-stroke-color", "tan")
+
+pub const teal = #("-webkit-text-stroke-color", "teal")
+
+pub const thistle = #("-webkit-text-stroke-color", "thistle")
+
+pub const tomato = #("-webkit-text-stroke-color", "tomato")
+
+pub const turquoise = #("-webkit-text-stroke-color", "turquoise")
+
+pub const violet = #("-webkit-text-stroke-color", "violet")
+
+pub const wheat = #("-webkit-text-stroke-color", "wheat")
+
+pub const white = #("-webkit-text-stroke-color", "white")
+
+pub const whitesmoke = #("-webkit-text-stroke-color", "whitesmoke")
+
+pub const yellow = #("-webkit-text-stroke-color", "yellow")
+
+pub const yellowgreen = #("-webkit-text-stroke-color", "yellowgreen")
+
+pub const in = #("-webkit-text-stroke-color", "in")
+
+pub const lab = #("-webkit-text-stroke-color", "lab")
+
+pub const oklab = #("-webkit-text-stroke-color", "oklab")
+
+pub const hsl = #("-webkit-text-stroke-color", "hsl")
+
+pub const hwb = #("-webkit-text-stroke-color", "hwb")
+
+pub const lch = #("-webkit-text-stroke-color", "lch")
+
+pub const oklch = #("-webkit-text-stroke-color", "oklch")
+
+pub const shorter = #("-webkit-text-stroke-color", "shorter")
+
+pub const longer = #("-webkit-text-stroke-color", "longer")
+
+pub const increasing = #("-webkit-text-stroke-color", "increasing")
+
+pub const decreasing = #("-webkit-text-stroke-color", "decreasing")
+
+pub const hue = #("-webkit-text-stroke-color", "hue")
+
+pub const current_color = #("-webkit-text-stroke-color", "currentColor")
+
+pub const accent_color = #("-webkit-text-stroke-color", "AccentColor")
+
+pub const accent_color_text = #("-webkit-text-stroke-color", "AccentColorText")
+
+pub const active_text = #("-webkit-text-stroke-color", "ActiveText")
+
+pub const button_border = #("-webkit-text-stroke-color", "ButtonBorder")
+
+pub const button_face = #("-webkit-text-stroke-color", "ButtonFace")
+
+pub const button_text = #("-webkit-text-stroke-color", "ButtonText")
+
+pub const canvas = #("-webkit-text-stroke-color", "Canvas")
+
+pub const canvas_text = #("-webkit-text-stroke-color", "CanvasText")
+
+pub const field = #("-webkit-text-stroke-color", "Field")
+
+pub const field_text = #("-webkit-text-stroke-color", "FieldText")
+
+pub const gray_text = #("-webkit-text-stroke-color", "GrayText")
+
+pub const highlight = #("-webkit-text-stroke-color", "Highlight")
+
+pub const highlight_text = #("-webkit-text-stroke-color", "HighlightText")
+
+pub const link_text = #("-webkit-text-stroke-color", "LinkText")
+
+pub const mark = #("-webkit-text-stroke-color", "Mark")
+
+pub const mark_text = #("-webkit-text-stroke-color", "MarkText")
+
+pub const selected_item = #("-webkit-text-stroke-color", "SelectedItem")
+
+pub const selected_item_text = #("-webkit-text-stroke-color", "SelectedItemText")
+
+pub const visited_text = #("-webkit-text-stroke-color", "VisitedText")
+
+pub const moz_button_default = #("-webkit-text-stroke-color", "-moz-ButtonDefault")
+
+pub const moz_button_hover_face = #("-webkit-text-stroke-color", "-moz-ButtonHoverFace")
+
+pub const moz_button_hover_text = #("-webkit-text-stroke-color", "-moz-ButtonHoverText")
+
+pub const moz_cell_highlight = #("-webkit-text-stroke-color", "-moz-CellHighlight")
+
+pub const moz_cell_highlight_text = #("-webkit-text-stroke-color", "-moz-CellHighlightText")
+
+pub const moz_combobox = #("-webkit-text-stroke-color", "-moz-Combobox")
+
+pub const moz_combobox_text = #("-webkit-text-stroke-color", "-moz-ComboboxText")
+
+pub const moz_dialog = #("-webkit-text-stroke-color", "-moz-Dialog")
+
+pub const moz_dialog_text = #("-webkit-text-stroke-color", "-moz-DialogText")
+
+pub const moz_dragtargetzone = #("-webkit-text-stroke-color", "-moz-dragtargetzone")
+
+pub const moz_even_tree_row = #("-webkit-text-stroke-color", "-moz-EvenTreeRow")
+
+pub const moz_field = #("-webkit-text-stroke-color", "-moz-Field")
+
+pub const moz_field_text = #("-webkit-text-stroke-color", "-moz-FieldText")
+
+pub const moz_html_cell_highlight = #("-webkit-text-stroke-color", "-moz-html-CellHighlight")
+
+pub const moz_html_cell_highlight_text = #("-webkit-text-stroke-color", "-moz-html-CellHighlightText")
+
+pub const moz_mac_accentdarkestshadow = #("-webkit-text-stroke-color", "-moz-mac-accentdarkestshadow")
+
+pub const moz_mac_accentdarkshadow = #("-webkit-text-stroke-color", "-moz-mac-accentdarkshadow")
+
+pub const moz_mac_accentface = #("-webkit-text-stroke-color", "-moz-mac-accentface")
+
+pub const moz_mac_accentlightesthighlight = #("-webkit-text-stroke-color", "-moz-mac-accentlightesthighlight")
+
+pub const moz_mac_accentlightshadow = #("-webkit-text-stroke-color", "-moz-mac-accentlightshadow")
+
+pub const moz_mac_accentregularhighlight = #("-webkit-text-stroke-color", "-moz-mac-accentregularhighlight")
+
+pub const moz_mac_accentregularshadow = #("-webkit-text-stroke-color", "-moz-mac-accentregularshadow")
+
+pub const moz_mac_chrome_active = #("-webkit-text-stroke-color", "-moz-mac-chrome-active")
+
+pub const moz_mac_chrome_inactive = #("-webkit-text-stroke-color", "-moz-mac-chrome-inactive")
+
+pub const moz_mac_focusring = #("-webkit-text-stroke-color", "-moz-mac-focusring")
+
+pub const moz_mac_menuselect = #("-webkit-text-stroke-color", "-moz-mac-menuselect")
+
+pub const moz_mac_menushadow = #("-webkit-text-stroke-color", "-moz-mac-menushadow")
+
+pub const moz_mac_menutextselect = #("-webkit-text-stroke-color", "-moz-mac-menutextselect")
+
+pub const moz_menu_hover = #("-webkit-text-stroke-color", "-moz-MenuHover")
+
+pub const moz_menu_hover_text = #("-webkit-text-stroke-color", "-moz-MenuHoverText")
+
+pub const moz_menu_bar_text = #("-webkit-text-stroke-color", "-moz-MenuBarText")
+
+pub const moz_menu_bar_hover_text = #("-webkit-text-stroke-color", "-moz-MenuBarHoverText")
+
+pub const moz_nativehyperlinktext = #("-webkit-text-stroke-color", "-moz-nativehyperlinktext")
+
+pub const moz_odd_tree_row = #("-webkit-text-stroke-color", "-moz-OddTreeRow")
+
+pub const moz_win_communicationstext = #("-webkit-text-stroke-color", "-moz-win-communicationstext")
+
+pub const moz_win_mediatext = #("-webkit-text-stroke-color", "-moz-win-mediatext")
+
+pub const moz_activehyperlinktext = #("-webkit-text-stroke-color", "-moz-activehyperlinktext")
+
+pub const moz_default_background_color = #("-webkit-text-stroke-color", "-moz-default-background-color")
+
+pub const moz_default_color = #("-webkit-text-stroke-color", "-moz-default-color")
+
+pub const moz_hyperlinktext = #("-webkit-text-stroke-color", "-moz-hyperlinktext")
+
+pub const moz_visitedhyperlinktext = #("-webkit-text-stroke-color", "-moz-visitedhyperlinktext")
+
+pub const webkit_activelink = #("-webkit-text-stroke-color", "-webkit-activelink")
+
+pub const webkit_focus_ring_color = #("-webkit-text-stroke-color", "-webkit-focus-ring-color")
+
+pub const webkit_link = #("-webkit-text-stroke-color", "-webkit-link")
+
+pub const webkit_text = #("-webkit-text-stroke-color", "-webkit-text")
 
 pub fn raw(value: String) -> #(String, String) {
   #("webkit_text_stroke_color", value)

@@ -1,52 +1,28 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("dominant-baseline", "auto")
-}
+pub const auto_ = #("dominant-baseline", "auto")
 
-pub fn use_script() -> #(String, String) {
-  #("dominant-baseline", "use-script")
-}
+pub const use_script = #("dominant-baseline", "use-script")
 
-pub fn no_change() -> #(String, String) {
-  #("dominant-baseline", "no-change")
-}
+pub const no_change = #("dominant-baseline", "no-change")
 
-pub fn reset_size() -> #(String, String) {
-  #("dominant-baseline", "reset-size")
-}
+pub const reset_size = #("dominant-baseline", "reset-size")
 
-pub fn ideographic() -> #(String, String) {
-  #("dominant-baseline", "ideographic")
-}
+pub const ideographic = #("dominant-baseline", "ideographic")
 
-pub fn alphabetic() -> #(String, String) {
-  #("dominant-baseline", "alphabetic")
-}
+pub const alphabetic = #("dominant-baseline", "alphabetic")
 
-pub fn hanging() -> #(String, String) {
-  #("dominant-baseline", "hanging")
-}
+pub const hanging = #("dominant-baseline", "hanging")
 
-pub fn mathematical() -> #(String, String) {
-  #("dominant-baseline", "mathematical")
-}
+pub const mathematical = #("dominant-baseline", "mathematical")
 
-pub fn central() -> #(String, String) {
-  #("dominant-baseline", "central")
-}
+pub const central = #("dominant-baseline", "central")
 
-pub fn middle() -> #(String, String) {
-  #("dominant-baseline", "middle")
-}
+pub const middle = #("dominant-baseline", "middle")
 
-pub fn text_after_edge() -> #(String, String) {
-  #("dominant-baseline", "text-after-edge")
-}
+pub const text_after_edge = #("dominant-baseline", "text-after-edge")
 
-pub fn text_before_edge() -> #(String, String) {
-  #("dominant-baseline", "text-before-edge")
-}
+pub const text_before_edge = #("dominant-baseline", "text-before-edge")
 
 pub fn raw(value: String) -> #(String, String) {
   #("dominant_baseline", value)

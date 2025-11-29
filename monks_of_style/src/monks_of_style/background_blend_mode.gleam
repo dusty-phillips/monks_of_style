@@ -1,68 +1,36 @@
 
 
-pub fn normal() -> #(String, String) {
-  #("background-blend-mode", "normal")
-}
+pub const normal = #("background-blend-mode", "normal")
 
-pub fn multiply() -> #(String, String) {
-  #("background-blend-mode", "multiply")
-}
+pub const multiply = #("background-blend-mode", "multiply")
 
-pub fn screen() -> #(String, String) {
-  #("background-blend-mode", "screen")
-}
+pub const screen = #("background-blend-mode", "screen")
 
-pub fn overlay() -> #(String, String) {
-  #("background-blend-mode", "overlay")
-}
+pub const overlay = #("background-blend-mode", "overlay")
 
-pub fn darken() -> #(String, String) {
-  #("background-blend-mode", "darken")
-}
+pub const darken = #("background-blend-mode", "darken")
 
-pub fn lighten() -> #(String, String) {
-  #("background-blend-mode", "lighten")
-}
+pub const lighten = #("background-blend-mode", "lighten")
 
-pub fn color_dodge() -> #(String, String) {
-  #("background-blend-mode", "color-dodge")
-}
+pub const color_dodge = #("background-blend-mode", "color-dodge")
 
-pub fn color_burn() -> #(String, String) {
-  #("background-blend-mode", "color-burn")
-}
+pub const color_burn = #("background-blend-mode", "color-burn")
 
-pub fn hard_light() -> #(String, String) {
-  #("background-blend-mode", "hard-light")
-}
+pub const hard_light = #("background-blend-mode", "hard-light")
 
-pub fn soft_light() -> #(String, String) {
-  #("background-blend-mode", "soft-light")
-}
+pub const soft_light = #("background-blend-mode", "soft-light")
 
-pub fn difference() -> #(String, String) {
-  #("background-blend-mode", "difference")
-}
+pub const difference = #("background-blend-mode", "difference")
 
-pub fn exclusion() -> #(String, String) {
-  #("background-blend-mode", "exclusion")
-}
+pub const exclusion = #("background-blend-mode", "exclusion")
 
-pub fn hue() -> #(String, String) {
-  #("background-blend-mode", "hue")
-}
+pub const hue = #("background-blend-mode", "hue")
 
-pub fn saturation() -> #(String, String) {
-  #("background-blend-mode", "saturation")
-}
+pub const saturation = #("background-blend-mode", "saturation")
 
-pub fn color() -> #(String, String) {
-  #("background-blend-mode", "color")
-}
+pub const color = #("background-blend-mode", "color")
 
-pub fn luminosity() -> #(String, String) {
-  #("background-blend-mode", "luminosity")
-}
+pub const luminosity = #("background-blend-mode", "luminosity")
 
 pub fn raw(value: String) -> #(String, String) {
   #("background_blend_mode", value)

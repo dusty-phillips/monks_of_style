@@ -1,16 +1,10 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("mask-size", "auto")
-}
+pub const auto_ = #("mask-size", "auto")
 
-pub fn cover() -> #(String, String) {
-  #("mask-size", "cover")
-}
+pub const cover = #("mask-size", "cover")
 
-pub fn contain() -> #(String, String) {
-  #("mask-size", "contain")
-}
+pub const contain = #("mask-size", "contain")
 
 pub fn raw(value: String) -> #(String, String) {
   #("mask_size", value)

@@ -1,20 +1,12 @@
 
 
-pub fn block() -> #(String, String) {
-  #("view-timeline-axis", "block")
-}
+pub const block = #("view-timeline-axis", "block")
 
-pub fn inline() -> #(String, String) {
-  #("view-timeline-axis", "inline")
-}
+pub const inline = #("view-timeline-axis", "inline")
 
-pub fn x() -> #(String, String) {
-  #("view-timeline-axis", "x")
-}
+pub const x = #("view-timeline-axis", "x")
 
-pub fn y() -> #(String, String) {
-  #("view-timeline-axis", "y")
-}
+pub const y = #("view-timeline-axis", "y")
 
 pub fn raw(value: String) -> #(String, String) {
   #("view_timeline_axis", value)

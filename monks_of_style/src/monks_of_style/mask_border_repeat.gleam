@@ -1,20 +1,12 @@
 
 
-pub fn stretch() -> #(String, String) {
-  #("mask-border-repeat", "stretch")
-}
+pub const stretch = #("mask-border-repeat", "stretch")
 
-pub fn repeat() -> #(String, String) {
-  #("mask-border-repeat", "repeat")
-}
+pub const repeat = #("mask-border-repeat", "repeat")
 
-pub fn round() -> #(String, String) {
-  #("mask-border-repeat", "round")
-}
+pub const round = #("mask-border-repeat", "round")
 
-pub fn space() -> #(String, String) {
-  #("mask-border-repeat", "space")
-}
+pub const space = #("mask-border-repeat", "space")
 
 pub fn raw(value: String) -> #(String, String) {
   #("mask_border_repeat", value)

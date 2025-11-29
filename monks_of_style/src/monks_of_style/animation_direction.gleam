@@ -1,20 +1,12 @@
 
 
-pub fn normal() -> #(String, String) {
-  #("animation-direction", "normal")
-}
+pub const normal = #("animation-direction", "normal")
 
-pub fn reverse() -> #(String, String) {
-  #("animation-direction", "reverse")
-}
+pub const reverse = #("animation-direction", "reverse")
 
-pub fn alternate() -> #(String, String) {
-  #("animation-direction", "alternate")
-}
+pub const alternate = #("animation-direction", "alternate")
 
-pub fn alternate_reverse() -> #(String, String) {
-  #("animation-direction", "alternate-reverse")
-}
+pub const alternate_reverse = #("animation-direction", "alternate-reverse")
 
 pub fn raw(value: String) -> #(String, String) {
   #("animation_direction", value)

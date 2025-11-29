@@ -1,16 +1,10 @@
 
 
-pub fn border_box() -> #(String, String) {
-  #("background-origin", "border-box")
-}
+pub const border_box = #("background-origin", "border-box")
 
-pub fn padding_box() -> #(String, String) {
-  #("background-origin", "padding-box")
-}
+pub const padding_box = #("background-origin", "padding-box")
 
-pub fn content_box() -> #(String, String) {
-  #("background-origin", "content-box")
-}
+pub const content_box = #("background-origin", "content-box")
 
 pub fn raw(value: String) -> #(String, String) {
   #("background_origin", value)

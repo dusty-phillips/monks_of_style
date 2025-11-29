@@ -1,28 +1,16 @@
 
 
-pub fn none() -> #(String, String) {
-  #("clear", "none")
-}
+pub const none = #("clear", "none")
 
-pub fn left() -> #(String, String) {
-  #("clear", "left")
-}
+pub const left = #("clear", "left")
 
-pub fn right() -> #(String, String) {
-  #("clear", "right")
-}
+pub const right = #("clear", "right")
 
-pub fn both() -> #(String, String) {
-  #("clear", "both")
-}
+pub const both = #("clear", "both")
 
-pub fn inline_start() -> #(String, String) {
-  #("clear", "inline-start")
-}
+pub const inline_start = #("clear", "inline-start")
 
-pub fn inline_end() -> #(String, String) {
-  #("clear", "inline-end")
-}
+pub const inline_end = #("clear", "inline-end")
 
 pub fn raw(value: String) -> #(String, String) {
   #("clear", value)

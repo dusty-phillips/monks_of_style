@@ -1,32 +1,18 @@
 
 
-pub fn none() -> #(String, String) {
-  #("font-size-adjust", "none")
-}
+pub const none = #("font-size-adjust", "none")
 
-pub fn ex_height() -> #(String, String) {
-  #("font-size-adjust", "ex-height")
-}
+pub const ex_height = #("font-size-adjust", "ex-height")
 
-pub fn cap_height() -> #(String, String) {
-  #("font-size-adjust", "cap-height")
-}
+pub const cap_height = #("font-size-adjust", "cap-height")
 
-pub fn ch_width() -> #(String, String) {
-  #("font-size-adjust", "ch-width")
-}
+pub const ch_width = #("font-size-adjust", "ch-width")
 
-pub fn ic_width() -> #(String, String) {
-  #("font-size-adjust", "ic-width")
-}
+pub const ic_width = #("font-size-adjust", "ic-width")
 
-pub fn ic_height() -> #(String, String) {
-  #("font-size-adjust", "ic-height")
-}
+pub const ic_height = #("font-size-adjust", "ic-height")
 
-pub fn from_font() -> #(String, String) {
-  #("font-size-adjust", "from-font")
-}
+pub const from_font = #("font-size-adjust", "from-font")
 
 pub fn raw(value: String) -> #(String, String) {
   #("font_size_adjust", value)

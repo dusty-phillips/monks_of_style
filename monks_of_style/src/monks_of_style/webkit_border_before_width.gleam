@@ -1,16 +1,10 @@
 
 
-pub fn thin() -> #(String, String) {
-  #("-webkit-border-before-width", "thin")
-}
+pub const thin = #("-webkit-border-before-width", "thin")
 
-pub fn medium() -> #(String, String) {
-  #("-webkit-border-before-width", "medium")
-}
+pub const medium = #("-webkit-border-before-width", "medium")
 
-pub fn thick() -> #(String, String) {
-  #("-webkit-border-before-width", "thick")
-}
+pub const thick = #("-webkit-border-before-width", "thick")
 
 pub fn raw(value: String) -> #(String, String) {
   #("webkit_border_before_width", value)

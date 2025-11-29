@@ -1,12 +1,8 @@
 
 
-pub fn nonzero() -> #(String, String) {
-  #("clip-rule", "nonzero")
-}
+pub const nonzero = #("clip-rule", "nonzero")
 
-pub fn evenodd() -> #(String, String) {
-  #("clip-rule", "evenodd")
-}
+pub const evenodd = #("clip-rule", "evenodd")
 
 pub fn raw(value: String) -> #(String, String) {
   #("clip_rule", value)

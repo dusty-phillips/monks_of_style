@@ -1,12 +1,8 @@
 
 
-pub fn luminance() -> #(String, String) {
-  #("mask-border-mode", "luminance")
-}
+pub const luminance = #("mask-border-mode", "luminance")
 
-pub fn alpha() -> #(String, String) {
-  #("mask-border-mode", "alpha")
-}
+pub const alpha = #("mask-border-mode", "alpha")
 
 pub fn raw(value: String) -> #(String, String) {
   #("mask_border_mode", value)

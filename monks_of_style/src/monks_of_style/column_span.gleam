@@ -1,12 +1,8 @@
 
 
-pub fn none() -> #(String, String) {
-  #("column-span", "none")
-}
+pub const none = #("column-span", "none")
 
-pub fn all() -> #(String, String) {
-  #("column-span", "all")
-}
+pub const all = #("column-span", "all")
 
 pub fn raw(value: String) -> #(String, String) {
   #("column_span", value)

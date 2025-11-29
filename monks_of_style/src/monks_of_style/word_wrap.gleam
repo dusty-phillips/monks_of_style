@@ -1,12 +1,8 @@
 
 
-pub fn normal() -> #(String, String) {
-  #("word-wrap", "normal")
-}
+pub const normal = #("word-wrap", "normal")
 
-pub fn break_word() -> #(String, String) {
-  #("word-wrap", "break-word")
-}
+pub const break_word = #("word-wrap", "break-word")
 
 pub fn raw(value: String) -> #(String, String) {
   #("word_wrap", value)

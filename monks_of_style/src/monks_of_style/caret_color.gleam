@@ -1,952 +1,478 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("caret-color", "auto")
-}
-
-pub fn none() -> #(String, String) {
-  #("caret-color", "none")
-}
-
-pub fn srgb() -> #(String, String) {
-  #("caret-color", "srgb")
-}
-
-pub fn srgb_linear() -> #(String, String) {
-  #("caret-color", "srgb-linear")
-}
-
-pub fn display_p3() -> #(String, String) {
-  #("caret-color", "display-p3")
-}
-
-pub fn a98_rgb() -> #(String, String) {
-  #("caret-color", "a98-rgb")
-}
-
-pub fn prophoto_rgb() -> #(String, String) {
-  #("caret-color", "prophoto-rgb")
-}
-
-pub fn rec2020() -> #(String, String) {
-  #("caret-color", "rec2020")
-}
-
-pub fn xyz() -> #(String, String) {
-  #("caret-color", "xyz")
-}
-
-pub fn xyz_d50() -> #(String, String) {
-  #("caret-color", "xyz-d50")
-}
-
-pub fn xyz_d65() -> #(String, String) {
-  #("caret-color", "xyz-d65")
-}
-
-pub fn transparent() -> #(String, String) {
-  #("caret-color", "transparent")
-}
-
-pub fn aliceblue() -> #(String, String) {
-  #("caret-color", "aliceblue")
-}
-
-pub fn antiquewhite() -> #(String, String) {
-  #("caret-color", "antiquewhite")
-}
-
-pub fn aqua() -> #(String, String) {
-  #("caret-color", "aqua")
-}
-
-pub fn aquamarine() -> #(String, String) {
-  #("caret-color", "aquamarine")
-}
-
-pub fn azure() -> #(String, String) {
-  #("caret-color", "azure")
-}
-
-pub fn beige() -> #(String, String) {
-  #("caret-color", "beige")
-}
-
-pub fn bisque() -> #(String, String) {
-  #("caret-color", "bisque")
-}
-
-pub fn black() -> #(String, String) {
-  #("caret-color", "black")
-}
-
-pub fn blanchedalmond() -> #(String, String) {
-  #("caret-color", "blanchedalmond")
-}
-
-pub fn blue() -> #(String, String) {
-  #("caret-color", "blue")
-}
-
-pub fn blueviolet() -> #(String, String) {
-  #("caret-color", "blueviolet")
-}
-
-pub fn brown() -> #(String, String) {
-  #("caret-color", "brown")
-}
-
-pub fn burlywood() -> #(String, String) {
-  #("caret-color", "burlywood")
-}
-
-pub fn cadetblue() -> #(String, String) {
-  #("caret-color", "cadetblue")
-}
-
-pub fn chartreuse() -> #(String, String) {
-  #("caret-color", "chartreuse")
-}
-
-pub fn chocolate() -> #(String, String) {
-  #("caret-color", "chocolate")
-}
-
-pub fn coral() -> #(String, String) {
-  #("caret-color", "coral")
-}
-
-pub fn cornflowerblue() -> #(String, String) {
-  #("caret-color", "cornflowerblue")
-}
-
-pub fn cornsilk() -> #(String, String) {
-  #("caret-color", "cornsilk")
-}
-
-pub fn crimson() -> #(String, String) {
-  #("caret-color", "crimson")
-}
-
-pub fn cyan() -> #(String, String) {
-  #("caret-color", "cyan")
-}
-
-pub fn darkblue() -> #(String, String) {
-  #("caret-color", "darkblue")
-}
-
-pub fn darkcyan() -> #(String, String) {
-  #("caret-color", "darkcyan")
-}
-
-pub fn darkgoldenrod() -> #(String, String) {
-  #("caret-color", "darkgoldenrod")
-}
-
-pub fn darkgray() -> #(String, String) {
-  #("caret-color", "darkgray")
-}
-
-pub fn darkgreen() -> #(String, String) {
-  #("caret-color", "darkgreen")
-}
-
-pub fn darkgrey() -> #(String, String) {
-  #("caret-color", "darkgrey")
-}
-
-pub fn darkkhaki() -> #(String, String) {
-  #("caret-color", "darkkhaki")
-}
-
-pub fn darkmagenta() -> #(String, String) {
-  #("caret-color", "darkmagenta")
-}
-
-pub fn darkolivegreen() -> #(String, String) {
-  #("caret-color", "darkolivegreen")
-}
-
-pub fn darkorange() -> #(String, String) {
-  #("caret-color", "darkorange")
-}
-
-pub fn darkorchid() -> #(String, String) {
-  #("caret-color", "darkorchid")
-}
-
-pub fn darkred() -> #(String, String) {
-  #("caret-color", "darkred")
-}
-
-pub fn darksalmon() -> #(String, String) {
-  #("caret-color", "darksalmon")
-}
-
-pub fn darkseagreen() -> #(String, String) {
-  #("caret-color", "darkseagreen")
-}
-
-pub fn darkslateblue() -> #(String, String) {
-  #("caret-color", "darkslateblue")
-}
-
-pub fn darkslategray() -> #(String, String) {
-  #("caret-color", "darkslategray")
-}
-
-pub fn darkslategrey() -> #(String, String) {
-  #("caret-color", "darkslategrey")
-}
-
-pub fn darkturquoise() -> #(String, String) {
-  #("caret-color", "darkturquoise")
-}
-
-pub fn darkviolet() -> #(String, String) {
-  #("caret-color", "darkviolet")
-}
-
-pub fn deeppink() -> #(String, String) {
-  #("caret-color", "deeppink")
-}
-
-pub fn deepskyblue() -> #(String, String) {
-  #("caret-color", "deepskyblue")
-}
-
-pub fn dimgray() -> #(String, String) {
-  #("caret-color", "dimgray")
-}
-
-pub fn dimgrey() -> #(String, String) {
-  #("caret-color", "dimgrey")
-}
-
-pub fn dodgerblue() -> #(String, String) {
-  #("caret-color", "dodgerblue")
-}
-
-pub fn firebrick() -> #(String, String) {
-  #("caret-color", "firebrick")
-}
-
-pub fn floralwhite() -> #(String, String) {
-  #("caret-color", "floralwhite")
-}
-
-pub fn forestgreen() -> #(String, String) {
-  #("caret-color", "forestgreen")
-}
-
-pub fn fuchsia() -> #(String, String) {
-  #("caret-color", "fuchsia")
-}
-
-pub fn gainsboro() -> #(String, String) {
-  #("caret-color", "gainsboro")
-}
-
-pub fn ghostwhite() -> #(String, String) {
-  #("caret-color", "ghostwhite")
-}
-
-pub fn gold() -> #(String, String) {
-  #("caret-color", "gold")
-}
-
-pub fn goldenrod() -> #(String, String) {
-  #("caret-color", "goldenrod")
-}
-
-pub fn gray() -> #(String, String) {
-  #("caret-color", "gray")
-}
-
-pub fn green() -> #(String, String) {
-  #("caret-color", "green")
-}
-
-pub fn greenyellow() -> #(String, String) {
-  #("caret-color", "greenyellow")
-}
-
-pub fn grey() -> #(String, String) {
-  #("caret-color", "grey")
-}
-
-pub fn honeydew() -> #(String, String) {
-  #("caret-color", "honeydew")
-}
-
-pub fn hotpink() -> #(String, String) {
-  #("caret-color", "hotpink")
-}
-
-pub fn indianred() -> #(String, String) {
-  #("caret-color", "indianred")
-}
-
-pub fn indigo() -> #(String, String) {
-  #("caret-color", "indigo")
-}
-
-pub fn ivory() -> #(String, String) {
-  #("caret-color", "ivory")
-}
-
-pub fn khaki() -> #(String, String) {
-  #("caret-color", "khaki")
-}
-
-pub fn lavender() -> #(String, String) {
-  #("caret-color", "lavender")
-}
-
-pub fn lavenderblush() -> #(String, String) {
-  #("caret-color", "lavenderblush")
-}
-
-pub fn lawngreen() -> #(String, String) {
-  #("caret-color", "lawngreen")
-}
-
-pub fn lemonchiffon() -> #(String, String) {
-  #("caret-color", "lemonchiffon")
-}
-
-pub fn lightblue() -> #(String, String) {
-  #("caret-color", "lightblue")
-}
-
-pub fn lightcoral() -> #(String, String) {
-  #("caret-color", "lightcoral")
-}
-
-pub fn lightcyan() -> #(String, String) {
-  #("caret-color", "lightcyan")
-}
-
-pub fn lightgoldenrodyellow() -> #(String, String) {
-  #("caret-color", "lightgoldenrodyellow")
-}
-
-pub fn lightgray() -> #(String, String) {
-  #("caret-color", "lightgray")
-}
-
-pub fn lightgreen() -> #(String, String) {
-  #("caret-color", "lightgreen")
-}
-
-pub fn lightgrey() -> #(String, String) {
-  #("caret-color", "lightgrey")
-}
-
-pub fn lightpink() -> #(String, String) {
-  #("caret-color", "lightpink")
-}
-
-pub fn lightsalmon() -> #(String, String) {
-  #("caret-color", "lightsalmon")
-}
-
-pub fn lightseagreen() -> #(String, String) {
-  #("caret-color", "lightseagreen")
-}
-
-pub fn lightskyblue() -> #(String, String) {
-  #("caret-color", "lightskyblue")
-}
-
-pub fn lightslategray() -> #(String, String) {
-  #("caret-color", "lightslategray")
-}
-
-pub fn lightslategrey() -> #(String, String) {
-  #("caret-color", "lightslategrey")
-}
-
-pub fn lightsteelblue() -> #(String, String) {
-  #("caret-color", "lightsteelblue")
-}
-
-pub fn lightyellow() -> #(String, String) {
-  #("caret-color", "lightyellow")
-}
-
-pub fn lime() -> #(String, String) {
-  #("caret-color", "lime")
-}
-
-pub fn limegreen() -> #(String, String) {
-  #("caret-color", "limegreen")
-}
-
-pub fn linen() -> #(String, String) {
-  #("caret-color", "linen")
-}
-
-pub fn magenta() -> #(String, String) {
-  #("caret-color", "magenta")
-}
-
-pub fn maroon() -> #(String, String) {
-  #("caret-color", "maroon")
-}
-
-pub fn mediumaquamarine() -> #(String, String) {
-  #("caret-color", "mediumaquamarine")
-}
-
-pub fn mediumblue() -> #(String, String) {
-  #("caret-color", "mediumblue")
-}
-
-pub fn mediumorchid() -> #(String, String) {
-  #("caret-color", "mediumorchid")
-}
-
-pub fn mediumpurple() -> #(String, String) {
-  #("caret-color", "mediumpurple")
-}
-
-pub fn mediumseagreen() -> #(String, String) {
-  #("caret-color", "mediumseagreen")
-}
-
-pub fn mediumslateblue() -> #(String, String) {
-  #("caret-color", "mediumslateblue")
-}
-
-pub fn mediumspringgreen() -> #(String, String) {
-  #("caret-color", "mediumspringgreen")
-}
-
-pub fn mediumturquoise() -> #(String, String) {
-  #("caret-color", "mediumturquoise")
-}
-
-pub fn mediumvioletred() -> #(String, String) {
-  #("caret-color", "mediumvioletred")
-}
-
-pub fn midnightblue() -> #(String, String) {
-  #("caret-color", "midnightblue")
-}
-
-pub fn mintcream() -> #(String, String) {
-  #("caret-color", "mintcream")
-}
-
-pub fn mistyrose() -> #(String, String) {
-  #("caret-color", "mistyrose")
-}
-
-pub fn moccasin() -> #(String, String) {
-  #("caret-color", "moccasin")
-}
-
-pub fn navajowhite() -> #(String, String) {
-  #("caret-color", "navajowhite")
-}
-
-pub fn navy() -> #(String, String) {
-  #("caret-color", "navy")
-}
-
-pub fn oldlace() -> #(String, String) {
-  #("caret-color", "oldlace")
-}
-
-pub fn olive() -> #(String, String) {
-  #("caret-color", "olive")
-}
-
-pub fn olivedrab() -> #(String, String) {
-  #("caret-color", "olivedrab")
-}
-
-pub fn orange() -> #(String, String) {
-  #("caret-color", "orange")
-}
-
-pub fn orangered() -> #(String, String) {
-  #("caret-color", "orangered")
-}
-
-pub fn orchid() -> #(String, String) {
-  #("caret-color", "orchid")
-}
-
-pub fn palegoldenrod() -> #(String, String) {
-  #("caret-color", "palegoldenrod")
-}
-
-pub fn palegreen() -> #(String, String) {
-  #("caret-color", "palegreen")
-}
-
-pub fn paleturquoise() -> #(String, String) {
-  #("caret-color", "paleturquoise")
-}
-
-pub fn palevioletred() -> #(String, String) {
-  #("caret-color", "palevioletred")
-}
-
-pub fn papayawhip() -> #(String, String) {
-  #("caret-color", "papayawhip")
-}
-
-pub fn peachpuff() -> #(String, String) {
-  #("caret-color", "peachpuff")
-}
-
-pub fn peru() -> #(String, String) {
-  #("caret-color", "peru")
-}
-
-pub fn pink() -> #(String, String) {
-  #("caret-color", "pink")
-}
-
-pub fn plum() -> #(String, String) {
-  #("caret-color", "plum")
-}
-
-pub fn powderblue() -> #(String, String) {
-  #("caret-color", "powderblue")
-}
-
-pub fn purple() -> #(String, String) {
-  #("caret-color", "purple")
-}
-
-pub fn rebeccapurple() -> #(String, String) {
-  #("caret-color", "rebeccapurple")
-}
-
-pub fn red() -> #(String, String) {
-  #("caret-color", "red")
-}
-
-pub fn rosybrown() -> #(String, String) {
-  #("caret-color", "rosybrown")
-}
-
-pub fn royalblue() -> #(String, String) {
-  #("caret-color", "royalblue")
-}
-
-pub fn saddlebrown() -> #(String, String) {
-  #("caret-color", "saddlebrown")
-}
-
-pub fn salmon() -> #(String, String) {
-  #("caret-color", "salmon")
-}
-
-pub fn sandybrown() -> #(String, String) {
-  #("caret-color", "sandybrown")
-}
-
-pub fn seagreen() -> #(String, String) {
-  #("caret-color", "seagreen")
-}
-
-pub fn seashell() -> #(String, String) {
-  #("caret-color", "seashell")
-}
-
-pub fn sienna() -> #(String, String) {
-  #("caret-color", "sienna")
-}
-
-pub fn silver() -> #(String, String) {
-  #("caret-color", "silver")
-}
-
-pub fn skyblue() -> #(String, String) {
-  #("caret-color", "skyblue")
-}
-
-pub fn slateblue() -> #(String, String) {
-  #("caret-color", "slateblue")
-}
-
-pub fn slategray() -> #(String, String) {
-  #("caret-color", "slategray")
-}
-
-pub fn slategrey() -> #(String, String) {
-  #("caret-color", "slategrey")
-}
-
-pub fn snow() -> #(String, String) {
-  #("caret-color", "snow")
-}
-
-pub fn springgreen() -> #(String, String) {
-  #("caret-color", "springgreen")
-}
-
-pub fn steelblue() -> #(String, String) {
-  #("caret-color", "steelblue")
-}
-
-pub fn tan() -> #(String, String) {
-  #("caret-color", "tan")
-}
-
-pub fn teal() -> #(String, String) {
-  #("caret-color", "teal")
-}
-
-pub fn thistle() -> #(String, String) {
-  #("caret-color", "thistle")
-}
-
-pub fn tomato() -> #(String, String) {
-  #("caret-color", "tomato")
-}
-
-pub fn turquoise() -> #(String, String) {
-  #("caret-color", "turquoise")
-}
-
-pub fn violet() -> #(String, String) {
-  #("caret-color", "violet")
-}
-
-pub fn wheat() -> #(String, String) {
-  #("caret-color", "wheat")
-}
-
-pub fn white() -> #(String, String) {
-  #("caret-color", "white")
-}
-
-pub fn whitesmoke() -> #(String, String) {
-  #("caret-color", "whitesmoke")
-}
-
-pub fn yellow() -> #(String, String) {
-  #("caret-color", "yellow")
-}
-
-pub fn yellowgreen() -> #(String, String) {
-  #("caret-color", "yellowgreen")
-}
-
-pub fn in() -> #(String, String) {
-  #("caret-color", "in")
-}
-
-pub fn lab() -> #(String, String) {
-  #("caret-color", "lab")
-}
-
-pub fn oklab() -> #(String, String) {
-  #("caret-color", "oklab")
-}
-
-pub fn hsl() -> #(String, String) {
-  #("caret-color", "hsl")
-}
-
-pub fn hwb() -> #(String, String) {
-  #("caret-color", "hwb")
-}
-
-pub fn lch() -> #(String, String) {
-  #("caret-color", "lch")
-}
-
-pub fn oklch() -> #(String, String) {
-  #("caret-color", "oklch")
-}
-
-pub fn shorter() -> #(String, String) {
-  #("caret-color", "shorter")
-}
-
-pub fn longer() -> #(String, String) {
-  #("caret-color", "longer")
-}
-
-pub fn increasing() -> #(String, String) {
-  #("caret-color", "increasing")
-}
-
-pub fn decreasing() -> #(String, String) {
-  #("caret-color", "decreasing")
-}
-
-pub fn hue() -> #(String, String) {
-  #("caret-color", "hue")
-}
-
-pub fn current_color() -> #(String, String) {
-  #("caret-color", "currentColor")
-}
-
-pub fn accent_color() -> #(String, String) {
-  #("caret-color", "AccentColor")
-}
-
-pub fn accent_color_text() -> #(String, String) {
-  #("caret-color", "AccentColorText")
-}
-
-pub fn active_text() -> #(String, String) {
-  #("caret-color", "ActiveText")
-}
-
-pub fn button_border() -> #(String, String) {
-  #("caret-color", "ButtonBorder")
-}
-
-pub fn button_face() -> #(String, String) {
-  #("caret-color", "ButtonFace")
-}
-
-pub fn button_text() -> #(String, String) {
-  #("caret-color", "ButtonText")
-}
-
-pub fn canvas() -> #(String, String) {
-  #("caret-color", "Canvas")
-}
-
-pub fn canvas_text() -> #(String, String) {
-  #("caret-color", "CanvasText")
-}
-
-pub fn field() -> #(String, String) {
-  #("caret-color", "Field")
-}
-
-pub fn field_text() -> #(String, String) {
-  #("caret-color", "FieldText")
-}
-
-pub fn gray_text() -> #(String, String) {
-  #("caret-color", "GrayText")
-}
-
-pub fn highlight() -> #(String, String) {
-  #("caret-color", "Highlight")
-}
-
-pub fn highlight_text() -> #(String, String) {
-  #("caret-color", "HighlightText")
-}
-
-pub fn link_text() -> #(String, String) {
-  #("caret-color", "LinkText")
-}
-
-pub fn mark() -> #(String, String) {
-  #("caret-color", "Mark")
-}
-
-pub fn mark_text() -> #(String, String) {
-  #("caret-color", "MarkText")
-}
-
-pub fn selected_item() -> #(String, String) {
-  #("caret-color", "SelectedItem")
-}
-
-pub fn selected_item_text() -> #(String, String) {
-  #("caret-color", "SelectedItemText")
-}
-
-pub fn visited_text() -> #(String, String) {
-  #("caret-color", "VisitedText")
-}
-
-pub fn moz_button_default() -> #(String, String) {
-  #("caret-color", "-moz-ButtonDefault")
-}
-
-pub fn moz_button_hover_face() -> #(String, String) {
-  #("caret-color", "-moz-ButtonHoverFace")
-}
-
-pub fn moz_button_hover_text() -> #(String, String) {
-  #("caret-color", "-moz-ButtonHoverText")
-}
-
-pub fn moz_cell_highlight() -> #(String, String) {
-  #("caret-color", "-moz-CellHighlight")
-}
-
-pub fn moz_cell_highlight_text() -> #(String, String) {
-  #("caret-color", "-moz-CellHighlightText")
-}
-
-pub fn moz_combobox() -> #(String, String) {
-  #("caret-color", "-moz-Combobox")
-}
-
-pub fn moz_combobox_text() -> #(String, String) {
-  #("caret-color", "-moz-ComboboxText")
-}
-
-pub fn moz_dialog() -> #(String, String) {
-  #("caret-color", "-moz-Dialog")
-}
-
-pub fn moz_dialog_text() -> #(String, String) {
-  #("caret-color", "-moz-DialogText")
-}
-
-pub fn moz_dragtargetzone() -> #(String, String) {
-  #("caret-color", "-moz-dragtargetzone")
-}
-
-pub fn moz_even_tree_row() -> #(String, String) {
-  #("caret-color", "-moz-EvenTreeRow")
-}
-
-pub fn moz_field() -> #(String, String) {
-  #("caret-color", "-moz-Field")
-}
-
-pub fn moz_field_text() -> #(String, String) {
-  #("caret-color", "-moz-FieldText")
-}
-
-pub fn moz_html_cell_highlight() -> #(String, String) {
-  #("caret-color", "-moz-html-CellHighlight")
-}
-
-pub fn moz_html_cell_highlight_text() -> #(String, String) {
-  #("caret-color", "-moz-html-CellHighlightText")
-}
-
-pub fn moz_mac_accentdarkestshadow() -> #(String, String) {
-  #("caret-color", "-moz-mac-accentdarkestshadow")
-}
-
-pub fn moz_mac_accentdarkshadow() -> #(String, String) {
-  #("caret-color", "-moz-mac-accentdarkshadow")
-}
-
-pub fn moz_mac_accentface() -> #(String, String) {
-  #("caret-color", "-moz-mac-accentface")
-}
-
-pub fn moz_mac_accentlightesthighlight() -> #(String, String) {
-  #("caret-color", "-moz-mac-accentlightesthighlight")
-}
-
-pub fn moz_mac_accentlightshadow() -> #(String, String) {
-  #("caret-color", "-moz-mac-accentlightshadow")
-}
-
-pub fn moz_mac_accentregularhighlight() -> #(String, String) {
-  #("caret-color", "-moz-mac-accentregularhighlight")
-}
-
-pub fn moz_mac_accentregularshadow() -> #(String, String) {
-  #("caret-color", "-moz-mac-accentregularshadow")
-}
-
-pub fn moz_mac_chrome_active() -> #(String, String) {
-  #("caret-color", "-moz-mac-chrome-active")
-}
-
-pub fn moz_mac_chrome_inactive() -> #(String, String) {
-  #("caret-color", "-moz-mac-chrome-inactive")
-}
-
-pub fn moz_mac_focusring() -> #(String, String) {
-  #("caret-color", "-moz-mac-focusring")
-}
-
-pub fn moz_mac_menuselect() -> #(String, String) {
-  #("caret-color", "-moz-mac-menuselect")
-}
-
-pub fn moz_mac_menushadow() -> #(String, String) {
-  #("caret-color", "-moz-mac-menushadow")
-}
-
-pub fn moz_mac_menutextselect() -> #(String, String) {
-  #("caret-color", "-moz-mac-menutextselect")
-}
-
-pub fn moz_menu_hover() -> #(String, String) {
-  #("caret-color", "-moz-MenuHover")
-}
-
-pub fn moz_menu_hover_text() -> #(String, String) {
-  #("caret-color", "-moz-MenuHoverText")
-}
-
-pub fn moz_menu_bar_text() -> #(String, String) {
-  #("caret-color", "-moz-MenuBarText")
-}
-
-pub fn moz_menu_bar_hover_text() -> #(String, String) {
-  #("caret-color", "-moz-MenuBarHoverText")
-}
-
-pub fn moz_nativehyperlinktext() -> #(String, String) {
-  #("caret-color", "-moz-nativehyperlinktext")
-}
-
-pub fn moz_odd_tree_row() -> #(String, String) {
-  #("caret-color", "-moz-OddTreeRow")
-}
-
-pub fn moz_win_communicationstext() -> #(String, String) {
-  #("caret-color", "-moz-win-communicationstext")
-}
-
-pub fn moz_win_mediatext() -> #(String, String) {
-  #("caret-color", "-moz-win-mediatext")
-}
-
-pub fn moz_activehyperlinktext() -> #(String, String) {
-  #("caret-color", "-moz-activehyperlinktext")
-}
-
-pub fn moz_default_background_color() -> #(String, String) {
-  #("caret-color", "-moz-default-background-color")
-}
-
-pub fn moz_default_color() -> #(String, String) {
-  #("caret-color", "-moz-default-color")
-}
-
-pub fn moz_hyperlinktext() -> #(String, String) {
-  #("caret-color", "-moz-hyperlinktext")
-}
-
-pub fn moz_visitedhyperlinktext() -> #(String, String) {
-  #("caret-color", "-moz-visitedhyperlinktext")
-}
-
-pub fn webkit_activelink() -> #(String, String) {
-  #("caret-color", "-webkit-activelink")
-}
-
-pub fn webkit_focus_ring_color() -> #(String, String) {
-  #("caret-color", "-webkit-focus-ring-color")
-}
-
-pub fn webkit_link() -> #(String, String) {
-  #("caret-color", "-webkit-link")
-}
-
-pub fn webkit_text() -> #(String, String) {
-  #("caret-color", "-webkit-text")
-}
+pub const auto_ = #("caret-color", "auto")
+
+pub const none = #("caret-color", "none")
+
+pub const srgb = #("caret-color", "srgb")
+
+pub const srgb_linear = #("caret-color", "srgb-linear")
+
+pub const display_p3 = #("caret-color", "display-p3")
+
+pub const a98_rgb = #("caret-color", "a98-rgb")
+
+pub const prophoto_rgb = #("caret-color", "prophoto-rgb")
+
+pub const rec2020 = #("caret-color", "rec2020")
+
+pub const xyz = #("caret-color", "xyz")
+
+pub const xyz_d50 = #("caret-color", "xyz-d50")
+
+pub const xyz_d65 = #("caret-color", "xyz-d65")
+
+pub const transparent = #("caret-color", "transparent")
+
+pub const aliceblue = #("caret-color", "aliceblue")
+
+pub const antiquewhite = #("caret-color", "antiquewhite")
+
+pub const aqua = #("caret-color", "aqua")
+
+pub const aquamarine = #("caret-color", "aquamarine")
+
+pub const azure = #("caret-color", "azure")
+
+pub const beige = #("caret-color", "beige")
+
+pub const bisque = #("caret-color", "bisque")
+
+pub const black = #("caret-color", "black")
+
+pub const blanchedalmond = #("caret-color", "blanchedalmond")
+
+pub const blue = #("caret-color", "blue")
+
+pub const blueviolet = #("caret-color", "blueviolet")
+
+pub const brown = #("caret-color", "brown")
+
+pub const burlywood = #("caret-color", "burlywood")
+
+pub const cadetblue = #("caret-color", "cadetblue")
+
+pub const chartreuse = #("caret-color", "chartreuse")
+
+pub const chocolate = #("caret-color", "chocolate")
+
+pub const coral = #("caret-color", "coral")
+
+pub const cornflowerblue = #("caret-color", "cornflowerblue")
+
+pub const cornsilk = #("caret-color", "cornsilk")
+
+pub const crimson = #("caret-color", "crimson")
+
+pub const cyan = #("caret-color", "cyan")
+
+pub const darkblue = #("caret-color", "darkblue")
+
+pub const darkcyan = #("caret-color", "darkcyan")
+
+pub const darkgoldenrod = #("caret-color", "darkgoldenrod")
+
+pub const darkgray = #("caret-color", "darkgray")
+
+pub const darkgreen = #("caret-color", "darkgreen")
+
+pub const darkgrey = #("caret-color", "darkgrey")
+
+pub const darkkhaki = #("caret-color", "darkkhaki")
+
+pub const darkmagenta = #("caret-color", "darkmagenta")
+
+pub const darkolivegreen = #("caret-color", "darkolivegreen")
+
+pub const darkorange = #("caret-color", "darkorange")
+
+pub const darkorchid = #("caret-color", "darkorchid")
+
+pub const darkred = #("caret-color", "darkred")
+
+pub const darksalmon = #("caret-color", "darksalmon")
+
+pub const darkseagreen = #("caret-color", "darkseagreen")
+
+pub const darkslateblue = #("caret-color", "darkslateblue")
+
+pub const darkslategray = #("caret-color", "darkslategray")
+
+pub const darkslategrey = #("caret-color", "darkslategrey")
+
+pub const darkturquoise = #("caret-color", "darkturquoise")
+
+pub const darkviolet = #("caret-color", "darkviolet")
+
+pub const deeppink = #("caret-color", "deeppink")
+
+pub const deepskyblue = #("caret-color", "deepskyblue")
+
+pub const dimgray = #("caret-color", "dimgray")
+
+pub const dimgrey = #("caret-color", "dimgrey")
+
+pub const dodgerblue = #("caret-color", "dodgerblue")
+
+pub const firebrick = #("caret-color", "firebrick")
+
+pub const floralwhite = #("caret-color", "floralwhite")
+
+pub const forestgreen = #("caret-color", "forestgreen")
+
+pub const fuchsia = #("caret-color", "fuchsia")
+
+pub const gainsboro = #("caret-color", "gainsboro")
+
+pub const ghostwhite = #("caret-color", "ghostwhite")
+
+pub const gold = #("caret-color", "gold")
+
+pub const goldenrod = #("caret-color", "goldenrod")
+
+pub const gray = #("caret-color", "gray")
+
+pub const green = #("caret-color", "green")
+
+pub const greenyellow = #("caret-color", "greenyellow")
+
+pub const grey = #("caret-color", "grey")
+
+pub const honeydew = #("caret-color", "honeydew")
+
+pub const hotpink = #("caret-color", "hotpink")
+
+pub const indianred = #("caret-color", "indianred")
+
+pub const indigo = #("caret-color", "indigo")
+
+pub const ivory = #("caret-color", "ivory")
+
+pub const khaki = #("caret-color", "khaki")
+
+pub const lavender = #("caret-color", "lavender")
+
+pub const lavenderblush = #("caret-color", "lavenderblush")
+
+pub const lawngreen = #("caret-color", "lawngreen")
+
+pub const lemonchiffon = #("caret-color", "lemonchiffon")
+
+pub const lightblue = #("caret-color", "lightblue")
+
+pub const lightcoral = #("caret-color", "lightcoral")
+
+pub const lightcyan = #("caret-color", "lightcyan")
+
+pub const lightgoldenrodyellow = #("caret-color", "lightgoldenrodyellow")
+
+pub const lightgray = #("caret-color", "lightgray")
+
+pub const lightgreen = #("caret-color", "lightgreen")
+
+pub const lightgrey = #("caret-color", "lightgrey")
+
+pub const lightpink = #("caret-color", "lightpink")
+
+pub const lightsalmon = #("caret-color", "lightsalmon")
+
+pub const lightseagreen = #("caret-color", "lightseagreen")
+
+pub const lightskyblue = #("caret-color", "lightskyblue")
+
+pub const lightslategray = #("caret-color", "lightslategray")
+
+pub const lightslategrey = #("caret-color", "lightslategrey")
+
+pub const lightsteelblue = #("caret-color", "lightsteelblue")
+
+pub const lightyellow = #("caret-color", "lightyellow")
+
+pub const lime = #("caret-color", "lime")
+
+pub const limegreen = #("caret-color", "limegreen")
+
+pub const linen = #("caret-color", "linen")
+
+pub const magenta = #("caret-color", "magenta")
+
+pub const maroon = #("caret-color", "maroon")
+
+pub const mediumaquamarine = #("caret-color", "mediumaquamarine")
+
+pub const mediumblue = #("caret-color", "mediumblue")
+
+pub const mediumorchid = #("caret-color", "mediumorchid")
+
+pub const mediumpurple = #("caret-color", "mediumpurple")
+
+pub const mediumseagreen = #("caret-color", "mediumseagreen")
+
+pub const mediumslateblue = #("caret-color", "mediumslateblue")
+
+pub const mediumspringgreen = #("caret-color", "mediumspringgreen")
+
+pub const mediumturquoise = #("caret-color", "mediumturquoise")
+
+pub const mediumvioletred = #("caret-color", "mediumvioletred")
+
+pub const midnightblue = #("caret-color", "midnightblue")
+
+pub const mintcream = #("caret-color", "mintcream")
+
+pub const mistyrose = #("caret-color", "mistyrose")
+
+pub const moccasin = #("caret-color", "moccasin")
+
+pub const navajowhite = #("caret-color", "navajowhite")
+
+pub const navy = #("caret-color", "navy")
+
+pub const oldlace = #("caret-color", "oldlace")
+
+pub const olive = #("caret-color", "olive")
+
+pub const olivedrab = #("caret-color", "olivedrab")
+
+pub const orange = #("caret-color", "orange")
+
+pub const orangered = #("caret-color", "orangered")
+
+pub const orchid = #("caret-color", "orchid")
+
+pub const palegoldenrod = #("caret-color", "palegoldenrod")
+
+pub const palegreen = #("caret-color", "palegreen")
+
+pub const paleturquoise = #("caret-color", "paleturquoise")
+
+pub const palevioletred = #("caret-color", "palevioletred")
+
+pub const papayawhip = #("caret-color", "papayawhip")
+
+pub const peachpuff = #("caret-color", "peachpuff")
+
+pub const peru = #("caret-color", "peru")
+
+pub const pink = #("caret-color", "pink")
+
+pub const plum = #("caret-color", "plum")
+
+pub const powderblue = #("caret-color", "powderblue")
+
+pub const purple = #("caret-color", "purple")
+
+pub const rebeccapurple = #("caret-color", "rebeccapurple")
+
+pub const red = #("caret-color", "red")
+
+pub const rosybrown = #("caret-color", "rosybrown")
+
+pub const royalblue = #("caret-color", "royalblue")
+
+pub const saddlebrown = #("caret-color", "saddlebrown")
+
+pub const salmon = #("caret-color", "salmon")
+
+pub const sandybrown = #("caret-color", "sandybrown")
+
+pub const seagreen = #("caret-color", "seagreen")
+
+pub const seashell = #("caret-color", "seashell")
+
+pub const sienna = #("caret-color", "sienna")
+
+pub const silver = #("caret-color", "silver")
+
+pub const skyblue = #("caret-color", "skyblue")
+
+pub const slateblue = #("caret-color", "slateblue")
+
+pub const slategray = #("caret-color", "slategray")
+
+pub const slategrey = #("caret-color", "slategrey")
+
+pub const snow = #("caret-color", "snow")
+
+pub const springgreen = #("caret-color", "springgreen")
+
+pub const steelblue = #("caret-color", "steelblue")
+
+pub const tan = #("caret-color", "tan")
+
+pub const teal = #("caret-color", "teal")
+
+pub const thistle = #("caret-color", "thistle")
+
+pub const tomato = #("caret-color", "tomato")
+
+pub const turquoise = #("caret-color", "turquoise")
+
+pub const violet = #("caret-color", "violet")
+
+pub const wheat = #("caret-color", "wheat")
+
+pub const white = #("caret-color", "white")
+
+pub const whitesmoke = #("caret-color", "whitesmoke")
+
+pub const yellow = #("caret-color", "yellow")
+
+pub const yellowgreen = #("caret-color", "yellowgreen")
+
+pub const in = #("caret-color", "in")
+
+pub const lab = #("caret-color", "lab")
+
+pub const oklab = #("caret-color", "oklab")
+
+pub const hsl = #("caret-color", "hsl")
+
+pub const hwb = #("caret-color", "hwb")
+
+pub const lch = #("caret-color", "lch")
+
+pub const oklch = #("caret-color", "oklch")
+
+pub const shorter = #("caret-color", "shorter")
+
+pub const longer = #("caret-color", "longer")
+
+pub const increasing = #("caret-color", "increasing")
+
+pub const decreasing = #("caret-color", "decreasing")
+
+pub const hue = #("caret-color", "hue")
+
+pub const current_color = #("caret-color", "currentColor")
+
+pub const accent_color = #("caret-color", "AccentColor")
+
+pub const accent_color_text = #("caret-color", "AccentColorText")
+
+pub const active_text = #("caret-color", "ActiveText")
+
+pub const button_border = #("caret-color", "ButtonBorder")
+
+pub const button_face = #("caret-color", "ButtonFace")
+
+pub const button_text = #("caret-color", "ButtonText")
+
+pub const canvas = #("caret-color", "Canvas")
+
+pub const canvas_text = #("caret-color", "CanvasText")
+
+pub const field = #("caret-color", "Field")
+
+pub const field_text = #("caret-color", "FieldText")
+
+pub const gray_text = #("caret-color", "GrayText")
+
+pub const highlight = #("caret-color", "Highlight")
+
+pub const highlight_text = #("caret-color", "HighlightText")
+
+pub const link_text = #("caret-color", "LinkText")
+
+pub const mark = #("caret-color", "Mark")
+
+pub const mark_text = #("caret-color", "MarkText")
+
+pub const selected_item = #("caret-color", "SelectedItem")
+
+pub const selected_item_text = #("caret-color", "SelectedItemText")
+
+pub const visited_text = #("caret-color", "VisitedText")
+
+pub const moz_button_default = #("caret-color", "-moz-ButtonDefault")
+
+pub const moz_button_hover_face = #("caret-color", "-moz-ButtonHoverFace")
+
+pub const moz_button_hover_text = #("caret-color", "-moz-ButtonHoverText")
+
+pub const moz_cell_highlight = #("caret-color", "-moz-CellHighlight")
+
+pub const moz_cell_highlight_text = #("caret-color", "-moz-CellHighlightText")
+
+pub const moz_combobox = #("caret-color", "-moz-Combobox")
+
+pub const moz_combobox_text = #("caret-color", "-moz-ComboboxText")
+
+pub const moz_dialog = #("caret-color", "-moz-Dialog")
+
+pub const moz_dialog_text = #("caret-color", "-moz-DialogText")
+
+pub const moz_dragtargetzone = #("caret-color", "-moz-dragtargetzone")
+
+pub const moz_even_tree_row = #("caret-color", "-moz-EvenTreeRow")
+
+pub const moz_field = #("caret-color", "-moz-Field")
+
+pub const moz_field_text = #("caret-color", "-moz-FieldText")
+
+pub const moz_html_cell_highlight = #("caret-color", "-moz-html-CellHighlight")
+
+pub const moz_html_cell_highlight_text = #("caret-color", "-moz-html-CellHighlightText")
+
+pub const moz_mac_accentdarkestshadow = #("caret-color", "-moz-mac-accentdarkestshadow")
+
+pub const moz_mac_accentdarkshadow = #("caret-color", "-moz-mac-accentdarkshadow")
+
+pub const moz_mac_accentface = #("caret-color", "-moz-mac-accentface")
+
+pub const moz_mac_accentlightesthighlight = #("caret-color", "-moz-mac-accentlightesthighlight")
+
+pub const moz_mac_accentlightshadow = #("caret-color", "-moz-mac-accentlightshadow")
+
+pub const moz_mac_accentregularhighlight = #("caret-color", "-moz-mac-accentregularhighlight")
+
+pub const moz_mac_accentregularshadow = #("caret-color", "-moz-mac-accentregularshadow")
+
+pub const moz_mac_chrome_active = #("caret-color", "-moz-mac-chrome-active")
+
+pub const moz_mac_chrome_inactive = #("caret-color", "-moz-mac-chrome-inactive")
+
+pub const moz_mac_focusring = #("caret-color", "-moz-mac-focusring")
+
+pub const moz_mac_menuselect = #("caret-color", "-moz-mac-menuselect")
+
+pub const moz_mac_menushadow = #("caret-color", "-moz-mac-menushadow")
+
+pub const moz_mac_menutextselect = #("caret-color", "-moz-mac-menutextselect")
+
+pub const moz_menu_hover = #("caret-color", "-moz-MenuHover")
+
+pub const moz_menu_hover_text = #("caret-color", "-moz-MenuHoverText")
+
+pub const moz_menu_bar_text = #("caret-color", "-moz-MenuBarText")
+
+pub const moz_menu_bar_hover_text = #("caret-color", "-moz-MenuBarHoverText")
+
+pub const moz_nativehyperlinktext = #("caret-color", "-moz-nativehyperlinktext")
+
+pub const moz_odd_tree_row = #("caret-color", "-moz-OddTreeRow")
+
+pub const moz_win_communicationstext = #("caret-color", "-moz-win-communicationstext")
+
+pub const moz_win_mediatext = #("caret-color", "-moz-win-mediatext")
+
+pub const moz_activehyperlinktext = #("caret-color", "-moz-activehyperlinktext")
+
+pub const moz_default_background_color = #("caret-color", "-moz-default-background-color")
+
+pub const moz_default_color = #("caret-color", "-moz-default-color")
+
+pub const moz_hyperlinktext = #("caret-color", "-moz-hyperlinktext")
+
+pub const moz_visitedhyperlinktext = #("caret-color", "-moz-visitedhyperlinktext")
+
+pub const webkit_activelink = #("caret-color", "-webkit-activelink")
+
+pub const webkit_focus_ring_color = #("caret-color", "-webkit-focus-ring-color")
+
+pub const webkit_link = #("caret-color", "-webkit-link")
+
+pub const webkit_text = #("caret-color", "-webkit-text")
 
 pub fn raw(value: String) -> #(String, String) {
   #("caret_color", value)

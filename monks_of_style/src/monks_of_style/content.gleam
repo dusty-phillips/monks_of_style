@@ -1,1244 +1,624 @@
 
 
-pub fn normal() -> #(String, String) {
-  #("content", "normal")
-}
-
-pub fn none() -> #(String, String) {
-  #("content", "none")
-}
-
-pub fn ltr() -> #(String, String) {
-  #("content", "ltr")
-}
-
-pub fn rtl() -> #(String, String) {
-  #("content", "rtl")
-}
-
-pub fn srgb() -> #(String, String) {
-  #("content", "srgb")
-}
-
-pub fn srgb_linear() -> #(String, String) {
-  #("content", "srgb-linear")
-}
-
-pub fn display_p3() -> #(String, String) {
-  #("content", "display-p3")
-}
-
-pub fn a98_rgb() -> #(String, String) {
-  #("content", "a98-rgb")
-}
-
-pub fn prophoto_rgb() -> #(String, String) {
-  #("content", "prophoto-rgb")
-}
-
-pub fn rec2020() -> #(String, String) {
-  #("content", "rec2020")
-}
-
-pub fn xyz() -> #(String, String) {
-  #("content", "xyz")
-}
-
-pub fn xyz_d50() -> #(String, String) {
-  #("content", "xyz-d50")
-}
-
-pub fn xyz_d65() -> #(String, String) {
-  #("content", "xyz-d65")
-}
-
-pub fn transparent() -> #(String, String) {
-  #("content", "transparent")
-}
-
-pub fn aliceblue() -> #(String, String) {
-  #("content", "aliceblue")
-}
-
-pub fn antiquewhite() -> #(String, String) {
-  #("content", "antiquewhite")
-}
-
-pub fn aqua() -> #(String, String) {
-  #("content", "aqua")
-}
-
-pub fn aquamarine() -> #(String, String) {
-  #("content", "aquamarine")
-}
-
-pub fn azure() -> #(String, String) {
-  #("content", "azure")
-}
-
-pub fn beige() -> #(String, String) {
-  #("content", "beige")
-}
-
-pub fn bisque() -> #(String, String) {
-  #("content", "bisque")
-}
-
-pub fn black() -> #(String, String) {
-  #("content", "black")
-}
-
-pub fn blanchedalmond() -> #(String, String) {
-  #("content", "blanchedalmond")
-}
-
-pub fn blue() -> #(String, String) {
-  #("content", "blue")
-}
-
-pub fn blueviolet() -> #(String, String) {
-  #("content", "blueviolet")
-}
-
-pub fn brown() -> #(String, String) {
-  #("content", "brown")
-}
-
-pub fn burlywood() -> #(String, String) {
-  #("content", "burlywood")
-}
-
-pub fn cadetblue() -> #(String, String) {
-  #("content", "cadetblue")
-}
-
-pub fn chartreuse() -> #(String, String) {
-  #("content", "chartreuse")
-}
-
-pub fn chocolate() -> #(String, String) {
-  #("content", "chocolate")
-}
-
-pub fn coral() -> #(String, String) {
-  #("content", "coral")
-}
-
-pub fn cornflowerblue() -> #(String, String) {
-  #("content", "cornflowerblue")
-}
-
-pub fn cornsilk() -> #(String, String) {
-  #("content", "cornsilk")
-}
-
-pub fn crimson() -> #(String, String) {
-  #("content", "crimson")
-}
-
-pub fn cyan() -> #(String, String) {
-  #("content", "cyan")
-}
-
-pub fn darkblue() -> #(String, String) {
-  #("content", "darkblue")
-}
-
-pub fn darkcyan() -> #(String, String) {
-  #("content", "darkcyan")
-}
-
-pub fn darkgoldenrod() -> #(String, String) {
-  #("content", "darkgoldenrod")
-}
-
-pub fn darkgray() -> #(String, String) {
-  #("content", "darkgray")
-}
-
-pub fn darkgreen() -> #(String, String) {
-  #("content", "darkgreen")
-}
-
-pub fn darkgrey() -> #(String, String) {
-  #("content", "darkgrey")
-}
-
-pub fn darkkhaki() -> #(String, String) {
-  #("content", "darkkhaki")
-}
-
-pub fn darkmagenta() -> #(String, String) {
-  #("content", "darkmagenta")
-}
-
-pub fn darkolivegreen() -> #(String, String) {
-  #("content", "darkolivegreen")
-}
-
-pub fn darkorange() -> #(String, String) {
-  #("content", "darkorange")
-}
-
-pub fn darkorchid() -> #(String, String) {
-  #("content", "darkorchid")
-}
-
-pub fn darkred() -> #(String, String) {
-  #("content", "darkred")
-}
-
-pub fn darksalmon() -> #(String, String) {
-  #("content", "darksalmon")
-}
-
-pub fn darkseagreen() -> #(String, String) {
-  #("content", "darkseagreen")
-}
-
-pub fn darkslateblue() -> #(String, String) {
-  #("content", "darkslateblue")
-}
-
-pub fn darkslategray() -> #(String, String) {
-  #("content", "darkslategray")
-}
-
-pub fn darkslategrey() -> #(String, String) {
-  #("content", "darkslategrey")
-}
-
-pub fn darkturquoise() -> #(String, String) {
-  #("content", "darkturquoise")
-}
-
-pub fn darkviolet() -> #(String, String) {
-  #("content", "darkviolet")
-}
-
-pub fn deeppink() -> #(String, String) {
-  #("content", "deeppink")
-}
-
-pub fn deepskyblue() -> #(String, String) {
-  #("content", "deepskyblue")
-}
-
-pub fn dimgray() -> #(String, String) {
-  #("content", "dimgray")
-}
-
-pub fn dimgrey() -> #(String, String) {
-  #("content", "dimgrey")
-}
-
-pub fn dodgerblue() -> #(String, String) {
-  #("content", "dodgerblue")
-}
-
-pub fn firebrick() -> #(String, String) {
-  #("content", "firebrick")
-}
-
-pub fn floralwhite() -> #(String, String) {
-  #("content", "floralwhite")
-}
-
-pub fn forestgreen() -> #(String, String) {
-  #("content", "forestgreen")
-}
-
-pub fn fuchsia() -> #(String, String) {
-  #("content", "fuchsia")
-}
-
-pub fn gainsboro() -> #(String, String) {
-  #("content", "gainsboro")
-}
-
-pub fn ghostwhite() -> #(String, String) {
-  #("content", "ghostwhite")
-}
-
-pub fn gold() -> #(String, String) {
-  #("content", "gold")
-}
-
-pub fn goldenrod() -> #(String, String) {
-  #("content", "goldenrod")
-}
-
-pub fn gray() -> #(String, String) {
-  #("content", "gray")
-}
-
-pub fn green() -> #(String, String) {
-  #("content", "green")
-}
-
-pub fn greenyellow() -> #(String, String) {
-  #("content", "greenyellow")
-}
-
-pub fn grey() -> #(String, String) {
-  #("content", "grey")
-}
-
-pub fn honeydew() -> #(String, String) {
-  #("content", "honeydew")
-}
-
-pub fn hotpink() -> #(String, String) {
-  #("content", "hotpink")
-}
-
-pub fn indianred() -> #(String, String) {
-  #("content", "indianred")
-}
-
-pub fn indigo() -> #(String, String) {
-  #("content", "indigo")
-}
-
-pub fn ivory() -> #(String, String) {
-  #("content", "ivory")
-}
-
-pub fn khaki() -> #(String, String) {
-  #("content", "khaki")
-}
-
-pub fn lavender() -> #(String, String) {
-  #("content", "lavender")
-}
-
-pub fn lavenderblush() -> #(String, String) {
-  #("content", "lavenderblush")
-}
-
-pub fn lawngreen() -> #(String, String) {
-  #("content", "lawngreen")
-}
-
-pub fn lemonchiffon() -> #(String, String) {
-  #("content", "lemonchiffon")
-}
-
-pub fn lightblue() -> #(String, String) {
-  #("content", "lightblue")
-}
-
-pub fn lightcoral() -> #(String, String) {
-  #("content", "lightcoral")
-}
-
-pub fn lightcyan() -> #(String, String) {
-  #("content", "lightcyan")
-}
-
-pub fn lightgoldenrodyellow() -> #(String, String) {
-  #("content", "lightgoldenrodyellow")
-}
-
-pub fn lightgray() -> #(String, String) {
-  #("content", "lightgray")
-}
-
-pub fn lightgreen() -> #(String, String) {
-  #("content", "lightgreen")
-}
-
-pub fn lightgrey() -> #(String, String) {
-  #("content", "lightgrey")
-}
-
-pub fn lightpink() -> #(String, String) {
-  #("content", "lightpink")
-}
-
-pub fn lightsalmon() -> #(String, String) {
-  #("content", "lightsalmon")
-}
-
-pub fn lightseagreen() -> #(String, String) {
-  #("content", "lightseagreen")
-}
-
-pub fn lightskyblue() -> #(String, String) {
-  #("content", "lightskyblue")
-}
-
-pub fn lightslategray() -> #(String, String) {
-  #("content", "lightslategray")
-}
-
-pub fn lightslategrey() -> #(String, String) {
-  #("content", "lightslategrey")
-}
-
-pub fn lightsteelblue() -> #(String, String) {
-  #("content", "lightsteelblue")
-}
-
-pub fn lightyellow() -> #(String, String) {
-  #("content", "lightyellow")
-}
-
-pub fn lime() -> #(String, String) {
-  #("content", "lime")
-}
-
-pub fn limegreen() -> #(String, String) {
-  #("content", "limegreen")
-}
-
-pub fn linen() -> #(String, String) {
-  #("content", "linen")
-}
-
-pub fn magenta() -> #(String, String) {
-  #("content", "magenta")
-}
-
-pub fn maroon() -> #(String, String) {
-  #("content", "maroon")
-}
-
-pub fn mediumaquamarine() -> #(String, String) {
-  #("content", "mediumaquamarine")
-}
-
-pub fn mediumblue() -> #(String, String) {
-  #("content", "mediumblue")
-}
-
-pub fn mediumorchid() -> #(String, String) {
-  #("content", "mediumorchid")
-}
-
-pub fn mediumpurple() -> #(String, String) {
-  #("content", "mediumpurple")
-}
-
-pub fn mediumseagreen() -> #(String, String) {
-  #("content", "mediumseagreen")
-}
-
-pub fn mediumslateblue() -> #(String, String) {
-  #("content", "mediumslateblue")
-}
-
-pub fn mediumspringgreen() -> #(String, String) {
-  #("content", "mediumspringgreen")
-}
-
-pub fn mediumturquoise() -> #(String, String) {
-  #("content", "mediumturquoise")
-}
-
-pub fn mediumvioletred() -> #(String, String) {
-  #("content", "mediumvioletred")
-}
-
-pub fn midnightblue() -> #(String, String) {
-  #("content", "midnightblue")
-}
-
-pub fn mintcream() -> #(String, String) {
-  #("content", "mintcream")
-}
-
-pub fn mistyrose() -> #(String, String) {
-  #("content", "mistyrose")
-}
-
-pub fn moccasin() -> #(String, String) {
-  #("content", "moccasin")
-}
-
-pub fn navajowhite() -> #(String, String) {
-  #("content", "navajowhite")
-}
-
-pub fn navy() -> #(String, String) {
-  #("content", "navy")
-}
-
-pub fn oldlace() -> #(String, String) {
-  #("content", "oldlace")
-}
-
-pub fn olive() -> #(String, String) {
-  #("content", "olive")
-}
-
-pub fn olivedrab() -> #(String, String) {
-  #("content", "olivedrab")
-}
-
-pub fn orange() -> #(String, String) {
-  #("content", "orange")
-}
-
-pub fn orangered() -> #(String, String) {
-  #("content", "orangered")
-}
-
-pub fn orchid() -> #(String, String) {
-  #("content", "orchid")
-}
-
-pub fn palegoldenrod() -> #(String, String) {
-  #("content", "palegoldenrod")
-}
-
-pub fn palegreen() -> #(String, String) {
-  #("content", "palegreen")
-}
-
-pub fn paleturquoise() -> #(String, String) {
-  #("content", "paleturquoise")
-}
-
-pub fn palevioletred() -> #(String, String) {
-  #("content", "palevioletred")
-}
-
-pub fn papayawhip() -> #(String, String) {
-  #("content", "papayawhip")
-}
-
-pub fn peachpuff() -> #(String, String) {
-  #("content", "peachpuff")
-}
-
-pub fn peru() -> #(String, String) {
-  #("content", "peru")
-}
-
-pub fn pink() -> #(String, String) {
-  #("content", "pink")
-}
-
-pub fn plum() -> #(String, String) {
-  #("content", "plum")
-}
-
-pub fn powderblue() -> #(String, String) {
-  #("content", "powderblue")
-}
-
-pub fn purple() -> #(String, String) {
-  #("content", "purple")
-}
-
-pub fn rebeccapurple() -> #(String, String) {
-  #("content", "rebeccapurple")
-}
-
-pub fn red() -> #(String, String) {
-  #("content", "red")
-}
-
-pub fn rosybrown() -> #(String, String) {
-  #("content", "rosybrown")
-}
-
-pub fn royalblue() -> #(String, String) {
-  #("content", "royalblue")
-}
-
-pub fn saddlebrown() -> #(String, String) {
-  #("content", "saddlebrown")
-}
-
-pub fn salmon() -> #(String, String) {
-  #("content", "salmon")
-}
-
-pub fn sandybrown() -> #(String, String) {
-  #("content", "sandybrown")
-}
-
-pub fn seagreen() -> #(String, String) {
-  #("content", "seagreen")
-}
-
-pub fn seashell() -> #(String, String) {
-  #("content", "seashell")
-}
-
-pub fn sienna() -> #(String, String) {
-  #("content", "sienna")
-}
-
-pub fn silver() -> #(String, String) {
-  #("content", "silver")
-}
-
-pub fn skyblue() -> #(String, String) {
-  #("content", "skyblue")
-}
-
-pub fn slateblue() -> #(String, String) {
-  #("content", "slateblue")
-}
-
-pub fn slategray() -> #(String, String) {
-  #("content", "slategray")
-}
-
-pub fn slategrey() -> #(String, String) {
-  #("content", "slategrey")
-}
-
-pub fn snow() -> #(String, String) {
-  #("content", "snow")
-}
-
-pub fn springgreen() -> #(String, String) {
-  #("content", "springgreen")
-}
-
-pub fn steelblue() -> #(String, String) {
-  #("content", "steelblue")
-}
-
-pub fn tan() -> #(String, String) {
-  #("content", "tan")
-}
-
-pub fn teal() -> #(String, String) {
-  #("content", "teal")
-}
-
-pub fn thistle() -> #(String, String) {
-  #("content", "thistle")
-}
-
-pub fn tomato() -> #(String, String) {
-  #("content", "tomato")
-}
-
-pub fn turquoise() -> #(String, String) {
-  #("content", "turquoise")
-}
-
-pub fn violet() -> #(String, String) {
-  #("content", "violet")
-}
-
-pub fn wheat() -> #(String, String) {
-  #("content", "wheat")
-}
-
-pub fn white() -> #(String, String) {
-  #("content", "white")
-}
-
-pub fn whitesmoke() -> #(String, String) {
-  #("content", "whitesmoke")
-}
-
-pub fn yellow() -> #(String, String) {
-  #("content", "yellow")
-}
-
-pub fn yellowgreen() -> #(String, String) {
-  #("content", "yellowgreen")
-}
-
-pub fn in() -> #(String, String) {
-  #("content", "in")
-}
-
-pub fn lab() -> #(String, String) {
-  #("content", "lab")
-}
-
-pub fn oklab() -> #(String, String) {
-  #("content", "oklab")
-}
-
-pub fn hsl() -> #(String, String) {
-  #("content", "hsl")
-}
-
-pub fn hwb() -> #(String, String) {
-  #("content", "hwb")
-}
-
-pub fn lch() -> #(String, String) {
-  #("content", "lch")
-}
-
-pub fn oklch() -> #(String, String) {
-  #("content", "oklch")
-}
-
-pub fn shorter() -> #(String, String) {
-  #("content", "shorter")
-}
-
-pub fn longer() -> #(String, String) {
-  #("content", "longer")
-}
-
-pub fn increasing() -> #(String, String) {
-  #("content", "increasing")
-}
-
-pub fn decreasing() -> #(String, String) {
-  #("content", "decreasing")
-}
-
-pub fn hue() -> #(String, String) {
-  #("content", "hue")
-}
-
-pub fn current_color() -> #(String, String) {
-  #("content", "currentColor")
-}
-
-pub fn accent_color() -> #(String, String) {
-  #("content", "AccentColor")
-}
-
-pub fn accent_color_text() -> #(String, String) {
-  #("content", "AccentColorText")
-}
-
-pub fn active_text() -> #(String, String) {
-  #("content", "ActiveText")
-}
-
-pub fn button_border() -> #(String, String) {
-  #("content", "ButtonBorder")
-}
-
-pub fn button_face() -> #(String, String) {
-  #("content", "ButtonFace")
-}
-
-pub fn button_text() -> #(String, String) {
-  #("content", "ButtonText")
-}
-
-pub fn canvas() -> #(String, String) {
-  #("content", "Canvas")
-}
-
-pub fn canvas_text() -> #(String, String) {
-  #("content", "CanvasText")
-}
-
-pub fn field() -> #(String, String) {
-  #("content", "Field")
-}
-
-pub fn field_text() -> #(String, String) {
-  #("content", "FieldText")
-}
-
-pub fn gray_text() -> #(String, String) {
-  #("content", "GrayText")
-}
-
-pub fn highlight() -> #(String, String) {
-  #("content", "Highlight")
-}
-
-pub fn highlight_text() -> #(String, String) {
-  #("content", "HighlightText")
-}
-
-pub fn link_text() -> #(String, String) {
-  #("content", "LinkText")
-}
-
-pub fn mark() -> #(String, String) {
-  #("content", "Mark")
-}
-
-pub fn mark_text() -> #(String, String) {
-  #("content", "MarkText")
-}
-
-pub fn selected_item() -> #(String, String) {
-  #("content", "SelectedItem")
-}
-
-pub fn selected_item_text() -> #(String, String) {
-  #("content", "SelectedItemText")
-}
-
-pub fn visited_text() -> #(String, String) {
-  #("content", "VisitedText")
-}
-
-pub fn moz_button_default() -> #(String, String) {
-  #("content", "-moz-ButtonDefault")
-}
-
-pub fn moz_button_hover_face() -> #(String, String) {
-  #("content", "-moz-ButtonHoverFace")
-}
-
-pub fn moz_button_hover_text() -> #(String, String) {
-  #("content", "-moz-ButtonHoverText")
-}
-
-pub fn moz_cell_highlight() -> #(String, String) {
-  #("content", "-moz-CellHighlight")
-}
-
-pub fn moz_cell_highlight_text() -> #(String, String) {
-  #("content", "-moz-CellHighlightText")
-}
-
-pub fn moz_combobox() -> #(String, String) {
-  #("content", "-moz-Combobox")
-}
-
-pub fn moz_combobox_text() -> #(String, String) {
-  #("content", "-moz-ComboboxText")
-}
-
-pub fn moz_dialog() -> #(String, String) {
-  #("content", "-moz-Dialog")
-}
-
-pub fn moz_dialog_text() -> #(String, String) {
-  #("content", "-moz-DialogText")
-}
-
-pub fn moz_dragtargetzone() -> #(String, String) {
-  #("content", "-moz-dragtargetzone")
-}
-
-pub fn moz_even_tree_row() -> #(String, String) {
-  #("content", "-moz-EvenTreeRow")
-}
-
-pub fn moz_field() -> #(String, String) {
-  #("content", "-moz-Field")
-}
-
-pub fn moz_field_text() -> #(String, String) {
-  #("content", "-moz-FieldText")
-}
-
-pub fn moz_html_cell_highlight() -> #(String, String) {
-  #("content", "-moz-html-CellHighlight")
-}
-
-pub fn moz_html_cell_highlight_text() -> #(String, String) {
-  #("content", "-moz-html-CellHighlightText")
-}
-
-pub fn moz_mac_accentdarkestshadow() -> #(String, String) {
-  #("content", "-moz-mac-accentdarkestshadow")
-}
-
-pub fn moz_mac_accentdarkshadow() -> #(String, String) {
-  #("content", "-moz-mac-accentdarkshadow")
-}
-
-pub fn moz_mac_accentface() -> #(String, String) {
-  #("content", "-moz-mac-accentface")
-}
-
-pub fn moz_mac_accentlightesthighlight() -> #(String, String) {
-  #("content", "-moz-mac-accentlightesthighlight")
-}
-
-pub fn moz_mac_accentlightshadow() -> #(String, String) {
-  #("content", "-moz-mac-accentlightshadow")
-}
-
-pub fn moz_mac_accentregularhighlight() -> #(String, String) {
-  #("content", "-moz-mac-accentregularhighlight")
-}
-
-pub fn moz_mac_accentregularshadow() -> #(String, String) {
-  #("content", "-moz-mac-accentregularshadow")
-}
-
-pub fn moz_mac_chrome_active() -> #(String, String) {
-  #("content", "-moz-mac-chrome-active")
-}
-
-pub fn moz_mac_chrome_inactive() -> #(String, String) {
-  #("content", "-moz-mac-chrome-inactive")
-}
-
-pub fn moz_mac_focusring() -> #(String, String) {
-  #("content", "-moz-mac-focusring")
-}
-
-pub fn moz_mac_menuselect() -> #(String, String) {
-  #("content", "-moz-mac-menuselect")
-}
-
-pub fn moz_mac_menushadow() -> #(String, String) {
-  #("content", "-moz-mac-menushadow")
-}
-
-pub fn moz_mac_menutextselect() -> #(String, String) {
-  #("content", "-moz-mac-menutextselect")
-}
-
-pub fn moz_menu_hover() -> #(String, String) {
-  #("content", "-moz-MenuHover")
-}
-
-pub fn moz_menu_hover_text() -> #(String, String) {
-  #("content", "-moz-MenuHoverText")
-}
-
-pub fn moz_menu_bar_text() -> #(String, String) {
-  #("content", "-moz-MenuBarText")
-}
-
-pub fn moz_menu_bar_hover_text() -> #(String, String) {
-  #("content", "-moz-MenuBarHoverText")
-}
-
-pub fn moz_nativehyperlinktext() -> #(String, String) {
-  #("content", "-moz-nativehyperlinktext")
-}
-
-pub fn moz_odd_tree_row() -> #(String, String) {
-  #("content", "-moz-OddTreeRow")
-}
-
-pub fn moz_win_communicationstext() -> #(String, String) {
-  #("content", "-moz-win-communicationstext")
-}
-
-pub fn moz_win_mediatext() -> #(String, String) {
-  #("content", "-moz-win-mediatext")
-}
-
-pub fn moz_activehyperlinktext() -> #(String, String) {
-  #("content", "-moz-activehyperlinktext")
-}
-
-pub fn moz_default_background_color() -> #(String, String) {
-  #("content", "-moz-default-background-color")
-}
-
-pub fn moz_default_color() -> #(String, String) {
-  #("content", "-moz-default-color")
-}
-
-pub fn moz_hyperlinktext() -> #(String, String) {
-  #("content", "-moz-hyperlinktext")
-}
-
-pub fn moz_visitedhyperlinktext() -> #(String, String) {
-  #("content", "-moz-visitedhyperlinktext")
-}
-
-pub fn webkit_activelink() -> #(String, String) {
-  #("content", "-webkit-activelink")
-}
-
-pub fn webkit_focus_ring_color() -> #(String, String) {
-  #("content", "-webkit-focus-ring-color")
-}
-
-pub fn webkit_link() -> #(String, String) {
-  #("content", "-webkit-link")
-}
-
-pub fn webkit_text() -> #(String, String) {
-  #("content", "-webkit-text")
-}
-
-pub fn first() -> #(String, String) {
-  #("content", "first")
-}
-
-pub fn start() -> #(String, String) {
-  #("content", "start")
-}
-
-pub fn last() -> #(String, String) {
-  #("content", "last")
-}
-
-pub fn first_except() -> #(String, String) {
-  #("content", "first-except")
-}
-
-pub fn to() -> #(String, String) {
-  #("content", "to")
-}
-
-pub fn left() -> #(String, String) {
-  #("content", "left")
-}
-
-pub fn right() -> #(String, String) {
-  #("content", "right")
-}
-
-pub fn top() -> #(String, String) {
-  #("content", "top")
-}
-
-pub fn bottom() -> #(String, String) {
-  #("content", "bottom")
-}
-
-pub fn circle() -> #(String, String) {
-  #("content", "circle")
-}
-
-pub fn ellipse() -> #(String, String) {
-  #("content", "ellipse")
-}
-
-pub fn closest_side() -> #(String, String) {
-  #("content", "closest-side")
-}
-
-pub fn farthest_side() -> #(String, String) {
-  #("content", "farthest-side")
-}
-
-pub fn closest_corner() -> #(String, String) {
-  #("content", "closest-corner")
-}
-
-pub fn farthest_corner() -> #(String, String) {
-  #("content", "farthest-corner")
-}
-
-pub fn at() -> #(String, String) {
-  #("content", "at")
-}
-
-pub fn center() -> #(String, String) {
-  #("content", "center")
-}
-
-pub fn from() -> #(String, String) {
-  #("content", "from")
-}
-
-pub fn linear() -> #(String, String) {
-  #("content", "linear")
-}
-
-pub fn radial() -> #(String, String) {
-  #("content", "radial")
-}
-
-pub fn contain() -> #(String, String) {
-  #("content", "contain")
-}
-
-pub fn cover() -> #(String, String) {
-  #("content", "cover")
-}
-
-pub fn contents() -> #(String, String) {
-  #("content", "contents")
-}
-
-pub fn open_quote() -> #(String, String) {
-  #("content", "open-quote")
-}
-
-pub fn close_quote() -> #(String, String) {
-  #("content", "close-quote")
-}
-
-pub fn no_open_quote() -> #(String, String) {
-  #("content", "no-open-quote")
-}
-
-pub fn no_close_quote() -> #(String, String) {
-  #("content", "no-close-quote")
-}
-
-pub fn content() -> #(String, String) {
-  #("content", "content")
-}
-
-pub fn before() -> #(String, String) {
-  #("content", "before")
-}
-
-pub fn after() -> #(String, String) {
-  #("content", "after")
-}
-
-pub fn first_letter() -> #(String, String) {
-  #("content", "first-letter")
-}
-
-pub fn dotted() -> #(String, String) {
-  #("content", "dotted")
-}
-
-pub fn solid() -> #(String, String) {
-  #("content", "solid")
-}
-
-pub fn space() -> #(String, String) {
-  #("content", "space")
-}
-
-pub fn string() -> #(String, String) {
-  #("content", "string")
-}
-
-pub fn color() -> #(String, String) {
-  #("content", "color")
-}
-
-pub fn url() -> #(String, String) {
-  #("content", "url")
-}
-
-pub fn integer() -> #(String, String) {
-  #("content", "integer")
-}
-
-pub fn number() -> #(String, String) {
-  #("content", "number")
-}
-
-pub fn length() -> #(String, String) {
-  #("content", "length")
-}
-
-pub fn angle() -> #(String, String) {
-  #("content", "angle")
-}
-
-pub fn time() -> #(String, String) {
-  #("content", "time")
-}
-
-pub fn frequency() -> #(String, String) {
-  #("content", "frequency")
-}
-
-pub fn cap() -> #(String, String) {
-  #("content", "cap")
-}
-
-pub fn ch() -> #(String, String) {
-  #("content", "ch")
-}
-
-pub fn em() -> #(String, String) {
-  #("content", "em")
-}
-
-pub fn ex() -> #(String, String) {
-  #("content", "ex")
-}
-
-pub fn ic() -> #(String, String) {
-  #("content", "ic")
-}
-
-pub fn lh() -> #(String, String) {
-  #("content", "lh")
-}
-
-pub fn rlh() -> #(String, String) {
-  #("content", "rlh")
-}
-
-pub fn rem() -> #(String, String) {
-  #("content", "rem")
-}
-
-pub fn vb() -> #(String, String) {
-  #("content", "vb")
-}
-
-pub fn vi() -> #(String, String) {
-  #("content", "vi")
-}
-
-pub fn vw() -> #(String, String) {
-  #("content", "vw")
-}
-
-pub fn vh() -> #(String, String) {
-  #("content", "vh")
-}
-
-pub fn vmin() -> #(String, String) {
-  #("content", "vmin")
-}
-
-pub fn vmax() -> #(String, String) {
-  #("content", "vmax")
-}
-
-pub fn mm() -> #(String, String) {
-  #("content", "mm")
-}
-
-pub fn q() -> #(String, String) {
-  #("content", "Q")
-}
-
-pub fn cm() -> #(String, String) {
-  #("content", "cm")
-}
-
-pub fn pt() -> #(String, String) {
-  #("content", "pt")
-}
-
-pub fn pc() -> #(String, String) {
-  #("content", "pc")
-}
-
-pub fn px() -> #(String, String) {
-  #("content", "px")
-}
-
-pub fn deg() -> #(String, String) {
-  #("content", "deg")
-}
-
-pub fn grad() -> #(String, String) {
-  #("content", "grad")
-}
-
-pub fn rad() -> #(String, String) {
-  #("content", "rad")
-}
-
-pub fn turn() -> #(String, String) {
-  #("content", "turn")
-}
-
-pub fn ms() -> #(String, String) {
-  #("content", "ms")
-}
-
-pub fn s() -> #(String, String) {
-  #("content", "s")
-}
-
-pub fn hz() -> #(String, String) {
-  #("content", "Hz")
-}
-
-pub fn k_hz() -> #(String, String) {
-  #("content", "kHz")
-}
+pub const normal = #("content", "normal")
+
+pub const none = #("content", "none")
+
+pub const ltr = #("content", "ltr")
+
+pub const rtl = #("content", "rtl")
+
+pub const srgb = #("content", "srgb")
+
+pub const srgb_linear = #("content", "srgb-linear")
+
+pub const display_p3 = #("content", "display-p3")
+
+pub const a98_rgb = #("content", "a98-rgb")
+
+pub const prophoto_rgb = #("content", "prophoto-rgb")
+
+pub const rec2020 = #("content", "rec2020")
+
+pub const xyz = #("content", "xyz")
+
+pub const xyz_d50 = #("content", "xyz-d50")
+
+pub const xyz_d65 = #("content", "xyz-d65")
+
+pub const transparent = #("content", "transparent")
+
+pub const aliceblue = #("content", "aliceblue")
+
+pub const antiquewhite = #("content", "antiquewhite")
+
+pub const aqua = #("content", "aqua")
+
+pub const aquamarine = #("content", "aquamarine")
+
+pub const azure = #("content", "azure")
+
+pub const beige = #("content", "beige")
+
+pub const bisque = #("content", "bisque")
+
+pub const black = #("content", "black")
+
+pub const blanchedalmond = #("content", "blanchedalmond")
+
+pub const blue = #("content", "blue")
+
+pub const blueviolet = #("content", "blueviolet")
+
+pub const brown = #("content", "brown")
+
+pub const burlywood = #("content", "burlywood")
+
+pub const cadetblue = #("content", "cadetblue")
+
+pub const chartreuse = #("content", "chartreuse")
+
+pub const chocolate = #("content", "chocolate")
+
+pub const coral = #("content", "coral")
+
+pub const cornflowerblue = #("content", "cornflowerblue")
+
+pub const cornsilk = #("content", "cornsilk")
+
+pub const crimson = #("content", "crimson")
+
+pub const cyan = #("content", "cyan")
+
+pub const darkblue = #("content", "darkblue")
+
+pub const darkcyan = #("content", "darkcyan")
+
+pub const darkgoldenrod = #("content", "darkgoldenrod")
+
+pub const darkgray = #("content", "darkgray")
+
+pub const darkgreen = #("content", "darkgreen")
+
+pub const darkgrey = #("content", "darkgrey")
+
+pub const darkkhaki = #("content", "darkkhaki")
+
+pub const darkmagenta = #("content", "darkmagenta")
+
+pub const darkolivegreen = #("content", "darkolivegreen")
+
+pub const darkorange = #("content", "darkorange")
+
+pub const darkorchid = #("content", "darkorchid")
+
+pub const darkred = #("content", "darkred")
+
+pub const darksalmon = #("content", "darksalmon")
+
+pub const darkseagreen = #("content", "darkseagreen")
+
+pub const darkslateblue = #("content", "darkslateblue")
+
+pub const darkslategray = #("content", "darkslategray")
+
+pub const darkslategrey = #("content", "darkslategrey")
+
+pub const darkturquoise = #("content", "darkturquoise")
+
+pub const darkviolet = #("content", "darkviolet")
+
+pub const deeppink = #("content", "deeppink")
+
+pub const deepskyblue = #("content", "deepskyblue")
+
+pub const dimgray = #("content", "dimgray")
+
+pub const dimgrey = #("content", "dimgrey")
+
+pub const dodgerblue = #("content", "dodgerblue")
+
+pub const firebrick = #("content", "firebrick")
+
+pub const floralwhite = #("content", "floralwhite")
+
+pub const forestgreen = #("content", "forestgreen")
+
+pub const fuchsia = #("content", "fuchsia")
+
+pub const gainsboro = #("content", "gainsboro")
+
+pub const ghostwhite = #("content", "ghostwhite")
+
+pub const gold = #("content", "gold")
+
+pub const goldenrod = #("content", "goldenrod")
+
+pub const gray = #("content", "gray")
+
+pub const green = #("content", "green")
+
+pub const greenyellow = #("content", "greenyellow")
+
+pub const grey = #("content", "grey")
+
+pub const honeydew = #("content", "honeydew")
+
+pub const hotpink = #("content", "hotpink")
+
+pub const indianred = #("content", "indianred")
+
+pub const indigo = #("content", "indigo")
+
+pub const ivory = #("content", "ivory")
+
+pub const khaki = #("content", "khaki")
+
+pub const lavender = #("content", "lavender")
+
+pub const lavenderblush = #("content", "lavenderblush")
+
+pub const lawngreen = #("content", "lawngreen")
+
+pub const lemonchiffon = #("content", "lemonchiffon")
+
+pub const lightblue = #("content", "lightblue")
+
+pub const lightcoral = #("content", "lightcoral")
+
+pub const lightcyan = #("content", "lightcyan")
+
+pub const lightgoldenrodyellow = #("content", "lightgoldenrodyellow")
+
+pub const lightgray = #("content", "lightgray")
+
+pub const lightgreen = #("content", "lightgreen")
+
+pub const lightgrey = #("content", "lightgrey")
+
+pub const lightpink = #("content", "lightpink")
+
+pub const lightsalmon = #("content", "lightsalmon")
+
+pub const lightseagreen = #("content", "lightseagreen")
+
+pub const lightskyblue = #("content", "lightskyblue")
+
+pub const lightslategray = #("content", "lightslategray")
+
+pub const lightslategrey = #("content", "lightslategrey")
+
+pub const lightsteelblue = #("content", "lightsteelblue")
+
+pub const lightyellow = #("content", "lightyellow")
+
+pub const lime = #("content", "lime")
+
+pub const limegreen = #("content", "limegreen")
+
+pub const linen = #("content", "linen")
+
+pub const magenta = #("content", "magenta")
+
+pub const maroon = #("content", "maroon")
+
+pub const mediumaquamarine = #("content", "mediumaquamarine")
+
+pub const mediumblue = #("content", "mediumblue")
+
+pub const mediumorchid = #("content", "mediumorchid")
+
+pub const mediumpurple = #("content", "mediumpurple")
+
+pub const mediumseagreen = #("content", "mediumseagreen")
+
+pub const mediumslateblue = #("content", "mediumslateblue")
+
+pub const mediumspringgreen = #("content", "mediumspringgreen")
+
+pub const mediumturquoise = #("content", "mediumturquoise")
+
+pub const mediumvioletred = #("content", "mediumvioletred")
+
+pub const midnightblue = #("content", "midnightblue")
+
+pub const mintcream = #("content", "mintcream")
+
+pub const mistyrose = #("content", "mistyrose")
+
+pub const moccasin = #("content", "moccasin")
+
+pub const navajowhite = #("content", "navajowhite")
+
+pub const navy = #("content", "navy")
+
+pub const oldlace = #("content", "oldlace")
+
+pub const olive = #("content", "olive")
+
+pub const olivedrab = #("content", "olivedrab")
+
+pub const orange = #("content", "orange")
+
+pub const orangered = #("content", "orangered")
+
+pub const orchid = #("content", "orchid")
+
+pub const palegoldenrod = #("content", "palegoldenrod")
+
+pub const palegreen = #("content", "palegreen")
+
+pub const paleturquoise = #("content", "paleturquoise")
+
+pub const palevioletred = #("content", "palevioletred")
+
+pub const papayawhip = #("content", "papayawhip")
+
+pub const peachpuff = #("content", "peachpuff")
+
+pub const peru = #("content", "peru")
+
+pub const pink = #("content", "pink")
+
+pub const plum = #("content", "plum")
+
+pub const powderblue = #("content", "powderblue")
+
+pub const purple = #("content", "purple")
+
+pub const rebeccapurple = #("content", "rebeccapurple")
+
+pub const red = #("content", "red")
+
+pub const rosybrown = #("content", "rosybrown")
+
+pub const royalblue = #("content", "royalblue")
+
+pub const saddlebrown = #("content", "saddlebrown")
+
+pub const salmon = #("content", "salmon")
+
+pub const sandybrown = #("content", "sandybrown")
+
+pub const seagreen = #("content", "seagreen")
+
+pub const seashell = #("content", "seashell")
+
+pub const sienna = #("content", "sienna")
+
+pub const silver = #("content", "silver")
+
+pub const skyblue = #("content", "skyblue")
+
+pub const slateblue = #("content", "slateblue")
+
+pub const slategray = #("content", "slategray")
+
+pub const slategrey = #("content", "slategrey")
+
+pub const snow = #("content", "snow")
+
+pub const springgreen = #("content", "springgreen")
+
+pub const steelblue = #("content", "steelblue")
+
+pub const tan = #("content", "tan")
+
+pub const teal = #("content", "teal")
+
+pub const thistle = #("content", "thistle")
+
+pub const tomato = #("content", "tomato")
+
+pub const turquoise = #("content", "turquoise")
+
+pub const violet = #("content", "violet")
+
+pub const wheat = #("content", "wheat")
+
+pub const white = #("content", "white")
+
+pub const whitesmoke = #("content", "whitesmoke")
+
+pub const yellow = #("content", "yellow")
+
+pub const yellowgreen = #("content", "yellowgreen")
+
+pub const in = #("content", "in")
+
+pub const lab = #("content", "lab")
+
+pub const oklab = #("content", "oklab")
+
+pub const hsl = #("content", "hsl")
+
+pub const hwb = #("content", "hwb")
+
+pub const lch = #("content", "lch")
+
+pub const oklch = #("content", "oklch")
+
+pub const shorter = #("content", "shorter")
+
+pub const longer = #("content", "longer")
+
+pub const increasing = #("content", "increasing")
+
+pub const decreasing = #("content", "decreasing")
+
+pub const hue = #("content", "hue")
+
+pub const current_color = #("content", "currentColor")
+
+pub const accent_color = #("content", "AccentColor")
+
+pub const accent_color_text = #("content", "AccentColorText")
+
+pub const active_text = #("content", "ActiveText")
+
+pub const button_border = #("content", "ButtonBorder")
+
+pub const button_face = #("content", "ButtonFace")
+
+pub const button_text = #("content", "ButtonText")
+
+pub const canvas = #("content", "Canvas")
+
+pub const canvas_text = #("content", "CanvasText")
+
+pub const field = #("content", "Field")
+
+pub const field_text = #("content", "FieldText")
+
+pub const gray_text = #("content", "GrayText")
+
+pub const highlight = #("content", "Highlight")
+
+pub const highlight_text = #("content", "HighlightText")
+
+pub const link_text = #("content", "LinkText")
+
+pub const mark = #("content", "Mark")
+
+pub const mark_text = #("content", "MarkText")
+
+pub const selected_item = #("content", "SelectedItem")
+
+pub const selected_item_text = #("content", "SelectedItemText")
+
+pub const visited_text = #("content", "VisitedText")
+
+pub const moz_button_default = #("content", "-moz-ButtonDefault")
+
+pub const moz_button_hover_face = #("content", "-moz-ButtonHoverFace")
+
+pub const moz_button_hover_text = #("content", "-moz-ButtonHoverText")
+
+pub const moz_cell_highlight = #("content", "-moz-CellHighlight")
+
+pub const moz_cell_highlight_text = #("content", "-moz-CellHighlightText")
+
+pub const moz_combobox = #("content", "-moz-Combobox")
+
+pub const moz_combobox_text = #("content", "-moz-ComboboxText")
+
+pub const moz_dialog = #("content", "-moz-Dialog")
+
+pub const moz_dialog_text = #("content", "-moz-DialogText")
+
+pub const moz_dragtargetzone = #("content", "-moz-dragtargetzone")
+
+pub const moz_even_tree_row = #("content", "-moz-EvenTreeRow")
+
+pub const moz_field = #("content", "-moz-Field")
+
+pub const moz_field_text = #("content", "-moz-FieldText")
+
+pub const moz_html_cell_highlight = #("content", "-moz-html-CellHighlight")
+
+pub const moz_html_cell_highlight_text = #("content", "-moz-html-CellHighlightText")
+
+pub const moz_mac_accentdarkestshadow = #("content", "-moz-mac-accentdarkestshadow")
+
+pub const moz_mac_accentdarkshadow = #("content", "-moz-mac-accentdarkshadow")
+
+pub const moz_mac_accentface = #("content", "-moz-mac-accentface")
+
+pub const moz_mac_accentlightesthighlight = #("content", "-moz-mac-accentlightesthighlight")
+
+pub const moz_mac_accentlightshadow = #("content", "-moz-mac-accentlightshadow")
+
+pub const moz_mac_accentregularhighlight = #("content", "-moz-mac-accentregularhighlight")
+
+pub const moz_mac_accentregularshadow = #("content", "-moz-mac-accentregularshadow")
+
+pub const moz_mac_chrome_active = #("content", "-moz-mac-chrome-active")
+
+pub const moz_mac_chrome_inactive = #("content", "-moz-mac-chrome-inactive")
+
+pub const moz_mac_focusring = #("content", "-moz-mac-focusring")
+
+pub const moz_mac_menuselect = #("content", "-moz-mac-menuselect")
+
+pub const moz_mac_menushadow = #("content", "-moz-mac-menushadow")
+
+pub const moz_mac_menutextselect = #("content", "-moz-mac-menutextselect")
+
+pub const moz_menu_hover = #("content", "-moz-MenuHover")
+
+pub const moz_menu_hover_text = #("content", "-moz-MenuHoverText")
+
+pub const moz_menu_bar_text = #("content", "-moz-MenuBarText")
+
+pub const moz_menu_bar_hover_text = #("content", "-moz-MenuBarHoverText")
+
+pub const moz_nativehyperlinktext = #("content", "-moz-nativehyperlinktext")
+
+pub const moz_odd_tree_row = #("content", "-moz-OddTreeRow")
+
+pub const moz_win_communicationstext = #("content", "-moz-win-communicationstext")
+
+pub const moz_win_mediatext = #("content", "-moz-win-mediatext")
+
+pub const moz_activehyperlinktext = #("content", "-moz-activehyperlinktext")
+
+pub const moz_default_background_color = #("content", "-moz-default-background-color")
+
+pub const moz_default_color = #("content", "-moz-default-color")
+
+pub const moz_hyperlinktext = #("content", "-moz-hyperlinktext")
+
+pub const moz_visitedhyperlinktext = #("content", "-moz-visitedhyperlinktext")
+
+pub const webkit_activelink = #("content", "-webkit-activelink")
+
+pub const webkit_focus_ring_color = #("content", "-webkit-focus-ring-color")
+
+pub const webkit_link = #("content", "-webkit-link")
+
+pub const webkit_text = #("content", "-webkit-text")
+
+pub const first = #("content", "first")
+
+pub const start = #("content", "start")
+
+pub const last = #("content", "last")
+
+pub const first_except = #("content", "first-except")
+
+pub const to = #("content", "to")
+
+pub const left = #("content", "left")
+
+pub const right = #("content", "right")
+
+pub const top = #("content", "top")
+
+pub const bottom = #("content", "bottom")
+
+pub const circle = #("content", "circle")
+
+pub const ellipse = #("content", "ellipse")
+
+pub const closest_side = #("content", "closest-side")
+
+pub const farthest_side = #("content", "farthest-side")
+
+pub const closest_corner = #("content", "closest-corner")
+
+pub const farthest_corner = #("content", "farthest-corner")
+
+pub const at = #("content", "at")
+
+pub const center = #("content", "center")
+
+pub const from = #("content", "from")
+
+pub const linear = #("content", "linear")
+
+pub const radial = #("content", "radial")
+
+pub const contain = #("content", "contain")
+
+pub const cover = #("content", "cover")
+
+pub const contents = #("content", "contents")
+
+pub const open_quote = #("content", "open-quote")
+
+pub const close_quote = #("content", "close-quote")
+
+pub const no_open_quote = #("content", "no-open-quote")
+
+pub const no_close_quote = #("content", "no-close-quote")
+
+pub const content = #("content", "content")
+
+pub const before = #("content", "before")
+
+pub const after = #("content", "after")
+
+pub const first_letter = #("content", "first-letter")
+
+pub const dotted = #("content", "dotted")
+
+pub const solid = #("content", "solid")
+
+pub const space = #("content", "space")
+
+pub const string = #("content", "string")
+
+pub const color = #("content", "color")
+
+pub const url = #("content", "url")
+
+pub const integer = #("content", "integer")
+
+pub const number = #("content", "number")
+
+pub const length = #("content", "length")
+
+pub const angle = #("content", "angle")
+
+pub const time = #("content", "time")
+
+pub const frequency = #("content", "frequency")
+
+pub const cap = #("content", "cap")
+
+pub const ch = #("content", "ch")
+
+pub const em = #("content", "em")
+
+pub const ex = #("content", "ex")
+
+pub const ic = #("content", "ic")
+
+pub const lh = #("content", "lh")
+
+pub const rlh = #("content", "rlh")
+
+pub const rem = #("content", "rem")
+
+pub const vb = #("content", "vb")
+
+pub const vi = #("content", "vi")
+
+pub const vw = #("content", "vw")
+
+pub const vh = #("content", "vh")
+
+pub const vmin = #("content", "vmin")
+
+pub const vmax = #("content", "vmax")
+
+pub const mm = #("content", "mm")
+
+pub const q = #("content", "Q")
+
+pub const cm = #("content", "cm")
+
+pub const pt = #("content", "pt")
+
+pub const pc = #("content", "pc")
+
+pub const px = #("content", "px")
+
+pub const deg = #("content", "deg")
+
+pub const grad = #("content", "grad")
+
+pub const rad = #("content", "rad")
+
+pub const turn = #("content", "turn")
+
+pub const ms = #("content", "ms")
+
+pub const s = #("content", "s")
+
+pub const hz = #("content", "Hz")
+
+pub const k_hz = #("content", "kHz")
 
 pub fn raw(value: String) -> #(String, String) {
   #("content", value)

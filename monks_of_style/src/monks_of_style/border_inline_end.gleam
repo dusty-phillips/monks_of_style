@@ -1,996 +1,500 @@
 
 
-pub fn thin() -> #(String, String) {
-  #("border-inline-end", "thin")
-}
-
-pub fn medium() -> #(String, String) {
-  #("border-inline-end", "medium")
-}
-
-pub fn thick() -> #(String, String) {
-  #("border-inline-end", "thick")
-}
-
-pub fn none() -> #(String, String) {
-  #("border-inline-end", "none")
-}
-
-pub fn hidden() -> #(String, String) {
-  #("border-inline-end", "hidden")
-}
-
-pub fn dotted() -> #(String, String) {
-  #("border-inline-end", "dotted")
-}
-
-pub fn dashed() -> #(String, String) {
-  #("border-inline-end", "dashed")
-}
-
-pub fn solid() -> #(String, String) {
-  #("border-inline-end", "solid")
-}
-
-pub fn double() -> #(String, String) {
-  #("border-inline-end", "double")
-}
-
-pub fn groove() -> #(String, String) {
-  #("border-inline-end", "groove")
-}
-
-pub fn ridge() -> #(String, String) {
-  #("border-inline-end", "ridge")
-}
-
-pub fn inset() -> #(String, String) {
-  #("border-inline-end", "inset")
-}
-
-pub fn outset() -> #(String, String) {
-  #("border-inline-end", "outset")
-}
-
-pub fn srgb() -> #(String, String) {
-  #("border-inline-end", "srgb")
-}
-
-pub fn srgb_linear() -> #(String, String) {
-  #("border-inline-end", "srgb-linear")
-}
-
-pub fn display_p3() -> #(String, String) {
-  #("border-inline-end", "display-p3")
-}
-
-pub fn a98_rgb() -> #(String, String) {
-  #("border-inline-end", "a98-rgb")
-}
-
-pub fn prophoto_rgb() -> #(String, String) {
-  #("border-inline-end", "prophoto-rgb")
-}
-
-pub fn rec2020() -> #(String, String) {
-  #("border-inline-end", "rec2020")
-}
-
-pub fn xyz() -> #(String, String) {
-  #("border-inline-end", "xyz")
-}
-
-pub fn xyz_d50() -> #(String, String) {
-  #("border-inline-end", "xyz-d50")
-}
-
-pub fn xyz_d65() -> #(String, String) {
-  #("border-inline-end", "xyz-d65")
-}
-
-pub fn transparent() -> #(String, String) {
-  #("border-inline-end", "transparent")
-}
-
-pub fn aliceblue() -> #(String, String) {
-  #("border-inline-end", "aliceblue")
-}
-
-pub fn antiquewhite() -> #(String, String) {
-  #("border-inline-end", "antiquewhite")
-}
-
-pub fn aqua() -> #(String, String) {
-  #("border-inline-end", "aqua")
-}
-
-pub fn aquamarine() -> #(String, String) {
-  #("border-inline-end", "aquamarine")
-}
-
-pub fn azure() -> #(String, String) {
-  #("border-inline-end", "azure")
-}
-
-pub fn beige() -> #(String, String) {
-  #("border-inline-end", "beige")
-}
-
-pub fn bisque() -> #(String, String) {
-  #("border-inline-end", "bisque")
-}
-
-pub fn black() -> #(String, String) {
-  #("border-inline-end", "black")
-}
-
-pub fn blanchedalmond() -> #(String, String) {
-  #("border-inline-end", "blanchedalmond")
-}
-
-pub fn blue() -> #(String, String) {
-  #("border-inline-end", "blue")
-}
-
-pub fn blueviolet() -> #(String, String) {
-  #("border-inline-end", "blueviolet")
-}
-
-pub fn brown() -> #(String, String) {
-  #("border-inline-end", "brown")
-}
-
-pub fn burlywood() -> #(String, String) {
-  #("border-inline-end", "burlywood")
-}
-
-pub fn cadetblue() -> #(String, String) {
-  #("border-inline-end", "cadetblue")
-}
-
-pub fn chartreuse() -> #(String, String) {
-  #("border-inline-end", "chartreuse")
-}
-
-pub fn chocolate() -> #(String, String) {
-  #("border-inline-end", "chocolate")
-}
-
-pub fn coral() -> #(String, String) {
-  #("border-inline-end", "coral")
-}
-
-pub fn cornflowerblue() -> #(String, String) {
-  #("border-inline-end", "cornflowerblue")
-}
-
-pub fn cornsilk() -> #(String, String) {
-  #("border-inline-end", "cornsilk")
-}
-
-pub fn crimson() -> #(String, String) {
-  #("border-inline-end", "crimson")
-}
-
-pub fn cyan() -> #(String, String) {
-  #("border-inline-end", "cyan")
-}
-
-pub fn darkblue() -> #(String, String) {
-  #("border-inline-end", "darkblue")
-}
-
-pub fn darkcyan() -> #(String, String) {
-  #("border-inline-end", "darkcyan")
-}
-
-pub fn darkgoldenrod() -> #(String, String) {
-  #("border-inline-end", "darkgoldenrod")
-}
-
-pub fn darkgray() -> #(String, String) {
-  #("border-inline-end", "darkgray")
-}
-
-pub fn darkgreen() -> #(String, String) {
-  #("border-inline-end", "darkgreen")
-}
-
-pub fn darkgrey() -> #(String, String) {
-  #("border-inline-end", "darkgrey")
-}
-
-pub fn darkkhaki() -> #(String, String) {
-  #("border-inline-end", "darkkhaki")
-}
-
-pub fn darkmagenta() -> #(String, String) {
-  #("border-inline-end", "darkmagenta")
-}
-
-pub fn darkolivegreen() -> #(String, String) {
-  #("border-inline-end", "darkolivegreen")
-}
-
-pub fn darkorange() -> #(String, String) {
-  #("border-inline-end", "darkorange")
-}
-
-pub fn darkorchid() -> #(String, String) {
-  #("border-inline-end", "darkorchid")
-}
-
-pub fn darkred() -> #(String, String) {
-  #("border-inline-end", "darkred")
-}
-
-pub fn darksalmon() -> #(String, String) {
-  #("border-inline-end", "darksalmon")
-}
-
-pub fn darkseagreen() -> #(String, String) {
-  #("border-inline-end", "darkseagreen")
-}
-
-pub fn darkslateblue() -> #(String, String) {
-  #("border-inline-end", "darkslateblue")
-}
-
-pub fn darkslategray() -> #(String, String) {
-  #("border-inline-end", "darkslategray")
-}
-
-pub fn darkslategrey() -> #(String, String) {
-  #("border-inline-end", "darkslategrey")
-}
-
-pub fn darkturquoise() -> #(String, String) {
-  #("border-inline-end", "darkturquoise")
-}
-
-pub fn darkviolet() -> #(String, String) {
-  #("border-inline-end", "darkviolet")
-}
-
-pub fn deeppink() -> #(String, String) {
-  #("border-inline-end", "deeppink")
-}
-
-pub fn deepskyblue() -> #(String, String) {
-  #("border-inline-end", "deepskyblue")
-}
-
-pub fn dimgray() -> #(String, String) {
-  #("border-inline-end", "dimgray")
-}
-
-pub fn dimgrey() -> #(String, String) {
-  #("border-inline-end", "dimgrey")
-}
-
-pub fn dodgerblue() -> #(String, String) {
-  #("border-inline-end", "dodgerblue")
-}
-
-pub fn firebrick() -> #(String, String) {
-  #("border-inline-end", "firebrick")
-}
-
-pub fn floralwhite() -> #(String, String) {
-  #("border-inline-end", "floralwhite")
-}
-
-pub fn forestgreen() -> #(String, String) {
-  #("border-inline-end", "forestgreen")
-}
-
-pub fn fuchsia() -> #(String, String) {
-  #("border-inline-end", "fuchsia")
-}
-
-pub fn gainsboro() -> #(String, String) {
-  #("border-inline-end", "gainsboro")
-}
-
-pub fn ghostwhite() -> #(String, String) {
-  #("border-inline-end", "ghostwhite")
-}
-
-pub fn gold() -> #(String, String) {
-  #("border-inline-end", "gold")
-}
-
-pub fn goldenrod() -> #(String, String) {
-  #("border-inline-end", "goldenrod")
-}
-
-pub fn gray() -> #(String, String) {
-  #("border-inline-end", "gray")
-}
-
-pub fn green() -> #(String, String) {
-  #("border-inline-end", "green")
-}
-
-pub fn greenyellow() -> #(String, String) {
-  #("border-inline-end", "greenyellow")
-}
-
-pub fn grey() -> #(String, String) {
-  #("border-inline-end", "grey")
-}
-
-pub fn honeydew() -> #(String, String) {
-  #("border-inline-end", "honeydew")
-}
-
-pub fn hotpink() -> #(String, String) {
-  #("border-inline-end", "hotpink")
-}
-
-pub fn indianred() -> #(String, String) {
-  #("border-inline-end", "indianred")
-}
-
-pub fn indigo() -> #(String, String) {
-  #("border-inline-end", "indigo")
-}
-
-pub fn ivory() -> #(String, String) {
-  #("border-inline-end", "ivory")
-}
-
-pub fn khaki() -> #(String, String) {
-  #("border-inline-end", "khaki")
-}
-
-pub fn lavender() -> #(String, String) {
-  #("border-inline-end", "lavender")
-}
-
-pub fn lavenderblush() -> #(String, String) {
-  #("border-inline-end", "lavenderblush")
-}
-
-pub fn lawngreen() -> #(String, String) {
-  #("border-inline-end", "lawngreen")
-}
-
-pub fn lemonchiffon() -> #(String, String) {
-  #("border-inline-end", "lemonchiffon")
-}
-
-pub fn lightblue() -> #(String, String) {
-  #("border-inline-end", "lightblue")
-}
-
-pub fn lightcoral() -> #(String, String) {
-  #("border-inline-end", "lightcoral")
-}
-
-pub fn lightcyan() -> #(String, String) {
-  #("border-inline-end", "lightcyan")
-}
-
-pub fn lightgoldenrodyellow() -> #(String, String) {
-  #("border-inline-end", "lightgoldenrodyellow")
-}
-
-pub fn lightgray() -> #(String, String) {
-  #("border-inline-end", "lightgray")
-}
-
-pub fn lightgreen() -> #(String, String) {
-  #("border-inline-end", "lightgreen")
-}
-
-pub fn lightgrey() -> #(String, String) {
-  #("border-inline-end", "lightgrey")
-}
-
-pub fn lightpink() -> #(String, String) {
-  #("border-inline-end", "lightpink")
-}
-
-pub fn lightsalmon() -> #(String, String) {
-  #("border-inline-end", "lightsalmon")
-}
-
-pub fn lightseagreen() -> #(String, String) {
-  #("border-inline-end", "lightseagreen")
-}
-
-pub fn lightskyblue() -> #(String, String) {
-  #("border-inline-end", "lightskyblue")
-}
-
-pub fn lightslategray() -> #(String, String) {
-  #("border-inline-end", "lightslategray")
-}
-
-pub fn lightslategrey() -> #(String, String) {
-  #("border-inline-end", "lightslategrey")
-}
-
-pub fn lightsteelblue() -> #(String, String) {
-  #("border-inline-end", "lightsteelblue")
-}
-
-pub fn lightyellow() -> #(String, String) {
-  #("border-inline-end", "lightyellow")
-}
-
-pub fn lime() -> #(String, String) {
-  #("border-inline-end", "lime")
-}
-
-pub fn limegreen() -> #(String, String) {
-  #("border-inline-end", "limegreen")
-}
-
-pub fn linen() -> #(String, String) {
-  #("border-inline-end", "linen")
-}
-
-pub fn magenta() -> #(String, String) {
-  #("border-inline-end", "magenta")
-}
-
-pub fn maroon() -> #(String, String) {
-  #("border-inline-end", "maroon")
-}
-
-pub fn mediumaquamarine() -> #(String, String) {
-  #("border-inline-end", "mediumaquamarine")
-}
-
-pub fn mediumblue() -> #(String, String) {
-  #("border-inline-end", "mediumblue")
-}
-
-pub fn mediumorchid() -> #(String, String) {
-  #("border-inline-end", "mediumorchid")
-}
-
-pub fn mediumpurple() -> #(String, String) {
-  #("border-inline-end", "mediumpurple")
-}
-
-pub fn mediumseagreen() -> #(String, String) {
-  #("border-inline-end", "mediumseagreen")
-}
-
-pub fn mediumslateblue() -> #(String, String) {
-  #("border-inline-end", "mediumslateblue")
-}
-
-pub fn mediumspringgreen() -> #(String, String) {
-  #("border-inline-end", "mediumspringgreen")
-}
-
-pub fn mediumturquoise() -> #(String, String) {
-  #("border-inline-end", "mediumturquoise")
-}
-
-pub fn mediumvioletred() -> #(String, String) {
-  #("border-inline-end", "mediumvioletred")
-}
-
-pub fn midnightblue() -> #(String, String) {
-  #("border-inline-end", "midnightblue")
-}
-
-pub fn mintcream() -> #(String, String) {
-  #("border-inline-end", "mintcream")
-}
-
-pub fn mistyrose() -> #(String, String) {
-  #("border-inline-end", "mistyrose")
-}
-
-pub fn moccasin() -> #(String, String) {
-  #("border-inline-end", "moccasin")
-}
-
-pub fn navajowhite() -> #(String, String) {
-  #("border-inline-end", "navajowhite")
-}
-
-pub fn navy() -> #(String, String) {
-  #("border-inline-end", "navy")
-}
-
-pub fn oldlace() -> #(String, String) {
-  #("border-inline-end", "oldlace")
-}
-
-pub fn olive() -> #(String, String) {
-  #("border-inline-end", "olive")
-}
-
-pub fn olivedrab() -> #(String, String) {
-  #("border-inline-end", "olivedrab")
-}
-
-pub fn orange() -> #(String, String) {
-  #("border-inline-end", "orange")
-}
-
-pub fn orangered() -> #(String, String) {
-  #("border-inline-end", "orangered")
-}
-
-pub fn orchid() -> #(String, String) {
-  #("border-inline-end", "orchid")
-}
-
-pub fn palegoldenrod() -> #(String, String) {
-  #("border-inline-end", "palegoldenrod")
-}
-
-pub fn palegreen() -> #(String, String) {
-  #("border-inline-end", "palegreen")
-}
-
-pub fn paleturquoise() -> #(String, String) {
-  #("border-inline-end", "paleturquoise")
-}
-
-pub fn palevioletred() -> #(String, String) {
-  #("border-inline-end", "palevioletred")
-}
-
-pub fn papayawhip() -> #(String, String) {
-  #("border-inline-end", "papayawhip")
-}
-
-pub fn peachpuff() -> #(String, String) {
-  #("border-inline-end", "peachpuff")
-}
-
-pub fn peru() -> #(String, String) {
-  #("border-inline-end", "peru")
-}
-
-pub fn pink() -> #(String, String) {
-  #("border-inline-end", "pink")
-}
-
-pub fn plum() -> #(String, String) {
-  #("border-inline-end", "plum")
-}
-
-pub fn powderblue() -> #(String, String) {
-  #("border-inline-end", "powderblue")
-}
-
-pub fn purple() -> #(String, String) {
-  #("border-inline-end", "purple")
-}
-
-pub fn rebeccapurple() -> #(String, String) {
-  #("border-inline-end", "rebeccapurple")
-}
-
-pub fn red() -> #(String, String) {
-  #("border-inline-end", "red")
-}
-
-pub fn rosybrown() -> #(String, String) {
-  #("border-inline-end", "rosybrown")
-}
-
-pub fn royalblue() -> #(String, String) {
-  #("border-inline-end", "royalblue")
-}
-
-pub fn saddlebrown() -> #(String, String) {
-  #("border-inline-end", "saddlebrown")
-}
-
-pub fn salmon() -> #(String, String) {
-  #("border-inline-end", "salmon")
-}
-
-pub fn sandybrown() -> #(String, String) {
-  #("border-inline-end", "sandybrown")
-}
-
-pub fn seagreen() -> #(String, String) {
-  #("border-inline-end", "seagreen")
-}
-
-pub fn seashell() -> #(String, String) {
-  #("border-inline-end", "seashell")
-}
-
-pub fn sienna() -> #(String, String) {
-  #("border-inline-end", "sienna")
-}
-
-pub fn silver() -> #(String, String) {
-  #("border-inline-end", "silver")
-}
-
-pub fn skyblue() -> #(String, String) {
-  #("border-inline-end", "skyblue")
-}
-
-pub fn slateblue() -> #(String, String) {
-  #("border-inline-end", "slateblue")
-}
-
-pub fn slategray() -> #(String, String) {
-  #("border-inline-end", "slategray")
-}
-
-pub fn slategrey() -> #(String, String) {
-  #("border-inline-end", "slategrey")
-}
-
-pub fn snow() -> #(String, String) {
-  #("border-inline-end", "snow")
-}
-
-pub fn springgreen() -> #(String, String) {
-  #("border-inline-end", "springgreen")
-}
-
-pub fn steelblue() -> #(String, String) {
-  #("border-inline-end", "steelblue")
-}
-
-pub fn tan() -> #(String, String) {
-  #("border-inline-end", "tan")
-}
-
-pub fn teal() -> #(String, String) {
-  #("border-inline-end", "teal")
-}
-
-pub fn thistle() -> #(String, String) {
-  #("border-inline-end", "thistle")
-}
-
-pub fn tomato() -> #(String, String) {
-  #("border-inline-end", "tomato")
-}
-
-pub fn turquoise() -> #(String, String) {
-  #("border-inline-end", "turquoise")
-}
-
-pub fn violet() -> #(String, String) {
-  #("border-inline-end", "violet")
-}
-
-pub fn wheat() -> #(String, String) {
-  #("border-inline-end", "wheat")
-}
-
-pub fn white() -> #(String, String) {
-  #("border-inline-end", "white")
-}
-
-pub fn whitesmoke() -> #(String, String) {
-  #("border-inline-end", "whitesmoke")
-}
-
-pub fn yellow() -> #(String, String) {
-  #("border-inline-end", "yellow")
-}
-
-pub fn yellowgreen() -> #(String, String) {
-  #("border-inline-end", "yellowgreen")
-}
-
-pub fn in() -> #(String, String) {
-  #("border-inline-end", "in")
-}
-
-pub fn lab() -> #(String, String) {
-  #("border-inline-end", "lab")
-}
-
-pub fn oklab() -> #(String, String) {
-  #("border-inline-end", "oklab")
-}
-
-pub fn hsl() -> #(String, String) {
-  #("border-inline-end", "hsl")
-}
-
-pub fn hwb() -> #(String, String) {
-  #("border-inline-end", "hwb")
-}
-
-pub fn lch() -> #(String, String) {
-  #("border-inline-end", "lch")
-}
-
-pub fn oklch() -> #(String, String) {
-  #("border-inline-end", "oklch")
-}
-
-pub fn shorter() -> #(String, String) {
-  #("border-inline-end", "shorter")
-}
-
-pub fn longer() -> #(String, String) {
-  #("border-inline-end", "longer")
-}
-
-pub fn increasing() -> #(String, String) {
-  #("border-inline-end", "increasing")
-}
-
-pub fn decreasing() -> #(String, String) {
-  #("border-inline-end", "decreasing")
-}
-
-pub fn hue() -> #(String, String) {
-  #("border-inline-end", "hue")
-}
-
-pub fn current_color() -> #(String, String) {
-  #("border-inline-end", "currentColor")
-}
-
-pub fn accent_color() -> #(String, String) {
-  #("border-inline-end", "AccentColor")
-}
-
-pub fn accent_color_text() -> #(String, String) {
-  #("border-inline-end", "AccentColorText")
-}
-
-pub fn active_text() -> #(String, String) {
-  #("border-inline-end", "ActiveText")
-}
-
-pub fn button_border() -> #(String, String) {
-  #("border-inline-end", "ButtonBorder")
-}
-
-pub fn button_face() -> #(String, String) {
-  #("border-inline-end", "ButtonFace")
-}
-
-pub fn button_text() -> #(String, String) {
-  #("border-inline-end", "ButtonText")
-}
-
-pub fn canvas() -> #(String, String) {
-  #("border-inline-end", "Canvas")
-}
-
-pub fn canvas_text() -> #(String, String) {
-  #("border-inline-end", "CanvasText")
-}
-
-pub fn field() -> #(String, String) {
-  #("border-inline-end", "Field")
-}
-
-pub fn field_text() -> #(String, String) {
-  #("border-inline-end", "FieldText")
-}
-
-pub fn gray_text() -> #(String, String) {
-  #("border-inline-end", "GrayText")
-}
-
-pub fn highlight() -> #(String, String) {
-  #("border-inline-end", "Highlight")
-}
-
-pub fn highlight_text() -> #(String, String) {
-  #("border-inline-end", "HighlightText")
-}
-
-pub fn link_text() -> #(String, String) {
-  #("border-inline-end", "LinkText")
-}
-
-pub fn mark() -> #(String, String) {
-  #("border-inline-end", "Mark")
-}
-
-pub fn mark_text() -> #(String, String) {
-  #("border-inline-end", "MarkText")
-}
-
-pub fn selected_item() -> #(String, String) {
-  #("border-inline-end", "SelectedItem")
-}
-
-pub fn selected_item_text() -> #(String, String) {
-  #("border-inline-end", "SelectedItemText")
-}
-
-pub fn visited_text() -> #(String, String) {
-  #("border-inline-end", "VisitedText")
-}
-
-pub fn moz_button_default() -> #(String, String) {
-  #("border-inline-end", "-moz-ButtonDefault")
-}
-
-pub fn moz_button_hover_face() -> #(String, String) {
-  #("border-inline-end", "-moz-ButtonHoverFace")
-}
-
-pub fn moz_button_hover_text() -> #(String, String) {
-  #("border-inline-end", "-moz-ButtonHoverText")
-}
-
-pub fn moz_cell_highlight() -> #(String, String) {
-  #("border-inline-end", "-moz-CellHighlight")
-}
-
-pub fn moz_cell_highlight_text() -> #(String, String) {
-  #("border-inline-end", "-moz-CellHighlightText")
-}
-
-pub fn moz_combobox() -> #(String, String) {
-  #("border-inline-end", "-moz-Combobox")
-}
-
-pub fn moz_combobox_text() -> #(String, String) {
-  #("border-inline-end", "-moz-ComboboxText")
-}
-
-pub fn moz_dialog() -> #(String, String) {
-  #("border-inline-end", "-moz-Dialog")
-}
-
-pub fn moz_dialog_text() -> #(String, String) {
-  #("border-inline-end", "-moz-DialogText")
-}
-
-pub fn moz_dragtargetzone() -> #(String, String) {
-  #("border-inline-end", "-moz-dragtargetzone")
-}
-
-pub fn moz_even_tree_row() -> #(String, String) {
-  #("border-inline-end", "-moz-EvenTreeRow")
-}
-
-pub fn moz_field() -> #(String, String) {
-  #("border-inline-end", "-moz-Field")
-}
-
-pub fn moz_field_text() -> #(String, String) {
-  #("border-inline-end", "-moz-FieldText")
-}
-
-pub fn moz_html_cell_highlight() -> #(String, String) {
-  #("border-inline-end", "-moz-html-CellHighlight")
-}
-
-pub fn moz_html_cell_highlight_text() -> #(String, String) {
-  #("border-inline-end", "-moz-html-CellHighlightText")
-}
-
-pub fn moz_mac_accentdarkestshadow() -> #(String, String) {
-  #("border-inline-end", "-moz-mac-accentdarkestshadow")
-}
-
-pub fn moz_mac_accentdarkshadow() -> #(String, String) {
-  #("border-inline-end", "-moz-mac-accentdarkshadow")
-}
-
-pub fn moz_mac_accentface() -> #(String, String) {
-  #("border-inline-end", "-moz-mac-accentface")
-}
-
-pub fn moz_mac_accentlightesthighlight() -> #(String, String) {
-  #("border-inline-end", "-moz-mac-accentlightesthighlight")
-}
-
-pub fn moz_mac_accentlightshadow() -> #(String, String) {
-  #("border-inline-end", "-moz-mac-accentlightshadow")
-}
-
-pub fn moz_mac_accentregularhighlight() -> #(String, String) {
-  #("border-inline-end", "-moz-mac-accentregularhighlight")
-}
-
-pub fn moz_mac_accentregularshadow() -> #(String, String) {
-  #("border-inline-end", "-moz-mac-accentregularshadow")
-}
-
-pub fn moz_mac_chrome_active() -> #(String, String) {
-  #("border-inline-end", "-moz-mac-chrome-active")
-}
-
-pub fn moz_mac_chrome_inactive() -> #(String, String) {
-  #("border-inline-end", "-moz-mac-chrome-inactive")
-}
-
-pub fn moz_mac_focusring() -> #(String, String) {
-  #("border-inline-end", "-moz-mac-focusring")
-}
-
-pub fn moz_mac_menuselect() -> #(String, String) {
-  #("border-inline-end", "-moz-mac-menuselect")
-}
-
-pub fn moz_mac_menushadow() -> #(String, String) {
-  #("border-inline-end", "-moz-mac-menushadow")
-}
-
-pub fn moz_mac_menutextselect() -> #(String, String) {
-  #("border-inline-end", "-moz-mac-menutextselect")
-}
-
-pub fn moz_menu_hover() -> #(String, String) {
-  #("border-inline-end", "-moz-MenuHover")
-}
-
-pub fn moz_menu_hover_text() -> #(String, String) {
-  #("border-inline-end", "-moz-MenuHoverText")
-}
-
-pub fn moz_menu_bar_text() -> #(String, String) {
-  #("border-inline-end", "-moz-MenuBarText")
-}
-
-pub fn moz_menu_bar_hover_text() -> #(String, String) {
-  #("border-inline-end", "-moz-MenuBarHoverText")
-}
-
-pub fn moz_nativehyperlinktext() -> #(String, String) {
-  #("border-inline-end", "-moz-nativehyperlinktext")
-}
-
-pub fn moz_odd_tree_row() -> #(String, String) {
-  #("border-inline-end", "-moz-OddTreeRow")
-}
-
-pub fn moz_win_communicationstext() -> #(String, String) {
-  #("border-inline-end", "-moz-win-communicationstext")
-}
-
-pub fn moz_win_mediatext() -> #(String, String) {
-  #("border-inline-end", "-moz-win-mediatext")
-}
-
-pub fn moz_activehyperlinktext() -> #(String, String) {
-  #("border-inline-end", "-moz-activehyperlinktext")
-}
-
-pub fn moz_default_background_color() -> #(String, String) {
-  #("border-inline-end", "-moz-default-background-color")
-}
-
-pub fn moz_default_color() -> #(String, String) {
-  #("border-inline-end", "-moz-default-color")
-}
-
-pub fn moz_hyperlinktext() -> #(String, String) {
-  #("border-inline-end", "-moz-hyperlinktext")
-}
-
-pub fn moz_visitedhyperlinktext() -> #(String, String) {
-  #("border-inline-end", "-moz-visitedhyperlinktext")
-}
-
-pub fn webkit_activelink() -> #(String, String) {
-  #("border-inline-end", "-webkit-activelink")
-}
-
-pub fn webkit_focus_ring_color() -> #(String, String) {
-  #("border-inline-end", "-webkit-focus-ring-color")
-}
-
-pub fn webkit_link() -> #(String, String) {
-  #("border-inline-end", "-webkit-link")
-}
-
-pub fn webkit_text() -> #(String, String) {
-  #("border-inline-end", "-webkit-text")
-}
+pub const thin = #("border-inline-end", "thin")
+
+pub const medium = #("border-inline-end", "medium")
+
+pub const thick = #("border-inline-end", "thick")
+
+pub const none = #("border-inline-end", "none")
+
+pub const hidden = #("border-inline-end", "hidden")
+
+pub const dotted = #("border-inline-end", "dotted")
+
+pub const dashed = #("border-inline-end", "dashed")
+
+pub const solid = #("border-inline-end", "solid")
+
+pub const double = #("border-inline-end", "double")
+
+pub const groove = #("border-inline-end", "groove")
+
+pub const ridge = #("border-inline-end", "ridge")
+
+pub const inset = #("border-inline-end", "inset")
+
+pub const outset = #("border-inline-end", "outset")
+
+pub const srgb = #("border-inline-end", "srgb")
+
+pub const srgb_linear = #("border-inline-end", "srgb-linear")
+
+pub const display_p3 = #("border-inline-end", "display-p3")
+
+pub const a98_rgb = #("border-inline-end", "a98-rgb")
+
+pub const prophoto_rgb = #("border-inline-end", "prophoto-rgb")
+
+pub const rec2020 = #("border-inline-end", "rec2020")
+
+pub const xyz = #("border-inline-end", "xyz")
+
+pub const xyz_d50 = #("border-inline-end", "xyz-d50")
+
+pub const xyz_d65 = #("border-inline-end", "xyz-d65")
+
+pub const transparent = #("border-inline-end", "transparent")
+
+pub const aliceblue = #("border-inline-end", "aliceblue")
+
+pub const antiquewhite = #("border-inline-end", "antiquewhite")
+
+pub const aqua = #("border-inline-end", "aqua")
+
+pub const aquamarine = #("border-inline-end", "aquamarine")
+
+pub const azure = #("border-inline-end", "azure")
+
+pub const beige = #("border-inline-end", "beige")
+
+pub const bisque = #("border-inline-end", "bisque")
+
+pub const black = #("border-inline-end", "black")
+
+pub const blanchedalmond = #("border-inline-end", "blanchedalmond")
+
+pub const blue = #("border-inline-end", "blue")
+
+pub const blueviolet = #("border-inline-end", "blueviolet")
+
+pub const brown = #("border-inline-end", "brown")
+
+pub const burlywood = #("border-inline-end", "burlywood")
+
+pub const cadetblue = #("border-inline-end", "cadetblue")
+
+pub const chartreuse = #("border-inline-end", "chartreuse")
+
+pub const chocolate = #("border-inline-end", "chocolate")
+
+pub const coral = #("border-inline-end", "coral")
+
+pub const cornflowerblue = #("border-inline-end", "cornflowerblue")
+
+pub const cornsilk = #("border-inline-end", "cornsilk")
+
+pub const crimson = #("border-inline-end", "crimson")
+
+pub const cyan = #("border-inline-end", "cyan")
+
+pub const darkblue = #("border-inline-end", "darkblue")
+
+pub const darkcyan = #("border-inline-end", "darkcyan")
+
+pub const darkgoldenrod = #("border-inline-end", "darkgoldenrod")
+
+pub const darkgray = #("border-inline-end", "darkgray")
+
+pub const darkgreen = #("border-inline-end", "darkgreen")
+
+pub const darkgrey = #("border-inline-end", "darkgrey")
+
+pub const darkkhaki = #("border-inline-end", "darkkhaki")
+
+pub const darkmagenta = #("border-inline-end", "darkmagenta")
+
+pub const darkolivegreen = #("border-inline-end", "darkolivegreen")
+
+pub const darkorange = #("border-inline-end", "darkorange")
+
+pub const darkorchid = #("border-inline-end", "darkorchid")
+
+pub const darkred = #("border-inline-end", "darkred")
+
+pub const darksalmon = #("border-inline-end", "darksalmon")
+
+pub const darkseagreen = #("border-inline-end", "darkseagreen")
+
+pub const darkslateblue = #("border-inline-end", "darkslateblue")
+
+pub const darkslategray = #("border-inline-end", "darkslategray")
+
+pub const darkslategrey = #("border-inline-end", "darkslategrey")
+
+pub const darkturquoise = #("border-inline-end", "darkturquoise")
+
+pub const darkviolet = #("border-inline-end", "darkviolet")
+
+pub const deeppink = #("border-inline-end", "deeppink")
+
+pub const deepskyblue = #("border-inline-end", "deepskyblue")
+
+pub const dimgray = #("border-inline-end", "dimgray")
+
+pub const dimgrey = #("border-inline-end", "dimgrey")
+
+pub const dodgerblue = #("border-inline-end", "dodgerblue")
+
+pub const firebrick = #("border-inline-end", "firebrick")
+
+pub const floralwhite = #("border-inline-end", "floralwhite")
+
+pub const forestgreen = #("border-inline-end", "forestgreen")
+
+pub const fuchsia = #("border-inline-end", "fuchsia")
+
+pub const gainsboro = #("border-inline-end", "gainsboro")
+
+pub const ghostwhite = #("border-inline-end", "ghostwhite")
+
+pub const gold = #("border-inline-end", "gold")
+
+pub const goldenrod = #("border-inline-end", "goldenrod")
+
+pub const gray = #("border-inline-end", "gray")
+
+pub const green = #("border-inline-end", "green")
+
+pub const greenyellow = #("border-inline-end", "greenyellow")
+
+pub const grey = #("border-inline-end", "grey")
+
+pub const honeydew = #("border-inline-end", "honeydew")
+
+pub const hotpink = #("border-inline-end", "hotpink")
+
+pub const indianred = #("border-inline-end", "indianred")
+
+pub const indigo = #("border-inline-end", "indigo")
+
+pub const ivory = #("border-inline-end", "ivory")
+
+pub const khaki = #("border-inline-end", "khaki")
+
+pub const lavender = #("border-inline-end", "lavender")
+
+pub const lavenderblush = #("border-inline-end", "lavenderblush")
+
+pub const lawngreen = #("border-inline-end", "lawngreen")
+
+pub const lemonchiffon = #("border-inline-end", "lemonchiffon")
+
+pub const lightblue = #("border-inline-end", "lightblue")
+
+pub const lightcoral = #("border-inline-end", "lightcoral")
+
+pub const lightcyan = #("border-inline-end", "lightcyan")
+
+pub const lightgoldenrodyellow = #("border-inline-end", "lightgoldenrodyellow")
+
+pub const lightgray = #("border-inline-end", "lightgray")
+
+pub const lightgreen = #("border-inline-end", "lightgreen")
+
+pub const lightgrey = #("border-inline-end", "lightgrey")
+
+pub const lightpink = #("border-inline-end", "lightpink")
+
+pub const lightsalmon = #("border-inline-end", "lightsalmon")
+
+pub const lightseagreen = #("border-inline-end", "lightseagreen")
+
+pub const lightskyblue = #("border-inline-end", "lightskyblue")
+
+pub const lightslategray = #("border-inline-end", "lightslategray")
+
+pub const lightslategrey = #("border-inline-end", "lightslategrey")
+
+pub const lightsteelblue = #("border-inline-end", "lightsteelblue")
+
+pub const lightyellow = #("border-inline-end", "lightyellow")
+
+pub const lime = #("border-inline-end", "lime")
+
+pub const limegreen = #("border-inline-end", "limegreen")
+
+pub const linen = #("border-inline-end", "linen")
+
+pub const magenta = #("border-inline-end", "magenta")
+
+pub const maroon = #("border-inline-end", "maroon")
+
+pub const mediumaquamarine = #("border-inline-end", "mediumaquamarine")
+
+pub const mediumblue = #("border-inline-end", "mediumblue")
+
+pub const mediumorchid = #("border-inline-end", "mediumorchid")
+
+pub const mediumpurple = #("border-inline-end", "mediumpurple")
+
+pub const mediumseagreen = #("border-inline-end", "mediumseagreen")
+
+pub const mediumslateblue = #("border-inline-end", "mediumslateblue")
+
+pub const mediumspringgreen = #("border-inline-end", "mediumspringgreen")
+
+pub const mediumturquoise = #("border-inline-end", "mediumturquoise")
+
+pub const mediumvioletred = #("border-inline-end", "mediumvioletred")
+
+pub const midnightblue = #("border-inline-end", "midnightblue")
+
+pub const mintcream = #("border-inline-end", "mintcream")
+
+pub const mistyrose = #("border-inline-end", "mistyrose")
+
+pub const moccasin = #("border-inline-end", "moccasin")
+
+pub const navajowhite = #("border-inline-end", "navajowhite")
+
+pub const navy = #("border-inline-end", "navy")
+
+pub const oldlace = #("border-inline-end", "oldlace")
+
+pub const olive = #("border-inline-end", "olive")
+
+pub const olivedrab = #("border-inline-end", "olivedrab")
+
+pub const orange = #("border-inline-end", "orange")
+
+pub const orangered = #("border-inline-end", "orangered")
+
+pub const orchid = #("border-inline-end", "orchid")
+
+pub const palegoldenrod = #("border-inline-end", "palegoldenrod")
+
+pub const palegreen = #("border-inline-end", "palegreen")
+
+pub const paleturquoise = #("border-inline-end", "paleturquoise")
+
+pub const palevioletred = #("border-inline-end", "palevioletred")
+
+pub const papayawhip = #("border-inline-end", "papayawhip")
+
+pub const peachpuff = #("border-inline-end", "peachpuff")
+
+pub const peru = #("border-inline-end", "peru")
+
+pub const pink = #("border-inline-end", "pink")
+
+pub const plum = #("border-inline-end", "plum")
+
+pub const powderblue = #("border-inline-end", "powderblue")
+
+pub const purple = #("border-inline-end", "purple")
+
+pub const rebeccapurple = #("border-inline-end", "rebeccapurple")
+
+pub const red = #("border-inline-end", "red")
+
+pub const rosybrown = #("border-inline-end", "rosybrown")
+
+pub const royalblue = #("border-inline-end", "royalblue")
+
+pub const saddlebrown = #("border-inline-end", "saddlebrown")
+
+pub const salmon = #("border-inline-end", "salmon")
+
+pub const sandybrown = #("border-inline-end", "sandybrown")
+
+pub const seagreen = #("border-inline-end", "seagreen")
+
+pub const seashell = #("border-inline-end", "seashell")
+
+pub const sienna = #("border-inline-end", "sienna")
+
+pub const silver = #("border-inline-end", "silver")
+
+pub const skyblue = #("border-inline-end", "skyblue")
+
+pub const slateblue = #("border-inline-end", "slateblue")
+
+pub const slategray = #("border-inline-end", "slategray")
+
+pub const slategrey = #("border-inline-end", "slategrey")
+
+pub const snow = #("border-inline-end", "snow")
+
+pub const springgreen = #("border-inline-end", "springgreen")
+
+pub const steelblue = #("border-inline-end", "steelblue")
+
+pub const tan = #("border-inline-end", "tan")
+
+pub const teal = #("border-inline-end", "teal")
+
+pub const thistle = #("border-inline-end", "thistle")
+
+pub const tomato = #("border-inline-end", "tomato")
+
+pub const turquoise = #("border-inline-end", "turquoise")
+
+pub const violet = #("border-inline-end", "violet")
+
+pub const wheat = #("border-inline-end", "wheat")
+
+pub const white = #("border-inline-end", "white")
+
+pub const whitesmoke = #("border-inline-end", "whitesmoke")
+
+pub const yellow = #("border-inline-end", "yellow")
+
+pub const yellowgreen = #("border-inline-end", "yellowgreen")
+
+pub const in = #("border-inline-end", "in")
+
+pub const lab = #("border-inline-end", "lab")
+
+pub const oklab = #("border-inline-end", "oklab")
+
+pub const hsl = #("border-inline-end", "hsl")
+
+pub const hwb = #("border-inline-end", "hwb")
+
+pub const lch = #("border-inline-end", "lch")
+
+pub const oklch = #("border-inline-end", "oklch")
+
+pub const shorter = #("border-inline-end", "shorter")
+
+pub const longer = #("border-inline-end", "longer")
+
+pub const increasing = #("border-inline-end", "increasing")
+
+pub const decreasing = #("border-inline-end", "decreasing")
+
+pub const hue = #("border-inline-end", "hue")
+
+pub const current_color = #("border-inline-end", "currentColor")
+
+pub const accent_color = #("border-inline-end", "AccentColor")
+
+pub const accent_color_text = #("border-inline-end", "AccentColorText")
+
+pub const active_text = #("border-inline-end", "ActiveText")
+
+pub const button_border = #("border-inline-end", "ButtonBorder")
+
+pub const button_face = #("border-inline-end", "ButtonFace")
+
+pub const button_text = #("border-inline-end", "ButtonText")
+
+pub const canvas = #("border-inline-end", "Canvas")
+
+pub const canvas_text = #("border-inline-end", "CanvasText")
+
+pub const field = #("border-inline-end", "Field")
+
+pub const field_text = #("border-inline-end", "FieldText")
+
+pub const gray_text = #("border-inline-end", "GrayText")
+
+pub const highlight = #("border-inline-end", "Highlight")
+
+pub const highlight_text = #("border-inline-end", "HighlightText")
+
+pub const link_text = #("border-inline-end", "LinkText")
+
+pub const mark = #("border-inline-end", "Mark")
+
+pub const mark_text = #("border-inline-end", "MarkText")
+
+pub const selected_item = #("border-inline-end", "SelectedItem")
+
+pub const selected_item_text = #("border-inline-end", "SelectedItemText")
+
+pub const visited_text = #("border-inline-end", "VisitedText")
+
+pub const moz_button_default = #("border-inline-end", "-moz-ButtonDefault")
+
+pub const moz_button_hover_face = #("border-inline-end", "-moz-ButtonHoverFace")
+
+pub const moz_button_hover_text = #("border-inline-end", "-moz-ButtonHoverText")
+
+pub const moz_cell_highlight = #("border-inline-end", "-moz-CellHighlight")
+
+pub const moz_cell_highlight_text = #("border-inline-end", "-moz-CellHighlightText")
+
+pub const moz_combobox = #("border-inline-end", "-moz-Combobox")
+
+pub const moz_combobox_text = #("border-inline-end", "-moz-ComboboxText")
+
+pub const moz_dialog = #("border-inline-end", "-moz-Dialog")
+
+pub const moz_dialog_text = #("border-inline-end", "-moz-DialogText")
+
+pub const moz_dragtargetzone = #("border-inline-end", "-moz-dragtargetzone")
+
+pub const moz_even_tree_row = #("border-inline-end", "-moz-EvenTreeRow")
+
+pub const moz_field = #("border-inline-end", "-moz-Field")
+
+pub const moz_field_text = #("border-inline-end", "-moz-FieldText")
+
+pub const moz_html_cell_highlight = #("border-inline-end", "-moz-html-CellHighlight")
+
+pub const moz_html_cell_highlight_text = #("border-inline-end", "-moz-html-CellHighlightText")
+
+pub const moz_mac_accentdarkestshadow = #("border-inline-end", "-moz-mac-accentdarkestshadow")
+
+pub const moz_mac_accentdarkshadow = #("border-inline-end", "-moz-mac-accentdarkshadow")
+
+pub const moz_mac_accentface = #("border-inline-end", "-moz-mac-accentface")
+
+pub const moz_mac_accentlightesthighlight = #("border-inline-end", "-moz-mac-accentlightesthighlight")
+
+pub const moz_mac_accentlightshadow = #("border-inline-end", "-moz-mac-accentlightshadow")
+
+pub const moz_mac_accentregularhighlight = #("border-inline-end", "-moz-mac-accentregularhighlight")
+
+pub const moz_mac_accentregularshadow = #("border-inline-end", "-moz-mac-accentregularshadow")
+
+pub const moz_mac_chrome_active = #("border-inline-end", "-moz-mac-chrome-active")
+
+pub const moz_mac_chrome_inactive = #("border-inline-end", "-moz-mac-chrome-inactive")
+
+pub const moz_mac_focusring = #("border-inline-end", "-moz-mac-focusring")
+
+pub const moz_mac_menuselect = #("border-inline-end", "-moz-mac-menuselect")
+
+pub const moz_mac_menushadow = #("border-inline-end", "-moz-mac-menushadow")
+
+pub const moz_mac_menutextselect = #("border-inline-end", "-moz-mac-menutextselect")
+
+pub const moz_menu_hover = #("border-inline-end", "-moz-MenuHover")
+
+pub const moz_menu_hover_text = #("border-inline-end", "-moz-MenuHoverText")
+
+pub const moz_menu_bar_text = #("border-inline-end", "-moz-MenuBarText")
+
+pub const moz_menu_bar_hover_text = #("border-inline-end", "-moz-MenuBarHoverText")
+
+pub const moz_nativehyperlinktext = #("border-inline-end", "-moz-nativehyperlinktext")
+
+pub const moz_odd_tree_row = #("border-inline-end", "-moz-OddTreeRow")
+
+pub const moz_win_communicationstext = #("border-inline-end", "-moz-win-communicationstext")
+
+pub const moz_win_mediatext = #("border-inline-end", "-moz-win-mediatext")
+
+pub const moz_activehyperlinktext = #("border-inline-end", "-moz-activehyperlinktext")
+
+pub const moz_default_background_color = #("border-inline-end", "-moz-default-background-color")
+
+pub const moz_default_color = #("border-inline-end", "-moz-default-color")
+
+pub const moz_hyperlinktext = #("border-inline-end", "-moz-hyperlinktext")
+
+pub const moz_visitedhyperlinktext = #("border-inline-end", "-moz-visitedhyperlinktext")
+
+pub const webkit_activelink = #("border-inline-end", "-webkit-activelink")
+
+pub const webkit_focus_ring_color = #("border-inline-end", "-webkit-focus-ring-color")
+
+pub const webkit_link = #("border-inline-end", "-webkit-link")
+
+pub const webkit_text = #("border-inline-end", "-webkit-text")
 
 pub fn raw(value: String) -> #(String, String) {
   #("border_inline_end", value)

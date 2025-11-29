@@ -1,48 +1,26 @@
 
 
-pub fn horizontal_tb() -> #(String, String) {
-  #("writing-mode", "horizontal-tb")
-}
+pub const horizontal_tb = #("writing-mode", "horizontal-tb")
 
-pub fn vertical_rl() -> #(String, String) {
-  #("writing-mode", "vertical-rl")
-}
+pub const vertical_rl = #("writing-mode", "vertical-rl")
 
-pub fn vertical_lr() -> #(String, String) {
-  #("writing-mode", "vertical-lr")
-}
+pub const vertical_lr = #("writing-mode", "vertical-lr")
 
-pub fn sideways_rl() -> #(String, String) {
-  #("writing-mode", "sideways-rl")
-}
+pub const sideways_rl = #("writing-mode", "sideways-rl")
 
-pub fn sideways_lr() -> #(String, String) {
-  #("writing-mode", "sideways-lr")
-}
+pub const sideways_lr = #("writing-mode", "sideways-lr")
 
-pub fn lr_tb() -> #(String, String) {
-  #("writing-mode", "lr-tb")
-}
+pub const lr_tb = #("writing-mode", "lr-tb")
 
-pub fn rl_tb() -> #(String, String) {
-  #("writing-mode", "rl-tb")
-}
+pub const rl_tb = #("writing-mode", "rl-tb")
 
-pub fn tb_rl() -> #(String, String) {
-  #("writing-mode", "tb-rl")
-}
+pub const tb_rl = #("writing-mode", "tb-rl")
 
-pub fn lr() -> #(String, String) {
-  #("writing-mode", "lr")
-}
+pub const lr = #("writing-mode", "lr")
 
-pub fn rl() -> #(String, String) {
-  #("writing-mode", "rl")
-}
+pub const rl = #("writing-mode", "rl")
 
-pub fn tb() -> #(String, String) {
-  #("writing-mode", "tb")
-}
+pub const tb = #("writing-mode", "tb")
 
 pub fn raw(value: String) -> #(String, String) {
   #("writing_mode", value)

@@ -1,12 +1,8 @@
 
 
-pub fn ltr() -> #(String, String) {
-  #("direction", "ltr")
-}
+pub const ltr = #("direction", "ltr")
 
-pub fn rtl() -> #(String, String) {
-  #("direction", "rtl")
-}
+pub const rtl = #("direction", "rtl")
 
 pub fn raw(value: String) -> #(String, String) {
   #("direction", value)

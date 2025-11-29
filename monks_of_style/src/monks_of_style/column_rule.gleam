@@ -1,996 +1,500 @@
 
 
-pub fn thin() -> #(String, String) {
-  #("column-rule", "thin")
-}
-
-pub fn medium() -> #(String, String) {
-  #("column-rule", "medium")
-}
-
-pub fn thick() -> #(String, String) {
-  #("column-rule", "thick")
-}
-
-pub fn none() -> #(String, String) {
-  #("column-rule", "none")
-}
-
-pub fn hidden() -> #(String, String) {
-  #("column-rule", "hidden")
-}
-
-pub fn dotted() -> #(String, String) {
-  #("column-rule", "dotted")
-}
-
-pub fn dashed() -> #(String, String) {
-  #("column-rule", "dashed")
-}
-
-pub fn solid() -> #(String, String) {
-  #("column-rule", "solid")
-}
-
-pub fn double() -> #(String, String) {
-  #("column-rule", "double")
-}
-
-pub fn groove() -> #(String, String) {
-  #("column-rule", "groove")
-}
-
-pub fn ridge() -> #(String, String) {
-  #("column-rule", "ridge")
-}
-
-pub fn inset() -> #(String, String) {
-  #("column-rule", "inset")
-}
-
-pub fn outset() -> #(String, String) {
-  #("column-rule", "outset")
-}
-
-pub fn srgb() -> #(String, String) {
-  #("column-rule", "srgb")
-}
-
-pub fn srgb_linear() -> #(String, String) {
-  #("column-rule", "srgb-linear")
-}
-
-pub fn display_p3() -> #(String, String) {
-  #("column-rule", "display-p3")
-}
-
-pub fn a98_rgb() -> #(String, String) {
-  #("column-rule", "a98-rgb")
-}
-
-pub fn prophoto_rgb() -> #(String, String) {
-  #("column-rule", "prophoto-rgb")
-}
-
-pub fn rec2020() -> #(String, String) {
-  #("column-rule", "rec2020")
-}
-
-pub fn xyz() -> #(String, String) {
-  #("column-rule", "xyz")
-}
-
-pub fn xyz_d50() -> #(String, String) {
-  #("column-rule", "xyz-d50")
-}
-
-pub fn xyz_d65() -> #(String, String) {
-  #("column-rule", "xyz-d65")
-}
-
-pub fn transparent() -> #(String, String) {
-  #("column-rule", "transparent")
-}
-
-pub fn aliceblue() -> #(String, String) {
-  #("column-rule", "aliceblue")
-}
-
-pub fn antiquewhite() -> #(String, String) {
-  #("column-rule", "antiquewhite")
-}
-
-pub fn aqua() -> #(String, String) {
-  #("column-rule", "aqua")
-}
-
-pub fn aquamarine() -> #(String, String) {
-  #("column-rule", "aquamarine")
-}
-
-pub fn azure() -> #(String, String) {
-  #("column-rule", "azure")
-}
-
-pub fn beige() -> #(String, String) {
-  #("column-rule", "beige")
-}
-
-pub fn bisque() -> #(String, String) {
-  #("column-rule", "bisque")
-}
-
-pub fn black() -> #(String, String) {
-  #("column-rule", "black")
-}
-
-pub fn blanchedalmond() -> #(String, String) {
-  #("column-rule", "blanchedalmond")
-}
-
-pub fn blue() -> #(String, String) {
-  #("column-rule", "blue")
-}
-
-pub fn blueviolet() -> #(String, String) {
-  #("column-rule", "blueviolet")
-}
-
-pub fn brown() -> #(String, String) {
-  #("column-rule", "brown")
-}
-
-pub fn burlywood() -> #(String, String) {
-  #("column-rule", "burlywood")
-}
-
-pub fn cadetblue() -> #(String, String) {
-  #("column-rule", "cadetblue")
-}
-
-pub fn chartreuse() -> #(String, String) {
-  #("column-rule", "chartreuse")
-}
-
-pub fn chocolate() -> #(String, String) {
-  #("column-rule", "chocolate")
-}
-
-pub fn coral() -> #(String, String) {
-  #("column-rule", "coral")
-}
-
-pub fn cornflowerblue() -> #(String, String) {
-  #("column-rule", "cornflowerblue")
-}
-
-pub fn cornsilk() -> #(String, String) {
-  #("column-rule", "cornsilk")
-}
-
-pub fn crimson() -> #(String, String) {
-  #("column-rule", "crimson")
-}
-
-pub fn cyan() -> #(String, String) {
-  #("column-rule", "cyan")
-}
-
-pub fn darkblue() -> #(String, String) {
-  #("column-rule", "darkblue")
-}
-
-pub fn darkcyan() -> #(String, String) {
-  #("column-rule", "darkcyan")
-}
-
-pub fn darkgoldenrod() -> #(String, String) {
-  #("column-rule", "darkgoldenrod")
-}
-
-pub fn darkgray() -> #(String, String) {
-  #("column-rule", "darkgray")
-}
-
-pub fn darkgreen() -> #(String, String) {
-  #("column-rule", "darkgreen")
-}
-
-pub fn darkgrey() -> #(String, String) {
-  #("column-rule", "darkgrey")
-}
-
-pub fn darkkhaki() -> #(String, String) {
-  #("column-rule", "darkkhaki")
-}
-
-pub fn darkmagenta() -> #(String, String) {
-  #("column-rule", "darkmagenta")
-}
-
-pub fn darkolivegreen() -> #(String, String) {
-  #("column-rule", "darkolivegreen")
-}
-
-pub fn darkorange() -> #(String, String) {
-  #("column-rule", "darkorange")
-}
-
-pub fn darkorchid() -> #(String, String) {
-  #("column-rule", "darkorchid")
-}
-
-pub fn darkred() -> #(String, String) {
-  #("column-rule", "darkred")
-}
-
-pub fn darksalmon() -> #(String, String) {
-  #("column-rule", "darksalmon")
-}
-
-pub fn darkseagreen() -> #(String, String) {
-  #("column-rule", "darkseagreen")
-}
-
-pub fn darkslateblue() -> #(String, String) {
-  #("column-rule", "darkslateblue")
-}
-
-pub fn darkslategray() -> #(String, String) {
-  #("column-rule", "darkslategray")
-}
-
-pub fn darkslategrey() -> #(String, String) {
-  #("column-rule", "darkslategrey")
-}
-
-pub fn darkturquoise() -> #(String, String) {
-  #("column-rule", "darkturquoise")
-}
-
-pub fn darkviolet() -> #(String, String) {
-  #("column-rule", "darkviolet")
-}
-
-pub fn deeppink() -> #(String, String) {
-  #("column-rule", "deeppink")
-}
-
-pub fn deepskyblue() -> #(String, String) {
-  #("column-rule", "deepskyblue")
-}
-
-pub fn dimgray() -> #(String, String) {
-  #("column-rule", "dimgray")
-}
-
-pub fn dimgrey() -> #(String, String) {
-  #("column-rule", "dimgrey")
-}
-
-pub fn dodgerblue() -> #(String, String) {
-  #("column-rule", "dodgerblue")
-}
-
-pub fn firebrick() -> #(String, String) {
-  #("column-rule", "firebrick")
-}
-
-pub fn floralwhite() -> #(String, String) {
-  #("column-rule", "floralwhite")
-}
-
-pub fn forestgreen() -> #(String, String) {
-  #("column-rule", "forestgreen")
-}
-
-pub fn fuchsia() -> #(String, String) {
-  #("column-rule", "fuchsia")
-}
-
-pub fn gainsboro() -> #(String, String) {
-  #("column-rule", "gainsboro")
-}
-
-pub fn ghostwhite() -> #(String, String) {
-  #("column-rule", "ghostwhite")
-}
-
-pub fn gold() -> #(String, String) {
-  #("column-rule", "gold")
-}
-
-pub fn goldenrod() -> #(String, String) {
-  #("column-rule", "goldenrod")
-}
-
-pub fn gray() -> #(String, String) {
-  #("column-rule", "gray")
-}
-
-pub fn green() -> #(String, String) {
-  #("column-rule", "green")
-}
-
-pub fn greenyellow() -> #(String, String) {
-  #("column-rule", "greenyellow")
-}
-
-pub fn grey() -> #(String, String) {
-  #("column-rule", "grey")
-}
-
-pub fn honeydew() -> #(String, String) {
-  #("column-rule", "honeydew")
-}
-
-pub fn hotpink() -> #(String, String) {
-  #("column-rule", "hotpink")
-}
-
-pub fn indianred() -> #(String, String) {
-  #("column-rule", "indianred")
-}
-
-pub fn indigo() -> #(String, String) {
-  #("column-rule", "indigo")
-}
-
-pub fn ivory() -> #(String, String) {
-  #("column-rule", "ivory")
-}
-
-pub fn khaki() -> #(String, String) {
-  #("column-rule", "khaki")
-}
-
-pub fn lavender() -> #(String, String) {
-  #("column-rule", "lavender")
-}
-
-pub fn lavenderblush() -> #(String, String) {
-  #("column-rule", "lavenderblush")
-}
-
-pub fn lawngreen() -> #(String, String) {
-  #("column-rule", "lawngreen")
-}
-
-pub fn lemonchiffon() -> #(String, String) {
-  #("column-rule", "lemonchiffon")
-}
-
-pub fn lightblue() -> #(String, String) {
-  #("column-rule", "lightblue")
-}
-
-pub fn lightcoral() -> #(String, String) {
-  #("column-rule", "lightcoral")
-}
-
-pub fn lightcyan() -> #(String, String) {
-  #("column-rule", "lightcyan")
-}
-
-pub fn lightgoldenrodyellow() -> #(String, String) {
-  #("column-rule", "lightgoldenrodyellow")
-}
-
-pub fn lightgray() -> #(String, String) {
-  #("column-rule", "lightgray")
-}
-
-pub fn lightgreen() -> #(String, String) {
-  #("column-rule", "lightgreen")
-}
-
-pub fn lightgrey() -> #(String, String) {
-  #("column-rule", "lightgrey")
-}
-
-pub fn lightpink() -> #(String, String) {
-  #("column-rule", "lightpink")
-}
-
-pub fn lightsalmon() -> #(String, String) {
-  #("column-rule", "lightsalmon")
-}
-
-pub fn lightseagreen() -> #(String, String) {
-  #("column-rule", "lightseagreen")
-}
-
-pub fn lightskyblue() -> #(String, String) {
-  #("column-rule", "lightskyblue")
-}
-
-pub fn lightslategray() -> #(String, String) {
-  #("column-rule", "lightslategray")
-}
-
-pub fn lightslategrey() -> #(String, String) {
-  #("column-rule", "lightslategrey")
-}
-
-pub fn lightsteelblue() -> #(String, String) {
-  #("column-rule", "lightsteelblue")
-}
-
-pub fn lightyellow() -> #(String, String) {
-  #("column-rule", "lightyellow")
-}
-
-pub fn lime() -> #(String, String) {
-  #("column-rule", "lime")
-}
-
-pub fn limegreen() -> #(String, String) {
-  #("column-rule", "limegreen")
-}
-
-pub fn linen() -> #(String, String) {
-  #("column-rule", "linen")
-}
-
-pub fn magenta() -> #(String, String) {
-  #("column-rule", "magenta")
-}
-
-pub fn maroon() -> #(String, String) {
-  #("column-rule", "maroon")
-}
-
-pub fn mediumaquamarine() -> #(String, String) {
-  #("column-rule", "mediumaquamarine")
-}
-
-pub fn mediumblue() -> #(String, String) {
-  #("column-rule", "mediumblue")
-}
-
-pub fn mediumorchid() -> #(String, String) {
-  #("column-rule", "mediumorchid")
-}
-
-pub fn mediumpurple() -> #(String, String) {
-  #("column-rule", "mediumpurple")
-}
-
-pub fn mediumseagreen() -> #(String, String) {
-  #("column-rule", "mediumseagreen")
-}
-
-pub fn mediumslateblue() -> #(String, String) {
-  #("column-rule", "mediumslateblue")
-}
-
-pub fn mediumspringgreen() -> #(String, String) {
-  #("column-rule", "mediumspringgreen")
-}
-
-pub fn mediumturquoise() -> #(String, String) {
-  #("column-rule", "mediumturquoise")
-}
-
-pub fn mediumvioletred() -> #(String, String) {
-  #("column-rule", "mediumvioletred")
-}
-
-pub fn midnightblue() -> #(String, String) {
-  #("column-rule", "midnightblue")
-}
-
-pub fn mintcream() -> #(String, String) {
-  #("column-rule", "mintcream")
-}
-
-pub fn mistyrose() -> #(String, String) {
-  #("column-rule", "mistyrose")
-}
-
-pub fn moccasin() -> #(String, String) {
-  #("column-rule", "moccasin")
-}
-
-pub fn navajowhite() -> #(String, String) {
-  #("column-rule", "navajowhite")
-}
-
-pub fn navy() -> #(String, String) {
-  #("column-rule", "navy")
-}
-
-pub fn oldlace() -> #(String, String) {
-  #("column-rule", "oldlace")
-}
-
-pub fn olive() -> #(String, String) {
-  #("column-rule", "olive")
-}
-
-pub fn olivedrab() -> #(String, String) {
-  #("column-rule", "olivedrab")
-}
-
-pub fn orange() -> #(String, String) {
-  #("column-rule", "orange")
-}
-
-pub fn orangered() -> #(String, String) {
-  #("column-rule", "orangered")
-}
-
-pub fn orchid() -> #(String, String) {
-  #("column-rule", "orchid")
-}
-
-pub fn palegoldenrod() -> #(String, String) {
-  #("column-rule", "palegoldenrod")
-}
-
-pub fn palegreen() -> #(String, String) {
-  #("column-rule", "palegreen")
-}
-
-pub fn paleturquoise() -> #(String, String) {
-  #("column-rule", "paleturquoise")
-}
-
-pub fn palevioletred() -> #(String, String) {
-  #("column-rule", "palevioletred")
-}
-
-pub fn papayawhip() -> #(String, String) {
-  #("column-rule", "papayawhip")
-}
-
-pub fn peachpuff() -> #(String, String) {
-  #("column-rule", "peachpuff")
-}
-
-pub fn peru() -> #(String, String) {
-  #("column-rule", "peru")
-}
-
-pub fn pink() -> #(String, String) {
-  #("column-rule", "pink")
-}
-
-pub fn plum() -> #(String, String) {
-  #("column-rule", "plum")
-}
-
-pub fn powderblue() -> #(String, String) {
-  #("column-rule", "powderblue")
-}
-
-pub fn purple() -> #(String, String) {
-  #("column-rule", "purple")
-}
-
-pub fn rebeccapurple() -> #(String, String) {
-  #("column-rule", "rebeccapurple")
-}
-
-pub fn red() -> #(String, String) {
-  #("column-rule", "red")
-}
-
-pub fn rosybrown() -> #(String, String) {
-  #("column-rule", "rosybrown")
-}
-
-pub fn royalblue() -> #(String, String) {
-  #("column-rule", "royalblue")
-}
-
-pub fn saddlebrown() -> #(String, String) {
-  #("column-rule", "saddlebrown")
-}
-
-pub fn salmon() -> #(String, String) {
-  #("column-rule", "salmon")
-}
-
-pub fn sandybrown() -> #(String, String) {
-  #("column-rule", "sandybrown")
-}
-
-pub fn seagreen() -> #(String, String) {
-  #("column-rule", "seagreen")
-}
-
-pub fn seashell() -> #(String, String) {
-  #("column-rule", "seashell")
-}
-
-pub fn sienna() -> #(String, String) {
-  #("column-rule", "sienna")
-}
-
-pub fn silver() -> #(String, String) {
-  #("column-rule", "silver")
-}
-
-pub fn skyblue() -> #(String, String) {
-  #("column-rule", "skyblue")
-}
-
-pub fn slateblue() -> #(String, String) {
-  #("column-rule", "slateblue")
-}
-
-pub fn slategray() -> #(String, String) {
-  #("column-rule", "slategray")
-}
-
-pub fn slategrey() -> #(String, String) {
-  #("column-rule", "slategrey")
-}
-
-pub fn snow() -> #(String, String) {
-  #("column-rule", "snow")
-}
-
-pub fn springgreen() -> #(String, String) {
-  #("column-rule", "springgreen")
-}
-
-pub fn steelblue() -> #(String, String) {
-  #("column-rule", "steelblue")
-}
-
-pub fn tan() -> #(String, String) {
-  #("column-rule", "tan")
-}
-
-pub fn teal() -> #(String, String) {
-  #("column-rule", "teal")
-}
-
-pub fn thistle() -> #(String, String) {
-  #("column-rule", "thistle")
-}
-
-pub fn tomato() -> #(String, String) {
-  #("column-rule", "tomato")
-}
-
-pub fn turquoise() -> #(String, String) {
-  #("column-rule", "turquoise")
-}
-
-pub fn violet() -> #(String, String) {
-  #("column-rule", "violet")
-}
-
-pub fn wheat() -> #(String, String) {
-  #("column-rule", "wheat")
-}
-
-pub fn white() -> #(String, String) {
-  #("column-rule", "white")
-}
-
-pub fn whitesmoke() -> #(String, String) {
-  #("column-rule", "whitesmoke")
-}
-
-pub fn yellow() -> #(String, String) {
-  #("column-rule", "yellow")
-}
-
-pub fn yellowgreen() -> #(String, String) {
-  #("column-rule", "yellowgreen")
-}
-
-pub fn in() -> #(String, String) {
-  #("column-rule", "in")
-}
-
-pub fn lab() -> #(String, String) {
-  #("column-rule", "lab")
-}
-
-pub fn oklab() -> #(String, String) {
-  #("column-rule", "oklab")
-}
-
-pub fn hsl() -> #(String, String) {
-  #("column-rule", "hsl")
-}
-
-pub fn hwb() -> #(String, String) {
-  #("column-rule", "hwb")
-}
-
-pub fn lch() -> #(String, String) {
-  #("column-rule", "lch")
-}
-
-pub fn oklch() -> #(String, String) {
-  #("column-rule", "oklch")
-}
-
-pub fn shorter() -> #(String, String) {
-  #("column-rule", "shorter")
-}
-
-pub fn longer() -> #(String, String) {
-  #("column-rule", "longer")
-}
-
-pub fn increasing() -> #(String, String) {
-  #("column-rule", "increasing")
-}
-
-pub fn decreasing() -> #(String, String) {
-  #("column-rule", "decreasing")
-}
-
-pub fn hue() -> #(String, String) {
-  #("column-rule", "hue")
-}
-
-pub fn current_color() -> #(String, String) {
-  #("column-rule", "currentColor")
-}
-
-pub fn accent_color() -> #(String, String) {
-  #("column-rule", "AccentColor")
-}
-
-pub fn accent_color_text() -> #(String, String) {
-  #("column-rule", "AccentColorText")
-}
-
-pub fn active_text() -> #(String, String) {
-  #("column-rule", "ActiveText")
-}
-
-pub fn button_border() -> #(String, String) {
-  #("column-rule", "ButtonBorder")
-}
-
-pub fn button_face() -> #(String, String) {
-  #("column-rule", "ButtonFace")
-}
-
-pub fn button_text() -> #(String, String) {
-  #("column-rule", "ButtonText")
-}
-
-pub fn canvas() -> #(String, String) {
-  #("column-rule", "Canvas")
-}
-
-pub fn canvas_text() -> #(String, String) {
-  #("column-rule", "CanvasText")
-}
-
-pub fn field() -> #(String, String) {
-  #("column-rule", "Field")
-}
-
-pub fn field_text() -> #(String, String) {
-  #("column-rule", "FieldText")
-}
-
-pub fn gray_text() -> #(String, String) {
-  #("column-rule", "GrayText")
-}
-
-pub fn highlight() -> #(String, String) {
-  #("column-rule", "Highlight")
-}
-
-pub fn highlight_text() -> #(String, String) {
-  #("column-rule", "HighlightText")
-}
-
-pub fn link_text() -> #(String, String) {
-  #("column-rule", "LinkText")
-}
-
-pub fn mark() -> #(String, String) {
-  #("column-rule", "Mark")
-}
-
-pub fn mark_text() -> #(String, String) {
-  #("column-rule", "MarkText")
-}
-
-pub fn selected_item() -> #(String, String) {
-  #("column-rule", "SelectedItem")
-}
-
-pub fn selected_item_text() -> #(String, String) {
-  #("column-rule", "SelectedItemText")
-}
-
-pub fn visited_text() -> #(String, String) {
-  #("column-rule", "VisitedText")
-}
-
-pub fn moz_button_default() -> #(String, String) {
-  #("column-rule", "-moz-ButtonDefault")
-}
-
-pub fn moz_button_hover_face() -> #(String, String) {
-  #("column-rule", "-moz-ButtonHoverFace")
-}
-
-pub fn moz_button_hover_text() -> #(String, String) {
-  #("column-rule", "-moz-ButtonHoverText")
-}
-
-pub fn moz_cell_highlight() -> #(String, String) {
-  #("column-rule", "-moz-CellHighlight")
-}
-
-pub fn moz_cell_highlight_text() -> #(String, String) {
-  #("column-rule", "-moz-CellHighlightText")
-}
-
-pub fn moz_combobox() -> #(String, String) {
-  #("column-rule", "-moz-Combobox")
-}
-
-pub fn moz_combobox_text() -> #(String, String) {
-  #("column-rule", "-moz-ComboboxText")
-}
-
-pub fn moz_dialog() -> #(String, String) {
-  #("column-rule", "-moz-Dialog")
-}
-
-pub fn moz_dialog_text() -> #(String, String) {
-  #("column-rule", "-moz-DialogText")
-}
-
-pub fn moz_dragtargetzone() -> #(String, String) {
-  #("column-rule", "-moz-dragtargetzone")
-}
-
-pub fn moz_even_tree_row() -> #(String, String) {
-  #("column-rule", "-moz-EvenTreeRow")
-}
-
-pub fn moz_field() -> #(String, String) {
-  #("column-rule", "-moz-Field")
-}
-
-pub fn moz_field_text() -> #(String, String) {
-  #("column-rule", "-moz-FieldText")
-}
-
-pub fn moz_html_cell_highlight() -> #(String, String) {
-  #("column-rule", "-moz-html-CellHighlight")
-}
-
-pub fn moz_html_cell_highlight_text() -> #(String, String) {
-  #("column-rule", "-moz-html-CellHighlightText")
-}
-
-pub fn moz_mac_accentdarkestshadow() -> #(String, String) {
-  #("column-rule", "-moz-mac-accentdarkestshadow")
-}
-
-pub fn moz_mac_accentdarkshadow() -> #(String, String) {
-  #("column-rule", "-moz-mac-accentdarkshadow")
-}
-
-pub fn moz_mac_accentface() -> #(String, String) {
-  #("column-rule", "-moz-mac-accentface")
-}
-
-pub fn moz_mac_accentlightesthighlight() -> #(String, String) {
-  #("column-rule", "-moz-mac-accentlightesthighlight")
-}
-
-pub fn moz_mac_accentlightshadow() -> #(String, String) {
-  #("column-rule", "-moz-mac-accentlightshadow")
-}
-
-pub fn moz_mac_accentregularhighlight() -> #(String, String) {
-  #("column-rule", "-moz-mac-accentregularhighlight")
-}
-
-pub fn moz_mac_accentregularshadow() -> #(String, String) {
-  #("column-rule", "-moz-mac-accentregularshadow")
-}
-
-pub fn moz_mac_chrome_active() -> #(String, String) {
-  #("column-rule", "-moz-mac-chrome-active")
-}
-
-pub fn moz_mac_chrome_inactive() -> #(String, String) {
-  #("column-rule", "-moz-mac-chrome-inactive")
-}
-
-pub fn moz_mac_focusring() -> #(String, String) {
-  #("column-rule", "-moz-mac-focusring")
-}
-
-pub fn moz_mac_menuselect() -> #(String, String) {
-  #("column-rule", "-moz-mac-menuselect")
-}
-
-pub fn moz_mac_menushadow() -> #(String, String) {
-  #("column-rule", "-moz-mac-menushadow")
-}
-
-pub fn moz_mac_menutextselect() -> #(String, String) {
-  #("column-rule", "-moz-mac-menutextselect")
-}
-
-pub fn moz_menu_hover() -> #(String, String) {
-  #("column-rule", "-moz-MenuHover")
-}
-
-pub fn moz_menu_hover_text() -> #(String, String) {
-  #("column-rule", "-moz-MenuHoverText")
-}
-
-pub fn moz_menu_bar_text() -> #(String, String) {
-  #("column-rule", "-moz-MenuBarText")
-}
-
-pub fn moz_menu_bar_hover_text() -> #(String, String) {
-  #("column-rule", "-moz-MenuBarHoverText")
-}
-
-pub fn moz_nativehyperlinktext() -> #(String, String) {
-  #("column-rule", "-moz-nativehyperlinktext")
-}
-
-pub fn moz_odd_tree_row() -> #(String, String) {
-  #("column-rule", "-moz-OddTreeRow")
-}
-
-pub fn moz_win_communicationstext() -> #(String, String) {
-  #("column-rule", "-moz-win-communicationstext")
-}
-
-pub fn moz_win_mediatext() -> #(String, String) {
-  #("column-rule", "-moz-win-mediatext")
-}
-
-pub fn moz_activehyperlinktext() -> #(String, String) {
-  #("column-rule", "-moz-activehyperlinktext")
-}
-
-pub fn moz_default_background_color() -> #(String, String) {
-  #("column-rule", "-moz-default-background-color")
-}
-
-pub fn moz_default_color() -> #(String, String) {
-  #("column-rule", "-moz-default-color")
-}
-
-pub fn moz_hyperlinktext() -> #(String, String) {
-  #("column-rule", "-moz-hyperlinktext")
-}
-
-pub fn moz_visitedhyperlinktext() -> #(String, String) {
-  #("column-rule", "-moz-visitedhyperlinktext")
-}
-
-pub fn webkit_activelink() -> #(String, String) {
-  #("column-rule", "-webkit-activelink")
-}
-
-pub fn webkit_focus_ring_color() -> #(String, String) {
-  #("column-rule", "-webkit-focus-ring-color")
-}
-
-pub fn webkit_link() -> #(String, String) {
-  #("column-rule", "-webkit-link")
-}
-
-pub fn webkit_text() -> #(String, String) {
-  #("column-rule", "-webkit-text")
-}
+pub const thin = #("column-rule", "thin")
+
+pub const medium = #("column-rule", "medium")
+
+pub const thick = #("column-rule", "thick")
+
+pub const none = #("column-rule", "none")
+
+pub const hidden = #("column-rule", "hidden")
+
+pub const dotted = #("column-rule", "dotted")
+
+pub const dashed = #("column-rule", "dashed")
+
+pub const solid = #("column-rule", "solid")
+
+pub const double = #("column-rule", "double")
+
+pub const groove = #("column-rule", "groove")
+
+pub const ridge = #("column-rule", "ridge")
+
+pub const inset = #("column-rule", "inset")
+
+pub const outset = #("column-rule", "outset")
+
+pub const srgb = #("column-rule", "srgb")
+
+pub const srgb_linear = #("column-rule", "srgb-linear")
+
+pub const display_p3 = #("column-rule", "display-p3")
+
+pub const a98_rgb = #("column-rule", "a98-rgb")
+
+pub const prophoto_rgb = #("column-rule", "prophoto-rgb")
+
+pub const rec2020 = #("column-rule", "rec2020")
+
+pub const xyz = #("column-rule", "xyz")
+
+pub const xyz_d50 = #("column-rule", "xyz-d50")
+
+pub const xyz_d65 = #("column-rule", "xyz-d65")
+
+pub const transparent = #("column-rule", "transparent")
+
+pub const aliceblue = #("column-rule", "aliceblue")
+
+pub const antiquewhite = #("column-rule", "antiquewhite")
+
+pub const aqua = #("column-rule", "aqua")
+
+pub const aquamarine = #("column-rule", "aquamarine")
+
+pub const azure = #("column-rule", "azure")
+
+pub const beige = #("column-rule", "beige")
+
+pub const bisque = #("column-rule", "bisque")
+
+pub const black = #("column-rule", "black")
+
+pub const blanchedalmond = #("column-rule", "blanchedalmond")
+
+pub const blue = #("column-rule", "blue")
+
+pub const blueviolet = #("column-rule", "blueviolet")
+
+pub const brown = #("column-rule", "brown")
+
+pub const burlywood = #("column-rule", "burlywood")
+
+pub const cadetblue = #("column-rule", "cadetblue")
+
+pub const chartreuse = #("column-rule", "chartreuse")
+
+pub const chocolate = #("column-rule", "chocolate")
+
+pub const coral = #("column-rule", "coral")
+
+pub const cornflowerblue = #("column-rule", "cornflowerblue")
+
+pub const cornsilk = #("column-rule", "cornsilk")
+
+pub const crimson = #("column-rule", "crimson")
+
+pub const cyan = #("column-rule", "cyan")
+
+pub const darkblue = #("column-rule", "darkblue")
+
+pub const darkcyan = #("column-rule", "darkcyan")
+
+pub const darkgoldenrod = #("column-rule", "darkgoldenrod")
+
+pub const darkgray = #("column-rule", "darkgray")
+
+pub const darkgreen = #("column-rule", "darkgreen")
+
+pub const darkgrey = #("column-rule", "darkgrey")
+
+pub const darkkhaki = #("column-rule", "darkkhaki")
+
+pub const darkmagenta = #("column-rule", "darkmagenta")
+
+pub const darkolivegreen = #("column-rule", "darkolivegreen")
+
+pub const darkorange = #("column-rule", "darkorange")
+
+pub const darkorchid = #("column-rule", "darkorchid")
+
+pub const darkred = #("column-rule", "darkred")
+
+pub const darksalmon = #("column-rule", "darksalmon")
+
+pub const darkseagreen = #("column-rule", "darkseagreen")
+
+pub const darkslateblue = #("column-rule", "darkslateblue")
+
+pub const darkslategray = #("column-rule", "darkslategray")
+
+pub const darkslategrey = #("column-rule", "darkslategrey")
+
+pub const darkturquoise = #("column-rule", "darkturquoise")
+
+pub const darkviolet = #("column-rule", "darkviolet")
+
+pub const deeppink = #("column-rule", "deeppink")
+
+pub const deepskyblue = #("column-rule", "deepskyblue")
+
+pub const dimgray = #("column-rule", "dimgray")
+
+pub const dimgrey = #("column-rule", "dimgrey")
+
+pub const dodgerblue = #("column-rule", "dodgerblue")
+
+pub const firebrick = #("column-rule", "firebrick")
+
+pub const floralwhite = #("column-rule", "floralwhite")
+
+pub const forestgreen = #("column-rule", "forestgreen")
+
+pub const fuchsia = #("column-rule", "fuchsia")
+
+pub const gainsboro = #("column-rule", "gainsboro")
+
+pub const ghostwhite = #("column-rule", "ghostwhite")
+
+pub const gold = #("column-rule", "gold")
+
+pub const goldenrod = #("column-rule", "goldenrod")
+
+pub const gray = #("column-rule", "gray")
+
+pub const green = #("column-rule", "green")
+
+pub const greenyellow = #("column-rule", "greenyellow")
+
+pub const grey = #("column-rule", "grey")
+
+pub const honeydew = #("column-rule", "honeydew")
+
+pub const hotpink = #("column-rule", "hotpink")
+
+pub const indianred = #("column-rule", "indianred")
+
+pub const indigo = #("column-rule", "indigo")
+
+pub const ivory = #("column-rule", "ivory")
+
+pub const khaki = #("column-rule", "khaki")
+
+pub const lavender = #("column-rule", "lavender")
+
+pub const lavenderblush = #("column-rule", "lavenderblush")
+
+pub const lawngreen = #("column-rule", "lawngreen")
+
+pub const lemonchiffon = #("column-rule", "lemonchiffon")
+
+pub const lightblue = #("column-rule", "lightblue")
+
+pub const lightcoral = #("column-rule", "lightcoral")
+
+pub const lightcyan = #("column-rule", "lightcyan")
+
+pub const lightgoldenrodyellow = #("column-rule", "lightgoldenrodyellow")
+
+pub const lightgray = #("column-rule", "lightgray")
+
+pub const lightgreen = #("column-rule", "lightgreen")
+
+pub const lightgrey = #("column-rule", "lightgrey")
+
+pub const lightpink = #("column-rule", "lightpink")
+
+pub const lightsalmon = #("column-rule", "lightsalmon")
+
+pub const lightseagreen = #("column-rule", "lightseagreen")
+
+pub const lightskyblue = #("column-rule", "lightskyblue")
+
+pub const lightslategray = #("column-rule", "lightslategray")
+
+pub const lightslategrey = #("column-rule", "lightslategrey")
+
+pub const lightsteelblue = #("column-rule", "lightsteelblue")
+
+pub const lightyellow = #("column-rule", "lightyellow")
+
+pub const lime = #("column-rule", "lime")
+
+pub const limegreen = #("column-rule", "limegreen")
+
+pub const linen = #("column-rule", "linen")
+
+pub const magenta = #("column-rule", "magenta")
+
+pub const maroon = #("column-rule", "maroon")
+
+pub const mediumaquamarine = #("column-rule", "mediumaquamarine")
+
+pub const mediumblue = #("column-rule", "mediumblue")
+
+pub const mediumorchid = #("column-rule", "mediumorchid")
+
+pub const mediumpurple = #("column-rule", "mediumpurple")
+
+pub const mediumseagreen = #("column-rule", "mediumseagreen")
+
+pub const mediumslateblue = #("column-rule", "mediumslateblue")
+
+pub const mediumspringgreen = #("column-rule", "mediumspringgreen")
+
+pub const mediumturquoise = #("column-rule", "mediumturquoise")
+
+pub const mediumvioletred = #("column-rule", "mediumvioletred")
+
+pub const midnightblue = #("column-rule", "midnightblue")
+
+pub const mintcream = #("column-rule", "mintcream")
+
+pub const mistyrose = #("column-rule", "mistyrose")
+
+pub const moccasin = #("column-rule", "moccasin")
+
+pub const navajowhite = #("column-rule", "navajowhite")
+
+pub const navy = #("column-rule", "navy")
+
+pub const oldlace = #("column-rule", "oldlace")
+
+pub const olive = #("column-rule", "olive")
+
+pub const olivedrab = #("column-rule", "olivedrab")
+
+pub const orange = #("column-rule", "orange")
+
+pub const orangered = #("column-rule", "orangered")
+
+pub const orchid = #("column-rule", "orchid")
+
+pub const palegoldenrod = #("column-rule", "palegoldenrod")
+
+pub const palegreen = #("column-rule", "palegreen")
+
+pub const paleturquoise = #("column-rule", "paleturquoise")
+
+pub const palevioletred = #("column-rule", "palevioletred")
+
+pub const papayawhip = #("column-rule", "papayawhip")
+
+pub const peachpuff = #("column-rule", "peachpuff")
+
+pub const peru = #("column-rule", "peru")
+
+pub const pink = #("column-rule", "pink")
+
+pub const plum = #("column-rule", "plum")
+
+pub const powderblue = #("column-rule", "powderblue")
+
+pub const purple = #("column-rule", "purple")
+
+pub const rebeccapurple = #("column-rule", "rebeccapurple")
+
+pub const red = #("column-rule", "red")
+
+pub const rosybrown = #("column-rule", "rosybrown")
+
+pub const royalblue = #("column-rule", "royalblue")
+
+pub const saddlebrown = #("column-rule", "saddlebrown")
+
+pub const salmon = #("column-rule", "salmon")
+
+pub const sandybrown = #("column-rule", "sandybrown")
+
+pub const seagreen = #("column-rule", "seagreen")
+
+pub const seashell = #("column-rule", "seashell")
+
+pub const sienna = #("column-rule", "sienna")
+
+pub const silver = #("column-rule", "silver")
+
+pub const skyblue = #("column-rule", "skyblue")
+
+pub const slateblue = #("column-rule", "slateblue")
+
+pub const slategray = #("column-rule", "slategray")
+
+pub const slategrey = #("column-rule", "slategrey")
+
+pub const snow = #("column-rule", "snow")
+
+pub const springgreen = #("column-rule", "springgreen")
+
+pub const steelblue = #("column-rule", "steelblue")
+
+pub const tan = #("column-rule", "tan")
+
+pub const teal = #("column-rule", "teal")
+
+pub const thistle = #("column-rule", "thistle")
+
+pub const tomato = #("column-rule", "tomato")
+
+pub const turquoise = #("column-rule", "turquoise")
+
+pub const violet = #("column-rule", "violet")
+
+pub const wheat = #("column-rule", "wheat")
+
+pub const white = #("column-rule", "white")
+
+pub const whitesmoke = #("column-rule", "whitesmoke")
+
+pub const yellow = #("column-rule", "yellow")
+
+pub const yellowgreen = #("column-rule", "yellowgreen")
+
+pub const in = #("column-rule", "in")
+
+pub const lab = #("column-rule", "lab")
+
+pub const oklab = #("column-rule", "oklab")
+
+pub const hsl = #("column-rule", "hsl")
+
+pub const hwb = #("column-rule", "hwb")
+
+pub const lch = #("column-rule", "lch")
+
+pub const oklch = #("column-rule", "oklch")
+
+pub const shorter = #("column-rule", "shorter")
+
+pub const longer = #("column-rule", "longer")
+
+pub const increasing = #("column-rule", "increasing")
+
+pub const decreasing = #("column-rule", "decreasing")
+
+pub const hue = #("column-rule", "hue")
+
+pub const current_color = #("column-rule", "currentColor")
+
+pub const accent_color = #("column-rule", "AccentColor")
+
+pub const accent_color_text = #("column-rule", "AccentColorText")
+
+pub const active_text = #("column-rule", "ActiveText")
+
+pub const button_border = #("column-rule", "ButtonBorder")
+
+pub const button_face = #("column-rule", "ButtonFace")
+
+pub const button_text = #("column-rule", "ButtonText")
+
+pub const canvas = #("column-rule", "Canvas")
+
+pub const canvas_text = #("column-rule", "CanvasText")
+
+pub const field = #("column-rule", "Field")
+
+pub const field_text = #("column-rule", "FieldText")
+
+pub const gray_text = #("column-rule", "GrayText")
+
+pub const highlight = #("column-rule", "Highlight")
+
+pub const highlight_text = #("column-rule", "HighlightText")
+
+pub const link_text = #("column-rule", "LinkText")
+
+pub const mark = #("column-rule", "Mark")
+
+pub const mark_text = #("column-rule", "MarkText")
+
+pub const selected_item = #("column-rule", "SelectedItem")
+
+pub const selected_item_text = #("column-rule", "SelectedItemText")
+
+pub const visited_text = #("column-rule", "VisitedText")
+
+pub const moz_button_default = #("column-rule", "-moz-ButtonDefault")
+
+pub const moz_button_hover_face = #("column-rule", "-moz-ButtonHoverFace")
+
+pub const moz_button_hover_text = #("column-rule", "-moz-ButtonHoverText")
+
+pub const moz_cell_highlight = #("column-rule", "-moz-CellHighlight")
+
+pub const moz_cell_highlight_text = #("column-rule", "-moz-CellHighlightText")
+
+pub const moz_combobox = #("column-rule", "-moz-Combobox")
+
+pub const moz_combobox_text = #("column-rule", "-moz-ComboboxText")
+
+pub const moz_dialog = #("column-rule", "-moz-Dialog")
+
+pub const moz_dialog_text = #("column-rule", "-moz-DialogText")
+
+pub const moz_dragtargetzone = #("column-rule", "-moz-dragtargetzone")
+
+pub const moz_even_tree_row = #("column-rule", "-moz-EvenTreeRow")
+
+pub const moz_field = #("column-rule", "-moz-Field")
+
+pub const moz_field_text = #("column-rule", "-moz-FieldText")
+
+pub const moz_html_cell_highlight = #("column-rule", "-moz-html-CellHighlight")
+
+pub const moz_html_cell_highlight_text = #("column-rule", "-moz-html-CellHighlightText")
+
+pub const moz_mac_accentdarkestshadow = #("column-rule", "-moz-mac-accentdarkestshadow")
+
+pub const moz_mac_accentdarkshadow = #("column-rule", "-moz-mac-accentdarkshadow")
+
+pub const moz_mac_accentface = #("column-rule", "-moz-mac-accentface")
+
+pub const moz_mac_accentlightesthighlight = #("column-rule", "-moz-mac-accentlightesthighlight")
+
+pub const moz_mac_accentlightshadow = #("column-rule", "-moz-mac-accentlightshadow")
+
+pub const moz_mac_accentregularhighlight = #("column-rule", "-moz-mac-accentregularhighlight")
+
+pub const moz_mac_accentregularshadow = #("column-rule", "-moz-mac-accentregularshadow")
+
+pub const moz_mac_chrome_active = #("column-rule", "-moz-mac-chrome-active")
+
+pub const moz_mac_chrome_inactive = #("column-rule", "-moz-mac-chrome-inactive")
+
+pub const moz_mac_focusring = #("column-rule", "-moz-mac-focusring")
+
+pub const moz_mac_menuselect = #("column-rule", "-moz-mac-menuselect")
+
+pub const moz_mac_menushadow = #("column-rule", "-moz-mac-menushadow")
+
+pub const moz_mac_menutextselect = #("column-rule", "-moz-mac-menutextselect")
+
+pub const moz_menu_hover = #("column-rule", "-moz-MenuHover")
+
+pub const moz_menu_hover_text = #("column-rule", "-moz-MenuHoverText")
+
+pub const moz_menu_bar_text = #("column-rule", "-moz-MenuBarText")
+
+pub const moz_menu_bar_hover_text = #("column-rule", "-moz-MenuBarHoverText")
+
+pub const moz_nativehyperlinktext = #("column-rule", "-moz-nativehyperlinktext")
+
+pub const moz_odd_tree_row = #("column-rule", "-moz-OddTreeRow")
+
+pub const moz_win_communicationstext = #("column-rule", "-moz-win-communicationstext")
+
+pub const moz_win_mediatext = #("column-rule", "-moz-win-mediatext")
+
+pub const moz_activehyperlinktext = #("column-rule", "-moz-activehyperlinktext")
+
+pub const moz_default_background_color = #("column-rule", "-moz-default-background-color")
+
+pub const moz_default_color = #("column-rule", "-moz-default-color")
+
+pub const moz_hyperlinktext = #("column-rule", "-moz-hyperlinktext")
+
+pub const moz_visitedhyperlinktext = #("column-rule", "-moz-visitedhyperlinktext")
+
+pub const webkit_activelink = #("column-rule", "-webkit-activelink")
+
+pub const webkit_focus_ring_color = #("column-rule", "-webkit-focus-ring-color")
+
+pub const webkit_link = #("column-rule", "-webkit-link")
+
+pub const webkit_text = #("column-rule", "-webkit-text")
 
 pub fn raw(value: String) -> #(String, String) {
   #("column_rule", value)

@@ -1,20 +1,12 @@
 
 
-pub fn start() -> #(String, String) {
-  #("box-pack", "start")
-}
+pub const start = #("box-pack", "start")
 
-pub fn center() -> #(String, String) {
-  #("box-pack", "center")
-}
+pub const center = #("box-pack", "center")
 
-pub fn end() -> #(String, String) {
-  #("box-pack", "end")
-}
+pub const end = #("box-pack", "end")
 
-pub fn justify() -> #(String, String) {
-  #("box-pack", "justify")
-}
+pub const justify = #("box-pack", "justify")
 
 pub fn raw(value: String) -> #(String, String) {
   #("box_pack", value)

@@ -1,12 +1,8 @@
 
 
-pub fn none() -> #(String, String) {
-  #("-ms-scroll-translation", "none")
-}
+pub const none = #("-ms-scroll-translation", "none")
 
-pub fn vertical_to_horizontal() -> #(String, String) {
-  #("-ms-scroll-translation", "vertical-to-horizontal")
-}
+pub const vertical_to_horizontal = #("-ms-scroll-translation", "vertical-to-horizontal")
 
 pub fn raw(value: String) -> #(String, String) {
   #("ms_scroll_translation", value)

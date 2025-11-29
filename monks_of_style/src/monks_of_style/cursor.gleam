@@ -1,184 +1,94 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("cursor", "auto")
-}
+pub const auto_ = #("cursor", "auto")
 
-pub fn default() -> #(String, String) {
-  #("cursor", "default")
-}
+pub const default = #("cursor", "default")
 
-pub fn none() -> #(String, String) {
-  #("cursor", "none")
-}
+pub const none = #("cursor", "none")
 
-pub fn context_menu() -> #(String, String) {
-  #("cursor", "context-menu")
-}
+pub const context_menu = #("cursor", "context-menu")
 
-pub fn help() -> #(String, String) {
-  #("cursor", "help")
-}
+pub const help = #("cursor", "help")
 
-pub fn pointer() -> #(String, String) {
-  #("cursor", "pointer")
-}
+pub const pointer = #("cursor", "pointer")
 
-pub fn progress() -> #(String, String) {
-  #("cursor", "progress")
-}
+pub const progress = #("cursor", "progress")
 
-pub fn wait() -> #(String, String) {
-  #("cursor", "wait")
-}
+pub const wait = #("cursor", "wait")
 
-pub fn cell() -> #(String, String) {
-  #("cursor", "cell")
-}
+pub const cell = #("cursor", "cell")
 
-pub fn crosshair() -> #(String, String) {
-  #("cursor", "crosshair")
-}
+pub const crosshair = #("cursor", "crosshair")
 
-pub fn text() -> #(String, String) {
-  #("cursor", "text")
-}
+pub const text = #("cursor", "text")
 
-pub fn vertical_text() -> #(String, String) {
-  #("cursor", "vertical-text")
-}
+pub const vertical_text = #("cursor", "vertical-text")
 
-pub fn alias() -> #(String, String) {
-  #("cursor", "alias")
-}
+pub const alias = #("cursor", "alias")
 
-pub fn copy() -> #(String, String) {
-  #("cursor", "copy")
-}
+pub const copy = #("cursor", "copy")
 
-pub fn move() -> #(String, String) {
-  #("cursor", "move")
-}
+pub const move = #("cursor", "move")
 
-pub fn no_drop() -> #(String, String) {
-  #("cursor", "no-drop")
-}
+pub const no_drop = #("cursor", "no-drop")
 
-pub fn not_allowed() -> #(String, String) {
-  #("cursor", "not-allowed")
-}
+pub const not_allowed = #("cursor", "not-allowed")
 
-pub fn e_resize() -> #(String, String) {
-  #("cursor", "e-resize")
-}
+pub const e_resize = #("cursor", "e-resize")
 
-pub fn n_resize() -> #(String, String) {
-  #("cursor", "n-resize")
-}
+pub const n_resize = #("cursor", "n-resize")
 
-pub fn ne_resize() -> #(String, String) {
-  #("cursor", "ne-resize")
-}
+pub const ne_resize = #("cursor", "ne-resize")
 
-pub fn nw_resize() -> #(String, String) {
-  #("cursor", "nw-resize")
-}
+pub const nw_resize = #("cursor", "nw-resize")
 
-pub fn s_resize() -> #(String, String) {
-  #("cursor", "s-resize")
-}
+pub const s_resize = #("cursor", "s-resize")
 
-pub fn se_resize() -> #(String, String) {
-  #("cursor", "se-resize")
-}
+pub const se_resize = #("cursor", "se-resize")
 
-pub fn sw_resize() -> #(String, String) {
-  #("cursor", "sw-resize")
-}
+pub const sw_resize = #("cursor", "sw-resize")
 
-pub fn w_resize() -> #(String, String) {
-  #("cursor", "w-resize")
-}
+pub const w_resize = #("cursor", "w-resize")
 
-pub fn ew_resize() -> #(String, String) {
-  #("cursor", "ew-resize")
-}
+pub const ew_resize = #("cursor", "ew-resize")
 
-pub fn ns_resize() -> #(String, String) {
-  #("cursor", "ns-resize")
-}
+pub const ns_resize = #("cursor", "ns-resize")
 
-pub fn nesw_resize() -> #(String, String) {
-  #("cursor", "nesw-resize")
-}
+pub const nesw_resize = #("cursor", "nesw-resize")
 
-pub fn nwse_resize() -> #(String, String) {
-  #("cursor", "nwse-resize")
-}
+pub const nwse_resize = #("cursor", "nwse-resize")
 
-pub fn col_resize() -> #(String, String) {
-  #("cursor", "col-resize")
-}
+pub const col_resize = #("cursor", "col-resize")
 
-pub fn row_resize() -> #(String, String) {
-  #("cursor", "row-resize")
-}
+pub const row_resize = #("cursor", "row-resize")
 
-pub fn all_scroll() -> #(String, String) {
-  #("cursor", "all-scroll")
-}
+pub const all_scroll = #("cursor", "all-scroll")
 
-pub fn zoom_in() -> #(String, String) {
-  #("cursor", "zoom-in")
-}
+pub const zoom_in = #("cursor", "zoom-in")
 
-pub fn zoom_out() -> #(String, String) {
-  #("cursor", "zoom-out")
-}
+pub const zoom_out = #("cursor", "zoom-out")
 
-pub fn grab() -> #(String, String) {
-  #("cursor", "grab")
-}
+pub const grab = #("cursor", "grab")
 
-pub fn grabbing() -> #(String, String) {
-  #("cursor", "grabbing")
-}
+pub const grabbing = #("cursor", "grabbing")
 
-pub fn hand() -> #(String, String) {
-  #("cursor", "hand")
-}
+pub const hand = #("cursor", "hand")
 
-pub fn webkit_grab() -> #(String, String) {
-  #("cursor", "-webkit-grab")
-}
+pub const webkit_grab = #("cursor", "-webkit-grab")
 
-pub fn webkit_grabbing() -> #(String, String) {
-  #("cursor", "-webkit-grabbing")
-}
+pub const webkit_grabbing = #("cursor", "-webkit-grabbing")
 
-pub fn webkit_zoom_in() -> #(String, String) {
-  #("cursor", "-webkit-zoom-in")
-}
+pub const webkit_zoom_in = #("cursor", "-webkit-zoom-in")
 
-pub fn webkit_zoom_out() -> #(String, String) {
-  #("cursor", "-webkit-zoom-out")
-}
+pub const webkit_zoom_out = #("cursor", "-webkit-zoom-out")
 
-pub fn moz_grab() -> #(String, String) {
-  #("cursor", "-moz-grab")
-}
+pub const moz_grab = #("cursor", "-moz-grab")
 
-pub fn moz_grabbing() -> #(String, String) {
-  #("cursor", "-moz-grabbing")
-}
+pub const moz_grabbing = #("cursor", "-moz-grabbing")
 
-pub fn moz_zoom_in() -> #(String, String) {
-  #("cursor", "-moz-zoom-in")
-}
+pub const moz_zoom_in = #("cursor", "-moz-zoom-in")
 
-pub fn moz_zoom_out() -> #(String, String) {
-  #("cursor", "-moz-zoom-out")
-}
+pub const moz_zoom_out = #("cursor", "-moz-zoom-out")
 
 pub fn raw(value: String) -> #(String, String) {
   #("cursor", value)

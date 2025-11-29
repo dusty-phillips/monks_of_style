@@ -1,24 +1,14 @@
 
 
-pub fn left() -> #(String, String) {
-  #("perspective-origin", "left")
-}
+pub const left = #("perspective-origin", "left")
 
-pub fn center() -> #(String, String) {
-  #("perspective-origin", "center")
-}
+pub const center = #("perspective-origin", "center")
 
-pub fn right() -> #(String, String) {
-  #("perspective-origin", "right")
-}
+pub const right = #("perspective-origin", "right")
 
-pub fn top() -> #(String, String) {
-  #("perspective-origin", "top")
-}
+pub const top = #("perspective-origin", "top")
 
-pub fn bottom() -> #(String, String) {
-  #("perspective-origin", "bottom")
-}
+pub const bottom = #("perspective-origin", "bottom")
 
 pub fn raw(value: String) -> #(String, String) {
   #("perspective_origin", value)

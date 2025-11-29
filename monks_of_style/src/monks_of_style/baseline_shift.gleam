@@ -1,16 +1,10 @@
 
 
-pub fn baseline() -> #(String, String) {
-  #("baseline-shift", "baseline")
-}
+pub const baseline = #("baseline-shift", "baseline")
 
-pub fn sub() -> #(String, String) {
-  #("baseline-shift", "sub")
-}
+pub const sub = #("baseline-shift", "sub")
 
-pub fn super() -> #(String, String) {
-  #("baseline-shift", "super")
-}
+pub const super = #("baseline-shift", "super")
 
 pub fn raw(value: String) -> #(String, String) {
   #("baseline_shift", value)

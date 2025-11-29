@@ -1,16 +1,10 @@
 
 
-pub fn none() -> #(String, String) {
-  #("text-combine-upright", "none")
-}
+pub const none = #("text-combine-upright", "none")
 
-pub fn all() -> #(String, String) {
-  #("text-combine-upright", "all")
-}
+pub const all = #("text-combine-upright", "all")
 
-pub fn digits() -> #(String, String) {
-  #("text-combine-upright", "digits")
-}
+pub const digits = #("text-combine-upright", "digits")
 
 pub fn raw(value: String) -> #(String, String) {
   #("text_combine_upright", value)

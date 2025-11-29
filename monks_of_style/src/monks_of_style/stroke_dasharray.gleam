@@ -1,8 +1,6 @@
 
 
-pub fn none() -> #(String, String) {
-  #("stroke-dasharray", "none")
-}
+pub const none = #("stroke-dasharray", "none")
 
 pub fn raw(value: String) -> #(String, String) {
   #("stroke_dasharray", value)

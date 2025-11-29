@@ -1,52 +1,28 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("alignment-baseline", "auto")
-}
+pub const auto_ = #("alignment-baseline", "auto")
 
-pub fn baseline() -> #(String, String) {
-  #("alignment-baseline", "baseline")
-}
+pub const baseline = #("alignment-baseline", "baseline")
 
-pub fn before_edge() -> #(String, String) {
-  #("alignment-baseline", "before-edge")
-}
+pub const before_edge = #("alignment-baseline", "before-edge")
 
-pub fn text_before_edge() -> #(String, String) {
-  #("alignment-baseline", "text-before-edge")
-}
+pub const text_before_edge = #("alignment-baseline", "text-before-edge")
 
-pub fn middle() -> #(String, String) {
-  #("alignment-baseline", "middle")
-}
+pub const middle = #("alignment-baseline", "middle")
 
-pub fn central() -> #(String, String) {
-  #("alignment-baseline", "central")
-}
+pub const central = #("alignment-baseline", "central")
 
-pub fn after_edge() -> #(String, String) {
-  #("alignment-baseline", "after-edge")
-}
+pub const after_edge = #("alignment-baseline", "after-edge")
 
-pub fn text_after_edge() -> #(String, String) {
-  #("alignment-baseline", "text-after-edge")
-}
+pub const text_after_edge = #("alignment-baseline", "text-after-edge")
 
-pub fn ideographic() -> #(String, String) {
-  #("alignment-baseline", "ideographic")
-}
+pub const ideographic = #("alignment-baseline", "ideographic")
 
-pub fn alphabetic() -> #(String, String) {
-  #("alignment-baseline", "alphabetic")
-}
+pub const alphabetic = #("alignment-baseline", "alphabetic")
 
-pub fn hanging() -> #(String, String) {
-  #("alignment-baseline", "hanging")
-}
+pub const hanging = #("alignment-baseline", "hanging")
 
-pub fn mathematical() -> #(String, String) {
-  #("alignment-baseline", "mathematical")
-}
+pub const mathematical = #("alignment-baseline", "mathematical")
 
 pub fn raw(value: String) -> #(String, String) {
   #("alignment_baseline", value)

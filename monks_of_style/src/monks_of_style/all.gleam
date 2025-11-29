@@ -1,24 +1,14 @@
 
 
-pub fn initial() -> #(String, String) {
-  #("all", "initial")
-}
+pub const initial = #("all", "initial")
 
-pub fn inherit() -> #(String, String) {
-  #("all", "inherit")
-}
+pub const inherit = #("all", "inherit")
 
-pub fn unset() -> #(String, String) {
-  #("all", "unset")
-}
+pub const unset = #("all", "unset")
 
-pub fn revert() -> #(String, String) {
-  #("all", "revert")
-}
+pub const revert = #("all", "revert")
 
-pub fn revert_layer() -> #(String, String) {
-  #("all", "revert-layer")
-}
+pub const revert_layer = #("all", "revert-layer")
 
 pub fn raw(value: String) -> #(String, String) {
   #("all", value)

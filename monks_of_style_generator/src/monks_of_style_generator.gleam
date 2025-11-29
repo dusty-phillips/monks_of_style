@@ -34,15 +34,13 @@ fn build_keyword_functions(property: String) -> String {
   let keywords = property_keywords(property)
   keywords
   |> list.map(fn(keyword) {
-    "\n\npub fn "
+    "\n\npub const "
     <> sanitize_keyword(keyword)
-    <> "() -> #(String, String) {\n"
-    <> "  #(\""
+    <> " = #(\""
     <> property
     <> "\", \""
     <> keyword
-    <> "\")\n"
-    <> "}"
+    <> "\")"
   })
   |> string.concat
 }

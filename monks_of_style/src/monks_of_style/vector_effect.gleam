@@ -1,24 +1,14 @@
 
 
-pub fn none() -> #(String, String) {
-  #("vector-effect", "none")
-}
+pub const none = #("vector-effect", "none")
 
-pub fn non_scaling_stroke() -> #(String, String) {
-  #("vector-effect", "non-scaling-stroke")
-}
+pub const non_scaling_stroke = #("vector-effect", "non-scaling-stroke")
 
-pub fn non_scaling_size() -> #(String, String) {
-  #("vector-effect", "non-scaling-size")
-}
+pub const non_scaling_size = #("vector-effect", "non-scaling-size")
 
-pub fn non_rotation() -> #(String, String) {
-  #("vector-effect", "non-rotation")
-}
+pub const non_rotation = #("vector-effect", "non-rotation")
 
-pub fn fixed_position() -> #(String, String) {
-  #("vector-effect", "fixed-position")
-}
+pub const fixed_position = #("vector-effect", "fixed-position")
 
 pub fn raw(value: String) -> #(String, String) {
   #("vector_effect", value)

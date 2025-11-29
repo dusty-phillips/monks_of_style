@@ -1,8 +1,6 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("position-anchor", "auto")
-}
+pub const auto_ = #("position-anchor", "auto")
 
 pub fn raw(value: String) -> #(String, String) {
   #("position_anchor", value)

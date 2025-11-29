@@ -1,24 +1,14 @@
 
 
-pub fn left() -> #(String, String) {
-  #("transform-origin", "left")
-}
+pub const left = #("transform-origin", "left")
 
-pub fn center() -> #(String, String) {
-  #("transform-origin", "center")
-}
+pub const center = #("transform-origin", "center")
 
-pub fn right() -> #(String, String) {
-  #("transform-origin", "right")
-}
+pub const right = #("transform-origin", "right")
 
-pub fn top() -> #(String, String) {
-  #("transform-origin", "top")
-}
+pub const top = #("transform-origin", "top")
 
-pub fn bottom() -> #(String, String) {
-  #("transform-origin", "bottom")
-}
+pub const bottom = #("transform-origin", "bottom")
 
 pub fn raw(value: String) -> #(String, String) {
   #("transform_origin", value)

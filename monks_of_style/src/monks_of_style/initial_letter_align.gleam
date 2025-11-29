@@ -1,20 +1,12 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("initial-letter-align", "auto")
-}
+pub const auto_ = #("initial-letter-align", "auto")
 
-pub fn alphabetic() -> #(String, String) {
-  #("initial-letter-align", "alphabetic")
-}
+pub const alphabetic = #("initial-letter-align", "alphabetic")
 
-pub fn hanging() -> #(String, String) {
-  #("initial-letter-align", "hanging")
-}
+pub const hanging = #("initial-letter-align", "hanging")
 
-pub fn ideographic() -> #(String, String) {
-  #("initial-letter-align", "ideographic")
-}
+pub const ideographic = #("initial-letter-align", "ideographic")
 
 pub fn raw(value: String) -> #(String, String) {
   #("initial_letter_align", value)

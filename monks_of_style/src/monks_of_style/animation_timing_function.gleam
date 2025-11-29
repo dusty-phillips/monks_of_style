@@ -1,56 +1,30 @@
 
 
-pub fn linear() -> #(String, String) {
-  #("animation-timing-function", "linear")
-}
+pub const linear = #("animation-timing-function", "linear")
 
-pub fn ease() -> #(String, String) {
-  #("animation-timing-function", "ease")
-}
+pub const ease = #("animation-timing-function", "ease")
 
-pub fn ease_in() -> #(String, String) {
-  #("animation-timing-function", "ease-in")
-}
+pub const ease_in = #("animation-timing-function", "ease-in")
 
-pub fn ease_out() -> #(String, String) {
-  #("animation-timing-function", "ease-out")
-}
+pub const ease_out = #("animation-timing-function", "ease-out")
 
-pub fn ease_in_out() -> #(String, String) {
-  #("animation-timing-function", "ease-in-out")
-}
+pub const ease_in_out = #("animation-timing-function", "ease-in-out")
 
-pub fn step_start() -> #(String, String) {
-  #("animation-timing-function", "step-start")
-}
+pub const step_start = #("animation-timing-function", "step-start")
 
-pub fn step_end() -> #(String, String) {
-  #("animation-timing-function", "step-end")
-}
+pub const step_end = #("animation-timing-function", "step-end")
 
-pub fn jump_start() -> #(String, String) {
-  #("animation-timing-function", "jump-start")
-}
+pub const jump_start = #("animation-timing-function", "jump-start")
 
-pub fn jump_end() -> #(String, String) {
-  #("animation-timing-function", "jump-end")
-}
+pub const jump_end = #("animation-timing-function", "jump-end")
 
-pub fn jump_none() -> #(String, String) {
-  #("animation-timing-function", "jump-none")
-}
+pub const jump_none = #("animation-timing-function", "jump-none")
 
-pub fn jump_both() -> #(String, String) {
-  #("animation-timing-function", "jump-both")
-}
+pub const jump_both = #("animation-timing-function", "jump-both")
 
-pub fn start() -> #(String, String) {
-  #("animation-timing-function", "start")
-}
+pub const start = #("animation-timing-function", "start")
 
-pub fn end() -> #(String, String) {
-  #("animation-timing-function", "end")
-}
+pub const end = #("animation-timing-function", "end")
 
 pub fn raw(value: String) -> #(String, String) {
   #("animation_timing_function", value)

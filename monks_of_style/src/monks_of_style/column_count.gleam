@@ -1,8 +1,6 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("column-count", "auto")
-}
+pub const auto_ = #("column-count", "auto")
 
 pub fn raw(value: String) -> #(String, String) {
   #("column_count", value)

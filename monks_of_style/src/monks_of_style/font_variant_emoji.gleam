@@ -1,20 +1,12 @@
 
 
-pub fn normal() -> #(String, String) {
-  #("font-variant-emoji", "normal")
-}
+pub const normal = #("font-variant-emoji", "normal")
 
-pub fn text() -> #(String, String) {
-  #("font-variant-emoji", "text")
-}
+pub const text = #("font-variant-emoji", "text")
 
-pub fn emoji() -> #(String, String) {
-  #("font-variant-emoji", "emoji")
-}
+pub const emoji = #("font-variant-emoji", "emoji")
 
-pub fn unicode() -> #(String, String) {
-  #("font-variant-emoji", "unicode")
-}
+pub const unicode = #("font-variant-emoji", "unicode")
 
 pub fn raw(value: String) -> #(String, String) {
   #("font_variant_emoji", value)

@@ -1,20 +1,12 @@
 
 
-pub fn start() -> #(String, String) {
-  #("-ms-grid-column-align", "start")
-}
+pub const start = #("-ms-grid-column-align", "start")
 
-pub fn end() -> #(String, String) {
-  #("-ms-grid-column-align", "end")
-}
+pub const end = #("-ms-grid-column-align", "end")
 
-pub fn center() -> #(String, String) {
-  #("-ms-grid-column-align", "center")
-}
+pub const center = #("-ms-grid-column-align", "center")
 
-pub fn stretch() -> #(String, String) {
-  #("-ms-grid-column-align", "stretch")
-}
+pub const stretch = #("-ms-grid-column-align", "stretch")
 
 pub fn raw(value: String) -> #(String, String) {
   #("ms_grid_column_align", value)

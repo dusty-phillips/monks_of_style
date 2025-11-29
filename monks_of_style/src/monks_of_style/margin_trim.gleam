@@ -1,16 +1,10 @@
 
 
-pub fn none() -> #(String, String) {
-  #("margin-trim", "none")
-}
+pub const none = #("margin-trim", "none")
 
-pub fn in_flow() -> #(String, String) {
-  #("margin-trim", "in-flow")
-}
+pub const in_flow = #("margin-trim", "in-flow")
 
-pub fn all() -> #(String, String) {
-  #("margin-trim", "all")
-}
+pub const all = #("margin-trim", "all")
 
 pub fn raw(value: String) -> #(String, String) {
   #("margin_trim", value)

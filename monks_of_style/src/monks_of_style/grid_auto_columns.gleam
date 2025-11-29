@@ -1,16 +1,10 @@
 
 
-pub fn min_content() -> #(String, String) {
-  #("grid-auto-columns", "min-content")
-}
+pub const min_content = #("grid-auto-columns", "min-content")
 
-pub fn max_content() -> #(String, String) {
-  #("grid-auto-columns", "max-content")
-}
+pub const max_content = #("grid-auto-columns", "max-content")
 
-pub fn auto_() -> #(String, String) {
-  #("grid-auto-columns", "auto")
-}
+pub const auto_ = #("grid-auto-columns", "auto")
 
 pub fn raw(value: String) -> #(String, String) {
   #("grid_auto_columns", value)

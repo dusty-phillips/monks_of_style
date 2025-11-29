@@ -1,8 +1,6 @@
 
 
-pub fn infinite() -> #(String, String) {
-  #("animation-iteration-count", "infinite")
-}
+pub const infinite = #("animation-iteration-count", "infinite")
 
 pub fn raw(value: String) -> #(String, String) {
   #("animation_iteration_count", value)

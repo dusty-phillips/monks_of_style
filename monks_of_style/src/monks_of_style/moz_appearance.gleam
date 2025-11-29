@@ -1,444 +1,224 @@
 
 
-pub fn none() -> #(String, String) {
-  #("-moz-appearance", "none")
-}
-
-pub fn button() -> #(String, String) {
-  #("-moz-appearance", "button")
-}
-
-pub fn button_arrow_down() -> #(String, String) {
-  #("-moz-appearance", "button-arrow-down")
-}
-
-pub fn button_arrow_next() -> #(String, String) {
-  #("-moz-appearance", "button-arrow-next")
-}
-
-pub fn button_arrow_previous() -> #(String, String) {
-  #("-moz-appearance", "button-arrow-previous")
-}
-
-pub fn button_arrow_up() -> #(String, String) {
-  #("-moz-appearance", "button-arrow-up")
-}
-
-pub fn button_bevel() -> #(String, String) {
-  #("-moz-appearance", "button-bevel")
-}
-
-pub fn button_focus() -> #(String, String) {
-  #("-moz-appearance", "button-focus")
-}
-
-pub fn caret() -> #(String, String) {
-  #("-moz-appearance", "caret")
-}
-
-pub fn checkbox() -> #(String, String) {
-  #("-moz-appearance", "checkbox")
-}
-
-pub fn checkbox_container() -> #(String, String) {
-  #("-moz-appearance", "checkbox-container")
-}
-
-pub fn checkbox_label() -> #(String, String) {
-  #("-moz-appearance", "checkbox-label")
-}
-
-pub fn checkmenuitem() -> #(String, String) {
-  #("-moz-appearance", "checkmenuitem")
-}
-
-pub fn dualbutton() -> #(String, String) {
-  #("-moz-appearance", "dualbutton")
-}
-
-pub fn groupbox() -> #(String, String) {
-  #("-moz-appearance", "groupbox")
-}
-
-pub fn listbox() -> #(String, String) {
-  #("-moz-appearance", "listbox")
-}
-
-pub fn listitem() -> #(String, String) {
-  #("-moz-appearance", "listitem")
-}
-
-pub fn menuarrow() -> #(String, String) {
-  #("-moz-appearance", "menuarrow")
-}
-
-pub fn menubar() -> #(String, String) {
-  #("-moz-appearance", "menubar")
-}
-
-pub fn menucheckbox() -> #(String, String) {
-  #("-moz-appearance", "menucheckbox")
-}
-
-pub fn menuimage() -> #(String, String) {
-  #("-moz-appearance", "menuimage")
-}
-
-pub fn menuitem() -> #(String, String) {
-  #("-moz-appearance", "menuitem")
-}
-
-pub fn menuitemtext() -> #(String, String) {
-  #("-moz-appearance", "menuitemtext")
-}
-
-pub fn menulist() -> #(String, String) {
-  #("-moz-appearance", "menulist")
-}
-
-pub fn menulist_button() -> #(String, String) {
-  #("-moz-appearance", "menulist-button")
-}
-
-pub fn menulist_text() -> #(String, String) {
-  #("-moz-appearance", "menulist-text")
-}
-
-pub fn menulist_textfield() -> #(String, String) {
-  #("-moz-appearance", "menulist-textfield")
-}
-
-pub fn menupopup() -> #(String, String) {
-  #("-moz-appearance", "menupopup")
-}
-
-pub fn menuradio() -> #(String, String) {
-  #("-moz-appearance", "menuradio")
-}
-
-pub fn menuseparator() -> #(String, String) {
-  #("-moz-appearance", "menuseparator")
-}
-
-pub fn meterbar() -> #(String, String) {
-  #("-moz-appearance", "meterbar")
-}
-
-pub fn meterchunk() -> #(String, String) {
-  #("-moz-appearance", "meterchunk")
-}
-
-pub fn progressbar() -> #(String, String) {
-  #("-moz-appearance", "progressbar")
-}
-
-pub fn progressbar_vertical() -> #(String, String) {
-  #("-moz-appearance", "progressbar-vertical")
-}
-
-pub fn progresschunk() -> #(String, String) {
-  #("-moz-appearance", "progresschunk")
-}
-
-pub fn progresschunk_vertical() -> #(String, String) {
-  #("-moz-appearance", "progresschunk-vertical")
-}
-
-pub fn radio() -> #(String, String) {
-  #("-moz-appearance", "radio")
-}
-
-pub fn radio_container() -> #(String, String) {
-  #("-moz-appearance", "radio-container")
-}
-
-pub fn radio_label() -> #(String, String) {
-  #("-moz-appearance", "radio-label")
-}
-
-pub fn radiomenuitem() -> #(String, String) {
-  #("-moz-appearance", "radiomenuitem")
-}
-
-pub fn range() -> #(String, String) {
-  #("-moz-appearance", "range")
-}
-
-pub fn range_thumb() -> #(String, String) {
-  #("-moz-appearance", "range-thumb")
-}
-
-pub fn resizer() -> #(String, String) {
-  #("-moz-appearance", "resizer")
-}
-
-pub fn resizerpanel() -> #(String, String) {
-  #("-moz-appearance", "resizerpanel")
-}
-
-pub fn scale_horizontal() -> #(String, String) {
-  #("-moz-appearance", "scale-horizontal")
-}
-
-pub fn scalethumbend() -> #(String, String) {
-  #("-moz-appearance", "scalethumbend")
-}
-
-pub fn scalethumb_horizontal() -> #(String, String) {
-  #("-moz-appearance", "scalethumb-horizontal")
-}
-
-pub fn scalethumbstart() -> #(String, String) {
-  #("-moz-appearance", "scalethumbstart")
-}
-
-pub fn scalethumbtick() -> #(String, String) {
-  #("-moz-appearance", "scalethumbtick")
-}
-
-pub fn scalethumb_vertical() -> #(String, String) {
-  #("-moz-appearance", "scalethumb-vertical")
-}
-
-pub fn scale_vertical() -> #(String, String) {
-  #("-moz-appearance", "scale-vertical")
-}
-
-pub fn scrollbarbutton_down() -> #(String, String) {
-  #("-moz-appearance", "scrollbarbutton-down")
-}
-
-pub fn scrollbarbutton_left() -> #(String, String) {
-  #("-moz-appearance", "scrollbarbutton-left")
-}
-
-pub fn scrollbarbutton_right() -> #(String, String) {
-  #("-moz-appearance", "scrollbarbutton-right")
-}
-
-pub fn scrollbarbutton_up() -> #(String, String) {
-  #("-moz-appearance", "scrollbarbutton-up")
-}
-
-pub fn scrollbarthumb_horizontal() -> #(String, String) {
-  #("-moz-appearance", "scrollbarthumb-horizontal")
-}
-
-pub fn scrollbarthumb_vertical() -> #(String, String) {
-  #("-moz-appearance", "scrollbarthumb-vertical")
-}
-
-pub fn scrollbartrack_horizontal() -> #(String, String) {
-  #("-moz-appearance", "scrollbartrack-horizontal")
-}
-
-pub fn scrollbartrack_vertical() -> #(String, String) {
-  #("-moz-appearance", "scrollbartrack-vertical")
-}
-
-pub fn searchfield() -> #(String, String) {
-  #("-moz-appearance", "searchfield")
-}
-
-pub fn separator() -> #(String, String) {
-  #("-moz-appearance", "separator")
-}
-
-pub fn sheet() -> #(String, String) {
-  #("-moz-appearance", "sheet")
-}
-
-pub fn spinner() -> #(String, String) {
-  #("-moz-appearance", "spinner")
-}
-
-pub fn spinner_downbutton() -> #(String, String) {
-  #("-moz-appearance", "spinner-downbutton")
-}
-
-pub fn spinner_textfield() -> #(String, String) {
-  #("-moz-appearance", "spinner-textfield")
-}
-
-pub fn spinner_upbutton() -> #(String, String) {
-  #("-moz-appearance", "spinner-upbutton")
-}
-
-pub fn splitter() -> #(String, String) {
-  #("-moz-appearance", "splitter")
-}
-
-pub fn statusbar() -> #(String, String) {
-  #("-moz-appearance", "statusbar")
-}
-
-pub fn statusbarpanel() -> #(String, String) {
-  #("-moz-appearance", "statusbarpanel")
-}
-
-pub fn tab() -> #(String, String) {
-  #("-moz-appearance", "tab")
-}
-
-pub fn tabpanel() -> #(String, String) {
-  #("-moz-appearance", "tabpanel")
-}
-
-pub fn tabpanels() -> #(String, String) {
-  #("-moz-appearance", "tabpanels")
-}
-
-pub fn tab_scroll_arrow_back() -> #(String, String) {
-  #("-moz-appearance", "tab-scroll-arrow-back")
-}
-
-pub fn tab_scroll_arrow_forward() -> #(String, String) {
-  #("-moz-appearance", "tab-scroll-arrow-forward")
-}
-
-pub fn textfield() -> #(String, String) {
-  #("-moz-appearance", "textfield")
-}
-
-pub fn textfield_multiline() -> #(String, String) {
-  #("-moz-appearance", "textfield-multiline")
-}
-
-pub fn toolbar() -> #(String, String) {
-  #("-moz-appearance", "toolbar")
-}
-
-pub fn toolbarbutton() -> #(String, String) {
-  #("-moz-appearance", "toolbarbutton")
-}
-
-pub fn toolbarbutton_dropdown() -> #(String, String) {
-  #("-moz-appearance", "toolbarbutton-dropdown")
-}
-
-pub fn toolbargripper() -> #(String, String) {
-  #("-moz-appearance", "toolbargripper")
-}
-
-pub fn toolbox() -> #(String, String) {
-  #("-moz-appearance", "toolbox")
-}
-
-pub fn tooltip() -> #(String, String) {
-  #("-moz-appearance", "tooltip")
-}
-
-pub fn treeheader() -> #(String, String) {
-  #("-moz-appearance", "treeheader")
-}
-
-pub fn treeheadercell() -> #(String, String) {
-  #("-moz-appearance", "treeheadercell")
-}
-
-pub fn treeheadersortarrow() -> #(String, String) {
-  #("-moz-appearance", "treeheadersortarrow")
-}
-
-pub fn treeitem() -> #(String, String) {
-  #("-moz-appearance", "treeitem")
-}
-
-pub fn treeline() -> #(String, String) {
-  #("-moz-appearance", "treeline")
-}
-
-pub fn treetwisty() -> #(String, String) {
-  #("-moz-appearance", "treetwisty")
-}
-
-pub fn treetwistyopen() -> #(String, String) {
-  #("-moz-appearance", "treetwistyopen")
-}
-
-pub fn treeview() -> #(String, String) {
-  #("-moz-appearance", "treeview")
-}
-
-pub fn moz_mac_unified_toolbar() -> #(String, String) {
-  #("-moz-appearance", "-moz-mac-unified-toolbar")
-}
-
-pub fn moz_win_borderless_glass() -> #(String, String) {
-  #("-moz-appearance", "-moz-win-borderless-glass")
-}
-
-pub fn moz_win_browsertabbar_toolbox() -> #(String, String) {
-  #("-moz-appearance", "-moz-win-browsertabbar-toolbox")
-}
-
-pub fn moz_win_communicationstext() -> #(String, String) {
-  #("-moz-appearance", "-moz-win-communicationstext")
-}
-
-pub fn moz_win_communications_toolbox() -> #(String, String) {
-  #("-moz-appearance", "-moz-win-communications-toolbox")
-}
-
-pub fn moz_win_exclude_glass() -> #(String, String) {
-  #("-moz-appearance", "-moz-win-exclude-glass")
-}
-
-pub fn moz_win_glass() -> #(String, String) {
-  #("-moz-appearance", "-moz-win-glass")
-}
-
-pub fn moz_win_mediatext() -> #(String, String) {
-  #("-moz-appearance", "-moz-win-mediatext")
-}
-
-pub fn moz_win_media_toolbox() -> #(String, String) {
-  #("-moz-appearance", "-moz-win-media-toolbox")
-}
-
-pub fn moz_window_button_box() -> #(String, String) {
-  #("-moz-appearance", "-moz-window-button-box")
-}
-
-pub fn moz_window_button_box_maximized() -> #(String, String) {
-  #("-moz-appearance", "-moz-window-button-box-maximized")
-}
-
-pub fn moz_window_button_close() -> #(String, String) {
-  #("-moz-appearance", "-moz-window-button-close")
-}
-
-pub fn moz_window_button_maximize() -> #(String, String) {
-  #("-moz-appearance", "-moz-window-button-maximize")
-}
-
-pub fn moz_window_button_minimize() -> #(String, String) {
-  #("-moz-appearance", "-moz-window-button-minimize")
-}
-
-pub fn moz_window_button_restore() -> #(String, String) {
-  #("-moz-appearance", "-moz-window-button-restore")
-}
-
-pub fn moz_window_frame_bottom() -> #(String, String) {
-  #("-moz-appearance", "-moz-window-frame-bottom")
-}
-
-pub fn moz_window_frame_left() -> #(String, String) {
-  #("-moz-appearance", "-moz-window-frame-left")
-}
-
-pub fn moz_window_frame_right() -> #(String, String) {
-  #("-moz-appearance", "-moz-window-frame-right")
-}
-
-pub fn moz_window_titlebar() -> #(String, String) {
-  #("-moz-appearance", "-moz-window-titlebar")
-}
-
-pub fn moz_window_titlebar_maximized() -> #(String, String) {
-  #("-moz-appearance", "-moz-window-titlebar-maximized")
-}
+pub const none = #("-moz-appearance", "none")
+
+pub const button = #("-moz-appearance", "button")
+
+pub const button_arrow_down = #("-moz-appearance", "button-arrow-down")
+
+pub const button_arrow_next = #("-moz-appearance", "button-arrow-next")
+
+pub const button_arrow_previous = #("-moz-appearance", "button-arrow-previous")
+
+pub const button_arrow_up = #("-moz-appearance", "button-arrow-up")
+
+pub const button_bevel = #("-moz-appearance", "button-bevel")
+
+pub const button_focus = #("-moz-appearance", "button-focus")
+
+pub const caret = #("-moz-appearance", "caret")
+
+pub const checkbox = #("-moz-appearance", "checkbox")
+
+pub const checkbox_container = #("-moz-appearance", "checkbox-container")
+
+pub const checkbox_label = #("-moz-appearance", "checkbox-label")
+
+pub const checkmenuitem = #("-moz-appearance", "checkmenuitem")
+
+pub const dualbutton = #("-moz-appearance", "dualbutton")
+
+pub const groupbox = #("-moz-appearance", "groupbox")
+
+pub const listbox = #("-moz-appearance", "listbox")
+
+pub const listitem = #("-moz-appearance", "listitem")
+
+pub const menuarrow = #("-moz-appearance", "menuarrow")
+
+pub const menubar = #("-moz-appearance", "menubar")
+
+pub const menucheckbox = #("-moz-appearance", "menucheckbox")
+
+pub const menuimage = #("-moz-appearance", "menuimage")
+
+pub const menuitem = #("-moz-appearance", "menuitem")
+
+pub const menuitemtext = #("-moz-appearance", "menuitemtext")
+
+pub const menulist = #("-moz-appearance", "menulist")
+
+pub const menulist_button = #("-moz-appearance", "menulist-button")
+
+pub const menulist_text = #("-moz-appearance", "menulist-text")
+
+pub const menulist_textfield = #("-moz-appearance", "menulist-textfield")
+
+pub const menupopup = #("-moz-appearance", "menupopup")
+
+pub const menuradio = #("-moz-appearance", "menuradio")
+
+pub const menuseparator = #("-moz-appearance", "menuseparator")
+
+pub const meterbar = #("-moz-appearance", "meterbar")
+
+pub const meterchunk = #("-moz-appearance", "meterchunk")
+
+pub const progressbar = #("-moz-appearance", "progressbar")
+
+pub const progressbar_vertical = #("-moz-appearance", "progressbar-vertical")
+
+pub const progresschunk = #("-moz-appearance", "progresschunk")
+
+pub const progresschunk_vertical = #("-moz-appearance", "progresschunk-vertical")
+
+pub const radio = #("-moz-appearance", "radio")
+
+pub const radio_container = #("-moz-appearance", "radio-container")
+
+pub const radio_label = #("-moz-appearance", "radio-label")
+
+pub const radiomenuitem = #("-moz-appearance", "radiomenuitem")
+
+pub const range = #("-moz-appearance", "range")
+
+pub const range_thumb = #("-moz-appearance", "range-thumb")
+
+pub const resizer = #("-moz-appearance", "resizer")
+
+pub const resizerpanel = #("-moz-appearance", "resizerpanel")
+
+pub const scale_horizontal = #("-moz-appearance", "scale-horizontal")
+
+pub const scalethumbend = #("-moz-appearance", "scalethumbend")
+
+pub const scalethumb_horizontal = #("-moz-appearance", "scalethumb-horizontal")
+
+pub const scalethumbstart = #("-moz-appearance", "scalethumbstart")
+
+pub const scalethumbtick = #("-moz-appearance", "scalethumbtick")
+
+pub const scalethumb_vertical = #("-moz-appearance", "scalethumb-vertical")
+
+pub const scale_vertical = #("-moz-appearance", "scale-vertical")
+
+pub const scrollbarbutton_down = #("-moz-appearance", "scrollbarbutton-down")
+
+pub const scrollbarbutton_left = #("-moz-appearance", "scrollbarbutton-left")
+
+pub const scrollbarbutton_right = #("-moz-appearance", "scrollbarbutton-right")
+
+pub const scrollbarbutton_up = #("-moz-appearance", "scrollbarbutton-up")
+
+pub const scrollbarthumb_horizontal = #("-moz-appearance", "scrollbarthumb-horizontal")
+
+pub const scrollbarthumb_vertical = #("-moz-appearance", "scrollbarthumb-vertical")
+
+pub const scrollbartrack_horizontal = #("-moz-appearance", "scrollbartrack-horizontal")
+
+pub const scrollbartrack_vertical = #("-moz-appearance", "scrollbartrack-vertical")
+
+pub const searchfield = #("-moz-appearance", "searchfield")
+
+pub const separator = #("-moz-appearance", "separator")
+
+pub const sheet = #("-moz-appearance", "sheet")
+
+pub const spinner = #("-moz-appearance", "spinner")
+
+pub const spinner_downbutton = #("-moz-appearance", "spinner-downbutton")
+
+pub const spinner_textfield = #("-moz-appearance", "spinner-textfield")
+
+pub const spinner_upbutton = #("-moz-appearance", "spinner-upbutton")
+
+pub const splitter = #("-moz-appearance", "splitter")
+
+pub const statusbar = #("-moz-appearance", "statusbar")
+
+pub const statusbarpanel = #("-moz-appearance", "statusbarpanel")
+
+pub const tab = #("-moz-appearance", "tab")
+
+pub const tabpanel = #("-moz-appearance", "tabpanel")
+
+pub const tabpanels = #("-moz-appearance", "tabpanels")
+
+pub const tab_scroll_arrow_back = #("-moz-appearance", "tab-scroll-arrow-back")
+
+pub const tab_scroll_arrow_forward = #("-moz-appearance", "tab-scroll-arrow-forward")
+
+pub const textfield = #("-moz-appearance", "textfield")
+
+pub const textfield_multiline = #("-moz-appearance", "textfield-multiline")
+
+pub const toolbar = #("-moz-appearance", "toolbar")
+
+pub const toolbarbutton = #("-moz-appearance", "toolbarbutton")
+
+pub const toolbarbutton_dropdown = #("-moz-appearance", "toolbarbutton-dropdown")
+
+pub const toolbargripper = #("-moz-appearance", "toolbargripper")
+
+pub const toolbox = #("-moz-appearance", "toolbox")
+
+pub const tooltip = #("-moz-appearance", "tooltip")
+
+pub const treeheader = #("-moz-appearance", "treeheader")
+
+pub const treeheadercell = #("-moz-appearance", "treeheadercell")
+
+pub const treeheadersortarrow = #("-moz-appearance", "treeheadersortarrow")
+
+pub const treeitem = #("-moz-appearance", "treeitem")
+
+pub const treeline = #("-moz-appearance", "treeline")
+
+pub const treetwisty = #("-moz-appearance", "treetwisty")
+
+pub const treetwistyopen = #("-moz-appearance", "treetwistyopen")
+
+pub const treeview = #("-moz-appearance", "treeview")
+
+pub const moz_mac_unified_toolbar = #("-moz-appearance", "-moz-mac-unified-toolbar")
+
+pub const moz_win_borderless_glass = #("-moz-appearance", "-moz-win-borderless-glass")
+
+pub const moz_win_browsertabbar_toolbox = #("-moz-appearance", "-moz-win-browsertabbar-toolbox")
+
+pub const moz_win_communicationstext = #("-moz-appearance", "-moz-win-communicationstext")
+
+pub const moz_win_communications_toolbox = #("-moz-appearance", "-moz-win-communications-toolbox")
+
+pub const moz_win_exclude_glass = #("-moz-appearance", "-moz-win-exclude-glass")
+
+pub const moz_win_glass = #("-moz-appearance", "-moz-win-glass")
+
+pub const moz_win_mediatext = #("-moz-appearance", "-moz-win-mediatext")
+
+pub const moz_win_media_toolbox = #("-moz-appearance", "-moz-win-media-toolbox")
+
+pub const moz_window_button_box = #("-moz-appearance", "-moz-window-button-box")
+
+pub const moz_window_button_box_maximized = #("-moz-appearance", "-moz-window-button-box-maximized")
+
+pub const moz_window_button_close = #("-moz-appearance", "-moz-window-button-close")
+
+pub const moz_window_button_maximize = #("-moz-appearance", "-moz-window-button-maximize")
+
+pub const moz_window_button_minimize = #("-moz-appearance", "-moz-window-button-minimize")
+
+pub const moz_window_button_restore = #("-moz-appearance", "-moz-window-button-restore")
+
+pub const moz_window_frame_bottom = #("-moz-appearance", "-moz-window-frame-bottom")
+
+pub const moz_window_frame_left = #("-moz-appearance", "-moz-window-frame-left")
+
+pub const moz_window_frame_right = #("-moz-appearance", "-moz-window-frame-right")
+
+pub const moz_window_titlebar = #("-moz-appearance", "-moz-window-titlebar")
+
+pub const moz_window_titlebar_maximized = #("-moz-appearance", "-moz-window-titlebar-maximized")
 
 pub fn raw(value: String) -> #(String, String) {
   #("moz_appearance", value)

@@ -1,12 +1,8 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("font-synthesis-style", "auto")
-}
+pub const auto_ = #("font-synthesis-style", "auto")
 
-pub fn none() -> #(String, String) {
-  #("font-synthesis-style", "none")
-}
+pub const none = #("font-synthesis-style", "none")
 
 pub fn raw(value: String) -> #(String, String) {
   #("font_synthesis_style", value)

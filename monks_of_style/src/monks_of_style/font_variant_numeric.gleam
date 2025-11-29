@@ -1,40 +1,22 @@
 
 
-pub fn normal() -> #(String, String) {
-  #("font-variant-numeric", "normal")
-}
+pub const normal = #("font-variant-numeric", "normal")
 
-pub fn lining_nums() -> #(String, String) {
-  #("font-variant-numeric", "lining-nums")
-}
+pub const lining_nums = #("font-variant-numeric", "lining-nums")
 
-pub fn oldstyle_nums() -> #(String, String) {
-  #("font-variant-numeric", "oldstyle-nums")
-}
+pub const oldstyle_nums = #("font-variant-numeric", "oldstyle-nums")
 
-pub fn proportional_nums() -> #(String, String) {
-  #("font-variant-numeric", "proportional-nums")
-}
+pub const proportional_nums = #("font-variant-numeric", "proportional-nums")
 
-pub fn tabular_nums() -> #(String, String) {
-  #("font-variant-numeric", "tabular-nums")
-}
+pub const tabular_nums = #("font-variant-numeric", "tabular-nums")
 
-pub fn diagonal_fractions() -> #(String, String) {
-  #("font-variant-numeric", "diagonal-fractions")
-}
+pub const diagonal_fractions = #("font-variant-numeric", "diagonal-fractions")
 
-pub fn stacked_fractions() -> #(String, String) {
-  #("font-variant-numeric", "stacked-fractions")
-}
+pub const stacked_fractions = #("font-variant-numeric", "stacked-fractions")
 
-pub fn ordinal() -> #(String, String) {
-  #("font-variant-numeric", "ordinal")
-}
+pub const ordinal = #("font-variant-numeric", "ordinal")
 
-pub fn slashed_zero() -> #(String, String) {
-  #("font-variant-numeric", "slashed-zero")
-}
+pub const slashed_zero = #("font-variant-numeric", "slashed-zero")
 
 pub fn raw(value: String) -> #(String, String) {
   #("font_variant_numeric", value)

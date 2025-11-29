@@ -1,72 +1,38 @@
 
 
-pub fn normal() -> #(String, String) {
-  #("mix-blend-mode", "normal")
-}
+pub const normal = #("mix-blend-mode", "normal")
 
-pub fn multiply() -> #(String, String) {
-  #("mix-blend-mode", "multiply")
-}
+pub const multiply = #("mix-blend-mode", "multiply")
 
-pub fn screen() -> #(String, String) {
-  #("mix-blend-mode", "screen")
-}
+pub const screen = #("mix-blend-mode", "screen")
 
-pub fn overlay() -> #(String, String) {
-  #("mix-blend-mode", "overlay")
-}
+pub const overlay = #("mix-blend-mode", "overlay")
 
-pub fn darken() -> #(String, String) {
-  #("mix-blend-mode", "darken")
-}
+pub const darken = #("mix-blend-mode", "darken")
 
-pub fn lighten() -> #(String, String) {
-  #("mix-blend-mode", "lighten")
-}
+pub const lighten = #("mix-blend-mode", "lighten")
 
-pub fn color_dodge() -> #(String, String) {
-  #("mix-blend-mode", "color-dodge")
-}
+pub const color_dodge = #("mix-blend-mode", "color-dodge")
 
-pub fn color_burn() -> #(String, String) {
-  #("mix-blend-mode", "color-burn")
-}
+pub const color_burn = #("mix-blend-mode", "color-burn")
 
-pub fn hard_light() -> #(String, String) {
-  #("mix-blend-mode", "hard-light")
-}
+pub const hard_light = #("mix-blend-mode", "hard-light")
 
-pub fn soft_light() -> #(String, String) {
-  #("mix-blend-mode", "soft-light")
-}
+pub const soft_light = #("mix-blend-mode", "soft-light")
 
-pub fn difference() -> #(String, String) {
-  #("mix-blend-mode", "difference")
-}
+pub const difference = #("mix-blend-mode", "difference")
 
-pub fn exclusion() -> #(String, String) {
-  #("mix-blend-mode", "exclusion")
-}
+pub const exclusion = #("mix-blend-mode", "exclusion")
 
-pub fn hue() -> #(String, String) {
-  #("mix-blend-mode", "hue")
-}
+pub const hue = #("mix-blend-mode", "hue")
 
-pub fn saturation() -> #(String, String) {
-  #("mix-blend-mode", "saturation")
-}
+pub const saturation = #("mix-blend-mode", "saturation")
 
-pub fn color() -> #(String, String) {
-  #("mix-blend-mode", "color")
-}
+pub const color = #("mix-blend-mode", "color")
 
-pub fn luminosity() -> #(String, String) {
-  #("mix-blend-mode", "luminosity")
-}
+pub const luminosity = #("mix-blend-mode", "luminosity")
 
-pub fn plus_lighter() -> #(String, String) {
-  #("mix-blend-mode", "plus-lighter")
-}
+pub const plus_lighter = #("mix-blend-mode", "plus-lighter")
 
 pub fn raw(value: String) -> #(String, String) {
   #("mix_blend_mode", value)

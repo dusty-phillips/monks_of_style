@@ -1,16 +1,10 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("text-wrap-mode", "auto")
-}
+pub const auto_ = #("text-wrap-mode", "auto")
 
-pub fn wrap() -> #(String, String) {
-  #("text-wrap-mode", "wrap")
-}
+pub const wrap = #("text-wrap-mode", "wrap")
 
-pub fn nowrap() -> #(String, String) {
-  #("text-wrap-mode", "nowrap")
-}
+pub const nowrap = #("text-wrap-mode", "nowrap")
 
 pub fn raw(value: String) -> #(String, String) {
   #("text_wrap_mode", value)

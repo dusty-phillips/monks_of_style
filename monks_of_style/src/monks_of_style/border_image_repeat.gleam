@@ -1,20 +1,12 @@
 
 
-pub fn stretch() -> #(String, String) {
-  #("border-image-repeat", "stretch")
-}
+pub const stretch = #("border-image-repeat", "stretch")
 
-pub fn repeat() -> #(String, String) {
-  #("border-image-repeat", "repeat")
-}
+pub const repeat = #("border-image-repeat", "repeat")
 
-pub fn round() -> #(String, String) {
-  #("border-image-repeat", "round")
-}
+pub const round = #("border-image-repeat", "round")
 
-pub fn space() -> #(String, String) {
-  #("border-image-repeat", "space")
-}
+pub const space = #("border-image-repeat", "space")
 
 pub fn raw(value: String) -> #(String, String) {
   #("border_image_repeat", value)

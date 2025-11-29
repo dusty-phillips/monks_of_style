@@ -1,12 +1,8 @@
 
 
-pub fn numeric_only() -> #(String, String) {
-  #("interpolate-size", "numeric-only")
-}
+pub const numeric_only = #("interpolate-size", "numeric-only")
 
-pub fn allow_keywords() -> #(String, String) {
-  #("interpolate-size", "allow-keywords")
-}
+pub const allow_keywords = #("interpolate-size", "allow-keywords")
 
 pub fn raw(value: String) -> #(String, String) {
   #("interpolate_size", value)

@@ -1,24 +1,14 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("user-select", "auto")
-}
+pub const auto_ = #("user-select", "auto")
 
-pub fn text() -> #(String, String) {
-  #("user-select", "text")
-}
+pub const text = #("user-select", "text")
 
-pub fn none() -> #(String, String) {
-  #("user-select", "none")
-}
+pub const none = #("user-select", "none")
 
-pub fn contain() -> #(String, String) {
-  #("user-select", "contain")
-}
+pub const contain = #("user-select", "contain")
 
-pub fn all() -> #(String, String) {
-  #("user-select", "all")
-}
+pub const all = #("user-select", "all")
 
 pub fn raw(value: String) -> #(String, String) {
   #("user_select", value)

@@ -1,20 +1,12 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("-webkit-font-smoothing", "auto")
-}
+pub const auto_ = #("-webkit-font-smoothing", "auto")
 
-pub fn none() -> #(String, String) {
-  #("-webkit-font-smoothing", "none")
-}
+pub const none = #("-webkit-font-smoothing", "none")
 
-pub fn antialiased() -> #(String, String) {
-  #("-webkit-font-smoothing", "antialiased")
-}
+pub const antialiased = #("-webkit-font-smoothing", "antialiased")
 
-pub fn subpixel_antialiased() -> #(String, String) {
-  #("-webkit-font-smoothing", "subpixel-antialiased")
-}
+pub const subpixel_antialiased = #("-webkit-font-smoothing", "subpixel-antialiased")
 
 pub fn raw(value: String) -> #(String, String) {
   #("webkit_font_smoothing", value)

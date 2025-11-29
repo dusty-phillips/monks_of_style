@@ -1,56 +1,30 @@
 
 
-pub fn linear() -> #(String, String) {
-  #("transition-timing-function", "linear")
-}
+pub const linear = #("transition-timing-function", "linear")
 
-pub fn ease() -> #(String, String) {
-  #("transition-timing-function", "ease")
-}
+pub const ease = #("transition-timing-function", "ease")
 
-pub fn ease_in() -> #(String, String) {
-  #("transition-timing-function", "ease-in")
-}
+pub const ease_in = #("transition-timing-function", "ease-in")
 
-pub fn ease_out() -> #(String, String) {
-  #("transition-timing-function", "ease-out")
-}
+pub const ease_out = #("transition-timing-function", "ease-out")
 
-pub fn ease_in_out() -> #(String, String) {
-  #("transition-timing-function", "ease-in-out")
-}
+pub const ease_in_out = #("transition-timing-function", "ease-in-out")
 
-pub fn step_start() -> #(String, String) {
-  #("transition-timing-function", "step-start")
-}
+pub const step_start = #("transition-timing-function", "step-start")
 
-pub fn step_end() -> #(String, String) {
-  #("transition-timing-function", "step-end")
-}
+pub const step_end = #("transition-timing-function", "step-end")
 
-pub fn jump_start() -> #(String, String) {
-  #("transition-timing-function", "jump-start")
-}
+pub const jump_start = #("transition-timing-function", "jump-start")
 
-pub fn jump_end() -> #(String, String) {
-  #("transition-timing-function", "jump-end")
-}
+pub const jump_end = #("transition-timing-function", "jump-end")
 
-pub fn jump_none() -> #(String, String) {
-  #("transition-timing-function", "jump-none")
-}
+pub const jump_none = #("transition-timing-function", "jump-none")
 
-pub fn jump_both() -> #(String, String) {
-  #("transition-timing-function", "jump-both")
-}
+pub const jump_both = #("transition-timing-function", "jump-both")
 
-pub fn start() -> #(String, String) {
-  #("transition-timing-function", "start")
-}
+pub const start = #("transition-timing-function", "start")
 
-pub fn end() -> #(String, String) {
-  #("transition-timing-function", "end")
-}
+pub const end = #("transition-timing-function", "end")
 
 pub fn raw(value: String) -> #(String, String) {
   #("transition_timing_function", value)

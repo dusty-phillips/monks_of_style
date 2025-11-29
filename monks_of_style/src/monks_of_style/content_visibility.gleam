@@ -1,16 +1,10 @@
 
 
-pub fn visible() -> #(String, String) {
-  #("content-visibility", "visible")
-}
+pub const visible = #("content-visibility", "visible")
 
-pub fn auto_() -> #(String, String) {
-  #("content-visibility", "auto")
-}
+pub const auto_ = #("content-visibility", "auto")
 
-pub fn hidden() -> #(String, String) {
-  #("content-visibility", "hidden")
-}
+pub const hidden = #("content-visibility", "hidden")
 
 pub fn raw(value: String) -> #(String, String) {
   #("content_visibility", value)

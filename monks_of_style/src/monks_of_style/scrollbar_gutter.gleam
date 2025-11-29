@@ -1,16 +1,10 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("scrollbar-gutter", "auto")
-}
+pub const auto_ = #("scrollbar-gutter", "auto")
 
-pub fn stable() -> #(String, String) {
-  #("scrollbar-gutter", "stable")
-}
+pub const stable = #("scrollbar-gutter", "stable")
 
-pub fn both_edges() -> #(String, String) {
-  #("scrollbar-gutter", "both-edges")
-}
+pub const both_edges = #("scrollbar-gutter", "both-edges")
 
 pub fn raw(value: String) -> #(String, String) {
   #("scrollbar_gutter", value)

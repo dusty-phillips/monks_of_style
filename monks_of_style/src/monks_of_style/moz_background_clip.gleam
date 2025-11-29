@@ -1,12 +1,8 @@
 
 
-pub fn padding() -> #(String, String) {
-  #("-moz-background-clip", "padding")
-}
+pub const padding = #("-moz-background-clip", "padding")
 
-pub fn border() -> #(String, String) {
-  #("-moz-background-clip", "border")
-}
+pub const border = #("-moz-background-clip", "border")
 
 pub fn raw(value: String) -> #(String, String) {
   #("moz_background_clip", value)

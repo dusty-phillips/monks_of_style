@@ -1,24 +1,14 @@
 
 
-pub fn left() -> #(String, String) {
-  #("float", "left")
-}
+pub const left = #("float", "left")
 
-pub fn right() -> #(String, String) {
-  #("float", "right")
-}
+pub const right = #("float", "right")
 
-pub fn none() -> #(String, String) {
-  #("float", "none")
-}
+pub const none = #("float", "none")
 
-pub fn inline_start() -> #(String, String) {
-  #("float", "inline-start")
-}
+pub const inline_start = #("float", "inline-start")
 
-pub fn inline_end() -> #(String, String) {
-  #("float", "inline-end")
-}
+pub const inline_end = #("float", "inline-end")
 
 pub fn raw(value: String) -> #(String, String) {
   #("float", value)

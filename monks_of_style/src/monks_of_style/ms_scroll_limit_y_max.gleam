@@ -1,8 +1,6 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("-ms-scroll-limit-y-max", "auto")
-}
+pub const auto_ = #("-ms-scroll-limit-y-max", "auto")
 
 pub fn raw(value: String) -> #(String, String) {
   #("ms_scroll_limit_y_max", value)

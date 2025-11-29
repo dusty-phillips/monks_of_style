@@ -1,20 +1,12 @@
 
 
-pub fn block() -> #(String, String) {
-  #("scroll-timeline-axis", "block")
-}
+pub const block = #("scroll-timeline-axis", "block")
 
-pub fn inline() -> #(String, String) {
-  #("scroll-timeline-axis", "inline")
-}
+pub const inline = #("scroll-timeline-axis", "inline")
 
-pub fn x() -> #(String, String) {
-  #("scroll-timeline-axis", "x")
-}
+pub const x = #("scroll-timeline-axis", "x")
 
-pub fn y() -> #(String, String) {
-  #("scroll-timeline-axis", "y")
-}
+pub const y = #("scroll-timeline-axis", "y")
 
 pub fn raw(value: String) -> #(String, String) {
   #("scroll_timeline_axis", value)

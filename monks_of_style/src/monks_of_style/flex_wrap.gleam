@@ -1,16 +1,10 @@
 
 
-pub fn nowrap() -> #(String, String) {
-  #("flex-wrap", "nowrap")
-}
+pub const nowrap = #("flex-wrap", "nowrap")
 
-pub fn wrap() -> #(String, String) {
-  #("flex-wrap", "wrap")
-}
+pub const wrap = #("flex-wrap", "wrap")
 
-pub fn wrap_reverse() -> #(String, String) {
-  #("flex-wrap", "wrap-reverse")
-}
+pub const wrap_reverse = #("flex-wrap", "wrap-reverse")
 
 pub fn raw(value: String) -> #(String, String) {
   #("flex_wrap", value)

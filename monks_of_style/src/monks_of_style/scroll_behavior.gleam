@@ -1,12 +1,8 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("scroll-behavior", "auto")
-}
+pub const auto_ = #("scroll-behavior", "auto")
 
-pub fn smooth() -> #(String, String) {
-  #("scroll-behavior", "smooth")
-}
+pub const smooth = #("scroll-behavior", "smooth")
 
 pub fn raw(value: String) -> #(String, String) {
   #("scroll_behavior", value)

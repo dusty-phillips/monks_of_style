@@ -1,68 +1,36 @@
 
 
-pub fn content() -> #(String, String) {
-  #("flex-basis", "content")
-}
+pub const content = #("flex-basis", "content")
 
-pub fn auto_() -> #(String, String) {
-  #("flex-basis", "auto")
-}
+pub const auto_ = #("flex-basis", "auto")
 
-pub fn min_content() -> #(String, String) {
-  #("flex-basis", "min-content")
-}
+pub const min_content = #("flex-basis", "min-content")
 
-pub fn max_content() -> #(String, String) {
-  #("flex-basis", "max-content")
-}
+pub const max_content = #("flex-basis", "max-content")
 
-pub fn fit_content() -> #(String, String) {
-  #("flex-basis", "fit-content")
-}
+pub const fit_content = #("flex-basis", "fit-content")
 
-pub fn stretch() -> #(String, String) {
-  #("flex-basis", "stretch")
-}
+pub const stretch = #("flex-basis", "stretch")
 
-pub fn intrinsic() -> #(String, String) {
-  #("flex-basis", "intrinsic")
-}
+pub const intrinsic = #("flex-basis", "intrinsic")
 
-pub fn min_intrinsic() -> #(String, String) {
-  #("flex-basis", "min-intrinsic")
-}
+pub const min_intrinsic = #("flex-basis", "min-intrinsic")
 
-pub fn webkit_fill_available() -> #(String, String) {
-  #("flex-basis", "-webkit-fill-available")
-}
+pub const webkit_fill_available = #("flex-basis", "-webkit-fill-available")
 
-pub fn webkit_fit_content() -> #(String, String) {
-  #("flex-basis", "-webkit-fit-content")
-}
+pub const webkit_fit_content = #("flex-basis", "-webkit-fit-content")
 
-pub fn webkit_min_content() -> #(String, String) {
-  #("flex-basis", "-webkit-min-content")
-}
+pub const webkit_min_content = #("flex-basis", "-webkit-min-content")
 
-pub fn webkit_max_content() -> #(String, String) {
-  #("flex-basis", "-webkit-max-content")
-}
+pub const webkit_max_content = #("flex-basis", "-webkit-max-content")
 
-pub fn moz_available() -> #(String, String) {
-  #("flex-basis", "-moz-available")
-}
+pub const moz_available = #("flex-basis", "-moz-available")
 
-pub fn moz_fit_content() -> #(String, String) {
-  #("flex-basis", "-moz-fit-content")
-}
+pub const moz_fit_content = #("flex-basis", "-moz-fit-content")
 
-pub fn moz_min_content() -> #(String, String) {
-  #("flex-basis", "-moz-min-content")
-}
+pub const moz_min_content = #("flex-basis", "-moz-min-content")
 
-pub fn moz_max_content() -> #(String, String) {
-  #("flex-basis", "-moz-max-content")
-}
+pub const moz_max_content = #("flex-basis", "-moz-max-content")
 
 pub fn raw(value: String) -> #(String, String) {
   #("flex_basis", value)

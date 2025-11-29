@@ -1,8 +1,6 @@
 
 
-pub fn normal() -> #(String, String) {
-  #("column-gap", "normal")
-}
+pub const normal = #("column-gap", "normal")
 
 pub fn raw(value: String) -> #(String, String) {
   #("column_gap", value)

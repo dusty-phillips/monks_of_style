@@ -1,8 +1,6 @@
 
 
-pub fn none() -> #(String, String) {
-  #("-ms-flow-from", "none")
-}
+pub const none = #("-ms-flow-from", "none")
 
 pub fn raw(value: String) -> #(String, String) {
   #("ms_flow_from", value)

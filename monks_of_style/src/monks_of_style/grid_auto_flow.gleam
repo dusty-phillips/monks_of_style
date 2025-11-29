@@ -1,16 +1,10 @@
 
 
-pub fn row() -> #(String, String) {
-  #("grid-auto-flow", "row")
-}
+pub const row = #("grid-auto-flow", "row")
 
-pub fn column() -> #(String, String) {
-  #("grid-auto-flow", "column")
-}
+pub const column = #("grid-auto-flow", "column")
 
-pub fn dense() -> #(String, String) {
-  #("grid-auto-flow", "dense")
-}
+pub const dense = #("grid-auto-flow", "dense")
 
 pub fn raw(value: String) -> #(String, String) {
   #("grid_auto_flow", value)

@@ -1,12 +1,8 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("contain-intrinsic-size", "auto")
-}
+pub const auto_ = #("contain-intrinsic-size", "auto")
 
-pub fn none() -> #(String, String) {
-  #("contain-intrinsic-size", "none")
-}
+pub const none = #("contain-intrinsic-size", "none")
 
 pub fn raw(value: String) -> #(String, String) {
   #("contain_intrinsic_size", value)

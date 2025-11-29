@@ -1,16 +1,10 @@
 
 
-pub fn none() -> #(String, String) {
-  #("-ms-user-select", "none")
-}
+pub const none = #("-ms-user-select", "none")
 
-pub fn element() -> #(String, String) {
-  #("-ms-user-select", "element")
-}
+pub const element = #("-ms-user-select", "element")
 
-pub fn text() -> #(String, String) {
-  #("-ms-user-select", "text")
-}
+pub const text = #("-ms-user-select", "text")
 
 pub fn raw(value: String) -> #(String, String) {
   #("ms_user_select", value)

@@ -1,24 +1,14 @@
 
 
-pub fn fill() -> #(String, String) {
-  #("object-fit", "fill")
-}
+pub const fill = #("object-fit", "fill")
 
-pub fn contain() -> #(String, String) {
-  #("object-fit", "contain")
-}
+pub const contain = #("object-fit", "contain")
 
-pub fn cover() -> #(String, String) {
-  #("object-fit", "cover")
-}
+pub const cover = #("object-fit", "cover")
 
-pub fn none() -> #(String, String) {
-  #("object-fit", "none")
-}
+pub const none = #("object-fit", "none")
 
-pub fn scale_down() -> #(String, String) {
-  #("object-fit", "scale-down")
-}
+pub const scale_down = #("object-fit", "scale-down")
 
 pub fn raw(value: String) -> #(String, String) {
   #("object_fit", value)

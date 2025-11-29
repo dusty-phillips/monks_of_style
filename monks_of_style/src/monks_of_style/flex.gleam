@@ -1,72 +1,38 @@
 
 
-pub fn none() -> #(String, String) {
-  #("flex", "none")
-}
+pub const none = #("flex", "none")
 
-pub fn content() -> #(String, String) {
-  #("flex", "content")
-}
+pub const content = #("flex", "content")
 
-pub fn auto_() -> #(String, String) {
-  #("flex", "auto")
-}
+pub const auto_ = #("flex", "auto")
 
-pub fn min_content() -> #(String, String) {
-  #("flex", "min-content")
-}
+pub const min_content = #("flex", "min-content")
 
-pub fn max_content() -> #(String, String) {
-  #("flex", "max-content")
-}
+pub const max_content = #("flex", "max-content")
 
-pub fn fit_content() -> #(String, String) {
-  #("flex", "fit-content")
-}
+pub const fit_content = #("flex", "fit-content")
 
-pub fn stretch() -> #(String, String) {
-  #("flex", "stretch")
-}
+pub const stretch = #("flex", "stretch")
 
-pub fn intrinsic() -> #(String, String) {
-  #("flex", "intrinsic")
-}
+pub const intrinsic = #("flex", "intrinsic")
 
-pub fn min_intrinsic() -> #(String, String) {
-  #("flex", "min-intrinsic")
-}
+pub const min_intrinsic = #("flex", "min-intrinsic")
 
-pub fn webkit_fill_available() -> #(String, String) {
-  #("flex", "-webkit-fill-available")
-}
+pub const webkit_fill_available = #("flex", "-webkit-fill-available")
 
-pub fn webkit_fit_content() -> #(String, String) {
-  #("flex", "-webkit-fit-content")
-}
+pub const webkit_fit_content = #("flex", "-webkit-fit-content")
 
-pub fn webkit_min_content() -> #(String, String) {
-  #("flex", "-webkit-min-content")
-}
+pub const webkit_min_content = #("flex", "-webkit-min-content")
 
-pub fn webkit_max_content() -> #(String, String) {
-  #("flex", "-webkit-max-content")
-}
+pub const webkit_max_content = #("flex", "-webkit-max-content")
 
-pub fn moz_available() -> #(String, String) {
-  #("flex", "-moz-available")
-}
+pub const moz_available = #("flex", "-moz-available")
 
-pub fn moz_fit_content() -> #(String, String) {
-  #("flex", "-moz-fit-content")
-}
+pub const moz_fit_content = #("flex", "-moz-fit-content")
 
-pub fn moz_min_content() -> #(String, String) {
-  #("flex", "-moz-min-content")
-}
+pub const moz_min_content = #("flex", "-moz-min-content")
 
-pub fn moz_max_content() -> #(String, String) {
-  #("flex", "-moz-max-content")
-}
+pub const moz_max_content = #("flex", "-moz-max-content")
 
 pub fn raw(value: String) -> #(String, String) {
   #("flex", value)

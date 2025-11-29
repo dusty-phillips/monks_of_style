@@ -1,28 +1,16 @@
 
 
-pub fn static() -> #(String, String) {
-  #("position", "static")
-}
+pub const static = #("position", "static")
 
-pub fn relative() -> #(String, String) {
-  #("position", "relative")
-}
+pub const relative = #("position", "relative")
 
-pub fn absolute() -> #(String, String) {
-  #("position", "absolute")
-}
+pub const absolute = #("position", "absolute")
 
-pub fn sticky() -> #(String, String) {
-  #("position", "sticky")
-}
+pub const sticky = #("position", "sticky")
 
-pub fn fixed() -> #(String, String) {
-  #("position", "fixed")
-}
+pub const fixed = #("position", "fixed")
 
-pub fn webkit_sticky() -> #(String, String) {
-  #("position", "-webkit-sticky")
-}
+pub const webkit_sticky = #("position", "-webkit-sticky")
 
 pub fn raw(value: String) -> #(String, String) {
   #("position", value)

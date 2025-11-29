@@ -1,20 +1,12 @@
 
 
-pub fn alternate() -> #(String, String) {
-  #("ruby-position", "alternate")
-}
+pub const alternate = #("ruby-position", "alternate")
 
-pub fn over() -> #(String, String) {
-  #("ruby-position", "over")
-}
+pub const over = #("ruby-position", "over")
 
-pub fn under() -> #(String, String) {
-  #("ruby-position", "under")
-}
+pub const under = #("ruby-position", "under")
 
-pub fn inter_character() -> #(String, String) {
-  #("ruby-position", "inter-character")
-}
+pub const inter_character = #("ruby-position", "inter-character")
 
 pub fn raw(value: String) -> #(String, String) {
   #("ruby_position", value)

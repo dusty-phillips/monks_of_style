@@ -1,20 +1,12 @@
 
 
-pub fn start() -> #(String, String) {
-  #("ruby-align", "start")
-}
+pub const start = #("ruby-align", "start")
 
-pub fn center() -> #(String, String) {
-  #("ruby-align", "center")
-}
+pub const center = #("ruby-align", "center")
 
-pub fn space_between() -> #(String, String) {
-  #("ruby-align", "space-between")
-}
+pub const space_between = #("ruby-align", "space-between")
 
-pub fn space_around() -> #(String, String) {
-  #("ruby-align", "space-around")
-}
+pub const space_around = #("ruby-align", "space-around")
 
 pub fn raw(value: String) -> #(String, String) {
   #("ruby_align", value)

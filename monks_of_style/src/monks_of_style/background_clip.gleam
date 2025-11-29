@@ -1,24 +1,14 @@
 
 
-pub fn border_box() -> #(String, String) {
-  #("background-clip", "border-box")
-}
+pub const border_box = #("background-clip", "border-box")
 
-pub fn padding_box() -> #(String, String) {
-  #("background-clip", "padding-box")
-}
+pub const padding_box = #("background-clip", "padding-box")
 
-pub fn content_box() -> #(String, String) {
-  #("background-clip", "content-box")
-}
+pub const content_box = #("background-clip", "content-box")
 
-pub fn border() -> #(String, String) {
-  #("background-clip", "border")
-}
+pub const border = #("background-clip", "border")
 
-pub fn text() -> #(String, String) {
-  #("background-clip", "text")
-}
+pub const text = #("background-clip", "text")
 
 pub fn raw(value: String) -> #(String, String) {
   #("background_clip", value)

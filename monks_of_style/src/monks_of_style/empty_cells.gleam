@@ -1,12 +1,8 @@
 
 
-pub fn show() -> #(String, String) {
-  #("empty-cells", "show")
-}
+pub const show = #("empty-cells", "show")
 
-pub fn hide() -> #(String, String) {
-  #("empty-cells", "hide")
-}
+pub const hide = #("empty-cells", "hide")
 
 pub fn raw(value: String) -> #(String, String) {
   #("empty_cells", value)

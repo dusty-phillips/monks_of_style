@@ -1,24 +1,14 @@
 
 
-pub fn none() -> #(String, String) {
-  #("font-synthesis", "none")
-}
+pub const none = #("font-synthesis", "none")
 
-pub fn weight() -> #(String, String) {
-  #("font-synthesis", "weight")
-}
+pub const weight = #("font-synthesis", "weight")
 
-pub fn style() -> #(String, String) {
-  #("font-synthesis", "style")
-}
+pub const style = #("font-synthesis", "style")
 
-pub fn small_caps() -> #(String, String) {
-  #("font-synthesis", "small-caps")
-}
+pub const small_caps = #("font-synthesis", "small-caps")
 
-pub fn position() -> #(String, String) {
-  #("font-synthesis", "position")
-}
+pub const position = #("font-synthesis", "position")
 
 pub fn raw(value: String) -> #(String, String) {
   #("font_synthesis", value)

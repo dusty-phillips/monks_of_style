@@ -1,244 +1,124 @@
 
 
-pub fn none() -> #(String, String) {
-  #("-webkit-appearance", "none")
-}
+pub const none = #("-webkit-appearance", "none")
 
-pub fn button() -> #(String, String) {
-  #("-webkit-appearance", "button")
-}
+pub const button = #("-webkit-appearance", "button")
 
-pub fn button_bevel() -> #(String, String) {
-  #("-webkit-appearance", "button-bevel")
-}
+pub const button_bevel = #("-webkit-appearance", "button-bevel")
 
-pub fn caps_lock_indicator() -> #(String, String) {
-  #("-webkit-appearance", "caps-lock-indicator")
-}
+pub const caps_lock_indicator = #("-webkit-appearance", "caps-lock-indicator")
 
-pub fn caret() -> #(String, String) {
-  #("-webkit-appearance", "caret")
-}
+pub const caret = #("-webkit-appearance", "caret")
 
-pub fn checkbox() -> #(String, String) {
-  #("-webkit-appearance", "checkbox")
-}
+pub const checkbox = #("-webkit-appearance", "checkbox")
 
-pub fn default_button() -> #(String, String) {
-  #("-webkit-appearance", "default-button")
-}
+pub const default_button = #("-webkit-appearance", "default-button")
 
-pub fn inner_spin_button() -> #(String, String) {
-  #("-webkit-appearance", "inner-spin-button")
-}
+pub const inner_spin_button = #("-webkit-appearance", "inner-spin-button")
 
-pub fn listbox() -> #(String, String) {
-  #("-webkit-appearance", "listbox")
-}
+pub const listbox = #("-webkit-appearance", "listbox")
 
-pub fn listitem() -> #(String, String) {
-  #("-webkit-appearance", "listitem")
-}
+pub const listitem = #("-webkit-appearance", "listitem")
 
-pub fn media_controls_background() -> #(String, String) {
-  #("-webkit-appearance", "media-controls-background")
-}
+pub const media_controls_background = #("-webkit-appearance", "media-controls-background")
 
-pub fn media_controls_fullscreen_background() -> #(String, String) {
-  #("-webkit-appearance", "media-controls-fullscreen-background")
-}
+pub const media_controls_fullscreen_background = #("-webkit-appearance", "media-controls-fullscreen-background")
 
-pub fn media_current_time_display() -> #(String, String) {
-  #("-webkit-appearance", "media-current-time-display")
-}
+pub const media_current_time_display = #("-webkit-appearance", "media-current-time-display")
 
-pub fn media_enter_fullscreen_button() -> #(String, String) {
-  #("-webkit-appearance", "media-enter-fullscreen-button")
-}
+pub const media_enter_fullscreen_button = #("-webkit-appearance", "media-enter-fullscreen-button")
 
-pub fn media_exit_fullscreen_button() -> #(String, String) {
-  #("-webkit-appearance", "media-exit-fullscreen-button")
-}
+pub const media_exit_fullscreen_button = #("-webkit-appearance", "media-exit-fullscreen-button")
 
-pub fn media_fullscreen_button() -> #(String, String) {
-  #("-webkit-appearance", "media-fullscreen-button")
-}
+pub const media_fullscreen_button = #("-webkit-appearance", "media-fullscreen-button")
 
-pub fn media_mute_button() -> #(String, String) {
-  #("-webkit-appearance", "media-mute-button")
-}
+pub const media_mute_button = #("-webkit-appearance", "media-mute-button")
 
-pub fn media_overlay_play_button() -> #(String, String) {
-  #("-webkit-appearance", "media-overlay-play-button")
-}
+pub const media_overlay_play_button = #("-webkit-appearance", "media-overlay-play-button")
 
-pub fn media_play_button() -> #(String, String) {
-  #("-webkit-appearance", "media-play-button")
-}
+pub const media_play_button = #("-webkit-appearance", "media-play-button")
 
-pub fn media_seek_back_button() -> #(String, String) {
-  #("-webkit-appearance", "media-seek-back-button")
-}
+pub const media_seek_back_button = #("-webkit-appearance", "media-seek-back-button")
 
-pub fn media_seek_forward_button() -> #(String, String) {
-  #("-webkit-appearance", "media-seek-forward-button")
-}
+pub const media_seek_forward_button = #("-webkit-appearance", "media-seek-forward-button")
 
-pub fn media_slider() -> #(String, String) {
-  #("-webkit-appearance", "media-slider")
-}
+pub const media_slider = #("-webkit-appearance", "media-slider")
 
-pub fn media_sliderthumb() -> #(String, String) {
-  #("-webkit-appearance", "media-sliderthumb")
-}
+pub const media_sliderthumb = #("-webkit-appearance", "media-sliderthumb")
 
-pub fn media_time_remaining_display() -> #(String, String) {
-  #("-webkit-appearance", "media-time-remaining-display")
-}
+pub const media_time_remaining_display = #("-webkit-appearance", "media-time-remaining-display")
 
-pub fn media_toggle_closed_captions_button() -> #(String, String) {
-  #("-webkit-appearance", "media-toggle-closed-captions-button")
-}
+pub const media_toggle_closed_captions_button = #("-webkit-appearance", "media-toggle-closed-captions-button")
 
-pub fn media_volume_slider() -> #(String, String) {
-  #("-webkit-appearance", "media-volume-slider")
-}
+pub const media_volume_slider = #("-webkit-appearance", "media-volume-slider")
 
-pub fn media_volume_slider_container() -> #(String, String) {
-  #("-webkit-appearance", "media-volume-slider-container")
-}
+pub const media_volume_slider_container = #("-webkit-appearance", "media-volume-slider-container")
 
-pub fn media_volume_sliderthumb() -> #(String, String) {
-  #("-webkit-appearance", "media-volume-sliderthumb")
-}
+pub const media_volume_sliderthumb = #("-webkit-appearance", "media-volume-sliderthumb")
 
-pub fn menulist() -> #(String, String) {
-  #("-webkit-appearance", "menulist")
-}
+pub const menulist = #("-webkit-appearance", "menulist")
 
-pub fn menulist_button() -> #(String, String) {
-  #("-webkit-appearance", "menulist-button")
-}
+pub const menulist_button = #("-webkit-appearance", "menulist-button")
 
-pub fn menulist_text() -> #(String, String) {
-  #("-webkit-appearance", "menulist-text")
-}
+pub const menulist_text = #("-webkit-appearance", "menulist-text")
 
-pub fn menulist_textfield() -> #(String, String) {
-  #("-webkit-appearance", "menulist-textfield")
-}
+pub const menulist_textfield = #("-webkit-appearance", "menulist-textfield")
 
-pub fn meter() -> #(String, String) {
-  #("-webkit-appearance", "meter")
-}
+pub const meter = #("-webkit-appearance", "meter")
 
-pub fn progress_bar() -> #(String, String) {
-  #("-webkit-appearance", "progress-bar")
-}
+pub const progress_bar = #("-webkit-appearance", "progress-bar")
 
-pub fn progress_bar_value() -> #(String, String) {
-  #("-webkit-appearance", "progress-bar-value")
-}
+pub const progress_bar_value = #("-webkit-appearance", "progress-bar-value")
 
-pub fn push_button() -> #(String, String) {
-  #("-webkit-appearance", "push-button")
-}
+pub const push_button = #("-webkit-appearance", "push-button")
 
-pub fn radio() -> #(String, String) {
-  #("-webkit-appearance", "radio")
-}
+pub const radio = #("-webkit-appearance", "radio")
 
-pub fn scrollbarbutton_down() -> #(String, String) {
-  #("-webkit-appearance", "scrollbarbutton-down")
-}
+pub const scrollbarbutton_down = #("-webkit-appearance", "scrollbarbutton-down")
 
-pub fn scrollbarbutton_left() -> #(String, String) {
-  #("-webkit-appearance", "scrollbarbutton-left")
-}
+pub const scrollbarbutton_left = #("-webkit-appearance", "scrollbarbutton-left")
 
-pub fn scrollbarbutton_right() -> #(String, String) {
-  #("-webkit-appearance", "scrollbarbutton-right")
-}
+pub const scrollbarbutton_right = #("-webkit-appearance", "scrollbarbutton-right")
 
-pub fn scrollbarbutton_up() -> #(String, String) {
-  #("-webkit-appearance", "scrollbarbutton-up")
-}
+pub const scrollbarbutton_up = #("-webkit-appearance", "scrollbarbutton-up")
 
-pub fn scrollbargripper_horizontal() -> #(String, String) {
-  #("-webkit-appearance", "scrollbargripper-horizontal")
-}
+pub const scrollbargripper_horizontal = #("-webkit-appearance", "scrollbargripper-horizontal")
 
-pub fn scrollbargripper_vertical() -> #(String, String) {
-  #("-webkit-appearance", "scrollbargripper-vertical")
-}
+pub const scrollbargripper_vertical = #("-webkit-appearance", "scrollbargripper-vertical")
 
-pub fn scrollbarthumb_horizontal() -> #(String, String) {
-  #("-webkit-appearance", "scrollbarthumb-horizontal")
-}
+pub const scrollbarthumb_horizontal = #("-webkit-appearance", "scrollbarthumb-horizontal")
 
-pub fn scrollbarthumb_vertical() -> #(String, String) {
-  #("-webkit-appearance", "scrollbarthumb-vertical")
-}
+pub const scrollbarthumb_vertical = #("-webkit-appearance", "scrollbarthumb-vertical")
 
-pub fn scrollbartrack_horizontal() -> #(String, String) {
-  #("-webkit-appearance", "scrollbartrack-horizontal")
-}
+pub const scrollbartrack_horizontal = #("-webkit-appearance", "scrollbartrack-horizontal")
 
-pub fn scrollbartrack_vertical() -> #(String, String) {
-  #("-webkit-appearance", "scrollbartrack-vertical")
-}
+pub const scrollbartrack_vertical = #("-webkit-appearance", "scrollbartrack-vertical")
 
-pub fn searchfield() -> #(String, String) {
-  #("-webkit-appearance", "searchfield")
-}
+pub const searchfield = #("-webkit-appearance", "searchfield")
 
-pub fn searchfield_cancel_button() -> #(String, String) {
-  #("-webkit-appearance", "searchfield-cancel-button")
-}
+pub const searchfield_cancel_button = #("-webkit-appearance", "searchfield-cancel-button")
 
-pub fn searchfield_decoration() -> #(String, String) {
-  #("-webkit-appearance", "searchfield-decoration")
-}
+pub const searchfield_decoration = #("-webkit-appearance", "searchfield-decoration")
 
-pub fn searchfield_results_button() -> #(String, String) {
-  #("-webkit-appearance", "searchfield-results-button")
-}
+pub const searchfield_results_button = #("-webkit-appearance", "searchfield-results-button")
 
-pub fn searchfield_results_decoration() -> #(String, String) {
-  #("-webkit-appearance", "searchfield-results-decoration")
-}
+pub const searchfield_results_decoration = #("-webkit-appearance", "searchfield-results-decoration")
 
-pub fn slider_horizontal() -> #(String, String) {
-  #("-webkit-appearance", "slider-horizontal")
-}
+pub const slider_horizontal = #("-webkit-appearance", "slider-horizontal")
 
-pub fn slider_vertical() -> #(String, String) {
-  #("-webkit-appearance", "slider-vertical")
-}
+pub const slider_vertical = #("-webkit-appearance", "slider-vertical")
 
-pub fn sliderthumb_horizontal() -> #(String, String) {
-  #("-webkit-appearance", "sliderthumb-horizontal")
-}
+pub const sliderthumb_horizontal = #("-webkit-appearance", "sliderthumb-horizontal")
 
-pub fn sliderthumb_vertical() -> #(String, String) {
-  #("-webkit-appearance", "sliderthumb-vertical")
-}
+pub const sliderthumb_vertical = #("-webkit-appearance", "sliderthumb-vertical")
 
-pub fn square_button() -> #(String, String) {
-  #("-webkit-appearance", "square-button")
-}
+pub const square_button = #("-webkit-appearance", "square-button")
 
-pub fn textarea() -> #(String, String) {
-  #("-webkit-appearance", "textarea")
-}
+pub const textarea = #("-webkit-appearance", "textarea")
 
-pub fn textfield() -> #(String, String) {
-  #("-webkit-appearance", "textfield")
-}
+pub const textfield = #("-webkit-appearance", "textfield")
 
-pub fn apple_pay_button() -> #(String, String) {
-  #("-webkit-appearance", "-apple-pay-button")
-}
+pub const apple_pay_button = #("-webkit-appearance", "-apple-pay-button")
 
 pub fn raw(value: String) -> #(String, String) {
   #("webkit_appearance", value)

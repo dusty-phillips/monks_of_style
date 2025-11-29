@@ -1,16 +1,10 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("font-kerning", "auto")
-}
+pub const auto_ = #("font-kerning", "auto")
 
-pub fn normal() -> #(String, String) {
-  #("font-kerning", "normal")
-}
+pub const normal = #("font-kerning", "normal")
 
-pub fn none() -> #(String, String) {
-  #("font-kerning", "none")
-}
+pub const none = #("font-kerning", "none")
 
 pub fn raw(value: String) -> #(String, String) {
   #("font_kerning", value)

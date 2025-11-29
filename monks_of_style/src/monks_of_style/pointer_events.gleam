@@ -1,48 +1,26 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("pointer-events", "auto")
-}
+pub const auto_ = #("pointer-events", "auto")
 
-pub fn none() -> #(String, String) {
-  #("pointer-events", "none")
-}
+pub const none = #("pointer-events", "none")
 
-pub fn visible_painted() -> #(String, String) {
-  #("pointer-events", "visiblePainted")
-}
+pub const visible_painted = #("pointer-events", "visiblePainted")
 
-pub fn visible_fill() -> #(String, String) {
-  #("pointer-events", "visibleFill")
-}
+pub const visible_fill = #("pointer-events", "visibleFill")
 
-pub fn visible_stroke() -> #(String, String) {
-  #("pointer-events", "visibleStroke")
-}
+pub const visible_stroke = #("pointer-events", "visibleStroke")
 
-pub fn visible() -> #(String, String) {
-  #("pointer-events", "visible")
-}
+pub const visible = #("pointer-events", "visible")
 
-pub fn painted() -> #(String, String) {
-  #("pointer-events", "painted")
-}
+pub const painted = #("pointer-events", "painted")
 
-pub fn fill() -> #(String, String) {
-  #("pointer-events", "fill")
-}
+pub const fill = #("pointer-events", "fill")
 
-pub fn stroke() -> #(String, String) {
-  #("pointer-events", "stroke")
-}
+pub const stroke = #("pointer-events", "stroke")
 
-pub fn all() -> #(String, String) {
-  #("pointer-events", "all")
-}
+pub const all = #("pointer-events", "all")
 
-pub fn inherit() -> #(String, String) {
-  #("pointer-events", "inherit")
-}
+pub const inherit = #("pointer-events", "inherit")
 
 pub fn raw(value: String) -> #(String, String) {
   #("pointer_events", value)

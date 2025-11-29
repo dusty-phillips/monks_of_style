@@ -1,20 +1,12 @@
 
 
-pub fn pack() -> #(String, String) {
-  #("masonry-auto-flow", "pack")
-}
+pub const pack = #("masonry-auto-flow", "pack")
 
-pub fn next() -> #(String, String) {
-  #("masonry-auto-flow", "next")
-}
+pub const next = #("masonry-auto-flow", "next")
 
-pub fn definite_first() -> #(String, String) {
-  #("masonry-auto-flow", "definite-first")
-}
+pub const definite_first = #("masonry-auto-flow", "definite-first")
 
-pub fn ordered() -> #(String, String) {
-  #("masonry-auto-flow", "ordered")
-}
+pub const ordered = #("masonry-auto-flow", "ordered")
 
 pub fn raw(value: String) -> #(String, String) {
   #("masonry_auto_flow", value)

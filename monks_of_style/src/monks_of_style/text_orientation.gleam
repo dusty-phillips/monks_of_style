@@ -1,16 +1,10 @@
 
 
-pub fn mixed() -> #(String, String) {
-  #("text-orientation", "mixed")
-}
+pub const mixed = #("text-orientation", "mixed")
 
-pub fn upright() -> #(String, String) {
-  #("text-orientation", "upright")
-}
+pub const upright = #("text-orientation", "upright")
 
-pub fn sideways() -> #(String, String) {
-  #("text-orientation", "sideways")
-}
+pub const sideways = #("text-orientation", "sideways")
 
 pub fn raw(value: String) -> #(String, String) {
   #("text_orientation", value)

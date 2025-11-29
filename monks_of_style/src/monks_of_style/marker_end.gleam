@@ -1,8 +1,6 @@
 
 
-pub fn none() -> #(String, String) {
-  #("marker-end", "none")
-}
+pub const none = #("marker-end", "none")
 
 pub fn raw(value: String) -> #(String, String) {
   #("marker_end", value)

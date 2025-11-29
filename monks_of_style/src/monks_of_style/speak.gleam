@@ -1,16 +1,10 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("speak", "auto")
-}
+pub const auto_ = #("speak", "auto")
 
-pub fn never() -> #(String, String) {
-  #("speak", "never")
-}
+pub const never = #("speak", "never")
 
-pub fn always() -> #(String, String) {
-  #("speak", "always")
-}
+pub const always = #("speak", "always")
 
 pub fn raw(value: String) -> #(String, String) {
   #("speak", value)

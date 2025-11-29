@@ -1,60 +1,32 @@
 
 
-pub fn normal() -> #(String, String) {
-  #("align-items", "normal")
-}
+pub const normal = #("align-items", "normal")
 
-pub fn stretch() -> #(String, String) {
-  #("align-items", "stretch")
-}
+pub const stretch = #("align-items", "stretch")
 
-pub fn first() -> #(String, String) {
-  #("align-items", "first")
-}
+pub const first = #("align-items", "first")
 
-pub fn last() -> #(String, String) {
-  #("align-items", "last")
-}
+pub const last = #("align-items", "last")
 
-pub fn baseline() -> #(String, String) {
-  #("align-items", "baseline")
-}
+pub const baseline = #("align-items", "baseline")
 
-pub fn unsafe() -> #(String, String) {
-  #("align-items", "unsafe")
-}
+pub const unsafe = #("align-items", "unsafe")
 
-pub fn safe() -> #(String, String) {
-  #("align-items", "safe")
-}
+pub const safe = #("align-items", "safe")
 
-pub fn center() -> #(String, String) {
-  #("align-items", "center")
-}
+pub const center = #("align-items", "center")
 
-pub fn start() -> #(String, String) {
-  #("align-items", "start")
-}
+pub const start = #("align-items", "start")
 
-pub fn end() -> #(String, String) {
-  #("align-items", "end")
-}
+pub const end = #("align-items", "end")
 
-pub fn self_start() -> #(String, String) {
-  #("align-items", "self-start")
-}
+pub const self_start = #("align-items", "self-start")
 
-pub fn self_end() -> #(String, String) {
-  #("align-items", "self-end")
-}
+pub const self_end = #("align-items", "self-end")
 
-pub fn flex_start() -> #(String, String) {
-  #("align-items", "flex-start")
-}
+pub const flex_start = #("align-items", "flex-start")
 
-pub fn flex_end() -> #(String, String) {
-  #("align-items", "flex-end")
-}
+pub const flex_end = #("align-items", "flex-end")
 
 pub fn raw(value: String) -> #(String, String) {
   #("align_items", value)

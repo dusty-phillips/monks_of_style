@@ -1,64 +1,34 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("height", "auto")
-}
+pub const auto_ = #("height", "auto")
 
-pub fn min_content() -> #(String, String) {
-  #("height", "min-content")
-}
+pub const min_content = #("height", "min-content")
 
-pub fn max_content() -> #(String, String) {
-  #("height", "max-content")
-}
+pub const max_content = #("height", "max-content")
 
-pub fn fit_content() -> #(String, String) {
-  #("height", "fit-content")
-}
+pub const fit_content = #("height", "fit-content")
 
-pub fn stretch() -> #(String, String) {
-  #("height", "stretch")
-}
+pub const stretch = #("height", "stretch")
 
-pub fn intrinsic() -> #(String, String) {
-  #("height", "intrinsic")
-}
+pub const intrinsic = #("height", "intrinsic")
 
-pub fn min_intrinsic() -> #(String, String) {
-  #("height", "min-intrinsic")
-}
+pub const min_intrinsic = #("height", "min-intrinsic")
 
-pub fn webkit_fill_available() -> #(String, String) {
-  #("height", "-webkit-fill-available")
-}
+pub const webkit_fill_available = #("height", "-webkit-fill-available")
 
-pub fn webkit_fit_content() -> #(String, String) {
-  #("height", "-webkit-fit-content")
-}
+pub const webkit_fit_content = #("height", "-webkit-fit-content")
 
-pub fn webkit_min_content() -> #(String, String) {
-  #("height", "-webkit-min-content")
-}
+pub const webkit_min_content = #("height", "-webkit-min-content")
 
-pub fn webkit_max_content() -> #(String, String) {
-  #("height", "-webkit-max-content")
-}
+pub const webkit_max_content = #("height", "-webkit-max-content")
 
-pub fn moz_available() -> #(String, String) {
-  #("height", "-moz-available")
-}
+pub const moz_available = #("height", "-moz-available")
 
-pub fn moz_fit_content() -> #(String, String) {
-  #("height", "-moz-fit-content")
-}
+pub const moz_fit_content = #("height", "-moz-fit-content")
 
-pub fn moz_min_content() -> #(String, String) {
-  #("height", "-moz-min-content")
-}
+pub const moz_min_content = #("height", "-moz-min-content")
 
-pub fn moz_max_content() -> #(String, String) {
-  #("height", "-moz-max-content")
-}
+pub const moz_max_content = #("height", "-moz-max-content")
 
 pub fn raw(value: String) -> #(String, String) {
   #("height", value)

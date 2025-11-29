@@ -1,8 +1,6 @@
 
 
-pub fn none() -> #(String, String) {
-  #("-moz-binding", "none")
-}
+pub const none = #("-moz-binding", "none")
 
 pub fn raw(value: String) -> #(String, String) {
   #("moz_binding", value)

@@ -1,12 +1,8 @@
 
 
-pub fn visible() -> #(String, String) {
-  #("backface-visibility", "visible")
-}
+pub const visible = #("backface-visibility", "visible")
 
-pub fn hidden() -> #(String, String) {
-  #("backface-visibility", "hidden")
-}
+pub const hidden = #("backface-visibility", "hidden")
 
 pub fn raw(value: String) -> #(String, String) {
   #("backface_visibility", value)

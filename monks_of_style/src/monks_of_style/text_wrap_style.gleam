@@ -1,20 +1,12 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("text-wrap-style", "auto")
-}
+pub const auto_ = #("text-wrap-style", "auto")
 
-pub fn balance() -> #(String, String) {
-  #("text-wrap-style", "balance")
-}
+pub const balance = #("text-wrap-style", "balance")
 
-pub fn stable() -> #(String, String) {
-  #("text-wrap-style", "stable")
-}
+pub const stable = #("text-wrap-style", "stable")
 
-pub fn pretty() -> #(String, String) {
-  #("text-wrap-style", "pretty")
-}
+pub const pretty = #("text-wrap-style", "pretty")
 
 pub fn raw(value: String) -> #(String, String) {
   #("text_wrap_style", value)

@@ -1,24 +1,14 @@
 
 
-pub fn left() -> #(String, String) {
-  #("object-position", "left")
-}
+pub const left = #("object-position", "left")
 
-pub fn center() -> #(String, String) {
-  #("object-position", "center")
-}
+pub const center = #("object-position", "center")
 
-pub fn right() -> #(String, String) {
-  #("object-position", "right")
-}
+pub const right = #("object-position", "right")
 
-pub fn top() -> #(String, String) {
-  #("object-position", "top")
-}
+pub const top = #("object-position", "top")
 
-pub fn bottom() -> #(String, String) {
-  #("object-position", "bottom")
-}
+pub const bottom = #("object-position", "bottom")
 
 pub fn raw(value: String) -> #(String, String) {
   #("object_position", value)

@@ -1,8 +1,6 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("border-image-width", "auto")
-}
+pub const auto_ = #("border-image-width", "auto")
 
 pub fn raw(value: String) -> #(String, String) {
   #("border_image_width", value)

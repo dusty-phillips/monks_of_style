@@ -1,40 +1,22 @@
 
 
-pub fn none() -> #(String, String) {
-  #("grid", "none")
-}
+pub const none = #("grid", "none")
 
-pub fn min_content() -> #(String, String) {
-  #("grid", "min-content")
-}
+pub const min_content = #("grid", "min-content")
 
-pub fn max_content() -> #(String, String) {
-  #("grid", "max-content")
-}
+pub const max_content = #("grid", "max-content")
 
-pub fn auto_() -> #(String, String) {
-  #("grid", "auto")
-}
+pub const auto_ = #("grid", "auto")
 
-pub fn auto_fill() -> #(String, String) {
-  #("grid", "auto-fill")
-}
+pub const auto_fill = #("grid", "auto-fill")
 
-pub fn auto_fit() -> #(String, String) {
-  #("grid", "auto-fit")
-}
+pub const auto_fit = #("grid", "auto-fit")
 
-pub fn subgrid() -> #(String, String) {
-  #("grid", "subgrid")
-}
+pub const subgrid = #("grid", "subgrid")
 
-pub fn auto_flow() -> #(String, String) {
-  #("grid", "auto-flow")
-}
+pub const auto_flow = #("grid", "auto-flow")
 
-pub fn dense() -> #(String, String) {
-  #("grid", "dense")
-}
+pub const dense = #("grid", "dense")
 
 pub fn raw(value: String) -> #(String, String) {
   #("grid", value)

@@ -1,12 +1,8 @@
 
 
-pub fn normal() -> #(String, String) {
-  #("math-shift", "normal")
-}
+pub const normal = #("math-shift", "normal")
 
-pub fn compact() -> #(String, String) {
-  #("math-shift", "compact")
-}
+pub const compact = #("math-shift", "compact")
 
 pub fn raw(value: String) -> #(String, String) {
   #("math_shift", value)

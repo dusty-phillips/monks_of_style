@@ -1,44 +1,24 @@
 
 
-pub fn xx_small() -> #(String, String) {
-  #("font-size", "xx-small")
-}
+pub const xx_small = #("font-size", "xx-small")
 
-pub fn x_small() -> #(String, String) {
-  #("font-size", "x-small")
-}
+pub const x_small = #("font-size", "x-small")
 
-pub fn small() -> #(String, String) {
-  #("font-size", "small")
-}
+pub const small = #("font-size", "small")
 
-pub fn medium() -> #(String, String) {
-  #("font-size", "medium")
-}
+pub const medium = #("font-size", "medium")
 
-pub fn large() -> #(String, String) {
-  #("font-size", "large")
-}
+pub const large = #("font-size", "large")
 
-pub fn x_large() -> #(String, String) {
-  #("font-size", "x-large")
-}
+pub const x_large = #("font-size", "x-large")
 
-pub fn xx_large() -> #(String, String) {
-  #("font-size", "xx-large")
-}
+pub const xx_large = #("font-size", "xx-large")
 
-pub fn xxx_large() -> #(String, String) {
-  #("font-size", "xxx-large")
-}
+pub const xxx_large = #("font-size", "xxx-large")
 
-pub fn larger() -> #(String, String) {
-  #("font-size", "larger")
-}
+pub const larger = #("font-size", "larger")
 
-pub fn smaller() -> #(String, String) {
-  #("font-size", "smaller")
-}
+pub const smaller = #("font-size", "smaller")
 
 pub fn raw(value: String) -> #(String, String) {
   #("font_size", value)

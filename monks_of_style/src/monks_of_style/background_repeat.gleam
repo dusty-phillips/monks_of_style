@@ -1,28 +1,16 @@
 
 
-pub fn repeat_x() -> #(String, String) {
-  #("background-repeat", "repeat-x")
-}
+pub const repeat_x = #("background-repeat", "repeat-x")
 
-pub fn repeat_y() -> #(String, String) {
-  #("background-repeat", "repeat-y")
-}
+pub const repeat_y = #("background-repeat", "repeat-y")
 
-pub fn repeat() -> #(String, String) {
-  #("background-repeat", "repeat")
-}
+pub const repeat = #("background-repeat", "repeat")
 
-pub fn space() -> #(String, String) {
-  #("background-repeat", "space")
-}
+pub const space = #("background-repeat", "space")
 
-pub fn round() -> #(String, String) {
-  #("background-repeat", "round")
-}
+pub const round = #("background-repeat", "round")
 
-pub fn no_repeat() -> #(String, String) {
-  #("background-repeat", "no-repeat")
-}
+pub const no_repeat = #("background-repeat", "no-repeat")
 
 pub fn raw(value: String) -> #(String, String) {
   #("background_repeat", value)

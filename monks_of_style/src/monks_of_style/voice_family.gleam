@@ -1,32 +1,18 @@
 
 
-pub fn child() -> #(String, String) {
-  #("voice-family", "child")
-}
+pub const child = #("voice-family", "child")
 
-pub fn young() -> #(String, String) {
-  #("voice-family", "young")
-}
+pub const young = #("voice-family", "young")
 
-pub fn old() -> #(String, String) {
-  #("voice-family", "old")
-}
+pub const old = #("voice-family", "old")
 
-pub fn male() -> #(String, String) {
-  #("voice-family", "male")
-}
+pub const male = #("voice-family", "male")
 
-pub fn female() -> #(String, String) {
-  #("voice-family", "female")
-}
+pub const female = #("voice-family", "female")
 
-pub fn neutral() -> #(String, String) {
-  #("voice-family", "neutral")
-}
+pub const neutral = #("voice-family", "neutral")
 
-pub fn preserve() -> #(String, String) {
-  #("voice-family", "preserve")
-}
+pub const preserve = #("voice-family", "preserve")
 
 pub fn raw(value: String) -> #(String, String) {
   #("voice_family", value)

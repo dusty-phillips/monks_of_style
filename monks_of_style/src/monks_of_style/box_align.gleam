@@ -1,24 +1,14 @@
 
 
-pub fn start() -> #(String, String) {
-  #("box-align", "start")
-}
+pub const start = #("box-align", "start")
 
-pub fn center() -> #(String, String) {
-  #("box-align", "center")
-}
+pub const center = #("box-align", "center")
 
-pub fn end() -> #(String, String) {
-  #("box-align", "end")
-}
+pub const end = #("box-align", "end")
 
-pub fn baseline() -> #(String, String) {
-  #("box-align", "baseline")
-}
+pub const baseline = #("box-align", "baseline")
 
-pub fn stretch() -> #(String, String) {
-  #("box-align", "stretch")
-}
+pub const stretch = #("box-align", "stretch")
 
 pub fn raw(value: String) -> #(String, String) {
   #("box_align", value)

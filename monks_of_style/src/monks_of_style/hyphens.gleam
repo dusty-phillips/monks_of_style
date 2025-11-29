@@ -1,16 +1,10 @@
 
 
-pub fn none() -> #(String, String) {
-  #("hyphens", "none")
-}
+pub const none = #("hyphens", "none")
 
-pub fn manual() -> #(String, String) {
-  #("hyphens", "manual")
-}
+pub const manual = #("hyphens", "manual")
 
-pub fn auto_() -> #(String, String) {
-  #("hyphens", "auto")
-}
+pub const auto_ = #("hyphens", "auto")
 
 pub fn raw(value: String) -> #(String, String) {
   #("hyphens", value)

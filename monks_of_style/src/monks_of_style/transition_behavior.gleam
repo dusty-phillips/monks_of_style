@@ -1,12 +1,8 @@
 
 
-pub fn normal() -> #(String, String) {
-  #("transition-behavior", "normal")
-}
+pub const normal = #("transition-behavior", "normal")
 
-pub fn allow_discrete() -> #(String, String) {
-  #("transition-behavior", "allow-discrete")
-}
+pub const allow_discrete = #("transition-behavior", "allow-discrete")
 
 pub fn raw(value: String) -> #(String, String) {
   #("transition_behavior", value)

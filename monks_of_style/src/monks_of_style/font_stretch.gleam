@@ -1,40 +1,22 @@
 
 
-pub fn normal() -> #(String, String) {
-  #("font-stretch", "normal")
-}
+pub const normal = #("font-stretch", "normal")
 
-pub fn ultra_condensed() -> #(String, String) {
-  #("font-stretch", "ultra-condensed")
-}
+pub const ultra_condensed = #("font-stretch", "ultra-condensed")
 
-pub fn extra_condensed() -> #(String, String) {
-  #("font-stretch", "extra-condensed")
-}
+pub const extra_condensed = #("font-stretch", "extra-condensed")
 
-pub fn condensed() -> #(String, String) {
-  #("font-stretch", "condensed")
-}
+pub const condensed = #("font-stretch", "condensed")
 
-pub fn semi_condensed() -> #(String, String) {
-  #("font-stretch", "semi-condensed")
-}
+pub const semi_condensed = #("font-stretch", "semi-condensed")
 
-pub fn semi_expanded() -> #(String, String) {
-  #("font-stretch", "semi-expanded")
-}
+pub const semi_expanded = #("font-stretch", "semi-expanded")
 
-pub fn expanded() -> #(String, String) {
-  #("font-stretch", "expanded")
-}
+pub const expanded = #("font-stretch", "expanded")
 
-pub fn extra_expanded() -> #(String, String) {
-  #("font-stretch", "extra-expanded")
-}
+pub const extra_expanded = #("font-stretch", "extra-expanded")
 
-pub fn ultra_expanded() -> #(String, String) {
-  #("font-stretch", "ultra-expanded")
-}
+pub const ultra_expanded = #("font-stretch", "ultra-expanded")
 
 pub fn raw(value: String) -> #(String, String) {
   #("font_stretch", value)

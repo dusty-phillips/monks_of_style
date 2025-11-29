@@ -1,20 +1,12 @@
 
 
-pub fn repeat() -> #(String, String) {
-  #("-webkit-mask-repeat-y", "repeat")
-}
+pub const repeat = #("-webkit-mask-repeat-y", "repeat")
 
-pub fn no_repeat() -> #(String, String) {
-  #("-webkit-mask-repeat-y", "no-repeat")
-}
+pub const no_repeat = #("-webkit-mask-repeat-y", "no-repeat")
 
-pub fn space() -> #(String, String) {
-  #("-webkit-mask-repeat-y", "space")
-}
+pub const space = #("-webkit-mask-repeat-y", "space")
 
-pub fn round() -> #(String, String) {
-  #("-webkit-mask-repeat-y", "round")
-}
+pub const round = #("-webkit-mask-repeat-y", "round")
 
 pub fn raw(value: String) -> #(String, String) {
   #("webkit_mask_repeat_y", value)

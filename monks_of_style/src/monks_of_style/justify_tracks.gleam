@@ -1,60 +1,32 @@
 
 
-pub fn normal() -> #(String, String) {
-  #("justify-tracks", "normal")
-}
+pub const normal = #("justify-tracks", "normal")
 
-pub fn space_between() -> #(String, String) {
-  #("justify-tracks", "space-between")
-}
+pub const space_between = #("justify-tracks", "space-between")
 
-pub fn space_around() -> #(String, String) {
-  #("justify-tracks", "space-around")
-}
+pub const space_around = #("justify-tracks", "space-around")
 
-pub fn space_evenly() -> #(String, String) {
-  #("justify-tracks", "space-evenly")
-}
+pub const space_evenly = #("justify-tracks", "space-evenly")
 
-pub fn stretch() -> #(String, String) {
-  #("justify-tracks", "stretch")
-}
+pub const stretch = #("justify-tracks", "stretch")
 
-pub fn unsafe() -> #(String, String) {
-  #("justify-tracks", "unsafe")
-}
+pub const unsafe = #("justify-tracks", "unsafe")
 
-pub fn safe() -> #(String, String) {
-  #("justify-tracks", "safe")
-}
+pub const safe = #("justify-tracks", "safe")
 
-pub fn center() -> #(String, String) {
-  #("justify-tracks", "center")
-}
+pub const center = #("justify-tracks", "center")
 
-pub fn start() -> #(String, String) {
-  #("justify-tracks", "start")
-}
+pub const start = #("justify-tracks", "start")
 
-pub fn end() -> #(String, String) {
-  #("justify-tracks", "end")
-}
+pub const end = #("justify-tracks", "end")
 
-pub fn flex_start() -> #(String, String) {
-  #("justify-tracks", "flex-start")
-}
+pub const flex_start = #("justify-tracks", "flex-start")
 
-pub fn flex_end() -> #(String, String) {
-  #("justify-tracks", "flex-end")
-}
+pub const flex_end = #("justify-tracks", "flex-end")
 
-pub fn left() -> #(String, String) {
-  #("justify-tracks", "left")
-}
+pub const left = #("justify-tracks", "left")
 
-pub fn right() -> #(String, String) {
-  #("justify-tracks", "right")
-}
+pub const right = #("justify-tracks", "right")
 
 pub fn raw(value: String) -> #(String, String) {
   #("justify_tracks", value)

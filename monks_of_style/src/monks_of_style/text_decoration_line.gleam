@@ -1,32 +1,18 @@
 
 
-pub fn none() -> #(String, String) {
-  #("text-decoration-line", "none")
-}
+pub const none = #("text-decoration-line", "none")
 
-pub fn underline() -> #(String, String) {
-  #("text-decoration-line", "underline")
-}
+pub const underline = #("text-decoration-line", "underline")
 
-pub fn overline() -> #(String, String) {
-  #("text-decoration-line", "overline")
-}
+pub const overline = #("text-decoration-line", "overline")
 
-pub fn line_through() -> #(String, String) {
-  #("text-decoration-line", "line-through")
-}
+pub const line_through = #("text-decoration-line", "line-through")
 
-pub fn blink() -> #(String, String) {
-  #("text-decoration-line", "blink")
-}
+pub const blink = #("text-decoration-line", "blink")
 
-pub fn spelling_error() -> #(String, String) {
-  #("text-decoration-line", "spelling-error")
-}
+pub const spelling_error = #("text-decoration-line", "spelling-error")
 
-pub fn grammar_error() -> #(String, String) {
-  #("text-decoration-line", "grammar-error")
-}
+pub const grammar_error = #("text-decoration-line", "grammar-error")
 
 pub fn raw(value: String) -> #(String, String) {
   #("text_decoration_line", value)

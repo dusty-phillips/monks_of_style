@@ -1,44 +1,24 @@
 
 
-pub fn none() -> #(String, String) {
-  #("-webkit-border-before-style", "none")
-}
+pub const none = #("-webkit-border-before-style", "none")
 
-pub fn hidden() -> #(String, String) {
-  #("-webkit-border-before-style", "hidden")
-}
+pub const hidden = #("-webkit-border-before-style", "hidden")
 
-pub fn dotted() -> #(String, String) {
-  #("-webkit-border-before-style", "dotted")
-}
+pub const dotted = #("-webkit-border-before-style", "dotted")
 
-pub fn dashed() -> #(String, String) {
-  #("-webkit-border-before-style", "dashed")
-}
+pub const dashed = #("-webkit-border-before-style", "dashed")
 
-pub fn solid() -> #(String, String) {
-  #("-webkit-border-before-style", "solid")
-}
+pub const solid = #("-webkit-border-before-style", "solid")
 
-pub fn double() -> #(String, String) {
-  #("-webkit-border-before-style", "double")
-}
+pub const double = #("-webkit-border-before-style", "double")
 
-pub fn groove() -> #(String, String) {
-  #("-webkit-border-before-style", "groove")
-}
+pub const groove = #("-webkit-border-before-style", "groove")
 
-pub fn ridge() -> #(String, String) {
-  #("-webkit-border-before-style", "ridge")
-}
+pub const ridge = #("-webkit-border-before-style", "ridge")
 
-pub fn inset() -> #(String, String) {
-  #("-webkit-border-before-style", "inset")
-}
+pub const inset = #("-webkit-border-before-style", "inset")
 
-pub fn outset() -> #(String, String) {
-  #("-webkit-border-before-style", "outset")
-}
+pub const outset = #("-webkit-border-before-style", "outset")
 
 pub fn raw(value: String) -> #(String, String) {
   #("webkit_border_before_style", value)

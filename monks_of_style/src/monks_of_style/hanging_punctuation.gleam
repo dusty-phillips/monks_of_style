@@ -1,24 +1,14 @@
 
 
-pub fn none() -> #(String, String) {
-  #("hanging-punctuation", "none")
-}
+pub const none = #("hanging-punctuation", "none")
 
-pub fn first() -> #(String, String) {
-  #("hanging-punctuation", "first")
-}
+pub const first = #("hanging-punctuation", "first")
 
-pub fn force_end() -> #(String, String) {
-  #("hanging-punctuation", "force-end")
-}
+pub const force_end = #("hanging-punctuation", "force-end")
 
-pub fn allow_end() -> #(String, String) {
-  #("hanging-punctuation", "allow-end")
-}
+pub const allow_end = #("hanging-punctuation", "allow-end")
 
-pub fn last() -> #(String, String) {
-  #("hanging-punctuation", "last")
-}
+pub const last = #("hanging-punctuation", "last")
 
 pub fn raw(value: String) -> #(String, String) {
   #("hanging_punctuation", value)

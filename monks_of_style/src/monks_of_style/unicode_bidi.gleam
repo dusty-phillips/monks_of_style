@@ -1,52 +1,28 @@
 
 
-pub fn normal() -> #(String, String) {
-  #("unicode-bidi", "normal")
-}
+pub const normal = #("unicode-bidi", "normal")
 
-pub fn embed() -> #(String, String) {
-  #("unicode-bidi", "embed")
-}
+pub const embed = #("unicode-bidi", "embed")
 
-pub fn isolate() -> #(String, String) {
-  #("unicode-bidi", "isolate")
-}
+pub const isolate = #("unicode-bidi", "isolate")
 
-pub fn bidi_override() -> #(String, String) {
-  #("unicode-bidi", "bidi-override")
-}
+pub const bidi_override = #("unicode-bidi", "bidi-override")
 
-pub fn isolate_override() -> #(String, String) {
-  #("unicode-bidi", "isolate-override")
-}
+pub const isolate_override = #("unicode-bidi", "isolate-override")
 
-pub fn plaintext() -> #(String, String) {
-  #("unicode-bidi", "plaintext")
-}
+pub const plaintext = #("unicode-bidi", "plaintext")
 
-pub fn moz_isolate() -> #(String, String) {
-  #("unicode-bidi", "-moz-isolate")
-}
+pub const moz_isolate = #("unicode-bidi", "-moz-isolate")
 
-pub fn moz_isolate_override() -> #(String, String) {
-  #("unicode-bidi", "-moz-isolate-override")
-}
+pub const moz_isolate_override = #("unicode-bidi", "-moz-isolate-override")
 
-pub fn moz_plaintext() -> #(String, String) {
-  #("unicode-bidi", "-moz-plaintext")
-}
+pub const moz_plaintext = #("unicode-bidi", "-moz-plaintext")
 
-pub fn webkit_isolate() -> #(String, String) {
-  #("unicode-bidi", "-webkit-isolate")
-}
+pub const webkit_isolate = #("unicode-bidi", "-webkit-isolate")
 
-pub fn webkit_isolate_override() -> #(String, String) {
-  #("unicode-bidi", "-webkit-isolate-override")
-}
+pub const webkit_isolate_override = #("unicode-bidi", "-webkit-isolate-override")
 
-pub fn webkit_plaintext() -> #(String, String) {
-  #("unicode-bidi", "-webkit-plaintext")
-}
+pub const webkit_plaintext = #("unicode-bidi", "-webkit-plaintext")
 
 pub fn raw(value: String) -> #(String, String) {
   #("unicode_bidi", value)

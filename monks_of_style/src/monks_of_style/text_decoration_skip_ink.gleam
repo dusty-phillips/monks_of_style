@@ -1,16 +1,10 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("text-decoration-skip-ink", "auto")
-}
+pub const auto_ = #("text-decoration-skip-ink", "auto")
 
-pub fn all() -> #(String, String) {
-  #("text-decoration-skip-ink", "all")
-}
+pub const all = #("text-decoration-skip-ink", "all")
 
-pub fn none() -> #(String, String) {
-  #("text-decoration-skip-ink", "none")
-}
+pub const none = #("text-decoration-skip-ink", "none")
 
 pub fn raw(value: String) -> #(String, String) {
   #("text_decoration_skip_ink", value)

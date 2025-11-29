@@ -1,8 +1,6 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("margin-top", "auto")
-}
+pub const auto_ = #("margin-top", "auto")
 
 pub fn raw(value: String) -> #(String, String) {
   #("margin_top", value)

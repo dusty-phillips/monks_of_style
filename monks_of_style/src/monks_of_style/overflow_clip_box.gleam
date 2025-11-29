@@ -1,12 +1,8 @@
 
 
-pub fn padding_box() -> #(String, String) {
-  #("overflow-clip-box", "padding-box")
-}
+pub const padding_box = #("overflow-clip-box", "padding-box")
 
-pub fn content_box() -> #(String, String) {
-  #("overflow-clip-box", "content-box")
-}
+pub const content_box = #("overflow-clip-box", "content-box")
 
 pub fn raw(value: String) -> #(String, String) {
   #("overflow_clip_box", value)

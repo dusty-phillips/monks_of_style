@@ -1,12 +1,8 @@
 
 
-pub fn none() -> #(String, String) {
-  #("-ms-scroll-rails", "none")
-}
+pub const none = #("-ms-scroll-rails", "none")
 
-pub fn railed() -> #(String, String) {
-  #("-ms-scroll-rails", "railed")
-}
+pub const railed = #("-ms-scroll-rails", "railed")
 
 pub fn raw(value: String) -> #(String, String) {
   #("ms_scroll_rails", value)

@@ -1,12 +1,8 @@
 
 
-pub fn grippers() -> #(String, String) {
-  #("-ms-touch-select", "grippers")
-}
+pub const grippers = #("-ms-touch-select", "grippers")
 
-pub fn none() -> #(String, String) {
-  #("-ms-touch-select", "none")
-}
+pub const none = #("-ms-touch-select", "none")
 
 pub fn raw(value: String) -> #(String, String) {
   #("ms_touch_select", value)

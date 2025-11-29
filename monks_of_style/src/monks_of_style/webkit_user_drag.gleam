@@ -1,16 +1,10 @@
 
 
-pub fn none() -> #(String, String) {
-  #("-webkit-user-drag", "none")
-}
+pub const none = #("-webkit-user-drag", "none")
 
-pub fn element() -> #(String, String) {
-  #("-webkit-user-drag", "element")
-}
+pub const element = #("-webkit-user-drag", "element")
 
-pub fn auto_() -> #(String, String) {
-  #("-webkit-user-drag", "auto")
-}
+pub const auto_ = #("-webkit-user-drag", "auto")
 
 pub fn raw(value: String) -> #(String, String) {
   #("webkit_user_drag", value)

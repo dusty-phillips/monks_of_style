@@ -1,16 +1,10 @@
 
 
-pub fn visible() -> #(String, String) {
-  #("visibility", "visible")
-}
+pub const visible = #("visibility", "visible")
 
-pub fn hidden() -> #(String, String) {
-  #("visibility", "hidden")
-}
+pub const hidden = #("visibility", "hidden")
 
-pub fn collapse() -> #(String, String) {
-  #("visibility", "collapse")
-}
+pub const collapse = #("visibility", "collapse")
 
 pub fn raw(value: String) -> #(String, String) {
   #("visibility", value)

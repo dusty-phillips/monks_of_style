@@ -1,160 +1,82 @@
 
 
-pub fn block() -> #(String, String) {
-  #("display", "block")
-}
+pub const block = #("display", "block")
 
-pub fn inline() -> #(String, String) {
-  #("display", "inline")
-}
+pub const inline = #("display", "inline")
 
-pub fn run_in() -> #(String, String) {
-  #("display", "run-in")
-}
+pub const run_in = #("display", "run-in")
 
-pub fn flow() -> #(String, String) {
-  #("display", "flow")
-}
+pub const flow = #("display", "flow")
 
-pub fn flow_root() -> #(String, String) {
-  #("display", "flow-root")
-}
+pub const flow_root = #("display", "flow-root")
 
-pub fn table() -> #(String, String) {
-  #("display", "table")
-}
+pub const table = #("display", "table")
 
-pub fn flex() -> #(String, String) {
-  #("display", "flex")
-}
+pub const flex = #("display", "flex")
 
-pub fn grid() -> #(String, String) {
-  #("display", "grid")
-}
+pub const grid = #("display", "grid")
 
-pub fn ruby() -> #(String, String) {
-  #("display", "ruby")
-}
+pub const ruby = #("display", "ruby")
 
-pub fn list_item() -> #(String, String) {
-  #("display", "list-item")
-}
+pub const list_item = #("display", "list-item")
 
-pub fn table_row_group() -> #(String, String) {
-  #("display", "table-row-group")
-}
+pub const table_row_group = #("display", "table-row-group")
 
-pub fn table_header_group() -> #(String, String) {
-  #("display", "table-header-group")
-}
+pub const table_header_group = #("display", "table-header-group")
 
-pub fn table_footer_group() -> #(String, String) {
-  #("display", "table-footer-group")
-}
+pub const table_footer_group = #("display", "table-footer-group")
 
-pub fn table_row() -> #(String, String) {
-  #("display", "table-row")
-}
+pub const table_row = #("display", "table-row")
 
-pub fn table_cell() -> #(String, String) {
-  #("display", "table-cell")
-}
+pub const table_cell = #("display", "table-cell")
 
-pub fn table_column_group() -> #(String, String) {
-  #("display", "table-column-group")
-}
+pub const table_column_group = #("display", "table-column-group")
 
-pub fn table_column() -> #(String, String) {
-  #("display", "table-column")
-}
+pub const table_column = #("display", "table-column")
 
-pub fn table_caption() -> #(String, String) {
-  #("display", "table-caption")
-}
+pub const table_caption = #("display", "table-caption")
 
-pub fn ruby_base() -> #(String, String) {
-  #("display", "ruby-base")
-}
+pub const ruby_base = #("display", "ruby-base")
 
-pub fn ruby_text() -> #(String, String) {
-  #("display", "ruby-text")
-}
+pub const ruby_text = #("display", "ruby-text")
 
-pub fn ruby_base_container() -> #(String, String) {
-  #("display", "ruby-base-container")
-}
+pub const ruby_base_container = #("display", "ruby-base-container")
 
-pub fn ruby_text_container() -> #(String, String) {
-  #("display", "ruby-text-container")
-}
+pub const ruby_text_container = #("display", "ruby-text-container")
 
-pub fn contents() -> #(String, String) {
-  #("display", "contents")
-}
+pub const contents = #("display", "contents")
 
-pub fn none() -> #(String, String) {
-  #("display", "none")
-}
+pub const none = #("display", "none")
 
-pub fn inline_block() -> #(String, String) {
-  #("display", "inline-block")
-}
+pub const inline_block = #("display", "inline-block")
 
-pub fn inline_list_item() -> #(String, String) {
-  #("display", "inline-list-item")
-}
+pub const inline_list_item = #("display", "inline-list-item")
 
-pub fn inline_table() -> #(String, String) {
-  #("display", "inline-table")
-}
+pub const inline_table = #("display", "inline-table")
 
-pub fn inline_flex() -> #(String, String) {
-  #("display", "inline-flex")
-}
+pub const inline_flex = #("display", "inline-flex")
 
-pub fn inline_grid() -> #(String, String) {
-  #("display", "inline-grid")
-}
+pub const inline_grid = #("display", "inline-grid")
 
-pub fn ms_inline_flexbox() -> #(String, String) {
-  #("display", "-ms-inline-flexbox")
-}
+pub const ms_inline_flexbox = #("display", "-ms-inline-flexbox")
 
-pub fn ms_grid() -> #(String, String) {
-  #("display", "-ms-grid")
-}
+pub const ms_grid = #("display", "-ms-grid")
 
-pub fn ms_inline_grid() -> #(String, String) {
-  #("display", "-ms-inline-grid")
-}
+pub const ms_inline_grid = #("display", "-ms-inline-grid")
 
-pub fn webkit_flex() -> #(String, String) {
-  #("display", "-webkit-flex")
-}
+pub const webkit_flex = #("display", "-webkit-flex")
 
-pub fn webkit_inline_flex() -> #(String, String) {
-  #("display", "-webkit-inline-flex")
-}
+pub const webkit_inline_flex = #("display", "-webkit-inline-flex")
 
-pub fn webkit_box() -> #(String, String) {
-  #("display", "-webkit-box")
-}
+pub const webkit_box = #("display", "-webkit-box")
 
-pub fn webkit_inline_box() -> #(String, String) {
-  #("display", "-webkit-inline-box")
-}
+pub const webkit_inline_box = #("display", "-webkit-inline-box")
 
-pub fn moz_inline_stack() -> #(String, String) {
-  #("display", "-moz-inline-stack")
-}
+pub const moz_inline_stack = #("display", "-moz-inline-stack")
 
-pub fn moz_box() -> #(String, String) {
-  #("display", "-moz-box")
-}
+pub const moz_box = #("display", "-moz-box")
 
-pub fn moz_inline_box() -> #(String, String) {
-  #("display", "-moz-inline-box")
-}
+pub const moz_inline_box = #("display", "-moz-inline-box")
 
 pub fn raw(value: String) -> #(String, String) {
   #("display", value)

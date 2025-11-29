@@ -1,28 +1,16 @@
 
 
-pub fn border_box() -> #(String, String) {
-  #("-webkit-mask-origin", "border-box")
-}
+pub const border_box = #("-webkit-mask-origin", "border-box")
 
-pub fn padding_box() -> #(String, String) {
-  #("-webkit-mask-origin", "padding-box")
-}
+pub const padding_box = #("-webkit-mask-origin", "padding-box")
 
-pub fn content_box() -> #(String, String) {
-  #("-webkit-mask-origin", "content-box")
-}
+pub const content_box = #("-webkit-mask-origin", "content-box")
 
-pub fn border() -> #(String, String) {
-  #("-webkit-mask-origin", "border")
-}
+pub const border = #("-webkit-mask-origin", "border")
 
-pub fn padding() -> #(String, String) {
-  #("-webkit-mask-origin", "padding")
-}
+pub const padding = #("-webkit-mask-origin", "padding")
 
-pub fn content() -> #(String, String) {
-  #("-webkit-mask-origin", "content")
-}
+pub const content = #("-webkit-mask-origin", "content")
 
 pub fn raw(value: String) -> #(String, String) {
   #("webkit_mask_origin", value)

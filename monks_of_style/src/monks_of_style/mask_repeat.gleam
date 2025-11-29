@@ -1,28 +1,16 @@
 
 
-pub fn repeat_x() -> #(String, String) {
-  #("mask-repeat", "repeat-x")
-}
+pub const repeat_x = #("mask-repeat", "repeat-x")
 
-pub fn repeat_y() -> #(String, String) {
-  #("mask-repeat", "repeat-y")
-}
+pub const repeat_y = #("mask-repeat", "repeat-y")
 
-pub fn repeat() -> #(String, String) {
-  #("mask-repeat", "repeat")
-}
+pub const repeat = #("mask-repeat", "repeat")
 
-pub fn space() -> #(String, String) {
-  #("mask-repeat", "space")
-}
+pub const space = #("mask-repeat", "space")
 
-pub fn round() -> #(String, String) {
-  #("mask-repeat", "round")
-}
+pub const round = #("mask-repeat", "round")
 
-pub fn no_repeat() -> #(String, String) {
-  #("mask-repeat", "no-repeat")
-}
+pub const no_repeat = #("mask-repeat", "no-repeat")
 
 pub fn raw(value: String) -> #(String, String) {
   #("mask_repeat", value)

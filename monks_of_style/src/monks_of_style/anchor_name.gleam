@@ -1,8 +1,6 @@
 
 
-pub fn none() -> #(String, String) {
-  #("anchor-name", "none")
-}
+pub const none = #("anchor-name", "none")
 
 pub fn raw(value: String) -> #(String, String) {
   #("anchor_name", value)

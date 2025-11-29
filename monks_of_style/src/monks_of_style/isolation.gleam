@@ -1,12 +1,8 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("isolation", "auto")
-}
+pub const auto_ = #("isolation", "auto")
 
-pub fn isolate() -> #(String, String) {
-  #("isolation", "isolate")
-}
+pub const isolate = #("isolation", "isolate")
 
 pub fn raw(value: String) -> #(String, String) {
   #("isolation", value)

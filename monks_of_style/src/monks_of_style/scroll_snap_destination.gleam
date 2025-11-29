@@ -1,24 +1,14 @@
 
 
-pub fn left() -> #(String, String) {
-  #("scroll-snap-destination", "left")
-}
+pub const left = #("scroll-snap-destination", "left")
 
-pub fn center() -> #(String, String) {
-  #("scroll-snap-destination", "center")
-}
+pub const center = #("scroll-snap-destination", "center")
 
-pub fn right() -> #(String, String) {
-  #("scroll-snap-destination", "right")
-}
+pub const right = #("scroll-snap-destination", "right")
 
-pub fn top() -> #(String, String) {
-  #("scroll-snap-destination", "top")
-}
+pub const top = #("scroll-snap-destination", "top")
 
-pub fn bottom() -> #(String, String) {
-  #("scroll-snap-destination", "bottom")
-}
+pub const bottom = #("scroll-snap-destination", "bottom")
 
 pub fn raw(value: String) -> #(String, String) {
   #("scroll_snap_destination", value)

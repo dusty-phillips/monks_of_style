@@ -1,12 +1,8 @@
 
 
-pub fn normal() -> #(String, String) {
-  #("font-variant-alternates", "normal")
-}
+pub const normal = #("font-variant-alternates", "normal")
 
-pub fn historical_forms() -> #(String, String) {
-  #("font-variant-alternates", "historical-forms")
-}
+pub const historical_forms = #("font-variant-alternates", "historical-forms")
 
 pub fn raw(value: String) -> #(String, String) {
   #("font_variant_alternates", value)

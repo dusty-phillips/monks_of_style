@@ -1,32 +1,18 @@
 
 
-pub fn normal() -> #(String, String) {
-  #("animation-range-end", "normal")
-}
+pub const normal = #("animation-range-end", "normal")
 
-pub fn cover() -> #(String, String) {
-  #("animation-range-end", "cover")
-}
+pub const cover = #("animation-range-end", "cover")
 
-pub fn contain() -> #(String, String) {
-  #("animation-range-end", "contain")
-}
+pub const contain = #("animation-range-end", "contain")
 
-pub fn entry() -> #(String, String) {
-  #("animation-range-end", "entry")
-}
+pub const entry = #("animation-range-end", "entry")
 
-pub fn exit() -> #(String, String) {
-  #("animation-range-end", "exit")
-}
+pub const exit = #("animation-range-end", "exit")
 
-pub fn entry_crossing() -> #(String, String) {
-  #("animation-range-end", "entry-crossing")
-}
+pub const entry_crossing = #("animation-range-end", "entry-crossing")
 
-pub fn exit_crossing() -> #(String, String) {
-  #("animation-range-end", "exit-crossing")
-}
+pub const exit_crossing = #("animation-range-end", "exit-crossing")
 
 pub fn raw(value: String) -> #(String, String) {
   #("animation_range_end", value)

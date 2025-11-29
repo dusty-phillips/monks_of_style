@@ -1,12 +1,8 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("grid-row-start", "auto")
-}
+pub const auto_ = #("grid-row-start", "auto")
 
-pub fn span() -> #(String, String) {
-  #("grid-row-start", "span")
-}
+pub const span = #("grid-row-start", "span")
 
 pub fn raw(value: String) -> #(String, String) {
   #("grid_row_start", value)

@@ -1,28 +1,16 @@
 
 
-pub fn none() -> #(String, String) {
-  #("pause", "none")
-}
+pub const none = #("pause", "none")
 
-pub fn x_weak() -> #(String, String) {
-  #("pause", "x-weak")
-}
+pub const x_weak = #("pause", "x-weak")
 
-pub fn weak() -> #(String, String) {
-  #("pause", "weak")
-}
+pub const weak = #("pause", "weak")
 
-pub fn medium() -> #(String, String) {
-  #("pause", "medium")
-}
+pub const medium = #("pause", "medium")
 
-pub fn strong() -> #(String, String) {
-  #("pause", "strong")
-}
+pub const strong = #("pause", "strong")
 
-pub fn x_strong() -> #(String, String) {
-  #("pause", "x-strong")
-}
+pub const x_strong = #("pause", "x-strong")
 
 pub fn raw(value: String) -> #(String, String) {
   #("pause", value)

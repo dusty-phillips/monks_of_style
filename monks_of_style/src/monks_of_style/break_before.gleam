@@ -1,60 +1,32 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("break-before", "auto")
-}
+pub const auto_ = #("break-before", "auto")
 
-pub fn avoid() -> #(String, String) {
-  #("break-before", "avoid")
-}
+pub const avoid = #("break-before", "avoid")
 
-pub fn always() -> #(String, String) {
-  #("break-before", "always")
-}
+pub const always = #("break-before", "always")
 
-pub fn all() -> #(String, String) {
-  #("break-before", "all")
-}
+pub const all = #("break-before", "all")
 
-pub fn avoid_page() -> #(String, String) {
-  #("break-before", "avoid-page")
-}
+pub const avoid_page = #("break-before", "avoid-page")
 
-pub fn page() -> #(String, String) {
-  #("break-before", "page")
-}
+pub const page = #("break-before", "page")
 
-pub fn left() -> #(String, String) {
-  #("break-before", "left")
-}
+pub const left = #("break-before", "left")
 
-pub fn right() -> #(String, String) {
-  #("break-before", "right")
-}
+pub const right = #("break-before", "right")
 
-pub fn recto() -> #(String, String) {
-  #("break-before", "recto")
-}
+pub const recto = #("break-before", "recto")
 
-pub fn verso() -> #(String, String) {
-  #("break-before", "verso")
-}
+pub const verso = #("break-before", "verso")
 
-pub fn avoid_column() -> #(String, String) {
-  #("break-before", "avoid-column")
-}
+pub const avoid_column = #("break-before", "avoid-column")
 
-pub fn column() -> #(String, String) {
-  #("break-before", "column")
-}
+pub const column = #("break-before", "column")
 
-pub fn avoid_region() -> #(String, String) {
-  #("break-before", "avoid-region")
-}
+pub const avoid_region = #("break-before", "avoid-region")
 
-pub fn region() -> #(String, String) {
-  #("break-before", "region")
-}
+pub const region = #("break-before", "region")
 
 pub fn raw(value: String) -> #(String, String) {
   #("break_before", value)

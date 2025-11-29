@@ -1,96 +1,50 @@
 
 
-pub fn none() -> #(String, String) {
-  #("offset-path", "none")
-}
+pub const none = #("offset-path", "none")
 
-pub fn closest_side() -> #(String, String) {
-  #("offset-path", "closest-side")
-}
+pub const closest_side = #("offset-path", "closest-side")
 
-pub fn closest_corner() -> #(String, String) {
-  #("offset-path", "closest-corner")
-}
+pub const closest_corner = #("offset-path", "closest-corner")
 
-pub fn farthest_side() -> #(String, String) {
-  #("offset-path", "farthest-side")
-}
+pub const farthest_side = #("offset-path", "farthest-side")
 
-pub fn farthest_corner() -> #(String, String) {
-  #("offset-path", "farthest-corner")
-}
+pub const farthest_corner = #("offset-path", "farthest-corner")
 
-pub fn sides() -> #(String, String) {
-  #("offset-path", "sides")
-}
+pub const sides = #("offset-path", "sides")
 
-pub fn contain() -> #(String, String) {
-  #("offset-path", "contain")
-}
+pub const contain = #("offset-path", "contain")
 
-pub fn at() -> #(String, String) {
-  #("offset-path", "at")
-}
+pub const at = #("offset-path", "at")
 
-pub fn left() -> #(String, String) {
-  #("offset-path", "left")
-}
+pub const left = #("offset-path", "left")
 
-pub fn center() -> #(String, String) {
-  #("offset-path", "center")
-}
+pub const center = #("offset-path", "center")
 
-pub fn right() -> #(String, String) {
-  #("offset-path", "right")
-}
+pub const right = #("offset-path", "right")
 
-pub fn top() -> #(String, String) {
-  #("offset-path", "top")
-}
+pub const top = #("offset-path", "top")
 
-pub fn bottom() -> #(String, String) {
-  #("offset-path", "bottom")
-}
+pub const bottom = #("offset-path", "bottom")
 
-pub fn round() -> #(String, String) {
-  #("offset-path", "round")
-}
+pub const round = #("offset-path", "round")
 
-pub fn auto_() -> #(String, String) {
-  #("offset-path", "auto")
-}
+pub const auto_ = #("offset-path", "auto")
 
-pub fn nonzero() -> #(String, String) {
-  #("offset-path", "nonzero")
-}
+pub const nonzero = #("offset-path", "nonzero")
 
-pub fn evenodd() -> #(String, String) {
-  #("offset-path", "evenodd")
-}
+pub const evenodd = #("offset-path", "evenodd")
 
-pub fn content_box() -> #(String, String) {
-  #("offset-path", "content-box")
-}
+pub const content_box = #("offset-path", "content-box")
 
-pub fn padding_box() -> #(String, String) {
-  #("offset-path", "padding-box")
-}
+pub const padding_box = #("offset-path", "padding-box")
 
-pub fn border_box() -> #(String, String) {
-  #("offset-path", "border-box")
-}
+pub const border_box = #("offset-path", "border-box")
 
-pub fn fill_box() -> #(String, String) {
-  #("offset-path", "fill-box")
-}
+pub const fill_box = #("offset-path", "fill-box")
 
-pub fn stroke_box() -> #(String, String) {
-  #("offset-path", "stroke-box")
-}
+pub const stroke_box = #("offset-path", "stroke-box")
 
-pub fn view_box() -> #(String, String) {
-  #("offset-path", "view-box")
-}
+pub const view_box = #("offset-path", "view-box")
 
 pub fn raw(value: String) -> #(String, String) {
   #("offset_path", value)

@@ -1,12 +1,8 @@
 
 
-pub fn normal() -> #(String, String) {
-  #("zoom", "normal")
-}
+pub const normal = #("zoom", "normal")
 
-pub fn reset() -> #(String, String) {
-  #("zoom", "reset")
-}
+pub const reset = #("zoom", "reset")
 
 pub fn raw(value: String) -> #(String, String) {
   #("zoom", value)

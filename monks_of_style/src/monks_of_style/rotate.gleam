@@ -1,20 +1,12 @@
 
 
-pub fn none() -> #(String, String) {
-  #("rotate", "none")
-}
+pub const none = #("rotate", "none")
 
-pub fn x() -> #(String, String) {
-  #("rotate", "x")
-}
+pub const x = #("rotate", "x")
 
-pub fn y() -> #(String, String) {
-  #("rotate", "y")
-}
+pub const y = #("rotate", "y")
 
-pub fn z() -> #(String, String) {
-  #("rotate", "z")
-}
+pub const z = #("rotate", "z")
 
 pub fn raw(value: String) -> #(String, String) {
   #("rotate", value)

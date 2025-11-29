@@ -1,12 +1,8 @@
 
 
-pub fn luminance() -> #(String, String) {
-  #("mask-type", "luminance")
-}
+pub const luminance = #("mask-type", "luminance")
 
-pub fn alpha() -> #(String, String) {
-  #("mask-type", "alpha")
-}
+pub const alpha = #("mask-type", "alpha")
 
 pub fn raw(value: String) -> #(String, String) {
   #("mask_type", value)

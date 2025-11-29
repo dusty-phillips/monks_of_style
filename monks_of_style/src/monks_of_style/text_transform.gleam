@@ -1,28 +1,16 @@
 
 
-pub fn none() -> #(String, String) {
-  #("text-transform", "none")
-}
+pub const none = #("text-transform", "none")
 
-pub fn capitalize() -> #(String, String) {
-  #("text-transform", "capitalize")
-}
+pub const capitalize = #("text-transform", "capitalize")
 
-pub fn uppercase() -> #(String, String) {
-  #("text-transform", "uppercase")
-}
+pub const uppercase = #("text-transform", "uppercase")
 
-pub fn lowercase() -> #(String, String) {
-  #("text-transform", "lowercase")
-}
+pub const lowercase = #("text-transform", "lowercase")
 
-pub fn full_width() -> #(String, String) {
-  #("text-transform", "full-width")
-}
+pub const full_width = #("text-transform", "full-width")
 
-pub fn full_size_kana() -> #(String, String) {
-  #("text-transform", "full-size-kana")
-}
+pub const full_size_kana = #("text-transform", "full-size-kana")
 
 pub fn raw(value: String) -> #(String, String) {
   #("text_transform", value)

@@ -1,32 +1,18 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("page-break-before", "auto")
-}
+pub const auto_ = #("page-break-before", "auto")
 
-pub fn always() -> #(String, String) {
-  #("page-break-before", "always")
-}
+pub const always = #("page-break-before", "always")
 
-pub fn avoid() -> #(String, String) {
-  #("page-break-before", "avoid")
-}
+pub const avoid = #("page-break-before", "avoid")
 
-pub fn left() -> #(String, String) {
-  #("page-break-before", "left")
-}
+pub const left = #("page-break-before", "left")
 
-pub fn right() -> #(String, String) {
-  #("page-break-before", "right")
-}
+pub const right = #("page-break-before", "right")
 
-pub fn recto() -> #(String, String) {
-  #("page-break-before", "recto")
-}
+pub const recto = #("page-break-before", "recto")
 
-pub fn verso() -> #(String, String) {
-  #("page-break-before", "verso")
-}
+pub const verso = #("page-break-before", "verso")
 
 pub fn raw(value: String) -> #(String, String) {
   #("page_break_before", value)

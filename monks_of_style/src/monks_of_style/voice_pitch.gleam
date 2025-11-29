@@ -1,28 +1,16 @@
 
 
-pub fn absolute() -> #(String, String) {
-  #("voice-pitch", "absolute")
-}
+pub const absolute = #("voice-pitch", "absolute")
 
-pub fn x_low() -> #(String, String) {
-  #("voice-pitch", "x-low")
-}
+pub const x_low = #("voice-pitch", "x-low")
 
-pub fn low() -> #(String, String) {
-  #("voice-pitch", "low")
-}
+pub const low = #("voice-pitch", "low")
 
-pub fn medium() -> #(String, String) {
-  #("voice-pitch", "medium")
-}
+pub const medium = #("voice-pitch", "medium")
 
-pub fn high() -> #(String, String) {
-  #("voice-pitch", "high")
-}
+pub const high = #("voice-pitch", "high")
 
-pub fn x_high() -> #(String, String) {
-  #("voice-pitch", "x-high")
-}
+pub const x_high = #("voice-pitch", "x-high")
 
 pub fn raw(value: String) -> #(String, String) {
   #("voice_pitch", value)

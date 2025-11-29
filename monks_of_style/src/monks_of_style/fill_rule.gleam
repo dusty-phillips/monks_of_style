@@ -1,12 +1,8 @@
 
 
-pub fn nonzero() -> #(String, String) {
-  #("fill-rule", "nonzero")
-}
+pub const nonzero = #("fill-rule", "nonzero")
 
-pub fn evenodd() -> #(String, String) {
-  #("fill-rule", "evenodd")
-}
+pub const evenodd = #("fill-rule", "evenodd")
 
 pub fn raw(value: String) -> #(String, String) {
   #("fill_rule", value)

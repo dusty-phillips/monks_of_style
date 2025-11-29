@@ -1,24 +1,14 @@
 
 
-pub fn horizontal() -> #(String, String) {
-  #("box-orient", "horizontal")
-}
+pub const horizontal = #("box-orient", "horizontal")
 
-pub fn vertical() -> #(String, String) {
-  #("box-orient", "vertical")
-}
+pub const vertical = #("box-orient", "vertical")
 
-pub fn inline_axis() -> #(String, String) {
-  #("box-orient", "inline-axis")
-}
+pub const inline_axis = #("box-orient", "inline-axis")
 
-pub fn block_axis() -> #(String, String) {
-  #("box-orient", "block-axis")
-}
+pub const block_axis = #("box-orient", "block-axis")
 
-pub fn inherit() -> #(String, String) {
-  #("box-orient", "inherit")
-}
+pub const inherit = #("box-orient", "inherit")
 
 pub fn raw(value: String) -> #(String, String) {
   #("box_orient", value)

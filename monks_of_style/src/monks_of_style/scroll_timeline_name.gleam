@@ -1,8 +1,6 @@
 
 
-pub fn none() -> #(String, String) {
-  #("scroll-timeline-name", "none")
-}
+pub const none = #("scroll-timeline-name", "none")
 
 pub fn raw(value: String) -> #(String, String) {
   #("scroll_timeline_name", value)

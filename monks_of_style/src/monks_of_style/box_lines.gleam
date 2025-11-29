@@ -1,12 +1,8 @@
 
 
-pub fn single() -> #(String, String) {
-  #("box-lines", "single")
-}
+pub const single = #("box-lines", "single")
 
-pub fn multiple() -> #(String, String) {
-  #("box-lines", "multiple")
-}
+pub const multiple = #("box-lines", "multiple")
 
 pub fn raw(value: String) -> #(String, String) {
   #("box_lines", value)

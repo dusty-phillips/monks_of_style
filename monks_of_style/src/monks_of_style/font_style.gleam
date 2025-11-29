@@ -1,16 +1,10 @@
 
 
-pub fn normal() -> #(String, String) {
-  #("font-style", "normal")
-}
+pub const normal = #("font-style", "normal")
 
-pub fn italic() -> #(String, String) {
-  #("font-style", "italic")
-}
+pub const italic = #("font-style", "italic")
 
-pub fn oblique() -> #(String, String) {
-  #("font-style", "oblique")
-}
+pub const oblique = #("font-style", "oblique")
 
 pub fn raw(value: String) -> #(String, String) {
   #("font_style", value)

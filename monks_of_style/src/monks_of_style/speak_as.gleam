@@ -1,24 +1,14 @@
 
 
-pub fn normal() -> #(String, String) {
-  #("speak-as", "normal")
-}
+pub const normal = #("speak-as", "normal")
 
-pub fn spell_out() -> #(String, String) {
-  #("speak-as", "spell-out")
-}
+pub const spell_out = #("speak-as", "spell-out")
 
-pub fn digits() -> #(String, String) {
-  #("speak-as", "digits")
-}
+pub const digits = #("speak-as", "digits")
 
-pub fn literal_punctuation() -> #(String, String) {
-  #("speak-as", "literal-punctuation")
-}
+pub const literal_punctuation = #("speak-as", "literal-punctuation")
 
-pub fn no_punctuation() -> #(String, String) {
-  #("speak-as", "no-punctuation")
-}
+pub const no_punctuation = #("speak-as", "no-punctuation")
 
 pub fn raw(value: String) -> #(String, String) {
   #("speak_as", value)

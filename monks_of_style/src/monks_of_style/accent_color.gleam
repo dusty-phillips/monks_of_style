@@ -1,952 +1,478 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("accent-color", "auto")
-}
-
-pub fn none() -> #(String, String) {
-  #("accent-color", "none")
-}
-
-pub fn srgb() -> #(String, String) {
-  #("accent-color", "srgb")
-}
-
-pub fn srgb_linear() -> #(String, String) {
-  #("accent-color", "srgb-linear")
-}
-
-pub fn display_p3() -> #(String, String) {
-  #("accent-color", "display-p3")
-}
-
-pub fn a98_rgb() -> #(String, String) {
-  #("accent-color", "a98-rgb")
-}
-
-pub fn prophoto_rgb() -> #(String, String) {
-  #("accent-color", "prophoto-rgb")
-}
-
-pub fn rec2020() -> #(String, String) {
-  #("accent-color", "rec2020")
-}
-
-pub fn xyz() -> #(String, String) {
-  #("accent-color", "xyz")
-}
-
-pub fn xyz_d50() -> #(String, String) {
-  #("accent-color", "xyz-d50")
-}
-
-pub fn xyz_d65() -> #(String, String) {
-  #("accent-color", "xyz-d65")
-}
-
-pub fn transparent() -> #(String, String) {
-  #("accent-color", "transparent")
-}
-
-pub fn aliceblue() -> #(String, String) {
-  #("accent-color", "aliceblue")
-}
-
-pub fn antiquewhite() -> #(String, String) {
-  #("accent-color", "antiquewhite")
-}
-
-pub fn aqua() -> #(String, String) {
-  #("accent-color", "aqua")
-}
-
-pub fn aquamarine() -> #(String, String) {
-  #("accent-color", "aquamarine")
-}
-
-pub fn azure() -> #(String, String) {
-  #("accent-color", "azure")
-}
-
-pub fn beige() -> #(String, String) {
-  #("accent-color", "beige")
-}
-
-pub fn bisque() -> #(String, String) {
-  #("accent-color", "bisque")
-}
-
-pub fn black() -> #(String, String) {
-  #("accent-color", "black")
-}
-
-pub fn blanchedalmond() -> #(String, String) {
-  #("accent-color", "blanchedalmond")
-}
-
-pub fn blue() -> #(String, String) {
-  #("accent-color", "blue")
-}
-
-pub fn blueviolet() -> #(String, String) {
-  #("accent-color", "blueviolet")
-}
-
-pub fn brown() -> #(String, String) {
-  #("accent-color", "brown")
-}
-
-pub fn burlywood() -> #(String, String) {
-  #("accent-color", "burlywood")
-}
-
-pub fn cadetblue() -> #(String, String) {
-  #("accent-color", "cadetblue")
-}
-
-pub fn chartreuse() -> #(String, String) {
-  #("accent-color", "chartreuse")
-}
-
-pub fn chocolate() -> #(String, String) {
-  #("accent-color", "chocolate")
-}
-
-pub fn coral() -> #(String, String) {
-  #("accent-color", "coral")
-}
-
-pub fn cornflowerblue() -> #(String, String) {
-  #("accent-color", "cornflowerblue")
-}
-
-pub fn cornsilk() -> #(String, String) {
-  #("accent-color", "cornsilk")
-}
-
-pub fn crimson() -> #(String, String) {
-  #("accent-color", "crimson")
-}
-
-pub fn cyan() -> #(String, String) {
-  #("accent-color", "cyan")
-}
-
-pub fn darkblue() -> #(String, String) {
-  #("accent-color", "darkblue")
-}
-
-pub fn darkcyan() -> #(String, String) {
-  #("accent-color", "darkcyan")
-}
-
-pub fn darkgoldenrod() -> #(String, String) {
-  #("accent-color", "darkgoldenrod")
-}
-
-pub fn darkgray() -> #(String, String) {
-  #("accent-color", "darkgray")
-}
-
-pub fn darkgreen() -> #(String, String) {
-  #("accent-color", "darkgreen")
-}
-
-pub fn darkgrey() -> #(String, String) {
-  #("accent-color", "darkgrey")
-}
-
-pub fn darkkhaki() -> #(String, String) {
-  #("accent-color", "darkkhaki")
-}
-
-pub fn darkmagenta() -> #(String, String) {
-  #("accent-color", "darkmagenta")
-}
-
-pub fn darkolivegreen() -> #(String, String) {
-  #("accent-color", "darkolivegreen")
-}
-
-pub fn darkorange() -> #(String, String) {
-  #("accent-color", "darkorange")
-}
-
-pub fn darkorchid() -> #(String, String) {
-  #("accent-color", "darkorchid")
-}
-
-pub fn darkred() -> #(String, String) {
-  #("accent-color", "darkred")
-}
-
-pub fn darksalmon() -> #(String, String) {
-  #("accent-color", "darksalmon")
-}
-
-pub fn darkseagreen() -> #(String, String) {
-  #("accent-color", "darkseagreen")
-}
-
-pub fn darkslateblue() -> #(String, String) {
-  #("accent-color", "darkslateblue")
-}
-
-pub fn darkslategray() -> #(String, String) {
-  #("accent-color", "darkslategray")
-}
-
-pub fn darkslategrey() -> #(String, String) {
-  #("accent-color", "darkslategrey")
-}
-
-pub fn darkturquoise() -> #(String, String) {
-  #("accent-color", "darkturquoise")
-}
-
-pub fn darkviolet() -> #(String, String) {
-  #("accent-color", "darkviolet")
-}
-
-pub fn deeppink() -> #(String, String) {
-  #("accent-color", "deeppink")
-}
-
-pub fn deepskyblue() -> #(String, String) {
-  #("accent-color", "deepskyblue")
-}
-
-pub fn dimgray() -> #(String, String) {
-  #("accent-color", "dimgray")
-}
-
-pub fn dimgrey() -> #(String, String) {
-  #("accent-color", "dimgrey")
-}
-
-pub fn dodgerblue() -> #(String, String) {
-  #("accent-color", "dodgerblue")
-}
-
-pub fn firebrick() -> #(String, String) {
-  #("accent-color", "firebrick")
-}
-
-pub fn floralwhite() -> #(String, String) {
-  #("accent-color", "floralwhite")
-}
-
-pub fn forestgreen() -> #(String, String) {
-  #("accent-color", "forestgreen")
-}
-
-pub fn fuchsia() -> #(String, String) {
-  #("accent-color", "fuchsia")
-}
-
-pub fn gainsboro() -> #(String, String) {
-  #("accent-color", "gainsboro")
-}
-
-pub fn ghostwhite() -> #(String, String) {
-  #("accent-color", "ghostwhite")
-}
-
-pub fn gold() -> #(String, String) {
-  #("accent-color", "gold")
-}
-
-pub fn goldenrod() -> #(String, String) {
-  #("accent-color", "goldenrod")
-}
-
-pub fn gray() -> #(String, String) {
-  #("accent-color", "gray")
-}
-
-pub fn green() -> #(String, String) {
-  #("accent-color", "green")
-}
-
-pub fn greenyellow() -> #(String, String) {
-  #("accent-color", "greenyellow")
-}
-
-pub fn grey() -> #(String, String) {
-  #("accent-color", "grey")
-}
-
-pub fn honeydew() -> #(String, String) {
-  #("accent-color", "honeydew")
-}
-
-pub fn hotpink() -> #(String, String) {
-  #("accent-color", "hotpink")
-}
-
-pub fn indianred() -> #(String, String) {
-  #("accent-color", "indianred")
-}
-
-pub fn indigo() -> #(String, String) {
-  #("accent-color", "indigo")
-}
-
-pub fn ivory() -> #(String, String) {
-  #("accent-color", "ivory")
-}
-
-pub fn khaki() -> #(String, String) {
-  #("accent-color", "khaki")
-}
-
-pub fn lavender() -> #(String, String) {
-  #("accent-color", "lavender")
-}
-
-pub fn lavenderblush() -> #(String, String) {
-  #("accent-color", "lavenderblush")
-}
-
-pub fn lawngreen() -> #(String, String) {
-  #("accent-color", "lawngreen")
-}
-
-pub fn lemonchiffon() -> #(String, String) {
-  #("accent-color", "lemonchiffon")
-}
-
-pub fn lightblue() -> #(String, String) {
-  #("accent-color", "lightblue")
-}
-
-pub fn lightcoral() -> #(String, String) {
-  #("accent-color", "lightcoral")
-}
-
-pub fn lightcyan() -> #(String, String) {
-  #("accent-color", "lightcyan")
-}
-
-pub fn lightgoldenrodyellow() -> #(String, String) {
-  #("accent-color", "lightgoldenrodyellow")
-}
-
-pub fn lightgray() -> #(String, String) {
-  #("accent-color", "lightgray")
-}
-
-pub fn lightgreen() -> #(String, String) {
-  #("accent-color", "lightgreen")
-}
-
-pub fn lightgrey() -> #(String, String) {
-  #("accent-color", "lightgrey")
-}
-
-pub fn lightpink() -> #(String, String) {
-  #("accent-color", "lightpink")
-}
-
-pub fn lightsalmon() -> #(String, String) {
-  #("accent-color", "lightsalmon")
-}
-
-pub fn lightseagreen() -> #(String, String) {
-  #("accent-color", "lightseagreen")
-}
-
-pub fn lightskyblue() -> #(String, String) {
-  #("accent-color", "lightskyblue")
-}
-
-pub fn lightslategray() -> #(String, String) {
-  #("accent-color", "lightslategray")
-}
-
-pub fn lightslategrey() -> #(String, String) {
-  #("accent-color", "lightslategrey")
-}
-
-pub fn lightsteelblue() -> #(String, String) {
-  #("accent-color", "lightsteelblue")
-}
-
-pub fn lightyellow() -> #(String, String) {
-  #("accent-color", "lightyellow")
-}
-
-pub fn lime() -> #(String, String) {
-  #("accent-color", "lime")
-}
-
-pub fn limegreen() -> #(String, String) {
-  #("accent-color", "limegreen")
-}
-
-pub fn linen() -> #(String, String) {
-  #("accent-color", "linen")
-}
-
-pub fn magenta() -> #(String, String) {
-  #("accent-color", "magenta")
-}
-
-pub fn maroon() -> #(String, String) {
-  #("accent-color", "maroon")
-}
-
-pub fn mediumaquamarine() -> #(String, String) {
-  #("accent-color", "mediumaquamarine")
-}
-
-pub fn mediumblue() -> #(String, String) {
-  #("accent-color", "mediumblue")
-}
-
-pub fn mediumorchid() -> #(String, String) {
-  #("accent-color", "mediumorchid")
-}
-
-pub fn mediumpurple() -> #(String, String) {
-  #("accent-color", "mediumpurple")
-}
-
-pub fn mediumseagreen() -> #(String, String) {
-  #("accent-color", "mediumseagreen")
-}
-
-pub fn mediumslateblue() -> #(String, String) {
-  #("accent-color", "mediumslateblue")
-}
-
-pub fn mediumspringgreen() -> #(String, String) {
-  #("accent-color", "mediumspringgreen")
-}
-
-pub fn mediumturquoise() -> #(String, String) {
-  #("accent-color", "mediumturquoise")
-}
-
-pub fn mediumvioletred() -> #(String, String) {
-  #("accent-color", "mediumvioletred")
-}
-
-pub fn midnightblue() -> #(String, String) {
-  #("accent-color", "midnightblue")
-}
-
-pub fn mintcream() -> #(String, String) {
-  #("accent-color", "mintcream")
-}
-
-pub fn mistyrose() -> #(String, String) {
-  #("accent-color", "mistyrose")
-}
-
-pub fn moccasin() -> #(String, String) {
-  #("accent-color", "moccasin")
-}
-
-pub fn navajowhite() -> #(String, String) {
-  #("accent-color", "navajowhite")
-}
-
-pub fn navy() -> #(String, String) {
-  #("accent-color", "navy")
-}
-
-pub fn oldlace() -> #(String, String) {
-  #("accent-color", "oldlace")
-}
-
-pub fn olive() -> #(String, String) {
-  #("accent-color", "olive")
-}
-
-pub fn olivedrab() -> #(String, String) {
-  #("accent-color", "olivedrab")
-}
-
-pub fn orange() -> #(String, String) {
-  #("accent-color", "orange")
-}
-
-pub fn orangered() -> #(String, String) {
-  #("accent-color", "orangered")
-}
-
-pub fn orchid() -> #(String, String) {
-  #("accent-color", "orchid")
-}
-
-pub fn palegoldenrod() -> #(String, String) {
-  #("accent-color", "palegoldenrod")
-}
-
-pub fn palegreen() -> #(String, String) {
-  #("accent-color", "palegreen")
-}
-
-pub fn paleturquoise() -> #(String, String) {
-  #("accent-color", "paleturquoise")
-}
-
-pub fn palevioletred() -> #(String, String) {
-  #("accent-color", "palevioletred")
-}
-
-pub fn papayawhip() -> #(String, String) {
-  #("accent-color", "papayawhip")
-}
-
-pub fn peachpuff() -> #(String, String) {
-  #("accent-color", "peachpuff")
-}
-
-pub fn peru() -> #(String, String) {
-  #("accent-color", "peru")
-}
-
-pub fn pink() -> #(String, String) {
-  #("accent-color", "pink")
-}
-
-pub fn plum() -> #(String, String) {
-  #("accent-color", "plum")
-}
-
-pub fn powderblue() -> #(String, String) {
-  #("accent-color", "powderblue")
-}
-
-pub fn purple() -> #(String, String) {
-  #("accent-color", "purple")
-}
-
-pub fn rebeccapurple() -> #(String, String) {
-  #("accent-color", "rebeccapurple")
-}
-
-pub fn red() -> #(String, String) {
-  #("accent-color", "red")
-}
-
-pub fn rosybrown() -> #(String, String) {
-  #("accent-color", "rosybrown")
-}
-
-pub fn royalblue() -> #(String, String) {
-  #("accent-color", "royalblue")
-}
-
-pub fn saddlebrown() -> #(String, String) {
-  #("accent-color", "saddlebrown")
-}
-
-pub fn salmon() -> #(String, String) {
-  #("accent-color", "salmon")
-}
-
-pub fn sandybrown() -> #(String, String) {
-  #("accent-color", "sandybrown")
-}
-
-pub fn seagreen() -> #(String, String) {
-  #("accent-color", "seagreen")
-}
-
-pub fn seashell() -> #(String, String) {
-  #("accent-color", "seashell")
-}
-
-pub fn sienna() -> #(String, String) {
-  #("accent-color", "sienna")
-}
-
-pub fn silver() -> #(String, String) {
-  #("accent-color", "silver")
-}
-
-pub fn skyblue() -> #(String, String) {
-  #("accent-color", "skyblue")
-}
-
-pub fn slateblue() -> #(String, String) {
-  #("accent-color", "slateblue")
-}
-
-pub fn slategray() -> #(String, String) {
-  #("accent-color", "slategray")
-}
-
-pub fn slategrey() -> #(String, String) {
-  #("accent-color", "slategrey")
-}
-
-pub fn snow() -> #(String, String) {
-  #("accent-color", "snow")
-}
-
-pub fn springgreen() -> #(String, String) {
-  #("accent-color", "springgreen")
-}
-
-pub fn steelblue() -> #(String, String) {
-  #("accent-color", "steelblue")
-}
-
-pub fn tan() -> #(String, String) {
-  #("accent-color", "tan")
-}
-
-pub fn teal() -> #(String, String) {
-  #("accent-color", "teal")
-}
-
-pub fn thistle() -> #(String, String) {
-  #("accent-color", "thistle")
-}
-
-pub fn tomato() -> #(String, String) {
-  #("accent-color", "tomato")
-}
-
-pub fn turquoise() -> #(String, String) {
-  #("accent-color", "turquoise")
-}
-
-pub fn violet() -> #(String, String) {
-  #("accent-color", "violet")
-}
-
-pub fn wheat() -> #(String, String) {
-  #("accent-color", "wheat")
-}
-
-pub fn white() -> #(String, String) {
-  #("accent-color", "white")
-}
-
-pub fn whitesmoke() -> #(String, String) {
-  #("accent-color", "whitesmoke")
-}
-
-pub fn yellow() -> #(String, String) {
-  #("accent-color", "yellow")
-}
-
-pub fn yellowgreen() -> #(String, String) {
-  #("accent-color", "yellowgreen")
-}
-
-pub fn in() -> #(String, String) {
-  #("accent-color", "in")
-}
-
-pub fn lab() -> #(String, String) {
-  #("accent-color", "lab")
-}
-
-pub fn oklab() -> #(String, String) {
-  #("accent-color", "oklab")
-}
-
-pub fn hsl() -> #(String, String) {
-  #("accent-color", "hsl")
-}
-
-pub fn hwb() -> #(String, String) {
-  #("accent-color", "hwb")
-}
-
-pub fn lch() -> #(String, String) {
-  #("accent-color", "lch")
-}
-
-pub fn oklch() -> #(String, String) {
-  #("accent-color", "oklch")
-}
-
-pub fn shorter() -> #(String, String) {
-  #("accent-color", "shorter")
-}
-
-pub fn longer() -> #(String, String) {
-  #("accent-color", "longer")
-}
-
-pub fn increasing() -> #(String, String) {
-  #("accent-color", "increasing")
-}
-
-pub fn decreasing() -> #(String, String) {
-  #("accent-color", "decreasing")
-}
-
-pub fn hue() -> #(String, String) {
-  #("accent-color", "hue")
-}
-
-pub fn current_color() -> #(String, String) {
-  #("accent-color", "currentColor")
-}
-
-pub fn accent_color() -> #(String, String) {
-  #("accent-color", "AccentColor")
-}
-
-pub fn accent_color_text() -> #(String, String) {
-  #("accent-color", "AccentColorText")
-}
-
-pub fn active_text() -> #(String, String) {
-  #("accent-color", "ActiveText")
-}
-
-pub fn button_border() -> #(String, String) {
-  #("accent-color", "ButtonBorder")
-}
-
-pub fn button_face() -> #(String, String) {
-  #("accent-color", "ButtonFace")
-}
-
-pub fn button_text() -> #(String, String) {
-  #("accent-color", "ButtonText")
-}
-
-pub fn canvas() -> #(String, String) {
-  #("accent-color", "Canvas")
-}
-
-pub fn canvas_text() -> #(String, String) {
-  #("accent-color", "CanvasText")
-}
-
-pub fn field() -> #(String, String) {
-  #("accent-color", "Field")
-}
-
-pub fn field_text() -> #(String, String) {
-  #("accent-color", "FieldText")
-}
-
-pub fn gray_text() -> #(String, String) {
-  #("accent-color", "GrayText")
-}
-
-pub fn highlight() -> #(String, String) {
-  #("accent-color", "Highlight")
-}
-
-pub fn highlight_text() -> #(String, String) {
-  #("accent-color", "HighlightText")
-}
-
-pub fn link_text() -> #(String, String) {
-  #("accent-color", "LinkText")
-}
-
-pub fn mark() -> #(String, String) {
-  #("accent-color", "Mark")
-}
-
-pub fn mark_text() -> #(String, String) {
-  #("accent-color", "MarkText")
-}
-
-pub fn selected_item() -> #(String, String) {
-  #("accent-color", "SelectedItem")
-}
-
-pub fn selected_item_text() -> #(String, String) {
-  #("accent-color", "SelectedItemText")
-}
-
-pub fn visited_text() -> #(String, String) {
-  #("accent-color", "VisitedText")
-}
-
-pub fn moz_button_default() -> #(String, String) {
-  #("accent-color", "-moz-ButtonDefault")
-}
-
-pub fn moz_button_hover_face() -> #(String, String) {
-  #("accent-color", "-moz-ButtonHoverFace")
-}
-
-pub fn moz_button_hover_text() -> #(String, String) {
-  #("accent-color", "-moz-ButtonHoverText")
-}
-
-pub fn moz_cell_highlight() -> #(String, String) {
-  #("accent-color", "-moz-CellHighlight")
-}
-
-pub fn moz_cell_highlight_text() -> #(String, String) {
-  #("accent-color", "-moz-CellHighlightText")
-}
-
-pub fn moz_combobox() -> #(String, String) {
-  #("accent-color", "-moz-Combobox")
-}
-
-pub fn moz_combobox_text() -> #(String, String) {
-  #("accent-color", "-moz-ComboboxText")
-}
-
-pub fn moz_dialog() -> #(String, String) {
-  #("accent-color", "-moz-Dialog")
-}
-
-pub fn moz_dialog_text() -> #(String, String) {
-  #("accent-color", "-moz-DialogText")
-}
-
-pub fn moz_dragtargetzone() -> #(String, String) {
-  #("accent-color", "-moz-dragtargetzone")
-}
-
-pub fn moz_even_tree_row() -> #(String, String) {
-  #("accent-color", "-moz-EvenTreeRow")
-}
-
-pub fn moz_field() -> #(String, String) {
-  #("accent-color", "-moz-Field")
-}
-
-pub fn moz_field_text() -> #(String, String) {
-  #("accent-color", "-moz-FieldText")
-}
-
-pub fn moz_html_cell_highlight() -> #(String, String) {
-  #("accent-color", "-moz-html-CellHighlight")
-}
-
-pub fn moz_html_cell_highlight_text() -> #(String, String) {
-  #("accent-color", "-moz-html-CellHighlightText")
-}
-
-pub fn moz_mac_accentdarkestshadow() -> #(String, String) {
-  #("accent-color", "-moz-mac-accentdarkestshadow")
-}
-
-pub fn moz_mac_accentdarkshadow() -> #(String, String) {
-  #("accent-color", "-moz-mac-accentdarkshadow")
-}
-
-pub fn moz_mac_accentface() -> #(String, String) {
-  #("accent-color", "-moz-mac-accentface")
-}
-
-pub fn moz_mac_accentlightesthighlight() -> #(String, String) {
-  #("accent-color", "-moz-mac-accentlightesthighlight")
-}
-
-pub fn moz_mac_accentlightshadow() -> #(String, String) {
-  #("accent-color", "-moz-mac-accentlightshadow")
-}
-
-pub fn moz_mac_accentregularhighlight() -> #(String, String) {
-  #("accent-color", "-moz-mac-accentregularhighlight")
-}
-
-pub fn moz_mac_accentregularshadow() -> #(String, String) {
-  #("accent-color", "-moz-mac-accentregularshadow")
-}
-
-pub fn moz_mac_chrome_active() -> #(String, String) {
-  #("accent-color", "-moz-mac-chrome-active")
-}
-
-pub fn moz_mac_chrome_inactive() -> #(String, String) {
-  #("accent-color", "-moz-mac-chrome-inactive")
-}
-
-pub fn moz_mac_focusring() -> #(String, String) {
-  #("accent-color", "-moz-mac-focusring")
-}
-
-pub fn moz_mac_menuselect() -> #(String, String) {
-  #("accent-color", "-moz-mac-menuselect")
-}
-
-pub fn moz_mac_menushadow() -> #(String, String) {
-  #("accent-color", "-moz-mac-menushadow")
-}
-
-pub fn moz_mac_menutextselect() -> #(String, String) {
-  #("accent-color", "-moz-mac-menutextselect")
-}
-
-pub fn moz_menu_hover() -> #(String, String) {
-  #("accent-color", "-moz-MenuHover")
-}
-
-pub fn moz_menu_hover_text() -> #(String, String) {
-  #("accent-color", "-moz-MenuHoverText")
-}
-
-pub fn moz_menu_bar_text() -> #(String, String) {
-  #("accent-color", "-moz-MenuBarText")
-}
-
-pub fn moz_menu_bar_hover_text() -> #(String, String) {
-  #("accent-color", "-moz-MenuBarHoverText")
-}
-
-pub fn moz_nativehyperlinktext() -> #(String, String) {
-  #("accent-color", "-moz-nativehyperlinktext")
-}
-
-pub fn moz_odd_tree_row() -> #(String, String) {
-  #("accent-color", "-moz-OddTreeRow")
-}
-
-pub fn moz_win_communicationstext() -> #(String, String) {
-  #("accent-color", "-moz-win-communicationstext")
-}
-
-pub fn moz_win_mediatext() -> #(String, String) {
-  #("accent-color", "-moz-win-mediatext")
-}
-
-pub fn moz_activehyperlinktext() -> #(String, String) {
-  #("accent-color", "-moz-activehyperlinktext")
-}
-
-pub fn moz_default_background_color() -> #(String, String) {
-  #("accent-color", "-moz-default-background-color")
-}
-
-pub fn moz_default_color() -> #(String, String) {
-  #("accent-color", "-moz-default-color")
-}
-
-pub fn moz_hyperlinktext() -> #(String, String) {
-  #("accent-color", "-moz-hyperlinktext")
-}
-
-pub fn moz_visitedhyperlinktext() -> #(String, String) {
-  #("accent-color", "-moz-visitedhyperlinktext")
-}
-
-pub fn webkit_activelink() -> #(String, String) {
-  #("accent-color", "-webkit-activelink")
-}
-
-pub fn webkit_focus_ring_color() -> #(String, String) {
-  #("accent-color", "-webkit-focus-ring-color")
-}
-
-pub fn webkit_link() -> #(String, String) {
-  #("accent-color", "-webkit-link")
-}
-
-pub fn webkit_text() -> #(String, String) {
-  #("accent-color", "-webkit-text")
-}
+pub const auto_ = #("accent-color", "auto")
+
+pub const none = #("accent-color", "none")
+
+pub const srgb = #("accent-color", "srgb")
+
+pub const srgb_linear = #("accent-color", "srgb-linear")
+
+pub const display_p3 = #("accent-color", "display-p3")
+
+pub const a98_rgb = #("accent-color", "a98-rgb")
+
+pub const prophoto_rgb = #("accent-color", "prophoto-rgb")
+
+pub const rec2020 = #("accent-color", "rec2020")
+
+pub const xyz = #("accent-color", "xyz")
+
+pub const xyz_d50 = #("accent-color", "xyz-d50")
+
+pub const xyz_d65 = #("accent-color", "xyz-d65")
+
+pub const transparent = #("accent-color", "transparent")
+
+pub const aliceblue = #("accent-color", "aliceblue")
+
+pub const antiquewhite = #("accent-color", "antiquewhite")
+
+pub const aqua = #("accent-color", "aqua")
+
+pub const aquamarine = #("accent-color", "aquamarine")
+
+pub const azure = #("accent-color", "azure")
+
+pub const beige = #("accent-color", "beige")
+
+pub const bisque = #("accent-color", "bisque")
+
+pub const black = #("accent-color", "black")
+
+pub const blanchedalmond = #("accent-color", "blanchedalmond")
+
+pub const blue = #("accent-color", "blue")
+
+pub const blueviolet = #("accent-color", "blueviolet")
+
+pub const brown = #("accent-color", "brown")
+
+pub const burlywood = #("accent-color", "burlywood")
+
+pub const cadetblue = #("accent-color", "cadetblue")
+
+pub const chartreuse = #("accent-color", "chartreuse")
+
+pub const chocolate = #("accent-color", "chocolate")
+
+pub const coral = #("accent-color", "coral")
+
+pub const cornflowerblue = #("accent-color", "cornflowerblue")
+
+pub const cornsilk = #("accent-color", "cornsilk")
+
+pub const crimson = #("accent-color", "crimson")
+
+pub const cyan = #("accent-color", "cyan")
+
+pub const darkblue = #("accent-color", "darkblue")
+
+pub const darkcyan = #("accent-color", "darkcyan")
+
+pub const darkgoldenrod = #("accent-color", "darkgoldenrod")
+
+pub const darkgray = #("accent-color", "darkgray")
+
+pub const darkgreen = #("accent-color", "darkgreen")
+
+pub const darkgrey = #("accent-color", "darkgrey")
+
+pub const darkkhaki = #("accent-color", "darkkhaki")
+
+pub const darkmagenta = #("accent-color", "darkmagenta")
+
+pub const darkolivegreen = #("accent-color", "darkolivegreen")
+
+pub const darkorange = #("accent-color", "darkorange")
+
+pub const darkorchid = #("accent-color", "darkorchid")
+
+pub const darkred = #("accent-color", "darkred")
+
+pub const darksalmon = #("accent-color", "darksalmon")
+
+pub const darkseagreen = #("accent-color", "darkseagreen")
+
+pub const darkslateblue = #("accent-color", "darkslateblue")
+
+pub const darkslategray = #("accent-color", "darkslategray")
+
+pub const darkslategrey = #("accent-color", "darkslategrey")
+
+pub const darkturquoise = #("accent-color", "darkturquoise")
+
+pub const darkviolet = #("accent-color", "darkviolet")
+
+pub const deeppink = #("accent-color", "deeppink")
+
+pub const deepskyblue = #("accent-color", "deepskyblue")
+
+pub const dimgray = #("accent-color", "dimgray")
+
+pub const dimgrey = #("accent-color", "dimgrey")
+
+pub const dodgerblue = #("accent-color", "dodgerblue")
+
+pub const firebrick = #("accent-color", "firebrick")
+
+pub const floralwhite = #("accent-color", "floralwhite")
+
+pub const forestgreen = #("accent-color", "forestgreen")
+
+pub const fuchsia = #("accent-color", "fuchsia")
+
+pub const gainsboro = #("accent-color", "gainsboro")
+
+pub const ghostwhite = #("accent-color", "ghostwhite")
+
+pub const gold = #("accent-color", "gold")
+
+pub const goldenrod = #("accent-color", "goldenrod")
+
+pub const gray = #("accent-color", "gray")
+
+pub const green = #("accent-color", "green")
+
+pub const greenyellow = #("accent-color", "greenyellow")
+
+pub const grey = #("accent-color", "grey")
+
+pub const honeydew = #("accent-color", "honeydew")
+
+pub const hotpink = #("accent-color", "hotpink")
+
+pub const indianred = #("accent-color", "indianred")
+
+pub const indigo = #("accent-color", "indigo")
+
+pub const ivory = #("accent-color", "ivory")
+
+pub const khaki = #("accent-color", "khaki")
+
+pub const lavender = #("accent-color", "lavender")
+
+pub const lavenderblush = #("accent-color", "lavenderblush")
+
+pub const lawngreen = #("accent-color", "lawngreen")
+
+pub const lemonchiffon = #("accent-color", "lemonchiffon")
+
+pub const lightblue = #("accent-color", "lightblue")
+
+pub const lightcoral = #("accent-color", "lightcoral")
+
+pub const lightcyan = #("accent-color", "lightcyan")
+
+pub const lightgoldenrodyellow = #("accent-color", "lightgoldenrodyellow")
+
+pub const lightgray = #("accent-color", "lightgray")
+
+pub const lightgreen = #("accent-color", "lightgreen")
+
+pub const lightgrey = #("accent-color", "lightgrey")
+
+pub const lightpink = #("accent-color", "lightpink")
+
+pub const lightsalmon = #("accent-color", "lightsalmon")
+
+pub const lightseagreen = #("accent-color", "lightseagreen")
+
+pub const lightskyblue = #("accent-color", "lightskyblue")
+
+pub const lightslategray = #("accent-color", "lightslategray")
+
+pub const lightslategrey = #("accent-color", "lightslategrey")
+
+pub const lightsteelblue = #("accent-color", "lightsteelblue")
+
+pub const lightyellow = #("accent-color", "lightyellow")
+
+pub const lime = #("accent-color", "lime")
+
+pub const limegreen = #("accent-color", "limegreen")
+
+pub const linen = #("accent-color", "linen")
+
+pub const magenta = #("accent-color", "magenta")
+
+pub const maroon = #("accent-color", "maroon")
+
+pub const mediumaquamarine = #("accent-color", "mediumaquamarine")
+
+pub const mediumblue = #("accent-color", "mediumblue")
+
+pub const mediumorchid = #("accent-color", "mediumorchid")
+
+pub const mediumpurple = #("accent-color", "mediumpurple")
+
+pub const mediumseagreen = #("accent-color", "mediumseagreen")
+
+pub const mediumslateblue = #("accent-color", "mediumslateblue")
+
+pub const mediumspringgreen = #("accent-color", "mediumspringgreen")
+
+pub const mediumturquoise = #("accent-color", "mediumturquoise")
+
+pub const mediumvioletred = #("accent-color", "mediumvioletred")
+
+pub const midnightblue = #("accent-color", "midnightblue")
+
+pub const mintcream = #("accent-color", "mintcream")
+
+pub const mistyrose = #("accent-color", "mistyrose")
+
+pub const moccasin = #("accent-color", "moccasin")
+
+pub const navajowhite = #("accent-color", "navajowhite")
+
+pub const navy = #("accent-color", "navy")
+
+pub const oldlace = #("accent-color", "oldlace")
+
+pub const olive = #("accent-color", "olive")
+
+pub const olivedrab = #("accent-color", "olivedrab")
+
+pub const orange = #("accent-color", "orange")
+
+pub const orangered = #("accent-color", "orangered")
+
+pub const orchid = #("accent-color", "orchid")
+
+pub const palegoldenrod = #("accent-color", "palegoldenrod")
+
+pub const palegreen = #("accent-color", "palegreen")
+
+pub const paleturquoise = #("accent-color", "paleturquoise")
+
+pub const palevioletred = #("accent-color", "palevioletred")
+
+pub const papayawhip = #("accent-color", "papayawhip")
+
+pub const peachpuff = #("accent-color", "peachpuff")
+
+pub const peru = #("accent-color", "peru")
+
+pub const pink = #("accent-color", "pink")
+
+pub const plum = #("accent-color", "plum")
+
+pub const powderblue = #("accent-color", "powderblue")
+
+pub const purple = #("accent-color", "purple")
+
+pub const rebeccapurple = #("accent-color", "rebeccapurple")
+
+pub const red = #("accent-color", "red")
+
+pub const rosybrown = #("accent-color", "rosybrown")
+
+pub const royalblue = #("accent-color", "royalblue")
+
+pub const saddlebrown = #("accent-color", "saddlebrown")
+
+pub const salmon = #("accent-color", "salmon")
+
+pub const sandybrown = #("accent-color", "sandybrown")
+
+pub const seagreen = #("accent-color", "seagreen")
+
+pub const seashell = #("accent-color", "seashell")
+
+pub const sienna = #("accent-color", "sienna")
+
+pub const silver = #("accent-color", "silver")
+
+pub const skyblue = #("accent-color", "skyblue")
+
+pub const slateblue = #("accent-color", "slateblue")
+
+pub const slategray = #("accent-color", "slategray")
+
+pub const slategrey = #("accent-color", "slategrey")
+
+pub const snow = #("accent-color", "snow")
+
+pub const springgreen = #("accent-color", "springgreen")
+
+pub const steelblue = #("accent-color", "steelblue")
+
+pub const tan = #("accent-color", "tan")
+
+pub const teal = #("accent-color", "teal")
+
+pub const thistle = #("accent-color", "thistle")
+
+pub const tomato = #("accent-color", "tomato")
+
+pub const turquoise = #("accent-color", "turquoise")
+
+pub const violet = #("accent-color", "violet")
+
+pub const wheat = #("accent-color", "wheat")
+
+pub const white = #("accent-color", "white")
+
+pub const whitesmoke = #("accent-color", "whitesmoke")
+
+pub const yellow = #("accent-color", "yellow")
+
+pub const yellowgreen = #("accent-color", "yellowgreen")
+
+pub const in = #("accent-color", "in")
+
+pub const lab = #("accent-color", "lab")
+
+pub const oklab = #("accent-color", "oklab")
+
+pub const hsl = #("accent-color", "hsl")
+
+pub const hwb = #("accent-color", "hwb")
+
+pub const lch = #("accent-color", "lch")
+
+pub const oklch = #("accent-color", "oklch")
+
+pub const shorter = #("accent-color", "shorter")
+
+pub const longer = #("accent-color", "longer")
+
+pub const increasing = #("accent-color", "increasing")
+
+pub const decreasing = #("accent-color", "decreasing")
+
+pub const hue = #("accent-color", "hue")
+
+pub const current_color = #("accent-color", "currentColor")
+
+pub const accent_color = #("accent-color", "AccentColor")
+
+pub const accent_color_text = #("accent-color", "AccentColorText")
+
+pub const active_text = #("accent-color", "ActiveText")
+
+pub const button_border = #("accent-color", "ButtonBorder")
+
+pub const button_face = #("accent-color", "ButtonFace")
+
+pub const button_text = #("accent-color", "ButtonText")
+
+pub const canvas = #("accent-color", "Canvas")
+
+pub const canvas_text = #("accent-color", "CanvasText")
+
+pub const field = #("accent-color", "Field")
+
+pub const field_text = #("accent-color", "FieldText")
+
+pub const gray_text = #("accent-color", "GrayText")
+
+pub const highlight = #("accent-color", "Highlight")
+
+pub const highlight_text = #("accent-color", "HighlightText")
+
+pub const link_text = #("accent-color", "LinkText")
+
+pub const mark = #("accent-color", "Mark")
+
+pub const mark_text = #("accent-color", "MarkText")
+
+pub const selected_item = #("accent-color", "SelectedItem")
+
+pub const selected_item_text = #("accent-color", "SelectedItemText")
+
+pub const visited_text = #("accent-color", "VisitedText")
+
+pub const moz_button_default = #("accent-color", "-moz-ButtonDefault")
+
+pub const moz_button_hover_face = #("accent-color", "-moz-ButtonHoverFace")
+
+pub const moz_button_hover_text = #("accent-color", "-moz-ButtonHoverText")
+
+pub const moz_cell_highlight = #("accent-color", "-moz-CellHighlight")
+
+pub const moz_cell_highlight_text = #("accent-color", "-moz-CellHighlightText")
+
+pub const moz_combobox = #("accent-color", "-moz-Combobox")
+
+pub const moz_combobox_text = #("accent-color", "-moz-ComboboxText")
+
+pub const moz_dialog = #("accent-color", "-moz-Dialog")
+
+pub const moz_dialog_text = #("accent-color", "-moz-DialogText")
+
+pub const moz_dragtargetzone = #("accent-color", "-moz-dragtargetzone")
+
+pub const moz_even_tree_row = #("accent-color", "-moz-EvenTreeRow")
+
+pub const moz_field = #("accent-color", "-moz-Field")
+
+pub const moz_field_text = #("accent-color", "-moz-FieldText")
+
+pub const moz_html_cell_highlight = #("accent-color", "-moz-html-CellHighlight")
+
+pub const moz_html_cell_highlight_text = #("accent-color", "-moz-html-CellHighlightText")
+
+pub const moz_mac_accentdarkestshadow = #("accent-color", "-moz-mac-accentdarkestshadow")
+
+pub const moz_mac_accentdarkshadow = #("accent-color", "-moz-mac-accentdarkshadow")
+
+pub const moz_mac_accentface = #("accent-color", "-moz-mac-accentface")
+
+pub const moz_mac_accentlightesthighlight = #("accent-color", "-moz-mac-accentlightesthighlight")
+
+pub const moz_mac_accentlightshadow = #("accent-color", "-moz-mac-accentlightshadow")
+
+pub const moz_mac_accentregularhighlight = #("accent-color", "-moz-mac-accentregularhighlight")
+
+pub const moz_mac_accentregularshadow = #("accent-color", "-moz-mac-accentregularshadow")
+
+pub const moz_mac_chrome_active = #("accent-color", "-moz-mac-chrome-active")
+
+pub const moz_mac_chrome_inactive = #("accent-color", "-moz-mac-chrome-inactive")
+
+pub const moz_mac_focusring = #("accent-color", "-moz-mac-focusring")
+
+pub const moz_mac_menuselect = #("accent-color", "-moz-mac-menuselect")
+
+pub const moz_mac_menushadow = #("accent-color", "-moz-mac-menushadow")
+
+pub const moz_mac_menutextselect = #("accent-color", "-moz-mac-menutextselect")
+
+pub const moz_menu_hover = #("accent-color", "-moz-MenuHover")
+
+pub const moz_menu_hover_text = #("accent-color", "-moz-MenuHoverText")
+
+pub const moz_menu_bar_text = #("accent-color", "-moz-MenuBarText")
+
+pub const moz_menu_bar_hover_text = #("accent-color", "-moz-MenuBarHoverText")
+
+pub const moz_nativehyperlinktext = #("accent-color", "-moz-nativehyperlinktext")
+
+pub const moz_odd_tree_row = #("accent-color", "-moz-OddTreeRow")
+
+pub const moz_win_communicationstext = #("accent-color", "-moz-win-communicationstext")
+
+pub const moz_win_mediatext = #("accent-color", "-moz-win-mediatext")
+
+pub const moz_activehyperlinktext = #("accent-color", "-moz-activehyperlinktext")
+
+pub const moz_default_background_color = #("accent-color", "-moz-default-background-color")
+
+pub const moz_default_color = #("accent-color", "-moz-default-color")
+
+pub const moz_hyperlinktext = #("accent-color", "-moz-hyperlinktext")
+
+pub const moz_visitedhyperlinktext = #("accent-color", "-moz-visitedhyperlinktext")
+
+pub const webkit_activelink = #("accent-color", "-webkit-activelink")
+
+pub const webkit_focus_ring_color = #("accent-color", "-webkit-focus-ring-color")
+
+pub const webkit_link = #("accent-color", "-webkit-link")
+
+pub const webkit_text = #("accent-color", "-webkit-text")
 
 pub fn raw(value: String) -> #(String, String) {
   #("accent_color", value)

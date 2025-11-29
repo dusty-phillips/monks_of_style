@@ -1,20 +1,12 @@
 
 
-pub fn normal() -> #(String, String) {
-  #("color-scheme", "normal")
-}
+pub const normal = #("color-scheme", "normal")
 
-pub fn light() -> #(String, String) {
-  #("color-scheme", "light")
-}
+pub const light = #("color-scheme", "light")
 
-pub fn dark() -> #(String, String) {
-  #("color-scheme", "dark")
-}
+pub const dark = #("color-scheme", "dark")
 
-pub fn only() -> #(String, String) {
-  #("color-scheme", "only")
-}
+pub const only = #("color-scheme", "only")
 
 pub fn raw(value: String) -> #(String, String) {
   #("color_scheme", value)

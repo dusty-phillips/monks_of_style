@@ -1,8 +1,6 @@
 
 
-pub fn auto_add() -> #(String, String) {
-  #("math-depth", "auto-add")
-}
+pub const auto_add = #("math-depth", "auto-add")
 
 pub fn raw(value: String) -> #(String, String) {
   #("math_depth", value)

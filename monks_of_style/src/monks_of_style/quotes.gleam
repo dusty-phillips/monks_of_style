@@ -1,12 +1,8 @@
 
 
-pub fn none() -> #(String, String) {
-  #("quotes", "none")
-}
+pub const none = #("quotes", "none")
 
-pub fn auto_() -> #(String, String) {
-  #("quotes", "auto")
-}
+pub const auto_ = #("quotes", "auto")
 
 pub fn raw(value: String) -> #(String, String) {
   #("quotes", value)

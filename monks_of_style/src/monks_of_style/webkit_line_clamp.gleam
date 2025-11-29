@@ -1,8 +1,6 @@
 
 
-pub fn none() -> #(String, String) {
-  #("-webkit-line-clamp", "none")
-}
+pub const none = #("-webkit-line-clamp", "none")
 
 pub fn raw(value: String) -> #(String, String) {
   #("webkit_line_clamp", value)

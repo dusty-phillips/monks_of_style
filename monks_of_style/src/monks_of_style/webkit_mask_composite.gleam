@@ -1,48 +1,26 @@
 
 
-pub fn clear() -> #(String, String) {
-  #("-webkit-mask-composite", "clear")
-}
+pub const clear = #("-webkit-mask-composite", "clear")
 
-pub fn copy() -> #(String, String) {
-  #("-webkit-mask-composite", "copy")
-}
+pub const copy = #("-webkit-mask-composite", "copy")
 
-pub fn source_over() -> #(String, String) {
-  #("-webkit-mask-composite", "source-over")
-}
+pub const source_over = #("-webkit-mask-composite", "source-over")
 
-pub fn source_in() -> #(String, String) {
-  #("-webkit-mask-composite", "source-in")
-}
+pub const source_in = #("-webkit-mask-composite", "source-in")
 
-pub fn source_out() -> #(String, String) {
-  #("-webkit-mask-composite", "source-out")
-}
+pub const source_out = #("-webkit-mask-composite", "source-out")
 
-pub fn source_atop() -> #(String, String) {
-  #("-webkit-mask-composite", "source-atop")
-}
+pub const source_atop = #("-webkit-mask-composite", "source-atop")
 
-pub fn destination_over() -> #(String, String) {
-  #("-webkit-mask-composite", "destination-over")
-}
+pub const destination_over = #("-webkit-mask-composite", "destination-over")
 
-pub fn destination_in() -> #(String, String) {
-  #("-webkit-mask-composite", "destination-in")
-}
+pub const destination_in = #("-webkit-mask-composite", "destination-in")
 
-pub fn destination_out() -> #(String, String) {
-  #("-webkit-mask-composite", "destination-out")
-}
+pub const destination_out = #("-webkit-mask-composite", "destination-out")
 
-pub fn destination_atop() -> #(String, String) {
-  #("-webkit-mask-composite", "destination-atop")
-}
+pub const destination_atop = #("-webkit-mask-composite", "destination-atop")
 
-pub fn xor() -> #(String, String) {
-  #("-webkit-mask-composite", "xor")
-}
+pub const xor = #("-webkit-mask-composite", "xor")
 
 pub fn raw(value: String) -> #(String, String) {
   #("webkit_mask_composite", value)

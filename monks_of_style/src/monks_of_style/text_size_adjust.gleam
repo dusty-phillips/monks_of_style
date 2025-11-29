@@ -1,12 +1,8 @@
 
 
-pub fn none() -> #(String, String) {
-  #("text-size-adjust", "none")
-}
+pub const none = #("text-size-adjust", "none")
 
-pub fn auto_() -> #(String, String) {
-  #("text-size-adjust", "auto")
-}
+pub const auto_ = #("text-size-adjust", "auto")
 
 pub fn raw(value: String) -> #(String, String) {
   #("text_size_adjust", value)

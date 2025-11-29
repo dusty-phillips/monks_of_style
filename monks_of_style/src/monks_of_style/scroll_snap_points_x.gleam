@@ -1,8 +1,6 @@
 
 
-pub fn none() -> #(String, String) {
-  #("scroll-snap-points-x", "none")
-}
+pub const none = #("scroll-snap-points-x", "none")
 
 pub fn raw(value: String) -> #(String, String) {
   #("scroll_snap_points_x", value)

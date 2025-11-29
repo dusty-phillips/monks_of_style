@@ -1,12 +1,8 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("contain-intrinsic-block-size", "auto")
-}
+pub const auto_ = #("contain-intrinsic-block-size", "auto")
 
-pub fn none() -> #(String, String) {
-  #("contain-intrinsic-block-size", "none")
-}
+pub const none = #("contain-intrinsic-block-size", "none")
 
 pub fn raw(value: String) -> #(String, String) {
   #("contain_intrinsic_block_size", value)

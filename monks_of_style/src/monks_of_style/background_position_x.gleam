@@ -1,24 +1,14 @@
 
 
-pub fn center() -> #(String, String) {
-  #("background-position-x", "center")
-}
+pub const center = #("background-position-x", "center")
 
-pub fn left() -> #(String, String) {
-  #("background-position-x", "left")
-}
+pub const left = #("background-position-x", "left")
 
-pub fn right() -> #(String, String) {
-  #("background-position-x", "right")
-}
+pub const right = #("background-position-x", "right")
 
-pub fn x_start() -> #(String, String) {
-  #("background-position-x", "x-start")
-}
+pub const x_start = #("background-position-x", "x-start")
 
-pub fn x_end() -> #(String, String) {
-  #("background-position-x", "x-end")
-}
+pub const x_end = #("background-position-x", "x-end")
 
 pub fn raw(value: String) -> #(String, String) {
   #("background_position_x", value)

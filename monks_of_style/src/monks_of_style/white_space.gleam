@@ -1,84 +1,44 @@
 
 
-pub fn normal() -> #(String, String) {
-  #("white-space", "normal")
-}
+pub const normal = #("white-space", "normal")
 
-pub fn pre() -> #(String, String) {
-  #("white-space", "pre")
-}
+pub const pre = #("white-space", "pre")
 
-pub fn nowrap() -> #(String, String) {
-  #("white-space", "nowrap")
-}
+pub const nowrap = #("white-space", "nowrap")
 
-pub fn pre_wrap() -> #(String, String) {
-  #("white-space", "pre-wrap")
-}
+pub const pre_wrap = #("white-space", "pre-wrap")
 
-pub fn pre_line() -> #(String, String) {
-  #("white-space", "pre-line")
-}
+pub const pre_line = #("white-space", "pre-line")
 
-pub fn break_spaces() -> #(String, String) {
-  #("white-space", "break-spaces")
-}
+pub const break_spaces = #("white-space", "break-spaces")
 
-pub fn collapse() -> #(String, String) {
-  #("white-space", "collapse")
-}
+pub const collapse = #("white-space", "collapse")
 
-pub fn discard() -> #(String, String) {
-  #("white-space", "discard")
-}
+pub const discard = #("white-space", "discard")
 
-pub fn preserve() -> #(String, String) {
-  #("white-space", "preserve")
-}
+pub const preserve = #("white-space", "preserve")
 
-pub fn preserve_breaks() -> #(String, String) {
-  #("white-space", "preserve-breaks")
-}
+pub const preserve_breaks = #("white-space", "preserve-breaks")
 
-pub fn preserve_spaces() -> #(String, String) {
-  #("white-space", "preserve-spaces")
-}
+pub const preserve_spaces = #("white-space", "preserve-spaces")
 
-pub fn auto_() -> #(String, String) {
-  #("white-space", "auto")
-}
+pub const auto_ = #("white-space", "auto")
 
-pub fn wrap() -> #(String, String) {
-  #("white-space", "wrap")
-}
+pub const wrap = #("white-space", "wrap")
 
-pub fn balance() -> #(String, String) {
-  #("white-space", "balance")
-}
+pub const balance = #("white-space", "balance")
 
-pub fn stable() -> #(String, String) {
-  #("white-space", "stable")
-}
+pub const stable = #("white-space", "stable")
 
-pub fn pretty() -> #(String, String) {
-  #("white-space", "pretty")
-}
+pub const pretty = #("white-space", "pretty")
 
-pub fn none() -> #(String, String) {
-  #("white-space", "none")
-}
+pub const none = #("white-space", "none")
 
-pub fn discard_before() -> #(String, String) {
-  #("white-space", "discard-before")
-}
+pub const discard_before = #("white-space", "discard-before")
 
-pub fn discard_after() -> #(String, String) {
-  #("white-space", "discard-after")
-}
+pub const discard_after = #("white-space", "discard-after")
 
-pub fn discard_inner() -> #(String, String) {
-  #("white-space", "discard-inner")
-}
+pub const discard_inner = #("white-space", "discard-inner")
 
 pub fn raw(value: String) -> #(String, String) {
   #("white_space", value)

@@ -1,16 +1,10 @@
 
 
-pub fn thin() -> #(String, String) {
-  #("border-bottom-width", "thin")
-}
+pub const thin = #("border-bottom-width", "thin")
 
-pub fn medium() -> #(String, String) {
-  #("border-bottom-width", "medium")
-}
+pub const medium = #("border-bottom-width", "medium")
 
-pub fn thick() -> #(String, String) {
-  #("border-bottom-width", "thick")
-}
+pub const thick = #("border-bottom-width", "thick")
 
 pub fn raw(value: String) -> #(String, String) {
   #("border_bottom_width", value)

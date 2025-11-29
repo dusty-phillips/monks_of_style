@@ -1,8 +1,6 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("hyphenate-character", "auto")
-}
+pub const auto_ = #("hyphenate-character", "auto")
 
 pub fn raw(value: String) -> #(String, String) {
   #("hyphenate_character", value)

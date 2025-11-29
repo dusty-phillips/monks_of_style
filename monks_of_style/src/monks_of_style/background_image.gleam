@@ -1,1044 +1,524 @@
 
 
-pub fn none() -> #(String, String) {
-  #("background-image", "none")
-}
-
-pub fn ltr() -> #(String, String) {
-  #("background-image", "ltr")
-}
-
-pub fn rtl() -> #(String, String) {
-  #("background-image", "rtl")
-}
-
-pub fn srgb() -> #(String, String) {
-  #("background-image", "srgb")
-}
-
-pub fn srgb_linear() -> #(String, String) {
-  #("background-image", "srgb-linear")
-}
-
-pub fn display_p3() -> #(String, String) {
-  #("background-image", "display-p3")
-}
-
-pub fn a98_rgb() -> #(String, String) {
-  #("background-image", "a98-rgb")
-}
-
-pub fn prophoto_rgb() -> #(String, String) {
-  #("background-image", "prophoto-rgb")
-}
-
-pub fn rec2020() -> #(String, String) {
-  #("background-image", "rec2020")
-}
-
-pub fn xyz() -> #(String, String) {
-  #("background-image", "xyz")
-}
-
-pub fn xyz_d50() -> #(String, String) {
-  #("background-image", "xyz-d50")
-}
-
-pub fn xyz_d65() -> #(String, String) {
-  #("background-image", "xyz-d65")
-}
-
-pub fn transparent() -> #(String, String) {
-  #("background-image", "transparent")
-}
-
-pub fn aliceblue() -> #(String, String) {
-  #("background-image", "aliceblue")
-}
-
-pub fn antiquewhite() -> #(String, String) {
-  #("background-image", "antiquewhite")
-}
-
-pub fn aqua() -> #(String, String) {
-  #("background-image", "aqua")
-}
-
-pub fn aquamarine() -> #(String, String) {
-  #("background-image", "aquamarine")
-}
-
-pub fn azure() -> #(String, String) {
-  #("background-image", "azure")
-}
-
-pub fn beige() -> #(String, String) {
-  #("background-image", "beige")
-}
-
-pub fn bisque() -> #(String, String) {
-  #("background-image", "bisque")
-}
-
-pub fn black() -> #(String, String) {
-  #("background-image", "black")
-}
-
-pub fn blanchedalmond() -> #(String, String) {
-  #("background-image", "blanchedalmond")
-}
-
-pub fn blue() -> #(String, String) {
-  #("background-image", "blue")
-}
-
-pub fn blueviolet() -> #(String, String) {
-  #("background-image", "blueviolet")
-}
-
-pub fn brown() -> #(String, String) {
-  #("background-image", "brown")
-}
-
-pub fn burlywood() -> #(String, String) {
-  #("background-image", "burlywood")
-}
-
-pub fn cadetblue() -> #(String, String) {
-  #("background-image", "cadetblue")
-}
-
-pub fn chartreuse() -> #(String, String) {
-  #("background-image", "chartreuse")
-}
-
-pub fn chocolate() -> #(String, String) {
-  #("background-image", "chocolate")
-}
-
-pub fn coral() -> #(String, String) {
-  #("background-image", "coral")
-}
-
-pub fn cornflowerblue() -> #(String, String) {
-  #("background-image", "cornflowerblue")
-}
-
-pub fn cornsilk() -> #(String, String) {
-  #("background-image", "cornsilk")
-}
-
-pub fn crimson() -> #(String, String) {
-  #("background-image", "crimson")
-}
-
-pub fn cyan() -> #(String, String) {
-  #("background-image", "cyan")
-}
-
-pub fn darkblue() -> #(String, String) {
-  #("background-image", "darkblue")
-}
-
-pub fn darkcyan() -> #(String, String) {
-  #("background-image", "darkcyan")
-}
-
-pub fn darkgoldenrod() -> #(String, String) {
-  #("background-image", "darkgoldenrod")
-}
-
-pub fn darkgray() -> #(String, String) {
-  #("background-image", "darkgray")
-}
-
-pub fn darkgreen() -> #(String, String) {
-  #("background-image", "darkgreen")
-}
-
-pub fn darkgrey() -> #(String, String) {
-  #("background-image", "darkgrey")
-}
-
-pub fn darkkhaki() -> #(String, String) {
-  #("background-image", "darkkhaki")
-}
-
-pub fn darkmagenta() -> #(String, String) {
-  #("background-image", "darkmagenta")
-}
-
-pub fn darkolivegreen() -> #(String, String) {
-  #("background-image", "darkolivegreen")
-}
-
-pub fn darkorange() -> #(String, String) {
-  #("background-image", "darkorange")
-}
-
-pub fn darkorchid() -> #(String, String) {
-  #("background-image", "darkorchid")
-}
-
-pub fn darkred() -> #(String, String) {
-  #("background-image", "darkred")
-}
-
-pub fn darksalmon() -> #(String, String) {
-  #("background-image", "darksalmon")
-}
-
-pub fn darkseagreen() -> #(String, String) {
-  #("background-image", "darkseagreen")
-}
-
-pub fn darkslateblue() -> #(String, String) {
-  #("background-image", "darkslateblue")
-}
-
-pub fn darkslategray() -> #(String, String) {
-  #("background-image", "darkslategray")
-}
-
-pub fn darkslategrey() -> #(String, String) {
-  #("background-image", "darkslategrey")
-}
-
-pub fn darkturquoise() -> #(String, String) {
-  #("background-image", "darkturquoise")
-}
-
-pub fn darkviolet() -> #(String, String) {
-  #("background-image", "darkviolet")
-}
-
-pub fn deeppink() -> #(String, String) {
-  #("background-image", "deeppink")
-}
-
-pub fn deepskyblue() -> #(String, String) {
-  #("background-image", "deepskyblue")
-}
-
-pub fn dimgray() -> #(String, String) {
-  #("background-image", "dimgray")
-}
-
-pub fn dimgrey() -> #(String, String) {
-  #("background-image", "dimgrey")
-}
-
-pub fn dodgerblue() -> #(String, String) {
-  #("background-image", "dodgerblue")
-}
-
-pub fn firebrick() -> #(String, String) {
-  #("background-image", "firebrick")
-}
-
-pub fn floralwhite() -> #(String, String) {
-  #("background-image", "floralwhite")
-}
-
-pub fn forestgreen() -> #(String, String) {
-  #("background-image", "forestgreen")
-}
-
-pub fn fuchsia() -> #(String, String) {
-  #("background-image", "fuchsia")
-}
-
-pub fn gainsboro() -> #(String, String) {
-  #("background-image", "gainsboro")
-}
-
-pub fn ghostwhite() -> #(String, String) {
-  #("background-image", "ghostwhite")
-}
-
-pub fn gold() -> #(String, String) {
-  #("background-image", "gold")
-}
-
-pub fn goldenrod() -> #(String, String) {
-  #("background-image", "goldenrod")
-}
-
-pub fn gray() -> #(String, String) {
-  #("background-image", "gray")
-}
-
-pub fn green() -> #(String, String) {
-  #("background-image", "green")
-}
-
-pub fn greenyellow() -> #(String, String) {
-  #("background-image", "greenyellow")
-}
-
-pub fn grey() -> #(String, String) {
-  #("background-image", "grey")
-}
-
-pub fn honeydew() -> #(String, String) {
-  #("background-image", "honeydew")
-}
-
-pub fn hotpink() -> #(String, String) {
-  #("background-image", "hotpink")
-}
-
-pub fn indianred() -> #(String, String) {
-  #("background-image", "indianred")
-}
-
-pub fn indigo() -> #(String, String) {
-  #("background-image", "indigo")
-}
-
-pub fn ivory() -> #(String, String) {
-  #("background-image", "ivory")
-}
-
-pub fn khaki() -> #(String, String) {
-  #("background-image", "khaki")
-}
-
-pub fn lavender() -> #(String, String) {
-  #("background-image", "lavender")
-}
-
-pub fn lavenderblush() -> #(String, String) {
-  #("background-image", "lavenderblush")
-}
-
-pub fn lawngreen() -> #(String, String) {
-  #("background-image", "lawngreen")
-}
-
-pub fn lemonchiffon() -> #(String, String) {
-  #("background-image", "lemonchiffon")
-}
-
-pub fn lightblue() -> #(String, String) {
-  #("background-image", "lightblue")
-}
-
-pub fn lightcoral() -> #(String, String) {
-  #("background-image", "lightcoral")
-}
-
-pub fn lightcyan() -> #(String, String) {
-  #("background-image", "lightcyan")
-}
-
-pub fn lightgoldenrodyellow() -> #(String, String) {
-  #("background-image", "lightgoldenrodyellow")
-}
-
-pub fn lightgray() -> #(String, String) {
-  #("background-image", "lightgray")
-}
-
-pub fn lightgreen() -> #(String, String) {
-  #("background-image", "lightgreen")
-}
-
-pub fn lightgrey() -> #(String, String) {
-  #("background-image", "lightgrey")
-}
-
-pub fn lightpink() -> #(String, String) {
-  #("background-image", "lightpink")
-}
-
-pub fn lightsalmon() -> #(String, String) {
-  #("background-image", "lightsalmon")
-}
-
-pub fn lightseagreen() -> #(String, String) {
-  #("background-image", "lightseagreen")
-}
-
-pub fn lightskyblue() -> #(String, String) {
-  #("background-image", "lightskyblue")
-}
-
-pub fn lightslategray() -> #(String, String) {
-  #("background-image", "lightslategray")
-}
-
-pub fn lightslategrey() -> #(String, String) {
-  #("background-image", "lightslategrey")
-}
-
-pub fn lightsteelblue() -> #(String, String) {
-  #("background-image", "lightsteelblue")
-}
-
-pub fn lightyellow() -> #(String, String) {
-  #("background-image", "lightyellow")
-}
-
-pub fn lime() -> #(String, String) {
-  #("background-image", "lime")
-}
-
-pub fn limegreen() -> #(String, String) {
-  #("background-image", "limegreen")
-}
-
-pub fn linen() -> #(String, String) {
-  #("background-image", "linen")
-}
-
-pub fn magenta() -> #(String, String) {
-  #("background-image", "magenta")
-}
-
-pub fn maroon() -> #(String, String) {
-  #("background-image", "maroon")
-}
-
-pub fn mediumaquamarine() -> #(String, String) {
-  #("background-image", "mediumaquamarine")
-}
-
-pub fn mediumblue() -> #(String, String) {
-  #("background-image", "mediumblue")
-}
-
-pub fn mediumorchid() -> #(String, String) {
-  #("background-image", "mediumorchid")
-}
-
-pub fn mediumpurple() -> #(String, String) {
-  #("background-image", "mediumpurple")
-}
-
-pub fn mediumseagreen() -> #(String, String) {
-  #("background-image", "mediumseagreen")
-}
-
-pub fn mediumslateblue() -> #(String, String) {
-  #("background-image", "mediumslateblue")
-}
-
-pub fn mediumspringgreen() -> #(String, String) {
-  #("background-image", "mediumspringgreen")
-}
-
-pub fn mediumturquoise() -> #(String, String) {
-  #("background-image", "mediumturquoise")
-}
-
-pub fn mediumvioletred() -> #(String, String) {
-  #("background-image", "mediumvioletred")
-}
-
-pub fn midnightblue() -> #(String, String) {
-  #("background-image", "midnightblue")
-}
-
-pub fn mintcream() -> #(String, String) {
-  #("background-image", "mintcream")
-}
-
-pub fn mistyrose() -> #(String, String) {
-  #("background-image", "mistyrose")
-}
-
-pub fn moccasin() -> #(String, String) {
-  #("background-image", "moccasin")
-}
-
-pub fn navajowhite() -> #(String, String) {
-  #("background-image", "navajowhite")
-}
-
-pub fn navy() -> #(String, String) {
-  #("background-image", "navy")
-}
-
-pub fn oldlace() -> #(String, String) {
-  #("background-image", "oldlace")
-}
-
-pub fn olive() -> #(String, String) {
-  #("background-image", "olive")
-}
-
-pub fn olivedrab() -> #(String, String) {
-  #("background-image", "olivedrab")
-}
-
-pub fn orange() -> #(String, String) {
-  #("background-image", "orange")
-}
-
-pub fn orangered() -> #(String, String) {
-  #("background-image", "orangered")
-}
-
-pub fn orchid() -> #(String, String) {
-  #("background-image", "orchid")
-}
-
-pub fn palegoldenrod() -> #(String, String) {
-  #("background-image", "palegoldenrod")
-}
-
-pub fn palegreen() -> #(String, String) {
-  #("background-image", "palegreen")
-}
-
-pub fn paleturquoise() -> #(String, String) {
-  #("background-image", "paleturquoise")
-}
-
-pub fn palevioletred() -> #(String, String) {
-  #("background-image", "palevioletred")
-}
-
-pub fn papayawhip() -> #(String, String) {
-  #("background-image", "papayawhip")
-}
-
-pub fn peachpuff() -> #(String, String) {
-  #("background-image", "peachpuff")
-}
-
-pub fn peru() -> #(String, String) {
-  #("background-image", "peru")
-}
-
-pub fn pink() -> #(String, String) {
-  #("background-image", "pink")
-}
-
-pub fn plum() -> #(String, String) {
-  #("background-image", "plum")
-}
-
-pub fn powderblue() -> #(String, String) {
-  #("background-image", "powderblue")
-}
-
-pub fn purple() -> #(String, String) {
-  #("background-image", "purple")
-}
-
-pub fn rebeccapurple() -> #(String, String) {
-  #("background-image", "rebeccapurple")
-}
-
-pub fn red() -> #(String, String) {
-  #("background-image", "red")
-}
-
-pub fn rosybrown() -> #(String, String) {
-  #("background-image", "rosybrown")
-}
-
-pub fn royalblue() -> #(String, String) {
-  #("background-image", "royalblue")
-}
-
-pub fn saddlebrown() -> #(String, String) {
-  #("background-image", "saddlebrown")
-}
-
-pub fn salmon() -> #(String, String) {
-  #("background-image", "salmon")
-}
-
-pub fn sandybrown() -> #(String, String) {
-  #("background-image", "sandybrown")
-}
-
-pub fn seagreen() -> #(String, String) {
-  #("background-image", "seagreen")
-}
-
-pub fn seashell() -> #(String, String) {
-  #("background-image", "seashell")
-}
-
-pub fn sienna() -> #(String, String) {
-  #("background-image", "sienna")
-}
-
-pub fn silver() -> #(String, String) {
-  #("background-image", "silver")
-}
-
-pub fn skyblue() -> #(String, String) {
-  #("background-image", "skyblue")
-}
-
-pub fn slateblue() -> #(String, String) {
-  #("background-image", "slateblue")
-}
-
-pub fn slategray() -> #(String, String) {
-  #("background-image", "slategray")
-}
-
-pub fn slategrey() -> #(String, String) {
-  #("background-image", "slategrey")
-}
-
-pub fn snow() -> #(String, String) {
-  #("background-image", "snow")
-}
-
-pub fn springgreen() -> #(String, String) {
-  #("background-image", "springgreen")
-}
-
-pub fn steelblue() -> #(String, String) {
-  #("background-image", "steelblue")
-}
-
-pub fn tan() -> #(String, String) {
-  #("background-image", "tan")
-}
-
-pub fn teal() -> #(String, String) {
-  #("background-image", "teal")
-}
-
-pub fn thistle() -> #(String, String) {
-  #("background-image", "thistle")
-}
-
-pub fn tomato() -> #(String, String) {
-  #("background-image", "tomato")
-}
-
-pub fn turquoise() -> #(String, String) {
-  #("background-image", "turquoise")
-}
-
-pub fn violet() -> #(String, String) {
-  #("background-image", "violet")
-}
-
-pub fn wheat() -> #(String, String) {
-  #("background-image", "wheat")
-}
-
-pub fn white() -> #(String, String) {
-  #("background-image", "white")
-}
-
-pub fn whitesmoke() -> #(String, String) {
-  #("background-image", "whitesmoke")
-}
-
-pub fn yellow() -> #(String, String) {
-  #("background-image", "yellow")
-}
-
-pub fn yellowgreen() -> #(String, String) {
-  #("background-image", "yellowgreen")
-}
-
-pub fn in() -> #(String, String) {
-  #("background-image", "in")
-}
-
-pub fn lab() -> #(String, String) {
-  #("background-image", "lab")
-}
-
-pub fn oklab() -> #(String, String) {
-  #("background-image", "oklab")
-}
-
-pub fn hsl() -> #(String, String) {
-  #("background-image", "hsl")
-}
-
-pub fn hwb() -> #(String, String) {
-  #("background-image", "hwb")
-}
-
-pub fn lch() -> #(String, String) {
-  #("background-image", "lch")
-}
-
-pub fn oklch() -> #(String, String) {
-  #("background-image", "oklch")
-}
-
-pub fn shorter() -> #(String, String) {
-  #("background-image", "shorter")
-}
-
-pub fn longer() -> #(String, String) {
-  #("background-image", "longer")
-}
-
-pub fn increasing() -> #(String, String) {
-  #("background-image", "increasing")
-}
-
-pub fn decreasing() -> #(String, String) {
-  #("background-image", "decreasing")
-}
-
-pub fn hue() -> #(String, String) {
-  #("background-image", "hue")
-}
-
-pub fn current_color() -> #(String, String) {
-  #("background-image", "currentColor")
-}
-
-pub fn accent_color() -> #(String, String) {
-  #("background-image", "AccentColor")
-}
-
-pub fn accent_color_text() -> #(String, String) {
-  #("background-image", "AccentColorText")
-}
-
-pub fn active_text() -> #(String, String) {
-  #("background-image", "ActiveText")
-}
-
-pub fn button_border() -> #(String, String) {
-  #("background-image", "ButtonBorder")
-}
-
-pub fn button_face() -> #(String, String) {
-  #("background-image", "ButtonFace")
-}
-
-pub fn button_text() -> #(String, String) {
-  #("background-image", "ButtonText")
-}
-
-pub fn canvas() -> #(String, String) {
-  #("background-image", "Canvas")
-}
-
-pub fn canvas_text() -> #(String, String) {
-  #("background-image", "CanvasText")
-}
-
-pub fn field() -> #(String, String) {
-  #("background-image", "Field")
-}
-
-pub fn field_text() -> #(String, String) {
-  #("background-image", "FieldText")
-}
-
-pub fn gray_text() -> #(String, String) {
-  #("background-image", "GrayText")
-}
-
-pub fn highlight() -> #(String, String) {
-  #("background-image", "Highlight")
-}
-
-pub fn highlight_text() -> #(String, String) {
-  #("background-image", "HighlightText")
-}
-
-pub fn link_text() -> #(String, String) {
-  #("background-image", "LinkText")
-}
-
-pub fn mark() -> #(String, String) {
-  #("background-image", "Mark")
-}
-
-pub fn mark_text() -> #(String, String) {
-  #("background-image", "MarkText")
-}
-
-pub fn selected_item() -> #(String, String) {
-  #("background-image", "SelectedItem")
-}
-
-pub fn selected_item_text() -> #(String, String) {
-  #("background-image", "SelectedItemText")
-}
-
-pub fn visited_text() -> #(String, String) {
-  #("background-image", "VisitedText")
-}
-
-pub fn moz_button_default() -> #(String, String) {
-  #("background-image", "-moz-ButtonDefault")
-}
-
-pub fn moz_button_hover_face() -> #(String, String) {
-  #("background-image", "-moz-ButtonHoverFace")
-}
-
-pub fn moz_button_hover_text() -> #(String, String) {
-  #("background-image", "-moz-ButtonHoverText")
-}
-
-pub fn moz_cell_highlight() -> #(String, String) {
-  #("background-image", "-moz-CellHighlight")
-}
-
-pub fn moz_cell_highlight_text() -> #(String, String) {
-  #("background-image", "-moz-CellHighlightText")
-}
-
-pub fn moz_combobox() -> #(String, String) {
-  #("background-image", "-moz-Combobox")
-}
-
-pub fn moz_combobox_text() -> #(String, String) {
-  #("background-image", "-moz-ComboboxText")
-}
-
-pub fn moz_dialog() -> #(String, String) {
-  #("background-image", "-moz-Dialog")
-}
-
-pub fn moz_dialog_text() -> #(String, String) {
-  #("background-image", "-moz-DialogText")
-}
-
-pub fn moz_dragtargetzone() -> #(String, String) {
-  #("background-image", "-moz-dragtargetzone")
-}
-
-pub fn moz_even_tree_row() -> #(String, String) {
-  #("background-image", "-moz-EvenTreeRow")
-}
-
-pub fn moz_field() -> #(String, String) {
-  #("background-image", "-moz-Field")
-}
-
-pub fn moz_field_text() -> #(String, String) {
-  #("background-image", "-moz-FieldText")
-}
-
-pub fn moz_html_cell_highlight() -> #(String, String) {
-  #("background-image", "-moz-html-CellHighlight")
-}
-
-pub fn moz_html_cell_highlight_text() -> #(String, String) {
-  #("background-image", "-moz-html-CellHighlightText")
-}
-
-pub fn moz_mac_accentdarkestshadow() -> #(String, String) {
-  #("background-image", "-moz-mac-accentdarkestshadow")
-}
-
-pub fn moz_mac_accentdarkshadow() -> #(String, String) {
-  #("background-image", "-moz-mac-accentdarkshadow")
-}
-
-pub fn moz_mac_accentface() -> #(String, String) {
-  #("background-image", "-moz-mac-accentface")
-}
-
-pub fn moz_mac_accentlightesthighlight() -> #(String, String) {
-  #("background-image", "-moz-mac-accentlightesthighlight")
-}
-
-pub fn moz_mac_accentlightshadow() -> #(String, String) {
-  #("background-image", "-moz-mac-accentlightshadow")
-}
-
-pub fn moz_mac_accentregularhighlight() -> #(String, String) {
-  #("background-image", "-moz-mac-accentregularhighlight")
-}
-
-pub fn moz_mac_accentregularshadow() -> #(String, String) {
-  #("background-image", "-moz-mac-accentregularshadow")
-}
-
-pub fn moz_mac_chrome_active() -> #(String, String) {
-  #("background-image", "-moz-mac-chrome-active")
-}
-
-pub fn moz_mac_chrome_inactive() -> #(String, String) {
-  #("background-image", "-moz-mac-chrome-inactive")
-}
-
-pub fn moz_mac_focusring() -> #(String, String) {
-  #("background-image", "-moz-mac-focusring")
-}
-
-pub fn moz_mac_menuselect() -> #(String, String) {
-  #("background-image", "-moz-mac-menuselect")
-}
-
-pub fn moz_mac_menushadow() -> #(String, String) {
-  #("background-image", "-moz-mac-menushadow")
-}
-
-pub fn moz_mac_menutextselect() -> #(String, String) {
-  #("background-image", "-moz-mac-menutextselect")
-}
-
-pub fn moz_menu_hover() -> #(String, String) {
-  #("background-image", "-moz-MenuHover")
-}
-
-pub fn moz_menu_hover_text() -> #(String, String) {
-  #("background-image", "-moz-MenuHoverText")
-}
-
-pub fn moz_menu_bar_text() -> #(String, String) {
-  #("background-image", "-moz-MenuBarText")
-}
-
-pub fn moz_menu_bar_hover_text() -> #(String, String) {
-  #("background-image", "-moz-MenuBarHoverText")
-}
-
-pub fn moz_nativehyperlinktext() -> #(String, String) {
-  #("background-image", "-moz-nativehyperlinktext")
-}
-
-pub fn moz_odd_tree_row() -> #(String, String) {
-  #("background-image", "-moz-OddTreeRow")
-}
-
-pub fn moz_win_communicationstext() -> #(String, String) {
-  #("background-image", "-moz-win-communicationstext")
-}
-
-pub fn moz_win_mediatext() -> #(String, String) {
-  #("background-image", "-moz-win-mediatext")
-}
-
-pub fn moz_activehyperlinktext() -> #(String, String) {
-  #("background-image", "-moz-activehyperlinktext")
-}
-
-pub fn moz_default_background_color() -> #(String, String) {
-  #("background-image", "-moz-default-background-color")
-}
-
-pub fn moz_default_color() -> #(String, String) {
-  #("background-image", "-moz-default-color")
-}
-
-pub fn moz_hyperlinktext() -> #(String, String) {
-  #("background-image", "-moz-hyperlinktext")
-}
-
-pub fn moz_visitedhyperlinktext() -> #(String, String) {
-  #("background-image", "-moz-visitedhyperlinktext")
-}
-
-pub fn webkit_activelink() -> #(String, String) {
-  #("background-image", "-webkit-activelink")
-}
-
-pub fn webkit_focus_ring_color() -> #(String, String) {
-  #("background-image", "-webkit-focus-ring-color")
-}
-
-pub fn webkit_link() -> #(String, String) {
-  #("background-image", "-webkit-link")
-}
-
-pub fn webkit_text() -> #(String, String) {
-  #("background-image", "-webkit-text")
-}
-
-pub fn first() -> #(String, String) {
-  #("background-image", "first")
-}
-
-pub fn start() -> #(String, String) {
-  #("background-image", "start")
-}
-
-pub fn last() -> #(String, String) {
-  #("background-image", "last")
-}
-
-pub fn first_except() -> #(String, String) {
-  #("background-image", "first-except")
-}
-
-pub fn to() -> #(String, String) {
-  #("background-image", "to")
-}
-
-pub fn left() -> #(String, String) {
-  #("background-image", "left")
-}
-
-pub fn right() -> #(String, String) {
-  #("background-image", "right")
-}
-
-pub fn top() -> #(String, String) {
-  #("background-image", "top")
-}
-
-pub fn bottom() -> #(String, String) {
-  #("background-image", "bottom")
-}
-
-pub fn circle() -> #(String, String) {
-  #("background-image", "circle")
-}
-
-pub fn ellipse() -> #(String, String) {
-  #("background-image", "ellipse")
-}
-
-pub fn closest_side() -> #(String, String) {
-  #("background-image", "closest-side")
-}
-
-pub fn farthest_side() -> #(String, String) {
-  #("background-image", "farthest-side")
-}
-
-pub fn closest_corner() -> #(String, String) {
-  #("background-image", "closest-corner")
-}
-
-pub fn farthest_corner() -> #(String, String) {
-  #("background-image", "farthest-corner")
-}
-
-pub fn at() -> #(String, String) {
-  #("background-image", "at")
-}
-
-pub fn center() -> #(String, String) {
-  #("background-image", "center")
-}
-
-pub fn from() -> #(String, String) {
-  #("background-image", "from")
-}
-
-pub fn linear() -> #(String, String) {
-  #("background-image", "linear")
-}
-
-pub fn radial() -> #(String, String) {
-  #("background-image", "radial")
-}
-
-pub fn contain() -> #(String, String) {
-  #("background-image", "contain")
-}
-
-pub fn cover() -> #(String, String) {
-  #("background-image", "cover")
-}
+pub const none = #("background-image", "none")
+
+pub const ltr = #("background-image", "ltr")
+
+pub const rtl = #("background-image", "rtl")
+
+pub const srgb = #("background-image", "srgb")
+
+pub const srgb_linear = #("background-image", "srgb-linear")
+
+pub const display_p3 = #("background-image", "display-p3")
+
+pub const a98_rgb = #("background-image", "a98-rgb")
+
+pub const prophoto_rgb = #("background-image", "prophoto-rgb")
+
+pub const rec2020 = #("background-image", "rec2020")
+
+pub const xyz = #("background-image", "xyz")
+
+pub const xyz_d50 = #("background-image", "xyz-d50")
+
+pub const xyz_d65 = #("background-image", "xyz-d65")
+
+pub const transparent = #("background-image", "transparent")
+
+pub const aliceblue = #("background-image", "aliceblue")
+
+pub const antiquewhite = #("background-image", "antiquewhite")
+
+pub const aqua = #("background-image", "aqua")
+
+pub const aquamarine = #("background-image", "aquamarine")
+
+pub const azure = #("background-image", "azure")
+
+pub const beige = #("background-image", "beige")
+
+pub const bisque = #("background-image", "bisque")
+
+pub const black = #("background-image", "black")
+
+pub const blanchedalmond = #("background-image", "blanchedalmond")
+
+pub const blue = #("background-image", "blue")
+
+pub const blueviolet = #("background-image", "blueviolet")
+
+pub const brown = #("background-image", "brown")
+
+pub const burlywood = #("background-image", "burlywood")
+
+pub const cadetblue = #("background-image", "cadetblue")
+
+pub const chartreuse = #("background-image", "chartreuse")
+
+pub const chocolate = #("background-image", "chocolate")
+
+pub const coral = #("background-image", "coral")
+
+pub const cornflowerblue = #("background-image", "cornflowerblue")
+
+pub const cornsilk = #("background-image", "cornsilk")
+
+pub const crimson = #("background-image", "crimson")
+
+pub const cyan = #("background-image", "cyan")
+
+pub const darkblue = #("background-image", "darkblue")
+
+pub const darkcyan = #("background-image", "darkcyan")
+
+pub const darkgoldenrod = #("background-image", "darkgoldenrod")
+
+pub const darkgray = #("background-image", "darkgray")
+
+pub const darkgreen = #("background-image", "darkgreen")
+
+pub const darkgrey = #("background-image", "darkgrey")
+
+pub const darkkhaki = #("background-image", "darkkhaki")
+
+pub const darkmagenta = #("background-image", "darkmagenta")
+
+pub const darkolivegreen = #("background-image", "darkolivegreen")
+
+pub const darkorange = #("background-image", "darkorange")
+
+pub const darkorchid = #("background-image", "darkorchid")
+
+pub const darkred = #("background-image", "darkred")
+
+pub const darksalmon = #("background-image", "darksalmon")
+
+pub const darkseagreen = #("background-image", "darkseagreen")
+
+pub const darkslateblue = #("background-image", "darkslateblue")
+
+pub const darkslategray = #("background-image", "darkslategray")
+
+pub const darkslategrey = #("background-image", "darkslategrey")
+
+pub const darkturquoise = #("background-image", "darkturquoise")
+
+pub const darkviolet = #("background-image", "darkviolet")
+
+pub const deeppink = #("background-image", "deeppink")
+
+pub const deepskyblue = #("background-image", "deepskyblue")
+
+pub const dimgray = #("background-image", "dimgray")
+
+pub const dimgrey = #("background-image", "dimgrey")
+
+pub const dodgerblue = #("background-image", "dodgerblue")
+
+pub const firebrick = #("background-image", "firebrick")
+
+pub const floralwhite = #("background-image", "floralwhite")
+
+pub const forestgreen = #("background-image", "forestgreen")
+
+pub const fuchsia = #("background-image", "fuchsia")
+
+pub const gainsboro = #("background-image", "gainsboro")
+
+pub const ghostwhite = #("background-image", "ghostwhite")
+
+pub const gold = #("background-image", "gold")
+
+pub const goldenrod = #("background-image", "goldenrod")
+
+pub const gray = #("background-image", "gray")
+
+pub const green = #("background-image", "green")
+
+pub const greenyellow = #("background-image", "greenyellow")
+
+pub const grey = #("background-image", "grey")
+
+pub const honeydew = #("background-image", "honeydew")
+
+pub const hotpink = #("background-image", "hotpink")
+
+pub const indianred = #("background-image", "indianred")
+
+pub const indigo = #("background-image", "indigo")
+
+pub const ivory = #("background-image", "ivory")
+
+pub const khaki = #("background-image", "khaki")
+
+pub const lavender = #("background-image", "lavender")
+
+pub const lavenderblush = #("background-image", "lavenderblush")
+
+pub const lawngreen = #("background-image", "lawngreen")
+
+pub const lemonchiffon = #("background-image", "lemonchiffon")
+
+pub const lightblue = #("background-image", "lightblue")
+
+pub const lightcoral = #("background-image", "lightcoral")
+
+pub const lightcyan = #("background-image", "lightcyan")
+
+pub const lightgoldenrodyellow = #("background-image", "lightgoldenrodyellow")
+
+pub const lightgray = #("background-image", "lightgray")
+
+pub const lightgreen = #("background-image", "lightgreen")
+
+pub const lightgrey = #("background-image", "lightgrey")
+
+pub const lightpink = #("background-image", "lightpink")
+
+pub const lightsalmon = #("background-image", "lightsalmon")
+
+pub const lightseagreen = #("background-image", "lightseagreen")
+
+pub const lightskyblue = #("background-image", "lightskyblue")
+
+pub const lightslategray = #("background-image", "lightslategray")
+
+pub const lightslategrey = #("background-image", "lightslategrey")
+
+pub const lightsteelblue = #("background-image", "lightsteelblue")
+
+pub const lightyellow = #("background-image", "lightyellow")
+
+pub const lime = #("background-image", "lime")
+
+pub const limegreen = #("background-image", "limegreen")
+
+pub const linen = #("background-image", "linen")
+
+pub const magenta = #("background-image", "magenta")
+
+pub const maroon = #("background-image", "maroon")
+
+pub const mediumaquamarine = #("background-image", "mediumaquamarine")
+
+pub const mediumblue = #("background-image", "mediumblue")
+
+pub const mediumorchid = #("background-image", "mediumorchid")
+
+pub const mediumpurple = #("background-image", "mediumpurple")
+
+pub const mediumseagreen = #("background-image", "mediumseagreen")
+
+pub const mediumslateblue = #("background-image", "mediumslateblue")
+
+pub const mediumspringgreen = #("background-image", "mediumspringgreen")
+
+pub const mediumturquoise = #("background-image", "mediumturquoise")
+
+pub const mediumvioletred = #("background-image", "mediumvioletred")
+
+pub const midnightblue = #("background-image", "midnightblue")
+
+pub const mintcream = #("background-image", "mintcream")
+
+pub const mistyrose = #("background-image", "mistyrose")
+
+pub const moccasin = #("background-image", "moccasin")
+
+pub const navajowhite = #("background-image", "navajowhite")
+
+pub const navy = #("background-image", "navy")
+
+pub const oldlace = #("background-image", "oldlace")
+
+pub const olive = #("background-image", "olive")
+
+pub const olivedrab = #("background-image", "olivedrab")
+
+pub const orange = #("background-image", "orange")
+
+pub const orangered = #("background-image", "orangered")
+
+pub const orchid = #("background-image", "orchid")
+
+pub const palegoldenrod = #("background-image", "palegoldenrod")
+
+pub const palegreen = #("background-image", "palegreen")
+
+pub const paleturquoise = #("background-image", "paleturquoise")
+
+pub const palevioletred = #("background-image", "palevioletred")
+
+pub const papayawhip = #("background-image", "papayawhip")
+
+pub const peachpuff = #("background-image", "peachpuff")
+
+pub const peru = #("background-image", "peru")
+
+pub const pink = #("background-image", "pink")
+
+pub const plum = #("background-image", "plum")
+
+pub const powderblue = #("background-image", "powderblue")
+
+pub const purple = #("background-image", "purple")
+
+pub const rebeccapurple = #("background-image", "rebeccapurple")
+
+pub const red = #("background-image", "red")
+
+pub const rosybrown = #("background-image", "rosybrown")
+
+pub const royalblue = #("background-image", "royalblue")
+
+pub const saddlebrown = #("background-image", "saddlebrown")
+
+pub const salmon = #("background-image", "salmon")
+
+pub const sandybrown = #("background-image", "sandybrown")
+
+pub const seagreen = #("background-image", "seagreen")
+
+pub const seashell = #("background-image", "seashell")
+
+pub const sienna = #("background-image", "sienna")
+
+pub const silver = #("background-image", "silver")
+
+pub const skyblue = #("background-image", "skyblue")
+
+pub const slateblue = #("background-image", "slateblue")
+
+pub const slategray = #("background-image", "slategray")
+
+pub const slategrey = #("background-image", "slategrey")
+
+pub const snow = #("background-image", "snow")
+
+pub const springgreen = #("background-image", "springgreen")
+
+pub const steelblue = #("background-image", "steelblue")
+
+pub const tan = #("background-image", "tan")
+
+pub const teal = #("background-image", "teal")
+
+pub const thistle = #("background-image", "thistle")
+
+pub const tomato = #("background-image", "tomato")
+
+pub const turquoise = #("background-image", "turquoise")
+
+pub const violet = #("background-image", "violet")
+
+pub const wheat = #("background-image", "wheat")
+
+pub const white = #("background-image", "white")
+
+pub const whitesmoke = #("background-image", "whitesmoke")
+
+pub const yellow = #("background-image", "yellow")
+
+pub const yellowgreen = #("background-image", "yellowgreen")
+
+pub const in = #("background-image", "in")
+
+pub const lab = #("background-image", "lab")
+
+pub const oklab = #("background-image", "oklab")
+
+pub const hsl = #("background-image", "hsl")
+
+pub const hwb = #("background-image", "hwb")
+
+pub const lch = #("background-image", "lch")
+
+pub const oklch = #("background-image", "oklch")
+
+pub const shorter = #("background-image", "shorter")
+
+pub const longer = #("background-image", "longer")
+
+pub const increasing = #("background-image", "increasing")
+
+pub const decreasing = #("background-image", "decreasing")
+
+pub const hue = #("background-image", "hue")
+
+pub const current_color = #("background-image", "currentColor")
+
+pub const accent_color = #("background-image", "AccentColor")
+
+pub const accent_color_text = #("background-image", "AccentColorText")
+
+pub const active_text = #("background-image", "ActiveText")
+
+pub const button_border = #("background-image", "ButtonBorder")
+
+pub const button_face = #("background-image", "ButtonFace")
+
+pub const button_text = #("background-image", "ButtonText")
+
+pub const canvas = #("background-image", "Canvas")
+
+pub const canvas_text = #("background-image", "CanvasText")
+
+pub const field = #("background-image", "Field")
+
+pub const field_text = #("background-image", "FieldText")
+
+pub const gray_text = #("background-image", "GrayText")
+
+pub const highlight = #("background-image", "Highlight")
+
+pub const highlight_text = #("background-image", "HighlightText")
+
+pub const link_text = #("background-image", "LinkText")
+
+pub const mark = #("background-image", "Mark")
+
+pub const mark_text = #("background-image", "MarkText")
+
+pub const selected_item = #("background-image", "SelectedItem")
+
+pub const selected_item_text = #("background-image", "SelectedItemText")
+
+pub const visited_text = #("background-image", "VisitedText")
+
+pub const moz_button_default = #("background-image", "-moz-ButtonDefault")
+
+pub const moz_button_hover_face = #("background-image", "-moz-ButtonHoverFace")
+
+pub const moz_button_hover_text = #("background-image", "-moz-ButtonHoverText")
+
+pub const moz_cell_highlight = #("background-image", "-moz-CellHighlight")
+
+pub const moz_cell_highlight_text = #("background-image", "-moz-CellHighlightText")
+
+pub const moz_combobox = #("background-image", "-moz-Combobox")
+
+pub const moz_combobox_text = #("background-image", "-moz-ComboboxText")
+
+pub const moz_dialog = #("background-image", "-moz-Dialog")
+
+pub const moz_dialog_text = #("background-image", "-moz-DialogText")
+
+pub const moz_dragtargetzone = #("background-image", "-moz-dragtargetzone")
+
+pub const moz_even_tree_row = #("background-image", "-moz-EvenTreeRow")
+
+pub const moz_field = #("background-image", "-moz-Field")
+
+pub const moz_field_text = #("background-image", "-moz-FieldText")
+
+pub const moz_html_cell_highlight = #("background-image", "-moz-html-CellHighlight")
+
+pub const moz_html_cell_highlight_text = #("background-image", "-moz-html-CellHighlightText")
+
+pub const moz_mac_accentdarkestshadow = #("background-image", "-moz-mac-accentdarkestshadow")
+
+pub const moz_mac_accentdarkshadow = #("background-image", "-moz-mac-accentdarkshadow")
+
+pub const moz_mac_accentface = #("background-image", "-moz-mac-accentface")
+
+pub const moz_mac_accentlightesthighlight = #("background-image", "-moz-mac-accentlightesthighlight")
+
+pub const moz_mac_accentlightshadow = #("background-image", "-moz-mac-accentlightshadow")
+
+pub const moz_mac_accentregularhighlight = #("background-image", "-moz-mac-accentregularhighlight")
+
+pub const moz_mac_accentregularshadow = #("background-image", "-moz-mac-accentregularshadow")
+
+pub const moz_mac_chrome_active = #("background-image", "-moz-mac-chrome-active")
+
+pub const moz_mac_chrome_inactive = #("background-image", "-moz-mac-chrome-inactive")
+
+pub const moz_mac_focusring = #("background-image", "-moz-mac-focusring")
+
+pub const moz_mac_menuselect = #("background-image", "-moz-mac-menuselect")
+
+pub const moz_mac_menushadow = #("background-image", "-moz-mac-menushadow")
+
+pub const moz_mac_menutextselect = #("background-image", "-moz-mac-menutextselect")
+
+pub const moz_menu_hover = #("background-image", "-moz-MenuHover")
+
+pub const moz_menu_hover_text = #("background-image", "-moz-MenuHoverText")
+
+pub const moz_menu_bar_text = #("background-image", "-moz-MenuBarText")
+
+pub const moz_menu_bar_hover_text = #("background-image", "-moz-MenuBarHoverText")
+
+pub const moz_nativehyperlinktext = #("background-image", "-moz-nativehyperlinktext")
+
+pub const moz_odd_tree_row = #("background-image", "-moz-OddTreeRow")
+
+pub const moz_win_communicationstext = #("background-image", "-moz-win-communicationstext")
+
+pub const moz_win_mediatext = #("background-image", "-moz-win-mediatext")
+
+pub const moz_activehyperlinktext = #("background-image", "-moz-activehyperlinktext")
+
+pub const moz_default_background_color = #("background-image", "-moz-default-background-color")
+
+pub const moz_default_color = #("background-image", "-moz-default-color")
+
+pub const moz_hyperlinktext = #("background-image", "-moz-hyperlinktext")
+
+pub const moz_visitedhyperlinktext = #("background-image", "-moz-visitedhyperlinktext")
+
+pub const webkit_activelink = #("background-image", "-webkit-activelink")
+
+pub const webkit_focus_ring_color = #("background-image", "-webkit-focus-ring-color")
+
+pub const webkit_link = #("background-image", "-webkit-link")
+
+pub const webkit_text = #("background-image", "-webkit-text")
+
+pub const first = #("background-image", "first")
+
+pub const start = #("background-image", "start")
+
+pub const last = #("background-image", "last")
+
+pub const first_except = #("background-image", "first-except")
+
+pub const to = #("background-image", "to")
+
+pub const left = #("background-image", "left")
+
+pub const right = #("background-image", "right")
+
+pub const top = #("background-image", "top")
+
+pub const bottom = #("background-image", "bottom")
+
+pub const circle = #("background-image", "circle")
+
+pub const ellipse = #("background-image", "ellipse")
+
+pub const closest_side = #("background-image", "closest-side")
+
+pub const farthest_side = #("background-image", "farthest-side")
+
+pub const closest_corner = #("background-image", "closest-corner")
+
+pub const farthest_corner = #("background-image", "farthest-corner")
+
+pub const at = #("background-image", "at")
+
+pub const center = #("background-image", "center")
+
+pub const from = #("background-image", "from")
+
+pub const linear = #("background-image", "linear")
+
+pub const radial = #("background-image", "radial")
+
+pub const contain = #("background-image", "contain")
+
+pub const cover = #("background-image", "cover")
 
 pub fn raw(value: String) -> #(String, String) {
   #("background_image", value)

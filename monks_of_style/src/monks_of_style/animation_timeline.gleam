@@ -1,40 +1,22 @@
 
 
-pub fn auto_() -> #(String, String) {
-  #("animation-timeline", "auto")
-}
+pub const auto_ = #("animation-timeline", "auto")
 
-pub fn none() -> #(String, String) {
-  #("animation-timeline", "none")
-}
+pub const none = #("animation-timeline", "none")
 
-pub fn block() -> #(String, String) {
-  #("animation-timeline", "block")
-}
+pub const block = #("animation-timeline", "block")
 
-pub fn inline() -> #(String, String) {
-  #("animation-timeline", "inline")
-}
+pub const inline = #("animation-timeline", "inline")
 
-pub fn x() -> #(String, String) {
-  #("animation-timeline", "x")
-}
+pub const x = #("animation-timeline", "x")
 
-pub fn y() -> #(String, String) {
-  #("animation-timeline", "y")
-}
+pub const y = #("animation-timeline", "y")
 
-pub fn root() -> #(String, String) {
-  #("animation-timeline", "root")
-}
+pub const root = #("animation-timeline", "root")
 
-pub fn nearest() -> #(String, String) {
-  #("animation-timeline", "nearest")
-}
+pub const nearest = #("animation-timeline", "nearest")
 
-pub fn self() -> #(String, String) {
-  #("animation-timeline", "self")
-}
+pub const self = #("animation-timeline", "self")
 
 pub fn raw(value: String) -> #(String, String) {
   #("animation_timeline", value)
