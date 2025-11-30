@@ -1,3 +1,7 @@
+//// The **`inset-inline-end`** [CSS](/en-US/docs/Web/CSS) property defines the logical inline end inset of an element, which maps to a physical offset depending on the element's writing mode, directionality, and text orientation. It corresponds to the {{cssxref("top")}}, {{cssxref("right")}}, {{cssxref("bottom")}}, or {{cssxref("left")}} property depending on the values defined for {{cssxref("writing-mode")}}, {{cssxref("direction")}}, and {{cssxref("text-orientation")}}.
+//// 
+//// This {{glossary("inset properties", "inset property")}} has no effect on non-positioned elements.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

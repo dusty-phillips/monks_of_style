@@ -1,3 +1,5 @@
+//// The **`text-decoration-style`** [CSS](/en-US/docs/Web/CSS) property sets the style of the lines specified by {{ cssxref("text-decoration-line") }}. The style applies to all lines that are set with `text-decoration-line`.
+//// 
 
 
 pub const solid = #("text-decoration-style", "solid")

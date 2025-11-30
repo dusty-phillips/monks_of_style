@@ -1,3 +1,5 @@
+//// The **`outline-color`** [CSS](/en-US/docs/Web/CSS) property sets the color of an element's outline.
+//// 
 
 
 pub const auto_ = #("outline-color", "auto")

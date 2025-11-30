@@ -1,3 +1,8 @@
+//// The **`border-top-style`** [CSS](/en-US/docs/Web/CSS) property sets the line style of an element's top {{CSSxRef("border")}}.
+//// 
+//// > [!NOTE]
+//// > The specification doesn't define how borders of different styles connect in the corners.
+//// 
 
 
 pub const none = #("border-top-style", "none")

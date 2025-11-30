@@ -1,3 +1,5 @@
+//// The **`initial-letter`** [CSS](/en-US/docs/Web/CSS) property sets the size and sink for dropped, raised, and sunken initial letters. This property applies to {{cssxref("::first-letter")}} pseudo-elements and inline-level first children of block containers.
+//// 
 
 
 pub const normal = #("initial-letter", "normal")

@@ -1,3 +1,5 @@
+//// The **`clear`** [CSS](/en-US/docs/Web/CSS) property sets whether an element must be moved below (cleared) [floating](/en-US/docs/Web/CSS/Reference/Properties/float) elements that precede it. The `clear` property applies to floating and non-floating elements.
+//// 
 
 
 pub const none = #("clear", "none")

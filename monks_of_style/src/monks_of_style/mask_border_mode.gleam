@@ -1,3 +1,5 @@
+//// The **`mask-border-mode`** [CSS](/en-US/docs/Web/CSS) property specifies the blending mode used in a [mask border](/en-US/docs/Web/CSS/Reference/Properties/mask-border).
+//// 
 
 
 pub const luminance = #("mask-border-mode", "luminance")

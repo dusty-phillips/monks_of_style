@@ -1,3 +1,5 @@
+//// The **`background-clip`** [CSS](/en-US/docs/Web/CSS) property sets whether an element's background extends underneath its border box, padding box, or content box.
+//// 
 
 
 pub const border_box = #("background-clip", "border-box")

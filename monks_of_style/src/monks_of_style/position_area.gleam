@@ -1,3 +1,12 @@
+//// The **`position-area`** [CSS](/en-US/docs/Web/CSS) property enables an anchor-positioned element to be positioned relative to the edges of its associated anchor element by placing the positioned element on one or more tiles of an implicit 3x3 grid, where the anchoring element is the center cell.
+//// 
+//// `position-area` provides a convenient alternative to tethering and positioning an element relative to its anchor via {{glossary("inset properties")}} and the {{cssxref("anchor()")}} function. The grid-based concept solves the common use-case of positioning the edges of the positioned element's containing block relative to the edges of its default anchor element.
+//// 
+//// If an element does not have a default anchor element, or is not an absolutely-positioned element, this property has no effect.
+//// 
+//// > [!NOTE]
+//// > This property was originally named and supported in Chromium browsers as `inset-area`, with the same property values. Both property names will be supported for a short while, for backwards compatibility purposes.
+//// 
 
 
 pub const none = #("position-area", "none")

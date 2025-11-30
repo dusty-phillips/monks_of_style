@@ -1,3 +1,7 @@
+//// The **`border-image-width`** [CSS](/en-US/docs/Web/CSS) property sets the width of an element's [border image](/en-US/docs/Web/CSS/Reference/Properties/border-image).
+//// 
+//// If this property's value is greater than the element's {{cssxref("border-width")}}, the border image will extend beyond the padding (and/or content) edge.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

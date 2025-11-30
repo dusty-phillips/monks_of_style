@@ -1,3 +1,5 @@
+//// The **`text-overflow`** [CSS](/en-US/docs/Web/CSS) property sets how hidden overflow content is signaled to users. It can be clipped, display an ellipsis (`…`), or display a custom string.
+//// 
 
 
 pub const clip = #("text-overflow", "clip")

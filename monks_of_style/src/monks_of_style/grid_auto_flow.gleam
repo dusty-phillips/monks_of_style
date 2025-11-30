@@ -1,3 +1,5 @@
+//// The **`grid-auto-flow`** [CSS](/en-US/docs/Web/CSS) property controls how the auto-placement algorithm works, specifying exactly how auto-placed items get flowed into the grid.
+//// 
 
 
 pub const row = #("grid-auto-flow", "row")

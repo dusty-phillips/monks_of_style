@@ -1,3 +1,5 @@
+//// The **`margin`** [CSS](/en-US/docs/Web/CSS) shorthand property sets the [margin area](/en-US/docs/Web/CSS/Guides/Box_model/Introduction#margin_area) on all four sides of an element.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

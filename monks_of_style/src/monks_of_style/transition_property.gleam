@@ -1,3 +1,5 @@
+//// The **`transition-property`** [CSS](/en-US/docs/Web/CSS) property sets the CSS properties to which a [transition effect](/en-US/docs/Web/CSS/Guides/Transitions/Using) should be applied.
+//// 
 
 
 pub const none = #("transition-property", "none")

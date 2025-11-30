@@ -1,3 +1,5 @@
+//// The **`column-rule-style`** [CSS](/en-US/docs/Web/CSS) property sets the style of the line drawn between columns in a multi-column layout.
+//// 
 
 
 pub const none = #("column-rule-style", "none")

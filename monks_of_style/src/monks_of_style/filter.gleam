@@ -1,3 +1,7 @@
+//// The **`filter`** [CSS](/en-US/docs/Web/CSS) property applies graphical effects like blur or color shift to an element. Filters are commonly used to adjust the rendering of images, backgrounds, and borders.
+//// 
+//// Several [functions](#functions), such as `blur()` and `contrast()`, are available to help you achieve predefined effects.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

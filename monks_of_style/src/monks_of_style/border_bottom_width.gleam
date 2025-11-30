@@ -1,3 +1,5 @@
+//// The **`border-bottom-width`** [CSS](/en-US/docs/Web/CSS) property sets the width of the bottom border of an element.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

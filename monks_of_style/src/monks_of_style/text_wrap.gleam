@@ -1,3 +1,8 @@
+//// The **`text-wrap`** [CSS](/en-US/docs/Web/CSS) shorthand property controls how text inside an element is wrapped. The different values provide:
+//// 
+//// - Typographic improvements, for example more balanced line lengths across broken headings
+//// - A way to turn text wrapping off completely.
+//// 
 
 
 pub const auto_ = #("text-wrap", "auto")

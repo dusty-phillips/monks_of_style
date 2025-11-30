@@ -1,3 +1,7 @@
+//// {{ Non-standard_header }}
+//// 
+//// The **`font-smooth`** [CSS](/en-US/docs/Web/CSS) property controls the application of anti-aliasing when fonts are rendered.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

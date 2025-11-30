@@ -1,3 +1,5 @@
+//// The **`background-position`** [CSS](/en-US/docs/Web/CSS) property sets the initial position for each background image. The position is relative to the position layer set by {{cssxref("background-origin")}}.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

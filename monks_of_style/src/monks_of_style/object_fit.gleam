@@ -1,3 +1,10 @@
+//// The **`object-fit`** [CSS](/en-US/docs/Web/CSS) property sets how the content of a {{ glossary("replaced elements", "replaced element")}}, such as an {{HTMLElement("img")}} or {{HTMLElement("video")}}, should be resized to fit its container.
+//// 
+//// > [!NOTE]
+//// > The `object-fit` property has no effect on {{HTMLElement("iframe")}}, {{HTMLElement("embed")}}, and {{HTMLElement("fencedframe")}} elements.
+//// 
+//// You can alter the alignment of the replaced element's content object within the element's box using the {{cssxref("object-position")}} property.
+//// 
 
 
 pub const fill = #("object-fit", "fill")

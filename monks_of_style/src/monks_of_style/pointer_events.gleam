@@ -1,3 +1,5 @@
+//// The **`pointer-events`** [CSS](/en-US/docs/Web/CSS) property sets under what circumstances (if any) a particular graphic element can become the [target](/en-US/docs/Web/API/Event/target) of pointer events.
+//// 
 
 
 pub const auto_ = #("pointer-events", "auto")

@@ -1,3 +1,5 @@
+//// The **`overflow-clip-margin`** [CSS](/en-US/docs/Web/CSS) property determines how far outside its bounds an element with [`overflow: clip`](/en-US/docs/Web/CSS/Reference/Properties/overflow) may be painted before being clipped. The bound defined by this property is called the _overflow clip edge_ of the box.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

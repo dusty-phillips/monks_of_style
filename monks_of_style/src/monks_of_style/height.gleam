@@ -1,3 +1,5 @@
+//// The **`height`** [CSS](/en-US/docs/Web/CSS) property specifies the height of an element. By default, the property defines the height of the [content area](/en-US/docs/Web/CSS/Guides/Box_model/Introduction#content_area). If {{cssxref("box-sizing")}} is set to `border-box`, however, it instead determines the height of the [border area](/en-US/docs/Web/CSS/Guides/Box_model/Introduction#border_area).
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

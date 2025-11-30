@@ -1,3 +1,5 @@
+//// The **`anchor-name`** [CSS](/en-US/docs/Web/CSS) property enables defining an element as an **anchor element** by giving it one or more identifying **anchor names**. Each name can then be set as the value of a positioned element's {{cssxref("position-anchor")}} property to associate it with the anchor.
+//// 
 
 
 pub const none = #("anchor-name", "none")

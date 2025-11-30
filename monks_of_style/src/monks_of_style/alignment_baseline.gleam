@@ -1,3 +1,10 @@
+//// The **`alignment-baseline`** [CSS](/en-US/docs/Web/CSS) property specifies the specific [baseline](/en-US/docs/Glossary/Baseline/Typography) used to align the box's text and inline-level contents. **Baseline alignment** is the relationship among the baselines of multiple alignment subjects within an alignment context. When performing baseline alignment, the `alignment-baseline` property value specifies which baseline of the box is aligned to the corresponding baseline of its alignment context.
+//// 
+//// > [!NOTE]
+//// > The `alignment-baseline` property only has an effect on inline-level boxes, flex items, grid items, table cells, and the {{SVGElement("text")}}, {{SVGElement("textPath")}}, and {{SVGElement("tspan")}} SVG elements. If present, it overrides the shape's {{SVGAttr("alignment-baseline")}} attribute.
+//// 
+//// In an inline formatting context, inline-level box fragments and glyphs share an alignment context established by their parent inline box fragment along its inline axis. In SVG text layout, these values instead specify the baseline that is aligned to the SVG current text position.
+//// 
 
 
 pub const auto_ = #("alignment-baseline", "auto")

@@ -1,3 +1,5 @@
+//// The **container** [shorthand](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties) [CSS](/en-US/docs/Web/CSS) property establishes the element as a query container and specifies the name and type of the [containment context](/en-US/docs/Web/CSS/Guides/Containment/Container_queries#naming_containment_contexts) used in a [container query](/en-US/docs/Web/CSS/Guides/Containment/Container_queries).
+//// 
 
 
 pub const none = #("container", "none")

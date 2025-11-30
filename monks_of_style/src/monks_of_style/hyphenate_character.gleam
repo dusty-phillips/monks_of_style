@@ -1,3 +1,7 @@
+//// The **`hyphenate-character`** [CSS](/en-US/docs/Web/CSS) property sets the character (or string) used at the end of a line before a hyphenation break.
+//// 
+//// Both automatic and soft hyphens are displayed according to the specified hyphenate-character value.
+//// 
 
 
 pub const auto_ = #("hyphenate-character", "auto")

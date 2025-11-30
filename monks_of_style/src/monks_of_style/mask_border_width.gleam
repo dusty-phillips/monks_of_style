@@ -1,3 +1,5 @@
+//// The **`mask-border-width`** [CSS](/en-US/docs/Web/CSS) property sets the width of an element's [mask border](/en-US/docs/Web/CSS/Reference/Properties/mask-border).
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

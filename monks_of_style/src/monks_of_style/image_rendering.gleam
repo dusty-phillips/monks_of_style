@@ -1,3 +1,5 @@
+//// The **`image-rendering`** [CSS](/en-US/docs/Web/CSS) property sets an image scaling algorithm. The property applies to an element itself, to any images set in its other properties, and to its descendants.
+//// 
 
 
 pub const auto_ = #("image-rendering", "auto")

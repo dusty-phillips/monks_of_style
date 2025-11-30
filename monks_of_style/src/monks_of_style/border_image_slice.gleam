@@ -1,3 +1,5 @@
+//// The **`border-image-slice`** [CSS](/en-US/docs/Web/CSS) property divides the image specified by {{cssxref("border-image-source")}} into regions. These regions form the components of an element's [border image](/en-US/docs/Web/CSS/Reference/Properties/border-image).
+//// 
 
 
 pub const fill = #("border-image-slice", "fill")

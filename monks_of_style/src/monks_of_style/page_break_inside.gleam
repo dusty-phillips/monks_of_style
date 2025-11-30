@@ -1,3 +1,10 @@
+//// {{deprecated_header}}
+//// 
+//// > [!WARNING]
+//// > This property has been replaced by the {{cssxref("break-inside")}} property.
+//// 
+//// The **`page-break-inside`** [CSS](/en-US/docs/Web/CSS) property adjusts page breaks _inside_ the current element.
+//// 
 
 
 pub const auto_ = #("page-break-inside", "auto")

@@ -1,3 +1,5 @@
+//// The `math-style` property indicates whether MathML equations should render with normal or compact height.
+//// 
 
 
 pub const normal = #("math-style", "normal")

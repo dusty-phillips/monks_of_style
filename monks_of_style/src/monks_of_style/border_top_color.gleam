@@ -1,3 +1,5 @@
+//// The **`border-top-color`** [CSS](/en-US/docs/Web/CSS) property sets the color of an element's top [border](/en-US/docs/Web/CSS/Reference/Properties/border). It can also be set with the shorthand CSS properties {{cssxref("border-color")}} or {{cssxref("border-top")}}.
+//// 
 
 
  pub const initial = #("border-top-color", "initial")

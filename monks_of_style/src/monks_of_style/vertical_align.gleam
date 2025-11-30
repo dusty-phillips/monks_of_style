@@ -1,3 +1,5 @@
+//// The **`vertical-align`** [CSS](/en-US/docs/Web/CSS) property sets vertical alignment of an inline, inline-block or table-cell box.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

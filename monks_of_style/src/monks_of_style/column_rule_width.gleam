@@ -1,3 +1,5 @@
+//// The **`column-rule-width`** [CSS](/en-US/docs/Web/CSS) property sets the width of the line drawn between columns in a multi-column layout.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

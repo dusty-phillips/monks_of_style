@@ -1,3 +1,7 @@
+//// The **`border-image-outset`** [CSS](/en-US/docs/Web/CSS) property sets the distance by which an element's [border image](/en-US/docs/Web/CSS/Reference/Properties/border-image) is set out from its border box.
+//// 
+//// The parts of the border image that are rendered outside the element's border box with `border-image-outset` do not trigger overflow scrollbars and don't capture mouse events.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

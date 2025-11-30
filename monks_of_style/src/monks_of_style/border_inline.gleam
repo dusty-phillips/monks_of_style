@@ -1,3 +1,5 @@
+//// The **`border-inline`** [CSS](/en-US/docs/Web/CSS) property is a [shorthand property](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties) for setting the individual logical inline border property values in a single place in the style sheet.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

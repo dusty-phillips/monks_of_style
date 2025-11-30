@@ -1,3 +1,7 @@
+//// {{SeeCompatTable}}
+//// 
+//// The **`caret`** [shorthand](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties) [CSS](/en-US/docs/Web/CSS) property sets the appearance and behavior of the **insertion caret** in a single declaration.
+//// 
 
 
 pub const auto_ = #("caret", "auto")

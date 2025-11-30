@@ -1,3 +1,5 @@
+//// The **`column-count`** [CSS](/en-US/docs/Web/CSS) property breaks an element's content into the specified number of columns.
+//// 
 
 
 pub const auto_ = #("column-count", "auto")

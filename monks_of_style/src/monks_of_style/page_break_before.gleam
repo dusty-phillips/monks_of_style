@@ -1,3 +1,12 @@
+//// {{deprecated_header}}
+//// 
+//// > [!WARNING]
+//// > This property has been replaced by the {{cssxref("break-before")}} property.
+//// 
+//// The **`page-break-before`** [CSS](/en-US/docs/Web/CSS) property adjusts page breaks _before_ the current element.
+//// 
+//// This property applies to block elements that generate a box. It won't apply on an empty {{ HTMLElement("div") }} that won't generate a box.
+//// 
 
 
 pub const auto_ = #("page-break-before", "auto")

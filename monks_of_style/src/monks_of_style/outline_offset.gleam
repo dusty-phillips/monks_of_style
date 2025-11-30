@@ -1,3 +1,5 @@
+//// The **`outline-offset`** [CSS](/en-US/docs/Web/CSS) property sets the amount of space between an [outline](/en-US/docs/Web/CSS/Reference/Properties/outline) and the edge or border of an element.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

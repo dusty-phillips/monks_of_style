@@ -1,3 +1,5 @@
+//// The **`overflow-x`** [CSS](/en-US/docs/Web/CSS) property sets what shows when content overflows a block-level element's left and right edges. This may be nothing, a scroll bar, or the overflow content. This property may also be set by using the [`overflow`](/en-US/docs/Web/CSS/Reference/Properties/overflow) shorthand property.
+//// 
 
 
 pub const visible = #("overflow-x", "visible")

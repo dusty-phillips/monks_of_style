@@ -1,3 +1,5 @@
+//// The **`border-width`** [shorthand](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties) [CSS](/en-US/docs/Web/CSS) property sets the width of an element's border.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

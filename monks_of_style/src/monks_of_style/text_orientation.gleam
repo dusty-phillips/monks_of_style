@@ -1,3 +1,5 @@
+//// The **`text-orientation`** [CSS](/en-US/docs/Web/CSS) property sets the orientation of the text characters in a line. It only affects text in vertical mode (when {{cssxref("writing-mode")}} is not `horizontal-tb`). It is useful for controlling the display of languages that use vertical script, and also for making vertical table headers.
+//// 
 
 
 pub const mixed = #("text-orientation", "mixed")

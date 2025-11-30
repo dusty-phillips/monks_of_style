@@ -1,3 +1,5 @@
+//// The **`word-spacing`** [CSS](/en-US/docs/Web/CSS) property sets the length of space between words and between tags.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

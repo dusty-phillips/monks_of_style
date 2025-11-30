@@ -7,3 +7,5 @@ monks_of_style/build
 monks_of_style_generator/build
 example/.lustre/bin/bun-darwin-aarch64
 example/build
+content
+properties.json

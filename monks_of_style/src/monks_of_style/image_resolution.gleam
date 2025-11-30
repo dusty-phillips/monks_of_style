@@ -1,3 +1,9 @@
+//// {{SeeCompatTable}}
+//// 
+//// The **`image-resolution`** [CSS](/en-US/docs/Web/CSS) property specifies the intrinsic resolution of all raster images used in or on the element. It affects content images such as replaced elements and generated content, and decorative images such as `background-image` images.
+//// 
+//// The image resolution is defined as the number of image pixels per unit length, e.g., pixels per inch. By default, CSS assumes a resolution of one image pixel per CSS px unit; however, the `image-resolution` property allows a different resolution to be specified.
+//// 
 
 
 pub const from_image = #("image-resolution", "from-image")

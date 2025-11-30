@@ -1,3 +1,7 @@
+//// The **`stroke-linecap`** [CSS](/en-US/docs/Web/CSS) property defines the shape to be used at the end of open subpaths of [SVG](/en-US/docs/Web/SVG) elements' unclosed strokes. If present, it overrides the element's {{SVGAttr("stroke-linecap")}} attribute.
+//// 
+//// This property applies to any SVG shape that can have unclosed strokes and text-content element (see {{SVGAttr("stroke-linecap")}} for a full list), but as an inherited property, it may be applied to elements such as {{SVGElement("g")}} and still have the intended effect on descendant elements' strokes.
+//// 
 
 
 pub const butt = #("stroke-linecap", "butt")

@@ -1,3 +1,5 @@
+//// The **`shape-margin`** [CSS](/en-US/docs/Web/CSS) property sets a margin for a CSS shape created using {{cssxref("shape-outside")}}.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

@@ -1,3 +1,8 @@
+//// The **`overflow-inline`** [CSS](/en-US/docs/Web/CSS) property sets what shows when content overflows the inline start and end edges of a box. This may be nothing, a scroll bar, or the overflow content.
+//// 
+//// > [!NOTE]
+//// > The `overflow-inline` property maps to {{Cssxref("overflow-y")}} or {{Cssxref("overflow-x")}} depending on the writing mode of the document.
+//// 
 
 
 pub const visible = #("overflow-inline", "visible")

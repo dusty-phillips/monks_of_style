@@ -1,3 +1,6 @@
+//// The **`shape-rendering`** [CSS](/en-US/docs/Web/CSS) property provides hints to the renderer about what tradeoffs to make when rendering shapes like paths, circles, or rectangles.
+//// It only has an effect on the {{SVGElement("circle")}}, {{SVGElement("ellipse")}}, {{SVGElement("line")}}, {{SVGElement("path")}}, {{SVGElement("polygon")}}, {{SVGElement("polyline")}}, and {{SVGElement("rect")}} elements. If explicitly declared, the value of the CSS property overrides the any values of the element's {{SVGAttr("shape-rendering")}} attribute.
+//// 
 
 
 pub const auto_ = #("shape-rendering", "auto")

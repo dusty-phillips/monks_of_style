@@ -1,3 +1,5 @@
+//// The **`resize`** [CSS](/en-US/docs/Web/CSS) property sets whether an element is resizable, and if so, in which directions.
+//// 
 
 
 pub const none = #("resize", "none")

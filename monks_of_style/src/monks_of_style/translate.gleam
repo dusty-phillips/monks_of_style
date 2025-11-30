@@ -1,3 +1,5 @@
+//// The **`translate`** [CSS](/en-US/docs/Web/CSS) property allows you to specify translation transforms individually and independently of the {{CSSxRef("transform")}} property. This maps better to typical user interface usage, and saves having to remember the exact order of transform functions to specify in the `transform` value.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

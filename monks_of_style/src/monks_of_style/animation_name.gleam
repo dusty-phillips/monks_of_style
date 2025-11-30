@@ -1,3 +1,7 @@
+//// The **`animation-name`** [CSS](/en-US/docs/Web/CSS) property specifies the names of one or more {{cssxref("@keyframes")}} at-rules that describe the animation to apply to an element. Multiple `@keyframes` at-rules are specified as a comma-separated list of names. If the specified name does not match any `@keyframes` at-rule, no properties are animated.
+//// 
+//// It is often convenient to use the shorthand property {{cssxref("animation")}} to set all animation properties at once.
+//// 
 
 
 pub const none = #("animation-name", "none")

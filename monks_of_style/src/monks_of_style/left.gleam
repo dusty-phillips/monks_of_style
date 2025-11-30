@@ -1,3 +1,5 @@
+//// The **`left`** [CSS](/en-US/docs/Web/CSS) property participates in specifying the horizontal position of a [positioned element](/en-US/docs/Web/CSS/Reference/Properties/position). This {{glossary("inset properties", "inset property")}} has no effect on non-positioned elements.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

@@ -1,3 +1,5 @@
+//// The **`flex-flow`** [CSS](/en-US/docs/Web/CSS) [shorthand property](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties) specifies the direction of a flex container, as well as its wrapping behavior.
+//// 
 
 
 pub const row = #("flex-flow", "row")

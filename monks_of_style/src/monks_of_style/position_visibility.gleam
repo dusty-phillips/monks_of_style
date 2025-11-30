@@ -1,3 +1,7 @@
+//// {{seecompattable}}
+//// 
+//// The **`position-visibility`** [CSS](/en-US/docs/Web/CSS) property enables conditionally hiding an anchor-positioned element depending on, for example, whether it is overflowing its containing element or the viewport.
+//// 
 
 
 pub const always = #("position-visibility", "always")

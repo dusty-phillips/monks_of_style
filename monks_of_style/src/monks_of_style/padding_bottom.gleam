@@ -1,3 +1,5 @@
+//// The **`padding-bottom`** [CSS](/en-US/docs/Web/CSS) property sets the height of the [padding area](/en-US/docs/Web/CSS/Guides/Box_model/Introduction#padding_area) on the bottom of an element.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

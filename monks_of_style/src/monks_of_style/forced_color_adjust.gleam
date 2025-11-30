@@ -1,3 +1,5 @@
+//// The **`forced-color-adjust`** [CSS](/en-US/docs/Web/CSS) property allows authors to opt certain elements out of forced colors mode. This then restores the control of those values to CSS.
+//// 
 
 
 pub const auto_ = #("forced-color-adjust", "auto")

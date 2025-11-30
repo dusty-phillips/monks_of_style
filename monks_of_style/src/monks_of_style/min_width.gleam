@@ -1,3 +1,5 @@
+//// The **`min-width`** [CSS](/en-US/docs/Web/CSS) property sets the minimum width of an element. It prevents the [used value](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#used_value) of the {{cssxref("width")}} property from becoming smaller than the value specified for `min-width`.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

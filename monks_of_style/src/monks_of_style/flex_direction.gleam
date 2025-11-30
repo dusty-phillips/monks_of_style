@@ -1,3 +1,5 @@
+//// The **`flex-direction`** [CSS](/en-US/docs/Web/CSS) property sets how flex items are placed in the flex container defining the main axis and the direction (normal or reversed).
+//// 
 
 
 pub const row = #("flex-direction", "row")

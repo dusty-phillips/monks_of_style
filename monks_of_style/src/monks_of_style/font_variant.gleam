@@ -1,3 +1,7 @@
+//// The **`font-variant`** [CSS](/en-US/docs/Web/CSS) [shorthand property](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties) allows you to set all the font variants for a font.
+//// 
+//// You can also set the `<font-variant-css2>` values of `font-variant` defined in CSS Level 2.1, (that is, `normal` or `small-caps`), by using the [`font`](/en-US/docs/Web/CSS/Reference/Properties/font) shorthand.
+//// 
 
 
 pub const normal = #("font-variant", "normal")

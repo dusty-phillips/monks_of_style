@@ -1,3 +1,8 @@
+//// The **`white-space-collapse`** [CSS](/en-US/docs/Web/CSS) property controls how {{Glossary("whitespace", "white space")}} inside an element is collapsed.
+//// 
+//// > [!NOTE]
+//// > The `white-space-collapse` and {{CSSxRef("text-wrap-mode")}} properties can be declared together using the {{CSSxRef("white-space")}} shorthand property.
+//// 
 
 
 pub const collapse = #("white-space-collapse", "collapse")

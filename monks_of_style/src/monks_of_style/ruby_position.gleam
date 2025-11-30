@@ -1,3 +1,5 @@
+//// The **`ruby-position`** [CSS](/en-US/docs/Web/CSS) property defines the position of a ruby element relative to its base element. It can be positioned over the element (`over`), under it (`under`), or between the characters on their right side (`inter-character`).
+//// 
 
 
 pub const alternate = #("ruby-position", "alternate")

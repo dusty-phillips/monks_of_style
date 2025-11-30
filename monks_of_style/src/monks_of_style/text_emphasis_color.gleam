@@ -1,3 +1,5 @@
+//// The **`text-emphasis-color`** [CSS](/en-US/docs/Web/CSS) property sets the color of emphasis marks. This value can also be set using the {{cssxref("text-emphasis")}} shorthand.
+//// 
 
 
  pub const initial = #("text-emphasis-color", "initial")

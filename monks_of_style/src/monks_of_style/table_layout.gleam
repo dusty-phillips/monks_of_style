@@ -1,3 +1,5 @@
+//// The **`table-layout`** [CSS](/en-US/docs/Web/CSS) property sets the algorithm used to lay out {{htmlelement("table")}} cells, rows, and columns.
+//// 
 
 
 pub const auto_ = #("table-layout", "auto")

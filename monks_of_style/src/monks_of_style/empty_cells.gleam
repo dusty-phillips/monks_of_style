@@ -1,3 +1,7 @@
+//// The **`empty-cells`** [CSS](/en-US/docs/Web/CSS) property sets whether borders and backgrounds appear around {{htmlelement("table")}} cells that have no visible content.
+//// 
+//// This property has an effect only when the {{cssxref("border-collapse")}} property is `separate`.
+//// 
 
 
 pub const show = #("empty-cells", "show")

@@ -1,3 +1,5 @@
+//// The **`font-weight`** [CSS](/en-US/docs/Web/CSS) property sets the weight (or boldness) of the font. The weights available depend on the {{cssxref("font-family")}} that is currently set.
+//// 
 
 
 pub const normal = #("font-weight", "normal")

@@ -1,3 +1,5 @@
+//// The **`font-optical-sizing`** [CSS](/en-US/docs/Web/CSS) property sets whether text rendering is optimized for viewing at different sizes.
+//// 
 
 
 pub const auto_ = #("font-optical-sizing", "auto")

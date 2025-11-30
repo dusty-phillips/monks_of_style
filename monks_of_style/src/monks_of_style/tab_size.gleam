@@ -1,3 +1,5 @@
+//// The **`tab-size`** [CSS](/en-US/docs/Web/CSS) property is used to customize the width of tab characters (U+0009).
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

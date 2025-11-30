@@ -1,3 +1,5 @@
+//// The **`border-right-color`** [CSS](/en-US/docs/Web/CSS) property sets the color of an element's right [border](/en-US/docs/Web/CSS/Reference/Properties/border). It can also be set with the shorthand CSS properties {{cssxref("border-color")}} or {{cssxref("border-right")}}.
+//// 
 
 
  pub const initial = #("border-right-color", "initial")

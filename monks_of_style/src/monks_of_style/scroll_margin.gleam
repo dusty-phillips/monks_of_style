@@ -1,3 +1,5 @@
+//// The **`scroll-margin`** [shorthand property](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties) sets all of the scroll margins of an element at once, assigning values much like the [`margin`](/en-US/docs/Web/CSS/Reference/Properties/margin) property does for margins of an element.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

@@ -1,3 +1,5 @@
+//// The **`transition-delay`** [CSS](/en-US/docs/Web/CSS) property specifies the duration to wait before starting a property's [transition effect](/en-US/docs/Web/CSS/Guides/Transitions/Using) when its value changes.
+//// 
 
 
  pub const initial = #("transition-delay", "initial")

@@ -1,3 +1,5 @@
+//// The **`mask-border`** [CSS](/en-US/docs/Web/CSS) [shorthand property](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties) lets you create a mask along the edge of an element's border.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

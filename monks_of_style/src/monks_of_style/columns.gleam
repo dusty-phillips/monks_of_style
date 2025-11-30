@@ -1,3 +1,5 @@
+//// The **`columns`** [CSS](/en-US/docs/Web/CSS) shorthand property sets the number of columns to use when drawing an element's contents, as well as those columns' widths.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

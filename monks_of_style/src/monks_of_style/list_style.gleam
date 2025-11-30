@@ -1,3 +1,5 @@
+//// The **`list-style`** [CSS](/en-US/docs/Web/CSS) [shorthand property](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties) allows you to set all the list style properties at once.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

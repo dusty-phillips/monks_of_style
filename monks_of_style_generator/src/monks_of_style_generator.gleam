@@ -56,6 +56,34 @@ fn sanitize_keyword(keyword: String) -> String {
   }
 }
 
+fn build_property_docstring(property: String) -> String {
+  let doc_path =
+    "../content/files/en-us/web/css/reference/properties/"
+    <> property
+    <> "/index.md"
+
+  case simplifile.read(doc_path) {
+    Error(_) -> {
+      io.println("Unable to read " <> doc_path)
+      ""
+    }
+    Ok(content) -> {
+      content
+      |> string.split("\n")
+      |> list.drop(1)
+      |> list.drop_while(fn(line) { line != "---" })
+      |> list.drop(1)
+      |> list.drop_while(fn(line) { line == "" })
+      |> list.take_while(fn(line) {
+        !string.starts_with(line, "##")
+        && !string.starts_with(line, "{{InteractiveExample")
+      })
+      |> list.map(fn(line) { "//// " <> line <> "\n" })
+      |> string.concat
+    }
+  }
+}
+
 fn build_imports(property: String) -> String {
   case does_property_accept_length(property) {
     True -> "import monks_of_style.{length_to_string, type Length}\n\n"
@@ -128,6 +156,7 @@ pub fn build_prop(property: String) -> String {
   let accumulator = ""
 
   accumulator
+  <> build_property_docstring(property)
   <> build_imports(property)
   <> build_keyword_consts(property)
   <> build_global_consts(property)

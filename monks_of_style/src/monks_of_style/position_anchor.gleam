@@ -1,3 +1,5 @@
+//// The **`position-anchor`** [CSS](/en-US/docs/Web/CSS) property specifies the anchor name of the **anchor element** (i.e., an element that has an **anchor name** set on it via the {{cssxref("anchor-name")}} property) a positioned element is associated with.
+//// 
 
 
 pub const auto_ = #("position-anchor", "auto")

@@ -1,3 +1,5 @@
+//// The **`appearance`** [CSS](/en-US/docs/Web/CSS) property specifies the rendered appearance of replaced UI widget elements such as form controls. Most commonly, such elements are given native, platform-specific styling based on the operating system's theme, or a primitive appearance with styles that can be overridden using CSS.
+//// 
 
 
 pub const none = #("appearance", "none")

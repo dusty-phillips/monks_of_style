@@ -1,3 +1,5 @@
+//// The **`white-space`** [CSS](/en-US/docs/Web/CSS) property sets how {{Glossary("whitespace", "white space")}} inside an element is handled.
+//// 
 
 
 pub const normal = #("white-space", "normal")

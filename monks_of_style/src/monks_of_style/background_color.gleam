@@ -1,3 +1,5 @@
+//// The **`background-color`** [CSS](/en-US/docs/Web/CSS) property sets the background color of an element.
+//// 
 
 
  pub const initial = #("background-color", "initial")

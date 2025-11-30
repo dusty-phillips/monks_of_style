@@ -1,3 +1,5 @@
+//// The **`word-break`** [CSS](/en-US/docs/Web/CSS) property sets whether line breaks appear wherever the text would otherwise overflow its content box.
+//// 
 
 
 pub const normal = #("word-break", "normal")

@@ -1,3 +1,7 @@
+//// The **`inset`** [CSS](/en-US/docs/Web/CSS) property is a shorthand that corresponds to the {{cssxref("top")}}, {{cssxref("right")}}, {{cssxref("bottom")}}, and/or {{cssxref("left")}} properties. It has the same multi-value syntax of the {{cssxref("margin")}} shorthand.
+//// 
+//// This {{glossary("inset properties")}}, including `inset`, have no effect on non-positioned elements.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

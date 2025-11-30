@@ -1,3 +1,5 @@
+//// The **`mask-border-outset`** [CSS](/en-US/docs/Web/CSS) property specifies the distance by which an element's [mask border](/en-US/docs/Web/CSS/Reference/Properties/mask-border) is set out from its border box.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

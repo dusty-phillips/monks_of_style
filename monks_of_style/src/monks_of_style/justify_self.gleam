@@ -1,3 +1,5 @@
+//// The [CSS](/en-US/docs/Web/CSS) **`justify-self`** property sets the way a box is justified inside its alignment container along the appropriate axis.
+//// 
 
 
 pub const auto_ = #("justify-self", "auto")

@@ -1,3 +1,5 @@
+//// The **`border`** [shorthand](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties) [CSS](/en-US/docs/Web/CSS) property sets an element's border. It sets the values of {{Cssxref("border-width")}}, {{Cssxref("border-style")}}, and {{Cssxref("border-color")}}.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

@@ -1,3 +1,7 @@
+//// The **`text-decoration-color`** [CSS](/en-US/docs/Web/CSS) property sets the color of decorations added to text by {{ cssxref("text-decoration-line") }}.
+//// 
+//// The color applies to decorations, such as underlines, overlines, strikethroughs, and wavy lines like those used to mark misspellings, in the scope of the property's value.
+//// 
 
 
  pub const initial = #("text-decoration-color", "initial")

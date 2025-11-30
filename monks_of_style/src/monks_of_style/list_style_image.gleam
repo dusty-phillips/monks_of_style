@@ -1,3 +1,7 @@
+//// The **`list-style-image`** [CSS](/en-US/docs/Web/CSS) property sets an image to be used as the list item marker.
+//// 
+//// It is often more convenient to use the shorthand {{ cssxref("list-style") }}.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

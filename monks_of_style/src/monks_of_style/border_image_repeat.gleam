@@ -1,3 +1,5 @@
+//// The **`border-image-repeat`** [CSS](/en-US/docs/Web/CSS) property defines how the images for the sides and the middle part of the [border image](/en-US/docs/Web/CSS/Reference/Properties/border-image) are scaled and tiled. The middle region can be displayed by using the keyword "fill" in the {{cssxref("border-image-slice")}} property.
+//// 
 
 
 pub const stretch = #("border-image-repeat", "stretch")

@@ -1,3 +1,7 @@
+//// The **`row-gap`** [CSS](/en-US/docs/Web/CSS) property sets the size of the gap ({{glossary("gutters","gutter")}}) between an element's rows.
+//// 
+//// Early versions of the specification called this property `grid-row-gap`, and to maintain compatibility with legacy websites, browsers will still accept `grid-row-gap` as an alias for `row-gap`.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

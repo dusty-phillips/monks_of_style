@@ -1,3 +1,7 @@
+//// The **`content`** [CSS](/en-US/docs/Web/CSS) property replaces content with a generated value. It can be used to define what is rendered inside an element or pseudo-element. For elements, the `content` property specifies whether the element renders normally (`normal` or `none`) or is replaced with an image (and associated "alt" text). For pseudo-elements and margin boxes, `content` defines the content as images, text, both, or none, which determines whether the element renders at all.
+//// 
+//// Objects inserted using the `content` property are **anonymous {{ glossary("replaced elements")}}**.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

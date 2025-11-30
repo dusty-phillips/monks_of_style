@@ -1,3 +1,11 @@
+//// The **`scrollbar-color`** [CSS](/en-US/docs/Web/CSS) property sets the color of the scrollbar track and thumb.
+//// 
+//// The **track** refers to the background of the scrollbar, which is generally fixed regardless of the scrolling position.
+//// 
+//// The **thumb** refers to the moving part of the scrollbar, which usually floats on top of the track.
+//// 
+//// When `scrollbar-color` value is set on the document's root element, the values are applied to the viewport scrollbars.
+//// 
 
 
 pub const auto_ = #("scrollbar-color", "auto")

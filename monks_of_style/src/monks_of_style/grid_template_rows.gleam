@@ -1,3 +1,5 @@
+//// The **`grid-template-rows`** [CSS](/en-US/docs/Web/CSS) property defines the line names and track sizing functions of the {{glossary("grid_row", "grid rows")}}.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

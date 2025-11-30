@@ -1,3 +1,5 @@
+//// The **`text-align-last`** [CSS](/en-US/docs/Web/CSS) property sets how the last line of a block or a line, right before a forced line break, is aligned.
+//// 
 
 
 pub const auto_ = #("text-align-last", "auto")

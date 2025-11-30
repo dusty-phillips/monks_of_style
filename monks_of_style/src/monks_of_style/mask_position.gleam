@@ -1,3 +1,5 @@
+//// The **`mask-position`** [CSS](/en-US/docs/Web/CSS) property sets the initial position, relative to the mask position layer set by {{cssxref("mask-origin")}}, for each defined mask image.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

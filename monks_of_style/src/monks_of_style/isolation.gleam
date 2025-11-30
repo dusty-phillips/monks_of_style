@@ -1,3 +1,5 @@
+//// The **`isolation`** [CSS](/en-US/docs/Web/CSS) property determines whether an element must create a new {{glossary("stacking context")}}.
+//// 
 
 
 pub const auto_ = #("isolation", "auto")

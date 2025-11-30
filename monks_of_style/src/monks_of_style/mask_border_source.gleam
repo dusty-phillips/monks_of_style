@@ -1,3 +1,7 @@
+//// The **`mask-border-source`** [CSS](/en-US/docs/Web/CSS) property sets the source image used to create an element's [mask border](/en-US/docs/Web/CSS/Reference/Properties/mask-border).
+//// 
+//// The {{cssxref("mask-border-slice")}} property is used to divide the source image into regions, which are then dynamically applied to the final mask border.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

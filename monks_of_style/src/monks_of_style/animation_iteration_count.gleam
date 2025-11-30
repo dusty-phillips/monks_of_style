@@ -1,3 +1,7 @@
+//// The **`animation-iteration-count`** [CSS](/en-US/docs/Web/CSS) property sets the number of times an animation sequence should be played before stopping.
+//// 
+//// It is often convenient to use the shorthand property {{cssxref("animation")}} to set all animation properties at once.
+//// 
 
 
 pub const infinite = #("animation-iteration-count", "infinite")

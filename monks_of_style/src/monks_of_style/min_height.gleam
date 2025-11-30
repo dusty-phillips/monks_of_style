@@ -1,3 +1,5 @@
+//// The **`min-height`** [CSS](/en-US/docs/Web/CSS) property sets the minimum height of an element. It prevents the [used value](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#used_value) of the {{cssxref("height")}} property from becoming smaller than the value specified for `min-height`.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

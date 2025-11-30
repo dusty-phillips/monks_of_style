@@ -1,3 +1,5 @@
+//// The **`font-kerning`** [CSS](/en-US/docs/Web/CSS) property sets the use of the kerning information stored in a font.
+//// 
 
 
 pub const auto_ = #("font-kerning", "auto")

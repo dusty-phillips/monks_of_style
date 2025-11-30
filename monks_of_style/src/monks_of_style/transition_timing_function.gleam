@@ -1,3 +1,5 @@
+//// The **`transition-timing-function`** [CSS](/en-US/docs/Web/CSS) property sets how intermediate values are calculated for CSS properties being affected by a [transition effect](/en-US/docs/Web/CSS/Guides/Transitions/Using).
+//// 
 
 
 pub const linear = #("transition-timing-function", "linear")

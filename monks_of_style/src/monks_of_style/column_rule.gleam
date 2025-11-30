@@ -1,3 +1,5 @@
+//// The **`column-rule`** [shorthand](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties) [CSS](/en-US/docs/Web/CSS) property sets the width, style, and color of the line drawn between columns in a multi-column layout.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

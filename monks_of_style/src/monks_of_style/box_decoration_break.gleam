@@ -1,3 +1,5 @@
+//// The **`box-decoration-break`** [CSS](/en-US/docs/Web/CSS) property specifies how an element's [fragments](/en-US/docs/Web/CSS/Guides/Fragmentation) should be rendered when broken across multiple lines, columns, or pages.
+//// 
 
 
 pub const slice = #("box-decoration-break", "slice")

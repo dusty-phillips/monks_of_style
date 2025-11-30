@@ -1,3 +1,5 @@
+//// The **`ruby-align`** [CSS](/en-US/docs/Web/CSS) property defines the distribution of the different ruby elements over the base.
+//// 
 
 
 pub const start = #("ruby-align", "start")

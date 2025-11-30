@@ -1,3 +1,5 @@
+//// The [CSS](/en-US/docs/Web/CSS) **`justify-items`** property defines the default {{CSSxRef("justify-self")}} for all items of the box, giving them all a default way of justifying each box along the appropriate axis.
+//// 
 
 
 pub const normal = #("justify-items", "normal")

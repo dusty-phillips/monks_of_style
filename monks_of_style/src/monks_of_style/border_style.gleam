@@ -1,3 +1,5 @@
+//// The **`border-style`** [shorthand](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties) [CSS](/en-US/docs/Web/CSS) property sets the line style for all four sides of an element's border.
+//// 
 
 
 pub const none = #("border-style", "none")

@@ -1,3 +1,5 @@
+//// The **`list-style-type`** [CSS](/en-US/docs/Web/CSS) property sets the marker (such as a disc, character, or custom counter style) of a list item element.
+//// 
 
 
 pub const none = #("list-style-type", "none")

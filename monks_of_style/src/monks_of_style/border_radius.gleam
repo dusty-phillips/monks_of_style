@@ -1,3 +1,5 @@
+//// The **`border-radius`** [CSS](/en-US/docs/Web/CSS) property rounds the corners of an element's outer border edge. You can set a single radius to make circular corners, or two radii to make elliptical corners.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

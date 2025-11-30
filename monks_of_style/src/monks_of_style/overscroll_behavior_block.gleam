@@ -1,3 +1,7 @@
+//// The **`overscroll-behavior-block`** [CSS](/en-US/docs/Web/CSS) property sets the browser's behavior when the block direction boundary of a scrolling area is reached.
+//// 
+//// See {{cssxref("overscroll-behavior")}} for a full explanation.
+//// 
 
 
 pub const contain = #("overscroll-behavior-block", "contain")

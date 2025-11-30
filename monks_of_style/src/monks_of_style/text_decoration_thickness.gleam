@@ -1,3 +1,5 @@
+//// The **`text-decoration-thickness`** [CSS](/en-US/docs/Web/CSS) property sets the stroke thickness of the decoration line that is used on text in an element, such as a line-through, underline, or overline.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

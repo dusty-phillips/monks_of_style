@@ -1,3 +1,7 @@
+//// The **`animation-timing-function`** [CSS](/en-US/docs/Web/CSS) property sets how an animation progresses through the duration of each cycle.
+//// 
+//// It is often convenient to use the shorthand property {{cssxref("animation")}} to set all animation properties at once.
+//// 
 
 
 pub const linear = #("animation-timing-function", "linear")

@@ -1,3 +1,7 @@
+//// {{SeeCompatTable}}
+//// 
+//// The **`caret-shape`** [CSS](/en-US/docs/Web/CSS) property sets the shape of the **insertion caret**, the visible marker that appears in editable elements to indicate where the next character will be inserted or deleted.
+//// 
 
 
 pub const auto_ = #("caret-shape", "auto")

@@ -1,3 +1,5 @@
+//// The **`mask-mode`** [CSS](/en-US/docs/Web/CSS) property is set on the element being masked. It sets whether the mask reference defined by the {{cssxref("mask-image")}} is treated as a luminance or alpha mask.
+//// 
 
 
 pub const alpha = #("mask-mode", "alpha")

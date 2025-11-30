@@ -1,3 +1,7 @@
+//// The **`border-image-source`** [CSS](/en-US/docs/Web/CSS) property sets the source image used to create an element's [border image](/en-US/docs/Web/CSS/Reference/Properties/border-image).
+//// 
+//// The {{cssxref("border-image-slice")}} property is used to divide the source image into regions, which are then dynamically applied to the final border image.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

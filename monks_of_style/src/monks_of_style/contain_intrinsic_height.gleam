@@ -1,3 +1,5 @@
+//// The **`contain-intrinsic-height`** [CSS](/en-US/docs/Web/CSS) property sets the height of an element that a browser can use for layout when the element is subject to [size containment](/en-US/docs/Web/CSS/Guides/Containment/Using#size_containment).
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

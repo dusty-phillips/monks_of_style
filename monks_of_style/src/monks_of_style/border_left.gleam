@@ -1,3 +1,5 @@
+//// The **`border-left`** [shorthand](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties) [CSS](/en-US/docs/Web/CSS) property sets all the properties of an element's left [border](/en-US/docs/Web/CSS/Reference/Properties/border).
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

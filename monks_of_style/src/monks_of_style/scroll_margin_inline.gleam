@@ -1,3 +1,5 @@
+//// The `scroll-margin-inline` [shorthand property](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties) sets the scroll margins of an element in the inline dimension.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

@@ -1,3 +1,5 @@
+//// The **`transform-style`** [CSS](/en-US/docs/Web/CSS) property sets whether children of an element are positioned in the 3D space or are flattened in the plane of the element.
+//// 
 
 
 pub const flat = #("transform-style", "flat")

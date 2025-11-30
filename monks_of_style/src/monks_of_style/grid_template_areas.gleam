@@ -1,3 +1,5 @@
+//// The **`grid-template-areas`** [CSS](/en-US/docs/Web/CSS) property specifies named {{glossary("grid areas")}}, establishing the cells in the grid and assigning them names.
+//// 
 
 
 pub const none = #("grid-template-areas", "none")

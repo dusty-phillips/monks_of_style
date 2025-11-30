@@ -1,3 +1,5 @@
+//// The **`font`** [CSS](/en-US/docs/Web/CSS) [shorthand property](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties) sets all the different properties of an element's font. Alternatively, it sets an element's font to a system font.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

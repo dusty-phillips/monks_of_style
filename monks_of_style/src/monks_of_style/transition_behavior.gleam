@@ -1,3 +1,5 @@
+//// The **`transition-behavior`** [CSS](/en-US/docs/Web/CSS) property specifies whether transitions will be started for properties whose animation behavior is [discrete](/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties#discrete).
+//// 
 
 
 pub const normal = #("transition-behavior", "normal")

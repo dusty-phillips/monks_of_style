@@ -1,3 +1,7 @@
+//// The **`background-origin`** [CSS](/en-US/docs/Web/CSS) property sets the background's origin: from the border start, inside the border, or inside the padding.
+//// 
+//// Note that `background-origin` is ignored when {{cssxref("background-attachment")}} is `fixed`.
+//// 
 
 
 pub const border_box = #("background-origin", "border-box")

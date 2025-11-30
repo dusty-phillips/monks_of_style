@@ -1,3 +1,5 @@
+//// The **`offset-rotate`** [CSS](/en-US/docs/Web/CSS) property defines the orientation/direction of the element as it is positioned along the {{cssxref("offset-path")}}.
+//// 
 
 
 pub const auto_ = #("offset-rotate", "auto")

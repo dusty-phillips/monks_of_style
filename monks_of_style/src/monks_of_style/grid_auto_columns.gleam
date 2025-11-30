@@ -1,3 +1,5 @@
+//// The **`grid-auto-columns`** [CSS](/en-US/docs/Web/CSS) property specifies the size of an implicitly-created grid column {{glossary("grid tracks", "track")}} or pattern of tracks.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

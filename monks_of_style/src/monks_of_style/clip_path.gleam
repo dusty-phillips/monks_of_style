@@ -1,3 +1,5 @@
+//// The **`clip-path`** [CSS](/en-US/docs/Web/CSS) property creates a clipping region that sets what part of an element should be shown. Parts that are inside the region are shown, while those outside are hidden.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

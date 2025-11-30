@@ -1,3 +1,5 @@
+//// The **`font-variant-east-asian`** [CSS](/en-US/docs/Web/CSS) property controls the use of alternate glyphs for East Asian scripts, like Japanese and Chinese.
+//// 
 
 
 pub const normal = #("font-variant-east-asian", "normal")

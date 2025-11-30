@@ -1,3 +1,7 @@
+//// The **`animation-fill-mode`** [CSS](/en-US/docs/Web/CSS) property sets how a CSS animation applies styles to its target before and after its execution.
+//// 
+//// It is often convenient to use the shorthand property {{cssxref("animation")}} to set all animation properties at once.
+//// 
 
 
 pub const none = #("animation-fill-mode", "none")

@@ -1,3 +1,8 @@
+//// The **`border-bottom-style`** [CSS](/en-US/docs/Web/CSS) property sets the line style of an element's bottom {{cssxref("border")}}.
+//// 
+//// > [!NOTE]
+//// > The specification doesn't define how borders of different styles connect in the corners.
+//// 
 
 
 pub const none = #("border-bottom-style", "none")

@@ -1,3 +1,5 @@
+//// The **`mask-size`** [CSS](/en-US/docs/Web/CSS) property specifies the sizes of specified mask images. Mask image sizes can be fully or partially constrained to preserve their {{glossary("aspect ratio", "intrinsic aspect ratios")}}.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

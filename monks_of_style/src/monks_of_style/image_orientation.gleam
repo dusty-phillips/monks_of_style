@@ -1,3 +1,5 @@
+//// The **`image-orientation`** [CSS](/en-US/docs/Web/CSS) property specifies a layout-independent correction to the orientation of an image.
+//// 
 
 
 pub const from_image = #("image-orientation", "from-image")

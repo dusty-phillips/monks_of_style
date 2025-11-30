@@ -1,3 +1,5 @@
+//// The **`mask-composite`** [CSS](/en-US/docs/Web/CSS) property represents a compositing operation used on the current mask layer with the mask layers below it.
+//// 
 
 
 pub const add = #("mask-composite", "add")

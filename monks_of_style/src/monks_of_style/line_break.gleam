@@ -1,3 +1,5 @@
+//// The **`line-break`** [CSS](/en-US/docs/Web/CSS) property sets how to break lines of Chinese, Japanese, or Korean (CJK) text when working with punctuation and symbols.
+//// 
 
 
 pub const auto_ = #("line-break", "auto")

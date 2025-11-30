@@ -1,3 +1,5 @@
+//// The **`column-fill`** [CSS](/en-US/docs/Web/CSS) property controls how an element's contents are balanced when broken into columns.
+//// 
 
 
 pub const auto_ = #("column-fill", "auto")

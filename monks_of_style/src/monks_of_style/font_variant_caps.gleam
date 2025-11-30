@@ -1,3 +1,5 @@
+//// The **`font-variant-caps`** [CSS](/en-US/docs/Web/CSS) property controls the use of alternate glyphs used for small or petite capitals or for titling.
+//// 
 
 
 pub const normal = #("font-variant-caps", "normal")

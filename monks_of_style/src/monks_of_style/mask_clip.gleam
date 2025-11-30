@@ -1,3 +1,5 @@
+//// The **`mask-clip`** [CSS](/en-US/docs/Web/CSS) property determines the area which is affected by a mask. The painted content of an element must be restricted to this area.
+//// 
 
 
 pub const border_box = #("mask-clip", "border-box")

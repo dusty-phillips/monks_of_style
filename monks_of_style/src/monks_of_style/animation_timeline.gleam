@@ -1,3 +1,5 @@
+//// The **`animation-timeline`** [CSS](/en-US/docs/Web/CSS) property specifies the timeline used to control the progress of a CSS animation.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

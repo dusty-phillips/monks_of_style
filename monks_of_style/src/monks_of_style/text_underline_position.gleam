@@ -1,3 +1,5 @@
+//// The **`text-underline-position`** [CSS](/en-US/docs/Web/CSS) property specifies the position of the underline which is set using the {{cssxref("text-decoration")}} property's `underline` value.
+//// 
 
 
 pub const auto_ = #("text-underline-position", "auto")

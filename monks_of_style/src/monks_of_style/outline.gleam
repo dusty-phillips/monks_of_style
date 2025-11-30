@@ -1,3 +1,5 @@
+//// The **`outline`** [CSS](/en-US/docs/Web/CSS) [shorthand property](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties) sets most of the outline properties in a single declaration.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

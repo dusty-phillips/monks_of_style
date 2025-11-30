@@ -1,3 +1,5 @@
+//// The **`caption-side`** [CSS](/en-US/docs/Web/CSS) property puts the content of a table's {{HTMLElement("caption")}} on the specified side. The values are relative to the {{cssxref("writing-mode")}} of the table.
+//// 
 
 
 pub const top = #("caption-side", "top")

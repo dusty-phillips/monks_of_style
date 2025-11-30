@@ -1,3 +1,5 @@
+//// The **`box-sizing`** [CSS](/en-US/docs/Web/CSS) property sets how the total width and height of an element is calculated.
+//// 
 
 
 pub const content_box = #("box-sizing", "content-box")

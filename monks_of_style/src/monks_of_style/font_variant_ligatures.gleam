@@ -1,3 +1,5 @@
+//// The **`font-variant-ligatures`** [CSS](/en-US/docs/Web/CSS) property controls which {{Glossary("ligature", "ligatures")}} and {{Glossary("contextual forms")}} are used in the textual content of the elements it applies to. This leads to more harmonized forms in the resulting text.
+//// 
 
 
 pub const normal = #("font-variant-ligatures", "normal")

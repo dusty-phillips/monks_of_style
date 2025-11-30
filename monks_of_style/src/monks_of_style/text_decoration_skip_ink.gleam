@@ -1,3 +1,5 @@
+//// The **`text-decoration-skip-ink`** [CSS](/en-US/docs/Web/CSS) property specifies how overlines and underlines are drawn when they pass over glyph ascenders and descenders.
+//// 
 
 
 pub const auto_ = #("text-decoration-skip-ink", "auto")

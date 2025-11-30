@@ -1,3 +1,5 @@
+//// The **`timeline-scope`** [CSS](/en-US/docs/Web/CSS) property modifies the scope of a named animation timeline.
+//// 
 
 
 pub const none = #("timeline-scope", "none")

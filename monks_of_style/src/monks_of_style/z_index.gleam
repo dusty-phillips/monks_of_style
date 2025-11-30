@@ -1,3 +1,5 @@
+//// The **`z-index`** [CSS](/en-US/docs/Web/CSS) property sets the z-order of a [positioned](/en-US/docs/Web/CSS/Reference/Properties/position) element and its descendants or flex and grid items. Overlapping elements with a larger z-index cover those with a smaller one.
+//// 
 
 
 pub const auto_ = #("z-index", "auto")

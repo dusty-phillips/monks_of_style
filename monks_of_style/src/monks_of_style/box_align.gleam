@@ -1,3 +1,14 @@
+//// {{Non-standard_header}}{{Deprecated_Header}}
+//// 
+//// > [!WARNING]
+//// > This is a property of the original CSS flexible box layout Module draft, and has been replaced by a newer standard.
+//// 
+//// The **`box-align`** [CSS](/en-US/docs/Web/CSS) property specifies how an element aligns its contents across its layout in a perpendicular direction. The effect of the property is only visible if there is extra space in the box.
+//// 
+//// See [flexbox](/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Basic_concepts) for information about the current standard.
+//// 
+//// The direction of layout depends on the element's orientation: horizontal or vertical.
+//// 
 
 
 pub const start = #("box-align", "start")

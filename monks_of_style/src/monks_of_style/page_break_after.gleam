@@ -1,3 +1,10 @@
+//// {{deprecated_header}}
+//// 
+//// > [!WARNING]
+//// > This property has been replaced by the {{cssxref("break-after")}} property.
+//// 
+//// The **`page-break-after`** [CSS](/en-US/docs/Web/CSS) property adjusts page breaks _after_ the current element.
+//// 
 
 
 pub const auto_ = #("page-break-after", "auto")

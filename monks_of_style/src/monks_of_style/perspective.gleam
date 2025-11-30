@@ -1,3 +1,5 @@
+//// The **`perspective`** [CSS](/en-US/docs/Web/CSS) property determines the distance between the z=0 plane and the user in order to give a 3D-positioned element some perspective.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

@@ -1,3 +1,5 @@
+//// The **`font-variant-numeric`** [CSS](/en-US/docs/Web/CSS) property controls the usage of alternate glyphs for numbers, fractions, and ordinal markers.
+//// 
 
 
 pub const normal = #("font-variant-numeric", "normal")

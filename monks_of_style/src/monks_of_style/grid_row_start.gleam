@@ -1,3 +1,5 @@
+//// The **`grid-row-start`** [CSS](/en-US/docs/Web/CSS) property specifies a grid item's start position within the grid row by contributing a line, a span, or nothing (automatic) to its grid placement, thereby specifying the inline-start edge of its {{glossary("grid areas", "grid area")}}.
+//// 
 
 
 pub const auto_ = #("grid-row-start", "auto")

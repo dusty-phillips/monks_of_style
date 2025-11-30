@@ -1,3 +1,5 @@
+//// The **`mix-blend-mode`** [CSS](/en-US/docs/Web/CSS) property sets how an element's content should blend with the content of the element's parent and the element's background.
+//// 
 
 
 pub const normal = #("mix-blend-mode", "normal")

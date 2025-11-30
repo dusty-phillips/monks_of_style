@@ -1,3 +1,5 @@
+//// The **`scroll-padding`** [shorthand property](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties) sets scroll padding on all sides of an element at once, much like the {{cssxref("padding")}} property does for padding on an element.
+//// 
 import monks_of_style.{length_to_string, type Length}
 
 

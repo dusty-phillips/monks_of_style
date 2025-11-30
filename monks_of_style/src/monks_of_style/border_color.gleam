@@ -1,3 +1,5 @@
+//// The **`border-color`** [shorthand](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties) [CSS](/en-US/docs/Web/CSS) property sets the color of an element's border.
+//// 
 
 
  pub const initial = #("border-color", "initial")

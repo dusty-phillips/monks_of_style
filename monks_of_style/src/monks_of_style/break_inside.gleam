@@ -1,3 +1,5 @@
+//// The **`break-inside`** [CSS](/en-US/docs/Web/CSS) property sets how page, column, or region breaks should behave inside a generated box. If there is no generated box, the property is ignored.
+//// 
 
 
 pub const auto_ = #("break-inside", "auto")

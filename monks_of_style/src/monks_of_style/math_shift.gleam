@@ -1,3 +1,5 @@
+//// The `math-shift` property indicates whether superscripts inside MathML formulas should be raised by a normal or compact shift.
+//// 
 
 
 pub const normal = #("math-shift", "normal")
