@@ -8,22 +8,31 @@
 //// 
 
 
+///   - : Specifies a normal font face.
 pub const normal = #("font-stretch", "normal")
 
+/// ultra-condensed value of font-stretch
 pub const ultra_condensed = #("font-stretch", "ultra-condensed")
 
+/// extra-condensed value of font-stretch
 pub const extra_condensed = #("font-stretch", "extra-condensed")
 
+/// condensed value of font-stretch
 pub const condensed = #("font-stretch", "condensed")
 
+///   - : Specifies a more condensed font face than normal, with `ultra-condensed` as the most condensed.
 pub const semi_condensed = #("font-stretch", "semi-condensed")
 
+///   - : Specifies a more expanded font face than normal, with `ultra-expanded` as the most expanded.
 pub const semi_expanded = #("font-stretch", "semi-expanded")
 
+/// expanded value of font-stretch
 pub const expanded = #("font-stretch", "expanded")
 
+/// extra-expanded value of font-stretch
 pub const extra_expanded = #("font-stretch", "extra-expanded")
 
+/// ultra-expanded value of font-stretch
 pub const ultra_expanded = #("font-stretch", "ultra-expanded")
 
  pub const initial = #("font-stretch", "initial")
@@ -36,10 +45,13 @@ pub const ultra_expanded = #("font-stretch", "ultra-expanded")
 
  pub const revert_layer = #("font-stretch", "revert_layer")
 
+/// Enter a raw string value for font-stretch
 pub fn raw(value: String) -> #(String, String) {
   #("font-stretch", value)
 }
 
+/// Enter a variable name to be used for font-stretch.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("font-stretch", "var(--" <> variable <> ")")
 }

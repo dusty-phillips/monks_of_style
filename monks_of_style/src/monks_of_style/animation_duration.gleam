@@ -14,10 +14,13 @@
 
  pub const revert_layer = #("animation-duration", "revert_layer")
 
+/// Enter a raw string value for animation-duration
 pub fn raw(value: String) -> #(String, String) {
   #("animation-duration", value)
 }
 
+/// Enter a variable name to be used for animation-duration.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("animation-duration", "var(--" <> variable <> ")")
 }

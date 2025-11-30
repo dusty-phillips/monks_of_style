@@ -19,10 +19,13 @@
 
  pub const revert_layer = #("box-ordinal-group", "revert_layer")
 
+/// Enter a raw string value for box-ordinal-group
 pub fn raw(value: String) -> #(String, String) {
   #("box-ordinal-group", value)
 }
 
+/// Enter a variable name to be used for box-ordinal-group.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("box-ordinal-group", "var(--" <> variable <> ")")
 }

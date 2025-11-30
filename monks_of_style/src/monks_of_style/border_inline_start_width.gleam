@@ -4,10 +4,13 @@ import monks_of_style.{length_to_string, type Length}
 
 
 
+/// thin value of border-inline-start-width
 pub const thin = #("border-inline-start-width", "thin")
 
+/// medium value of border-inline-start-width
 pub const medium = #("border-inline-start-width", "medium")
 
+/// thick value of border-inline-start-width
 pub const thick = #("border-inline-start-width", "thick")
 
  pub const initial = #("border-inline-start-width", "initial")
@@ -20,14 +23,18 @@ pub const thick = #("border-inline-start-width", "thick")
 
  pub const revert_layer = #("border-inline-start-width", "revert_layer")
 
+/// length value of border-inline-start-width
 pub fn length(value: Length) -> #(String, String) {
   #("border-inline-start-width", length_to_string(value))
 }
 
+/// Enter a raw string value for border-inline-start-width
 pub fn raw(value: String) -> #(String, String) {
   #("border-inline-start-width", value)
 }
 
+/// Enter a variable name to be used for border-inline-start-width.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("border-inline-start-width", "var(--" <> variable <> ")")
 }

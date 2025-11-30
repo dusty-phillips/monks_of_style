@@ -9,12 +9,16 @@
 //// 
 
 
+///   - : The box packs contents at the start, leaving any extra space at the end.
 pub const start = #("box-pack", "start")
 
+///   - : The box packs contents in the center, dividing any extra space equally between the start and the end.
 pub const center = #("box-pack", "center")
 
+///   - : The box packs contents at the end, leaving any extra space at the start.
 pub const end = #("box-pack", "end")
 
+///   - : The space is divided evenly in-between each child, with none of the extra space placed before the first child or after the last child. If there is only one child, treat the value as if it were `start`.
 pub const justify = #("box-pack", "justify")
 
  pub const initial = #("box-pack", "initial")
@@ -27,10 +31,13 @@ pub const justify = #("box-pack", "justify")
 
  pub const revert_layer = #("box-pack", "revert_layer")
 
+/// Enter a raw string value for box-pack
 pub fn raw(value: String) -> #(String, String) {
   #("box-pack", value)
 }
 
+/// Enter a variable name to be used for box-pack.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("box-pack", "var(--" <> variable <> ")")
 }

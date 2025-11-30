@@ -11,12 +11,16 @@
 //// 
 
 
+///   - : Indicates that the element can be rendered using the page's [color scheme](/en-US/docs/Web/HTML/Reference/Elements/meta/name/color-scheme) settings. If the page does not have a color scheme set, the element is rendered using the page's default color settings.
 pub const normal = #("color-scheme", "normal")
 
+///   - : Indicates that the element can be rendered using the operating system _light_ color scheme.
 pub const light = #("color-scheme", "light")
 
+///   - : Indicates that the element can be rendered using the operating system _dark_ color scheme.
 pub const dark = #("color-scheme", "dark")
 
+///   - : Forbids the user agent from overriding the color scheme for the element.    Can be used to turn off color overrides caused by Chrome's [Auto Dark Theme](https://developer.chrome.com/blog/auto-dark-theme/#per-element-opt-out), by applying `color-scheme: only light;` on a specific element or `:root`.
 pub const only = #("color-scheme", "only")
 
  pub const initial = #("color-scheme", "initial")
@@ -29,10 +33,13 @@ pub const only = #("color-scheme", "only")
 
  pub const revert_layer = #("color-scheme", "revert_layer")
 
+/// Enter a raw string value for color-scheme
 pub fn raw(value: String) -> #(String, String) {
   #("color-scheme", value)
 }
 
+/// Enter a variable name to be used for color-scheme.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("color-scheme", "var(--" <> variable <> ")")
 }

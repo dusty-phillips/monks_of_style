@@ -9,8 +9,10 @@
 //// 
 
 
+///   - : The default behavior — intrinsic size values cannot be interpolated.
 pub const numeric_only = #("interpolate-size", "numeric-only")
 
+///   - : Enables [interpolation](/en-US/docs/Glossary/Interpolation) between a [`<length-percentage>`](/en-US/docs/Web/CSS/Reference/Values/length-percentage) value and an intrinsic size value, to allow animation between the two.
 pub const allow_keywords = #("interpolate-size", "allow-keywords")
 
  pub const initial = #("interpolate-size", "initial")
@@ -23,10 +25,13 @@ pub const allow_keywords = #("interpolate-size", "allow-keywords")
 
  pub const revert_layer = #("interpolate-size", "revert_layer")
 
+/// Enter a raw string value for interpolate-size
 pub fn raw(value: String) -> #(String, String) {
   #("interpolate-size", value)
 }
 
+/// Enter a variable name to be used for interpolate-size.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("interpolate-size", "var(--" <> variable <> ")")
 }

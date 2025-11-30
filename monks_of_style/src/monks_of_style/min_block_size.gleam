@@ -6,35 +6,26 @@ import monks_of_style.{length_to_string, type Length}
 
 
 
+/// auto value of min-block-size
 pub const auto_ = #("min-block-size", "auto")
 
+/// min-content value of min-block-size
 pub const min_content = #("min-block-size", "min-content")
 
+/// max-content value of min-block-size
 pub const max_content = #("min-block-size", "max-content")
 
+/// fit-content value of min-block-size
 pub const fit_content = #("min-block-size", "fit-content")
 
+/// stretch value of min-block-size
 pub const stretch = #("min-block-size", "stretch")
 
+/// intrinsic value of min-block-size
 pub const intrinsic = #("min-block-size", "intrinsic")
 
+/// min-intrinsic value of min-block-size
 pub const min_intrinsic = #("min-block-size", "min-intrinsic")
-
-pub const webkit_fill_available = #("min-block-size", "-webkit-fill-available")
-
-pub const webkit_fit_content = #("min-block-size", "-webkit-fit-content")
-
-pub const webkit_min_content = #("min-block-size", "-webkit-min-content")
-
-pub const webkit_max_content = #("min-block-size", "-webkit-max-content")
-
-pub const moz_available = #("min-block-size", "-moz-available")
-
-pub const moz_fit_content = #("min-block-size", "-moz-fit-content")
-
-pub const moz_min_content = #("min-block-size", "-moz-min-content")
-
-pub const moz_max_content = #("min-block-size", "-moz-max-content")
 
  pub const initial = #("min-block-size", "initial")
 
@@ -46,14 +37,18 @@ pub const moz_max_content = #("min-block-size", "-moz-max-content")
 
  pub const revert_layer = #("min-block-size", "revert_layer")
 
+/// length value of min-block-size
 pub fn length(value: Length) -> #(String, String) {
   #("min-block-size", length_to_string(value))
 }
 
+/// Enter a raw string value for min-block-size
 pub fn raw(value: String) -> #(String, String) {
   #("min-block-size", value)
 }
 
+/// Enter a variable name to be used for min-block-size.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("min-block-size", "var(--" <> variable <> ")")
 }

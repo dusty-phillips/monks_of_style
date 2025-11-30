@@ -14,10 +14,13 @@
 
  pub const revert_layer = #("border-inline-color", "revert_layer")
 
+/// Enter a raw string value for border-inline-color
 pub fn raw(value: String) -> #(String, String) {
   #("border-inline-color", value)
 }
 
+/// Enter a variable name to be used for border-inline-color.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("border-inline-color", "var(--" <> variable <> ")")
 }

@@ -15,10 +15,13 @@
 
  pub const revert_layer = #("fill-opacity", "revert_layer")
 
+/// Enter a raw string value for fill-opacity
 pub fn raw(value: String) -> #(String, String) {
   #("fill-opacity", value)
 }
 
+/// Enter a variable name to be used for fill-opacity.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("fill-opacity", "var(--" <> variable <> ")")
 }

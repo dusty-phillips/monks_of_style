@@ -7,8 +7,10 @@ import monks_of_style.{length_to_string, type Length}
 
 
 
+/// auto value of contain-intrinsic-inline-size
 pub const auto_ = #("contain-intrinsic-inline-size", "auto")
 
+///   - : The element has no intrinsic inline-size.
 pub const none = #("contain-intrinsic-inline-size", "none")
 
  pub const initial = #("contain-intrinsic-inline-size", "initial")
@@ -21,14 +23,18 @@ pub const none = #("contain-intrinsic-inline-size", "none")
 
  pub const revert_layer = #("contain-intrinsic-inline-size", "revert_layer")
 
+/// length value of contain-intrinsic-inline-size
 pub fn length(value: Length) -> #(String, String) {
   #("contain-intrinsic-inline-size", length_to_string(value))
 }
 
+/// Enter a raw string value for contain-intrinsic-inline-size
 pub fn raw(value: String) -> #(String, String) {
   #("contain-intrinsic-inline-size", value)
 }
 
+/// Enter a variable name to be used for contain-intrinsic-inline-size.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("contain-intrinsic-inline-size", "var(--" <> variable <> ")")
 }

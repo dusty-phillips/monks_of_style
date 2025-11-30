@@ -14,10 +14,13 @@
 
  pub const revert_layer = #("animation-delay", "revert_layer")
 
+/// Enter a raw string value for animation-delay
 pub fn raw(value: String) -> #(String, String) {
   #("animation-delay", value)
 }
 
+/// Enter a variable name to be used for animation-delay.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("animation-delay", "var(--" <> variable <> ")")
 }

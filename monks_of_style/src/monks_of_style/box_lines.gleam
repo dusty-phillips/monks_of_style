@@ -17,8 +17,10 @@
 //// 
 
 
+///   - : Box elements lay out in a single row or column.
 pub const single = #("box-lines", "single")
 
+///   - : Box elements layout in multiple rows or columns.
 pub const multiple = #("box-lines", "multiple")
 
  pub const initial = #("box-lines", "initial")
@@ -31,10 +33,13 @@ pub const multiple = #("box-lines", "multiple")
 
  pub const revert_layer = #("box-lines", "revert_layer")
 
+/// Enter a raw string value for box-lines
 pub fn raw(value: String) -> #(String, String) {
   #("box-lines", value)
 }
 
+/// Enter a variable name to be used for box-lines.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("box-lines", "var(--" <> variable <> ")")
 }

@@ -14,14 +14,18 @@ import monks_of_style.{length_to_string, type Length}
 
  pub const revert_layer = #("scroll-margin-inline", "revert_layer")
 
+/// length value of scroll-margin-inline
 pub fn length(value: Length) -> #(String, String) {
   #("scroll-margin-inline", length_to_string(value))
 }
 
+/// Enter a raw string value for scroll-margin-inline
 pub fn raw(value: String) -> #(String, String) {
   #("scroll-margin-inline", value)
 }
 
+/// Enter a variable name to be used for scroll-margin-inline.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("scroll-margin-inline", "var(--" <> variable <> ")")
 }

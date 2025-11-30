@@ -8,8 +8,10 @@
 //// 
 
 
+///   - : Disables the browser's inflation algorithm.
 pub const none = #("text-size-adjust", "none")
 
+///   - : Enables the browser's inflation algorithm. This value is used to cancel a `none` value previously set with CSS.
 pub const auto_ = #("text-size-adjust", "auto")
 
  pub const initial = #("text-size-adjust", "initial")
@@ -22,10 +24,13 @@ pub const auto_ = #("text-size-adjust", "auto")
 
  pub const revert_layer = #("text-size-adjust", "revert_layer")
 
+/// Enter a raw string value for text-size-adjust
 pub fn raw(value: String) -> #(String, String) {
   #("text-size-adjust", value)
 }
 
+/// Enter a variable name to be used for text-size-adjust.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("text-size-adjust", "var(--" <> variable <> ")")
 }

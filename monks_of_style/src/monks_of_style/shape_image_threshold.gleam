@@ -12,10 +12,13 @@
 
  pub const revert_layer = #("shape-image-threshold", "revert_layer")
 
+/// Enter a raw string value for shape-image-threshold
 pub fn raw(value: String) -> #(String, String) {
   #("shape-image-threshold", value)
 }
 
+/// Enter a variable name to be used for shape-image-threshold.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("shape-image-threshold", "var(--" <> variable <> ")")
 }

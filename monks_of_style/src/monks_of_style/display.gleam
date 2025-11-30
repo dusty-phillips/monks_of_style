@@ -4,83 +4,92 @@
 //// 
 
 
+/// block value of display
 pub const block = #("display", "block")
 
+/// inline value of display
 pub const inline = #("display", "inline")
 
+/// run-in value of display
 pub const run_in = #("display", "run-in")
 
+/// flow value of display
 pub const flow = #("display", "flow")
 
+/// flow-root value of display
 pub const flow_root = #("display", "flow-root")
 
+/// table value of display
 pub const table = #("display", "table")
 
+/// flex value of display
 pub const flex = #("display", "flex")
 
+/// grid value of display
 pub const grid = #("display", "grid")
 
+/// ruby value of display
 pub const ruby = #("display", "ruby")
 
+/// list-item value of display
 pub const list_item = #("display", "list-item")
 
+/// table-row-group value of display
 pub const table_row_group = #("display", "table-row-group")
 
+/// table-header-group value of display
 pub const table_header_group = #("display", "table-header-group")
 
+/// table-footer-group value of display
 pub const table_footer_group = #("display", "table-footer-group")
 
+/// table-row value of display
 pub const table_row = #("display", "table-row")
 
+/// table-cell value of display
 pub const table_cell = #("display", "table-cell")
 
+/// table-column-group value of display
 pub const table_column_group = #("display", "table-column-group")
 
+/// table-column value of display
 pub const table_column = #("display", "table-column")
 
+/// table-caption value of display
 pub const table_caption = #("display", "table-caption")
 
+/// ruby-base value of display
 pub const ruby_base = #("display", "ruby-base")
 
+/// ruby-text value of display
 pub const ruby_text = #("display", "ruby-text")
 
+/// ruby-base-container value of display
 pub const ruby_base_container = #("display", "ruby-base-container")
 
+/// ruby-text-container value of display
 pub const ruby_text_container = #("display", "ruby-text-container")
 
+/// contents value of display
 pub const contents = #("display", "contents")
 
+/// none value of display
 pub const none = #("display", "none")
 
+/// inline-block value of display
 pub const inline_block = #("display", "inline-block")
 
+/// inline-list-item value of display
 pub const inline_list_item = #("display", "inline-list-item")
 
+/// inline-table value of display
 pub const inline_table = #("display", "inline-table")
 
+/// inline-flex value of display
 pub const inline_flex = #("display", "inline-flex")
 
+/// inline-grid value of display
 pub const inline_grid = #("display", "inline-grid")
-
-pub const ms_inline_flexbox = #("display", "-ms-inline-flexbox")
-
-pub const ms_grid = #("display", "-ms-grid")
-
-pub const ms_inline_grid = #("display", "-ms-inline-grid")
-
-pub const webkit_flex = #("display", "-webkit-flex")
-
-pub const webkit_inline_flex = #("display", "-webkit-inline-flex")
-
-pub const webkit_box = #("display", "-webkit-box")
-
-pub const webkit_inline_box = #("display", "-webkit-inline-box")
-
-pub const moz_inline_stack = #("display", "-moz-inline-stack")
-
-pub const moz_box = #("display", "-moz-box")
-
-pub const moz_inline_box = #("display", "-moz-inline-box")
 
  pub const initial = #("display", "initial")
 
@@ -92,10 +101,13 @@ pub const moz_inline_box = #("display", "-moz-inline-box")
 
  pub const revert_layer = #("display", "revert_layer")
 
+/// Enter a raw string value for display
 pub fn raw(value: String) -> #(String, String) {
   #("display", value)
 }
 
+/// Enter a variable name to be used for display.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("display", "var(--" <> variable <> ")")
 }

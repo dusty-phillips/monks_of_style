@@ -4,6 +4,7 @@ import monks_of_style.{length_to_string, type Length}
 
 
 
+///   - : The browser chooses the appropriate offset for underlines.
 pub const auto_ = #("text-underline-offset", "auto")
 
  pub const initial = #("text-underline-offset", "initial")
@@ -16,14 +17,18 @@ pub const auto_ = #("text-underline-offset", "auto")
 
  pub const revert_layer = #("text-underline-offset", "revert_layer")
 
+/// length value of text-underline-offset
 pub fn length(value: Length) -> #(String, String) {
   #("text-underline-offset", length_to_string(value))
 }
 
+/// Enter a raw string value for text-underline-offset
 pub fn raw(value: String) -> #(String, String) {
   #("text-underline-offset", value)
 }
 
+/// Enter a variable name to be used for text-underline-offset.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("text-underline-offset", "var(--" <> variable <> ")")
 }

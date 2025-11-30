@@ -2,6 +2,7 @@
 //// 
 
 
+///   - : Associates a positioned element with its implicit anchor element, if it has one — for example as set by the non-standard HTML [`anchor`](/en-US/docs/Web/HTML/Reference/Global_attributes/anchor) attribute.
 pub const auto_ = #("position-anchor", "auto")
 
  pub const initial = #("position-anchor", "initial")
@@ -14,10 +15,13 @@ pub const auto_ = #("position-anchor", "auto")
 
  pub const revert_layer = #("position-anchor", "revert_layer")
 
+/// Enter a raw string value for position-anchor
 pub fn raw(value: String) -> #(String, String) {
   #("position-anchor", value)
 }
 
+/// Enter a variable name to be used for position-anchor.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("position-anchor", "var(--" <> variable <> ")")
 }

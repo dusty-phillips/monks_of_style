@@ -7,12 +7,16 @@
 //// 
 
 
+///   - : The scrollbar on the block axis of the scroller element, which is the axis in the direction perpendicular to the flow of text within a line. For horizontal writing modes, such as standard English, this is the same as `y`, while for vertical writing modes, it is the same as `x`. This is the default value.
 pub const block = #("view-timeline-axis", "block")
 
+///   - : The scrollbar on the inline axis of the scroller element, which is the axis in the direction parallel to the flow of text in a line. For horizontal writing modes, this is the same as `x`, while for vertical writing modes, this is the same as `y`.
 pub const inline = #("view-timeline-axis", "inline")
 
+///   - : The scrollbar on the horizontal axis of the scroller element.
 pub const x = #("view-timeline-axis", "x")
 
+///   - : The scrollbar on the vertical axis of the scroller element.
 pub const y = #("view-timeline-axis", "y")
 
  pub const initial = #("view-timeline-axis", "initial")
@@ -25,10 +29,13 @@ pub const y = #("view-timeline-axis", "y")
 
  pub const revert_layer = #("view-timeline-axis", "revert_layer")
 
+/// Enter a raw string value for view-timeline-axis
 pub fn raw(value: String) -> #(String, String) {
   #("view-timeline-axis", value)
 }
 
+/// Enter a variable name to be used for view-timeline-axis.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("view-timeline-axis", "var(--" <> variable <> ")")
 }

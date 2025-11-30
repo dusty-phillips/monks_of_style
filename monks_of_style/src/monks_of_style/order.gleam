@@ -12,10 +12,13 @@
 
  pub const revert_layer = #("order", "revert_layer")
 
+/// Enter a raw string value for order
 pub fn raw(value: String) -> #(String, String) {
   #("order", value)
 }
 
+/// Enter a variable name to be used for order.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("order", "var(--" <> variable <> ")")
 }

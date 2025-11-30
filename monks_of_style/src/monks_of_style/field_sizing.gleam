@@ -6,8 +6,10 @@
 //// 
 
 
+///   - : Allows the element to adjust its size to fit its contents.
 pub const content = #("field-sizing", "content")
 
+///   - : Sets a fixed size for the element. This is the default value.
 pub const fixed = #("field-sizing", "fixed")
 
  pub const initial = #("field-sizing", "initial")
@@ -20,10 +22,13 @@ pub const fixed = #("field-sizing", "fixed")
 
  pub const revert_layer = #("field-sizing", "revert_layer")
 
+/// Enter a raw string value for field-sizing
 pub fn raw(value: String) -> #(String, String) {
   #("field-sizing", value)
 }
 
+/// Enter a variable name to be used for field-sizing.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("field-sizing", "var(--" <> variable <> ")")
 }

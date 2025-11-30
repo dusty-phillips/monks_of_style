@@ -14,14 +14,18 @@ import monks_of_style.{length_to_string, type Length}
 
  pub const revert_layer = #("tab-size", "revert_layer")
 
+/// length value of tab-size
 pub fn length(value: Length) -> #(String, String) {
   #("tab-size", length_to_string(value))
 }
 
+/// Enter a raw string value for tab-size
 pub fn raw(value: String) -> #(String, String) {
   #("tab-size", value)
 }
 
+/// Enter a variable name to be used for tab-size.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("tab-size", "var(--" <> variable <> ")")
 }

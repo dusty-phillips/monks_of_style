@@ -5,10 +5,13 @@
 //// 
 
 
+///   - : No effect. The element's contents are laid out and rendered as normal. This is the default value.
 pub const visible = #("content-visibility", "visible")
 
+///   - : The element turns on layout containment, style containment, and paint containment. If the element is not [relevant to the user](/en-US/docs/Web/CSS/Guides/Containment/Using#relevant_to_the_user), it also skips its contents. Unlike hidden, the skipped contents must still be available as normal to user-agent features such as find-in-page, tab order navigation, etc., and must be focusable and selectable as normal.
 pub const auto_ = #("content-visibility", "auto")
 
+///   - : The element [skips its contents](/en-US/docs/Web/CSS/Guides/Containment/Using#skips_its_contents). The skipped contents must not be accessible to user-agent features, such as find-in-page, tab-order navigation, etc., nor be selectable or focusable. This is similar to giving the contents `display: none`.
 pub const hidden = #("content-visibility", "hidden")
 
  pub const initial = #("content-visibility", "initial")
@@ -21,10 +24,13 @@ pub const hidden = #("content-visibility", "hidden")
 
  pub const revert_layer = #("content-visibility", "revert_layer")
 
+/// Enter a raw string value for content-visibility
 pub fn raw(value: String) -> #(String, String) {
   #("content-visibility", value)
 }
 
+/// Enter a variable name to be used for content-visibility.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("content-visibility", "var(--" <> variable <> ")")
 }

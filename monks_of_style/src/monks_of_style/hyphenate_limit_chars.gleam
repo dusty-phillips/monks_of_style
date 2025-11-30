@@ -4,6 +4,7 @@
 //// 
 
 
+/// auto value of hyphenate-limit-chars
 pub const auto_ = #("hyphenate-limit-chars", "auto")
 
  pub const initial = #("hyphenate-limit-chars", "initial")
@@ -16,10 +17,13 @@ pub const auto_ = #("hyphenate-limit-chars", "auto")
 
  pub const revert_layer = #("hyphenate-limit-chars", "revert_layer")
 
+/// Enter a raw string value for hyphenate-limit-chars
 pub fn raw(value: String) -> #(String, String) {
   #("hyphenate-limit-chars", value)
 }
 
+/// Enter a variable name to be used for hyphenate-limit-chars.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("hyphenate-limit-chars", "var(--" <> variable <> ")")
 }

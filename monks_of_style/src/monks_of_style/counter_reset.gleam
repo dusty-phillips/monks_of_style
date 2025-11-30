@@ -2,6 +2,7 @@
 //// 
 
 
+///   - : Specifies that no counter initialization should occur.    This value is useful for overriding `counter-reset` values in less specific rules.
 pub const none = #("counter-reset", "none")
 
  pub const initial = #("counter-reset", "initial")
@@ -14,10 +15,13 @@ pub const none = #("counter-reset", "none")
 
  pub const revert_layer = #("counter-reset", "revert_layer")
 
+/// Enter a raw string value for counter-reset
 pub fn raw(value: String) -> #(String, String) {
   #("counter-reset", value)
 }
 
+/// Enter a variable name to be used for counter-reset.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("counter-reset", "var(--" <> variable <> ")")
 }

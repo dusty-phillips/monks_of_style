@@ -46,7 +46,9 @@ fn properties() -> List(String) {
 fn property_keywords(property: String) -> List(String) {
   properties_keywords_external(property)
   |> array.to_list
-  |> list.filter(fn(keyword) { keyword != "inherit" })
+  |> list.filter(fn(keyword) {
+    keyword != "inherit" && !string.starts_with(keyword, "-")
+  })
 }
 
 fn sanitize_keyword(keyword: String) -> String {
@@ -64,8 +66,7 @@ fn build_property_docstring(property: String) -> String {
 
   case simplifile.read(doc_path) {
     Error(_) -> {
-      io.println("Unable to read " <> doc_path)
-      ""
+      "//// The " <> property <> " property" <> "\n"
     }
     Ok(content) -> {
       content
@@ -84,6 +85,52 @@ fn build_property_docstring(property: String) -> String {
   }
 }
 
+fn build_keyword_docstring(property: String, keyword: String) -> String {
+  let doc_path =
+    "../content/files/en-us/web/css/reference/properties/"
+    <> property
+    <> "/index.md"
+
+  case simplifile.read(doc_path) {
+    Error(_) -> {
+      "/// " <> property <> "." <> keyword
+    }
+    Ok(content) -> {
+      // ### Values or ## Grouped values
+      let values_section =
+        content
+        |> string.split("\n")
+        |> list.drop_while(fn(line) {
+          !string.starts_with(line, "##") || !string.ends_with(line, "alues")
+        })
+        |> list.drop(1)
+        |> list.take_while(fn(line) { !string.starts_with(line, "#") })
+
+      let value_doc =
+        values_section
+        |> list.drop_while(fn(line) {
+          !string.contains(line, "- `" <> keyword <> "`")
+          && !string.contains(line, "- {{cssxref(\"" <> keyword <> "\")}}")
+        })
+        |> list.drop(1)
+        |> list.take_while(fn(line) {
+          let trimmed = string.trim_start(line)
+          !string.starts_with(trimmed, "- `")
+          && !string.starts_with(trimmed, "- {{cssxref")
+        })
+
+      case list.is_empty(value_doc) {
+        True -> {
+          "/// " <> keyword <> " value of " <> property
+        }
+        False -> {
+          "/// " <> string.concat(value_doc)
+        }
+      }
+    }
+  }
+}
+
 fn build_imports(property: String) -> String {
   case does_property_accept_length(property) {
     True -> "import monks_of_style.{length_to_string, type Length}\n\n"
@@ -95,7 +142,9 @@ fn build_keyword_consts(property: String) -> String {
   let keywords = property_keywords(property)
   keywords
   |> list.map(fn(keyword) {
-    "\n\npub const "
+    "\n\n"
+    <> build_keyword_docstring(property, keyword)
+    <> "\npub const "
     <> sanitize_keyword(keyword)
     <> " = #(\""
     <> property
@@ -128,7 +177,9 @@ fn build_length_function(property: String) {
   case does_property_accept_length(property) {
     False -> ""
     True ->
-      "\n\npub fn length(value: Length) -> #(String, String) {\n"
+      "\n\n"
+      <> build_keyword_docstring(property, "length")
+      <> "\npub fn length(value: Length) -> #(String, String) {\n"
       <> "  #(\""
       <> property
       <> "\", length_to_string(value))"
@@ -137,7 +188,9 @@ fn build_length_function(property: String) {
 }
 
 fn build_raw_function(property: String) -> String {
-  "\n\npub fn raw(value: String) -> #(String, String) {\n"
+  "\n\n/// Enter a raw string value for "
+  <> property
+  <> "\npub fn raw(value: String) -> #(String, String) {\n"
   <> "  #(\""
   <> property
   <> "\", value)"
@@ -145,7 +198,10 @@ fn build_raw_function(property: String) -> String {
 }
 
 fn build_var_function(property: String) -> String {
-  "\n\npub fn var(variable: String) -> #(String, String) {\n"
+  "\n\n/// Enter a variable name to be used for "
+  <> property
+  <> ".\n/// It will be wrapped in `var()` and have `--` prepended."
+  <> "\npub fn var(variable: String) -> #(String, String) {\n"
   <> "  #(\""
   <> property
   <> "\", \"var(--\" <> variable <> \")\")"

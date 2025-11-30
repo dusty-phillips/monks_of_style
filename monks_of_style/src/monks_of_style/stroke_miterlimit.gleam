@@ -14,10 +14,13 @@
 
  pub const revert_layer = #("stroke-miterlimit", "revert_layer")
 
+/// Enter a raw string value for stroke-miterlimit
 pub fn raw(value: String) -> #(String, String) {
   #("stroke-miterlimit", value)
 }
 
+/// Enter a variable name to be used for stroke-miterlimit.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("stroke-miterlimit", "var(--" <> variable <> ")")
 }

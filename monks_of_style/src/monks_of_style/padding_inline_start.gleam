@@ -14,14 +14,18 @@ import monks_of_style.{length_to_string, type Length}
 
  pub const revert_layer = #("padding-inline-start", "revert_layer")
 
+/// length value of padding-inline-start
 pub fn length(value: Length) -> #(String, String) {
   #("padding-inline-start", length_to_string(value))
 }
 
+/// Enter a raw string value for padding-inline-start
 pub fn raw(value: String) -> #(String, String) {
   #("padding-inline-start", value)
 }
 
+/// Enter a variable name to be used for padding-inline-start.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("padding-inline-start", "var(--" <> variable <> ")")
 }

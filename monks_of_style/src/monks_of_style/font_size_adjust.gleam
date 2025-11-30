@@ -4,18 +4,25 @@
 //// 
 
 
+///   - : No adjustment is applied to the `font-size` value for the fallback font.
 pub const none = #("font-size-adjust", "none")
 
+///       - : Uses the ratio of x-height (height of lowercase "x" in a font) to font size (aspect value) to adjust the fallback font size. This keyword value is used to normalize lowercase letters across fonts.
 pub const ex_height = #("font-size-adjust", "ex-height")
 
+///       - : Uses the ratio of cap-height (height of uppercase letters) to font size to adjust fallback font size. This keyword value is used to normalize uppercase letters across fonts.
 pub const cap_height = #("font-size-adjust", "cap-height")
 
+///       - : Uses the ratio of the advance width (horizontal space taken up by a character in a font) of the character "0" (ZERO, U+0030) to font size. This keyword value is used to normalize horizontal narrow pitch of fonts.
 pub const ch_width = #("font-size-adjust", "ch-width")
 
+///       - : Uses the ratio of the advance width of the character "水" (CJK water ideograph, U+6C34) to font size. This keyword value is used to normalize horizontal wide pitch of fonts, particularly those that include CJK (Chinese, Japanese, Korean) characters.
 pub const ic_width = #("font-size-adjust", "ic-width")
 
+///       - : Uses the ratio of the advance height (vertical space taken up by a character in a font) of the character "水" (CJK water ideograph, U+6C34) to font size. This keyword value is used to normalize vertical wide pitch of fonts, particularly those that include CJK characters.
 pub const ic_height = #("font-size-adjust", "ic-height")
 
+///   - : Uses the `<number>` value for the specified `<font-metric>` from the first available font.
 pub const from_font = #("font-size-adjust", "from-font")
 
  pub const initial = #("font-size-adjust", "initial")
@@ -28,10 +35,13 @@ pub const from_font = #("font-size-adjust", "from-font")
 
  pub const revert_layer = #("font-size-adjust", "revert_layer")
 
+/// Enter a raw string value for font-size-adjust
 pub fn raw(value: String) -> #(String, String) {
   #("font-size-adjust", value)
 }
 
+/// Enter a variable name to be used for font-size-adjust.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("font-size-adjust", "var(--" <> variable <> ")")
 }

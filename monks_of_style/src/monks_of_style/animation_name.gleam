@@ -4,6 +4,7 @@
 //// 
 
 
+///   - : A special keyword denoting no keyframes. It can be used to deactivate an animation without changing the ordering of the other identifiers, or to deactivate animations coming from the cascade.
 pub const none = #("animation-name", "none")
 
  pub const initial = #("animation-name", "initial")
@@ -16,10 +17,13 @@ pub const none = #("animation-name", "none")
 
  pub const revert_layer = #("animation-name", "revert_layer")
 
+/// Enter a raw string value for animation-name
 pub fn raw(value: String) -> #(String, String) {
   #("animation-name", value)
 }
 
+/// Enter a variable name to be used for animation-name.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("animation-name", "var(--" <> variable <> ")")
 }

@@ -2,8 +2,10 @@
 //// 
 
 
+///   - : Is a keyword indicating that the property contributes nothing to the grid item's placement, indicating auto-placement, an automatic span, or a default span of `1`.
 pub const auto_ = #("grid-row", "auto")
 
+/// span value of grid-row
 pub const span = #("grid-row", "span")
 
  pub const initial = #("grid-row", "initial")
@@ -16,10 +18,13 @@ pub const span = #("grid-row", "span")
 
  pub const revert_layer = #("grid-row", "revert_layer")
 
+/// Enter a raw string value for grid-row
 pub fn raw(value: String) -> #(String, String) {
   #("grid-row", value)
 }
 
+/// Enter a variable name to be used for grid-row.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("grid-row", "var(--" <> variable <> ")")
 }

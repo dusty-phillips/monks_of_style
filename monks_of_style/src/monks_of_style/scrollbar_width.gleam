@@ -7,10 +7,13 @@
 //// 
 
 
+///   - : The default scrollbar width for the platform.
 pub const auto_ = #("scrollbar-width", "auto")
 
+///   - : A thin scrollbar width variant on platforms that provide that option, or a thinner scrollbar than the default platform scrollbar width.
 pub const thin = #("scrollbar-width", "thin")
 
+///   - : No scrollbar shown, however the element will still be scrollable.> [!NOTE]> User Agents must apply any `scrollbar-width` value set on the root element to the viewport.
 pub const none = #("scrollbar-width", "none")
 
  pub const initial = #("scrollbar-width", "initial")
@@ -23,10 +26,13 @@ pub const none = #("scrollbar-width", "none")
 
  pub const revert_layer = #("scrollbar-width", "revert_layer")
 
+/// Enter a raw string value for scrollbar-width
 pub fn raw(value: String) -> #(String, String) {
   #("scrollbar-width", value)
 }
 
+/// Enter a variable name to be used for scrollbar-width.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("scrollbar-width", "var(--" <> variable <> ")")
 }

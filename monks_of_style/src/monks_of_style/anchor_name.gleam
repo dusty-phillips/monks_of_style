@@ -2,6 +2,7 @@
 //// 
 
 
+///   - : The default value. Setting `anchor-name: none` on an element means that it is not defined as an anchor element. If the element was previously defined as an anchor and associated with a positioned element, setting `anchor-name: none` disassociates the two.
 pub const none = #("anchor-name", "none")
 
  pub const initial = #("anchor-name", "initial")
@@ -14,10 +15,13 @@ pub const none = #("anchor-name", "none")
 
  pub const revert_layer = #("anchor-name", "revert_layer")
 
+/// Enter a raw string value for anchor-name
 pub fn raw(value: String) -> #(String, String) {
   #("anchor-name", value)
 }
 
+/// Enter a variable name to be used for anchor-name.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("anchor-name", "var(--" <> variable <> ")")
 }

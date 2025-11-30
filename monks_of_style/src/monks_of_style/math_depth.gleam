@@ -5,6 +5,7 @@
 //// 
 
 
+///   - : Set to the inherited `math-depth` plus 1 when inherited [math-style](/en-US/docs/Web/CSS/Reference/Properties/math-style) is `compact`.
 pub const auto_add = #("math-depth", "auto-add")
 
  pub const initial = #("math-depth", "initial")
@@ -17,10 +18,13 @@ pub const auto_add = #("math-depth", "auto-add")
 
  pub const revert_layer = #("math-depth", "revert_layer")
 
+/// Enter a raw string value for math-depth
 pub fn raw(value: String) -> #(String, String) {
   #("math-depth", value)
 }
 
+/// Enter a variable name to be used for math-depth.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("math-depth", "var(--" <> variable <> ")")
 }

@@ -12,10 +12,13 @@
 
  pub const revert_layer = #("text-emphasis-color", "revert_layer")
 
+/// Enter a raw string value for text-emphasis-color
 pub fn raw(value: String) -> #(String, String) {
   #("text-emphasis-color", value)
 }
 
+/// Enter a variable name to be used for text-emphasis-color.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("text-emphasis-color", "var(--" <> variable <> ")")
 }

@@ -2,6 +2,7 @@
 //// 
 
 
+///   - : Preserves the middle image region. Its width and height are sized to match the top and left image regions, respectively.
 pub const fill = #("mask-border-slice", "fill")
 
  pub const initial = #("mask-border-slice", "initial")
@@ -14,10 +15,13 @@ pub const fill = #("mask-border-slice", "fill")
 
  pub const revert_layer = #("mask-border-slice", "revert_layer")
 
+/// Enter a raw string value for mask-border-slice
 pub fn raw(value: String) -> #(String, String) {
   #("mask-border-slice", value)
 }
 
+/// Enter a variable name to be used for mask-border-slice.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("mask-border-slice", "var(--" <> variable <> ")")
 }

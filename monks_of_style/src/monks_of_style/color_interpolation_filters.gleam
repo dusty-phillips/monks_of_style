@@ -8,10 +8,13 @@
 //// 
 
 
+///   - : Indicates that the user agent can choose either the `sRGB` or `linearRGB` spaces for color interpolation. This option indicates that the author doesn't require that color interpolation occur in a particular color space.
 pub const auto_ = #("color-interpolation-filters", "auto")
 
+///   - : Indicates that color interpolation should occur in the gamma-encoded sRGB color space.
 pub const s_rgb = #("color-interpolation-filters", "sRGB")
 
+///   - : Indicates that color interpolation should occur in the linearized RGB color space as described in [the sRGB specification](https://webstore.iec.ch/en/publication/6169). This is the default property value.
 pub const linear_rgb = #("color-interpolation-filters", "linearRGB")
 
  pub const initial = #("color-interpolation-filters", "initial")
@@ -24,10 +27,13 @@ pub const linear_rgb = #("color-interpolation-filters", "linearRGB")
 
  pub const revert_layer = #("color-interpolation-filters", "revert_layer")
 
+/// Enter a raw string value for color-interpolation-filters
 pub fn raw(value: String) -> #(String, String) {
   #("color-interpolation-filters", value)
 }
 
+/// Enter a variable name to be used for color-interpolation-filters.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("color-interpolation-filters", "var(--" <> variable <> ")")
 }

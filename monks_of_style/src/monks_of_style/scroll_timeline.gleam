@@ -2,14 +2,19 @@
 //// 
 
 
+/// none value of scroll-timeline
 pub const none = #("scroll-timeline", "none")
 
+/// block value of scroll-timeline
 pub const block = #("scroll-timeline", "block")
 
+/// inline value of scroll-timeline
 pub const inline = #("scroll-timeline", "inline")
 
+/// x value of scroll-timeline
 pub const x = #("scroll-timeline", "x")
 
+/// y value of scroll-timeline
 pub const y = #("scroll-timeline", "y")
 
  pub const initial = #("scroll-timeline", "initial")
@@ -22,10 +27,13 @@ pub const y = #("scroll-timeline", "y")
 
  pub const revert_layer = #("scroll-timeline", "revert_layer")
 
+/// Enter a raw string value for scroll-timeline
 pub fn raw(value: String) -> #(String, String) {
   #("scroll-timeline", value)
 }
 
+/// Enter a variable name to be used for scroll-timeline.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("scroll-timeline", "var(--" <> variable <> ")")
 }

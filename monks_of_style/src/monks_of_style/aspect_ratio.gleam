@@ -4,6 +4,7 @@
 //// 
 
 
+///   - : {{glossary("Replaced elements")}} with an intrinsic aspect ratio use _that_ aspect ratio, otherwise the box has no preferred aspect ratio. Size calculations involving intrinsic aspect ratio always work with the content box dimensions.
 pub const auto_ = #("aspect-ratio", "auto")
 
  pub const initial = #("aspect-ratio", "initial")
@@ -16,10 +17,13 @@ pub const auto_ = #("aspect-ratio", "auto")
 
  pub const revert_layer = #("aspect-ratio", "revert_layer")
 
+/// Enter a raw string value for aspect-ratio
 pub fn raw(value: String) -> #(String, String) {
   #("aspect-ratio", value)
 }
 
+/// Enter a variable name to be used for aspect-ratio.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("aspect-ratio", "var(--" <> variable <> ")")
 }

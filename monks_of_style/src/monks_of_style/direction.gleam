@@ -7,8 +7,10 @@
 //// 
 
 
+///   - : Text and other elements go from left to right. This is the default value.
 pub const ltr = #("direction", "ltr")
 
+///   - : Text and other elements go from right to left.For the `direction` property to have any effect on inline-level elements, the {{Cssxref("unicode-bidi")}} property's value must be `embed` or `override`.
 pub const rtl = #("direction", "rtl")
 
  pub const initial = #("direction", "initial")
@@ -21,10 +23,13 @@ pub const rtl = #("direction", "rtl")
 
  pub const revert_layer = #("direction", "revert_layer")
 
+/// Enter a raw string value for direction
 pub fn raw(value: String) -> #(String, String) {
   #("direction", value)
 }
 
+/// Enter a variable name to be used for direction.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("direction", "var(--" <> variable <> ")")
 }

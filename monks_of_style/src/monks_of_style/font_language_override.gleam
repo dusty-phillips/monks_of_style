@@ -6,6 +6,7 @@
 //// 
 
 
+///   - : Tells the browser to use font glyphs that are appropriate for the language specified by the `lang` attribute. This is the default value.
 pub const normal = #("font-language-override", "normal")
 
  pub const initial = #("font-language-override", "initial")
@@ -18,10 +19,13 @@ pub const normal = #("font-language-override", "normal")
 
  pub const revert_layer = #("font-language-override", "revert_layer")
 
+/// Enter a raw string value for font-language-override
 pub fn raw(value: String) -> #(String, String) {
   #("font-language-override", value)
 }
 
+/// Enter a variable name to be used for font-language-override.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("font-language-override", "var(--" <> variable <> ")")
 }

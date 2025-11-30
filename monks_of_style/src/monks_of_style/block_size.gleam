@@ -4,35 +4,26 @@ import monks_of_style.{length_to_string, type Length}
 
 
 
+/// auto value of block-size
 pub const auto_ = #("block-size", "auto")
 
+/// min-content value of block-size
 pub const min_content = #("block-size", "min-content")
 
+/// max-content value of block-size
 pub const max_content = #("block-size", "max-content")
 
+/// fit-content value of block-size
 pub const fit_content = #("block-size", "fit-content")
 
+/// stretch value of block-size
 pub const stretch = #("block-size", "stretch")
 
+/// intrinsic value of block-size
 pub const intrinsic = #("block-size", "intrinsic")
 
+/// min-intrinsic value of block-size
 pub const min_intrinsic = #("block-size", "min-intrinsic")
-
-pub const webkit_fill_available = #("block-size", "-webkit-fill-available")
-
-pub const webkit_fit_content = #("block-size", "-webkit-fit-content")
-
-pub const webkit_min_content = #("block-size", "-webkit-min-content")
-
-pub const webkit_max_content = #("block-size", "-webkit-max-content")
-
-pub const moz_available = #("block-size", "-moz-available")
-
-pub const moz_fit_content = #("block-size", "-moz-fit-content")
-
-pub const moz_min_content = #("block-size", "-moz-min-content")
-
-pub const moz_max_content = #("block-size", "-moz-max-content")
 
  pub const initial = #("block-size", "initial")
 
@@ -44,14 +35,18 @@ pub const moz_max_content = #("block-size", "-moz-max-content")
 
  pub const revert_layer = #("block-size", "revert_layer")
 
+/// length value of block-size
 pub fn length(value: Length) -> #(String, String) {
   #("block-size", length_to_string(value))
 }
 
+/// Enter a raw string value for block-size
 pub fn raw(value: String) -> #(String, String) {
   #("block-size", value)
 }
 
+/// Enter a variable name to be used for block-size.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("block-size", "var(--" <> variable <> ")")
 }

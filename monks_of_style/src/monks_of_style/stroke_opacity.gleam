@@ -16,10 +16,13 @@
 
  pub const revert_layer = #("stroke-opacity", "revert_layer")
 
+/// Enter a raw string value for stroke-opacity
 pub fn raw(value: String) -> #(String, String) {
   #("stroke-opacity", value)
 }
 
+/// Enter a variable name to be used for stroke-opacity.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("stroke-opacity", "var(--" <> variable <> ")")
 }

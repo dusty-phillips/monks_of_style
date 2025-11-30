@@ -2,8 +2,10 @@
 //// 
 
 
+/// auto value of offset-rotate
 pub const auto_ = #("offset-rotate", "auto")
 
+/// reverse value of offset-rotate
 pub const reverse = #("offset-rotate", "reverse")
 
  pub const initial = #("offset-rotate", "initial")
@@ -16,10 +18,13 @@ pub const reverse = #("offset-rotate", "reverse")
 
  pub const revert_layer = #("offset-rotate", "revert_layer")
 
+/// Enter a raw string value for offset-rotate
 pub fn raw(value: String) -> #(String, String) {
   #("offset-rotate", value)
 }
 
+/// Enter a variable name to be used for offset-rotate.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("offset-rotate", "var(--" <> variable <> ")")
 }

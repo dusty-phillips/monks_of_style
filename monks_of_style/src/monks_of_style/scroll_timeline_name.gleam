@@ -9,6 +9,7 @@
 //// 
 
 
+///   - : The timeline has no name.
 pub const none = #("scroll-timeline-name", "none")
 
  pub const initial = #("scroll-timeline-name", "initial")
@@ -21,10 +22,13 @@ pub const none = #("scroll-timeline-name", "none")
 
  pub const revert_layer = #("scroll-timeline-name", "revert_layer")
 
+/// Enter a raw string value for scroll-timeline-name
 pub fn raw(value: String) -> #(String, String) {
   #("scroll-timeline-name", value)
 }
 
+/// Enter a variable name to be used for scroll-timeline-name.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("scroll-timeline-name", "var(--" <> variable <> ")")
 }

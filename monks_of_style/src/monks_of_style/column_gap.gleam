@@ -8,6 +8,7 @@ import monks_of_style.{length_to_string, type Length}
 
 
 
+///   - : The browser's default spacing is used between columns. For multi-column layout this is specified as `1em`. For all other layout types it is 0.- {{CSSxRef("&lt;length&gt;")}}  - : The size of the gap between columns, defined as a {{CSSxRef("&lt;length&gt;")}}. The {{CSSxRef("&lt;length&gt;")}} property's value must be non-negative.- {{CSSxRef("&lt;percentage&gt;")}}  - : The size of the gap between columns, defined as a {{CSSxRef("&lt;percentage&gt;")}}. The {{CSSxRef("&lt;percentage&gt;")}} property's value must be non-negative.
 pub const normal = #("column-gap", "normal")
 
  pub const initial = #("column-gap", "initial")
@@ -20,14 +21,18 @@ pub const normal = #("column-gap", "normal")
 
  pub const revert_layer = #("column-gap", "revert_layer")
 
+/// length value of column-gap
 pub fn length(value: Length) -> #(String, String) {
   #("column-gap", length_to_string(value))
 }
 
+/// Enter a raw string value for column-gap
 pub fn raw(value: String) -> #(String, String) {
   #("column-gap", value)
 }
 
+/// Enter a variable name to be used for column-gap.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("column-gap", "var(--" <> variable <> ")")
 }

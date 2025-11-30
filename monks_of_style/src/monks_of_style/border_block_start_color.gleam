@@ -12,10 +12,13 @@
 
  pub const revert_layer = #("border-block-start-color", "revert_layer")
 
+/// Enter a raw string value for border-block-start-color
 pub fn raw(value: String) -> #(String, String) {
   #("border-block-start-color", value)
 }
 
+/// Enter a variable name to be used for border-block-start-color.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("border-block-start-color", "var(--" <> variable <> ")")
 }

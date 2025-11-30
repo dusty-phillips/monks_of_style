@@ -9,8 +9,10 @@
 //// 
 
 
+///   - : The element is not rendered in the top layer.
 pub const none = #("overlay", "none")
 
+///   - : The element is rendered in the top layer if it is promoted to the top layer.
 pub const auto_ = #("overlay", "auto")
 
  pub const initial = #("overlay", "initial")
@@ -23,10 +25,13 @@ pub const auto_ = #("overlay", "auto")
 
  pub const revert_layer = #("overlay", "revert_layer")
 
+/// Enter a raw string value for overlay
 pub fn raw(value: String) -> #(String, String) {
   #("overlay", value)
 }
 
+/// Enter a variable name to be used for overlay.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("overlay", "var(--" <> variable <> ")")
 }

@@ -9,6 +9,7 @@
 //// 
 
 
+///   - : This value specifies that the content won't be clamped.
 pub const none = #("line-clamp", "none")
 
  pub const initial = #("line-clamp", "initial")
@@ -21,10 +22,13 @@ pub const none = #("line-clamp", "none")
 
  pub const revert_layer = #("line-clamp", "revert_layer")
 
+/// Enter a raw string value for line-clamp
 pub fn raw(value: String) -> #(String, String) {
   #("line-clamp", value)
 }
 
+/// Enter a variable name to be used for line-clamp.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("line-clamp", "var(--" <> variable <> ")")
 }

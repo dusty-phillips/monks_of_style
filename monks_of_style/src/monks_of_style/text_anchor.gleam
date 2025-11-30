@@ -4,10 +4,13 @@
 //// 
 
 
+///   - : Aligns the text such that the inline start of the text string is aligned with the anchor point. This alignment is relative to the writing direction of the text; thus, for example, in right-to-left top-to-bottom writing, the text will be placed to the left of the anchor point. If the text's inline direction is vertical, as with many Asian languages, the top edge of the text is aligned with the anchor point.
 pub const start = #("text-anchor", "start")
 
+///   - : Aligns the text such that the center (middle) of the text string's inline box is aligned with the anchor point.
 pub const middle = #("text-anchor", "middle")
 
+///   - : Aligns the text such that the inline end of the text string is aligned with the anchor point. This alignment is relative to the writing direction of the text; thus, for example, in right-to-left top-to-bottom writing, the text will be placed to the right of the anchor point. If the text's inline direction is vertical, as with many Asian languages, the bottom edge of the text is aligned with the anchor point.
 pub const end = #("text-anchor", "end")
 
  pub const initial = #("text-anchor", "initial")
@@ -20,10 +23,13 @@ pub const end = #("text-anchor", "end")
 
  pub const revert_layer = #("text-anchor", "revert_layer")
 
+/// Enter a raw string value for text-anchor
 pub fn raw(value: String) -> #(String, String) {
   #("text-anchor", value)
 }
 
+/// Enter a variable name to be used for text-anchor.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("text-anchor", "var(--" <> variable <> ")")
 }

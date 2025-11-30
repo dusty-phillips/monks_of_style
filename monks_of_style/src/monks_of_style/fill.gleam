@@ -9,10 +9,13 @@
 //// 
 
 
+///   - : No `fill` is painted; the areas inside the stroke, if any, are transparent.
 pub const none = #("fill", "none")
 
+///   - : Uses the paint value of `fill` from a context element.
 pub const context_fill = #("fill", "context-fill")
 
+///   - : Uses the paint value of `stroke` from a context element.
 pub const context_stroke = #("fill", "context-stroke")
 
  pub const initial = #("fill", "initial")
@@ -25,10 +28,13 @@ pub const context_stroke = #("fill", "context-stroke")
 
  pub const revert_layer = #("fill", "revert_layer")
 
+/// Enter a raw string value for fill
 pub fn raw(value: String) -> #(String, String) {
   #("fill", value)
 }
 
+/// Enter a variable name to be used for fill.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("fill", "var(--" <> variable <> ")")
 }

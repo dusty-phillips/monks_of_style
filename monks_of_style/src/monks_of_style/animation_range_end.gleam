@@ -9,18 +9,25 @@ import monks_of_style.{length_to_string, type Length}
 
 
 
+/// normal value of animation-range-end
 pub const normal = #("animation-range-end", "normal")
 
+/// cover value of animation-range-end
 pub const cover = #("animation-range-end", "cover")
 
+/// contain value of animation-range-end
 pub const contain = #("animation-range-end", "contain")
 
+/// entry value of animation-range-end
 pub const entry = #("animation-range-end", "entry")
 
+/// exit value of animation-range-end
 pub const exit = #("animation-range-end", "exit")
 
+/// entry-crossing value of animation-range-end
 pub const entry_crossing = #("animation-range-end", "entry-crossing")
 
+/// exit-crossing value of animation-range-end
 pub const exit_crossing = #("animation-range-end", "exit-crossing")
 
  pub const initial = #("animation-range-end", "initial")
@@ -33,14 +40,18 @@ pub const exit_crossing = #("animation-range-end", "exit-crossing")
 
  pub const revert_layer = #("animation-range-end", "revert_layer")
 
+/// length value of animation-range-end
 pub fn length(value: Length) -> #(String, String) {
   #("animation-range-end", length_to_string(value))
 }
 
+/// Enter a raw string value for animation-range-end
 pub fn raw(value: String) -> #(String, String) {
   #("animation-range-end", value)
 }
 
+/// Enter a variable name to be used for animation-range-end.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("animation-range-end", "var(--" <> variable <> ")")
 }

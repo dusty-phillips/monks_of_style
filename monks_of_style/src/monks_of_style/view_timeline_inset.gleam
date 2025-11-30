@@ -12,6 +12,7 @@ import monks_of_style.{length_to_string, type Length}
 
 
 
+///   - : If set, the corresponding {{cssxref("scroll-padding")}} (or equivalent longhand value) for that edge of the scrollport is used. If this is not set (or set to `auto`), the value will usually be 0, although some user agents may use heuristics to determine a different default value if appropriate.
 pub const auto_ = #("view-timeline-inset", "auto")
 
  pub const initial = #("view-timeline-inset", "initial")
@@ -24,14 +25,18 @@ pub const auto_ = #("view-timeline-inset", "auto")
 
  pub const revert_layer = #("view-timeline-inset", "revert_layer")
 
+/// length value of view-timeline-inset
 pub fn length(value: Length) -> #(String, String) {
   #("view-timeline-inset", length_to_string(value))
 }
 
+/// Enter a raw string value for view-timeline-inset
 pub fn raw(value: String) -> #(String, String) {
   #("view-timeline-inset", value)
 }
 
+/// Enter a variable name to be used for view-timeline-inset.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("view-timeline-inset", "var(--" <> variable <> ")")
 }

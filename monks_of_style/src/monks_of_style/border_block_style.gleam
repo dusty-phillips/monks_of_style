@@ -4,24 +4,34 @@
 //// 
 
 
+/// none value of border-block-style
 pub const none = #("border-block-style", "none")
 
+/// hidden value of border-block-style
 pub const hidden = #("border-block-style", "hidden")
 
+/// dotted value of border-block-style
 pub const dotted = #("border-block-style", "dotted")
 
+/// dashed value of border-block-style
 pub const dashed = #("border-block-style", "dashed")
 
+/// solid value of border-block-style
 pub const solid = #("border-block-style", "solid")
 
+/// double value of border-block-style
 pub const double = #("border-block-style", "double")
 
+/// groove value of border-block-style
 pub const groove = #("border-block-style", "groove")
 
+/// ridge value of border-block-style
 pub const ridge = #("border-block-style", "ridge")
 
+/// inset value of border-block-style
 pub const inset = #("border-block-style", "inset")
 
+/// outset value of border-block-style
 pub const outset = #("border-block-style", "outset")
 
  pub const initial = #("border-block-style", "initial")
@@ -34,10 +44,13 @@ pub const outset = #("border-block-style", "outset")
 
  pub const revert_layer = #("border-block-style", "revert_layer")
 
+/// Enter a raw string value for border-block-style
 pub fn raw(value: String) -> #(String, String) {
   #("border-block-style", value)
 }
 
+/// Enter a variable name to be used for border-block-style.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("border-block-style", "var(--" <> variable <> ")")
 }

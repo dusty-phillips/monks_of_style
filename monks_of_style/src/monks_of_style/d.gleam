@@ -5,6 +5,7 @@
 //// 
 
 
+///   - : No path is drawn.
 pub const none = #("d", "none")
 
  pub const initial = #("d", "initial")
@@ -17,10 +18,13 @@ pub const none = #("d", "none")
 
  pub const revert_layer = #("d", "revert_layer")
 
+/// Enter a raw string value for d
 pub fn raw(value: String) -> #(String, String) {
   #("d", value)
 }
 
+/// Enter a variable name to be used for d.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("d", "var(--" <> variable <> ")")
 }

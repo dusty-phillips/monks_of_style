@@ -17,10 +17,13 @@
 
  pub const revert_layer = #("flex-grow", "revert_layer")
 
+/// Enter a raw string value for flex-grow
 pub fn raw(value: String) -> #(String, String) {
   #("flex-grow", value)
 }
 
+/// Enter a variable name to be used for flex-grow.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("flex-grow", "var(--" <> variable <> ")")
 }

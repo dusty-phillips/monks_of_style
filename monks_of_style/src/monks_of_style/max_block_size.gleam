@@ -10,35 +10,26 @@ import monks_of_style.{length_to_string, type Length}
 
 
 
+///   - : No limit on the size of the box.
 pub const none = #("max-block-size", "none")
 
+///   - : The intrinsic minimum `max-block-size`.
 pub const min_content = #("max-block-size", "min-content")
 
+///   - : The intrinsic preferred `max-block-size`.
 pub const max_content = #("max-block-size", "max-content")
 
+///   - : Use the available space, but not more than [max-content](/en-US/docs/Web/CSS/Reference/Values/max-content), i.e., `min(max-content, max(min-content, stretch))`.- [`fit-content(<length-percentage>)`](/en-US/docs/Web/CSS/Reference/Values/fit-content_function)  - : Uses the `fit-content` formula with the available space replaced by the specified argument, i.e., `min(max-content, max(min-content, argument))`.
 pub const fit_content = #("max-block-size", "fit-content")
 
+/// stretch value of max-block-size
 pub const stretch = #("max-block-size", "stretch")
 
+/// intrinsic value of max-block-size
 pub const intrinsic = #("max-block-size", "intrinsic")
 
+/// min-intrinsic value of max-block-size
 pub const min_intrinsic = #("max-block-size", "min-intrinsic")
-
-pub const webkit_fill_available = #("max-block-size", "-webkit-fill-available")
-
-pub const webkit_fit_content = #("max-block-size", "-webkit-fit-content")
-
-pub const webkit_min_content = #("max-block-size", "-webkit-min-content")
-
-pub const webkit_max_content = #("max-block-size", "-webkit-max-content")
-
-pub const moz_available = #("max-block-size", "-moz-available")
-
-pub const moz_fit_content = #("max-block-size", "-moz-fit-content")
-
-pub const moz_min_content = #("max-block-size", "-moz-min-content")
-
-pub const moz_max_content = #("max-block-size", "-moz-max-content")
 
  pub const initial = #("max-block-size", "initial")
 
@@ -50,14 +41,18 @@ pub const moz_max_content = #("max-block-size", "-moz-max-content")
 
  pub const revert_layer = #("max-block-size", "revert_layer")
 
+/// length value of max-block-size
 pub fn length(value: Length) -> #(String, String) {
   #("max-block-size", length_to_string(value))
 }
 
+/// Enter a raw string value for max-block-size
 pub fn raw(value: String) -> #(String, String) {
   #("max-block-size", value)
 }
 
+/// Enter a variable name to be used for max-block-size.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("max-block-size", "var(--" <> variable <> ")")
 }

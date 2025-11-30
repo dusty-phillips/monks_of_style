@@ -2,6 +2,7 @@
 //// 
 
 
+///   - : Generally resolves to [`currentColor`](/en-US/docs/Web/CSS/Reference/Values/color_value#currentcolor_keyword), the {{cssxref("color")}} of the text that will be modified.
 pub const auto_ = #("caret-color", "auto")
 
  pub const initial = #("caret-color", "initial")
@@ -14,10 +15,13 @@ pub const auto_ = #("caret-color", "auto")
 
  pub const revert_layer = #("caret-color", "revert_layer")
 
+/// Enter a raw string value for caret-color
 pub fn raw(value: String) -> #(String, String) {
   #("caret-color", value)
 }
 
+/// Enter a variable name to be used for caret-color.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("caret-color", "var(--" <> variable <> ")")
 }

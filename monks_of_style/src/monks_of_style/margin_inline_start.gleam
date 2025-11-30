@@ -4,6 +4,7 @@ import monks_of_style.{length_to_string, type Length}
 
 
 
+/// auto value of margin-inline-start
 pub const auto_ = #("margin-inline-start", "auto")
 
  pub const initial = #("margin-inline-start", "initial")
@@ -16,14 +17,18 @@ pub const auto_ = #("margin-inline-start", "auto")
 
  pub const revert_layer = #("margin-inline-start", "revert_layer")
 
+/// length value of margin-inline-start
 pub fn length(value: Length) -> #(String, String) {
   #("margin-inline-start", length_to_string(value))
 }
 
+/// Enter a raw string value for margin-inline-start
 pub fn raw(value: String) -> #(String, String) {
   #("margin-inline-start", value)
 }
 
+/// Enter a variable name to be used for margin-inline-start.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("margin-inline-start", "var(--" <> variable <> ")")
 }

@@ -4,8 +4,10 @@
 //// 
 
 
+///   - : Indicates that the missing oblique typeface may be synthesized by the browser if needed.
 pub const auto_ = #("font-synthesis-style", "auto")
 
+///   - : Indicates that the synthesis of the missing oblique typeface by the browser is _not_ allowed.
 pub const none = #("font-synthesis-style", "none")
 
  pub const initial = #("font-synthesis-style", "initial")
@@ -18,10 +20,13 @@ pub const none = #("font-synthesis-style", "none")
 
  pub const revert_layer = #("font-synthesis-style", "revert_layer")
 
+/// Enter a raw string value for font-synthesis-style
 pub fn raw(value: String) -> #(String, String) {
   #("font-synthesis-style", value)
 }
 
+/// Enter a variable name to be used for font-synthesis-style.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("font-synthesis-style", "var(--" <> variable <> ")")
 }

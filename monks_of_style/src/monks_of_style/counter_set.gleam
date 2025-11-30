@@ -9,6 +9,7 @@
 //// 
 
 
+///   - : No counter set is to be performed. This can be used to override a `counter-set` defined in a less specific rule.
 pub const none = #("counter-set", "none")
 
  pub const initial = #("counter-set", "initial")
@@ -21,10 +22,13 @@ pub const none = #("counter-set", "none")
 
  pub const revert_layer = #("counter-set", "revert_layer")
 
+/// Enter a raw string value for counter-set
 pub fn raw(value: String) -> #(String, String) {
   #("counter-set", value)
 }
 
+/// Enter a variable name to be used for counter-set.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("counter-set", "var(--" <> variable <> ")")
 }

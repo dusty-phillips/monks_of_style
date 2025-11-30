@@ -6,6 +6,7 @@ import monks_of_style.{length_to_string, type Length}
 
 
 
+/// normal value of row-gap
 pub const normal = #("row-gap", "normal")
 
  pub const initial = #("row-gap", "initial")
@@ -18,14 +19,18 @@ pub const normal = #("row-gap", "normal")
 
  pub const revert_layer = #("row-gap", "revert_layer")
 
+/// length value of row-gap
 pub fn length(value: Length) -> #(String, String) {
   #("row-gap", length_to_string(value))
 }
 
+/// Enter a raw string value for row-gap
 pub fn raw(value: String) -> #(String, String) {
   #("row-gap", value)
 }
 
+/// Enter a variable name to be used for row-gap.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("row-gap", "var(--" <> variable <> ")")
 }

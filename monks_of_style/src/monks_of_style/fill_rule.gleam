@@ -7,8 +7,10 @@
 //// 
 
 
+///   - : For every point in the shape, a ray is drawn in a random direction to beyond the shape's outer edges. Each ray is examined to determine the places where the ray crosses the shape. Starting with a count of zero, add one each time a path segment crosses the ray from left to right and subtract one each time a path segment crosses the ray from right to left. After counting the crossings, if the result is zero then the point is outside the path. Otherwise, it is inside.
 pub const nonzero = #("fill-rule", "nonzero")
 
+///   - : For every point in the fill rule's box, a ray is drawn in a random direction. The number of path segments from the given shape that the ray crosses are counted. If this number is odd, the point is inside; if even, the point is outside. Zero is taken to be even.
 pub const evenodd = #("fill-rule", "evenodd")
 
  pub const initial = #("fill-rule", "initial")
@@ -21,10 +23,13 @@ pub const evenodd = #("fill-rule", "evenodd")
 
  pub const revert_layer = #("fill-rule", "revert_layer")
 
+/// Enter a raw string value for fill-rule
 pub fn raw(value: String) -> #(String, String) {
   #("fill-rule", value)
 }
 
+/// Enter a variable name to be used for fill-rule.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("fill-rule", "var(--" <> variable <> ")")
 }

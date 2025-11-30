@@ -16,14 +16,18 @@ import monks_of_style.{length_to_string, type Length}
 
  pub const revert_layer = #("border-start-start-radius", "revert_layer")
 
+/// length value of border-start-start-radius
 pub fn length(value: Length) -> #(String, String) {
   #("border-start-start-radius", length_to_string(value))
 }
 
+/// Enter a raw string value for border-start-start-radius
 pub fn raw(value: String) -> #(String, String) {
   #("border-start-start-radius", value)
 }
 
+/// Enter a variable name to be used for border-start-start-radius.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("border-start-start-radius", "var(--" <> variable <> ")")
 }

@@ -6,6 +6,7 @@ import monks_of_style.{length_to_string, type Length}
 
 
 
+/// none value of filter
 pub const none = #("filter", "none")
 
  pub const initial = #("filter", "initial")
@@ -18,14 +19,18 @@ pub const none = #("filter", "none")
 
  pub const revert_layer = #("filter", "revert_layer")
 
+/// length value of filter
 pub fn length(value: Length) -> #(String, String) {
   #("filter", length_to_string(value))
 }
 
+/// Enter a raw string value for filter
 pub fn raw(value: String) -> #(String, String) {
   #("filter", value)
 }
 
+/// Enter a variable name to be used for filter.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("filter", "var(--" <> variable <> ")")
 }

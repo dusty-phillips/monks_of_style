@@ -2,12 +2,16 @@
 //// 
 
 
+/// none value of container
 pub const none = #("container", "none")
 
+/// normal value of container
 pub const normal = #("container", "normal")
 
+/// size value of container
 pub const size = #("container", "size")
 
+/// inline-size value of container
 pub const inline_size = #("container", "inline-size")
 
  pub const initial = #("container", "initial")
@@ -20,10 +24,13 @@ pub const inline_size = #("container", "inline-size")
 
  pub const revert_layer = #("container", "revert_layer")
 
+/// Enter a raw string value for container
 pub fn raw(value: String) -> #(String, String) {
   #("container", value)
 }
 
+/// Enter a variable name to be used for container.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("container", "var(--" <> variable <> ")")
 }

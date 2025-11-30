@@ -6,6 +6,7 @@ import monks_of_style.{length_to_string, type Length}
 
 
 
+///   - : The stroke will be drawn without any dashes. The default value.
 pub const none = #("stroke-dasharray", "none")
 
  pub const initial = #("stroke-dasharray", "initial")
@@ -18,14 +19,18 @@ pub const none = #("stroke-dasharray", "none")
 
  pub const revert_layer = #("stroke-dasharray", "revert_layer")
 
+/// length value of stroke-dasharray
 pub fn length(value: Length) -> #(String, String) {
   #("stroke-dasharray", length_to_string(value))
 }
 
+/// Enter a raw string value for stroke-dasharray
 pub fn raw(value: String) -> #(String, String) {
   #("stroke-dasharray", value)
 }
 
+/// Enter a variable name to be used for stroke-dasharray.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("stroke-dasharray", "var(--" <> variable <> ")")
 }

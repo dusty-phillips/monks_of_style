@@ -13,10 +13,13 @@
 //// 
 
 
+///   - : This keyword expresses no particular intent; the user agent should apply whatever heuristics and optimizations it normally does.The `<animatable-feature>` can be one of the following values:
 pub const auto_ = #("will-change", "auto")
 
+///   - : Indicates that the author expects to animate or change the scroll position of the element in the near future.
 pub const scroll_position = #("will-change", "scroll-position")
 
+///   - : Indicates that the author expects to animate or change something about the element's contents in the near future.
 pub const contents = #("will-change", "contents")
 
  pub const initial = #("will-change", "initial")
@@ -29,10 +32,13 @@ pub const contents = #("will-change", "contents")
 
  pub const revert_layer = #("will-change", "revert_layer")
 
+/// Enter a raw string value for will-change
 pub fn raw(value: String) -> #(String, String) {
   #("will-change", value)
 }
 
+/// Enter a variable name to be used for will-change.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("will-change", "var(--" <> variable <> ")")
 }

@@ -16,14 +16,18 @@ import monks_of_style.{length_to_string, type Length}
 
  pub const revert_layer = #("stroke-dashoffset", "revert_layer")
 
+/// length value of stroke-dashoffset
 pub fn length(value: Length) -> #(String, String) {
   #("stroke-dashoffset", length_to_string(value))
 }
 
+/// Enter a raw string value for stroke-dashoffset
 pub fn raw(value: String) -> #(String, String) {
   #("stroke-dashoffset", value)
 }
 
+/// Enter a variable name to be used for stroke-dashoffset.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("stroke-dashoffset", "var(--" <> variable <> ")")
 }

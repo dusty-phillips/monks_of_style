@@ -2,6 +2,7 @@
 //// 
 
 
+///   - : Text is laid out using default settings.
 pub const normal = #("font-variation-settings", "normal")
 
  pub const initial = #("font-variation-settings", "initial")
@@ -14,10 +15,13 @@ pub const normal = #("font-variation-settings", "normal")
 
  pub const revert_layer = #("font-variation-settings", "revert_layer")
 
+/// Enter a raw string value for font-variation-settings
 pub fn raw(value: String) -> #(String, String) {
   #("font-variation-settings", value)
 }
 
+/// Enter a variable name to be used for font-variation-settings.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("font-variation-settings", "var(--" <> variable <> ")")
 }

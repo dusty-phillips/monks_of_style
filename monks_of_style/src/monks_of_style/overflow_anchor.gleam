@@ -4,8 +4,10 @@
 //// 
 
 
+///   - : The element becomes a potential anchor when adjusting scroll position.
 pub const auto_ = #("overflow-anchor", "auto")
 
+///   - : The element won't be selected as a potential anchor.
 pub const none = #("overflow-anchor", "none")
 
  pub const initial = #("overflow-anchor", "initial")
@@ -18,10 +20,13 @@ pub const none = #("overflow-anchor", "none")
 
  pub const revert_layer = #("overflow-anchor", "revert_layer")
 
+/// Enter a raw string value for overflow-anchor
 pub fn raw(value: String) -> #(String, String) {
   #("overflow-anchor", value)
 }
 
+/// Enter a variable name to be used for overflow-anchor.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("overflow-anchor", "var(--" <> variable <> ")")
 }

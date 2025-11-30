@@ -11,14 +11,19 @@
 //// 
 
 
+///   - : The box aligns contents at the start, leaving any extra space at the end.
 pub const start = #("box-align", "start")
 
+///   - : The box aligns contents in the center, dividing any extra space equally between the start and the end.
 pub const center = #("box-align", "center")
 
+///   - : The box aligns contents at the end, leaving any extra space at the start.
 pub const end = #("box-align", "end")
 
+///   - : The box aligns the baselines of the contents (lining up the text). This only applies if the box's orientation is horizontal.
 pub const baseline = #("box-align", "baseline")
 
+///   - : The box stretches the contents so that there is no extra space in the box.
 pub const stretch = #("box-align", "stretch")
 
  pub const initial = #("box-align", "initial")
@@ -31,10 +36,13 @@ pub const stretch = #("box-align", "stretch")
 
  pub const revert_layer = #("box-align", "revert_layer")
 
+/// Enter a raw string value for box-align
 pub fn raw(value: String) -> #(String, String) {
   #("box-align", value)
 }
 
+/// Enter a variable name to be used for box-align.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("box-align", "var(--" <> variable <> ")")
 }

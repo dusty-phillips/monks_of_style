@@ -4,8 +4,10 @@
 //// 
 
 
+///   - : The **animation** is currently **playing**.
 pub const running = #("animation-play-state", "running")
 
+///   - : The **animation** is currently **paused**.> [!NOTE]> When you specify multiple comma-separated values on an `animation-*` property, they are applied to the animations in the order in which the {{cssxref("animation-name")}}s appear. For situations where the number of animations and `animation-*` property values do not match, see [Setting multiple animation property values](/en-US/docs/Web/CSS/Guides/Animations/Using#setting_multiple_animation_property_values).
 pub const paused = #("animation-play-state", "paused")
 
  pub const initial = #("animation-play-state", "initial")
@@ -18,10 +20,13 @@ pub const paused = #("animation-play-state", "paused")
 
  pub const revert_layer = #("animation-play-state", "revert_layer")
 
+/// Enter a raw string value for animation-play-state
 pub fn raw(value: String) -> #(String, String) {
   #("animation-play-state", value)
 }
 
+/// Enter a variable name to be used for animation-play-state.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("animation-play-state", "var(--" <> variable <> ")")
 }

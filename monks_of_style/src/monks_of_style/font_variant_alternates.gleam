@@ -6,8 +6,10 @@
 //// 
 
 
+///   - : This keyword deactivates alternate glyphs.
 pub const normal = #("font-variant-alternates", "normal")
 
+///   - : This keyword enables historical forms — glyphs that were common in the past but not today. It corresponds to the OpenType value `hist`.
 pub const historical_forms = #("font-variant-alternates", "historical-forms")
 
  pub const initial = #("font-variant-alternates", "initial")
@@ -20,10 +22,13 @@ pub const historical_forms = #("font-variant-alternates", "historical-forms")
 
  pub const revert_layer = #("font-variant-alternates", "revert_layer")
 
+/// Enter a raw string value for font-variant-alternates
 pub fn raw(value: String) -> #(String, String) {
   #("font-variant-alternates", value)
 }
 
+/// Enter a variable name to be used for font-variant-alternates.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("font-variant-alternates", "var(--" <> variable <> ")")
 }

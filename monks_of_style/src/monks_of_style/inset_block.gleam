@@ -6,6 +6,7 @@ import monks_of_style.{length_to_string, type Length}
 
 
 
+/// auto value of inset-block
 pub const auto_ = #("inset-block", "auto")
 
  pub const initial = #("inset-block", "initial")
@@ -18,14 +19,18 @@ pub const auto_ = #("inset-block", "auto")
 
  pub const revert_layer = #("inset-block", "revert_layer")
 
+/// length value of inset-block
 pub fn length(value: Length) -> #(String, String) {
   #("inset-block", length_to_string(value))
 }
 
+/// Enter a raw string value for inset-block
 pub fn raw(value: String) -> #(String, String) {
   #("inset-block", value)
 }
 
+/// Enter a variable name to be used for inset-block.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("inset-block", "var(--" <> variable <> ")")
 }

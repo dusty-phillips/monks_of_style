@@ -14,14 +14,18 @@ import monks_of_style.{length_to_string, type Length}
 
  pub const revert_layer = #("padding-top", "revert_layer")
 
+/// length value of padding-top
 pub fn length(value: Length) -> #(String, String) {
   #("padding-top", length_to_string(value))
 }
 
+/// Enter a raw string value for padding-top
 pub fn raw(value: String) -> #(String, String) {
   #("padding-top", value)
 }
 
+/// Enter a variable name to be used for padding-top.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("padding-top", "var(--" <> variable <> ")")
 }

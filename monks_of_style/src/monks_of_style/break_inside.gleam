@@ -2,14 +2,19 @@
 //// 
 
 
+///   - : Allows, but does not force, any break (page, column, or region) to be inserted within the principal box.
 pub const auto_ = #("break-inside", "auto")
 
+///   - : Avoids any break (page, column, or region) from being inserted within the principal box.
 pub const avoid = #("break-inside", "avoid")
 
+///   - : Avoids any page break within the principal box.
 pub const avoid_page = #("break-inside", "avoid-page")
 
+///   - : Avoids any column break within the principal box.
 pub const avoid_column = #("break-inside", "avoid-column")
 
+///   - : Avoids any region break within the principal box.
 pub const avoid_region = #("break-inside", "avoid-region")
 
  pub const initial = #("break-inside", "initial")
@@ -22,10 +27,13 @@ pub const avoid_region = #("break-inside", "avoid-region")
 
  pub const revert_layer = #("break-inside", "revert_layer")
 
+/// Enter a raw string value for break-inside
 pub fn raw(value: String) -> #(String, String) {
   #("break-inside", value)
 }
 
+/// Enter a variable name to be used for break-inside.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("break-inside", "var(--" <> variable <> ")")
 }

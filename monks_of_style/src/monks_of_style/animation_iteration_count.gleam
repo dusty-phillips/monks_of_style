@@ -4,6 +4,7 @@
 //// 
 
 
+///   - : The animation will repeat forever.
 pub const infinite = #("animation-iteration-count", "infinite")
 
  pub const initial = #("animation-iteration-count", "initial")
@@ -16,10 +17,13 @@ pub const infinite = #("animation-iteration-count", "infinite")
 
  pub const revert_layer = #("animation-iteration-count", "revert_layer")
 
+/// Enter a raw string value for animation-iteration-count
 pub fn raw(value: String) -> #(String, String) {
   #("animation-iteration-count", value)
 }
 
+/// Enter a variable name to be used for animation-iteration-count.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("animation-iteration-count", "var(--" <> variable <> ")")
 }

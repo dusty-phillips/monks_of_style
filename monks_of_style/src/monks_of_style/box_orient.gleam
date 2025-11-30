@@ -7,12 +7,16 @@
 //// 
 
 
+///   - : The box lays out its contents horizontally.
 pub const horizontal = #("box-orient", "horizontal")
 
+///   - : The box lays out its contents vertically.
 pub const vertical = #("box-orient", "vertical")
 
+///   - : The box displays its children along the inline axis.
 pub const inline_axis = #("box-orient", "inline-axis")
 
+///   - : The box displays its children along the block axis.The inline and block axes are the writing-mode dependent keywords which, in English, map to `horizontal` and `vertical` respectively.
 pub const block_axis = #("box-orient", "block-axis")
 
  pub const initial = #("box-orient", "initial")
@@ -25,10 +29,13 @@ pub const block_axis = #("box-orient", "block-axis")
 
  pub const revert_layer = #("box-orient", "revert_layer")
 
+/// Enter a raw string value for box-orient
 pub fn raw(value: String) -> #(String, String) {
   #("box-orient", value)
 }
 
+/// Enter a variable name to be used for box-orient.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("box-orient", "var(--" <> variable <> ")")
 }

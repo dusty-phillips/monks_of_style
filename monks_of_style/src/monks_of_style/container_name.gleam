@@ -4,6 +4,7 @@
 //// 
 
 
+///   - : Default value. The query container has no name.
 pub const none = #("container-name", "none")
 
  pub const initial = #("container-name", "initial")
@@ -16,10 +17,13 @@ pub const none = #("container-name", "none")
 
  pub const revert_layer = #("container-name", "revert_layer")
 
+/// Enter a raw string value for container-name
 pub fn raw(value: String) -> #(String, String) {
   #("container-name", value)
 }
 
+/// Enter a variable name to be used for container-name.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("container-name", "var(--" <> variable <> ")")
 }

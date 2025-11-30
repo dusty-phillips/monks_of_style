@@ -2,8 +2,10 @@
 //// 
 
 
+///   - : Transitions will _not_ be started on the element for discrete animated properties.
 pub const normal = #("transition-behavior", "normal")
 
+///   - : Transitions will be started on the element for discrete animated properties.
 pub const allow_discrete = #("transition-behavior", "allow-discrete")
 
  pub const initial = #("transition-behavior", "initial")
@@ -16,10 +18,13 @@ pub const allow_discrete = #("transition-behavior", "allow-discrete")
 
  pub const revert_layer = #("transition-behavior", "revert_layer")
 
+/// Enter a raw string value for transition-behavior
 pub fn raw(value: String) -> #(String, String) {
   #("transition-behavior", value)
 }
 
+/// Enter a variable name to be used for transition-behavior.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("transition-behavior", "var(--" <> variable <> ")")
 }

@@ -4,6 +4,7 @@ import monks_of_style.{length_to_string, type Length}
 
 
 
+/// auto value of columns
 pub const auto_ = #("columns", "auto")
 
  pub const initial = #("columns", "initial")
@@ -16,14 +17,18 @@ pub const auto_ = #("columns", "auto")
 
  pub const revert_layer = #("columns", "revert_layer")
 
+/// length value of columns
 pub fn length(value: Length) -> #(String, String) {
   #("columns", length_to_string(value))
 }
 
+/// Enter a raw string value for columns
 pub fn raw(value: String) -> #(String, String) {
   #("columns", value)
 }
 
+/// Enter a variable name to be used for columns.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("columns", "var(--" <> variable <> ")")
 }

@@ -2,12 +2,16 @@
 //// 
 
 
+///   - : The source image's edge regions are stretched to fill the gap between each border.
 pub const stretch = #("border-image-repeat", "stretch")
 
+///   - : The source image's edge regions are tiled (repeated) to fill the gap between each border. Tiles may be clipped to achieve the proper fit.
 pub const repeat = #("border-image-repeat", "repeat")
 
+///   - : The source image's edge regions are tiled (repeated) to fill the gap between each border. Tiles may be stretched to achieve the proper fit.
 pub const round = #("border-image-repeat", "round")
 
+///   - : The source image's edge regions are tiled (repeated) to fill the gap between each border. Extra space will be distributed in between tiles to achieve the proper fit.
 pub const space = #("border-image-repeat", "space")
 
  pub const initial = #("border-image-repeat", "initial")
@@ -20,10 +24,13 @@ pub const space = #("border-image-repeat", "space")
 
  pub const revert_layer = #("border-image-repeat", "revert_layer")
 
+/// Enter a raw string value for border-image-repeat
 pub fn raw(value: String) -> #(String, String) {
   #("border-image-repeat", value)
 }
 
+/// Enter a variable name to be used for border-image-repeat.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("border-image-repeat", "var(--" <> variable <> ")")
 }

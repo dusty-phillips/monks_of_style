@@ -4,8 +4,10 @@ import monks_of_style.{length_to_string, type Length}
 
 
 
+/// auto value of contain-intrinsic-width
 pub const auto_ = #("contain-intrinsic-width", "auto")
 
+///   - : The element has no intrinsic width.
 pub const none = #("contain-intrinsic-width", "none")
 
  pub const initial = #("contain-intrinsic-width", "initial")
@@ -18,14 +20,18 @@ pub const none = #("contain-intrinsic-width", "none")
 
  pub const revert_layer = #("contain-intrinsic-width", "revert_layer")
 
+/// length value of contain-intrinsic-width
 pub fn length(value: Length) -> #(String, String) {
   #("contain-intrinsic-width", length_to_string(value))
 }
 
+/// Enter a raw string value for contain-intrinsic-width
 pub fn raw(value: String) -> #(String, String) {
   #("contain-intrinsic-width", value)
 }
 
+/// Enter a variable name to be used for contain-intrinsic-width.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("contain-intrinsic-width", "var(--" <> variable <> ")")
 }

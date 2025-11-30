@@ -6,6 +6,7 @@ import monks_of_style.{length_to_string, type Length}
 
 
 
+///   - : The width of the column is determined by other CSS properties, such as {{cssxref("column-count")}}.
 pub const auto_ = #("column-width", "auto")
 
  pub const initial = #("column-width", "initial")
@@ -18,14 +19,18 @@ pub const auto_ = #("column-width", "auto")
 
  pub const revert_layer = #("column-width", "revert_layer")
 
+/// length value of column-width
 pub fn length(value: Length) -> #(String, String) {
   #("column-width", length_to_string(value))
 }
 
+/// Enter a raw string value for column-width
 pub fn raw(value: String) -> #(String, String) {
   #("column-width", value)
 }
 
+/// Enter a variable name to be used for column-width.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("column-width", "var(--" <> variable <> ")")
 }

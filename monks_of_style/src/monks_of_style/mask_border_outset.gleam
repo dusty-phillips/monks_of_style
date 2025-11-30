@@ -14,14 +14,18 @@ import monks_of_style.{length_to_string, type Length}
 
  pub const revert_layer = #("mask-border-outset", "revert_layer")
 
+/// length value of mask-border-outset
 pub fn length(value: Length) -> #(String, String) {
   #("mask-border-outset", length_to_string(value))
 }
 
+/// Enter a raw string value for mask-border-outset
 pub fn raw(value: String) -> #(String, String) {
   #("mask-border-outset", value)
 }
 
+/// Enter a variable name to be used for mask-border-outset.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("mask-border-outset", "var(--" <> variable <> ")")
 }

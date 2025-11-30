@@ -21,10 +21,13 @@
 
  pub const revert_layer = #("box-flex-group", "revert_layer")
 
+/// Enter a raw string value for box-flex-group
 pub fn raw(value: String) -> #(String, String) {
   #("box-flex-group", value)
 }
 
+/// Enter a variable name to be used for box-flex-group.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("box-flex-group", "var(--" <> variable <> ")")
 }

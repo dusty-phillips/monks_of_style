@@ -16,14 +16,18 @@ import monks_of_style.{length_to_string, type Length}
 
  pub const revert_layer = #("line-height-step", "revert_layer")
 
+/// length value of line-height-step
 pub fn length(value: Length) -> #(String, String) {
   #("line-height-step", length_to_string(value))
 }
 
+/// Enter a raw string value for line-height-step
 pub fn raw(value: String) -> #(String, String) {
   #("line-height-step", value)
 }
 
+/// Enter a variable name to be used for line-height-step.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("line-height-step", "var(--" <> variable <> ")")
 }

@@ -12,10 +12,13 @@
 
  pub const revert_layer = #("column-rule-color", "revert_layer")
 
+/// Enter a raw string value for column-rule-color
 pub fn raw(value: String) -> #(String, String) {
   #("column-rule-color", value)
 }
 
+/// Enter a variable name to be used for column-rule-color.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("column-rule-color", "var(--" <> variable <> ")")
 }

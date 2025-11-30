@@ -5,10 +5,13 @@
 //// 
 
 
+/// none value of stroke
 pub const none = #("stroke", "none")
 
+/// context-fill value of stroke
 pub const context_fill = #("stroke", "context-fill")
 
+///   - : Causes an element to "inherit" its stroke definition from its [_context element_](https://svgwg.org/svg2-draft/painting.html#TermContextElement). If there is no valid context element, then this value will result in no paint being used for the stroke.
 pub const context_stroke = #("stroke", "context-stroke")
 
  pub const initial = #("stroke", "initial")
@@ -21,10 +24,13 @@ pub const context_stroke = #("stroke", "context-stroke")
 
  pub const revert_layer = #("stroke", "revert_layer")
 
+/// Enter a raw string value for stroke
 pub fn raw(value: String) -> #(String, String) {
   #("stroke", value)
 }
 
+/// Enter a variable name to be used for stroke.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("stroke", "var(--" <> variable <> ")")
 }

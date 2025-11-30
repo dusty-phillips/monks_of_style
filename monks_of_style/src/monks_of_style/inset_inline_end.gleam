@@ -6,6 +6,7 @@ import monks_of_style.{length_to_string, type Length}
 
 
 
+/// auto value of inset-inline-end
 pub const auto_ = #("inset-inline-end", "auto")
 
  pub const initial = #("inset-inline-end", "initial")
@@ -18,14 +19,18 @@ pub const auto_ = #("inset-inline-end", "auto")
 
  pub const revert_layer = #("inset-inline-end", "revert_layer")
 
+/// length value of inset-inline-end
 pub fn length(value: Length) -> #(String, String) {
   #("inset-inline-end", length_to_string(value))
 }
 
+/// Enter a raw string value for inset-inline-end
 pub fn raw(value: String) -> #(String, String) {
   #("inset-inline-end", value)
 }
 
+/// Enter a variable name to be used for inset-inline-end.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("inset-inline-end", "var(--" <> variable <> ")")
 }

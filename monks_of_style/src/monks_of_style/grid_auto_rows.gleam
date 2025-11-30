@@ -4,10 +4,13 @@ import monks_of_style.{length_to_string, type Length}
 
 
 
+///   - : Is a keyword representing the largest minimal content contribution of the grid items occupying the grid track.
 pub const min_content = #("grid-auto-rows", "min-content")
 
+///   - : Is a keyword representing the largest maximal content contribution of the grid items occupying the grid track.
 pub const max_content = #("grid-auto-rows", "max-content")
 
+///   - : As a maximum represents the largest {{cssxref("max-content")}} size of the items in that track.    As a minimum represents the largest minimum size of items in that track (specified by the {{cssxref("min-width")}}/{{cssxref("min-height")}} of the items). This is often, though not always, the {{cssxref("min-content")}} size.    If used outside of {{cssxref("minmax", "minmax()")}} notation, `auto` represents the range between the minimum and maximum described above. This behaves similarly to `minmax(min-content,max-content)` in most cases.    > [!NOTE]    > `auto` track sizes (and only `auto` track sizes) can be stretched by the {{cssxref("align-content")}} and {{cssxref("justify-content")}} properties. Therefore by default, an `auto` sized track will take up any remaining space in the grid container.
 pub const auto_ = #("grid-auto-rows", "auto")
 
  pub const initial = #("grid-auto-rows", "initial")
@@ -20,14 +23,18 @@ pub const auto_ = #("grid-auto-rows", "auto")
 
  pub const revert_layer = #("grid-auto-rows", "revert_layer")
 
+/// length value of grid-auto-rows
 pub fn length(value: Length) -> #(String, String) {
   #("grid-auto-rows", length_to_string(value))
 }
 
+/// Enter a raw string value for grid-auto-rows
 pub fn raw(value: String) -> #(String, String) {
   #("grid-auto-rows", value)
 }
 
+/// Enter a variable name to be used for grid-auto-rows.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("grid-auto-rows", "var(--" <> variable <> ")")
 }

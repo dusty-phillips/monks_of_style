@@ -14,14 +14,18 @@ import monks_of_style.{length_to_string, type Length}
 
  pub const revert_layer = #("border-top-right-radius", "revert_layer")
 
+/// length value of border-top-right-radius
 pub fn length(value: Length) -> #(String, String) {
   #("border-top-right-radius", length_to_string(value))
 }
 
+/// Enter a raw string value for border-top-right-radius
 pub fn raw(value: String) -> #(String, String) {
   #("border-top-right-radius", value)
 }
 
+/// Enter a variable name to be used for border-top-right-radius.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("border-top-right-radius", "var(--" <> variable <> ")")
 }

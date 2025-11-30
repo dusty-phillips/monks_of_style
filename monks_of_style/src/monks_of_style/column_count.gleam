@@ -2,6 +2,7 @@
 //// 
 
 
+///   - : The number of columns is determined by other CSS properties, such as {{cssxref("column-width")}}.
 pub const auto_ = #("column-count", "auto")
 
  pub const initial = #("column-count", "initial")
@@ -14,10 +15,13 @@ pub const auto_ = #("column-count", "auto")
 
  pub const revert_layer = #("column-count", "revert_layer")
 
+/// Enter a raw string value for column-count
 pub fn raw(value: String) -> #(String, String) {
   #("column-count", value)
 }
 
+/// Enter a variable name to be used for column-count.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("column-count", "var(--" <> variable <> ")")
 }

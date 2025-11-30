@@ -2,6 +2,7 @@
 //// 
 
 
+///   - : Represents a UA-chosen color, which should match the accent color of the platform, if any.
 pub const auto_ = #("accent-color", "auto")
 
  pub const initial = #("accent-color", "initial")
@@ -14,10 +15,13 @@ pub const auto_ = #("accent-color", "auto")
 
  pub const revert_layer = #("accent-color", "revert_layer")
 
+/// Enter a raw string value for accent-color
 pub fn raw(value: String) -> #(String, String) {
   #("accent-color", value)
 }
 
+/// Enter a variable name to be used for accent-color.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("accent-color", "var(--" <> variable <> ")")
 }

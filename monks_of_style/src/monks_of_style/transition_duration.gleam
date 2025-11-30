@@ -12,10 +12,13 @@
 
  pub const revert_layer = #("transition-duration", "revert_layer")
 
+/// Enter a raw string value for transition-duration
 pub fn raw(value: String) -> #(String, String) {
   #("transition-duration", value)
 }
 
+/// Enter a variable name to be used for transition-duration.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("transition-duration", "var(--" <> variable <> ")")
 }

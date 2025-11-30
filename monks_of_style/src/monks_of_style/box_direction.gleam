@@ -7,8 +7,10 @@
 //// 
 
 
+///   - : The box lays out its contents from the start (the left or top edge).
 pub const normal = #("box-direction", "normal")
 
+///   - : The box lays out its contents from the end (the right or bottom edge).
 pub const reverse = #("box-direction", "reverse")
 
  pub const initial = #("box-direction", "initial")
@@ -21,10 +23,13 @@ pub const reverse = #("box-direction", "reverse")
 
  pub const revert_layer = #("box-direction", "revert_layer")
 
+/// Enter a raw string value for box-direction
 pub fn raw(value: String) -> #(String, String) {
   #("box-direction", value)
 }
 
+/// Enter a variable name to be used for box-direction.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("box-direction", "var(--" <> variable <> ")")
 }

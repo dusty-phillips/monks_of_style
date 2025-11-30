@@ -14,14 +14,18 @@ import monks_of_style.{length_to_string, type Length}
 
  pub const revert_layer = #("shape-margin", "revert_layer")
 
+/// length value of shape-margin
 pub fn length(value: Length) -> #(String, String) {
   #("shape-margin", length_to_string(value))
 }
 
+/// Enter a raw string value for shape-margin
 pub fn raw(value: String) -> #(String, String) {
   #("shape-margin", value)
 }
 
+/// Enter a variable name to be used for shape-margin.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("shape-margin", "var(--" <> variable <> ")")
 }

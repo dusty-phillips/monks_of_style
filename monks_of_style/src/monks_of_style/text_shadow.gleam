@@ -4,6 +4,7 @@ import monks_of_style.{length_to_string, type Length}
 
 
 
+/// none value of text-shadow
 pub const none = #("text-shadow", "none")
 
  pub const initial = #("text-shadow", "initial")
@@ -16,14 +17,18 @@ pub const none = #("text-shadow", "none")
 
  pub const revert_layer = #("text-shadow", "revert_layer")
 
+/// length value of text-shadow
 pub fn length(value: Length) -> #(String, String) {
   #("text-shadow", length_to_string(value))
 }
 
+/// Enter a raw string value for text-shadow
 pub fn raw(value: String) -> #(String, String) {
   #("text-shadow", value)
 }
 
+/// Enter a variable name to be used for text-shadow.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("text-shadow", "var(--" <> variable <> ")")
 }

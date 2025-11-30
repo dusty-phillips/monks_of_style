@@ -8,6 +8,7 @@
 //// 
 
 
+/// auto value of scrollbar-color
 pub const auto_ = #("scrollbar-color", "auto")
 
  pub const initial = #("scrollbar-color", "initial")
@@ -20,10 +21,13 @@ pub const auto_ = #("scrollbar-color", "auto")
 
  pub const revert_layer = #("scrollbar-color", "revert_layer")
 
+/// Enter a raw string value for scrollbar-color
 pub fn raw(value: String) -> #(String, String) {
   #("scrollbar-color", value)
 }
 
+/// Enter a variable name to be used for scrollbar-color.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("scrollbar-color", "var(--" <> variable <> ")")
 }

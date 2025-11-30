@@ -8,10 +8,13 @@
 //// 
 
 
+///   - : Deactivates alternate superscript and subscript glyphs.
 pub const normal = #("font-variant-position", "normal")
 
+///   - : Activates subscript alternate glyphs. If, in a given run, one such glyph is not available for a character, all the characters in the run are rendered using synthesized glyphs.
 pub const sub = #("font-variant-position", "sub")
 
+///   - : Activates superscript alternate glyphs. If, in a given run, one such glyph is not available for a character, all the characters in the run are rendered using synthesized glyphs.
 pub const super = #("font-variant-position", "super")
 
  pub const initial = #("font-variant-position", "initial")
@@ -24,10 +27,13 @@ pub const super = #("font-variant-position", "super")
 
  pub const revert_layer = #("font-variant-position", "revert_layer")
 
+/// Enter a raw string value for font-variant-position
 pub fn raw(value: String) -> #(String, String) {
   #("font-variant-position", value)
 }
 
+/// Enter a variable name to be used for font-variant-position.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("font-variant-position", "var(--" <> variable <> ")")
 }

@@ -8,10 +8,13 @@
 //// 
 
 
+/// auto value of text-wrap-mode
 pub const auto_ = #("text-wrap-mode", "auto")
 
+///   - : Text is wrapped across lines at appropriate characters (for example spaces, in languages like English that use space separators) to minimize overflow. This is the default value.
 pub const wrap = #("text-wrap-mode", "wrap")
 
+///   - : Text does not wrap across lines. It will overflow its containing element rather than breaking onto a new line.
 pub const nowrap = #("text-wrap-mode", "nowrap")
 
  pub const initial = #("text-wrap-mode", "initial")
@@ -24,10 +27,13 @@ pub const nowrap = #("text-wrap-mode", "nowrap")
 
  pub const revert_layer = #("text-wrap-mode", "revert_layer")
 
+/// Enter a raw string value for text-wrap-mode
 pub fn raw(value: String) -> #(String, String) {
   #("text-wrap-mode", value)
 }
 
+/// Enter a variable name to be used for text-wrap-mode.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("text-wrap-mode", "var(--" <> variable <> ")")
 }

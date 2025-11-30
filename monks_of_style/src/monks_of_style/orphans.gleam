@@ -14,10 +14,13 @@
 
  pub const revert_layer = #("orphans", "revert_layer")
 
+/// Enter a raw string value for orphans
 pub fn raw(value: String) -> #(String, String) {
   #("orphans", value)
 }
 
+/// Enter a variable name to be used for orphans.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("orphans", "var(--" <> variable <> ")")
 }

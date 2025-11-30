@@ -2,8 +2,10 @@
 //// 
 
 
+///   - : Indicates that the [luminance (brightness) values](#understanding_luminance) of the `<mask>` should be used.
 pub const luminance = #("mask-type", "luminance")
 
+///   - : Indicates that the alpha (transparency) values of the `<mask>` should be used.
 pub const alpha = #("mask-type", "alpha")
 
  pub const initial = #("mask-type", "initial")
@@ -16,10 +18,13 @@ pub const alpha = #("mask-type", "alpha")
 
  pub const revert_layer = #("mask-type", "revert_layer")
 
+/// Enter a raw string value for mask-type
 pub fn raw(value: String) -> #(String, String) {
   #("mask-type", value)
 }
 
+/// Enter a variable name to be used for mask-type.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("mask-type", "var(--" <> variable <> ")")
 }

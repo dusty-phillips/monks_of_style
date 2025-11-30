@@ -4,6 +4,7 @@ import monks_of_style.{length_to_string, type Length}
 
 
 
+///   - : The browser selects a suitable value to use. See {{cssxref("margin")}}.
 pub const auto_ = #("margin-bottom", "auto")
 
  pub const initial = #("margin-bottom", "initial")
@@ -16,14 +17,18 @@ pub const auto_ = #("margin-bottom", "auto")
 
  pub const revert_layer = #("margin-bottom", "revert_layer")
 
+/// length value of margin-bottom
 pub fn length(value: Length) -> #(String, String) {
   #("margin-bottom", length_to_string(value))
 }
 
+/// Enter a raw string value for margin-bottom
 pub fn raw(value: String) -> #(String, String) {
   #("margin-bottom", value)
 }
 
+/// Enter a variable name to be used for margin-bottom.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("margin-bottom", "var(--" <> variable <> ")")
 }

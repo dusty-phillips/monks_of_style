@@ -15,10 +15,13 @@
 
  pub const revert_layer = #("flex-shrink", "revert_layer")
 
+/// Enter a raw string value for flex-shrink
 pub fn raw(value: String) -> #(String, String) {
   #("flex-shrink", value)
 }
 
+/// Enter a variable name to be used for flex-shrink.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("flex-shrink", "var(--" <> variable <> ")")
 }

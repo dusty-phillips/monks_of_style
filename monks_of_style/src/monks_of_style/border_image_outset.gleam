@@ -16,14 +16,18 @@ import monks_of_style.{length_to_string, type Length}
 
  pub const revert_layer = #("border-image-outset", "revert_layer")
 
+/// length value of border-image-outset
 pub fn length(value: Length) -> #(String, String) {
   #("border-image-outset", length_to_string(value))
 }
 
+/// Enter a raw string value for border-image-outset
 pub fn raw(value: String) -> #(String, String) {
   #("border-image-outset", value)
 }
 
+/// Enter a variable name to be used for border-image-outset.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("border-image-outset", "var(--" <> variable <> ")")
 }

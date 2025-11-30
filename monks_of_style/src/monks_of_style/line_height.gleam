@@ -4,6 +4,7 @@ import monks_of_style.{length_to_string, type Length}
 
 
 
+///   - : Depends on the user agent. Desktop browsers (including Firefox) use a default value of roughly **`1.2`**, depending on the element's `font-family`.
 pub const normal = #("line-height", "normal")
 
  pub const initial = #("line-height", "initial")
@@ -16,14 +17,18 @@ pub const normal = #("line-height", "normal")
 
  pub const revert_layer = #("line-height", "revert_layer")
 
+/// length value of line-height
 pub fn length(value: Length) -> #(String, String) {
   #("line-height", length_to_string(value))
 }
 
+/// Enter a raw string value for line-height
 pub fn raw(value: String) -> #(String, String) {
   #("line-height", value)
 }
 
+/// Enter a variable name to be used for line-height.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("line-height", "var(--" <> variable <> ")")
 }

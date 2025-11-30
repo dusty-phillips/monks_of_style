@@ -7,6 +7,7 @@
 //// 
 
 
+///   - : This means no marker will be drawn at each middle vertex of the element's path.
 pub const none = #("marker-mid", "none")
 
  pub const initial = #("marker-mid", "initial")
@@ -19,10 +20,13 @@ pub const none = #("marker-mid", "none")
 
  pub const revert_layer = #("marker-mid", "revert_layer")
 
+/// Enter a raw string value for marker-mid
 pub fn raw(value: String) -> #(String, String) {
   #("marker-mid", value)
 }
 
+/// Enter a variable name to be used for marker-mid.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("marker-mid", "var(--" <> variable <> ")")
 }

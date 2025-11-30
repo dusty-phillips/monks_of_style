@@ -4,10 +4,13 @@
 //// 
 
 
+///   - : There is no special processing.
 pub const none = #("text-combine-upright", "none")
 
+///   - : Attempts to typeset all consecutive characters within the box horizontally, such that they take up the space of a single character within the vertical line of the box.> [!NOTE]> The [CSS writing modes](/en-US/docs/Web/CSS/Guides/Writing_modes) module defines a `digits <integer>` value for the `text-combine-upright` property to display two to four consecutive {{Glossary("ASCII")}} digits (U+0030–U+0039) such that it takes up the space of a single character within the vertical line box, however, this is not supported in any browsers.
 pub const all = #("text-combine-upright", "all")
 
+/// digits value of text-combine-upright
 pub const digits = #("text-combine-upright", "digits")
 
  pub const initial = #("text-combine-upright", "initial")
@@ -20,10 +23,13 @@ pub const digits = #("text-combine-upright", "digits")
 
  pub const revert_layer = #("text-combine-upright", "revert_layer")
 
+/// Enter a raw string value for text-combine-upright
 pub fn raw(value: String) -> #(String, String) {
   #("text-combine-upright", value)
 }
 
+/// Enter a variable name to be used for text-combine-upright.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("text-combine-upright", "var(--" <> variable <> ")")
 }

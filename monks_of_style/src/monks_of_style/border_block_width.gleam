@@ -6,10 +6,13 @@ import monks_of_style.{length_to_string, type Length}
 
 
 
+/// thin value of border-block-width
 pub const thin = #("border-block-width", "thin")
 
+/// medium value of border-block-width
 pub const medium = #("border-block-width", "medium")
 
+/// thick value of border-block-width
 pub const thick = #("border-block-width", "thick")
 
  pub const initial = #("border-block-width", "initial")
@@ -22,14 +25,18 @@ pub const thick = #("border-block-width", "thick")
 
  pub const revert_layer = #("border-block-width", "revert_layer")
 
+/// length value of border-block-width
 pub fn length(value: Length) -> #(String, String) {
   #("border-block-width", length_to_string(value))
 }
 
+/// Enter a raw string value for border-block-width
 pub fn raw(value: String) -> #(String, String) {
   #("border-block-width", value)
 }
 
+/// Enter a variable name to be used for border-block-width.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("border-block-width", "var(--" <> variable <> ")")
 }

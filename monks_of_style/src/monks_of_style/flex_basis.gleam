@@ -7,37 +7,29 @@ import monks_of_style.{length_to_string, type Length}
 
 
 
+///   - : Indicates automatic sizing, based on the flex item's content.
 pub const content = #("flex-basis", "content")
 
+/// auto value of flex-basis
 pub const auto_ = #("flex-basis", "auto")
 
+/// min-content value of flex-basis
 pub const min_content = #("flex-basis", "min-content")
 
+/// max-content value of flex-basis
 pub const max_content = #("flex-basis", "max-content")
 
+/// 
 pub const fit_content = #("flex-basis", "fit-content")
 
+/// stretch value of flex-basis
 pub const stretch = #("flex-basis", "stretch")
 
+/// intrinsic value of flex-basis
 pub const intrinsic = #("flex-basis", "intrinsic")
 
+/// min-intrinsic value of flex-basis
 pub const min_intrinsic = #("flex-basis", "min-intrinsic")
-
-pub const webkit_fill_available = #("flex-basis", "-webkit-fill-available")
-
-pub const webkit_fit_content = #("flex-basis", "-webkit-fit-content")
-
-pub const webkit_min_content = #("flex-basis", "-webkit-min-content")
-
-pub const webkit_max_content = #("flex-basis", "-webkit-max-content")
-
-pub const moz_available = #("flex-basis", "-moz-available")
-
-pub const moz_fit_content = #("flex-basis", "-moz-fit-content")
-
-pub const moz_min_content = #("flex-basis", "-moz-min-content")
-
-pub const moz_max_content = #("flex-basis", "-moz-max-content")
 
  pub const initial = #("flex-basis", "initial")
 
@@ -49,14 +41,18 @@ pub const moz_max_content = #("flex-basis", "-moz-max-content")
 
  pub const revert_layer = #("flex-basis", "revert_layer")
 
+/// length value of flex-basis
 pub fn length(value: Length) -> #(String, String) {
   #("flex-basis", length_to_string(value))
 }
 
+/// Enter a raw string value for flex-basis
 pub fn raw(value: String) -> #(String, String) {
   #("flex-basis", value)
 }
 
+/// Enter a variable name to be used for flex-basis.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("flex-basis", "var(--" <> variable <> ")")
 }

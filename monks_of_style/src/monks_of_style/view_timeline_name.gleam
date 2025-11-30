@@ -10,6 +10,7 @@
 //// 
 
 
+///   - : The timeline has no name.
 pub const none = #("view-timeline-name", "none")
 
  pub const initial = #("view-timeline-name", "initial")
@@ -22,10 +23,13 @@ pub const none = #("view-timeline-name", "none")
 
  pub const revert_layer = #("view-timeline-name", "revert_layer")
 
+/// Enter a raw string value for view-timeline-name
 pub fn raw(value: String) -> #(String, String) {
   #("view-timeline-name", value)
 }
 
+/// Enter a variable name to be used for view-timeline-name.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("view-timeline-name", "var(--" <> variable <> ")")
 }

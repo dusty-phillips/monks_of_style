@@ -4,35 +4,26 @@ import monks_of_style.{length_to_string, type Length}
 
 
 
+/// auto value of inline-size
 pub const auto_ = #("inline-size", "auto")
 
+/// min-content value of inline-size
 pub const min_content = #("inline-size", "min-content")
 
+/// max-content value of inline-size
 pub const max_content = #("inline-size", "max-content")
 
+/// fit-content value of inline-size
 pub const fit_content = #("inline-size", "fit-content")
 
+/// stretch value of inline-size
 pub const stretch = #("inline-size", "stretch")
 
+/// intrinsic value of inline-size
 pub const intrinsic = #("inline-size", "intrinsic")
 
+/// min-intrinsic value of inline-size
 pub const min_intrinsic = #("inline-size", "min-intrinsic")
-
-pub const webkit_fill_available = #("inline-size", "-webkit-fill-available")
-
-pub const webkit_fit_content = #("inline-size", "-webkit-fit-content")
-
-pub const webkit_min_content = #("inline-size", "-webkit-min-content")
-
-pub const webkit_max_content = #("inline-size", "-webkit-max-content")
-
-pub const moz_available = #("inline-size", "-moz-available")
-
-pub const moz_fit_content = #("inline-size", "-moz-fit-content")
-
-pub const moz_min_content = #("inline-size", "-moz-min-content")
-
-pub const moz_max_content = #("inline-size", "-moz-max-content")
 
  pub const initial = #("inline-size", "initial")
 
@@ -44,14 +35,18 @@ pub const moz_max_content = #("inline-size", "-moz-max-content")
 
  pub const revert_layer = #("inline-size", "revert_layer")
 
+/// length value of inline-size
 pub fn length(value: Length) -> #(String, String) {
   #("inline-size", length_to_string(value))
 }
 
+/// Enter a raw string value for inline-size
 pub fn raw(value: String) -> #(String, String) {
   #("inline-size", value)
 }
 
+/// Enter a variable name to be used for inline-size.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("inline-size", "var(--" <> variable <> ")")
 }

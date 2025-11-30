@@ -12,10 +12,13 @@
 
  pub const revert_layer = #("transition-delay", "revert_layer")
 
+/// Enter a raw string value for transition-delay
 pub fn raw(value: String) -> #(String, String) {
   #("transition-delay", value)
 }
 
+/// Enter a variable name to be used for transition-delay.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("transition-delay", "var(--" <> variable <> ")")
 }

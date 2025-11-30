@@ -2,8 +2,10 @@
 //// 
 
 
+///   - : The `open-quote` and `close-quote` values of the {{cssxref("content")}} property produce no quotation marks, as if `no-open-quote` and `no-close-quote` were set, respectively.
 pub const none = #("quotes", "none")
 
+///   - : Quotation marks that are typographically appropriate for the inherited language (i.e., via the [`lang`](/en-US/docs/Web/HTML/Reference/Global_attributes/lang) attribute set on the parent or other ancestor).
 pub const auto_ = #("quotes", "auto")
 
  pub const initial = #("quotes", "initial")
@@ -16,10 +18,13 @@ pub const auto_ = #("quotes", "auto")
 
  pub const revert_layer = #("quotes", "revert_layer")
 
+/// Enter a raw string value for quotes
 pub fn raw(value: String) -> #(String, String) {
   #("quotes", value)
 }
 
+/// Enter a variable name to be used for quotes.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("quotes", "var(--" <> variable <> ")")
 }

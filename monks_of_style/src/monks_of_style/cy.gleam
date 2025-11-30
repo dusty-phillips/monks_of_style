@@ -17,14 +17,18 @@ import monks_of_style.{length_to_string, type Length}
 
  pub const revert_layer = #("cy", "revert_layer")
 
+///   - : As an absolute or relative length, it can be expressed in any unit allowed by the CSS {{cssxref("&lt;length&gt;")}} data type. Negative values are invalid.
 pub fn length(value: Length) -> #(String, String) {
   #("cy", length_to_string(value))
 }
 
+/// Enter a raw string value for cy
 pub fn raw(value: String) -> #(String, String) {
   #("cy", value)
 }
 
+/// Enter a variable name to be used for cy.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("cy", "var(--" <> variable <> ")")
 }

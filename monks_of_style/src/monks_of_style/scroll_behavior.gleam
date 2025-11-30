@@ -2,8 +2,10 @@
 //// 
 
 
+///   - : The scrolling box scrolls instantly.
 pub const auto_ = #("scroll-behavior", "auto")
 
+///   - : The scrolling box scrolls in a smooth fashion using a user-agent-defined easing function over a user-agent-defined period of time. User agents should follow platform conventions, if any.
 pub const smooth = #("scroll-behavior", "smooth")
 
  pub const initial = #("scroll-behavior", "initial")
@@ -16,10 +18,13 @@ pub const smooth = #("scroll-behavior", "smooth")
 
  pub const revert_layer = #("scroll-behavior", "revert_layer")
 
+/// Enter a raw string value for scroll-behavior
 pub fn raw(value: String) -> #(String, String) {
   #("scroll-behavior", value)
 }
 
+/// Enter a variable name to be used for scroll-behavior.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("scroll-behavior", "var(--" <> variable <> ")")
 }

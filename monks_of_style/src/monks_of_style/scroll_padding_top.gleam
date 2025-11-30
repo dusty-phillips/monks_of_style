@@ -4,6 +4,7 @@ import monks_of_style.{length_to_string, type Length}
 
 
 
+///   - : The offset is determined by the user agent. This will generally be 0px, but a user agent is able to detect and do something else if a non-zero value is more appropriate.
 pub const auto_ = #("scroll-padding-top", "auto")
 
  pub const initial = #("scroll-padding-top", "initial")
@@ -16,14 +17,18 @@ pub const auto_ = #("scroll-padding-top", "auto")
 
  pub const revert_layer = #("scroll-padding-top", "revert_layer")
 
+/// length value of scroll-padding-top
 pub fn length(value: Length) -> #(String, String) {
   #("scroll-padding-top", length_to_string(value))
 }
 
+/// Enter a raw string value for scroll-padding-top
 pub fn raw(value: String) -> #(String, String) {
   #("scroll-padding-top", value)
 }
 
+/// Enter a variable name to be used for scroll-padding-top.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("scroll-padding-top", "var(--" <> variable <> ")")
 }

@@ -14,6 +14,7 @@ import monks_of_style.{length_to_string, type Length}
 
 
 
+///   - : Specifies that no transform should be applied.
 pub const none = #("transform", "none")
 
  pub const initial = #("transform", "initial")
@@ -26,14 +27,18 @@ pub const none = #("transform", "none")
 
  pub const revert_layer = #("transform", "revert_layer")
 
+/// length value of transform
 pub fn length(value: Length) -> #(String, String) {
   #("transform", length_to_string(value))
 }
 
+/// Enter a raw string value for transform
 pub fn raw(value: String) -> #(String, String) {
   #("transform", value)
 }
 
+/// Enter a variable name to be used for transform.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("transform", "var(--" <> variable <> ")")
 }

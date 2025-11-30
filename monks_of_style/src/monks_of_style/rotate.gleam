@@ -2,12 +2,16 @@
 //// 
 
 
+///   - : Specifies that no rotation should be applied.
 pub const none = #("rotate", "none")
 
+/// x value of rotate
 pub const x = #("rotate", "x")
 
+/// y value of rotate
 pub const y = #("rotate", "y")
 
+/// z value of rotate
 pub const z = #("rotate", "z")
 
  pub const initial = #("rotate", "initial")
@@ -20,10 +24,13 @@ pub const z = #("rotate", "z")
 
  pub const revert_layer = #("rotate", "revert_layer")
 
+/// Enter a raw string value for rotate
 pub fn raw(value: String) -> #(String, String) {
   #("rotate", value)
 }
 
+/// Enter a variable name to be used for rotate.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("rotate", "var(--" <> variable <> ")")
 }

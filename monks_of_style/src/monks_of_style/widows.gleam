@@ -14,10 +14,13 @@
 
  pub const revert_layer = #("widows", "revert_layer")
 
+/// Enter a raw string value for widows
 pub fn raw(value: String) -> #(String, String) {
   #("widows", value)
 }
 
+/// Enter a variable name to be used for widows.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("widows", "var(--" <> variable <> ")")
 }

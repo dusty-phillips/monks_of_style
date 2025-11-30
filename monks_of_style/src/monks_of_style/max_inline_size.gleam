@@ -6,35 +6,26 @@ import monks_of_style.{length_to_string, type Length}
 
 
 
+/// none value of max-inline-size
 pub const none = #("max-inline-size", "none")
 
+/// min-content value of max-inline-size
 pub const min_content = #("max-inline-size", "min-content")
 
+/// max-content value of max-inline-size
 pub const max_content = #("max-inline-size", "max-content")
 
+/// fit-content value of max-inline-size
 pub const fit_content = #("max-inline-size", "fit-content")
 
+/// stretch value of max-inline-size
 pub const stretch = #("max-inline-size", "stretch")
 
+/// intrinsic value of max-inline-size
 pub const intrinsic = #("max-inline-size", "intrinsic")
 
+/// min-intrinsic value of max-inline-size
 pub const min_intrinsic = #("max-inline-size", "min-intrinsic")
-
-pub const webkit_fill_available = #("max-inline-size", "-webkit-fill-available")
-
-pub const webkit_fit_content = #("max-inline-size", "-webkit-fit-content")
-
-pub const webkit_min_content = #("max-inline-size", "-webkit-min-content")
-
-pub const webkit_max_content = #("max-inline-size", "-webkit-max-content")
-
-pub const moz_available = #("max-inline-size", "-moz-available")
-
-pub const moz_fit_content = #("max-inline-size", "-moz-fit-content")
-
-pub const moz_min_content = #("max-inline-size", "-moz-min-content")
-
-pub const moz_max_content = #("max-inline-size", "-moz-max-content")
 
  pub const initial = #("max-inline-size", "initial")
 
@@ -46,14 +37,18 @@ pub const moz_max_content = #("max-inline-size", "-moz-max-content")
 
  pub const revert_layer = #("max-inline-size", "revert_layer")
 
+/// length value of max-inline-size
 pub fn length(value: Length) -> #(String, String) {
   #("max-inline-size", length_to_string(value))
 }
 
+/// Enter a raw string value for max-inline-size
 pub fn raw(value: String) -> #(String, String) {
   #("max-inline-size", value)
 }
 
+/// Enter a variable name to be used for max-inline-size.
+/// It will be wrapped in `var()` and have `--` prepended.
 pub fn var(variable: String) -> #(String, String) {
   #("max-inline-size", "var(--" <> variable <> ")")
 }
