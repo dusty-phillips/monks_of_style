@@ -1,14 +1,14 @@
 import lustre
 import lustre/attribute
 import lustre/element/html
+import monks/background_color
+import monks/color
+import monks/display
+import monks/flex_direction
+import monks/margin
+import monks/padding
+import monks/width
 import monks_of_style.{Percent, Rem}
-import monks_of_style/background_color
-import monks_of_style/color
-import monks_of_style/display
-import monks_of_style/flex_direction
-import monks_of_style/margin
-import monks_of_style/padding
-import monks_of_style/width
 
 pub fn main() {
   let app =
