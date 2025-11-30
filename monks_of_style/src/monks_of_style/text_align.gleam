@@ -14,10 +14,20 @@ pub const justify = #("text-align", "justify")
 
 pub const match_parent = #("text-align", "match-parent")
 
+ pub const initial = #("text-align", "initial")
+
+ pub const inherit = #("text-align", "inherit")
+
+ pub const unset = #("text-align", "unset")
+
+ pub const revert = #("text-align", "revert")
+
+ pub const revert_layer = #("text-align", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("text_align", value)
+  #("text-align", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("text_align", "var(--" <> variable <> ")")
+  #("text-align", "var(--" <> variable <> ")")
 }

@@ -4,10 +4,20 @@ pub const auto_ = #("table-layout", "auto")
 
 pub const fixed = #("table-layout", "fixed")
 
+ pub const initial = #("table-layout", "initial")
+
+ pub const inherit = #("table-layout", "inherit")
+
+ pub const unset = #("table-layout", "unset")
+
+ pub const revert = #("table-layout", "revert")
+
+ pub const revert_layer = #("table-layout", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("table_layout", value)
+  #("table-layout", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("table_layout", "var(--" <> variable <> ")")
+  #("table-layout", "var(--" <> variable <> ")")
 }

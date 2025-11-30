@@ -14,10 +14,20 @@ pub const center = #("text-align-last", "center")
 
 pub const justify = #("text-align-last", "justify")
 
+ pub const initial = #("text-align-last", "initial")
+
+ pub const inherit = #("text-align-last", "inherit")
+
+ pub const unset = #("text-align-last", "unset")
+
+ pub const revert = #("text-align-last", "revert")
+
+ pub const revert_layer = #("text-align-last", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("text_align_last", value)
+  #("text-align-last", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("text_align_last", "var(--" <> variable <> ")")
+  #("text-align-last", "var(--" <> variable <> ")")
 }

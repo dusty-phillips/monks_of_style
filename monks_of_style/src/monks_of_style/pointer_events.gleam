@@ -20,12 +20,20 @@ pub const stroke = #("pointer-events", "stroke")
 
 pub const all = #("pointer-events", "all")
 
-pub const inherit = #("pointer-events", "inherit")
+ pub const initial = #("pointer-events", "initial")
+
+ pub const inherit = #("pointer-events", "inherit")
+
+ pub const unset = #("pointer-events", "unset")
+
+ pub const revert = #("pointer-events", "revert")
+
+ pub const revert_layer = #("pointer-events", "revert_layer")
 
 pub fn raw(value: String) -> #(String, String) {
-  #("pointer_events", value)
+  #("pointer-events", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("pointer_events", "var(--" <> variable <> ")")
+  #("pointer-events", "var(--" <> variable <> ")")
 }

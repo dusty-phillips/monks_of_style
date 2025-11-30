@@ -26,10 +26,20 @@ pub const start = #("transition-timing-function", "start")
 
 pub const end = #("transition-timing-function", "end")
 
+ pub const initial = #("transition-timing-function", "initial")
+
+ pub const inherit = #("transition-timing-function", "inherit")
+
+ pub const unset = #("transition-timing-function", "unset")
+
+ pub const revert = #("transition-timing-function", "revert")
+
+ pub const revert_layer = #("transition-timing-function", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("transition_timing_function", value)
+  #("transition-timing-function", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("transition_timing_function", "var(--" <> variable <> ")")
+  #("transition-timing-function", "var(--" <> variable <> ")")
 }

@@ -12,6 +12,16 @@ pub const fixed = #("position", "fixed")
 
 pub const webkit_sticky = #("position", "-webkit-sticky")
 
+ pub const initial = #("position", "initial")
+
+ pub const inherit = #("position", "inherit")
+
+ pub const unset = #("position", "unset")
+
+ pub const revert = #("position", "revert")
+
+ pub const revert_layer = #("position", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
   #("position", value)
 }

@@ -14,10 +14,20 @@ pub const wrap = #("flex-flow", "wrap")
 
 pub const wrap_reverse = #("flex-flow", "wrap-reverse")
 
+ pub const initial = #("flex-flow", "initial")
+
+ pub const inherit = #("flex-flow", "inherit")
+
+ pub const unset = #("flex-flow", "unset")
+
+ pub const revert = #("flex-flow", "revert")
+
+ pub const revert_layer = #("flex-flow", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("flex_flow", value)
+  #("flex-flow", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("flex_flow", "var(--" <> variable <> ")")
+  #("flex-flow", "var(--" <> variable <> ")")
 }

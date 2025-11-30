@@ -1,3 +1,5 @@
+import monks_of_style.{length_to_string, type Length}
+
 
 
 pub const xx_small = #("font-size", "xx-small")
@@ -20,10 +22,24 @@ pub const larger = #("font-size", "larger")
 
 pub const smaller = #("font-size", "smaller")
 
+ pub const initial = #("font-size", "initial")
+
+ pub const inherit = #("font-size", "inherit")
+
+ pub const unset = #("font-size", "unset")
+
+ pub const revert = #("font-size", "revert")
+
+ pub const revert_layer = #("font-size", "revert_layer")
+
+pub fn length(value: Length) -> #(String, String) {
+  #("font-size", length_to_string(value))
+}
+
 pub fn raw(value: String) -> #(String, String) {
-  #("font_size", value)
+  #("font-size", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("font_size", "var(--" <> variable <> ")")
+  #("font-size", "var(--" <> variable <> ")")
 }

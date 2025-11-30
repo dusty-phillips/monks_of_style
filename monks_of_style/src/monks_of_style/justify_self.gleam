@@ -34,10 +34,20 @@ pub const left = #("justify-self", "left")
 
 pub const right = #("justify-self", "right")
 
+ pub const initial = #("justify-self", "initial")
+
+ pub const inherit = #("justify-self", "inherit")
+
+ pub const unset = #("justify-self", "unset")
+
+ pub const revert = #("justify-self", "revert")
+
+ pub const revert_layer = #("justify-self", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("justify_self", value)
+  #("justify-self", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("justify_self", "var(--" <> variable <> ")")
+  #("justify-self", "var(--" <> variable <> ")")
 }

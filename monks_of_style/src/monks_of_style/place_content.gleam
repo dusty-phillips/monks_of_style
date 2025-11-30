@@ -34,10 +34,20 @@ pub const left = #("place-content", "left")
 
 pub const right = #("place-content", "right")
 
+ pub const initial = #("place-content", "initial")
+
+ pub const inherit = #("place-content", "inherit")
+
+ pub const unset = #("place-content", "unset")
+
+ pub const revert = #("place-content", "revert")
+
+ pub const revert_layer = #("place-content", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("place_content", value)
+  #("place-content", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("place_content", "var(--" <> variable <> ")")
+  #("place-content", "var(--" <> variable <> ")")
 }

@@ -20,6 +20,16 @@ pub const moz_scrollbars_vertical = #("overflow", "-moz-scrollbars-vertical")
 
 pub const moz_hidden_unscrollable = #("overflow", "-moz-hidden-unscrollable")
 
+ pub const initial = #("overflow", "initial")
+
+ pub const inherit = #("overflow", "inherit")
+
+ pub const unset = #("overflow", "unset")
+
+ pub const revert = #("overflow", "revert")
+
+ pub const revert_layer = #("overflow", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
   #("overflow", value)
 }

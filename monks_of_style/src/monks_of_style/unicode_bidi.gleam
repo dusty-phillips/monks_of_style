@@ -24,10 +24,20 @@ pub const webkit_isolate_override = #("unicode-bidi", "-webkit-isolate-override"
 
 pub const webkit_plaintext = #("unicode-bidi", "-webkit-plaintext")
 
+ pub const initial = #("unicode-bidi", "initial")
+
+ pub const inherit = #("unicode-bidi", "inherit")
+
+ pub const unset = #("unicode-bidi", "unset")
+
+ pub const revert = #("unicode-bidi", "revert")
+
+ pub const revert_layer = #("unicode-bidi", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("unicode_bidi", value)
+  #("unicode-bidi", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("unicode_bidi", "var(--" <> variable <> ")")
+  #("unicode-bidi", "var(--" <> variable <> ")")
 }

@@ -1,3 +1,5 @@
+import monks_of_style.{length_to_string, type Length}
+
 
 
 pub const baseline = #("vertical-align", "baseline")
@@ -16,10 +18,24 @@ pub const top = #("vertical-align", "top")
 
 pub const bottom = #("vertical-align", "bottom")
 
+ pub const initial = #("vertical-align", "initial")
+
+ pub const inherit = #("vertical-align", "inherit")
+
+ pub const unset = #("vertical-align", "unset")
+
+ pub const revert = #("vertical-align", "revert")
+
+ pub const revert_layer = #("vertical-align", "revert_layer")
+
+pub fn length(value: Length) -> #(String, String) {
+  #("vertical-align", length_to_string(value))
+}
+
 pub fn raw(value: String) -> #(String, String) {
-  #("vertical_align", value)
+  #("vertical-align", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("vertical_align", "var(--" <> variable <> ")")
+  #("vertical-align", "var(--" <> variable <> ")")
 }

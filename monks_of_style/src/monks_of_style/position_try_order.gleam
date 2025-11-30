@@ -10,10 +10,20 @@ pub const most_block_size = #("position-try-order", "most-block-size")
 
 pub const most_inline_size = #("position-try-order", "most-inline-size")
 
+ pub const initial = #("position-try-order", "initial")
+
+ pub const inherit = #("position-try-order", "inherit")
+
+ pub const unset = #("position-try-order", "unset")
+
+ pub const revert = #("position-try-order", "revert")
+
+ pub const revert_layer = #("position-try-order", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("position_try_order", value)
+  #("position-try-order", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("position_try_order", "var(--" <> variable <> ")")
+  #("position-try-order", "var(--" <> variable <> ")")
 }

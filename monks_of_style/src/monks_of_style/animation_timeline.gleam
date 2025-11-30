@@ -1,27 +1,29 @@
+import monks_of_style.{length_to_string, type Length}
+
 
 
 pub const auto_ = #("animation-timeline", "auto")
 
 pub const none = #("animation-timeline", "none")
 
-pub const block = #("animation-timeline", "block")
+ pub const initial = #("animation-timeline", "initial")
 
-pub const inline = #("animation-timeline", "inline")
+ pub const inherit = #("animation-timeline", "inherit")
 
-pub const x = #("animation-timeline", "x")
+ pub const unset = #("animation-timeline", "unset")
 
-pub const y = #("animation-timeline", "y")
+ pub const revert = #("animation-timeline", "revert")
 
-pub const root = #("animation-timeline", "root")
+ pub const revert_layer = #("animation-timeline", "revert_layer")
 
-pub const nearest = #("animation-timeline", "nearest")
-
-pub const self = #("animation-timeline", "self")
+pub fn length(value: Length) -> #(String, String) {
+  #("animation-timeline", length_to_string(value))
+}
 
 pub fn raw(value: String) -> #(String, String) {
-  #("animation_timeline", value)
+  #("animation-timeline", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("animation_timeline", "var(--" <> variable <> ")")
+  #("animation-timeline", "var(--" <> variable <> ")")
 }

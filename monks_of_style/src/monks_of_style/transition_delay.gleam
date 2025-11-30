@@ -1,9 +1,19 @@
 
 
+ pub const initial = #("transition-delay", "initial")
+
+ pub const inherit = #("transition-delay", "inherit")
+
+ pub const unset = #("transition-delay", "unset")
+
+ pub const revert = #("transition-delay", "revert")
+
+ pub const revert_layer = #("transition-delay", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("transition_delay", value)
+  #("transition-delay", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("transition_delay", "var(--" <> variable <> ")")
+  #("transition-delay", "var(--" <> variable <> ")")
 }

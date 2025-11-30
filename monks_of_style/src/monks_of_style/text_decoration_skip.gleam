@@ -14,10 +14,20 @@ pub const edges = #("text-decoration-skip", "edges")
 
 pub const box_decoration = #("text-decoration-skip", "box-decoration")
 
+ pub const initial = #("text-decoration-skip", "initial")
+
+ pub const inherit = #("text-decoration-skip", "inherit")
+
+ pub const unset = #("text-decoration-skip", "unset")
+
+ pub const revert = #("text-decoration-skip", "revert")
+
+ pub const revert_layer = #("text-decoration-skip", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("text_decoration_skip", value)
+  #("text-decoration-skip", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("text_decoration_skip", "var(--" <> variable <> ")")
+  #("text-decoration-skip", "var(--" <> variable <> ")")
 }

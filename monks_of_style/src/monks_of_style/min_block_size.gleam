@@ -1,3 +1,5 @@
+import monks_of_style.{length_to_string, type Length}
+
 
 
 pub const auto_ = #("min-block-size", "auto")
@@ -30,10 +32,24 @@ pub const moz_min_content = #("min-block-size", "-moz-min-content")
 
 pub const moz_max_content = #("min-block-size", "-moz-max-content")
 
+ pub const initial = #("min-block-size", "initial")
+
+ pub const inherit = #("min-block-size", "inherit")
+
+ pub const unset = #("min-block-size", "unset")
+
+ pub const revert = #("min-block-size", "revert")
+
+ pub const revert_layer = #("min-block-size", "revert_layer")
+
+pub fn length(value: Length) -> #(String, String) {
+  #("min-block-size", length_to_string(value))
+}
+
 pub fn raw(value: String) -> #(String, String) {
-  #("min_block_size", value)
+  #("min-block-size", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("min_block_size", "var(--" <> variable <> ")")
+  #("min-block-size", "var(--" <> variable <> ")")
 }

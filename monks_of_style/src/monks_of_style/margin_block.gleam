@@ -1,11 +1,27 @@
+import monks_of_style.{length_to_string, type Length}
+
 
 
 pub const auto_ = #("margin-block", "auto")
 
+ pub const initial = #("margin-block", "initial")
+
+ pub const inherit = #("margin-block", "inherit")
+
+ pub const unset = #("margin-block", "unset")
+
+ pub const revert = #("margin-block", "revert")
+
+ pub const revert_layer = #("margin-block", "revert_layer")
+
+pub fn length(value: Length) -> #(String, String) {
+  #("margin-block", length_to_string(value))
+}
+
 pub fn raw(value: String) -> #(String, String) {
-  #("margin_block", value)
+  #("margin-block", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("margin_block", "var(--" <> variable <> ")")
+  #("margin-block", "var(--" <> variable <> ")")
 }

@@ -8,10 +8,20 @@ pub const alternate = #("animation-direction", "alternate")
 
 pub const alternate_reverse = #("animation-direction", "alternate-reverse")
 
+ pub const initial = #("animation-direction", "initial")
+
+ pub const inherit = #("animation-direction", "inherit")
+
+ pub const unset = #("animation-direction", "unset")
+
+ pub const revert = #("animation-direction", "revert")
+
+ pub const revert_layer = #("animation-direction", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("animation_direction", value)
+  #("animation-direction", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("animation_direction", "var(--" <> variable <> ")")
+  #("animation-direction", "var(--" <> variable <> ")")
 }

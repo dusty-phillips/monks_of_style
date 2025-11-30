@@ -10,10 +10,20 @@ pub const left = #("text-underline-position", "left")
 
 pub const right = #("text-underline-position", "right")
 
+ pub const initial = #("text-underline-position", "initial")
+
+ pub const inherit = #("text-underline-position", "inherit")
+
+ pub const unset = #("text-underline-position", "unset")
+
+ pub const revert = #("text-underline-position", "revert")
+
+ pub const revert_layer = #("text-underline-position", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("text_underline_position", value)
+  #("text-underline-position", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("text_underline_position", "var(--" <> variable <> ")")
+  #("text-underline-position", "var(--" <> variable <> ")")
 }

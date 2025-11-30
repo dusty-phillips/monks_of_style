@@ -14,10 +14,20 @@ pub const spelling_error = #("text-decoration-line", "spelling-error")
 
 pub const grammar_error = #("text-decoration-line", "grammar-error")
 
+ pub const initial = #("text-decoration-line", "initial")
+
+ pub const inherit = #("text-decoration-line", "inherit")
+
+ pub const unset = #("text-decoration-line", "unset")
+
+ pub const revert = #("text-decoration-line", "revert")
+
+ pub const revert_layer = #("text-decoration-line", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("text_decoration_line", value)
+  #("text-decoration-line", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("text_decoration_line", "var(--" <> variable <> ")")
+  #("text-decoration-line", "var(--" <> variable <> ")")
 }

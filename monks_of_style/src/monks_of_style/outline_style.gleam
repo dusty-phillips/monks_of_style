@@ -22,10 +22,20 @@ pub const inset = #("outline-style", "inset")
 
 pub const outset = #("outline-style", "outset")
 
+ pub const initial = #("outline-style", "initial")
+
+ pub const inherit = #("outline-style", "inherit")
+
+ pub const unset = #("outline-style", "unset")
+
+ pub const revert = #("outline-style", "revert")
+
+ pub const revert_layer = #("outline-style", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("outline_style", value)
+  #("outline-style", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("outline_style", "var(--" <> variable <> ")")
+  #("outline-style", "var(--" <> variable <> ")")
 }

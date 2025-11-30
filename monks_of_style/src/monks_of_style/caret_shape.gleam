@@ -8,10 +8,20 @@ pub const block = #("caret-shape", "block")
 
 pub const underscore = #("caret-shape", "underscore")
 
+ pub const initial = #("caret-shape", "initial")
+
+ pub const inherit = #("caret-shape", "inherit")
+
+ pub const unset = #("caret-shape", "unset")
+
+ pub const revert = #("caret-shape", "revert")
+
+ pub const revert_layer = #("caret-shape", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("caret_shape", value)
+  #("caret-shape", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("caret_shape", "var(--" <> variable <> ")")
+  #("caret-shape", "var(--" <> variable <> ")")
 }

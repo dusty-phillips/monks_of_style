@@ -1,3 +1,5 @@
+import monks_of_style.{length_to_string, type Length}
+
 
 
 pub const normal = #("animation-range-end", "normal")
@@ -14,10 +16,24 @@ pub const entry_crossing = #("animation-range-end", "entry-crossing")
 
 pub const exit_crossing = #("animation-range-end", "exit-crossing")
 
+ pub const initial = #("animation-range-end", "initial")
+
+ pub const inherit = #("animation-range-end", "inherit")
+
+ pub const unset = #("animation-range-end", "unset")
+
+ pub const revert = #("animation-range-end", "revert")
+
+ pub const revert_layer = #("animation-range-end", "revert_layer")
+
+pub fn length(value: Length) -> #(String, String) {
+  #("animation-range-end", length_to_string(value))
+}
+
 pub fn raw(value: String) -> #(String, String) {
-  #("animation_range_end", value)
+  #("animation-range-end", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("animation_range_end", "var(--" <> variable <> ")")
+  #("animation-range-end", "var(--" <> variable <> ")")
 }

@@ -1,3 +1,5 @@
+import monks_of_style.{length_to_string, type Length}
+
 
 
 pub const center = #("background-position-x", "center")
@@ -10,10 +12,24 @@ pub const x_start = #("background-position-x", "x-start")
 
 pub const x_end = #("background-position-x", "x-end")
 
+ pub const initial = #("background-position-x", "initial")
+
+ pub const inherit = #("background-position-x", "inherit")
+
+ pub const unset = #("background-position-x", "unset")
+
+ pub const revert = #("background-position-x", "revert")
+
+ pub const revert_layer = #("background-position-x", "revert_layer")
+
+pub fn length(value: Length) -> #(String, String) {
+  #("background-position-x", length_to_string(value))
+}
+
 pub fn raw(value: String) -> #(String, String) {
-  #("background_position_x", value)
+  #("background-position-x", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("background_position_x", "var(--" <> variable <> ")")
+  #("background-position-x", "var(--" <> variable <> ")")
 }

@@ -20,10 +20,20 @@ pub const proportional_width = #("font-variant-east-asian", "proportional-width"
 
 pub const ruby = #("font-variant-east-asian", "ruby")
 
+ pub const initial = #("font-variant-east-asian", "initial")
+
+ pub const inherit = #("font-variant-east-asian", "inherit")
+
+ pub const unset = #("font-variant-east-asian", "unset")
+
+ pub const revert = #("font-variant-east-asian", "revert")
+
+ pub const revert_layer = #("font-variant-east-asian", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("font_variant_east_asian", value)
+  #("font-variant-east-asian", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("font_variant_east_asian", "var(--" <> variable <> ")")
+  #("font-variant-east-asian", "var(--" <> variable <> ")")
 }

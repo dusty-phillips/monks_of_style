@@ -12,10 +12,20 @@ pub const round = #("background-repeat", "round")
 
 pub const no_repeat = #("background-repeat", "no-repeat")
 
+ pub const initial = #("background-repeat", "initial")
+
+ pub const inherit = #("background-repeat", "inherit")
+
+ pub const unset = #("background-repeat", "unset")
+
+ pub const revert = #("background-repeat", "revert")
+
+ pub const revert_layer = #("background-repeat", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("background_repeat", value)
+  #("background-repeat", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("background_repeat", "var(--" <> variable <> ")")
+  #("background-repeat", "var(--" <> variable <> ")")
 }

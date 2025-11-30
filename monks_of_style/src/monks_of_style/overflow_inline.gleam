@@ -10,10 +10,20 @@ pub const scroll = #("overflow-inline", "scroll")
 
 pub const auto_ = #("overflow-inline", "auto")
 
+ pub const initial = #("overflow-inline", "initial")
+
+ pub const inherit = #("overflow-inline", "inherit")
+
+ pub const unset = #("overflow-inline", "unset")
+
+ pub const revert = #("overflow-inline", "revert")
+
+ pub const revert_layer = #("overflow-inline", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("overflow_inline", value)
+  #("overflow-inline", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("overflow_inline", "var(--" <> variable <> ")")
+  #("overflow-inline", "var(--" <> variable <> ")")
 }

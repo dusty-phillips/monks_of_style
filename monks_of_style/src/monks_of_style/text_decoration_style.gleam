@@ -10,10 +10,20 @@ pub const dashed = #("text-decoration-style", "dashed")
 
 pub const wavy = #("text-decoration-style", "wavy")
 
+ pub const initial = #("text-decoration-style", "initial")
+
+ pub const inherit = #("text-decoration-style", "inherit")
+
+ pub const unset = #("text-decoration-style", "unset")
+
+ pub const revert = #("text-decoration-style", "revert")
+
+ pub const revert_layer = #("text-decoration-style", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("text_decoration_style", value)
+  #("text-decoration-style", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("text_decoration_style", "var(--" <> variable <> ")")
+  #("text-decoration-style", "var(--" <> variable <> ")")
 }

@@ -40,10 +40,20 @@ pub const discard_after = #("white-space", "discard-after")
 
 pub const discard_inner = #("white-space", "discard-inner")
 
+ pub const initial = #("white-space", "initial")
+
+ pub const inherit = #("white-space", "inherit")
+
+ pub const unset = #("white-space", "unset")
+
+ pub const revert = #("white-space", "revert")
+
+ pub const revert_layer = #("white-space", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("white_space", value)
+  #("white-space", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("white_space", "var(--" <> variable <> ")")
+  #("white-space", "var(--" <> variable <> ")")
 }

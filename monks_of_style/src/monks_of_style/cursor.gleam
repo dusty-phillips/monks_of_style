@@ -90,6 +90,16 @@ pub const moz_zoom_in = #("cursor", "-moz-zoom-in")
 
 pub const moz_zoom_out = #("cursor", "-moz-zoom-out")
 
+ pub const initial = #("cursor", "initial")
+
+ pub const inherit = #("cursor", "inherit")
+
+ pub const unset = #("cursor", "unset")
+
+ pub const revert = #("cursor", "revert")
+
+ pub const revert_layer = #("cursor", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
   #("cursor", value)
 }

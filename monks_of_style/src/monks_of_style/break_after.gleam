@@ -28,10 +28,20 @@ pub const avoid_region = #("break-after", "avoid-region")
 
 pub const region = #("break-after", "region")
 
+ pub const initial = #("break-after", "initial")
+
+ pub const inherit = #("break-after", "inherit")
+
+ pub const unset = #("break-after", "unset")
+
+ pub const revert = #("break-after", "revert")
+
+ pub const revert_layer = #("break-after", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("break_after", value)
+  #("break-after", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("break_after", "var(--" <> variable <> ")")
+  #("break-after", "var(--" <> variable <> ")")
 }

@@ -1,38 +1,8 @@
+import monks_of_style.{length_to_string, type Length}
+
 
 
 pub const none = #("offset-path", "none")
-
-pub const closest_side = #("offset-path", "closest-side")
-
-pub const closest_corner = #("offset-path", "closest-corner")
-
-pub const farthest_side = #("offset-path", "farthest-side")
-
-pub const farthest_corner = #("offset-path", "farthest-corner")
-
-pub const sides = #("offset-path", "sides")
-
-pub const contain = #("offset-path", "contain")
-
-pub const at = #("offset-path", "at")
-
-pub const left = #("offset-path", "left")
-
-pub const center = #("offset-path", "center")
-
-pub const right = #("offset-path", "right")
-
-pub const top = #("offset-path", "top")
-
-pub const bottom = #("offset-path", "bottom")
-
-pub const round = #("offset-path", "round")
-
-pub const auto_ = #("offset-path", "auto")
-
-pub const nonzero = #("offset-path", "nonzero")
-
-pub const evenodd = #("offset-path", "evenodd")
 
 pub const content_box = #("offset-path", "content-box")
 
@@ -46,10 +16,24 @@ pub const stroke_box = #("offset-path", "stroke-box")
 
 pub const view_box = #("offset-path", "view-box")
 
+ pub const initial = #("offset-path", "initial")
+
+ pub const inherit = #("offset-path", "inherit")
+
+ pub const unset = #("offset-path", "unset")
+
+ pub const revert = #("offset-path", "revert")
+
+ pub const revert_layer = #("offset-path", "revert_layer")
+
+pub fn length(value: Length) -> #(String, String) {
+  #("offset-path", length_to_string(value))
+}
+
 pub fn raw(value: String) -> #(String, String) {
-  #("offset_path", value)
+  #("offset-path", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("offset_path", "var(--" <> variable <> ")")
+  #("offset-path", "var(--" <> variable <> ")")
 }

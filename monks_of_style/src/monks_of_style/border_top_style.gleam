@@ -20,10 +20,20 @@ pub const inset = #("border-top-style", "inset")
 
 pub const outset = #("border-top-style", "outset")
 
+ pub const initial = #("border-top-style", "initial")
+
+ pub const inherit = #("border-top-style", "inherit")
+
+ pub const unset = #("border-top-style", "unset")
+
+ pub const revert = #("border-top-style", "revert")
+
+ pub const revert_layer = #("border-top-style", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("border_top_style", value)
+  #("border-top-style", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("border_top_style", "var(--" <> variable <> ")")
+  #("border-top-style", "var(--" <> variable <> ")")
 }

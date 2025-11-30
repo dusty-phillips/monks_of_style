@@ -1,3 +1,5 @@
+import monks_of_style.{length_to_string, type Length}
+
 
 
 pub const linear = #("animation", "linear")
@@ -50,19 +52,19 @@ pub const paused = #("animation", "paused")
 
 pub const auto_ = #("animation", "auto")
 
-pub const block = #("animation", "block")
+ pub const initial = #("animation", "initial")
 
-pub const inline = #("animation", "inline")
+ pub const inherit = #("animation", "inherit")
 
-pub const x = #("animation", "x")
+ pub const unset = #("animation", "unset")
 
-pub const y = #("animation", "y")
+ pub const revert = #("animation", "revert")
 
-pub const root = #("animation", "root")
+ pub const revert_layer = #("animation", "revert_layer")
 
-pub const nearest = #("animation", "nearest")
-
-pub const self = #("animation", "self")
+pub fn length(value: Length) -> #(String, String) {
+  #("animation", length_to_string(value))
+}
 
 pub fn raw(value: String) -> #(String, String) {
   #("animation", value)

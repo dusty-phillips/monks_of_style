@@ -12,6 +12,16 @@ pub const block = #("resize", "block")
 
 pub const inline = #("resize", "inline")
 
+ pub const initial = #("resize", "initial")
+
+ pub const inherit = #("resize", "inherit")
+
+ pub const unset = #("resize", "unset")
+
+ pub const revert = #("resize", "revert")
+
+ pub const revert_layer = #("resize", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
   #("resize", value)
 }

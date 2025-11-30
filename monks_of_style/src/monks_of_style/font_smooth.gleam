@@ -1,3 +1,5 @@
+import monks_of_style.{length_to_string, type Length}
+
 
 
 pub const auto_ = #("font-smooth", "auto")
@@ -22,10 +24,24 @@ pub const xx_large = #("font-smooth", "xx-large")
 
 pub const xxx_large = #("font-smooth", "xxx-large")
 
+ pub const initial = #("font-smooth", "initial")
+
+ pub const inherit = #("font-smooth", "inherit")
+
+ pub const unset = #("font-smooth", "unset")
+
+ pub const revert = #("font-smooth", "revert")
+
+ pub const revert_layer = #("font-smooth", "revert_layer")
+
+pub fn length(value: Length) -> #(String, String) {
+  #("font-smooth", length_to_string(value))
+}
+
 pub fn raw(value: String) -> #(String, String) {
-  #("font_smooth", value)
+  #("font-smooth", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("font_smooth", "var(--" <> variable <> ")")
+  #("font-smooth", "var(--" <> variable <> ")")
 }

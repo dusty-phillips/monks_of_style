@@ -14,10 +14,20 @@ pub const stroke_box = #("mask-origin", "stroke-box")
 
 pub const view_box = #("mask-origin", "view-box")
 
+ pub const initial = #("mask-origin", "initial")
+
+ pub const inherit = #("mask-origin", "inherit")
+
+ pub const unset = #("mask-origin", "unset")
+
+ pub const revert = #("mask-origin", "revert")
+
+ pub const revert_layer = #("mask-origin", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("mask_origin", value)
+  #("mask-origin", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("mask_origin", "var(--" <> variable <> ")")
+  #("mask-origin", "var(--" <> variable <> ")")
 }

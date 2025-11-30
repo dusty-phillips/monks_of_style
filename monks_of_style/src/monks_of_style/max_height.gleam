@@ -1,3 +1,5 @@
+import monks_of_style.{length_to_string, type Length}
+
 
 
 pub const none = #("max-height", "none")
@@ -30,10 +32,24 @@ pub const moz_min_content = #("max-height", "-moz-min-content")
 
 pub const moz_max_content = #("max-height", "-moz-max-content")
 
+ pub const initial = #("max-height", "initial")
+
+ pub const inherit = #("max-height", "inherit")
+
+ pub const unset = #("max-height", "unset")
+
+ pub const revert = #("max-height", "revert")
+
+ pub const revert_layer = #("max-height", "revert_layer")
+
+pub fn length(value: Length) -> #(String, String) {
+  #("max-height", length_to_string(value))
+}
+
 pub fn raw(value: String) -> #(String, String) {
-  #("max_height", value)
+  #("max-height", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("max_height", "var(--" <> variable <> ")")
+  #("max-height", "var(--" <> variable <> ")")
 }

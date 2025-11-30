@@ -1,3 +1,5 @@
+import monks_of_style.{length_to_string, type Length}
+
 
 
 pub const left = #("transform-origin", "left")
@@ -10,10 +12,24 @@ pub const top = #("transform-origin", "top")
 
 pub const bottom = #("transform-origin", "bottom")
 
+ pub const initial = #("transform-origin", "initial")
+
+ pub const inherit = #("transform-origin", "inherit")
+
+ pub const unset = #("transform-origin", "unset")
+
+ pub const revert = #("transform-origin", "revert")
+
+ pub const revert_layer = #("transform-origin", "revert_layer")
+
+pub fn length(value: Length) -> #(String, String) {
+  #("transform-origin", length_to_string(value))
+}
+
 pub fn raw(value: String) -> #(String, String) {
-  #("transform_origin", value)
+  #("transform-origin", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("transform_origin", "var(--" <> variable <> ")")
+  #("transform-origin", "var(--" <> variable <> ")")
 }

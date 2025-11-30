@@ -8,10 +8,20 @@ pub const intersect = #("mask-composite", "intersect")
 
 pub const exclude = #("mask-composite", "exclude")
 
+ pub const initial = #("mask-composite", "initial")
+
+ pub const inherit = #("mask-composite", "inherit")
+
+ pub const unset = #("mask-composite", "unset")
+
+ pub const revert = #("mask-composite", "revert")
+
+ pub const revert_layer = #("mask-composite", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("mask_composite", value)
+  #("mask-composite", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("mask_composite", "var(--" <> variable <> ")")
+  #("mask-composite", "var(--" <> variable <> ")")
 }

@@ -34,6 +34,16 @@ pub const normal = #("transition", "normal")
 
 pub const allow_discrete = #("transition", "allow-discrete")
 
+ pub const initial = #("transition", "initial")
+
+ pub const inherit = #("transition", "inherit")
+
+ pub const unset = #("transition", "unset")
+
+ pub const revert = #("transition", "revert")
+
+ pub const revert_layer = #("transition", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
   #("transition", value)
 }

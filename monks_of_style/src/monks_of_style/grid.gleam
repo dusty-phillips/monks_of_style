@@ -1,3 +1,5 @@
+import monks_of_style.{length_to_string, type Length}
+
 
 
 pub const none = #("grid", "none")
@@ -17,6 +19,20 @@ pub const subgrid = #("grid", "subgrid")
 pub const auto_flow = #("grid", "auto-flow")
 
 pub const dense = #("grid", "dense")
+
+ pub const initial = #("grid", "initial")
+
+ pub const inherit = #("grid", "inherit")
+
+ pub const unset = #("grid", "unset")
+
+ pub const revert = #("grid", "revert")
+
+ pub const revert_layer = #("grid", "revert_layer")
+
+pub fn length(value: Length) -> #(String, String) {
+  #("grid", length_to_string(value))
+}
 
 pub fn raw(value: String) -> #(String, String) {
   #("grid", value)

@@ -8,10 +8,20 @@ pub const hanging = #("initial-letter-align", "hanging")
 
 pub const ideographic = #("initial-letter-align", "ideographic")
 
+ pub const initial = #("initial-letter-align", "initial")
+
+ pub const inherit = #("initial-letter-align", "inherit")
+
+ pub const unset = #("initial-letter-align", "unset")
+
+ pub const revert = #("initial-letter-align", "revert")
+
+ pub const revert_layer = #("initial-letter-align", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("initial_letter_align", value)
+  #("initial-letter-align", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("initial_letter_align", "var(--" <> variable <> ")")
+  #("initial-letter-align", "var(--" <> variable <> ")")
 }

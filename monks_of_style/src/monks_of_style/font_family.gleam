@@ -32,10 +32,20 @@ pub const apple_system = #("font-family", "-apple-system")
 
 pub const blink_mac_system_font = #("font-family", "BlinkMacSystemFont")
 
+ pub const initial = #("font-family", "initial")
+
+ pub const inherit = #("font-family", "inherit")
+
+ pub const unset = #("font-family", "unset")
+
+ pub const revert = #("font-family", "revert")
+
+ pub const revert_layer = #("font-family", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("font_family", value)
+  #("font-family", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("font_family", "var(--" <> variable <> ")")
+  #("font-family", "var(--" <> variable <> ")")
 }

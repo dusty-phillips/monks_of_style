@@ -14,10 +14,20 @@ pub const unicase = #("font-variant-caps", "unicase")
 
 pub const titling_caps = #("font-variant-caps", "titling-caps")
 
+ pub const initial = #("font-variant-caps", "initial")
+
+ pub const inherit = #("font-variant-caps", "inherit")
+
+ pub const unset = #("font-variant-caps", "unset")
+
+ pub const revert = #("font-variant-caps", "revert")
+
+ pub const revert_layer = #("font-variant-caps", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("font_variant_caps", value)
+  #("font-variant-caps", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("font_variant_caps", "var(--" <> variable <> ")")
+  #("font-variant-caps", "var(--" <> variable <> ")")
 }

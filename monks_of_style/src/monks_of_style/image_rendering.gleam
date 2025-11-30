@@ -18,10 +18,20 @@ pub const o_crisp_edges = #("image-rendering", "-o-crisp-edges")
 
 pub const webkit_optimize_contrast = #("image-rendering", "-webkit-optimize-contrast")
 
+ pub const initial = #("image-rendering", "initial")
+
+ pub const inherit = #("image-rendering", "inherit")
+
+ pub const unset = #("image-rendering", "unset")
+
+ pub const revert = #("image-rendering", "revert")
+
+ pub const revert_layer = #("image-rendering", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("image_rendering", value)
+  #("image-rendering", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("image_rendering", "var(--" <> variable <> ")")
+  #("image-rendering", "var(--" <> variable <> ")")
 }

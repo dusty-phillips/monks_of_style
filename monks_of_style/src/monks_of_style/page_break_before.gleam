@@ -14,10 +14,20 @@ pub const recto = #("page-break-before", "recto")
 
 pub const verso = #("page-break-before", "verso")
 
+ pub const initial = #("page-break-before", "initial")
+
+ pub const inherit = #("page-break-before", "inherit")
+
+ pub const unset = #("page-break-before", "unset")
+
+ pub const revert = #("page-break-before", "revert")
+
+ pub const revert_layer = #("page-break-before", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("page_break_before", value)
+  #("page-break-before", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("page_break_before", "var(--" <> variable <> ")")
+  #("page-break-before", "var(--" <> variable <> ")")
 }

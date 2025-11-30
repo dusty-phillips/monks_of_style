@@ -1,9 +1,25 @@
+import monks_of_style.{length_to_string, type Length}
 
+
+
+ pub const initial = #("border-top-left-radius", "initial")
+
+ pub const inherit = #("border-top-left-radius", "inherit")
+
+ pub const unset = #("border-top-left-radius", "unset")
+
+ pub const revert = #("border-top-left-radius", "revert")
+
+ pub const revert_layer = #("border-top-left-radius", "revert_layer")
+
+pub fn length(value: Length) -> #(String, String) {
+  #("border-top-left-radius", length_to_string(value))
+}
 
 pub fn raw(value: String) -> #(String, String) {
-  #("border_top_left_radius", value)
+  #("border-top-left-radius", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("border_top_left_radius", "var(--" <> variable <> ")")
+  #("border-top-left-radius", "var(--" <> variable <> ")")
 }

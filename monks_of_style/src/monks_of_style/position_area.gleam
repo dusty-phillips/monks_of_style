@@ -102,10 +102,20 @@ pub const span_self_start = #("position-area", "span-self-start")
 
 pub const span_self_end = #("position-area", "span-self-end")
 
+ pub const initial = #("position-area", "initial")
+
+ pub const inherit = #("position-area", "inherit")
+
+ pub const unset = #("position-area", "unset")
+
+ pub const revert = #("position-area", "revert")
+
+ pub const revert_layer = #("position-area", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("position_area", value)
+  #("position-area", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("position_area", "var(--" <> variable <> ")")
+  #("position-area", "var(--" <> variable <> ")")
 }

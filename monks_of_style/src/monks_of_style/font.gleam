@@ -1,3 +1,5 @@
+import monks_of_style.{length_to_string, type Length}
+
 
 
 pub const normal = #("font", "normal")
@@ -117,6 +119,20 @@ pub const apple_system_short_caption1 = #("font", "-apple-system-short-caption1"
 pub const apple_system_short_footnote = #("font", "-apple-system-short-footnote")
 
 pub const apple_system_tall_body = #("font", "-apple-system-tall-body")
+
+ pub const initial = #("font", "initial")
+
+ pub const inherit = #("font", "inherit")
+
+ pub const unset = #("font", "unset")
+
+ pub const revert = #("font", "revert")
+
+ pub const revert_layer = #("font", "revert_layer")
+
+pub fn length(value: Length) -> #(String, String) {
+  #("font", length_to_string(value))
+}
 
 pub fn raw(value: String) -> #(String, String) {
   #("font", value)

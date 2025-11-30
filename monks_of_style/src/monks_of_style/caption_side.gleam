@@ -12,10 +12,20 @@ pub const inline_start = #("caption-side", "inline-start")
 
 pub const inline_end = #("caption-side", "inline-end")
 
+ pub const initial = #("caption-side", "initial")
+
+ pub const inherit = #("caption-side", "inherit")
+
+ pub const unset = #("caption-side", "unset")
+
+ pub const revert = #("caption-side", "revert")
+
+ pub const revert_layer = #("caption-side", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("caption_side", value)
+  #("caption-side", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("caption_side", "var(--" <> variable <> ")")
+  #("caption-side", "var(--" <> variable <> ")")
 }

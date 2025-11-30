@@ -6,10 +6,20 @@ pub const on = #("font-feature-settings", "on")
 
 pub const off = #("font-feature-settings", "off")
 
+ pub const initial = #("font-feature-settings", "initial")
+
+ pub const inherit = #("font-feature-settings", "inherit")
+
+ pub const unset = #("font-feature-settings", "unset")
+
+ pub const revert = #("font-feature-settings", "revert")
+
+ pub const revert_layer = #("font-feature-settings", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("font_feature_settings", value)
+  #("font-feature-settings", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("font_feature_settings", "var(--" <> variable <> ")")
+  #("font-feature-settings", "var(--" <> variable <> ")")
 }

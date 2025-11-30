@@ -1,3 +1,5 @@
+import monks_of_style.{length_to_string, type Length}
+
 
 
 pub const auto_ = #("offset-anchor", "auto")
@@ -12,10 +14,24 @@ pub const top = #("offset-anchor", "top")
 
 pub const bottom = #("offset-anchor", "bottom")
 
+ pub const initial = #("offset-anchor", "initial")
+
+ pub const inherit = #("offset-anchor", "inherit")
+
+ pub const unset = #("offset-anchor", "unset")
+
+ pub const revert = #("offset-anchor", "revert")
+
+ pub const revert_layer = #("offset-anchor", "revert_layer")
+
+pub fn length(value: Length) -> #(String, String) {
+  #("offset-anchor", length_to_string(value))
+}
+
 pub fn raw(value: String) -> #(String, String) {
-  #("offset_anchor", value)
+  #("offset-anchor", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("offset_anchor", "var(--" <> variable <> ")")
+  #("offset-anchor", "var(--" <> variable <> ")")
 }

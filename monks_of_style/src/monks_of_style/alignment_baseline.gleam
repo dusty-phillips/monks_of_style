@@ -24,10 +24,20 @@ pub const hanging = #("alignment-baseline", "hanging")
 
 pub const mathematical = #("alignment-baseline", "mathematical")
 
+ pub const initial = #("alignment-baseline", "initial")
+
+ pub const inherit = #("alignment-baseline", "inherit")
+
+ pub const unset = #("alignment-baseline", "unset")
+
+ pub const revert = #("alignment-baseline", "revert")
+
+ pub const revert_layer = #("alignment-baseline", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("alignment_baseline", value)
+  #("alignment-baseline", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("alignment_baseline", "var(--" <> variable <> ")")
+  #("alignment-baseline", "var(--" <> variable <> ")")
 }

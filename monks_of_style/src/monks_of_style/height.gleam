@@ -1,3 +1,5 @@
+import monks_of_style.{length_to_string, type Length}
+
 
 
 pub const auto_ = #("height", "auto")
@@ -29,6 +31,20 @@ pub const moz_fit_content = #("height", "-moz-fit-content")
 pub const moz_min_content = #("height", "-moz-min-content")
 
 pub const moz_max_content = #("height", "-moz-max-content")
+
+ pub const initial = #("height", "initial")
+
+ pub const inherit = #("height", "inherit")
+
+ pub const unset = #("height", "unset")
+
+ pub const revert = #("height", "revert")
+
+ pub const revert_layer = #("height", "revert_layer")
+
+pub fn length(value: Length) -> #(String, String) {
+  #("height", length_to_string(value))
+}
 
 pub fn raw(value: String) -> #(String, String) {
   #("height", value)

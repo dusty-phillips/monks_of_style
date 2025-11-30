@@ -12,10 +12,20 @@ pub const full_width = #("text-transform", "full-width")
 
 pub const full_size_kana = #("text-transform", "full-size-kana")
 
+ pub const initial = #("text-transform", "initial")
+
+ pub const inherit = #("text-transform", "inherit")
+
+ pub const unset = #("text-transform", "unset")
+
+ pub const revert = #("text-transform", "revert")
+
+ pub const revert_layer = #("text-transform", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("text_transform", value)
+  #("text-transform", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("text_transform", "var(--" <> variable <> ")")
+  #("text-transform", "var(--" <> variable <> ")")
 }

@@ -4,10 +4,20 @@ pub const none = #("transition-property", "none")
 
 pub const all = #("transition-property", "all")
 
+ pub const initial = #("transition-property", "initial")
+
+ pub const inherit = #("transition-property", "inherit")
+
+ pub const unset = #("transition-property", "unset")
+
+ pub const revert = #("transition-property", "revert")
+
+ pub const revert_layer = #("transition-property", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("transition_property", value)
+  #("transition-property", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("transition_property", "var(--" <> variable <> ")")
+  #("transition-property", "var(--" <> variable <> ")")
 }

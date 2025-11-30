@@ -32,10 +32,20 @@ pub const color = #("background-blend-mode", "color")
 
 pub const luminosity = #("background-blend-mode", "luminosity")
 
+ pub const initial = #("background-blend-mode", "initial")
+
+ pub const inherit = #("background-blend-mode", "inherit")
+
+ pub const unset = #("background-blend-mode", "unset")
+
+ pub const revert = #("background-blend-mode", "revert")
+
+ pub const revert_layer = #("background-blend-mode", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("background_blend_mode", value)
+  #("background-blend-mode", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("background_blend_mode", "var(--" <> variable <> ")")
+  #("background-blend-mode", "var(--" <> variable <> ")")
 }

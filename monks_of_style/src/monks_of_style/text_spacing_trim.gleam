@@ -14,10 +14,20 @@ pub const trim_all = #("text-spacing-trim", "trim-all")
 
 pub const auto_ = #("text-spacing-trim", "auto")
 
+ pub const initial = #("text-spacing-trim", "initial")
+
+ pub const inherit = #("text-spacing-trim", "inherit")
+
+ pub const unset = #("text-spacing-trim", "unset")
+
+ pub const revert = #("text-spacing-trim", "revert")
+
+ pub const revert_layer = #("text-spacing-trim", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("text_spacing_trim", value)
+  #("text-spacing-trim", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("text_spacing_trim", "var(--" <> variable <> ")")
+  #("text-spacing-trim", "var(--" <> variable <> ")")
 }

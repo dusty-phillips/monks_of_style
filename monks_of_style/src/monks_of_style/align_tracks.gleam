@@ -30,10 +30,20 @@ pub const flex_start = #("align-tracks", "flex-start")
 
 pub const flex_end = #("align-tracks", "flex-end")
 
+ pub const initial = #("align-tracks", "initial")
+
+ pub const inherit = #("align-tracks", "inherit")
+
+ pub const unset = #("align-tracks", "unset")
+
+ pub const revert = #("align-tracks", "revert")
+
+ pub const revert_layer = #("align-tracks", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("align_tracks", value)
+  #("align-tracks", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("align_tracks", "var(--" <> variable <> ")")
+  #("align-tracks", "var(--" <> variable <> ")")
 }

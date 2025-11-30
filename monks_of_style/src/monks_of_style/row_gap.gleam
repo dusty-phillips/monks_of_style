@@ -1,11 +1,27 @@
+import monks_of_style.{length_to_string, type Length}
+
 
 
 pub const normal = #("row-gap", "normal")
 
+ pub const initial = #("row-gap", "initial")
+
+ pub const inherit = #("row-gap", "inherit")
+
+ pub const unset = #("row-gap", "unset")
+
+ pub const revert = #("row-gap", "revert")
+
+ pub const revert_layer = #("row-gap", "revert_layer")
+
+pub fn length(value: Length) -> #(String, String) {
+  #("row-gap", length_to_string(value))
+}
+
 pub fn raw(value: String) -> #(String, String) {
-  #("row_gap", value)
+  #("row-gap", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("row_gap", "var(--" <> variable <> ")")
+  #("row-gap", "var(--" <> variable <> ")")
 }

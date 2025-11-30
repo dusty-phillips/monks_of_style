@@ -34,10 +34,20 @@ pub const luminosity = #("mix-blend-mode", "luminosity")
 
 pub const plus_lighter = #("mix-blend-mode", "plus-lighter")
 
+ pub const initial = #("mix-blend-mode", "initial")
+
+ pub const inherit = #("mix-blend-mode", "inherit")
+
+ pub const unset = #("mix-blend-mode", "unset")
+
+ pub const revert = #("mix-blend-mode", "revert")
+
+ pub const revert_layer = #("mix-blend-mode", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("mix_blend_mode", value)
+  #("mix-blend-mode", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("mix_blend_mode", "var(--" <> variable <> ")")
+  #("mix-blend-mode", "var(--" <> variable <> ")")
 }

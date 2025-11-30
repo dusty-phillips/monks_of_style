@@ -16,6 +16,16 @@ pub const style = #("contain", "style")
 
 pub const paint = #("contain", "paint")
 
+ pub const initial = #("contain", "initial")
+
+ pub const inherit = #("contain", "inherit")
+
+ pub const unset = #("contain", "unset")
+
+ pub const revert = #("contain", "revert")
+
+ pub const revert_layer = #("contain", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
   #("contain", value)
 }

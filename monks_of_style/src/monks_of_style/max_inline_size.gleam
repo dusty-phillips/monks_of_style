@@ -1,3 +1,5 @@
+import monks_of_style.{length_to_string, type Length}
+
 
 
 pub const none = #("max-inline-size", "none")
@@ -30,10 +32,24 @@ pub const moz_min_content = #("max-inline-size", "-moz-min-content")
 
 pub const moz_max_content = #("max-inline-size", "-moz-max-content")
 
+ pub const initial = #("max-inline-size", "initial")
+
+ pub const inherit = #("max-inline-size", "inherit")
+
+ pub const unset = #("max-inline-size", "unset")
+
+ pub const revert = #("max-inline-size", "revert")
+
+ pub const revert_layer = #("max-inline-size", "revert_layer")
+
+pub fn length(value: Length) -> #(String, String) {
+  #("max-inline-size", length_to_string(value))
+}
+
 pub fn raw(value: String) -> #(String, String) {
-  #("max_inline_size", value)
+  #("max-inline-size", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("max_inline_size", "var(--" <> variable <> ")")
+  #("max-inline-size", "var(--" <> variable <> ")")
 }

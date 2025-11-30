@@ -16,10 +16,20 @@ pub const mandatory = #("scroll-snap-type", "mandatory")
 
 pub const proximity = #("scroll-snap-type", "proximity")
 
+ pub const initial = #("scroll-snap-type", "initial")
+
+ pub const inherit = #("scroll-snap-type", "inherit")
+
+ pub const unset = #("scroll-snap-type", "unset")
+
+ pub const revert = #("scroll-snap-type", "revert")
+
+ pub const revert_layer = #("scroll-snap-type", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("scroll_snap_type", value)
+  #("scroll-snap-type", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("scroll_snap_type", "var(--" <> variable <> ")")
+  #("scroll-snap-type", "var(--" <> variable <> ")")
 }

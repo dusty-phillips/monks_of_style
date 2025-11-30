@@ -12,10 +12,20 @@ pub const round = #("mask-repeat", "round")
 
 pub const no_repeat = #("mask-repeat", "no-repeat")
 
+ pub const initial = #("mask-repeat", "initial")
+
+ pub const inherit = #("mask-repeat", "inherit")
+
+ pub const unset = #("mask-repeat", "unset")
+
+ pub const revert = #("mask-repeat", "revert")
+
+ pub const revert_layer = #("mask-repeat", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("mask_repeat", value)
+  #("mask-repeat", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("mask_repeat", "var(--" <> variable <> ")")
+  #("mask-repeat", "var(--" <> variable <> ")")
 }

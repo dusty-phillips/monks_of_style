@@ -1,3 +1,5 @@
+import monks_of_style.{length_to_string, type Length}
+
 
 
 pub const none = #("flex", "none")
@@ -33,6 +35,20 @@ pub const moz_fit_content = #("flex", "-moz-fit-content")
 pub const moz_min_content = #("flex", "-moz-min-content")
 
 pub const moz_max_content = #("flex", "-moz-max-content")
+
+ pub const initial = #("flex", "initial")
+
+ pub const inherit = #("flex", "inherit")
+
+ pub const unset = #("flex", "unset")
+
+ pub const revert = #("flex", "revert")
+
+ pub const revert_layer = #("flex", "revert_layer")
+
+pub fn length(value: Length) -> #(String, String) {
+  #("flex", length_to_string(value))
+}
 
 pub fn raw(value: String) -> #(String, String) {
   #("flex", value)

@@ -16,10 +16,20 @@ pub const triangle = #("text-emphasis-style", "triangle")
 
 pub const sesame = #("text-emphasis-style", "sesame")
 
+ pub const initial = #("text-emphasis-style", "initial")
+
+ pub const inherit = #("text-emphasis-style", "inherit")
+
+ pub const unset = #("text-emphasis-style", "unset")
+
+ pub const revert = #("text-emphasis-style", "revert")
+
+ pub const revert_layer = #("text-emphasis-style", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("text_emphasis_style", value)
+  #("text-emphasis-style", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("text_emphasis_style", "var(--" <> variable <> ")")
+  #("text-emphasis-style", "var(--" <> variable <> ")")
 }

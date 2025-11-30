@@ -1,3 +1,5 @@
+import monks_of_style.{length_to_string, type Length}
+
 
 
 pub const none = #("grid-template", "none")
@@ -14,10 +16,24 @@ pub const auto_fit = #("grid-template", "auto-fit")
 
 pub const subgrid = #("grid-template", "subgrid")
 
+ pub const initial = #("grid-template", "initial")
+
+ pub const inherit = #("grid-template", "inherit")
+
+ pub const unset = #("grid-template", "unset")
+
+ pub const revert = #("grid-template", "revert")
+
+ pub const revert_layer = #("grid-template", "revert_layer")
+
+pub fn length(value: Length) -> #(String, String) {
+  #("grid-template", length_to_string(value))
+}
+
 pub fn raw(value: String) -> #(String, String) {
-  #("grid_template", value)
+  #("grid-template", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("grid_template", "var(--" <> variable <> ")")
+  #("grid-template", "var(--" <> variable <> ")")
 }

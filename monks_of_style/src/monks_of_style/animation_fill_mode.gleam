@@ -8,10 +8,20 @@ pub const backwards = #("animation-fill-mode", "backwards")
 
 pub const both = #("animation-fill-mode", "both")
 
+ pub const initial = #("animation-fill-mode", "initial")
+
+ pub const inherit = #("animation-fill-mode", "inherit")
+
+ pub const unset = #("animation-fill-mode", "unset")
+
+ pub const revert = #("animation-fill-mode", "revert")
+
+ pub const revert_layer = #("animation-fill-mode", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("animation_fill_mode", value)
+  #("animation-fill-mode", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("animation_fill_mode", "var(--" <> variable <> ")")
+  #("animation-fill-mode", "var(--" <> variable <> ")")
 }

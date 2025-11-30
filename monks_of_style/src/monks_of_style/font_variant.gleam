@@ -68,10 +68,20 @@ pub const proportional_width = #("font-variant", "proportional-width")
 
 pub const ruby = #("font-variant", "ruby")
 
+ pub const initial = #("font-variant", "initial")
+
+ pub const inherit = #("font-variant", "inherit")
+
+ pub const unset = #("font-variant", "unset")
+
+ pub const revert = #("font-variant", "revert")
+
+ pub const revert_layer = #("font-variant", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("font_variant", value)
+  #("font-variant", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("font_variant", "var(--" <> variable <> ")")
+  #("font-variant", "var(--" <> variable <> ")")
 }

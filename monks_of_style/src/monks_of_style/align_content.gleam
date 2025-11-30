@@ -30,10 +30,20 @@ pub const flex_start = #("align-content", "flex-start")
 
 pub const flex_end = #("align-content", "flex-end")
 
+ pub const initial = #("align-content", "initial")
+
+ pub const inherit = #("align-content", "inherit")
+
+ pub const unset = #("align-content", "unset")
+
+ pub const revert = #("align-content", "revert")
+
+ pub const revert_layer = #("align-content", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("align_content", value)
+  #("align-content", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("align_content", "var(--" <> variable <> ")")
+  #("align-content", "var(--" <> variable <> ")")
 }

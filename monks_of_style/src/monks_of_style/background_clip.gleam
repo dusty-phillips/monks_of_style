@@ -10,10 +10,20 @@ pub const border = #("background-clip", "border")
 
 pub const text = #("background-clip", "text")
 
+ pub const initial = #("background-clip", "initial")
+
+ pub const inherit = #("background-clip", "inherit")
+
+ pub const unset = #("background-clip", "unset")
+
+ pub const revert = #("background-clip", "revert")
+
+ pub const revert_layer = #("background-clip", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("background_clip", value)
+  #("background-clip", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("background_clip", "var(--" <> variable <> ")")
+  #("background-clip", "var(--" <> variable <> ")")
 }

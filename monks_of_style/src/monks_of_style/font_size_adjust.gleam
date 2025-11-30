@@ -14,10 +14,20 @@ pub const ic_height = #("font-size-adjust", "ic-height")
 
 pub const from_font = #("font-size-adjust", "from-font")
 
+ pub const initial = #("font-size-adjust", "initial")
+
+ pub const inherit = #("font-size-adjust", "inherit")
+
+ pub const unset = #("font-size-adjust", "unset")
+
+ pub const revert = #("font-size-adjust", "revert")
+
+ pub const revert_layer = #("font-size-adjust", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("font_size_adjust", value)
+  #("font-size-adjust", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("font_size_adjust", "var(--" <> variable <> ")")
+  #("font-size-adjust", "var(--" <> variable <> ")")
 }

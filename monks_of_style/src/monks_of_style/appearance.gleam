@@ -32,6 +32,16 @@ pub const progress_bar = #("appearance", "progress-bar")
 
 pub const button = #("appearance", "button")
 
+ pub const initial = #("appearance", "initial")
+
+ pub const inherit = #("appearance", "inherit")
+
+ pub const unset = #("appearance", "unset")
+
+ pub const revert = #("appearance", "revert")
+
+ pub const revert_layer = #("appearance", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
   #("appearance", value)
 }

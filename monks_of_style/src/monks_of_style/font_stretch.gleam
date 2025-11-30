@@ -18,10 +18,20 @@ pub const extra_expanded = #("font-stretch", "extra-expanded")
 
 pub const ultra_expanded = #("font-stretch", "ultra-expanded")
 
+ pub const initial = #("font-stretch", "initial")
+
+ pub const inherit = #("font-stretch", "inherit")
+
+ pub const unset = #("font-stretch", "unset")
+
+ pub const revert = #("font-stretch", "revert")
+
+ pub const revert_layer = #("font-stretch", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("font_stretch", value)
+  #("font-stretch", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("font_stretch", "var(--" <> variable <> ")")
+  #("font-stretch", "var(--" <> variable <> ")")
 }

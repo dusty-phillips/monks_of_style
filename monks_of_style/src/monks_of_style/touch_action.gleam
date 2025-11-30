@@ -20,10 +20,20 @@ pub const pinch_zoom = #("touch-action", "pinch-zoom")
 
 pub const manipulation = #("touch-action", "manipulation")
 
+ pub const initial = #("touch-action", "initial")
+
+ pub const inherit = #("touch-action", "inherit")
+
+ pub const unset = #("touch-action", "unset")
+
+ pub const revert = #("touch-action", "revert")
+
+ pub const revert_layer = #("touch-action", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("touch_action", value)
+  #("touch-action", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("touch_action", "var(--" <> variable <> ")")
+  #("touch-action", "var(--" <> variable <> ")")
 }

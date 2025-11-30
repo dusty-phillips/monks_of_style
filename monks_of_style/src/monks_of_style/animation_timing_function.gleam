@@ -26,10 +26,20 @@ pub const start = #("animation-timing-function", "start")
 
 pub const end = #("animation-timing-function", "end")
 
+ pub const initial = #("animation-timing-function", "initial")
+
+ pub const inherit = #("animation-timing-function", "inherit")
+
+ pub const unset = #("animation-timing-function", "unset")
+
+ pub const revert = #("animation-timing-function", "revert")
+
+ pub const revert_layer = #("animation-timing-function", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("animation_timing_function", value)
+  #("animation-timing-function", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("animation_timing_function", "var(--" <> variable <> ")")
+  #("animation-timing-function", "var(--" <> variable <> ")")
 }

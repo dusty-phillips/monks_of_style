@@ -20,10 +20,20 @@ pub const inset = #("column-rule-style", "inset")
 
 pub const outset = #("column-rule-style", "outset")
 
+ pub const initial = #("column-rule-style", "initial")
+
+ pub const inherit = #("column-rule-style", "inherit")
+
+ pub const unset = #("column-rule-style", "unset")
+
+ pub const revert = #("column-rule-style", "revert")
+
+ pub const revert_layer = #("column-rule-style", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("column_rule_style", value)
+  #("column-rule-style", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("column_rule_style", "var(--" <> variable <> ")")
+  #("column-rule-style", "var(--" <> variable <> ")")
 }

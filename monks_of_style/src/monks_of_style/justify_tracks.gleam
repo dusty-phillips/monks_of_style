@@ -28,10 +28,20 @@ pub const left = #("justify-tracks", "left")
 
 pub const right = #("justify-tracks", "right")
 
+ pub const initial = #("justify-tracks", "initial")
+
+ pub const inherit = #("justify-tracks", "inherit")
+
+ pub const unset = #("justify-tracks", "unset")
+
+ pub const revert = #("justify-tracks", "revert")
+
+ pub const revert_layer = #("justify-tracks", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("justify_tracks", value)
+  #("justify-tracks", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("justify_tracks", "var(--" <> variable <> ")")
+  #("justify-tracks", "var(--" <> variable <> ")")
 }

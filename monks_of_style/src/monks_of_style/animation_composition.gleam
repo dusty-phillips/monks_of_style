@@ -6,10 +6,20 @@ pub const add = #("animation-composition", "add")
 
 pub const accumulate = #("animation-composition", "accumulate")
 
+ pub const initial = #("animation-composition", "initial")
+
+ pub const inherit = #("animation-composition", "inherit")
+
+ pub const unset = #("animation-composition", "unset")
+
+ pub const revert = #("animation-composition", "revert")
+
+ pub const revert_layer = #("animation-composition", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("animation_composition", value)
+  #("animation-composition", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("animation_composition", "var(--" <> variable <> ")")
+  #("animation-composition", "var(--" <> variable <> ")")
 }

@@ -22,10 +22,20 @@ pub const rl = #("writing-mode", "rl")
 
 pub const tb = #("writing-mode", "tb")
 
+ pub const initial = #("writing-mode", "initial")
+
+ pub const inherit = #("writing-mode", "inherit")
+
+ pub const unset = #("writing-mode", "unset")
+
+ pub const revert = #("writing-mode", "revert")
+
+ pub const revert_layer = #("writing-mode", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("writing_mode", value)
+  #("writing-mode", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("writing_mode", "var(--" <> variable <> ")")
+  #("writing-mode", "var(--" <> variable <> ")")
 }

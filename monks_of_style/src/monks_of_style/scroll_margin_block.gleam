@@ -1,9 +1,25 @@
+import monks_of_style.{length_to_string, type Length}
 
+
+
+ pub const initial = #("scroll-margin-block", "initial")
+
+ pub const inherit = #("scroll-margin-block", "inherit")
+
+ pub const unset = #("scroll-margin-block", "unset")
+
+ pub const revert = #("scroll-margin-block", "revert")
+
+ pub const revert_layer = #("scroll-margin-block", "revert_layer")
+
+pub fn length(value: Length) -> #(String, String) {
+  #("scroll-margin-block", length_to_string(value))
+}
 
 pub fn raw(value: String) -> #(String, String) {
-  #("scroll_margin_block", value)
+  #("scroll-margin-block", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("scroll_margin_block", "var(--" <> variable <> ")")
+  #("scroll-margin-block", "var(--" <> variable <> ")")
 }

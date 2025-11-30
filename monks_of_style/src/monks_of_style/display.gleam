@@ -78,6 +78,16 @@ pub const moz_box = #("display", "-moz-box")
 
 pub const moz_inline_box = #("display", "-moz-inline-box")
 
+ pub const initial = #("display", "initial")
+
+ pub const inherit = #("display", "inherit")
+
+ pub const unset = #("display", "unset")
+
+ pub const revert = #("display", "revert")
+
+ pub const revert_layer = #("display", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
   #("display", value)
 }

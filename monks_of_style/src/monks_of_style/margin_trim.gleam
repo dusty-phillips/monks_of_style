@@ -6,10 +6,20 @@ pub const in_flow = #("margin-trim", "in-flow")
 
 pub const all = #("margin-trim", "all")
 
+ pub const initial = #("margin-trim", "initial")
+
+ pub const inherit = #("margin-trim", "inherit")
+
+ pub const unset = #("margin-trim", "unset")
+
+ pub const revert = #("margin-trim", "revert")
+
+ pub const revert_layer = #("margin-trim", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("margin_trim", value)
+  #("margin-trim", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("margin_trim", "var(--" <> variable <> ")")
+  #("margin-trim", "var(--" <> variable <> ")")
 }

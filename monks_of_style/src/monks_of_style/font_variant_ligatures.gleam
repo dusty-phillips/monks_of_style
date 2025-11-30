@@ -20,10 +20,20 @@ pub const contextual = #("font-variant-ligatures", "contextual")
 
 pub const no_contextual = #("font-variant-ligatures", "no-contextual")
 
+ pub const initial = #("font-variant-ligatures", "initial")
+
+ pub const inherit = #("font-variant-ligatures", "inherit")
+
+ pub const unset = #("font-variant-ligatures", "unset")
+
+ pub const revert = #("font-variant-ligatures", "revert")
+
+ pub const revert_layer = #("font-variant-ligatures", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("font_variant_ligatures", value)
+  #("font-variant-ligatures", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("font_variant_ligatures", "var(--" <> variable <> ")")
+  #("font-variant-ligatures", "var(--" <> variable <> ")")
 }

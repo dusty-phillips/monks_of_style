@@ -11,12 +11,42 @@ fn properties_external() -> array.Array(String)
 @external(javascript, "./csstree_external.mjs", "property_keywords")
 fn properties_keywords_external(property: String) -> array.Array(String)
 
+@external(javascript, "./csstree_external.mjs", "does_property_accept_length")
+fn does_property_accept_length(property: String) -> Bool
+
 fn properties() -> List(String) {
   properties_external()
   |> array.to_list
   |> list.filter(fn(property) {
-    property != "-moz-force-broken-image-icon" && property != "--*"
+    !string.starts_with(property, "-")
+    && !string.starts_with(property, "voice")
+    && property != "all"
+    && property != "azimuth"
+    && property != "behavior"
+    && property != "clip"
+    && property != "cue"
+    && property != "cue-after"
+    && property != "cue-before"
+    && property != "glyph-orientation-horizontal"
+    && property != "glyph-orientation-vertical"
+    && property != "ime-mode"
+    && property != "kerning"
+    && property != "pause"
+    && property != "pause-after"
+    && property != "pause-before"
+    && property != "rest"
+    && property != "rest-after"
+    && property != "rest-before"
+    && property != "speak"
+    && property != "speak-as"
+    && property != "zoom"
   })
+}
+
+fn property_keywords(property: String) -> List(String) {
+  properties_keywords_external(property)
+  |> array.to_list
+  |> list.filter(fn(keyword) { keyword != "inherit" })
 }
 
 fn sanitize_keyword(keyword: String) -> String {
@@ -26,11 +56,14 @@ fn sanitize_keyword(keyword: String) -> String {
   }
 }
 
-fn property_keywords(property: String) -> List(String) {
-  properties_keywords_external(property) |> array.to_list
+fn build_imports(property: String) -> String {
+  case does_property_accept_length(property) {
+    True -> "import monks_of_style.{length_to_string, type Length}\n\n"
+    False -> ""
+  }
 }
 
-fn build_keyword_functions(property: String) -> String {
+fn build_keyword_consts(property: String) -> String {
   let keywords = property_keywords(property)
   keywords
   |> list.map(fn(keyword) {
@@ -45,21 +78,49 @@ fn build_keyword_functions(property: String) -> String {
   |> string.concat
 }
 
+fn build_global_consts(property: String) -> String {
+  "\n\n pub const initial = #(\""
+  <> property
+  <> "\", \"initial\")"
+  <> "\n\n pub const inherit = #(\""
+  <> property
+  <> "\", \"inherit\")"
+  <> "\n\n pub const unset = #(\""
+  <> property
+  <> "\", \"unset\")"
+  <> "\n\n pub const revert = #(\""
+  <> property
+  <> "\", \"revert\")"
+  <> "\n\n pub const revert_layer = #(\""
+  <> property
+  <> "\", \"revert_layer\")"
+}
+
+fn build_length_function(property: String) {
+  case does_property_accept_length(property) {
+    False -> ""
+    True ->
+      "\n\npub fn length(value: Length) -> #(String, String) {\n"
+      <> "  #(\""
+      <> property
+      <> "\", length_to_string(value))"
+      <> "\n}"
+  }
+}
+
 fn build_raw_function(property: String) -> String {
   "\n\npub fn raw(value: String) -> #(String, String) {\n"
   <> "  #(\""
-  <> justin.snake_case(property)
-  <> "\", value"
-  <> ")"
+  <> property
+  <> "\", value)"
   <> "\n}"
 }
 
 fn build_var_function(property: String) -> String {
   "\n\npub fn var(variable: String) -> #(String, String) {\n"
   <> "  #(\""
-  <> justin.snake_case(property)
-  <> "\", \"var(--\" <> variable <> \")\""
-  <> ")"
+  <> property
+  <> "\", \"var(--\" <> variable <> \")\")"
   <> "\n}"
 }
 
@@ -67,7 +128,10 @@ pub fn build_prop(property: String) -> String {
   let accumulator = ""
 
   accumulator
-  <> build_keyword_functions(property)
+  <> build_imports(property)
+  <> build_keyword_consts(property)
+  <> build_global_consts(property)
+  <> build_length_function(property)
   <> build_raw_function(property)
   <> build_var_function(property)
 }
@@ -79,7 +143,7 @@ pub fn write_prop_file(property: String) -> Result(Nil, simplifile.FileError) {
   simplifile.write(filename, contents)
 }
 
-pub fn main() -> Nil {
+pub fn write_all_props() {
   use property <- list.each(properties())
 
   case write_prop_file(property) {
@@ -92,4 +156,8 @@ pub fn main() -> Nil {
         <> simplifile.describe_error(error),
       )
   }
+}
+
+pub fn main() -> Nil {
+  write_all_props()
 }

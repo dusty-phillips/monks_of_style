@@ -10,10 +10,20 @@ pub const scroll = #("overflow-block", "scroll")
 
 pub const auto_ = #("overflow-block", "auto")
 
+ pub const initial = #("overflow-block", "initial")
+
+ pub const inherit = #("overflow-block", "inherit")
+
+ pub const unset = #("overflow-block", "unset")
+
+ pub const revert = #("overflow-block", "revert")
+
+ pub const revert_layer = #("overflow-block", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("overflow_block", value)
+  #("overflow-block", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("overflow_block", "var(--" <> variable <> ")")
+  #("overflow-block", "var(--" <> variable <> ")")
 }

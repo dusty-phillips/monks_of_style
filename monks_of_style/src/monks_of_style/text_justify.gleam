@@ -8,10 +8,20 @@ pub const inter_word = #("text-justify", "inter-word")
 
 pub const none = #("text-justify", "none")
 
+ pub const initial = #("text-justify", "initial")
+
+ pub const inherit = #("text-justify", "inherit")
+
+ pub const unset = #("text-justify", "unset")
+
+ pub const revert = #("text-justify", "revert")
+
+ pub const revert_layer = #("text-justify", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("text_justify", value)
+  #("text-justify", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("text_justify", "var(--" <> variable <> ")")
+  #("text-justify", "var(--" <> variable <> ")")
 }

@@ -28,10 +28,20 @@ pub const left = #("justify-content", "left")
 
 pub const right = #("justify-content", "right")
 
+ pub const initial = #("justify-content", "initial")
+
+ pub const inherit = #("justify-content", "inherit")
+
+ pub const unset = #("justify-content", "unset")
+
+ pub const revert = #("justify-content", "revert")
+
+ pub const revert_layer = #("justify-content", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("justify_content", value)
+  #("justify-content", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("justify_content", "var(--" <> variable <> ")")
+  #("justify-content", "var(--" <> variable <> ")")
 }

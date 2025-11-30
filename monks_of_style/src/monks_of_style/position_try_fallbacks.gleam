@@ -108,10 +108,20 @@ pub const span_self_start = #("position-try-fallbacks", "span-self-start")
 
 pub const span_self_end = #("position-try-fallbacks", "span-self-end")
 
+ pub const initial = #("position-try-fallbacks", "initial")
+
+ pub const inherit = #("position-try-fallbacks", "inherit")
+
+ pub const unset = #("position-try-fallbacks", "unset")
+
+ pub const revert = #("position-try-fallbacks", "revert")
+
+ pub const revert_layer = #("position-try-fallbacks", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("position_try_fallbacks", value)
+  #("position-try-fallbacks", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("position_try_fallbacks", "var(--" <> variable <> ")")
+  #("position-try-fallbacks", "var(--" <> variable <> ")")
 }

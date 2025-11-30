@@ -18,10 +18,20 @@ pub const ordinal = #("font-variant-numeric", "ordinal")
 
 pub const slashed_zero = #("font-variant-numeric", "slashed-zero")
 
+ pub const initial = #("font-variant-numeric", "initial")
+
+ pub const inherit = #("font-variant-numeric", "inherit")
+
+ pub const unset = #("font-variant-numeric", "unset")
+
+ pub const revert = #("font-variant-numeric", "revert")
+
+ pub const revert_layer = #("font-variant-numeric", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("font_variant_numeric", value)
+  #("font-variant-numeric", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("font_variant_numeric", "var(--" <> variable <> ")")
+  #("font-variant-numeric", "var(--" <> variable <> ")")
 }

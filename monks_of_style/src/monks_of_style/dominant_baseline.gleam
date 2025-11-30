@@ -24,10 +24,20 @@ pub const text_after_edge = #("dominant-baseline", "text-after-edge")
 
 pub const text_before_edge = #("dominant-baseline", "text-before-edge")
 
+ pub const initial = #("dominant-baseline", "initial")
+
+ pub const inherit = #("dominant-baseline", "inherit")
+
+ pub const unset = #("dominant-baseline", "unset")
+
+ pub const revert = #("dominant-baseline", "revert")
+
+ pub const revert_layer = #("dominant-baseline", "revert_layer")
+
 pub fn raw(value: String) -> #(String, String) {
-  #("dominant_baseline", value)
+  #("dominant-baseline", value)
 }
 
 pub fn var(variable: String) -> #(String, String) {
-  #("dominant_baseline", "var(--" <> variable <> ")")
+  #("dominant-baseline", "var(--" <> variable <> ")")
 }

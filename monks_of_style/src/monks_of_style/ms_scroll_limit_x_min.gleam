@@ -1,9 +1,0 @@
-
-
-pub fn raw(value: String) -> #(String, String) {
-  #("ms_scroll_limit_x_min", value)
-}
-
-pub fn var(variable: String) -> #(String, String) {
-  #("ms_scroll_limit_x_min", "var(--" <> variable <> ")")
-}
